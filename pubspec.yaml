@@ -1,5 +1,5 @@
 name: relative_time
-description: Formats time relative to now.
+description: Expresses a DateTime object relative to the current time in text form.
 version: 1.0.0
 repository: https://github.com/Mosc/relative_time
 issues: https://github.com/Mosc/relative_time/issues
