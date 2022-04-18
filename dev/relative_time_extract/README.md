@@ -1,4 +1,4 @@
-# Relative Time Extract
+# relative_time_extract
 
 A tool to extract relative time data from the Unicode CLDR and convert the relevant sections into Flutter's ARB format.
 

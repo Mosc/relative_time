@@ -1,4 +1,4 @@
-# Relative Time
+# relative_time
 
 A Flutter package to express a `DateTime` object relative to the current time in text form. For instance, it may transform `DateTime`s into *3 years ago*, or *in 42 minutes*, or *now*.
 
