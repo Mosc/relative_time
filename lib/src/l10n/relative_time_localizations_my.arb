@@ -1,0 +1,20 @@
+{
+  "@@locale": "my",
+  "yearsFuture": "{years, plural, other{{years} နှစ်အတွင်း}}",
+  "yearsPast": "{years, plural, other{ပြီးခဲ့သည့် {years} နှစ်}}",
+  "quartersFuture": "{quarters, plural, other{သုံးလပတ်ကာလ {quarters} အတွင်း}}",
+  "quartersPast": "{quarters, plural, other{ပြီးခဲ့သည့် သုံးလပတ်ကာလ {quarters} ခုအတွင်း}}",
+  "monthsFuture": "{months, plural, other{{months} လအတွင်း}}",
+  "monthsPast": "{months, plural, other{ပြီးခဲ့သည့် {months} လ}}",
+  "weeksFuture": "{weeks, plural, other{{weeks} ပတ်အတွင်း}}",
+  "weeksPast": "{weeks, plural, other{ပြီးခဲ့သည့် {weeks} ပတ်}}",
+  "daysFuture": "{days, plural, other{{days} ရက်အတွင်း}}",
+  "daysPast": "{days, plural, other{ပြီးခဲ့သည့် {days} ရက်}}",
+  "hoursFuture": "{hours, plural, other{{hours} နာရီအတွင်း}}",
+  "hoursPast": "{hours, plural, other{ပြီးခဲ့သည့် {hours} နာရီ}}",
+  "minutesFuture": "{minutes, plural, other{{minutes} မိနစ်အတွင်း}}",
+  "minutesPast": "{minutes, plural, other{ပြီးခဲ့သည့် {minutes} မိနစ်}}",
+  "secondsFuture": "{seconds, plural, other{{seconds} စက္ကန့်အတွင်း}}",
+  "secondsPast": "{seconds, plural, other{ပြီးခဲ့သည့် {seconds} စက္ကန့်}}",
+  "now": "ယခု"
+}

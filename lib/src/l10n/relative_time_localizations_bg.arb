@@ -1,0 +1,20 @@
+{
+  "@@locale": "bg",
+  "yearsFuture": "{years, plural, =1{след {years} година} other{след {years} години}}",
+  "yearsPast": "{years, plural, =1{преди {years} година} other{преди {years} години}}",
+  "quartersFuture": "{quarters, plural, =1{след {quarters} тримесечие} other{след {quarters} тримесечия}}",
+  "quartersPast": "{quarters, plural, =1{преди {quarters} тримесечие} other{преди {quarters} тримесечия}}",
+  "monthsFuture": "{months, plural, =1{след {months} месец} other{след {months} месеца}}",
+  "monthsPast": "{months, plural, =1{преди {months} месец} other{преди {months} месеца}}",
+  "weeksFuture": "{weeks, plural, =1{след {weeks} седмица} other{след {weeks} седмици}}",
+  "weeksPast": "{weeks, plural, =1{преди {weeks} седмица} other{преди {weeks} седмици}}",
+  "daysFuture": "{days, plural, =1{след {days} ден} other{след {days} дни}}",
+  "daysPast": "{days, plural, =1{преди {days} ден} other{преди {days} дни}}",
+  "hoursFuture": "{hours, plural, =1{след {hours} час} other{след {hours} часа}}",
+  "hoursPast": "{hours, plural, =1{преди {hours} час} other{преди {hours} часа}}",
+  "minutesFuture": "{minutes, plural, =1{след {minutes} минута} other{след {minutes} минути}}",
+  "minutesPast": "{minutes, plural, =1{преди {minutes} минута} other{преди {minutes} минути}}",
+  "secondsFuture": "{seconds, plural, =1{след {seconds} секунда} other{след {seconds} секунди}}",
+  "secondsPast": "{seconds, plural, =1{преди {seconds} секунда} other{преди {seconds} секунди}}",
+  "now": "сега"
+}

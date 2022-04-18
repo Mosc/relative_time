@@ -1,0 +1,20 @@
+{
+  "@@locale": "to",
+  "yearsFuture": "{years, plural, other{ʻi he taʻu ʻe {years}}}",
+  "yearsPast": "{years, plural, other{taʻu ʻe {years} kuoʻosi}}",
+  "quartersFuture": "{quarters, plural, other{ʻi he kuata ʻe {quarters}}}",
+  "quartersPast": "{quarters, plural, other{kuata ʻe {quarters} kuoʻosi}}",
+  "monthsFuture": "{months, plural, other{ʻi he māhina ʻe {months}}}",
+  "monthsPast": "{months, plural, other{māhina ʻe {months} kuoʻosi}}",
+  "weeksFuture": "{weeks, plural, other{ʻi he uike ʻe {weeks}}}",
+  "weeksPast": "{weeks, plural, other{uike ʻe {weeks} kuoʻosi}}",
+  "daysFuture": "{days, plural, other{ʻi he ʻaho ʻe {days}}}",
+  "daysPast": "{days, plural, other{ʻaho ʻe {days} kuoʻosi}}",
+  "hoursFuture": "{hours, plural, other{ʻi he houa ʻe {hours}}}",
+  "hoursPast": "{hours, plural, other{houa ʻe {hours} kuoʻosi}}",
+  "minutesFuture": "{minutes, plural, other{ʻi he miniti ʻe {minutes}}}",
+  "minutesPast": "{minutes, plural, other{miniti ʻe {minutes} kuoʻosi}}",
+  "secondsFuture": "{seconds, plural, other{ʻi he sekoni ʻe {seconds}}}",
+  "secondsPast": "{seconds, plural, other{sekoni ʻe {seconds} kuoʻosi}}",
+  "now": "taimí ni"
+}

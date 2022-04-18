@@ -1,0 +1,10 @@
+{
+  "@@locale": "ur_IN",
+  "yearsFuture": "{years, plural, =1{{years} سال میں} other{{years} سالوں میں}}",
+  "monthsFuture": "{months, plural, =1{{months} ماہ میں} other{{months} ماہ میں}}",
+  "monthsPast": "{months, plural, =1{{months} ماہ قبل} other{{months} ماہ قبل}}",
+  "weeksFuture": "{weeks, plural, =1{{weeks} ہفتہ میں} other{{weeks} ہفتوں میں}}",
+  "weeksPast": "{weeks, plural, =1{{weeks} ہفتہ قبل} other{{weeks} ہفتے قبل}}",
+  "minutesPast": "{minutes, plural, =1{{minutes} منٹ قبل} other{{minutes} منٹ قبل}}",
+  "secondsPast": "{seconds, plural, =1{{seconds} سیکنڈ قبل} other{{seconds} سیکنڈ قبل}}"
+}

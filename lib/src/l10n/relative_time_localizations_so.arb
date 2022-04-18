@@ -1,0 +1,20 @@
+{
+  "@@locale": "so",
+  "yearsFuture": "{years, plural, =1{{years} sannad} other{{years} sannadood}}",
+  "yearsPast": "{years, plural, =1{{years} sannad kahor} other{{years} sannadood kahor}}",
+  "quartersFuture": "{quarters, plural, =1{{quarters} rubuc} other{{quarters} rubuc}}",
+  "quartersPast": "{quarters, plural, =1{{quarters} rubuc kahor} other{{quarters} rubuc kahor}}",
+  "monthsFuture": "{months, plural, =1{{months} bil} other{{months} bilood}}",
+  "monthsPast": "{months, plural, =1{{months} bil kahor} other{{months} bilood kahor}}",
+  "weeksFuture": "{weeks, plural, =1{{weeks} toddobaad} other{{weeks} toddobaad}}",
+  "weeksPast": "{weeks, plural, =1{{weeks} toddobaad kahor} other{{weeks} toddobaad kahor}}",
+  "daysFuture": "{days, plural, =1{{days} maalin} other{{days} maalmood}}",
+  "daysPast": "{days, plural, =1{{days} maalin kahor} other{{days} maalmood kahor}}",
+  "hoursFuture": "{hours, plural, =1{{hours} saacad} other{{hours} saacadood}}",
+  "hoursPast": "{hours, plural, =1{{hours} saacad kahor} other{{hours} saacadood kahor}}",
+  "minutesFuture": "{minutes, plural, =1{{minutes} daqiiqad} other{{minutes} daqiidadood}}",
+  "minutesPast": "{minutes, plural, =1{{minutes} daqiiqad kahor} other{{minutes} daqiiqadood kahor}}",
+  "secondsFuture": "{seconds, plural, =1{{seconds} ilbiriqsi} other{{seconds} ilbiriqsi}}",
+  "secondsPast": "{seconds, plural, =1{{seconds} ilbiriqsi kahor} other{{seconds} ilbiriqsi kahor}}",
+  "now": "Imika"
+}

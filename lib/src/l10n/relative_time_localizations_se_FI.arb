@@ -1,0 +1,20 @@
+{
+  "@@locale": "se_FI",
+  "yearsFuture": "{years, plural, =1{{years} jagi siste} =2{{years} jagi siste} other{{years} jagi siste}}",
+  "yearsPast": "{years, plural, =1{diibmá} =2{ovddet jagi} other{{years} jagi dás ovdal}}",
+  "quartersFuture": "{quarters, plural, =1{čuovvovaš {quarters} njealjádasjagi} =2{čuovvovaš {quarters} njealjádasjagi} other{čuovvovaš {quarters} njealjádasjagi}}",
+  "quartersPast": "{quarters, plural, =1{-{quarters} njealjádasjagi dás ovdal} =2{-{quarters} njealjádasjagi dás ovdal} other{-{quarters} njealjádasjagi dás ovdal}}",
+  "monthsFuture": "{months, plural, =1{{months} mánu siste} =2{{months} mánu siste} other{{months} mánu siste}}",
+  "monthsPast": "{months, plural, =1{{months} mánnu dás ovdal} =2{{months} mánu dás ovdal} other{{months} mánu dás ovdal}}",
+  "weeksFuture": "{weeks, plural, =1{{weeks} vahku geahčen} =2{{weeks} vahku geahčen} other{{weeks} vahku geahčen}}",
+  "weeksPast": "{weeks, plural, =1{{weeks} vahkku dás ovdal} =2{{weeks} vahku dás ovdal} other{{weeks} vahku dás ovdal}}",
+  "daysFuture": "{days, plural, =1{{days} beaivve siste} =2{{days} beaivve siste} other{{days} beaivve siste}}",
+  "daysPast": "{days, plural, =1{ikte} =2{ovddet beaivve} other{{days} beaivve dás ovdal}}",
+  "hoursFuture": "{hours, plural, =1{{hours} diimmu siste} =2{{hours} diimmu siste} other{{hours} diimmu siste}}",
+  "hoursPast": "{hours, plural, =1{{hours} diibmu áigi} =2{{hours} diimmu áigi} other{{hours} diimmu áigi}}",
+  "minutesFuture": "{minutes, plural, =1{{minutes} minuhta siste} =2{{minutes} minuhta siste} other{{minutes} minuhta siste}}",
+  "minutesPast": "{minutes, plural, =1{{minutes} minuhtta áigi} =2{{minutes} minuhta áigi} other{{minutes} minuhta áigi}}",
+  "secondsFuture": "{seconds, plural, =1{{seconds} sekundda siste} =2{{seconds} sekundda siste} other{{seconds} sekundda siste}}",
+  "secondsPast": "{seconds, plural, =1{{seconds} sekunda áigi} =2{{seconds} sekundda áigi} other{{seconds} sekundda áigi}}",
+  "now": "dál"
+}

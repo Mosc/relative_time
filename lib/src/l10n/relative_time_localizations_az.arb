@@ -1,0 +1,20 @@
+{
+  "@@locale": "az",
+  "yearsFuture": "{years, plural, =1{{years} il ərzində} other{{years} il ərzində}}",
+  "yearsPast": "{years, plural, =1{{years} il öncə} other{{years} il öncə}}",
+  "quartersFuture": "{quarters, plural, =1{{quarters} rüb ərzində} other{{quarters} rüb ərzində}}",
+  "quartersPast": "{quarters, plural, =1{{quarters} rüb öncə} other{{quarters} rüb öncə}}",
+  "monthsFuture": "{months, plural, =1{{months} ay ərzində} other{{months} ay ərzində}}",
+  "monthsPast": "{months, plural, =1{{months} ay öncə} other{{months} ay öncə}}",
+  "weeksFuture": "{weeks, plural, =1{{weeks} həftə ərzində} other{{weeks} həftə ərzində}}",
+  "weeksPast": "{weeks, plural, =1{{weeks} həftə öncə} other{{weeks} həftə öncə}}",
+  "daysFuture": "{days, plural, =1{{days} gün ərzində} other{{days} gün ərzində}}",
+  "daysPast": "{days, plural, =1{{days} gün öncə} other{{days} gün öncə}}",
+  "hoursFuture": "{hours, plural, =1{{hours} saat ərzində} other{{hours} saat ərzində}}",
+  "hoursPast": "{hours, plural, =1{{hours} saat öncə} other{{hours} saat öncə}}",
+  "minutesFuture": "{minutes, plural, =1{{minutes} dəqiqə ərzində} other{{minutes} dəqiqə ərzində}}",
+  "minutesPast": "{minutes, plural, =1{{minutes} dəqiqə öncə} other{{minutes} dəqiqə öncə}}",
+  "secondsFuture": "{seconds, plural, =1{{seconds} saniyə ərzində} other{{seconds} saniyə ərzində}}",
+  "secondsPast": "{seconds, plural, =1{{seconds} saniyə öncə} other{{seconds} saniyə öncə}}",
+  "now": "indi"
+}

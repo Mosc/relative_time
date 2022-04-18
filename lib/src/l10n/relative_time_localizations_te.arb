@@ -1,0 +1,20 @@
+{
+  "@@locale": "te",
+  "yearsFuture": "{years, plural, =1{{years} సంవత్సరంలో} other{{years} సంవత్సరాల్లో}}",
+  "yearsPast": "{years, plural, =1{{years} సంవత్సరం క్రితం} other{{years} సంవత్సరాల క్రితం}}",
+  "quartersFuture": "{quarters, plural, =1{{quarters} త్రైమాసికంలో} other{{quarters} త్రైమాసికాల్లో}}",
+  "quartersPast": "{quarters, plural, =1{{quarters} త్రైమాసికం క్రితం} other{{quarters} త్రైమాసికాల క్రితం}}",
+  "monthsFuture": "{months, plural, =1{{months} నెలలో} other{{months} నెలల్లో}}",
+  "monthsPast": "{months, plural, =1{{months} నెల క్రితం} other{{months} నెలల క్రితం}}",
+  "weeksFuture": "{weeks, plural, =1{{weeks} వారంలో} other{{weeks} వారాల్లో}}",
+  "weeksPast": "{weeks, plural, =1{{weeks} వారం క్రితం} other{{weeks} వారాల క్రితం}}",
+  "daysFuture": "{days, plural, =1{{days} రోజులో} other{{days} రోజుల్లో}}",
+  "daysPast": "{days, plural, =1{{days} రోజు క్రితం} other{{days} రోజుల క్రితం}}",
+  "hoursFuture": "{hours, plural, =1{{hours} గంటలో} other{{hours} గంటల్లో}}",
+  "hoursPast": "{hours, plural, =1{{hours} గంట క్రితం} other{{hours} గంటల క్రితం}}",
+  "minutesFuture": "{minutes, plural, =1{{minutes} నిమిషంలో} other{{minutes} నిమిషాల్లో}}",
+  "minutesPast": "{minutes, plural, =1{{minutes} నిమిషం క్రితం} other{{minutes} నిమిషాల క్రితం}}",
+  "secondsFuture": "{seconds, plural, =1{{seconds} సెకనులో} other{{seconds} సెకన్లలో}}",
+  "secondsPast": "{seconds, plural, =1{{seconds} సెకను క్రితం} other{{seconds} సెకన్ల క్రితం}}",
+  "now": "ప్రస్తుతం"
+}

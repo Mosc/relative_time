@@ -1,0 +1,20 @@
+{
+  "@@locale": "qu",
+  "yearsFuture": "{years, plural, other{+{years} y}}",
+  "yearsPast": "{years, plural, other{-{years} y}}",
+  "quartersFuture": "{quarters, plural, other{+{quarters} Q}}",
+  "quartersPast": "{quarters, plural, other{-{quarters} Q}}",
+  "monthsFuture": "{months, plural, other{+{months} m}}",
+  "monthsPast": "{months, plural, other{-{months} m}}",
+  "weeksFuture": "{weeks, plural, other{+{weeks} w}}",
+  "weeksPast": "{weeks, plural, other{-{weeks} w}}",
+  "daysFuture": "{days, plural, other{+{days} d}}",
+  "daysPast": "{days, plural, other{-{days} d}}",
+  "hoursFuture": "{hours, plural, other{+{hours} h}}",
+  "hoursPast": "{hours, plural, other{-{hours} h}}",
+  "minutesFuture": "{minutes, plural, other{+{minutes} min}}",
+  "minutesPast": "{minutes, plural, other{-{minutes} min}}",
+  "secondsFuture": "{seconds, plural, other{+{seconds} s}}",
+  "secondsPast": "{seconds, plural, other{-{seconds} s}}",
+  "now": "now"
+}

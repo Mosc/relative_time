@@ -1,0 +1,24 @@
+name: relative_time
+description: Formats time relative to now.
+version: 1.0.0
+repository: https://github.com/Mosc/relative_time
+issues: https://github.com/Mosc/relative_time/issues
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  clock: ^1.1.0
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_lints: ^1.0.4
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  generate: true

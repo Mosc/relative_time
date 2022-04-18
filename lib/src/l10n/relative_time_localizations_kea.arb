@@ -1,0 +1,20 @@
+{
+  "@@locale": "kea",
+  "yearsFuture": "{years, plural, other{di li {years} anu}}",
+  "yearsPast": "{years, plural, other{a ten {years} anu}}",
+  "quartersFuture": "{quarters, plural, other{di li {quarters} trimestri}}",
+  "quartersPast": "{quarters, plural, other{a ten {quarters} trimestri}}",
+  "monthsFuture": "{months, plural, other{di li {months} mes}}",
+  "monthsPast": "{months, plural, other{a ten {months} mes}}",
+  "weeksFuture": "{weeks, plural, other{di li {weeks} simana}}",
+  "weeksPast": "{weeks, plural, other{a ten {weeks} simana}}",
+  "daysFuture": "{days, plural, other{di li {days} dia}}",
+  "daysPast": "{days, plural, other{a ten {days} dia}}",
+  "hoursFuture": "{hours, plural, other{di li {hours} ora}}",
+  "hoursPast": "{hours, plural, other{a ten {hours} ora}}",
+  "minutesFuture": "{minutes, plural, other{di li {minutes} minutu}}",
+  "minutesPast": "{minutes, plural, other{a ten {minutes} minutu}}",
+  "secondsFuture": "{seconds, plural, other{di li {seconds} sigundu}}",
+  "secondsPast": "{seconds, plural, other{a ten {seconds} sigundu}}",
+  "now": "agora"
+}

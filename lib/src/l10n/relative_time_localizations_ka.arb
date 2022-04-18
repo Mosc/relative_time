@@ -1,0 +1,20 @@
+{
+  "@@locale": "ka",
+  "yearsFuture": "{years, plural, =1{{years} წელიწადში} other{{years} წელიწადში}}",
+  "yearsPast": "{years, plural, =1{{years} წლის წინ} other{{years} წლის წინ}}",
+  "quartersFuture": "{quarters, plural, =1{{quarters} კვარტალში} other{{quarters} კვარტალში}}",
+  "quartersPast": "{quarters, plural, =1{{quarters} კვარტალის წინ} other{{quarters} კვარტალის წინ}}",
+  "monthsFuture": "{months, plural, =1{{months} თვეში} other{{months} თვეში}}",
+  "monthsPast": "{months, plural, =1{{months} თვის წინ} other{{months} თვის წინ}}",
+  "weeksFuture": "{weeks, plural, =1{{weeks} კვირაში} other{{weeks} კვირაში}}",
+  "weeksPast": "{weeks, plural, =1{{weeks} კვირის წინ} other{{weeks} კვირის წინ}}",
+  "daysFuture": "{days, plural, =1{{days} დღეში} other{{days} დღეში}}",
+  "daysPast": "{days, plural, =1{{days} დღის წინ} other{{days} დღის წინ}}",
+  "hoursFuture": "{hours, plural, =1{{hours} საათში} other{{hours} საათში}}",
+  "hoursPast": "{hours, plural, =1{{hours} საათის წინ} other{{hours} საათის წინ}}",
+  "minutesFuture": "{minutes, plural, =1{{minutes} წუთში} other{{minutes} წუთში}}",
+  "minutesPast": "{minutes, plural, =1{{minutes} წუთის წინ} other{{minutes} წუთის წინ}}",
+  "secondsFuture": "{seconds, plural, =1{{seconds} წამში} other{{seconds} წამში}}",
+  "secondsPast": "{seconds, plural, =1{{seconds} წამის წინ} other{{seconds} წამის წინ}}",
+  "now": "ახლა"
+}

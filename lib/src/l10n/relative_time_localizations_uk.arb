@@ -1,0 +1,20 @@
+{
+  "@@locale": "uk",
+  "yearsFuture": "{years, plural, =1{через {years} рік} few{через {years} роки} many{через {years} років} other{через {years} року}}",
+  "yearsPast": "{years, plural, =1{{years} рік тому} few{{years} роки тому} many{{years} років тому} other{{years} року тому}}",
+  "quartersFuture": "{quarters, plural, =1{через {quarters} квартал} few{через {quarters} квартали} many{через {quarters} кварталів} other{через {quarters} кварталу}}",
+  "quartersPast": "{quarters, plural, =1{{quarters} квартал тому} few{{quarters} квартали тому} many{{quarters} кварталів тому} other{{quarters} кварталу тому}}",
+  "monthsFuture": "{months, plural, =1{через {months} місяць} few{через {months} місяці} many{через {months} місяців} other{через {months} місяця}}",
+  "monthsPast": "{months, plural, =1{{months} місяць тому} few{{months} місяці тому} many{{months} місяців тому} other{{months} місяця тому}}",
+  "weeksFuture": "{weeks, plural, =1{через {weeks} тиждень} few{через {weeks} тижні} many{через {weeks} тижнів} other{через {weeks} тижня}}",
+  "weeksPast": "{weeks, plural, =1{{weeks} тиждень тому} few{{weeks} тижні тому} many{{weeks} тижнів тому} other{{weeks} тижня тому}}",
+  "daysFuture": "{days, plural, =1{через {days} день} few{через {days} дні} many{через {days} днів} other{через {days} дня}}",
+  "daysPast": "{days, plural, =1{{days} день тому} few{{days} дні тому} many{{days} днів тому} other{{days} дня тому}}",
+  "hoursFuture": "{hours, plural, =1{через {hours} годину} few{через {hours} години} many{через {hours} годин} other{через {hours} години}}",
+  "hoursPast": "{hours, plural, =1{{hours} годину тому} few{{hours} години тому} many{{hours} годин тому} other{{hours} години тому}}",
+  "minutesFuture": "{minutes, plural, =1{через {minutes} хвилину} few{через {minutes} хвилини} many{через {minutes} хвилин} other{через {minutes} хвилини}}",
+  "minutesPast": "{minutes, plural, =1{{minutes} хвилину тому} few{{minutes} хвилини тому} many{{minutes} хвилин тому} other{{minutes} хвилини тому}}",
+  "secondsFuture": "{seconds, plural, =1{через {seconds} секунду} few{через {seconds} секунди} many{через {seconds} секунд} other{через {seconds} секунди}}",
+  "secondsPast": "{seconds, plural, =1{{seconds} секунду тому} few{{seconds} секунди тому} many{{seconds} секунд тому} other{{seconds} секунди тому}}",
+  "now": "зараз"
+}

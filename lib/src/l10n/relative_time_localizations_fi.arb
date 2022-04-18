@@ -1,0 +1,20 @@
+{
+  "@@locale": "fi",
+  "yearsFuture": "{years, plural, =1{{years} vuoden päästä} other{{years} vuoden päästä}}",
+  "yearsPast": "{years, plural, =1{{years} vuosi sitten} other{{years} vuotta sitten}}",
+  "quartersFuture": "{quarters, plural, =1{{quarters} neljännesvuoden päästä} other{{quarters} neljännesvuoden päästä}}",
+  "quartersPast": "{quarters, plural, =1{{quarters} neljännesvuosi sitten} other{{quarters} neljännesvuotta sitten}}",
+  "monthsFuture": "{months, plural, =1{{months} kuukauden päästä} other{{months} kuukauden päästä}}",
+  "monthsPast": "{months, plural, =1{{months} kuukausi sitten} other{{months} kuukautta sitten}}",
+  "weeksFuture": "{weeks, plural, =1{{weeks} viikon päästä} other{{weeks} viikon päästä}}",
+  "weeksPast": "{weeks, plural, =1{{weeks} viikko sitten} other{{weeks} viikkoa sitten}}",
+  "daysFuture": "{days, plural, =1{{days} päivän päästä} other{{days} päivän päästä}}",
+  "daysPast": "{days, plural, =1{{days} päivä sitten} other{{days} päivää sitten}}",
+  "hoursFuture": "{hours, plural, =1{{hours} tunnin päästä} other{{hours} tunnin päästä}}",
+  "hoursPast": "{hours, plural, =1{{hours} tunti sitten} other{{hours} tuntia sitten}}",
+  "minutesFuture": "{minutes, plural, =1{{minutes} minuutin päästä} other{{minutes} minuutin päästä}}",
+  "minutesPast": "{minutes, plural, =1{{minutes} minuutti sitten} other{{minutes} minuuttia sitten}}",
+  "secondsFuture": "{seconds, plural, =1{{seconds} sekunnin päästä} other{{seconds} sekunnin päästä}}",
+  "secondsPast": "{seconds, plural, =1{{seconds} sekunti sitten} other{{seconds} sekuntia sitten}}",
+  "now": "nyt"
+}

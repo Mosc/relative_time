@@ -1,0 +1,20 @@
+{
+  "@@locale": "vi",
+  "yearsFuture": "{years, plural, other{sau {years} năm nữa}}",
+  "yearsPast": "{years, plural, other{{years} năm trước}}",
+  "quartersFuture": "{quarters, plural, other{sau {quarters} quý nữa}}",
+  "quartersPast": "{quarters, plural, other{{quarters} quý trước}}",
+  "monthsFuture": "{months, plural, other{sau {months} tháng nữa}}",
+  "monthsPast": "{months, plural, other{{months} tháng trước}}",
+  "weeksFuture": "{weeks, plural, other{sau {weeks} tuần nữa}}",
+  "weeksPast": "{weeks, plural, other{{weeks} tuần trước}}",
+  "daysFuture": "{days, plural, other{sau {days} ngày nữa}}",
+  "daysPast": "{days, plural, other{{days} ngày trước}}",
+  "hoursFuture": "{hours, plural, other{sau {hours} giờ nữa}}",
+  "hoursPast": "{hours, plural, other{{hours} giờ trước}}",
+  "minutesFuture": "{minutes, plural, other{sau {minutes} phút nữa}}",
+  "minutesPast": "{minutes, plural, other{{minutes} phút trước}}",
+  "secondsFuture": "{seconds, plural, other{sau {seconds} giây nữa}}",
+  "secondsPast": "{seconds, plural, other{{seconds} giây trước}}",
+  "now": "bây giờ"
+}

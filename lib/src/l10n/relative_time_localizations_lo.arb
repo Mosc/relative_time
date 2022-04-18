@@ -1,0 +1,20 @@
+{
+  "@@locale": "lo",
+  "yearsFuture": "{years, plural, other{ໃນອີກ {years} ປີ}}",
+  "yearsPast": "{years, plural, other{{years} ປີກ່ອນ}}",
+  "quartersFuture": "{quarters, plural, other{ໃນອີກ {quarters} ໄຕຣມາດ}}",
+  "quartersPast": "{quarters, plural, other{{quarters} ໄຕຣມາດກ່ອນ}}",
+  "monthsFuture": "{months, plural, other{ໃນອີກ {months} ເດືອນ}}",
+  "monthsPast": "{months, plural, other{{months} ເດືອນກ່ອນ}}",
+  "weeksFuture": "{weeks, plural, other{ໃນອີກ {weeks} ອາທິດ}}",
+  "weeksPast": "{weeks, plural, other{{weeks} ອາທິດກ່ອນ}}",
+  "daysFuture": "{days, plural, other{ໃນອີກ {days} ມື້}}",
+  "daysPast": "{days, plural, other{{days} ມື້ກ່ອນ}}",
+  "hoursFuture": "{hours, plural, other{ໃນອີກ {hours} ຊົ່ວໂມງ}}",
+  "hoursPast": "{hours, plural, other{{hours} ຊົ່ວໂມງກ່ອນ}}",
+  "minutesFuture": "{minutes, plural, other{ໃນອີກ {minutes} ນາທີ}}",
+  "minutesPast": "{minutes, plural, other{{minutes} ນາທີກ່ອນ}}",
+  "secondsFuture": "{seconds, plural, other{ໃນອີກ {seconds} ວິນາທີ}}",
+  "secondsPast": "{seconds, plural, other{{seconds} ວິນາທີກ່ອນ}}",
+  "now": "ຕອນນີ້"
+}

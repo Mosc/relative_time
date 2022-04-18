@@ -1,0 +1,20 @@
+{
+  "@@locale": "jv",
+  "yearsFuture": "{years, plural, other{ing {years} taun}}",
+  "yearsPast": "{years, plural, other{{years} taun kepungkur}}",
+  "quartersFuture": "{quarters, plural, other{ing {quarters} triwulan}}",
+  "quartersPast": "{quarters, plural, other{{quarters} triwulan kepungkur}}",
+  "monthsFuture": "{months, plural, other{ing {months} sasi}}",
+  "monthsPast": "{months, plural, other{{months} sasi kepungkur}}",
+  "weeksFuture": "{weeks, plural, other{ing {weeks} pekan}}",
+  "weeksPast": "{weeks, plural, other{{weeks} pekan kepungkur}}",
+  "daysFuture": "{days, plural, other{ing {days} dina}}",
+  "daysPast": "{days, plural, other{{days} dina kepungkur}}",
+  "hoursFuture": "{hours, plural, other{ing {hours} jam}}",
+  "hoursPast": "{hours, plural, other{{hours} jam kepungkur}}",
+  "minutesFuture": "{minutes, plural, other{ing {minutes} menit}}",
+  "minutesPast": "{minutes, plural, other{{minutes} menit kepungkur}}",
+  "secondsFuture": "{seconds, plural, other{ing {seconds} detik}}",
+  "secondsPast": "{seconds, plural, other{{seconds} detik kepungkur}}",
+  "now": "saiki"
+}

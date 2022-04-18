@@ -1,0 +1,20 @@
+{
+  "@@locale": "ccp",
+  "yearsFuture": "{years, plural, =1{{years} 𑄝𑄧𑄏𑄧𑄢𑄬} other{{years} 𑄝𑄧𑄏𑄧𑄢𑄬}}",
+  "yearsPast": "{years, plural, =1{{years} 𑄝𑄧𑄏𑄧𑄢𑄴 𑄃𑄉𑄬} other{{years} 𑄝𑄧𑄏𑄧𑄢𑄴 𑄃𑄉𑄬}}",
+  "quartersFuture": "{quarters, plural, =1{{quarters} 𑄖𑄨𑄚𑄴𑄟𑄏𑄬} other{{quarters} 𑄖𑄨𑄚𑄟𑄏𑄬}}",
+  "quartersPast": "{quarters, plural, =1{{quarters} 𑄖𑄨𑄚𑄴𑄟𑄏𑄧𑄢𑄴 𑄃𑄉𑄬} other{{quarters} 𑄖𑄨𑄚𑄴𑄟𑄏𑄧𑄢𑄴 𑄃𑄉𑄬}}",
+  "monthsFuture": "{months, plural, =1{{months} 𑄟𑄏𑄬} other{{months} 𑄟𑄏𑄬}}",
+  "monthsPast": "{months, plural, =1{{months} 𑄟𑄏𑄧 𑄃𑄉𑄬} other{{months} 𑄟𑄏𑄧 𑄃𑄉𑄬}}",
+  "weeksFuture": "{weeks, plural, =1{{weeks} 𑄥𑄛𑄴𑄖𑄠𑄴} other{{weeks} 𑄥𑄛𑄴𑄖𑄠𑄴}}",
+  "weeksPast": "{weeks, plural, =1{{weeks} 𑄥𑄛𑄴𑄖 𑄃𑄉𑄬} other{{weeks} 𑄥𑄛𑄴𑄖 𑄃𑄉𑄬}}",
+  "daysFuture": "{days, plural, =1{{days} 𑄘𑄨𑄚𑄮 𑄟𑄧𑄖𑄴𑄙𑄳𑄠} other{{days} 𑄘𑄨𑄚𑄮 𑄟𑄧𑄖𑄴𑄙𑄳𑄠}}",
+  "daysPast": "{days, plural, =1{{days} 𑄘𑄨𑄚𑄴 𑄃𑄉𑄬} other{{days} 𑄘𑄨𑄚𑄴 𑄃𑄉𑄬}}",
+  "hoursFuture": "{hours, plural, =1{{hours} 𑄊𑄮𑄚𑄴𑄓𑄠𑄴} other{{hours} 𑄊𑄮𑄚𑄴𑄓𑄠𑄴}}",
+  "hoursPast": "{hours, plural, =1{{hours} 𑄊𑄮𑄚𑄴𑄓 𑄃𑄉𑄬} other{{hours} 𑄊𑄮𑄚𑄴𑄓 𑄃𑄉𑄬}}",
+  "minutesFuture": "{minutes, plural, =1{{minutes} 𑄟𑄨𑄚𑄨𑄘𑄬} other{{minutes} 𑄟𑄨𑄚𑄨𑄘𑄬}}",
+  "minutesPast": "{minutes, plural, =1{{minutes} 𑄟𑄨𑄚𑄨𑄖𑄴 𑄃𑄉𑄬} other{{minutes} 𑄟𑄨𑄚𑄨𑄖𑄴 𑄃𑄉𑄬}}",
+  "secondsFuture": "{seconds, plural, =1{{seconds} 𑄥𑄬𑄉𑄬𑄚𑄴𑄘𑄬} other{{seconds} 𑄥𑄬𑄉𑄬𑄚𑄴𑄘𑄬}}",
+  "secondsPast": "{seconds, plural, =1{{seconds} 𑄥𑄬𑄉𑄬𑄚𑄴 𑄃𑄉𑄬} other{{seconds} 𑄥𑄬𑄉𑄬𑄚𑄴 𑄃𑄉𑄬}}",
+  "now": "𑄃𑄨𑄇𑄴𑄅𑄚𑄪"
+}

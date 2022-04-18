@@ -1,0 +1,20 @@
+{
+  "@@locale": "ce",
+  "yearsFuture": "{years, plural, =1{{years} шо даьлча} other{{years} шо даьлча}}",
+  "yearsPast": "{years, plural, =1{{years} шо хьалха} other{{years} шо хьалха}}",
+  "quartersFuture": "{quarters, plural, =1{{quarters} квартал яьлча} other{{quarters} квартал яьлча}}",
+  "quartersPast": "{quarters, plural, =1{{quarters} квартал хьалха} other{{quarters} квартал хьалха}}",
+  "monthsFuture": "{months, plural, =1{{months} бутт баьлча} other{{months} бутт баьлча}}",
+  "monthsPast": "{months, plural, =1{{months} бутт хьалха} other{{months} бутт хьалха}}",
+  "weeksFuture": "{weeks, plural, =1{{weeks} кӀира даьлча} other{{weeks} кӀира даьлча}}",
+  "weeksPast": "{weeks, plural, =1{{weeks} кӀира хьалха} other{{weeks} кӀира хьалха}}",
+  "daysFuture": "{days, plural, =1{{days} де даьлча} other{{days} де даьлча}}",
+  "daysPast": "{days, plural, =1{{days} де хьалха} other{{days} де хьалха}}",
+  "hoursFuture": "{hours, plural, =1{{hours} сахьт даьлча} other{{hours} сахьт даьлча}}",
+  "hoursPast": "{hours, plural, =1{{hours} сахьт хьалха} other{{hours} сахьт хьалха}}",
+  "minutesFuture": "{minutes, plural, =1{{minutes} минот яьлча} other{{minutes} минот яьлча}}",
+  "minutesPast": "{minutes, plural, =1{{minutes} минот хьалха} other{{minutes} минот хьалха}}",
+  "secondsFuture": "{seconds, plural, =1{{seconds} секунд яьлча} other{{seconds} секунд яьлча}}",
+  "secondsPast": "{seconds, plural, =1{{seconds} секунд хьалха} other{{seconds} секунд хьалха}}",
+  "now": "хӀинца"
+}

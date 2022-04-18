@@ -1,0 +1,18 @@
+{
+  "@@locale": "uz_Cyrl",
+  "yearsFuture": "{years, plural, =1{{years} йилдан сўнг} other{{years} йилдан сўнг}}",
+  "yearsPast": "{years, plural, =1{{years} йил аввал} other{{years} йил аввал}}",
+  "monthsFuture": "{months, plural, =1{{months} ойдан сўнг} other{{months} ойдан сўнг}}",
+  "monthsPast": "{months, plural, =1{{months} ой аввал} other{{months} ой аввал}}",
+  "weeksFuture": "{weeks, plural, =1{{weeks} ҳафтадан сўнг} other{{weeks} ҳафтадан сўнг}}",
+  "weeksPast": "{weeks, plural, =1{{weeks} ҳафта олдин} other{{weeks} ҳафта олдин}}",
+  "daysFuture": "{days, plural, =1{{days} кундан сўнг} other{{days} кундан сўнг}}",
+  "daysPast": "{days, plural, =1{{days} кун олдин} other{{days} кун олдин}}",
+  "hoursFuture": "{hours, plural, =1{{hours} соатдан сўнг} other{{hours} соатдан сўнг}}",
+  "hoursPast": "{hours, plural, =1{{hours} соат олдин} other{{hours} соат олдин}}",
+  "minutesFuture": "{minutes, plural, =1{{minutes} дақиқадан сўнг} other{{minutes} дақиқадан сўнг}}",
+  "minutesPast": "{minutes, plural, =1{{minutes} дақиқа олдин} other{{minutes} дақиқа олдин}}",
+  "secondsFuture": "{seconds, plural, =1{{seconds} сониядан сўнг} other{{seconds} сониядан сўнг}}",
+  "secondsPast": "{seconds, plural, =1{{seconds} сония олдин} other{{seconds} сония олдин}}",
+  "now": "ҳозир"
+}

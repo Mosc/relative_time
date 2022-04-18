@@ -1,0 +1,20 @@
+{
+  "@@locale": "zh_Hant",
+  "yearsFuture": "{years, plural, other{{years} 年後}}",
+  "yearsPast": "{years, plural, other{{years} 年前}}",
+  "quartersFuture": "{quarters, plural, other{{quarters} 季後}}",
+  "quartersPast": "{quarters, plural, other{{quarters} 季前}}",
+  "monthsFuture": "{months, plural, other{{months} 個月後}}",
+  "monthsPast": "{months, plural, other{{months} 個月前}}",
+  "weeksFuture": "{weeks, plural, other{{weeks} 週後}}",
+  "weeksPast": "{weeks, plural, other{{weeks} 週前}}",
+  "daysFuture": "{days, plural, other{{days} 天後}}",
+  "daysPast": "{days, plural, other{{days} 天前}}",
+  "hoursFuture": "{hours, plural, other{{hours} 小時後}}",
+  "hoursPast": "{hours, plural, other{{hours} 小時前}}",
+  "minutesFuture": "{minutes, plural, other{{minutes} 分鐘後}}",
+  "minutesPast": "{minutes, plural, other{{minutes} 分鐘前}}",
+  "secondsFuture": "{seconds, plural, other{{seconds} 秒後}}",
+  "secondsPast": "{seconds, plural, other{{seconds} 秒前}}",
+  "now": "現在"
+}

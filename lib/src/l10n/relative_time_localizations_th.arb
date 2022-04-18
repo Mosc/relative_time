@@ -1,0 +1,20 @@
+{
+  "@@locale": "th",
+  "yearsFuture": "{years, plural, other{ในอีก {years} ปี}}",
+  "yearsPast": "{years, plural, other{{years} ปีที่แล้ว}}",
+  "quartersFuture": "{quarters, plural, other{ในอีก {quarters} ไตรมาส}}",
+  "quartersPast": "{quarters, plural, other{{quarters} ไตรมาสที่แล้ว}}",
+  "monthsFuture": "{months, plural, other{ในอีก {months} เดือน}}",
+  "monthsPast": "{months, plural, other{{months} เดือนที่ผ่านมา}}",
+  "weeksFuture": "{weeks, plural, other{ในอีก {weeks} สัปดาห์}}",
+  "weeksPast": "{weeks, plural, other{{weeks} สัปดาห์ที่ผ่านมา}}",
+  "daysFuture": "{days, plural, other{ในอีก {days} วัน}}",
+  "daysPast": "{days, plural, other{{days} วันที่ผ่านมา}}",
+  "hoursFuture": "{hours, plural, other{ในอีก {hours} ชั่วโมง}}",
+  "hoursPast": "{hours, plural, other{{hours} ชั่วโมงที่ผ่านมา}}",
+  "minutesFuture": "{minutes, plural, other{ในอีก {minutes} นาที}}",
+  "minutesPast": "{minutes, plural, other{{minutes} นาทีที่ผ่านมา}}",
+  "secondsFuture": "{seconds, plural, other{ในอีก {seconds} วินาที}}",
+  "secondsPast": "{seconds, plural, other{{seconds} วินาทีที่ผ่านมา}}",
+  "now": "ขณะนี้"
+}

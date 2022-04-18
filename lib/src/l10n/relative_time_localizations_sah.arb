@@ -1,0 +1,20 @@
+{
+  "@@locale": "sah",
+  "yearsFuture": "{years, plural, other{{years} сылынан}}",
+  "yearsPast": "{years, plural, other{{years} сыл ынараа өттүгэр}}",
+  "quartersFuture": "{quarters, plural, other{{quarters} кыбаарталынан}}",
+  "quartersPast": "{quarters, plural, other{{quarters} кыбаартал анараа өттүгэр}}",
+  "monthsFuture": "{months, plural, other{{months} ыйынан}}",
+  "monthsPast": "{months, plural, other{{months} ый ынараа өттүгэр}}",
+  "weeksFuture": "{weeks, plural, other{{weeks} нэдиэлэннэн}}",
+  "weeksPast": "{weeks, plural, other{{weeks} нэдиэлэ анараа өттүгэр}}",
+  "daysFuture": "{days, plural, other{{days} күнүнэн}}",
+  "daysPast": "{days, plural, other{{days} күн ынараа өттүгэр}}",
+  "hoursFuture": "{hours, plural, other{{hours} чааһынан}}",
+  "hoursPast": "{hours, plural, other{{hours} чаас ынараа өттүгэр}}",
+  "minutesFuture": "{minutes, plural, other{{minutes} мүнүүтэннэн}}",
+  "minutesPast": "{minutes, plural, other{{minutes} мүнүүтэ ынараа өттүгэр}}",
+  "secondsFuture": "{seconds, plural, other{{seconds} сөкүүндэннэн}}",
+  "secondsPast": "{seconds, plural, other{{seconds} сөкүүндэ ынараа өттүгэр}}",
+  "now": "билигин"
+}

@@ -1,0 +1,20 @@
+{
+  "@@locale": "zh",
+  "yearsFuture": "{years, plural, other{{years}年后}}",
+  "yearsPast": "{years, plural, other{{years}年前}}",
+  "quartersFuture": "{quarters, plural, other{{quarters}个季度后}}",
+  "quartersPast": "{quarters, plural, other{{quarters}个季度前}}",
+  "monthsFuture": "{months, plural, other{{months}个月后}}",
+  "monthsPast": "{months, plural, other{{months}个月前}}",
+  "weeksFuture": "{weeks, plural, other{{weeks}周后}}",
+  "weeksPast": "{weeks, plural, other{{weeks}周前}}",
+  "daysFuture": "{days, plural, other{{days}天后}}",
+  "daysPast": "{days, plural, other{{days}天前}}",
+  "hoursFuture": "{hours, plural, other{{hours}小时后}}",
+  "hoursPast": "{hours, plural, other{{hours}小时前}}",
+  "minutesFuture": "{minutes, plural, other{{minutes}分钟后}}",
+  "minutesPast": "{minutes, plural, other{{minutes}分钟前}}",
+  "secondsFuture": "{seconds, plural, other{{seconds}秒钟后}}",
+  "secondsPast": "{seconds, plural, other{{seconds}秒钟前}}",
+  "now": "现在"
+}

@@ -1,0 +1,20 @@
+{
+  "@@locale": "be",
+  "yearsFuture": "{years, plural, =1{праз {years} год} few{праз {years} гады} many{праз {years} гадоў} other{праз {years} года}}",
+  "yearsPast": "{years, plural, =1{{years} год таму} few{{years} гады таму} many{{years} гадоў таму} other{{years} года таму}}",
+  "quartersFuture": "{quarters, plural, =1{праз {quarters} квартал} few{праз {quarters} кварталы} many{праз {quarters} кварталаў} other{праз {quarters} квартала}}",
+  "quartersPast": "{quarters, plural, =1{{quarters} квартал таму} few{{quarters} кварталы таму} many{{quarters} кварталаў таму} other{{quarters} квартала таму}}",
+  "monthsFuture": "{months, plural, =1{праз {months} месяц} few{праз {months} месяцы} many{праз {months} месяцаў} other{праз {months} месяца}}",
+  "monthsPast": "{months, plural, =1{{months} месяц таму} few{{months} месяцы таму} many{{months} месяцаў таму} other{{months} месяца таму}}",
+  "weeksFuture": "{weeks, plural, =1{праз {weeks} тыдзень} few{праз {weeks} тыдні} many{праз {weeks} тыдняў} other{праз {weeks} тыдня}}",
+  "weeksPast": "{weeks, plural, =1{{weeks} тыдзень таму} few{{weeks} тыдні таму} many{{weeks} тыдняў таму} other{{weeks} тыдня таму}}",
+  "daysFuture": "{days, plural, =1{праз {days} дзень} few{праз {days} дні} many{праз {days} дзён} other{праз {days} дня}}",
+  "daysPast": "{days, plural, =1{{days} дзень таму} few{{days} дні таму} many{{days} дзён таму} other{{days} дня таму}}",
+  "hoursFuture": "{hours, plural, =1{праз {hours} гадзіну} few{праз {hours} гадзіны} many{праз {hours} гадзін} other{праз {hours} гадзіны}}",
+  "hoursPast": "{hours, plural, =1{{hours} гадзіну таму} few{{hours} гадзіны таму} many{{hours} гадзін таму} other{{hours} гадзіны таму}}",
+  "minutesFuture": "{minutes, plural, =1{праз {minutes} хвіліну} few{праз {minutes} хвіліны} many{праз {minutes} хвілін} other{праз {minutes} хвіліны}}",
+  "minutesPast": "{minutes, plural, =1{{minutes} хвіліну таму} few{{minutes} хвіліны таму} many{{minutes} хвілін таму} other{{minutes} хвіліны таму}}",
+  "secondsFuture": "{seconds, plural, =1{праз {seconds} секунду} few{праз {seconds} секунды} many{праз {seconds} секунд} other{праз {seconds} секунды}}",
+  "secondsPast": "{seconds, plural, =1{{seconds} секунду таму} few{{seconds} секунды таму} many{{seconds} секунд таму} other{{seconds} секунды таму}}",
+  "now": "цяпер"
+}

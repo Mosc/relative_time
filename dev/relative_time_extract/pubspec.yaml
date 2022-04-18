@@ -1,0 +1,15 @@
+name: relative_time_extract
+description: A tool to extract relative time data data from Unicode CLDR.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  intl: ^0.17.0
+  path: ^1.8.1
+  xml: ^6.0.1
+
+dev_dependencies:
+  lints: ^1.0.1

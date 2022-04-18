@@ -1,0 +1,20 @@
+{
+  "@@locale": "sd",
+  "yearsFuture": "{years, plural, =1{{years} سالن ۾} other{{years} سالن ۾}}",
+  "yearsPast": "{years, plural, =1{{years} سال پهرين} other{{years} سال پهرين}}",
+  "quartersFuture": "{quarters, plural, =1{{quarters} ٽي ماهي ۾} other{{quarters} ٽي ماهي ۾}}",
+  "quartersPast": "{quarters, plural, =1{{quarters} ٽي ماهي پهرين} other{{quarters} ٽي ماهي پهرين}}",
+  "monthsFuture": "{months, plural, =1{{months} مهينن ۾} other{{months} مهينن ۾}}",
+  "monthsPast": "{months, plural, =1{{months} مهينا پهرين} other{{months} مهينا پهرين}}",
+  "weeksFuture": "{weeks, plural, =1{{weeks} هفتن ۾} other{{weeks} هفتن ۾}}",
+  "weeksPast": "{weeks, plural, =1{{weeks} هفتا پهرين} other{{weeks} هفتا پهرين}}",
+  "daysFuture": "{days, plural, =1{{days} ڏينهن ۾} other{{days} ڏينهن ۾}}",
+  "daysPast": "{days, plural, =1{{days} ڏينهن پهرين} other{{days} ڏينهن پهرين}}",
+  "hoursFuture": "{hours, plural, =1{{hours} ڪلاڪ ۾} other{{hours} ڪلاڪ ۾}}",
+  "hoursPast": "{hours, plural, =1{{hours} ڪلاڪ پهرين} other{{hours} ڪلاڪ پهرين}}",
+  "minutesFuture": "{minutes, plural, =1{{minutes} منٽن ۾} other{+{minutes} min}}",
+  "minutesPast": "{minutes, plural, =1{{minutes} منٽ پهرين} other{{minutes} منٽ پهرين}}",
+  "secondsFuture": "{seconds, plural, =1{{seconds} سيڪنڊن ۾} other{{seconds} سيڪنڊن ۾}}",
+  "secondsPast": "{seconds, plural, =1{{seconds} سيڪنڊ پهرين} other{{seconds} سيڪنڊ پهرين}}",
+  "now": "هاڻي"
+}

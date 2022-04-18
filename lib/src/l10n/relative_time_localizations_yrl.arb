@@ -1,0 +1,20 @@
+{
+  "@@locale": "yrl",
+  "yearsFuture": "{years, plural, =1{{years} akayú resê} other{{years} akayú itá resê}}",
+  "yearsPast": "{years, plural, =1{aikué {years} akayú} other{aikué {years} akayú itá}}",
+  "quartersFuture": "{quarters, plural, =1{{quarters} musapíri-yasí resê} other{{quarters} musapíri-yasí itá resê}}",
+  "quartersPast": "{quarters, plural, =1{aikué {quarters} musapíri-yasí} other{aikué {quarters} musapíri-yasí itá}}",
+  "monthsFuture": "{months, plural, =1{{months} yasí resê} other{{months} yasí itá resê}}",
+  "monthsPast": "{months, plural, =1{aikué {months} yasí} other{aikué {months} yasí itá}}",
+  "weeksFuture": "{weeks, plural, =1{{weeks} sẽmãna resê} other{{weeks} sẽmãna itá resê}}",
+  "weeksPast": "{weeks, plural, =1{aikué {weeks} sẽmãna} other{aikué {weeks} sẽmãna itá}}",
+  "daysFuture": "{days, plural, =1{{days} ara resê} other{{days} ara itá resê}}",
+  "daysPast": "{days, plural, =1{aikué {days} ara} other{aikué {days} ara itá}}",
+  "hoursFuture": "{hours, plural, =1{{hours} hura resê} other{{hours} hura resê itá}}",
+  "hoursPast": "{hours, plural, =1{aikué {hours} hura} other{aikué {hours} hura itá}}",
+  "minutesFuture": "{minutes, plural, =1{{minutes} minutu resê} other{{minutes} minutu resê itá}}",
+  "minutesPast": "{minutes, plural, =1{aikué {minutes} minutu} other{aikué {minutes} minutu itá}}",
+  "secondsFuture": "{seconds, plural, =1{{seconds} segũdu resê} other{{seconds} segũdu resê itá}}",
+  "secondsPast": "{seconds, plural, =1{aikué {seconds} segũdu} other{aikué {seconds} segũdu itá}}",
+  "now": "kuíri"
+}

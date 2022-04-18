@@ -1,0 +1,20 @@
+{
+  "@@locale": "tg",
+  "yearsFuture": "{years, plural, other{пас аз {years} сол}}",
+  "yearsPast": "{years, plural, other{{years} сол пеш}}",
+  "quartersFuture": "{quarters, plural, other{пас аз {quarters} чоряк}}",
+  "quartersPast": "{quarters, plural, other{{quarters} чоряк пеш}}",
+  "monthsFuture": "{months, plural, other{пас аз {months} моҳ}}",
+  "monthsPast": "{months, plural, other{{months} моҳ пеш}}",
+  "weeksFuture": "{weeks, plural, other{пас аз {weeks} ҳафта}}",
+  "weeksPast": "{weeks, plural, other{{weeks} ҳафта пеш}}",
+  "daysFuture": "{days, plural, other{пас аз {days} рӯз}}",
+  "daysPast": "{days, plural, other{{days} рӯз пеш}}",
+  "hoursFuture": "{hours, plural, other{пас аз {hours} соат}}",
+  "hoursPast": "{hours, plural, other{{hours} соат пеш}}",
+  "minutesFuture": "{minutes, plural, other{пас аз {minutes} дақиқа}}",
+  "minutesPast": "{minutes, plural, other{{minutes} дақиқа пеш}}",
+  "secondsFuture": "{seconds, plural, other{пас аз {seconds} сония}}",
+  "secondsPast": "{seconds, plural, other{{seconds} сония пеш}}",
+  "now": "ҳозир"
+}

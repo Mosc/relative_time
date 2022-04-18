@@ -1,0 +1,20 @@
+{
+  "@@locale": "gd",
+  "yearsFuture": "{years, plural, =1{an ceann {years} bhliadhna} =2{an ceann {years} bhliadhna} few{an ceann {years} bliadhnaichean} other{an ceann {years} bliadhna}}",
+  "yearsPast": "{years, plural, =1{{years} bhliadhna air ais} =2{{years} bhliadhna air ais} few{{years} bhliadhnaichean air ais} other{{years} bliadhna air ais}}",
+  "quartersFuture": "{quarters, plural, =1{an ceann {quarters} chairteil} =2{an ceann {quarters} chairteil} few{an ceann {quarters} cairtealan} other{an ceann {quarters} cairteil}}",
+  "quartersPast": "{quarters, plural, =1{{quarters} chairteal air ais} =2{{quarters} chairteal air ais} few{{quarters} cairtealan air ais} other{{quarters} cairteal air ais}}",
+  "monthsFuture": "{months, plural, =1{an ceann {months} mhìosa} =2{an ceann {months} mhìosa} few{an ceann {months} mìosan} other{an ceann {months} mìosa}}",
+  "monthsPast": "{months, plural, =1{{months} mhìos air ais} =2{{months} mhìos air ais} few{{months} mìosan air ais} other{{months} mìos air ais}}",
+  "weeksFuture": "{weeks, plural, =1{an ceann {weeks} seachdain} =2{an ceann {weeks} sheachdain} few{an ceann {weeks} seachdainean} other{an ceann {weeks} seachdain}}",
+  "weeksPast": "{weeks, plural, =1{{weeks} seachdain air ais} =2{{weeks} sheachdain air ais} few{{weeks} seachdainean air ais} other{{weeks} seachdain air ais}}",
+  "daysFuture": "{days, plural, =1{an ceann {days} latha} =2{an ceann {days} latha} few{an ceann {days} làithean} other{an ceann {days} latha}}",
+  "daysPast": "{days, plural, =1{{days} latha air ais} =2{{days} latha air ais} few{{days} làithean air ais} other{{days} latha air ais}}",
+  "hoursFuture": "{hours, plural, =1{an ceann {hours} uair a thìde} =2{an ceann {hours} uair a thìde} few{an ceann {hours} uairean a thìde} other{an ceann {hours} uair a thìde}}",
+  "hoursPast": "{hours, plural, =1{{hours} uair a thìde air ais} =2{{hours} uair a thìde air ais} few{{hours} uairean a thìde air ais} other{{hours} uair a thìde air ais}}",
+  "minutesFuture": "{minutes, plural, =1{an ceann {minutes} mhionaid} =2{an ceann {minutes} mhionaid} few{an ceann {minutes} mionaidean} other{an ceann {minutes} mionaid}}",
+  "minutesPast": "{minutes, plural, =1{{minutes} mhionaid air ais} =2{{minutes} mhionaid air ais} few{{minutes} mionaidean air ais} other{{minutes} mionaid air ais}}",
+  "secondsFuture": "{seconds, plural, =1{an ceann {seconds} diog} =2{an ceann {seconds} dhiog} few{an ceann {seconds} diogan} other{an ceann {seconds} diog}}",
+  "secondsPast": "{seconds, plural, =1{{seconds} diog air ais} =2{{seconds} dhiog air ais} few{{seconds} diogan air ais} other{{seconds} diog air ais}}",
+  "now": "an-dràsta"
+}

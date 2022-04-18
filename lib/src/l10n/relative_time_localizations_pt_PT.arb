@@ -1,0 +1,11 @@
+{
+  "@@locale": "pt_PT",
+  "yearsFuture": "{years, plural, =1{dentro de {years} ano} other{dentro de {years} anos}}",
+  "quartersFuture": "{quarters, plural, =1{dentro de {quarters} trimestre} other{dentro de {quarters} trimestres}}",
+  "monthsFuture": "{months, plural, =1{dentro de {months} mês} other{dentro de {months} meses}}",
+  "weeksFuture": "{weeks, plural, =1{dentro de {weeks} semana} other{dentro de {weeks} semanas}}",
+  "daysFuture": "{days, plural, =1{dentro de {days} dia} other{dentro de {days} dias}}",
+  "hoursFuture": "{hours, plural, =1{dentro de {hours} hora} other{dentro de {hours} horas}}",
+  "minutesFuture": "{minutes, plural, =1{dentro de {minutes} minuto} other{dentro de {minutes} minutos}}",
+  "secondsFuture": "{seconds, plural, =1{dentro de {seconds} segundo} other{dentro de {seconds} segundos}}"
+}

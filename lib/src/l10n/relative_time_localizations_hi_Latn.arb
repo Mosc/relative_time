@@ -1,0 +1,18 @@
+{
+  "@@locale": "hi_Latn",
+  "yearsFuture": "{years, plural, =1{{years} saal mein} other{{years} saal mein}}",
+  "yearsPast": "{years, plural, =1{{years} saal pehle} other{{years} saal pehle}}",
+  "monthsFuture": "{months, plural, =1{{months} mahine mein} other{{months} mahine mein}}",
+  "monthsPast": "{months, plural, =1{{months} mahine pehle} other{{months} mahine pehle}}",
+  "weeksFuture": "{weeks, plural, =1{{weeks} hafte mein} other{{weeks} hafte mein}}",
+  "weeksPast": "{weeks, plural, =1{{weeks} hafte pehle} other{{weeks} hafte pehle}}",
+  "daysFuture": "{days, plural, =1{{days} din mein} other{{days} din mein}}",
+  "daysPast": "{days, plural, =1{{days} din pehle} other{{days} din pehle}}",
+  "hoursFuture": "{hours, plural, =1{{hours} ghante mein} other{{hours} ghante mein}}",
+  "hoursPast": "{hours, plural, =1{{hours} ghante pehle} other{{hours} ghante pehle}}",
+  "minutesFuture": "{minutes, plural, =1{{minutes} minute mein} other{{minutes} minute mein}}",
+  "minutesPast": "{minutes, plural, =1{{minutes} minute pehle} other{{minutes} minute pehle}}",
+  "secondsFuture": "{seconds, plural, =1{{seconds} second mein} other{{seconds} second mein}}",
+  "secondsPast": "{seconds, plural, =1{{seconds} second pehle} other{{seconds} second pehle}}",
+  "now": "abhi"
+}

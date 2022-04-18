@@ -1,0 +1,20 @@
+{
+  "@@locale": "wo",
+  "yearsFuture": "{years, plural, other{fileek {years} at}}",
+  "yearsPast": "{years, plural, other{{years} at ci ginaaw}}",
+  "quartersFuture": "{quarters, plural, other{fileek {quarters} trimestre}}",
+  "quartersPast": "{quarters, plural, other{{quarters} trimestre ci ginaaw}}",
+  "monthsFuture": "{months, plural, other{fileek {months} weer}}",
+  "monthsPast": "{months, plural, other{{months} weer ci ginaaw}}",
+  "weeksFuture": "{weeks, plural, other{fileek {weeks} ayi-bis}}",
+  "weeksPast": "{weeks, plural, other{{weeks} ayi-bis ci ginaaw}}",
+  "daysFuture": "{days, plural, other{fileek {days} fan}}",
+  "daysPast": "{days, plural, other{{days} fan ci ginaaw}}",
+  "hoursFuture": "{hours, plural, other{fileek {hours} waxtu}}",
+  "hoursPast": "{hours, plural, other{{hours} waxtu ci ginaaw}}",
+  "minutesFuture": "{minutes, plural, other{fileek {minutes} simili}}",
+  "minutesPast": "{minutes, plural, other{{minutes} simili ci ginaaw}}",
+  "secondsFuture": "{seconds, plural, other{fileek {seconds} saa}}",
+  "secondsPast": "{seconds, plural, other{{seconds} saa ci ginaaw}}",
+  "now": "leegi"
+}

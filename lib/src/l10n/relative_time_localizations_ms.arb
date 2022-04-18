@@ -1,0 +1,20 @@
+{
+  "@@locale": "ms",
+  "yearsFuture": "{years, plural, other{dalam {years} tahun}}",
+  "yearsPast": "{years, plural, other{{years} tahun lalu}}",
+  "quartersFuture": "{quarters, plural, other{dalam {quarters} suku tahun}}",
+  "quartersPast": "{quarters, plural, other{{quarters} suku tahun lalu}}",
+  "monthsFuture": "{months, plural, other{dalam {months} bulan}}",
+  "monthsPast": "{months, plural, other{{months} bulan lalu}}",
+  "weeksFuture": "{weeks, plural, other{dalam {weeks} minggu}}",
+  "weeksPast": "{weeks, plural, other{{weeks} minggu lalu}}",
+  "daysFuture": "{days, plural, other{dalam {days} hari}}",
+  "daysPast": "{days, plural, other{{days} hari lalu}}",
+  "hoursFuture": "{hours, plural, other{dalam {hours} jam}}",
+  "hoursPast": "{hours, plural, other{{hours} jam lalu}}",
+  "minutesFuture": "{minutes, plural, other{dalam {minutes} minit}}",
+  "minutesPast": "{minutes, plural, other{{minutes} minit lalu}}",
+  "secondsFuture": "{seconds, plural, other{dalam {seconds} saat}}",
+  "secondsPast": "{seconds, plural, other{{seconds} saat lalu}}",
+  "now": "sekarang"
+}

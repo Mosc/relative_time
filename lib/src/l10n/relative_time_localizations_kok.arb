@@ -1,0 +1,20 @@
+{
+  "@@locale": "kok",
+  "yearsFuture": "{years, plural, other{{years} वर्सांनीं}}",
+  "yearsPast": "{years, plural, other{{years} वर्सां आदीं}}",
+  "quartersFuture": "{quarters, plural, other{{quarters} त्रैमासीकांत}}",
+  "quartersPast": "{quarters, plural, other{{quarters} त्रैमासीकां आदीं}}",
+  "monthsFuture": "{months, plural, other{{months} म्हयन्यानीं}}",
+  "monthsPast": "{months, plural, other{{months} म्हयन्यां आदीं}}",
+  "weeksFuture": "{weeks, plural, other{{weeks} सप्तकांनीं}}",
+  "weeksPast": "{weeks, plural, other{{weeks} सप्तकां आदीं}}",
+  "daysFuture": "{days, plural, other{{days} दिसानीं}}",
+  "daysPast": "{days, plural, other{{days} दीस आदीं}}",
+  "hoursFuture": "{hours, plural, other{{hours} वरांनीं}}",
+  "hoursPast": "{hours, plural, other{{hours} वरा आदीं}}",
+  "minutesFuture": "{minutes, plural, other{{minutes} मिन्टां}}",
+  "minutesPast": "{minutes, plural, other{{minutes} मिन्टां आदीं}}",
+  "secondsFuture": "{seconds, plural, other{{seconds} सेकंदानीं}}",
+  "secondsPast": "{seconds, plural, other{{seconds} सेकंद आदीं}}",
+  "now": "आतां"
+}

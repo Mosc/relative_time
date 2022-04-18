@@ -1,0 +1,20 @@
+{
+  "@@locale": "mr",
+  "yearsFuture": "{years, plural, =1{येत्या {years} वर्षामध्ये} other{येत्या {years} वर्षांमध्ये}}",
+  "yearsPast": "{years, plural, =1{{years} वर्षापूर्वी} other{{years} वर्षांपूर्वी}}",
+  "quartersFuture": "{quarters, plural, =1{{quarters} तिमाहीमध्ये} other{{quarters} तिमाहींमध्ये}}",
+  "quartersPast": "{quarters, plural, =1{{quarters} तिमाहीपूर्वी} other{{quarters} तिमाहींपूर्वी}}",
+  "monthsFuture": "{months, plural, =1{येत्या {months} महिन्यामध्ये} other{येत्या {months} महिन्यांमध्ये}}",
+  "monthsPast": "{months, plural, =1{{months} महिन्यापूर्वी} other{{months} महिन्यांपूर्वी}}",
+  "weeksFuture": "{weeks, plural, =1{{weeks} आठवड्यामध्ये} other{{weeks} आठवड्यांमध्ये}}",
+  "weeksPast": "{weeks, plural, =1{{weeks} आठवड्यापूर्वी} other{{weeks} आठवड्यांपूर्वी}}",
+  "daysFuture": "{days, plural, =1{येत्या {days} दिवसामध्ये} other{येत्या {days} दिवसांमध्ये}}",
+  "daysPast": "{days, plural, =1{{days} दिवसापूर्वी} other{{days} दिवसांपूर्वी}}",
+  "hoursFuture": "{hours, plural, =1{{hours} तासामध्ये} other{{hours} तासांमध्ये}}",
+  "hoursPast": "{hours, plural, =1{{hours} तासापूर्वी} other{{hours} तासांपूर्वी}}",
+  "minutesFuture": "{minutes, plural, =1{{minutes} मिनिटामध्ये} other{{minutes} मिनिटांमध्ये}}",
+  "minutesPast": "{minutes, plural, =1{{minutes} मिनिटापूर्वी} other{{minutes} मिनिटांपूर्वी}}",
+  "secondsFuture": "{seconds, plural, =1{{seconds} सेकंदामध्ये} other{{seconds} सेकंदांमध्ये}}",
+  "secondsPast": "{seconds, plural, =1{{seconds} सेकंदापूर्वी} other{{seconds} सेकंदांपूर्वी}}",
+  "now": "आत्ता"
+}

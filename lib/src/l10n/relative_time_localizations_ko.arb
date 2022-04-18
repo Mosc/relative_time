@@ -1,0 +1,20 @@
+{
+  "@@locale": "ko",
+  "yearsFuture": "{years, plural, other{{years}년 후}}",
+  "yearsPast": "{years, plural, other{{years}년 전}}",
+  "quartersFuture": "{quarters, plural, other{{quarters}분기 후}}",
+  "quartersPast": "{quarters, plural, other{{quarters}분기 전}}",
+  "monthsFuture": "{months, plural, other{{months}개월 후}}",
+  "monthsPast": "{months, plural, other{{months}개월 전}}",
+  "weeksFuture": "{weeks, plural, other{{weeks}주 후}}",
+  "weeksPast": "{weeks, plural, other{{weeks}주 전}}",
+  "daysFuture": "{days, plural, other{{days}일 후}}",
+  "daysPast": "{days, plural, other{{days}일 전}}",
+  "hoursFuture": "{hours, plural, other{{hours}시간 후}}",
+  "hoursPast": "{hours, plural, other{{hours}시간 전}}",
+  "minutesFuture": "{minutes, plural, other{{minutes}분 후}}",
+  "minutesPast": "{minutes, plural, other{{minutes}분 전}}",
+  "secondsFuture": "{seconds, plural, other{{seconds}초 후}}",
+  "secondsPast": "{seconds, plural, other{{seconds}초 전}}",
+  "now": "지금"
+}

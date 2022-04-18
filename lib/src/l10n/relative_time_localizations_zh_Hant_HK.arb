@@ -1,0 +1,7 @@
+{
+  "@@locale": "zh_Hant_HK",
+  "weeksFuture": "{weeks, plural, other{{weeks} 星期後}}",
+  "weeksPast": "{weeks, plural, other{{weeks} 星期前}}",
+  "daysFuture": "{days, plural, other{{days} 日後}}",
+  "daysPast": "{days, plural, other{{days} 日前}}"
+}

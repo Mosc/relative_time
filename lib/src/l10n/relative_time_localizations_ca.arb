@@ -1,0 +1,20 @@
+{
+  "@@locale": "ca",
+  "yearsFuture": "{years, plural, =1{d’aquí a {years} any} other{d’aquí a {years} anys}}",
+  "yearsPast": "{years, plural, =1{fa {years} any} other{fa {years} anys}}",
+  "quartersFuture": "{quarters, plural, =1{d’aquí a {quarters} trimestre} other{d’aquí a {quarters} trimestres}}",
+  "quartersPast": "{quarters, plural, =1{fa {quarters} trimestre} other{fa {quarters} trimestres}}",
+  "monthsFuture": "{months, plural, =1{d’aquí a {months} mes} other{d’aquí a {months} mesos}}",
+  "monthsPast": "{months, plural, =1{fa {months} mes} other{fa {months} mesos}}",
+  "weeksFuture": "{weeks, plural, =1{d’aquí a {weeks} setmana} other{d’aquí a {weeks} setmanes}}",
+  "weeksPast": "{weeks, plural, =1{fa {weeks} setmana} other{fa {weeks} setmanes}}",
+  "daysFuture": "{days, plural, =1{d’aquí a {days} dia} other{d’aquí a {days} dies}}",
+  "daysPast": "{days, plural, =1{fa {days} dia} other{fa {days} dies}}",
+  "hoursFuture": "{hours, plural, =1{d’aquí a {hours} hora} other{d’aquí a {hours} hores}}",
+  "hoursPast": "{hours, plural, =1{fa {hours} hora} other{fa {hours} hores}}",
+  "minutesFuture": "{minutes, plural, =1{d’aquí a {minutes} minut} other{d’aquí a {minutes} minuts}}",
+  "minutesPast": "{minutes, plural, =1{fa {minutes} minut} other{fa {minutes} minuts}}",
+  "secondsFuture": "{seconds, plural, =1{d’aquí a {seconds} segon} other{d’aquí a {seconds} segons}}",
+  "secondsPast": "{seconds, plural, =1{fa {seconds} segon} other{fa {seconds} segons}}",
+  "now": "ara"
+}

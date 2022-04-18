@@ -1,0 +1,20 @@
+{
+  "@@locale": "sl",
+  "yearsFuture": "{years, plural, =1{čez {years} leto} =2{čez {years} leti} few{čez {years} leta} other{čez {years} let}}",
+  "yearsPast": "{years, plural, =1{pred {years} letom} =2{pred {years} letoma} few{pred {years} leti} other{pred {years} leti}}",
+  "quartersFuture": "{quarters, plural, =1{čez {quarters} četrtletje} =2{čez {quarters} četrtletji} few{čez {quarters} četrtletja} other{čez {quarters} četrtletij}}",
+  "quartersPast": "{quarters, plural, =1{pred {quarters} četrtletjem} =2{pred {quarters} četrtletjema} few{pred {quarters} četrtletji} other{pred {quarters} četrtletji}}",
+  "monthsFuture": "{months, plural, =1{čez {months} mesec} =2{čez {months} meseca} few{čez {months} mesece} other{čez {months} mesecev}}",
+  "monthsPast": "{months, plural, =1{pred {months} mesecem} =2{pred {months} mesecema} few{pred {months} meseci} other{pred {months} meseci}}",
+  "weeksFuture": "{weeks, plural, =1{čez {weeks} teden} =2{čez {weeks} tedna} few{čez {weeks} tedne} other{čez {weeks} tednov}}",
+  "weeksPast": "{weeks, plural, =1{pred {weeks} tednom} =2{pred {weeks} tednoma} few{pred {weeks} tedni} other{pred {weeks} tedni}}",
+  "daysFuture": "{days, plural, =1{čez {days} dan} =2{čez {days} dneva} few{čez {days} dni} other{čez {days} dni}}",
+  "daysPast": "{days, plural, =1{pred {days} dnevom} =2{pred {days} dnevoma} few{pred {days} dnevi} other{pred {days} dnevi}}",
+  "hoursFuture": "{hours, plural, =1{čez {hours} uro} =2{čez {hours} uri} few{čez {hours} ure} other{čez {hours} ur}}",
+  "hoursPast": "{hours, plural, =1{pred {hours} uro} =2{pred {hours} urama} few{pred {hours} urami} other{pred {hours} urami}}",
+  "minutesFuture": "{minutes, plural, =1{čez {minutes} minuto} =2{čez {minutes} minuti} few{čez {minutes} minute} other{čez {minutes} minut}}",
+  "minutesPast": "{minutes, plural, =1{pred {minutes} minuto} =2{pred {minutes} minutama} few{pred {minutes} minutami} other{pred {minutes} minutami}}",
+  "secondsFuture": "{seconds, plural, =1{čez {seconds} sekundo} =2{čez {seconds} sekundi} few{čez {seconds} sekunde} other{čez {seconds} sekund}}",
+  "secondsPast": "{seconds, plural, =1{pred {seconds} sekundo} =2{pred {seconds} sekundama} few{pred {seconds} sekundami} other{pred {seconds} sekundami}}",
+  "now": "zdaj"
+}

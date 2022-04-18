@@ -1,0 +1,20 @@
+{
+  "@@locale": "ky",
+  "yearsFuture": "{years, plural, =1{{years} жылдан кийин} other{{years} жылдан кийин}}",
+  "yearsPast": "{years, plural, =1{{years} жыл мурун} other{{years} жыл мурун}}",
+  "quartersFuture": "{quarters, plural, =1{{quarters} чейректен кийин} other{{quarters} чейректен кийин}}",
+  "quartersPast": "{quarters, plural, =1{{quarters} чейрек мурун} other{{quarters} чейрек мурун}}",
+  "monthsFuture": "{months, plural, =1{{months} айдан кийин} other{{months} айдан кийин}}",
+  "monthsPast": "{months, plural, =1{{months} ай мурун} other{{months} ай мурун}}",
+  "weeksFuture": "{weeks, plural, =1{{weeks} аптадан кийин} other{{weeks} аптадан кийин}}",
+  "weeksPast": "{weeks, plural, =1{{weeks} апта мурун} other{{weeks} апта мурун}}",
+  "daysFuture": "{days, plural, =1{{days} күндөн кийин} other{{days} күндөн кийин}}",
+  "daysPast": "{days, plural, =1{{days} күн мурун} other{{days} күн мурун}}",
+  "hoursFuture": "{hours, plural, =1{{hours} сааттан кийин} other{{hours} сааттан кийин}}",
+  "hoursPast": "{hours, plural, =1{{hours} саат мурун} other{{hours} саат мурун}}",
+  "minutesFuture": "{minutes, plural, =1{{minutes} мүнөттөн кийин} other{{minutes} мүнөттөн кийин}}",
+  "minutesPast": "{minutes, plural, =1{{minutes} мүнөт мурун} other{{minutes} мүнөт мурун}}",
+  "secondsFuture": "{seconds, plural, =1{{seconds} секунддан кийин} other{{seconds} секунддан кийин}}",
+  "secondsPast": "{seconds, plural, =1{{seconds} секунд мурун} other{{seconds} секунд мурун}}",
+  "now": "азыр"
+}

@@ -1,0 +1,20 @@
+{
+  "@@locale": "et",
+  "yearsFuture": "{years, plural, =1{{years} aasta pärast} other{{years} aasta pärast}}",
+  "yearsPast": "{years, plural, =1{{years} aasta eest} other{{years} aasta eest}}",
+  "quartersFuture": "{quarters, plural, =1{{quarters} kvartali pärast} other{{quarters} kvartali pärast}}",
+  "quartersPast": "{quarters, plural, =1{{quarters} kvartali eest} other{{quarters} kvartali eest}}",
+  "monthsFuture": "{months, plural, =1{{months} kuu pärast} other{{months} kuu pärast}}",
+  "monthsPast": "{months, plural, =1{{months} kuu eest} other{{months} kuu eest}}",
+  "weeksFuture": "{weeks, plural, =1{{weeks} nädala pärast} other{{weeks} nädala pärast}}",
+  "weeksPast": "{weeks, plural, =1{{weeks} nädala eest} other{{weeks} nädala eest}}",
+  "daysFuture": "{days, plural, =1{{days} päeva pärast} other{{days} päeva pärast}}",
+  "daysPast": "{days, plural, =1{{days} päeva eest} other{{days} päeva eest}}",
+  "hoursFuture": "{hours, plural, =1{{hours} tunni pärast} other{{hours} tunni pärast}}",
+  "hoursPast": "{hours, plural, =1{{hours} tunni eest} other{{hours} tunni eest}}",
+  "minutesFuture": "{minutes, plural, =1{{minutes} minuti pärast} other{{minutes} minuti pärast}}",
+  "minutesPast": "{minutes, plural, =1{{minutes} minuti eest} other{{minutes} minuti eest}}",
+  "secondsFuture": "{seconds, plural, =1{{seconds} sekundi pärast} other{{seconds} sekundi pärast}}",
+  "secondsPast": "{seconds, plural, =1{{seconds} sekundi eest} other{{seconds} sekundi eest}}",
+  "now": "nüüd"
+}

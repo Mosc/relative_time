@@ -1,0 +1,20 @@
+{
+  "@@locale": "tk",
+  "yearsFuture": "{years, plural, =1{{years} ýyldan} other{{years} ýyldan}}",
+  "yearsPast": "{years, plural, =1{{years} ýyl öň} other{{years} ýyl öň}}",
+  "quartersFuture": "{quarters, plural, =1{{quarters} çärýekden} other{{quarters} çärýekden}}",
+  "quartersPast": "{quarters, plural, =1{{quarters} çärýek öň} other{{quarters} çärýek öň}}",
+  "monthsFuture": "{months, plural, =1{{months} aýdan} other{{months} aýdan}}",
+  "monthsPast": "{months, plural, =1{{months} aý öň} other{{months} aý öň}}",
+  "weeksFuture": "{weeks, plural, =1{{weeks} hepdeden} other{{weeks} hepdeden}}",
+  "weeksPast": "{weeks, plural, =1{{weeks} hepde öň} other{{weeks} hepde öň}}",
+  "daysFuture": "{days, plural, =1{{days} günden} other{{days} günden}}",
+  "daysPast": "{days, plural, =1{{days} gün öň} other{{days} gün öň}}",
+  "hoursFuture": "{hours, plural, =1{{hours} sagatdan} other{{hours} sagatdan}}",
+  "hoursPast": "{hours, plural, =1{{hours} sagat öň} other{{hours} sagat öň}}",
+  "minutesFuture": "{minutes, plural, =1{{minutes} minutdan} other{{minutes} minutdan}}",
+  "minutesPast": "{minutes, plural, =1{{minutes} minut öň} other{{minutes} minut öň}}",
+  "secondsFuture": "{seconds, plural, =1{{seconds} sekuntdan} other{{seconds} sekuntdan}}",
+  "secondsPast": "{seconds, plural, =1{{seconds} sekunt öň} other{{seconds} sekunt öň}}",
+  "now": "häzir"
+}

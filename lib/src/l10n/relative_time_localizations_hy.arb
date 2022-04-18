@@ -1,0 +1,20 @@
+{
+  "@@locale": "hy",
+  "yearsFuture": "{years, plural, =1{{years} տարուց} other{{years} տարուց}}",
+  "yearsPast": "{years, plural, =1{{years} տարի առաջ} other{{years} տարի առաջ}}",
+  "quartersFuture": "{quarters, plural, =1{{quarters} եռամսյակից} other{{quarters} եռամսյակից}}",
+  "quartersPast": "{quarters, plural, =1{{quarters} եռամսյակ առաջ} other{{quarters} եռամսյակ առաջ}}",
+  "monthsFuture": "{months, plural, =1{{months} ամսից} other{{months} ամսից}}",
+  "monthsPast": "{months, plural, =1{{months} ամիս առաջ} other{{months} ամիս առաջ}}",
+  "weeksFuture": "{weeks, plural, =1{{weeks} շաբաթից} other{{weeks} շաբաթից}}",
+  "weeksPast": "{weeks, plural, =1{{weeks} շաբաթ առաջ} other{{weeks} շաբաթ առաջ}}",
+  "daysFuture": "{days, plural, =1{{days} օրից} other{{days} օրից}}",
+  "daysPast": "{days, plural, =1{{days} օր առաջ} other{{days} օր առաջ}}",
+  "hoursFuture": "{hours, plural, =1{{hours} ժամից} other{{hours} ժամից}}",
+  "hoursPast": "{hours, plural, =1{{hours} ժամ առաջ} other{{hours} ժամ առաջ}}",
+  "minutesFuture": "{minutes, plural, =1{{minutes} րոպեից} other{{minutes} րոպեից}}",
+  "minutesPast": "{minutes, plural, =1{{minutes} րոպե առաջ} other{{minutes} րոպե առաջ}}",
+  "secondsFuture": "{seconds, plural, =1{{seconds} վայրկյանից} other{{seconds} վայրկյանից}}",
+  "secondsPast": "{seconds, plural, =1{{seconds} վայրկյան առաջ} other{{seconds} վայրկյան առաջ}}",
+  "now": "հիմա"
+}

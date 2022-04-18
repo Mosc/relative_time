@@ -1,0 +1,20 @@
+{
+  "@@locale": "es",
+  "yearsFuture": "{years, plural, =1{dentro de {years} año} other{dentro de {years} años}}",
+  "yearsPast": "{years, plural, =1{hace {years} año} other{hace {years} años}}",
+  "quartersFuture": "{quarters, plural, =1{dentro de {quarters} trimestre} other{dentro de {quarters} trimestres}}",
+  "quartersPast": "{quarters, plural, =1{hace {quarters} trimestre} other{hace {quarters} trimestres}}",
+  "monthsFuture": "{months, plural, =1{dentro de {months} mes} other{dentro de {months} meses}}",
+  "monthsPast": "{months, plural, =1{hace {months} mes} other{hace {months} meses}}",
+  "weeksFuture": "{weeks, plural, =1{dentro de {weeks} semana} other{dentro de {weeks} semanas}}",
+  "weeksPast": "{weeks, plural, =1{hace {weeks} semana} other{hace {weeks} semanas}}",
+  "daysFuture": "{days, plural, =1{dentro de {days} día} other{dentro de {days} días}}",
+  "daysPast": "{days, plural, =1{hace {days} día} other{hace {days} días}}",
+  "hoursFuture": "{hours, plural, =1{dentro de {hours} hora} other{dentro de {hours} horas}}",
+  "hoursPast": "{hours, plural, =1{hace {hours} hora} other{hace {hours} horas}}",
+  "minutesFuture": "{minutes, plural, =1{dentro de {minutes} minuto} other{dentro de {minutes} minutos}}",
+  "minutesPast": "{minutes, plural, =1{hace {minutes} minuto} other{hace {minutes} minutos}}",
+  "secondsFuture": "{seconds, plural, =1{dentro de {seconds} segundo} other{dentro de {seconds} segundos}}",
+  "secondsPast": "{seconds, plural, =1{hace {seconds} segundo} other{hace {seconds} segundos}}",
+  "now": "ahora"
+}

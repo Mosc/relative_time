@@ -1,0 +1,20 @@
+{
+  "@@locale": "kn",
+  "yearsFuture": "{years, plural, =1{{years} ವರ್ಷದಲ್ಲಿ} other{{years} ವರ್ಷಗಳಲ್ಲಿ}}",
+  "yearsPast": "{years, plural, =1{{years} ವರ್ಷದ ಹಿಂದೆ} other{{years} ವರ್ಷಗಳ ಹಿಂದೆ}}",
+  "quartersFuture": "{quarters, plural, =1{{quarters} ತ್ರೈಮಾಸಿಕದಲ್ಲಿ} other{{quarters} ತ್ರೈಮಾಸಿಕಗಳಲ್ಲಿ}}",
+  "quartersPast": "{quarters, plural, =1{{quarters} ತ್ರೈಮಾಸಿಕದ ಹಿಂದೆ} other{{quarters} ತ್ರೈಮಾಸಿಕಗಳ ಹಿಂದೆ}}",
+  "monthsFuture": "{months, plural, =1{{months} ತಿಂಗಳಲ್ಲಿ} other{{months} ತಿಂಗಳುಗಳಲ್ಲಿ}}",
+  "monthsPast": "{months, plural, =1{{months} ತಿಂಗಳ ಹಿಂದೆ} other{{months} ತಿಂಗಳುಗಳ ಹಿಂದೆ}}",
+  "weeksFuture": "{weeks, plural, =1{{weeks} ವಾರದಲ್ಲಿ} other{{weeks} ವಾರಗಳಲ್ಲಿ}}",
+  "weeksPast": "{weeks, plural, =1{{weeks} ವಾರದ ಹಿಂದೆ} other{{weeks} ವಾರಗಳ ಹಿಂದೆ}}",
+  "daysFuture": "{days, plural, =1{{days} ದಿನದಲ್ಲಿ} other{{days} ದಿನಗಳಲ್ಲಿ}}",
+  "daysPast": "{days, plural, =1{{days} ದಿನದ ಹಿಂದೆ} other{{days} ದಿನಗಳ ಹಿಂದೆ}}",
+  "hoursFuture": "{hours, plural, =1{{hours} ಗಂಟೆಯಲ್ಲಿ} other{{hours} ಗಂಟೆಗಳಲ್ಲಿ}}",
+  "hoursPast": "{hours, plural, =1{{hours} ಗಂಟೆ ಹಿಂದೆ} other{{hours} ಗಂಟೆಗಳ ಹಿಂದೆ}}",
+  "minutesFuture": "{minutes, plural, =1{{minutes} ನಿಮಿಷದಲ್ಲಿ} other{{minutes} ನಿಮಿಷಗಳಲ್ಲಿ}}",
+  "minutesPast": "{minutes, plural, =1{{minutes} ನಿಮಿಷದ ಹಿಂದೆ} other{{minutes} ನಿಮಿಷಗಳ ಹಿಂದೆ}}",
+  "secondsFuture": "{seconds, plural, =1{{seconds} ಸೆಕೆಂಡ್‌ನಲ್ಲಿ} other{{seconds} ಸೆಕೆಂಡ್‌ಗಳಲ್ಲಿ}}",
+  "secondsPast": "{seconds, plural, =1{{seconds} ಸೆಕೆಂಡ್ ಹಿಂದೆ} other{{seconds} ಸೆಕೆಂಡುಗಳ ಹಿಂದೆ}}",
+  "now": "ಈಗ"
+}

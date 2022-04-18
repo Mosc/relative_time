@@ -1,0 +1,20 @@
+{
+  "@@locale": "ne",
+  "yearsFuture": "{years, plural, =1{{years} वर्षमा} other{{years} वर्षमा}}",
+  "yearsPast": "{years, plural, =1{{years} वर्ष अघि} other{{years} वर्ष अघि}}",
+  "quartersFuture": "{quarters, plural, =1{+{quarters} सत्रमा} other{{quarters}सत्रमा}}",
+  "quartersPast": "{quarters, plural, =1{{quarters}सत्र अघि} other{{quarters}सत्र अघि}}",
+  "monthsFuture": "{months, plural, =1{{months} महिनामा} other{{months} महिनामा}}",
+  "monthsPast": "{months, plural, =1{{months} महिना पहिले} other{{months} महिना पहिले}}",
+  "weeksFuture": "{weeks, plural, =1{{weeks} हप्तामा} other{{weeks} हप्तामा}}",
+  "weeksPast": "{weeks, plural, =1{{weeks} हप्ता पहिले} other{{weeks} हप्ता पहिले}}",
+  "daysFuture": "{days, plural, =1{{days} दिनमा} other{{days} दिनमा}}",
+  "daysPast": "{days, plural, =1{{days} दिन पहिले} other{{days} दिन पहिले}}",
+  "hoursFuture": "{hours, plural, =1{{hours} घण्टामा} other{{hours} घण्टामा}}",
+  "hoursPast": "{hours, plural, =1{{hours} घण्टा पहिले} other{{hours} घण्टा पहिले}}",
+  "minutesFuture": "{minutes, plural, =1{{minutes} मिनेटमा} other{{minutes} मिनेटमा}}",
+  "minutesPast": "{minutes, plural, =1{{minutes} मिनेट पहिले} other{{minutes} मिनेट पहिले}}",
+  "secondsFuture": "{seconds, plural, =1{{seconds} सेकेन्डमा} other{{seconds} सेकेन्डमा}}",
+  "secondsPast": "{seconds, plural, =1{{seconds} सेकेन्ड पहिले} other{{seconds} सेकेन्ड पहिले}}",
+  "now": "अहिले"
+}

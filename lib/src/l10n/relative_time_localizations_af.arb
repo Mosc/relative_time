@@ -1,0 +1,20 @@
+{
+  "@@locale": "af",
+  "yearsFuture": "{years, plural, =1{oor {years} jaar} other{oor {years} jaar}}",
+  "yearsPast": "{years, plural, =1{{years} jaar gelede} other{{years} jaar gelede}}",
+  "quartersFuture": "{quarters, plural, =1{oor {quarters} kwartaal} other{oor {quarters} kwartale}}",
+  "quartersPast": "{quarters, plural, =1{{quarters} kwartaal gelede} other{{quarters} kwartale gelede}}",
+  "monthsFuture": "{months, plural, =1{oor {months} maand} other{oor {months} maande}}",
+  "monthsPast": "{months, plural, =1{{months} maand gelede} other{{months} maande gelede}}",
+  "weeksFuture": "{weeks, plural, =1{oor {weeks} week} other{oor {weeks} weke}}",
+  "weeksPast": "{weeks, plural, =1{{weeks} week gelede} other{{weeks} weke gelede}}",
+  "daysFuture": "{days, plural, =1{oor {days} dag} other{oor {days} dae}}",
+  "daysPast": "{days, plural, =1{{days} dag gelede} other{{days} dae gelede}}",
+  "hoursFuture": "{hours, plural, =1{oor {hours} uur} other{oor {hours} uur}}",
+  "hoursPast": "{hours, plural, =1{{hours} uur gelede} other{{hours} uur gelede}}",
+  "minutesFuture": "{minutes, plural, =1{oor {minutes} minuut} other{oor {minutes} minute}}",
+  "minutesPast": "{minutes, plural, =1{{minutes} minuut gelede} other{{minutes} minute gelede}}",
+  "secondsFuture": "{seconds, plural, =1{oor {seconds} sekonde} other{oor {seconds} sekondes}}",
+  "secondsPast": "{seconds, plural, =1{{seconds} sekonde gelede} other{{seconds} sekondes gelede}}",
+  "now": "nou"
+}

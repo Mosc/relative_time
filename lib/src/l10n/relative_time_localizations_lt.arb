@@ -1,0 +1,20 @@
+{
+  "@@locale": "lt",
+  "yearsFuture": "{years, plural, =1{po {years} metų} few{po {years} metų} many{po {years} metų} other{po {years} metų}}",
+  "yearsPast": "{years, plural, =1{prieš {years} metus} few{prieš {years} metus} many{prieš {years} metų} other{prieš {years} metų}}",
+  "quartersFuture": "{quarters, plural, =1{po {quarters} ketvirčio} few{po {quarters} ketvirčių} many{po {quarters} ketvirčio} other{po {quarters} ketvirčių}}",
+  "quartersPast": "{quarters, plural, =1{prieš {quarters} ketvirtį} few{prieš {quarters} ketvirčius} many{prieš {quarters} ketvirčio} other{prieš {quarters} ketvirčių}}",
+  "monthsFuture": "{months, plural, =1{po {months} mėnesio} few{po {months} mėnesių} many{po {months} mėnesio} other{po {months} mėnesių}}",
+  "monthsPast": "{months, plural, =1{prieš {months} mėnesį} few{prieš {months} mėnesius} many{prieš {months} mėnesio} other{prieš {months} mėnesių}}",
+  "weeksFuture": "{weeks, plural, =1{po {weeks} savaitės} few{po {weeks} savaičių} many{po {weeks} savaitės} other{po {weeks} savaičių}}",
+  "weeksPast": "{weeks, plural, =1{prieš {weeks} savaitę} few{prieš {weeks} savaites} many{prieš {weeks} savaitės} other{prieš {weeks} savaičių}}",
+  "daysFuture": "{days, plural, =1{po {days} dienos} few{po {days} dienų} many{po {days} dienos} other{po {days} dienų}}",
+  "daysPast": "{days, plural, =1{prieš {days} dieną} few{prieš {days} dienas} many{prieš {days} dienos} other{prieš {days} dienų}}",
+  "hoursFuture": "{hours, plural, =1{po {hours} valandos} few{po {hours} valandų} many{po {hours} valandos} other{po {hours} valandų}}",
+  "hoursPast": "{hours, plural, =1{prieš {hours} valandą} few{prieš {hours} valandas} many{prieš {hours} valandos} other{prieš {hours} valandų}}",
+  "minutesFuture": "{minutes, plural, =1{po {minutes} minutės} few{po {minutes} minučių} many{po {minutes} minutės} other{po {minutes} minučių}}",
+  "minutesPast": "{minutes, plural, =1{prieš {minutes} minutę} few{prieš {minutes} minutes} many{prieš {minutes} minutės} other{prieš {minutes} minučių}}",
+  "secondsFuture": "{seconds, plural, =1{po {seconds} sekundės} few{po {seconds} sekundžių} many{po {seconds} sekundės} other{po {seconds} sekundžių}}",
+  "secondsPast": "{seconds, plural, =1{prieš {seconds} sekundę} few{prieš {seconds} sekundes} many{prieš {seconds} sekundės} other{prieš {seconds} sekundžių}}",
+  "now": "dabar"
+}

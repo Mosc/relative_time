@@ -1,0 +1,20 @@
+{
+  "@@locale": "is",
+  "yearsFuture": "{years, plural, =1{eftir {years} ár} other{eftir {years} ár}}",
+  "yearsPast": "{years, plural, =1{fyrir {years} ári} other{fyrir {years} árum}}",
+  "quartersFuture": "{quarters, plural, =1{eftir {quarters} ársfjórðung} other{eftir {quarters} ársfjórðunga}}",
+  "quartersPast": "{quarters, plural, =1{fyrir {quarters} ársfjórðungi} other{fyrir {quarters} ársfjórðungum}}",
+  "monthsFuture": "{months, plural, =1{eftir {months} mánuð} other{eftir {months} mánuði}}",
+  "monthsPast": "{months, plural, =1{fyrir {months} mánuði} other{fyrir {months} mánuðum}}",
+  "weeksFuture": "{weeks, plural, =1{eftir {weeks} viku} other{eftir {weeks} vikur}}",
+  "weeksPast": "{weeks, plural, =1{fyrir {weeks} viku} other{fyrir {weeks} vikum}}",
+  "daysFuture": "{days, plural, =1{eftir {days} dag} other{eftir {days} daga}}",
+  "daysPast": "{days, plural, =1{fyrir {days} degi} other{fyrir {days} dögum}}",
+  "hoursFuture": "{hours, plural, =1{eftir {hours} klukkustund} other{eftir {hours} klukkustundir}}",
+  "hoursPast": "{hours, plural, =1{fyrir {hours} klukkustund} other{fyrir {hours} klukkustundum}}",
+  "minutesFuture": "{minutes, plural, =1{eftir {minutes} mínútu} other{eftir {minutes} mínútur}}",
+  "minutesPast": "{minutes, plural, =1{fyrir {minutes} mínútu} other{fyrir {minutes} mínútum}}",
+  "secondsFuture": "{seconds, plural, =1{eftir {seconds} sekúndu} other{eftir {seconds} sekúndur}}",
+  "secondsPast": "{seconds, plural, =1{fyrir {seconds} sekúndu} other{fyrir {seconds} sekúndum}}",
+  "now": "núna"
+}

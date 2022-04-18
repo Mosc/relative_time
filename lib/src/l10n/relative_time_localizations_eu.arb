@@ -1,0 +1,20 @@
+{
+  "@@locale": "eu",
+  "yearsFuture": "{years, plural, =1{{years} urte barru} other{{years} urte barru}}",
+  "yearsPast": "{years, plural, =1{Duela {years} urte} other{Duela {years} urte}}",
+  "quartersFuture": "{quarters, plural, =1{{quarters} hiruhileko barru} other{{quarters} hiruhileko barru}}",
+  "quartersPast": "{quarters, plural, =1{Duela {quarters} hiruhileko} other{Duela {quarters} hiruhileko}}",
+  "monthsFuture": "{months, plural, =1{{months} hilabete barru} other{{months} hilabete barru}}",
+  "monthsPast": "{months, plural, =1{Duela {months} hilabete} other{Duela {months} hilabete}}",
+  "weeksFuture": "{weeks, plural, =1{{weeks} aste barru} other{{weeks} aste barru}}",
+  "weeksPast": "{weeks, plural, =1{Duela {weeks} aste} other{Duela {weeks} aste}}",
+  "daysFuture": "{days, plural, =1{{days} egun barru} other{{days} egun barru}}",
+  "daysPast": "{days, plural, =1{Duela {days} egun} other{Duela {days} egun}}",
+  "hoursFuture": "{hours, plural, =1{{hours} ordu barru} other{{hours} ordu barru}}",
+  "hoursPast": "{hours, plural, =1{Duela {hours} ordu} other{Duela {hours} ordu}}",
+  "minutesFuture": "{minutes, plural, =1{{minutes} minutu barru} other{{minutes} minutu barru}}",
+  "minutesPast": "{minutes, plural, =1{Duela {minutes} minutu} other{Duela {minutes} minutu}}",
+  "secondsFuture": "{seconds, plural, =1{{seconds} segundo barru} other{{seconds} segundo barru}}",
+  "secondsPast": "{seconds, plural, =1{Duela {seconds} segundo} other{Duela {seconds} segundo}}",
+  "now": "orain"
+}
