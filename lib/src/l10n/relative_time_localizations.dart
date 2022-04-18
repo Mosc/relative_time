@@ -1,4 +1,3 @@
-
 import 'dart:async';
 
 import 'package:flutter/foundation.dart';
@@ -171,15 +170,18 @@ import 'relative_time_localizations_zu.dart';
 /// be consistent with the languages listed in the RelativeTimeLocalizations.supportedLocales
 /// property.
 abstract class RelativeTimeLocalizations {
-  RelativeTimeLocalizations(String locale) : localeName = intl.Intl.canonicalizedLocale(locale.toString());
+  RelativeTimeLocalizations(String locale)
+      : localeName = intl.Intl.canonicalizedLocale(locale.toString());
 
   final String localeName;
 
   static RelativeTimeLocalizations of(BuildContext context) {
-    return Localizations.of<RelativeTimeLocalizations>(context, RelativeTimeLocalizations)!;
+    return Localizations.of<RelativeTimeLocalizations>(
+        context, RelativeTimeLocalizations)!;
   }
 
-  static const LocalizationsDelegate<RelativeTimeLocalizations> delegate = _RelativeTimeLocalizationsDelegate();
+  static const LocalizationsDelegate<RelativeTimeLocalizations> delegate =
+      _RelativeTimeLocalizationsDelegate();
 
   /// A list of this localizations delegate along with the default localizations
   /// delegates.
@@ -191,7 +193,8 @@ abstract class RelativeTimeLocalizations {
   /// Additional delegates can be added by appending to this list in
   /// MaterialApp. This list does not have to be used at all if a custom list
   /// of delegates is preferred or required.
-  static const List<LocalizationsDelegate<dynamic>> localizationsDelegates = <LocalizationsDelegate<dynamic>>[
+  static const List<LocalizationsDelegate<dynamic>> localizationsDelegates =
+      <LocalizationsDelegate<dynamic>>[
     delegate,
     GlobalMaterialLocalizations.delegate,
     GlobalCupertinoLocalizations.delegate,
@@ -300,9 +303,11 @@ abstract class RelativeTimeLocalizations {
     Locale('so'),
     Locale('sq'),
     Locale('sr'),
-    Locale.fromSubtags(languageCode: 'sr', countryCode: 'BA', scriptCode: 'Cyrl'),
+    Locale.fromSubtags(
+        languageCode: 'sr', countryCode: 'BA', scriptCode: 'Cyrl'),
     Locale.fromSubtags(languageCode: 'sr', scriptCode: 'Latn'),
-    Locale.fromSubtags(languageCode: 'sr', countryCode: 'BA', scriptCode: 'Latn'),
+    Locale.fromSubtags(
+        languageCode: 'sr', countryCode: 'BA', scriptCode: 'Latn'),
     Locale('sv'),
     Locale('sw'),
     Locale('ta'),
@@ -325,11 +330,15 @@ abstract class RelativeTimeLocalizations {
     Locale('yue'),
     Locale.fromSubtags(languageCode: 'yue', scriptCode: 'Hans'),
     Locale('zh'),
-    Locale.fromSubtags(languageCode: 'zh', countryCode: 'HK', scriptCode: 'Hans'),
-    Locale.fromSubtags(languageCode: 'zh', countryCode: 'MO', scriptCode: 'Hans'),
-    Locale.fromSubtags(languageCode: 'zh', countryCode: 'SG', scriptCode: 'Hans'),
+    Locale.fromSubtags(
+        languageCode: 'zh', countryCode: 'HK', scriptCode: 'Hans'),
+    Locale.fromSubtags(
+        languageCode: 'zh', countryCode: 'MO', scriptCode: 'Hans'),
+    Locale.fromSubtags(
+        languageCode: 'zh', countryCode: 'SG', scriptCode: 'Hans'),
     Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hant'),
-    Locale.fromSubtags(languageCode: 'zh', countryCode: 'HK', scriptCode: 'Hant'),
+    Locale.fromSubtags(
+        languageCode: 'zh', countryCode: 'HK', scriptCode: 'Hant'),
     Locale('zu')
   ];
 
@@ -436,238 +445,496 @@ abstract class RelativeTimeLocalizations {
   String get now;
 }
 
-class _RelativeTimeLocalizationsDelegate extends LocalizationsDelegate<RelativeTimeLocalizations> {
+class _RelativeTimeLocalizationsDelegate
+    extends LocalizationsDelegate<RelativeTimeLocalizations> {
   const _RelativeTimeLocalizationsDelegate();
 
   @override
   Future<RelativeTimeLocalizations> load(Locale locale) {
-    return SynchronousFuture<RelativeTimeLocalizations>(lookupRelativeTimeLocalizations(locale));
+    return SynchronousFuture<RelativeTimeLocalizations>(
+        lookupRelativeTimeLocalizations(locale));
   }
 
   @override
-  bool isSupported(Locale locale) => <String>['af', 'am', 'ar', 'as', 'ast', 'az', 'be', 'bg', 'bn', 'br', 'bs', 'ca', 'ccp', 'ce', 'chr', 'cs', 'cy', 'da', 'de', 'dsb', 'ee', 'el', 'en', 'es', 'et', 'eu', 'fa', 'ff', 'fi', 'fil', 'fo', 'fr', 'fy', 'ga', 'gd', 'gl', 'gu', 'ha', 'he', 'hi', 'hr', 'hsb', 'hu', 'hy', 'ia', 'id', 'is', 'it', 'ja', 'jv', 'ka', 'kab', 'kea', 'kgp', 'kk', 'km', 'kn', 'ko', 'kok', 'ky', 'lo', 'lt', 'lv', 'mk', 'ml', 'mn', 'mr', 'ms', 'mt', 'my', 'ne', 'nl', 'no', 'or', 'pa', 'pcm', 'pl', 'ps', 'pt', 'qu', 'ro', 'ru', 'sah', 'sc', 'sd', 'se', 'si', 'sk', 'sl', 'so', 'sq', 'sr', 'sv', 'sw', 'ta', 'te', 'tg', 'th', 'ti', 'tk', 'to', 'tr', 'tt', 'uk', 'ur', 'uz', 'vi', 'wo', 'yrl', 'yue', 'zh', 'zu'].contains(locale.languageCode);
+  bool isSupported(Locale locale) => <String>[
+        'af',
+        'am',
+        'ar',
+        'as',
+        'ast',
+        'az',
+        'be',
+        'bg',
+        'bn',
+        'br',
+        'bs',
+        'ca',
+        'ccp',
+        'ce',
+        'chr',
+        'cs',
+        'cy',
+        'da',
+        'de',
+        'dsb',
+        'ee',
+        'el',
+        'en',
+        'es',
+        'et',
+        'eu',
+        'fa',
+        'ff',
+        'fi',
+        'fil',
+        'fo',
+        'fr',
+        'fy',
+        'ga',
+        'gd',
+        'gl',
+        'gu',
+        'ha',
+        'he',
+        'hi',
+        'hr',
+        'hsb',
+        'hu',
+        'hy',
+        'ia',
+        'id',
+        'is',
+        'it',
+        'ja',
+        'jv',
+        'ka',
+        'kab',
+        'kea',
+        'kgp',
+        'kk',
+        'km',
+        'kn',
+        'ko',
+        'kok',
+        'ky',
+        'lo',
+        'lt',
+        'lv',
+        'mk',
+        'ml',
+        'mn',
+        'mr',
+        'ms',
+        'mt',
+        'my',
+        'ne',
+        'nl',
+        'no',
+        'or',
+        'pa',
+        'pcm',
+        'pl',
+        'ps',
+        'pt',
+        'qu',
+        'ro',
+        'ru',
+        'sah',
+        'sc',
+        'sd',
+        'se',
+        'si',
+        'sk',
+        'sl',
+        'so',
+        'sq',
+        'sr',
+        'sv',
+        'sw',
+        'ta',
+        'te',
+        'tg',
+        'th',
+        'ti',
+        'tk',
+        'to',
+        'tr',
+        'tt',
+        'uk',
+        'ur',
+        'uz',
+        'vi',
+        'wo',
+        'yrl',
+        'yue',
+        'zh',
+        'zu'
+      ].contains(locale.languageCode);
 
   @override
   bool shouldReload(_RelativeTimeLocalizationsDelegate old) => false;
 }
 
 RelativeTimeLocalizations lookupRelativeTimeLocalizations(Locale locale) {
-    // Lookup logic when language+script+country codes are specified.
+  // Lookup logic when language+script+country codes are specified.
   switch (locale.toString()) {
-    case 'sr_Cyrl_BA': return RelativeTimeLocalizationsSrCyrlBa();
-        case 'sr_Latn_BA': return RelativeTimeLocalizationsSrLatnBa();
-        case 'zh_Hans_HK': return RelativeTimeLocalizationsZhHansHk();
-        case 'zh_Hans_MO': return RelativeTimeLocalizationsZhHansMo();
-        case 'zh_Hans_SG': return RelativeTimeLocalizationsZhHansSg();
-        case 'zh_Hant_HK': return RelativeTimeLocalizationsZhHantHk();
+    case 'sr_Cyrl_BA':
+      return RelativeTimeLocalizationsSrCyrlBa();
+    case 'sr_Latn_BA':
+      return RelativeTimeLocalizationsSrLatnBa();
+    case 'zh_Hans_HK':
+      return RelativeTimeLocalizationsZhHansHk();
+    case 'zh_Hans_MO':
+      return RelativeTimeLocalizationsZhHansMo();
+    case 'zh_Hans_SG':
+      return RelativeTimeLocalizationsZhHansSg();
+    case 'zh_Hant_HK':
+      return RelativeTimeLocalizationsZhHantHk();
   }
 
   // Lookup logic when language+script codes are specified.
   switch (locale.languageCode) {
-    case 'be': {
-  switch (locale.scriptCode) {
-    case 'tarask': return RelativeTimeLocalizationsBeTarask();
-   }
-  break;
-   }
-      case 'bs': {
-  switch (locale.scriptCode) {
-    case 'Cyrl': return RelativeTimeLocalizationsBsCyrl();
-   }
-  break;
-   }
-      case 'ff': {
-  switch (locale.scriptCode) {
-    case 'Adlm': return RelativeTimeLocalizationsFfAdlm();
-   }
-  break;
-   }
-      case 'hi': {
-  switch (locale.scriptCode) {
-    case 'Latn': return RelativeTimeLocalizationsHiLatn();
-   }
-  break;
-   }
-      case 'sr': {
-  switch (locale.scriptCode) {
-    case 'Latn': return RelativeTimeLocalizationsSrLatn();
-   }
-  break;
-   }
-      case 'uz': {
-  switch (locale.scriptCode) {
-    case 'Cyrl': return RelativeTimeLocalizationsUzCyrl();
-   }
-  break;
-   }
-      case 'yue': {
-  switch (locale.scriptCode) {
-    case 'Hans': return RelativeTimeLocalizationsYueHans();
-   }
-  break;
-   }
-      case 'zh': {
-  switch (locale.scriptCode) {
-    case 'Hant': return RelativeTimeLocalizationsZhHant();
-   }
-  break;
-   }
+    case 'be':
+      {
+        switch (locale.scriptCode) {
+          case 'tarask':
+            return RelativeTimeLocalizationsBeTarask();
+        }
+        break;
+      }
+    case 'bs':
+      {
+        switch (locale.scriptCode) {
+          case 'Cyrl':
+            return RelativeTimeLocalizationsBsCyrl();
+        }
+        break;
+      }
+    case 'ff':
+      {
+        switch (locale.scriptCode) {
+          case 'Adlm':
+            return RelativeTimeLocalizationsFfAdlm();
+        }
+        break;
+      }
+    case 'hi':
+      {
+        switch (locale.scriptCode) {
+          case 'Latn':
+            return RelativeTimeLocalizationsHiLatn();
+        }
+        break;
+      }
+    case 'sr':
+      {
+        switch (locale.scriptCode) {
+          case 'Latn':
+            return RelativeTimeLocalizationsSrLatn();
+        }
+        break;
+      }
+    case 'uz':
+      {
+        switch (locale.scriptCode) {
+          case 'Cyrl':
+            return RelativeTimeLocalizationsUzCyrl();
+        }
+        break;
+      }
+    case 'yue':
+      {
+        switch (locale.scriptCode) {
+          case 'Hans':
+            return RelativeTimeLocalizationsYueHans();
+        }
+        break;
+      }
+    case 'zh':
+      {
+        switch (locale.scriptCode) {
+          case 'Hant':
+            return RelativeTimeLocalizationsZhHant();
+        }
+        break;
+      }
   }
 
   // Lookup logic when language+country codes are specified.
   switch (locale.languageCode) {
-    case 'es': {
-  switch (locale.countryCode) {
-    case 'MX': return RelativeTimeLocalizationsEsMx();
-   }
-  break;
-   }
-    case 'ps': {
-  switch (locale.countryCode) {
-    case 'PK': return RelativeTimeLocalizationsPsPk();
-   }
-  break;
-   }
-    case 'pt': {
-  switch (locale.countryCode) {
-    case 'PT': return RelativeTimeLocalizationsPtPt();
-   }
-  break;
-   }
-    case 'se': {
-  switch (locale.countryCode) {
-    case 'FI': return RelativeTimeLocalizationsSeFi();
-   }
-  break;
-   }
-    case 'ur': {
-  switch (locale.countryCode) {
-    case 'IN': return RelativeTimeLocalizationsUrIn();
-   }
-  break;
-   }
+    case 'es':
+      {
+        switch (locale.countryCode) {
+          case 'MX':
+            return RelativeTimeLocalizationsEsMx();
+        }
+        break;
+      }
+    case 'ps':
+      {
+        switch (locale.countryCode) {
+          case 'PK':
+            return RelativeTimeLocalizationsPsPk();
+        }
+        break;
+      }
+    case 'pt':
+      {
+        switch (locale.countryCode) {
+          case 'PT':
+            return RelativeTimeLocalizationsPtPt();
+        }
+        break;
+      }
+    case 'se':
+      {
+        switch (locale.countryCode) {
+          case 'FI':
+            return RelativeTimeLocalizationsSeFi();
+        }
+        break;
+      }
+    case 'ur':
+      {
+        switch (locale.countryCode) {
+          case 'IN':
+            return RelativeTimeLocalizationsUrIn();
+        }
+        break;
+      }
   }
 
   // Lookup logic when only language code is specified.
   switch (locale.languageCode) {
-    case 'af': return RelativeTimeLocalizationsAf();
-    case 'am': return RelativeTimeLocalizationsAm();
-    case 'ar': return RelativeTimeLocalizationsAr();
-    case 'as': return RelativeTimeLocalizationsAs();
-    case 'ast': return RelativeTimeLocalizationsAst();
-    case 'az': return RelativeTimeLocalizationsAz();
-    case 'be': return RelativeTimeLocalizationsBe();
-    case 'bg': return RelativeTimeLocalizationsBg();
-    case 'bn': return RelativeTimeLocalizationsBn();
-    case 'br': return RelativeTimeLocalizationsBr();
-    case 'bs': return RelativeTimeLocalizationsBs();
-    case 'ca': return RelativeTimeLocalizationsCa();
-    case 'ccp': return RelativeTimeLocalizationsCcp();
-    case 'ce': return RelativeTimeLocalizationsCe();
-    case 'chr': return RelativeTimeLocalizationsChr();
-    case 'cs': return RelativeTimeLocalizationsCs();
-    case 'cy': return RelativeTimeLocalizationsCy();
-    case 'da': return RelativeTimeLocalizationsDa();
-    case 'de': return RelativeTimeLocalizationsDe();
-    case 'dsb': return RelativeTimeLocalizationsDsb();
-    case 'ee': return RelativeTimeLocalizationsEe();
-    case 'el': return RelativeTimeLocalizationsEl();
-    case 'en': return RelativeTimeLocalizationsEn();
-    case 'es': return RelativeTimeLocalizationsEs();
-    case 'et': return RelativeTimeLocalizationsEt();
-    case 'eu': return RelativeTimeLocalizationsEu();
-    case 'fa': return RelativeTimeLocalizationsFa();
-    case 'ff': return RelativeTimeLocalizationsFf();
-    case 'fi': return RelativeTimeLocalizationsFi();
-    case 'fil': return RelativeTimeLocalizationsFil();
-    case 'fo': return RelativeTimeLocalizationsFo();
-    case 'fr': return RelativeTimeLocalizationsFr();
-    case 'fy': return RelativeTimeLocalizationsFy();
-    case 'ga': return RelativeTimeLocalizationsGa();
-    case 'gd': return RelativeTimeLocalizationsGd();
-    case 'gl': return RelativeTimeLocalizationsGl();
-    case 'gu': return RelativeTimeLocalizationsGu();
-    case 'ha': return RelativeTimeLocalizationsHa();
-    case 'he': return RelativeTimeLocalizationsHe();
-    case 'hi': return RelativeTimeLocalizationsHi();
-    case 'hr': return RelativeTimeLocalizationsHr();
-    case 'hsb': return RelativeTimeLocalizationsHsb();
-    case 'hu': return RelativeTimeLocalizationsHu();
-    case 'hy': return RelativeTimeLocalizationsHy();
-    case 'ia': return RelativeTimeLocalizationsIa();
-    case 'id': return RelativeTimeLocalizationsId();
-    case 'is': return RelativeTimeLocalizationsIs();
-    case 'it': return RelativeTimeLocalizationsIt();
-    case 'ja': return RelativeTimeLocalizationsJa();
-    case 'jv': return RelativeTimeLocalizationsJv();
-    case 'ka': return RelativeTimeLocalizationsKa();
-    case 'kab': return RelativeTimeLocalizationsKab();
-    case 'kea': return RelativeTimeLocalizationsKea();
-    case 'kgp': return RelativeTimeLocalizationsKgp();
-    case 'kk': return RelativeTimeLocalizationsKk();
-    case 'km': return RelativeTimeLocalizationsKm();
-    case 'kn': return RelativeTimeLocalizationsKn();
-    case 'ko': return RelativeTimeLocalizationsKo();
-    case 'kok': return RelativeTimeLocalizationsKok();
-    case 'ky': return RelativeTimeLocalizationsKy();
-    case 'lo': return RelativeTimeLocalizationsLo();
-    case 'lt': return RelativeTimeLocalizationsLt();
-    case 'lv': return RelativeTimeLocalizationsLv();
-    case 'mk': return RelativeTimeLocalizationsMk();
-    case 'ml': return RelativeTimeLocalizationsMl();
-    case 'mn': return RelativeTimeLocalizationsMn();
-    case 'mr': return RelativeTimeLocalizationsMr();
-    case 'ms': return RelativeTimeLocalizationsMs();
-    case 'mt': return RelativeTimeLocalizationsMt();
-    case 'my': return RelativeTimeLocalizationsMy();
-    case 'ne': return RelativeTimeLocalizationsNe();
-    case 'nl': return RelativeTimeLocalizationsNl();
-    case 'no': return RelativeTimeLocalizationsNo();
-    case 'or': return RelativeTimeLocalizationsOr();
-    case 'pa': return RelativeTimeLocalizationsPa();
-    case 'pcm': return RelativeTimeLocalizationsPcm();
-    case 'pl': return RelativeTimeLocalizationsPl();
-    case 'ps': return RelativeTimeLocalizationsPs();
-    case 'pt': return RelativeTimeLocalizationsPt();
-    case 'qu': return RelativeTimeLocalizationsQu();
-    case 'ro': return RelativeTimeLocalizationsRo();
-    case 'ru': return RelativeTimeLocalizationsRu();
-    case 'sah': return RelativeTimeLocalizationsSah();
-    case 'sc': return RelativeTimeLocalizationsSc();
-    case 'sd': return RelativeTimeLocalizationsSd();
-    case 'se': return RelativeTimeLocalizationsSe();
-    case 'si': return RelativeTimeLocalizationsSi();
-    case 'sk': return RelativeTimeLocalizationsSk();
-    case 'sl': return RelativeTimeLocalizationsSl();
-    case 'so': return RelativeTimeLocalizationsSo();
-    case 'sq': return RelativeTimeLocalizationsSq();
-    case 'sr': return RelativeTimeLocalizationsSr();
-    case 'sv': return RelativeTimeLocalizationsSv();
-    case 'sw': return RelativeTimeLocalizationsSw();
-    case 'ta': return RelativeTimeLocalizationsTa();
-    case 'te': return RelativeTimeLocalizationsTe();
-    case 'tg': return RelativeTimeLocalizationsTg();
-    case 'th': return RelativeTimeLocalizationsTh();
-    case 'ti': return RelativeTimeLocalizationsTi();
-    case 'tk': return RelativeTimeLocalizationsTk();
-    case 'to': return RelativeTimeLocalizationsTo();
-    case 'tr': return RelativeTimeLocalizationsTr();
-    case 'tt': return RelativeTimeLocalizationsTt();
-    case 'uk': return RelativeTimeLocalizationsUk();
-    case 'ur': return RelativeTimeLocalizationsUr();
-    case 'uz': return RelativeTimeLocalizationsUz();
-    case 'vi': return RelativeTimeLocalizationsVi();
-    case 'wo': return RelativeTimeLocalizationsWo();
-    case 'yrl': return RelativeTimeLocalizationsYrl();
-    case 'yue': return RelativeTimeLocalizationsYue();
-    case 'zh': return RelativeTimeLocalizationsZh();
-    case 'zu': return RelativeTimeLocalizationsZu();
+    case 'af':
+      return RelativeTimeLocalizationsAf();
+    case 'am':
+      return RelativeTimeLocalizationsAm();
+    case 'ar':
+      return RelativeTimeLocalizationsAr();
+    case 'as':
+      return RelativeTimeLocalizationsAs();
+    case 'ast':
+      return RelativeTimeLocalizationsAst();
+    case 'az':
+      return RelativeTimeLocalizationsAz();
+    case 'be':
+      return RelativeTimeLocalizationsBe();
+    case 'bg':
+      return RelativeTimeLocalizationsBg();
+    case 'bn':
+      return RelativeTimeLocalizationsBn();
+    case 'br':
+      return RelativeTimeLocalizationsBr();
+    case 'bs':
+      return RelativeTimeLocalizationsBs();
+    case 'ca':
+      return RelativeTimeLocalizationsCa();
+    case 'ccp':
+      return RelativeTimeLocalizationsCcp();
+    case 'ce':
+      return RelativeTimeLocalizationsCe();
+    case 'chr':
+      return RelativeTimeLocalizationsChr();
+    case 'cs':
+      return RelativeTimeLocalizationsCs();
+    case 'cy':
+      return RelativeTimeLocalizationsCy();
+    case 'da':
+      return RelativeTimeLocalizationsDa();
+    case 'de':
+      return RelativeTimeLocalizationsDe();
+    case 'dsb':
+      return RelativeTimeLocalizationsDsb();
+    case 'ee':
+      return RelativeTimeLocalizationsEe();
+    case 'el':
+      return RelativeTimeLocalizationsEl();
+    case 'en':
+      return RelativeTimeLocalizationsEn();
+    case 'es':
+      return RelativeTimeLocalizationsEs();
+    case 'et':
+      return RelativeTimeLocalizationsEt();
+    case 'eu':
+      return RelativeTimeLocalizationsEu();
+    case 'fa':
+      return RelativeTimeLocalizationsFa();
+    case 'ff':
+      return RelativeTimeLocalizationsFf();
+    case 'fi':
+      return RelativeTimeLocalizationsFi();
+    case 'fil':
+      return RelativeTimeLocalizationsFil();
+    case 'fo':
+      return RelativeTimeLocalizationsFo();
+    case 'fr':
+      return RelativeTimeLocalizationsFr();
+    case 'fy':
+      return RelativeTimeLocalizationsFy();
+    case 'ga':
+      return RelativeTimeLocalizationsGa();
+    case 'gd':
+      return RelativeTimeLocalizationsGd();
+    case 'gl':
+      return RelativeTimeLocalizationsGl();
+    case 'gu':
+      return RelativeTimeLocalizationsGu();
+    case 'ha':
+      return RelativeTimeLocalizationsHa();
+    case 'he':
+      return RelativeTimeLocalizationsHe();
+    case 'hi':
+      return RelativeTimeLocalizationsHi();
+    case 'hr':
+      return RelativeTimeLocalizationsHr();
+    case 'hsb':
+      return RelativeTimeLocalizationsHsb();
+    case 'hu':
+      return RelativeTimeLocalizationsHu();
+    case 'hy':
+      return RelativeTimeLocalizationsHy();
+    case 'ia':
+      return RelativeTimeLocalizationsIa();
+    case 'id':
+      return RelativeTimeLocalizationsId();
+    case 'is':
+      return RelativeTimeLocalizationsIs();
+    case 'it':
+      return RelativeTimeLocalizationsIt();
+    case 'ja':
+      return RelativeTimeLocalizationsJa();
+    case 'jv':
+      return RelativeTimeLocalizationsJv();
+    case 'ka':
+      return RelativeTimeLocalizationsKa();
+    case 'kab':
+      return RelativeTimeLocalizationsKab();
+    case 'kea':
+      return RelativeTimeLocalizationsKea();
+    case 'kgp':
+      return RelativeTimeLocalizationsKgp();
+    case 'kk':
+      return RelativeTimeLocalizationsKk();
+    case 'km':
+      return RelativeTimeLocalizationsKm();
+    case 'kn':
+      return RelativeTimeLocalizationsKn();
+    case 'ko':
+      return RelativeTimeLocalizationsKo();
+    case 'kok':
+      return RelativeTimeLocalizationsKok();
+    case 'ky':
+      return RelativeTimeLocalizationsKy();
+    case 'lo':
+      return RelativeTimeLocalizationsLo();
+    case 'lt':
+      return RelativeTimeLocalizationsLt();
+    case 'lv':
+      return RelativeTimeLocalizationsLv();
+    case 'mk':
+      return RelativeTimeLocalizationsMk();
+    case 'ml':
+      return RelativeTimeLocalizationsMl();
+    case 'mn':
+      return RelativeTimeLocalizationsMn();
+    case 'mr':
+      return RelativeTimeLocalizationsMr();
+    case 'ms':
+      return RelativeTimeLocalizationsMs();
+    case 'mt':
+      return RelativeTimeLocalizationsMt();
+    case 'my':
+      return RelativeTimeLocalizationsMy();
+    case 'ne':
+      return RelativeTimeLocalizationsNe();
+    case 'nl':
+      return RelativeTimeLocalizationsNl();
+    case 'no':
+      return RelativeTimeLocalizationsNo();
+    case 'or':
+      return RelativeTimeLocalizationsOr();
+    case 'pa':
+      return RelativeTimeLocalizationsPa();
+    case 'pcm':
+      return RelativeTimeLocalizationsPcm();
+    case 'pl':
+      return RelativeTimeLocalizationsPl();
+    case 'ps':
+      return RelativeTimeLocalizationsPs();
+    case 'pt':
+      return RelativeTimeLocalizationsPt();
+    case 'qu':
+      return RelativeTimeLocalizationsQu();
+    case 'ro':
+      return RelativeTimeLocalizationsRo();
+    case 'ru':
+      return RelativeTimeLocalizationsRu();
+    case 'sah':
+      return RelativeTimeLocalizationsSah();
+    case 'sc':
+      return RelativeTimeLocalizationsSc();
+    case 'sd':
+      return RelativeTimeLocalizationsSd();
+    case 'se':
+      return RelativeTimeLocalizationsSe();
+    case 'si':
+      return RelativeTimeLocalizationsSi();
+    case 'sk':
+      return RelativeTimeLocalizationsSk();
+    case 'sl':
+      return RelativeTimeLocalizationsSl();
+    case 'so':
+      return RelativeTimeLocalizationsSo();
+    case 'sq':
+      return RelativeTimeLocalizationsSq();
+    case 'sr':
+      return RelativeTimeLocalizationsSr();
+    case 'sv':
+      return RelativeTimeLocalizationsSv();
+    case 'sw':
+      return RelativeTimeLocalizationsSw();
+    case 'ta':
+      return RelativeTimeLocalizationsTa();
+    case 'te':
+      return RelativeTimeLocalizationsTe();
+    case 'tg':
+      return RelativeTimeLocalizationsTg();
+    case 'th':
+      return RelativeTimeLocalizationsTh();
+    case 'ti':
+      return RelativeTimeLocalizationsTi();
+    case 'tk':
+      return RelativeTimeLocalizationsTk();
+    case 'to':
+      return RelativeTimeLocalizationsTo();
+    case 'tr':
+      return RelativeTimeLocalizationsTr();
+    case 'tt':
+      return RelativeTimeLocalizationsTt();
+    case 'uk':
+      return RelativeTimeLocalizationsUk();
+    case 'ur':
+      return RelativeTimeLocalizationsUr();
+    case 'uz':
+      return RelativeTimeLocalizationsUz();
+    case 'vi':
+      return RelativeTimeLocalizationsVi();
+    case 'wo':
+      return RelativeTimeLocalizationsWo();
+    case 'yrl':
+      return RelativeTimeLocalizationsYrl();
+    case 'yue':
+      return RelativeTimeLocalizationsYue();
+    case 'zh':
+      return RelativeTimeLocalizationsZh();
+    case 'zu':
+      return RelativeTimeLocalizationsZu();
   }
 
   throw FlutterError(
-    'RelativeTimeLocalizations.delegate failed to load unsupported locale "$locale". This is likely '
-    'an issue with the localizations generation tool. Please file an issue '
-    'on GitHub with a reproducible sample app and the gen-l10n configuration '
-    'that was used.'
-  );
+      'RelativeTimeLocalizations.delegate failed to load unsupported locale "$locale". This is likely '
+      'an issue with the localizations generation tool. Please file an issue '
+      'on GitHub with a reproducible sample app and the gen-l10n configuration '
+      'that was used.');
 }

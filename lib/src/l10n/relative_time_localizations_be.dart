@@ -1,5 +1,3 @@
-
-
 import 'package:intl/intl.dart' as intl;
 import 'relative_time_localizations.dart';
 
@@ -205,7 +203,7 @@ class RelativeTimeLocalizationsBe extends RelativeTimeLocalizations {
 
 /// The translations for Belarusian (`be_tarask`).
 class RelativeTimeLocalizationsBeTarask extends RelativeTimeLocalizationsBe {
-  RelativeTimeLocalizationsBeTarask(): super('be_tarask');
+  RelativeTimeLocalizationsBeTarask() : super('be_tarask');
 
   @override
   String quartersFuture(num quarters) {

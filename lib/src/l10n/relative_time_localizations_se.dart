@@ -1,5 +1,3 @@
-
-
 import 'package:intl/intl.dart' as intl;
 import 'relative_time_localizations.dart';
 
@@ -173,7 +171,7 @@ class RelativeTimeLocalizationsSe extends RelativeTimeLocalizations {
 
 /// The translations for Northern Sami, as used in Finland (`se_FI`).
 class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
-  RelativeTimeLocalizationsSeFi(): super('se_FI');
+  RelativeTimeLocalizationsSeFi() : super('se_FI');
 
   @override
   String yearsFuture(num years) {

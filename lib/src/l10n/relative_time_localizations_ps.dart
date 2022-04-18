@@ -1,5 +1,3 @@
-
-
 import 'package:intl/intl.dart' as intl;
 import 'relative_time_localizations.dart';
 
@@ -173,7 +171,7 @@ class RelativeTimeLocalizationsPs extends RelativeTimeLocalizations {
 
 /// The translations for Pushto Pashto, as used in Pakistan (`ps_PK`).
 class RelativeTimeLocalizationsPsPk extends RelativeTimeLocalizationsPs {
-  RelativeTimeLocalizationsPsPk(): super('ps_PK');
+  RelativeTimeLocalizationsPsPk() : super('ps_PK');
 
   @override
   String yearsFuture(num years) {

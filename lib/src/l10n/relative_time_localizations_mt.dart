@@ -1,5 +1,3 @@
-
-
 import 'package:intl/intl.dart' as intl;
 import 'relative_time_localizations.dart';
 
@@ -134,7 +132,7 @@ class RelativeTimeLocalizationsMt extends RelativeTimeLocalizations {
       locale: localeName,
       one: 'fi żmien siegħa oħra',
       few: 'fi żmien $hours sigħat',
-      many: 'fi żmien${hours} sigħat',
+      many: 'fi żmien$hours sigħat',
       other: 'fi żmien $hours sigħat',
     );
   }

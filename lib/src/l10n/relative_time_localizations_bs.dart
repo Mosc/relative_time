@@ -1,5 +1,3 @@
-
-
 import 'package:intl/intl.dart' as intl;
 import 'relative_time_localizations.dart';
 
@@ -189,7 +187,7 @@ class RelativeTimeLocalizationsBs extends RelativeTimeLocalizations {
 
 /// The translations for Bosnian, using the Cyrillic script (`bs_Cyrl`).
 class RelativeTimeLocalizationsBsCyrl extends RelativeTimeLocalizationsBs {
-  RelativeTimeLocalizationsBsCyrl(): super('bs_Cyrl');
+  RelativeTimeLocalizationsBsCyrl() : super('bs_Cyrl');
 
   @override
   String yearsFuture(num years) {

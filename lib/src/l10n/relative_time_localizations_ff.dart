@@ -1,5 +1,3 @@
-
-
 import 'package:intl/intl.dart' as intl;
 import 'relative_time_localizations.dart';
 
@@ -173,7 +171,7 @@ class RelativeTimeLocalizationsFf extends RelativeTimeLocalizations {
 
 /// The translations for Fulah, using the Adlam script (`ff_Adlm`).
 class RelativeTimeLocalizationsFfAdlm extends RelativeTimeLocalizationsFf {
-  RelativeTimeLocalizationsFfAdlm(): super('ff_Adlm');
+  RelativeTimeLocalizationsFfAdlm() : super('ff_Adlm');
 
   @override
   String yearsFuture(num years) {

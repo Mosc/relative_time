@@ -1,5 +1,3 @@
-
-
 import 'package:intl/intl.dart' as intl;
 import 'relative_time_localizations.dart';
 
@@ -157,7 +155,7 @@ class RelativeTimeLocalizationsYue extends RelativeTimeLocalizations {
 
 /// The translations for Yue Chinese Cantonese, using the Han script (`yue_Hans`).
 class RelativeTimeLocalizationsYueHans extends RelativeTimeLocalizationsYue {
-  RelativeTimeLocalizationsYueHans(): super('yue_Hans');
+  RelativeTimeLocalizationsYueHans() : super('yue_Hans');
 
   @override
   String yearsFuture(num years) {

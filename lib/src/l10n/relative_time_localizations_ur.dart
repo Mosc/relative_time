@@ -1,5 +1,3 @@
-
-
 import 'package:intl/intl.dart' as intl;
 import 'relative_time_localizations.dart';
 
@@ -173,7 +171,7 @@ class RelativeTimeLocalizationsUr extends RelativeTimeLocalizations {
 
 /// The translations for Urdu, as used in India (`ur_IN`).
 class RelativeTimeLocalizationsUrIn extends RelativeTimeLocalizationsUr {
-  RelativeTimeLocalizationsUrIn(): super('ur_IN');
+  RelativeTimeLocalizationsUrIn() : super('ur_IN');
 
   @override
   String yearsFuture(num years) {

@@ -1,5 +1,3 @@
-
-
 import 'package:intl/intl.dart' as intl;
 import 'relative_time_localizations.dart';
 
@@ -173,7 +171,7 @@ class RelativeTimeLocalizationsUz extends RelativeTimeLocalizations {
 
 /// The translations for Uzbek, using the Cyrillic script (`uz_Cyrl`).
 class RelativeTimeLocalizationsUzCyrl extends RelativeTimeLocalizationsUz {
-  RelativeTimeLocalizationsUzCyrl(): super('uz_Cyrl');
+  RelativeTimeLocalizationsUzCyrl() : super('uz_Cyrl');
 
   @override
   String yearsFuture(num years) {

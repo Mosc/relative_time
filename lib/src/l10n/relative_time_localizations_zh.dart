@@ -1,5 +1,3 @@
-
-
 import 'package:intl/intl.dart' as intl;
 import 'relative_time_localizations.dart';
 
@@ -157,7 +155,7 @@ class RelativeTimeLocalizationsZh extends RelativeTimeLocalizations {
 
 /// The translations for Chinese, as used in Hong Kong, using the Han script (`zh_Hans_HK`).
 class RelativeTimeLocalizationsZhHansHk extends RelativeTimeLocalizationsZh {
-  RelativeTimeLocalizationsZhHansHk(): super('zh_Hans_HK');
+  RelativeTimeLocalizationsZhHansHk() : super('zh_Hans_HK');
 
   @override
   String secondsFuture(num seconds) {
@@ -180,7 +178,7 @@ class RelativeTimeLocalizationsZhHansHk extends RelativeTimeLocalizationsZh {
 
 /// The translations for Chinese, as used in Macao, using the Han script (`zh_Hans_MO`).
 class RelativeTimeLocalizationsZhHansMo extends RelativeTimeLocalizationsZh {
-  RelativeTimeLocalizationsZhHansMo(): super('zh_Hans_MO');
+  RelativeTimeLocalizationsZhHansMo() : super('zh_Hans_MO');
 
   @override
   String secondsFuture(num seconds) {
@@ -203,7 +201,7 @@ class RelativeTimeLocalizationsZhHansMo extends RelativeTimeLocalizationsZh {
 
 /// The translations for Chinese, as used in Singapore, using the Han script (`zh_Hans_SG`).
 class RelativeTimeLocalizationsZhHansSg extends RelativeTimeLocalizationsZh {
-  RelativeTimeLocalizationsZhHansSg(): super('zh_Hans_SG');
+  RelativeTimeLocalizationsZhHansSg() : super('zh_Hans_SG');
 
   @override
   String secondsFuture(num seconds) {
@@ -226,7 +224,7 @@ class RelativeTimeLocalizationsZhHansSg extends RelativeTimeLocalizationsZh {
 
 /// The translations for Chinese, using the Han script (`zh_Hant`).
 class RelativeTimeLocalizationsZhHant extends RelativeTimeLocalizationsZh {
-  RelativeTimeLocalizationsZhHant(): super('zh_Hant');
+  RelativeTimeLocalizationsZhHant() : super('zh_Hant');
 
   @override
   String yearsFuture(num years) {
@@ -378,7 +376,7 @@ class RelativeTimeLocalizationsZhHant extends RelativeTimeLocalizationsZh {
 
 /// The translations for Chinese, as used in Hong Kong, using the Han script (`zh_Hant_HK`).
 class RelativeTimeLocalizationsZhHantHk extends RelativeTimeLocalizationsZh {
-  RelativeTimeLocalizationsZhHantHk(): super('zh_Hant_HK');
+  RelativeTimeLocalizationsZhHantHk() : super('zh_Hant_HK');
 
   @override
   String weeksFuture(num weeks) {

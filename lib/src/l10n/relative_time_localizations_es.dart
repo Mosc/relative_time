@@ -1,5 +1,3 @@
-
-
 import 'package:intl/intl.dart' as intl;
 import 'relative_time_localizations.dart';
 
@@ -173,7 +171,7 @@ class RelativeTimeLocalizationsEs extends RelativeTimeLocalizations {
 
 /// The translations for Spanish Castilian, as used in Mexico (`es_MX`).
 class RelativeTimeLocalizationsEsMx extends RelativeTimeLocalizationsEs {
-  RelativeTimeLocalizationsEsMx(): super('es_MX');
+  RelativeTimeLocalizationsEsMx() : super('es_MX');
 
   @override
   String quartersFuture(num quarters) {

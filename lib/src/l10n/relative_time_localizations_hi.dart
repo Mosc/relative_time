@@ -1,5 +1,3 @@
-
-
 import 'package:intl/intl.dart' as intl;
 import 'relative_time_localizations.dart';
 
@@ -173,7 +171,7 @@ class RelativeTimeLocalizationsHi extends RelativeTimeLocalizations {
 
 /// The translations for Hindi, using the Latin script (`hi_Latn`).
 class RelativeTimeLocalizationsHiLatn extends RelativeTimeLocalizationsHi {
-  RelativeTimeLocalizationsHiLatn(): super('hi_Latn');
+  RelativeTimeLocalizationsHiLatn() : super('hi_Latn');
 
   @override
   String yearsFuture(num years) {
