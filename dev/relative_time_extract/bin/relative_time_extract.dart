@@ -23,6 +23,11 @@ const Map<String, String> relativeTimePatternCountMapping = <String, String>{
   'two': '=2',
 };
 
+const Map<String, String> localeMapping = <String, String>{
+  // Flutter's gen-l10n expects be_TARASK in lowercase.
+  'be_TARASK': 'be_tarask',
+};
+
 const inputDir = 'input';
 
 const outputDir = '../../lib/src/l10n';
@@ -148,13 +153,11 @@ int _expectedEntries(String locale) =>
     allowedDateFieldTypes.length * 2 * (locale == templateLocale ? 2 : 1) + 1;
 
 void _writeArb(String locale, Map<String, dynamic> entries) {
-  // Flutter's gen-l10n expects be_TARASK in lowercase.
-  final String sanitizedLocale =
-      locale == 'be_TARASK' ? locale.toLowerCase() : locale;
-  final String arbFilename = 'relative_time_localizations_$sanitizedLocale.arb';
+  final String mappedLocale = localeMapping[locale] ?? locale;
+  final String arbFilename = 'relative_time_localizations_$mappedLocale.arb';
   final String arbContents = JsonEncoder.withIndent(' ' * 2).convert(
     <String, dynamic>{
-      '@@locale': sanitizedLocale,
+      '@@locale': mappedLocale,
       ...entries,
     },
   );
