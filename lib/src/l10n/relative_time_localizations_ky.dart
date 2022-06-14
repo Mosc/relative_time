@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsKy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'быйыл',
       one: '$years жылдан кийин',
       other: '$years жылдан кийин',
     );
@@ -20,6 +21,7 @@ class RelativeTimeLocalizationsKy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'быйыл',
       one: '$years жыл мурун',
       other: '$years жыл мурун',
     );
@@ -30,6 +32,7 @@ class RelativeTimeLocalizationsKy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'бул чейрек',
       one: '$quarters чейректен кийин',
       other: '$quarters чейректен кийин',
     );
@@ -40,6 +43,7 @@ class RelativeTimeLocalizationsKy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'бул чейрек',
       one: '$quarters чейрек мурун',
       other: '$quarters чейрек мурун',
     );
@@ -50,6 +54,7 @@ class RelativeTimeLocalizationsKy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'бул айда',
       one: '$months айдан кийин',
       other: '$months айдан кийин',
     );
@@ -60,6 +65,7 @@ class RelativeTimeLocalizationsKy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'бул айда',
       one: '$months ай мурун',
       other: '$months ай мурун',
     );
@@ -70,6 +76,7 @@ class RelativeTimeLocalizationsKy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'ушул аптада',
       one: '$weeks аптадан кийин',
       other: '$weeks аптадан кийин',
     );
@@ -80,6 +87,7 @@ class RelativeTimeLocalizationsKy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'ушул аптада',
       one: '$weeks апта мурун',
       other: '$weeks апта мурун',
     );
@@ -90,6 +98,7 @@ class RelativeTimeLocalizationsKy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'бүгүн',
       one: '$days күндөн кийин',
       other: '$days күндөн кийин',
     );
@@ -100,6 +109,7 @@ class RelativeTimeLocalizationsKy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'бүгүн',
       one: '$days күн мурун',
       other: '$days күн мурун',
     );
@@ -110,6 +120,7 @@ class RelativeTimeLocalizationsKy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'ушул саатта',
       one: '$hours сааттан кийин',
       other: '$hours сааттан кийин',
     );
@@ -120,6 +131,7 @@ class RelativeTimeLocalizationsKy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'ушул саатта',
       one: '$hours саат мурун',
       other: '$hours саат мурун',
     );
@@ -130,6 +142,7 @@ class RelativeTimeLocalizationsKy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'ушул мүнөттө',
       one: '$minutes мүнөттөн кийин',
       other: '$minutes мүнөттөн кийин',
     );
@@ -140,6 +153,7 @@ class RelativeTimeLocalizationsKy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'ушул мүнөттө',
       one: '$minutes мүнөт мурун',
       other: '$minutes мүнөт мурун',
     );
@@ -150,6 +164,7 @@ class RelativeTimeLocalizationsKy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'азыр',
       one: '$seconds секунддан кийин',
       other: '$seconds секунддан кийин',
     );
@@ -160,11 +175,9 @@ class RelativeTimeLocalizationsKy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'азыр',
       one: '$seconds секунд мурун',
       other: '$seconds секунд мурун',
     );
   }
-
-  @override
-  String get now => 'азыр';
 }

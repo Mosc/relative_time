@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsPs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'سږکال',
       one: 'په $years کال کې',
       other: 'په $years کالونو کې',
     );
@@ -20,6 +21,7 @@ class RelativeTimeLocalizationsPs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'سږکال',
       one: '$years کال مخکې',
       other: '$years کاله مخکې',
     );
@@ -30,6 +32,7 @@ class RelativeTimeLocalizationsPs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'دا ربع',
       one: 'په $quarters ربع کې',
       other: 'په $quarters ربعو کې',
     );
@@ -40,6 +43,7 @@ class RelativeTimeLocalizationsPs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'دا ربع',
       one: '$quarters ربع مخکې',
       other: '$quarters ربعې مخکې',
     );
@@ -50,6 +54,7 @@ class RelativeTimeLocalizationsPs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'دا مياشت',
       one: 'په $months مياشت کې',
       other: 'په $months مياشتو کې',
     );
@@ -60,6 +65,7 @@ class RelativeTimeLocalizationsPs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'دا مياشت',
       one: '$months مياشت مخکې',
       other: '$months مياشتې مخکې',
     );
@@ -70,6 +76,7 @@ class RelativeTimeLocalizationsPs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'دا اونۍ',
       one: 'په $weeks اونۍ کې',
       other: 'په $weeks اونيو کې',
     );
@@ -80,6 +87,7 @@ class RelativeTimeLocalizationsPs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'دا اونۍ',
       one: '$weeks اونۍ مخکې',
       other: '$weeks اونۍ مخکې',
     );
@@ -90,6 +98,7 @@ class RelativeTimeLocalizationsPs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'نن',
       one: 'په $days ورځ کې',
       other: 'په $days ورځو کې',
     );
@@ -100,6 +109,7 @@ class RelativeTimeLocalizationsPs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'نن',
       one: '$days ورځ مخکې',
       other: '$days ورځې مخکې',
     );
@@ -110,6 +120,7 @@ class RelativeTimeLocalizationsPs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'دا ساعت',
       one: 'په $hours ساعت کې',
       other: 'په $hours ساعتو کې',
     );
@@ -120,6 +131,7 @@ class RelativeTimeLocalizationsPs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'دا ساعت',
       one: '$hours ساعت مخکې',
       other: '$hours ساعتونه مخکې',
     );
@@ -130,6 +142,7 @@ class RelativeTimeLocalizationsPs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'دا دقيقه',
       one: 'په $minutes دقيقه کې',
       other: 'په $minutes دقيقو کې',
     );
@@ -140,6 +153,7 @@ class RelativeTimeLocalizationsPs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'دا دقيقه',
       one: '$minutes دقيقه مخکې',
       other: '$minutes دقيقې مخکې',
     );
@@ -150,6 +164,7 @@ class RelativeTimeLocalizationsPs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'اوس',
       one: 'په $seconds ثانيه کې',
       other: 'په $seconds ثانيو کې',
     );
@@ -160,13 +175,11 @@ class RelativeTimeLocalizationsPs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'اوس',
       one: '$seconds ثانيه مخکې',
       other: '$seconds ثانيې مخکې',
     );
   }
-
-  @override
-  String get now => 'اوس';
 }
 
 /// The translations for Pushto Pashto, as used in Pakistan (`ps_PK`).

@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsKn extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'ಈ ವರ್ಷ',
       one: '$years ವರ್ಷದಲ್ಲಿ',
       other: '$years ವರ್ಷಗಳಲ್ಲಿ',
     );
@@ -20,6 +21,7 @@ class RelativeTimeLocalizationsKn extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'ಈ ವರ್ಷ',
       one: '$years ವರ್ಷದ ಹಿಂದೆ',
       other: '$years ವರ್ಷಗಳ ಹಿಂದೆ',
     );
@@ -30,6 +32,7 @@ class RelativeTimeLocalizationsKn extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'ಈ ತ್ರೈಮಾಸಿಕ',
       one: '$quarters ತ್ರೈಮಾಸಿಕದಲ್ಲಿ',
       other: '$quarters ತ್ರೈಮಾಸಿಕಗಳಲ್ಲಿ',
     );
@@ -40,6 +43,7 @@ class RelativeTimeLocalizationsKn extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'ಈ ತ್ರೈಮಾಸಿಕ',
       one: '$quarters ತ್ರೈಮಾಸಿಕದ ಹಿಂದೆ',
       other: '$quarters ತ್ರೈಮಾಸಿಕಗಳ ಹಿಂದೆ',
     );
@@ -50,6 +54,7 @@ class RelativeTimeLocalizationsKn extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'ಈ ತಿಂಗಳು',
       one: '$months ತಿಂಗಳಲ್ಲಿ',
       other: '$months ತಿಂಗಳುಗಳಲ್ಲಿ',
     );
@@ -60,6 +65,7 @@ class RelativeTimeLocalizationsKn extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'ಈ ತಿಂಗಳು',
       one: '$months ತಿಂಗಳ ಹಿಂದೆ',
       other: '$months ತಿಂಗಳುಗಳ ಹಿಂದೆ',
     );
@@ -70,6 +76,7 @@ class RelativeTimeLocalizationsKn extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'ಈ ವಾರ',
       one: '$weeks ವಾರದಲ್ಲಿ',
       other: '$weeks ವಾರಗಳಲ್ಲಿ',
     );
@@ -80,6 +87,7 @@ class RelativeTimeLocalizationsKn extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'ಈ ವಾರ',
       one: '$weeks ವಾರದ ಹಿಂದೆ',
       other: '$weeks ವಾರಗಳ ಹಿಂದೆ',
     );
@@ -90,6 +98,7 @@ class RelativeTimeLocalizationsKn extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'ಇಂದು',
       one: '$days ದಿನದಲ್ಲಿ',
       other: '$days ದಿನಗಳಲ್ಲಿ',
     );
@@ -100,6 +109,7 @@ class RelativeTimeLocalizationsKn extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'ಇಂದು',
       one: '$days ದಿನದ ಹಿಂದೆ',
       other: '$days ದಿನಗಳ ಹಿಂದೆ',
     );
@@ -110,6 +120,7 @@ class RelativeTimeLocalizationsKn extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'ಈ ಗಂಟೆ',
       one: '$hours ಗಂಟೆಯಲ್ಲಿ',
       other: '$hours ಗಂಟೆಗಳಲ್ಲಿ',
     );
@@ -120,6 +131,7 @@ class RelativeTimeLocalizationsKn extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'ಈ ಗಂಟೆ',
       one: '$hours ಗಂಟೆ ಹಿಂದೆ',
       other: '$hours ಗಂಟೆಗಳ ಹಿಂದೆ',
     );
@@ -130,6 +142,7 @@ class RelativeTimeLocalizationsKn extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'ಈ ನಿಮಿಷ',
       one: '$minutes ನಿಮಿಷದಲ್ಲಿ',
       other: '$minutes ನಿಮಿಷಗಳಲ್ಲಿ',
     );
@@ -140,6 +153,7 @@ class RelativeTimeLocalizationsKn extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'ಈ ನಿಮಿಷ',
       one: '$minutes ನಿಮಿಷದ ಹಿಂದೆ',
       other: '$minutes ನಿಮಿಷಗಳ ಹಿಂದೆ',
     );
@@ -150,6 +164,7 @@ class RelativeTimeLocalizationsKn extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'ಈಗ',
       one: '$seconds ಸೆಕೆಂಡ್‌ನಲ್ಲಿ',
       other: '$seconds ಸೆಕೆಂಡ್‌ಗಳಲ್ಲಿ',
     );
@@ -160,11 +175,9 @@ class RelativeTimeLocalizationsKn extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'ಈಗ',
       one: '$seconds ಸೆಕೆಂಡ್ ಹಿಂದೆ',
       other: '$seconds ಸೆಕೆಂಡುಗಳ ಹಿಂದೆ',
     );
   }
-
-  @override
-  String get now => 'ಈಗ';
 }

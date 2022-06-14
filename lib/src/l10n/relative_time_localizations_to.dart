@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsTo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'taʻú ni',
       other: 'ʻi he taʻu ʻe $years',
     );
   }
@@ -19,6 +20,7 @@ class RelativeTimeLocalizationsTo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'taʻú ni',
       other: 'taʻu ʻe $years kuoʻosi',
     );
   }
@@ -28,6 +30,7 @@ class RelativeTimeLocalizationsTo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'kuata koʻeni',
       other: 'ʻi he kuata ʻe $quarters',
     );
   }
@@ -37,6 +40,7 @@ class RelativeTimeLocalizationsTo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'kuata koʻeni',
       other: 'kuata ʻe $quarters kuoʻosi',
     );
   }
@@ -46,6 +50,7 @@ class RelativeTimeLocalizationsTo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'māhiná ni',
       other: 'ʻi he māhina ʻe $months',
     );
   }
@@ -55,6 +60,7 @@ class RelativeTimeLocalizationsTo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'māhiná ni',
       other: 'māhina ʻe $months kuoʻosi',
     );
   }
@@ -64,6 +70,7 @@ class RelativeTimeLocalizationsTo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'uiké ni',
       other: 'ʻi he uike ʻe $weeks',
     );
   }
@@ -73,6 +80,7 @@ class RelativeTimeLocalizationsTo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'uiké ni',
       other: 'uike ʻe $weeks kuoʻosi',
     );
   }
@@ -82,6 +90,7 @@ class RelativeTimeLocalizationsTo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'ʻahó ni',
       other: 'ʻi he ʻaho ʻe $days',
     );
   }
@@ -91,6 +100,7 @@ class RelativeTimeLocalizationsTo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'ʻahó ni',
       other: 'ʻaho ʻe $days kuoʻosi',
     );
   }
@@ -100,6 +110,7 @@ class RelativeTimeLocalizationsTo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'ko e houa ʻeni',
       other: 'ʻi he houa ʻe $hours',
     );
   }
@@ -109,6 +120,7 @@ class RelativeTimeLocalizationsTo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'ko e houa ʻeni',
       other: 'houa ʻe $hours kuoʻosi',
     );
   }
@@ -118,6 +130,7 @@ class RelativeTimeLocalizationsTo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'ko e miniti ʻeni',
       other: 'ʻi he miniti ʻe $minutes',
     );
   }
@@ -127,6 +140,7 @@ class RelativeTimeLocalizationsTo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'ko e miniti ʻeni',
       other: 'miniti ʻe $minutes kuoʻosi',
     );
   }
@@ -136,6 +150,7 @@ class RelativeTimeLocalizationsTo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'taimí ni',
       other: 'ʻi he sekoni ʻe $seconds',
     );
   }
@@ -145,10 +160,8 @@ class RelativeTimeLocalizationsTo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'taimí ni',
       other: 'sekoni ʻe $seconds kuoʻosi',
     );
   }
-
-  @override
-  String get now => 'taimí ni';
 }

@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsQu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'kunan wata',
       other: '+$years y',
     );
   }
@@ -19,6 +20,7 @@ class RelativeTimeLocalizationsQu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'kunan wata',
       other: '-$years y',
     );
   }
@@ -28,6 +30,7 @@ class RelativeTimeLocalizationsQu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'kunan kimsa killa',
       other: '+$quarters Q',
     );
   }
@@ -37,6 +40,7 @@ class RelativeTimeLocalizationsQu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'kunan kimsa killa',
       other: '-$quarters Q',
     );
   }
@@ -46,6 +50,7 @@ class RelativeTimeLocalizationsQu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'kunan killa',
       other: '+$months m',
     );
   }
@@ -55,6 +60,7 @@ class RelativeTimeLocalizationsQu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'kunan killa',
       other: '-$months m',
     );
   }
@@ -64,6 +70,7 @@ class RelativeTimeLocalizationsQu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'kunan semana',
       other: '+$weeks w',
     );
   }
@@ -73,6 +80,7 @@ class RelativeTimeLocalizationsQu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'kunan semana',
       other: '-$weeks w',
     );
   }
@@ -82,6 +90,7 @@ class RelativeTimeLocalizationsQu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'kunan punchaw',
       other: '+$days d',
     );
   }
@@ -91,6 +100,7 @@ class RelativeTimeLocalizationsQu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'kunan punchaw',
       other: '-$days d',
     );
   }
@@ -100,6 +110,7 @@ class RelativeTimeLocalizationsQu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'kay hora',
       other: '+$hours h',
     );
   }
@@ -109,6 +120,7 @@ class RelativeTimeLocalizationsQu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'kay hora',
       other: '-$hours h',
     );
   }
@@ -118,6 +130,7 @@ class RelativeTimeLocalizationsQu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'kay minuto',
       other: '+$minutes min',
     );
   }
@@ -127,6 +140,7 @@ class RelativeTimeLocalizationsQu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'kay minuto',
       other: '-$minutes min',
     );
   }
@@ -136,6 +150,7 @@ class RelativeTimeLocalizationsQu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'now',
       other: '+$seconds s',
     );
   }
@@ -145,10 +160,8 @@ class RelativeTimeLocalizationsQu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'now',
       other: '-$seconds s',
     );
   }
-
-  @override
-  String get now => 'now';
 }

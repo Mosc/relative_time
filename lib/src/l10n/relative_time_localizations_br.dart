@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsBr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'hevlene',
       one: 'a-benn $years bloaz',
       two: 'a-benn $years vloaz',
       few: 'a-benn $years bloaz',
@@ -23,6 +24,7 @@ class RelativeTimeLocalizationsBr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'hevlene',
       one: '$years bloaz zo',
       two: '$years vloaz zo',
       few: '$years bloaz zo',
@@ -36,6 +38,7 @@ class RelativeTimeLocalizationsBr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'an trimiziad-mañ',
       one: 'a-benn $quarters trimiziad',
       two: 'a-benn $quarters drimiziad',
       few: 'a-benn $quarters zrimiziad',
@@ -49,6 +52,7 @@ class RelativeTimeLocalizationsBr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'an trimiziad-mañ',
       one: '$quarters trimiziad zo',
       two: '$quarters drimiziad zo',
       few: '$quarters zrimiziad zo',
@@ -62,6 +66,7 @@ class RelativeTimeLocalizationsBr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'ar miz-mañ',
       one: 'a-benn $months miz',
       two: 'a-benn $months viz',
       few: 'a-benn $months miz',
@@ -75,6 +80,7 @@ class RelativeTimeLocalizationsBr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'ar miz-mañ',
       one: '$months miz zo',
       two: '$months viz zo',
       few: '$months miz zo',
@@ -88,6 +94,7 @@ class RelativeTimeLocalizationsBr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'ar sizhun-mañ',
       one: 'a-benn $weeks sizhun',
       two: 'a-benn $weeks sizhun',
       few: 'a-benn $weeks sizhun',
@@ -101,6 +108,7 @@ class RelativeTimeLocalizationsBr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'ar sizhun-mañ',
       one: '$weeks sizhun zo',
       two: '$weeks sizhun zo',
       few: '$weeks sizhun zo',
@@ -114,6 +122,7 @@ class RelativeTimeLocalizationsBr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'hiziv',
       one: 'a-benn $days deiz',
       two: 'a-benn $days zeiz',
       few: 'a-benn $days deiz',
@@ -127,6 +136,7 @@ class RelativeTimeLocalizationsBr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'hiziv',
       one: '$days deiz zo',
       two: '$days zeiz zo',
       few: '$days deiz zo',
@@ -140,6 +150,7 @@ class RelativeTimeLocalizationsBr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'dʼan eur-mañ',
       one: 'a-benn $hours eur',
       two: 'a-benn $hours eur',
       few: 'a-benn $hours eur',
@@ -153,6 +164,7 @@ class RelativeTimeLocalizationsBr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'dʼan eur-mañ',
       one: '$hours eur zo',
       two: '$hours eur zo',
       few: '$hours eur zo',
@@ -166,6 +178,7 @@ class RelativeTimeLocalizationsBr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'ar munut-mañ',
       one: 'a-benn $minutes munut',
       two: 'a-benn $minutes vunut',
       few: 'a-benn $minutes munut',
@@ -179,6 +192,7 @@ class RelativeTimeLocalizationsBr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'ar munut-mañ',
       one: '$minutes munut zo',
       two: '$minutes vunut zo',
       few: '$minutes munut zo',
@@ -192,6 +206,7 @@ class RelativeTimeLocalizationsBr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'bremañ',
       one: 'a-benn $seconds eilenn',
       two: 'a-benn $seconds eilenn',
       few: 'a-benn $seconds eilenn',
@@ -205,6 +220,7 @@ class RelativeTimeLocalizationsBr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'bremañ',
       one: '$seconds eilenn zo',
       two: '$seconds eilenn zo',
       few: '$seconds eilenn zo',
@@ -212,7 +228,4 @@ class RelativeTimeLocalizationsBr extends RelativeTimeLocalizations {
       other: '$seconds eilenn zo',
     );
   }
-
-  @override
-  String get now => 'bremañ';
 }

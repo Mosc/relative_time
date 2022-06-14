@@ -1,0 +1,19 @@
+{
+  "@@locale": "lb",
+  "yearsFuture": "{years, plural, =0{dëst Joer} =1{an {years} Joer} other{a(n) {years} Joer}}",
+  "yearsPast": "{years, plural, =0{dëst Joer} =1{virun {years} Joer} other{viru(n) {years} Joer}}",
+  "quartersFuture": "{quarters, plural, =1{an {quarters} Quartal} other{a(n) {quarters} Quartaler}}",
+  "quartersPast": "{quarters, plural, =1{virun {quarters} Quartal} other{viru(n) {quarters} Quartaler}}",
+  "monthsFuture": "{months, plural, =0{dëse Mount} =1{an {months} Mount} other{a(n) {months} Méint}}",
+  "monthsPast": "{months, plural, =0{dëse Mount} =1{virun {months} Mount} other{viru(n) {months} Méint}}",
+  "weeksFuture": "{weeks, plural, =0{dës Woch} =1{an {weeks} Woch} other{a(n) {weeks} Wochen}}",
+  "weeksPast": "{weeks, plural, =0{dës Woch} =1{virun {weeks} Woch} other{viru(n) {weeks} Wochen}}",
+  "daysFuture": "{days, plural, =0{haut} =1{an {days} Dag} other{a(n) {days} Deeg}}",
+  "daysPast": "{days, plural, =0{haut} =1{virun {days} Dag} other{viru(n) {days} Deeg}}",
+  "hoursFuture": "{hours, plural, =1{an {hours} Stonn} other{a(n) {hours} Stonnen}}",
+  "hoursPast": "{hours, plural, =1{virun {hours} Stonn} other{viru(n) {hours} Stonnen}}",
+  "minutesFuture": "{minutes, plural, =1{an {minutes} Minutt} other{a(n) {minutes} Minutten}}",
+  "minutesPast": "{minutes, plural, =1{virun {minutes} Minutt} other{viru(n) {minutes} Minutten}}",
+  "secondsFuture": "{seconds, plural, =1{an {seconds} Sekonn} other{a(n) {seconds} Sekonnen}}",
+  "secondsPast": "{seconds, plural, =1{virun {seconds} Sekonn} other{viru(n) {seconds} Sekonnen}}"
+}

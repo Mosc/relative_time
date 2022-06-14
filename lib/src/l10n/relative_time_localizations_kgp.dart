@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsKgp extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'prỹg tag kã',
       one: 'prỹg $years kar kỹ',
       other: 'prỹg $years kar kỹ',
     );
@@ -20,6 +21,7 @@ class RelativeTimeLocalizationsKgp extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'prỹg tag kã',
       one: 'prỹg $years si ser',
       other: 'prỹg $years si ser',
     );
@@ -30,6 +32,7 @@ class RelativeTimeLocalizationsKgp extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'kysã tẽgtũ tag',
       one: 'kysã-tẽgtũ $quarters kar kỹ',
       other: 'kysã-tẽgtũ $quarters kar kỹ',
     );
@@ -40,6 +43,7 @@ class RelativeTimeLocalizationsKgp extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'kysã tẽgtũ tag',
       one: 'kysã-tẽgtũ $quarters si ser',
       other: 'kysã-tẽgtũ $quarters si ser',
     );
@@ -50,6 +54,7 @@ class RelativeTimeLocalizationsKgp extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'kysã tag kã',
       one: 'kysã $months kar kỹ',
       other: 'kysã $months kar kỹ',
     );
@@ -60,6 +65,7 @@ class RelativeTimeLocalizationsKgp extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'kysã tag kã',
       one: 'kysã $months si ser',
       other: 'kysã $months si ser',
     );
@@ -70,6 +76,7 @@ class RelativeTimeLocalizationsKgp extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'simỹnỹ tag kã',
       one: 'simỹnỹ $weeks kar kỹ',
       other: 'simỹnỹ $weeks kar kỹ',
     );
@@ -80,6 +87,7 @@ class RelativeTimeLocalizationsKgp extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'simỹnỹ tag kã',
       one: 'simỹnỹ $weeks si ser',
       other: 'simỹnỹ $weeks si ser',
     );
@@ -90,6 +98,7 @@ class RelativeTimeLocalizationsKgp extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'uri',
       one: 'kurã $days kar kỹ',
       other: 'kurã $days kar kỹ',
     );
@@ -100,6 +109,7 @@ class RelativeTimeLocalizationsKgp extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'uri',
       one: 'kurã $days si ser',
       other: 'kurã $days si ser',
     );
@@ -110,6 +120,7 @@ class RelativeTimeLocalizationsKgp extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'óra tag kã',
       one: 'óra $hours kar kỹ',
       other: 'óra $hours kar kỹ',
     );
@@ -120,6 +131,7 @@ class RelativeTimeLocalizationsKgp extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'óra tag kã',
       one: 'óra $hours si ser',
       other: 'óra $hours si ser',
     );
@@ -130,6 +142,7 @@ class RelativeTimeLocalizationsKgp extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'mĩnũtu tag',
       one: 'mĩnũtu $minutes kar kỹ',
       other: 'mĩnũtu $minutes kar kỹ',
     );
@@ -140,6 +153,7 @@ class RelativeTimeLocalizationsKgp extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'mĩnũtu tag',
       one: 'mĩnũtu $minutes si ser',
       other: 'mĩnũtu $minutes si ser',
     );
@@ -150,6 +164,7 @@ class RelativeTimeLocalizationsKgp extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'ha',
       one: 'segũno $seconds kar kỹ',
       other: 'segũno $seconds kar kỹ',
     );
@@ -160,11 +175,9 @@ class RelativeTimeLocalizationsKgp extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'ha',
       one: 'segũno $seconds si ser',
       other: 'segũno $seconds si ser',
     );
   }
-
-  @override
-  String get now => 'ha';
 }

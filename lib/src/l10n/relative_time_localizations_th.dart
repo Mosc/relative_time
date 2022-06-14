@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsTh extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'ปีนี้',
       other: 'ในอีก $years ปี',
     );
   }
@@ -19,6 +20,7 @@ class RelativeTimeLocalizationsTh extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'ปีนี้',
       other: '$years ปีที่แล้ว',
     );
   }
@@ -28,6 +30,7 @@ class RelativeTimeLocalizationsTh extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'ไตรมาสนี้',
       other: 'ในอีก $quarters ไตรมาส',
     );
   }
@@ -37,6 +40,7 @@ class RelativeTimeLocalizationsTh extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'ไตรมาสนี้',
       other: '$quarters ไตรมาสที่แล้ว',
     );
   }
@@ -46,6 +50,7 @@ class RelativeTimeLocalizationsTh extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'เดือนนี้',
       other: 'ในอีก $months เดือน',
     );
   }
@@ -55,6 +60,7 @@ class RelativeTimeLocalizationsTh extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'เดือนนี้',
       other: '$months เดือนที่ผ่านมา',
     );
   }
@@ -64,6 +70,7 @@ class RelativeTimeLocalizationsTh extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'สัปดาห์นี้',
       other: 'ในอีก $weeks สัปดาห์',
     );
   }
@@ -73,6 +80,7 @@ class RelativeTimeLocalizationsTh extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'สัปดาห์นี้',
       other: '$weeks สัปดาห์ที่ผ่านมา',
     );
   }
@@ -82,6 +90,7 @@ class RelativeTimeLocalizationsTh extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'วันนี้',
       other: 'ในอีก $days วัน',
     );
   }
@@ -91,6 +100,7 @@ class RelativeTimeLocalizationsTh extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'วันนี้',
       other: '$days วันที่ผ่านมา',
     );
   }
@@ -100,6 +110,7 @@ class RelativeTimeLocalizationsTh extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'ชั่วโมงนี้',
       other: 'ในอีก $hours ชั่วโมง',
     );
   }
@@ -109,6 +120,7 @@ class RelativeTimeLocalizationsTh extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'ชั่วโมงนี้',
       other: '$hours ชั่วโมงที่ผ่านมา',
     );
   }
@@ -118,6 +130,7 @@ class RelativeTimeLocalizationsTh extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'นาทีนี้',
       other: 'ในอีก $minutes นาที',
     );
   }
@@ -127,6 +140,7 @@ class RelativeTimeLocalizationsTh extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'นาทีนี้',
       other: '$minutes นาทีที่ผ่านมา',
     );
   }
@@ -136,6 +150,7 @@ class RelativeTimeLocalizationsTh extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'ขณะนี้',
       other: 'ในอีก $seconds วินาที',
     );
   }
@@ -145,10 +160,8 @@ class RelativeTimeLocalizationsTh extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'ขณะนี้',
       other: '$seconds วินาทีที่ผ่านมา',
     );
   }
-
-  @override
-  String get now => 'ขณะนี้';
 }

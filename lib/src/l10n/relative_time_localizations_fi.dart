@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsFi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'tänä vuonna',
       one: '$years vuoden päästä',
       other: '$years vuoden päästä',
     );
@@ -20,6 +21,7 @@ class RelativeTimeLocalizationsFi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'tänä vuonna',
       one: '$years vuosi sitten',
       other: '$years vuotta sitten',
     );
@@ -30,6 +32,7 @@ class RelativeTimeLocalizationsFi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'tänä neljännesvuonna',
       one: '$quarters neljännesvuoden päästä',
       other: '$quarters neljännesvuoden päästä',
     );
@@ -40,6 +43,7 @@ class RelativeTimeLocalizationsFi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'tänä neljännesvuonna',
       one: '$quarters neljännesvuosi sitten',
       other: '$quarters neljännesvuotta sitten',
     );
@@ -50,6 +54,7 @@ class RelativeTimeLocalizationsFi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'tässä kuussa',
       one: '$months kuukauden päästä',
       other: '$months kuukauden päästä',
     );
@@ -60,6 +65,7 @@ class RelativeTimeLocalizationsFi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'tässä kuussa',
       one: '$months kuukausi sitten',
       other: '$months kuukautta sitten',
     );
@@ -70,6 +76,7 @@ class RelativeTimeLocalizationsFi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'tällä viikolla',
       one: '$weeks viikon päästä',
       other: '$weeks viikon päästä',
     );
@@ -80,6 +87,7 @@ class RelativeTimeLocalizationsFi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'tällä viikolla',
       one: '$weeks viikko sitten',
       other: '$weeks viikkoa sitten',
     );
@@ -90,6 +98,7 @@ class RelativeTimeLocalizationsFi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'tänään',
       one: '$days päivän päästä',
       other: '$days päivän päästä',
     );
@@ -100,6 +109,7 @@ class RelativeTimeLocalizationsFi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'tänään',
       one: '$days päivä sitten',
       other: '$days päivää sitten',
     );
@@ -110,6 +120,7 @@ class RelativeTimeLocalizationsFi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'tämän tunnin aikana',
       one: '$hours tunnin päästä',
       other: '$hours tunnin päästä',
     );
@@ -120,6 +131,7 @@ class RelativeTimeLocalizationsFi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'tämän tunnin aikana',
       one: '$hours tunti sitten',
       other: '$hours tuntia sitten',
     );
@@ -130,6 +142,7 @@ class RelativeTimeLocalizationsFi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'tämän minuutin aikana',
       one: '$minutes minuutin päästä',
       other: '$minutes minuutin päästä',
     );
@@ -140,6 +153,7 @@ class RelativeTimeLocalizationsFi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'tämän minuutin aikana',
       one: '$minutes minuutti sitten',
       other: '$minutes minuuttia sitten',
     );
@@ -150,6 +164,7 @@ class RelativeTimeLocalizationsFi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'nyt',
       one: '$seconds sekunnin päästä',
       other: '$seconds sekunnin päästä',
     );
@@ -160,11 +175,9 @@ class RelativeTimeLocalizationsFi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'nyt',
       one: '$seconds sekunti sitten',
       other: '$seconds sekuntia sitten',
     );
   }
-
-  @override
-  String get now => 'nyt';
 }

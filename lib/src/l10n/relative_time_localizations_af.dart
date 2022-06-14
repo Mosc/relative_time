@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsAf extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'hierdie jaar',
       one: 'oor $years jaar',
       other: 'oor $years jaar',
     );
@@ -20,6 +21,7 @@ class RelativeTimeLocalizationsAf extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'hierdie jaar',
       one: '$years jaar gelede',
       other: '$years jaar gelede',
     );
@@ -30,6 +32,7 @@ class RelativeTimeLocalizationsAf extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'hierdie kwartaal',
       one: 'oor $quarters kwartaal',
       other: 'oor $quarters kwartale',
     );
@@ -40,6 +43,7 @@ class RelativeTimeLocalizationsAf extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'hierdie kwartaal',
       one: '$quarters kwartaal gelede',
       other: '$quarters kwartale gelede',
     );
@@ -50,6 +54,7 @@ class RelativeTimeLocalizationsAf extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'vandeesmaand',
       one: 'oor $months maand',
       other: 'oor $months maande',
     );
@@ -60,6 +65,7 @@ class RelativeTimeLocalizationsAf extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'vandeesmaand',
       one: '$months maand gelede',
       other: '$months maande gelede',
     );
@@ -70,6 +76,7 @@ class RelativeTimeLocalizationsAf extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'hierdie week',
       one: 'oor $weeks week',
       other: 'oor $weeks weke',
     );
@@ -80,6 +87,7 @@ class RelativeTimeLocalizationsAf extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'hierdie week',
       one: '$weeks week gelede',
       other: '$weeks weke gelede',
     );
@@ -90,6 +98,7 @@ class RelativeTimeLocalizationsAf extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'vandag',
       one: 'oor $days dag',
       other: 'oor $days dae',
     );
@@ -100,6 +109,7 @@ class RelativeTimeLocalizationsAf extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'vandag',
       one: '$days dag gelede',
       other: '$days dae gelede',
     );
@@ -110,6 +120,7 @@ class RelativeTimeLocalizationsAf extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'hierdie uur',
       one: 'oor $hours uur',
       other: 'oor $hours uur',
     );
@@ -120,6 +131,7 @@ class RelativeTimeLocalizationsAf extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'hierdie uur',
       one: '$hours uur gelede',
       other: '$hours uur gelede',
     );
@@ -130,6 +142,7 @@ class RelativeTimeLocalizationsAf extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'hierdie minuut',
       one: 'oor $minutes minuut',
       other: 'oor $minutes minute',
     );
@@ -140,6 +153,7 @@ class RelativeTimeLocalizationsAf extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'hierdie minuut',
       one: '$minutes minuut gelede',
       other: '$minutes minute gelede',
     );
@@ -150,6 +164,7 @@ class RelativeTimeLocalizationsAf extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'nou',
       one: 'oor $seconds sekonde',
       other: 'oor $seconds sekondes',
     );
@@ -160,11 +175,9 @@ class RelativeTimeLocalizationsAf extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'nou',
       one: '$seconds sekonde gelede',
       other: '$seconds sekondes gelede',
     );
   }
-
-  @override
-  String get now => 'nou';
 }

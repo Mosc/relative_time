@@ -1,3 +1,7 @@
+import 'package:relative_time/src/duration_extension.dart';
+import 'package:relative_time/src/relative_time.dart';
+import 'package:relative_time/src/relative_time_extension.dart';
+
 /// Different units to represent time.
 enum TimeUnit {
   /// A year.
@@ -23,6 +27,31 @@ enum TimeUnit {
 
   /// A second.
   second,
+}
+
+/// Extends [TimeUnit] to include calculating spanned difference.
+extension TimeUnitExtension on TimeUnit {
+  /// The number of units spanned by [difference] based on this [TimeUnit].
+  int difference(Duration difference) {
+    switch (this) {
+      case TimeUnit.year:
+        return difference.inYears;
+      case TimeUnit.quarter:
+        return difference.inQuarters;
+      case TimeUnit.month:
+        return difference.inMonths;
+      case TimeUnit.week:
+        return difference.inWeeks;
+      case TimeUnit.day:
+        return difference.inDays;
+      case TimeUnit.hour:
+        return difference.inHours;
+      case TimeUnit.minute:
+        return difference.inMinutes;
+      case TimeUnit.second:
+        return difference.inSeconds;
+    }
+  }
 }
 
 /// The [TimeUnit]s used by default in [RelativeTime] and

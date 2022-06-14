@@ -1,0 +1,19 @@
+{
+  "@@locale": "eo",
+  "yearsFuture": "{years, plural, =0{nuna jaro} =1{post {years} jaro} other{post {years} jaroj}}",
+  "yearsPast": "{years, plural, =0{nuna jaro} =1{antaŭ {years} jaro} other{antaŭ {years} jaroj}}",
+  "quartersFuture": "{quarters, plural, =1{post {quarters} kvaronjaro} other{post {quarters} kvaronjaroj}}",
+  "quartersPast": "{quarters, plural, =1{antaŭ {quarters} kvaronjaro} other{antaŭ {quarters} kvaronjaroj}}",
+  "monthsFuture": "{months, plural, =0{nuna monato} =1{post {months} monato} other{post {months} monatoj}}",
+  "monthsPast": "{months, plural, =0{nuna monato} =1{antaŭ {months} monato} other{antaŭ {months} monatoj}}",
+  "weeksFuture": "{weeks, plural, =0{nuna semajno} =1{post {weeks} semajno} other{post {weeks} semajnoj}}",
+  "weeksPast": "{weeks, plural, =0{nuna semajno} =1{antaŭ {weeks} semajno} other{antaŭ {weeks} semajnoj}}",
+  "daysFuture": "{days, plural, =0{hodiaŭ} =1{post {days} tago} other{post {days} tagoj}}",
+  "daysPast": "{days, plural, =0{hodiaŭ} =1{antaŭ {days} tago} other{antaŭ {days} tagoj}}",
+  "hoursFuture": "{hours, plural, =1{post {hours} horo} other{post {hours} horoj}}",
+  "hoursPast": "{hours, plural, =1{antaŭ {hours} horo} other{antaŭ {hours} horoj}}",
+  "minutesFuture": "{minutes, plural, =1{post {minutes} minuto} other{post {minutes} minutoj}}",
+  "minutesPast": "{minutes, plural, =1{antaŭ {minutes} minuto} other{antaŭ {minutes} minutoj}}",
+  "secondsFuture": "{seconds, plural, =1{post {seconds} sekundo} other{post {seconds} sekundoj}}",
+  "secondsPast": "{seconds, plural, =1{antaŭ {seconds} sekundo} other{antaŭ {seconds} sekundoj}}"
+}

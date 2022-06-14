@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsWo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'ren',
       other: 'fileek $years at',
     );
   }
@@ -19,6 +20,7 @@ class RelativeTimeLocalizationsWo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'ren',
       other: '$years at ci ginaaw',
     );
   }
@@ -28,6 +30,7 @@ class RelativeTimeLocalizationsWo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'trimestre bii',
       other: 'fileek $quarters trimestre',
     );
   }
@@ -37,6 +40,7 @@ class RelativeTimeLocalizationsWo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'trimestre bii',
       other: '$quarters trimestre ci ginaaw',
     );
   }
@@ -46,6 +50,7 @@ class RelativeTimeLocalizationsWo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'weer wii',
       other: 'fileek $months weer',
     );
   }
@@ -55,6 +60,7 @@ class RelativeTimeLocalizationsWo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'weer wii',
       other: '$months weer ci ginaaw',
     );
   }
@@ -64,6 +70,7 @@ class RelativeTimeLocalizationsWo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'ayu-bis bii',
       other: 'fileek $weeks ayi-bis',
     );
   }
@@ -73,6 +80,7 @@ class RelativeTimeLocalizationsWo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'ayu-bis bii',
       other: '$weeks ayi-bis ci ginaaw',
     );
   }
@@ -82,6 +90,7 @@ class RelativeTimeLocalizationsWo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'tay',
       other: 'fileek $days fan',
     );
   }
@@ -91,6 +100,7 @@ class RelativeTimeLocalizationsWo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'tay',
       other: '$days fan ci ginaaw',
     );
   }
@@ -100,6 +110,7 @@ class RelativeTimeLocalizationsWo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'ci waxtu wii',
       other: 'fileek $hours waxtu',
     );
   }
@@ -109,6 +120,7 @@ class RelativeTimeLocalizationsWo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'ci waxtu wii',
       other: '$hours waxtu ci ginaaw',
     );
   }
@@ -118,6 +130,7 @@ class RelativeTimeLocalizationsWo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'ci simili bii',
       other: 'fileek $minutes simili',
     );
   }
@@ -127,6 +140,7 @@ class RelativeTimeLocalizationsWo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'ci simili bii',
       other: '$minutes simili ci ginaaw',
     );
   }
@@ -136,6 +150,7 @@ class RelativeTimeLocalizationsWo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'leegi',
       other: 'fileek $seconds saa',
     );
   }
@@ -145,10 +160,8 @@ class RelativeTimeLocalizationsWo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'leegi',
       other: '$seconds saa ci ginaaw',
     );
   }
-
-  @override
-  String get now => 'leegi';
 }

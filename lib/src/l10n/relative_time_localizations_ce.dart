@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsCe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'карарчу шарахь',
       one: '$years шо даьлча',
       other: '$years шо даьлча',
     );
@@ -20,6 +21,7 @@ class RelativeTimeLocalizationsCe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'карарчу шарахь',
       one: '$years шо хьалха',
       other: '$years шо хьалха',
     );
@@ -50,6 +52,7 @@ class RelativeTimeLocalizationsCe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'карарчу баттахь',
       one: '$months бутт баьлча',
       other: '$months бутт баьлча',
     );
@@ -60,6 +63,7 @@ class RelativeTimeLocalizationsCe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'карарчу баттахь',
       one: '$months бутт хьалха',
       other: '$months бутт хьалха',
     );
@@ -70,6 +74,7 @@ class RelativeTimeLocalizationsCe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'карарчу кӀирнахь',
       one: '$weeks кӀира даьлча',
       other: '$weeks кӀира даьлча',
     );
@@ -80,6 +85,7 @@ class RelativeTimeLocalizationsCe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'карарчу кӀирнахь',
       one: '$weeks кӀира хьалха',
       other: '$weeks кӀира хьалха',
     );
@@ -90,6 +96,7 @@ class RelativeTimeLocalizationsCe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'тахана',
       one: '$days де даьлча',
       other: '$days де даьлча',
     );
@@ -100,6 +107,7 @@ class RelativeTimeLocalizationsCe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'тахана',
       one: '$days де хьалха',
       other: '$days де хьалха',
     );
@@ -110,6 +118,7 @@ class RelativeTimeLocalizationsCe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'хӀокху сахьтехь',
       one: '$hours сахьт даьлча',
       other: '$hours сахьт даьлча',
     );
@@ -120,6 +129,7 @@ class RelativeTimeLocalizationsCe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'хӀокху сахьтехь',
       one: '$hours сахьт хьалха',
       other: '$hours сахьт хьалха',
     );
@@ -130,6 +140,7 @@ class RelativeTimeLocalizationsCe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'хӀокху минотехь',
       one: '$minutes минот яьлча',
       other: '$minutes минот яьлча',
     );
@@ -140,6 +151,7 @@ class RelativeTimeLocalizationsCe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'хӀокху минотехь',
       one: '$minutes минот хьалха',
       other: '$minutes минот хьалха',
     );
@@ -150,6 +162,7 @@ class RelativeTimeLocalizationsCe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'хӀинца',
       one: '$seconds секунд яьлча',
       other: '$seconds секунд яьлча',
     );
@@ -160,11 +173,9 @@ class RelativeTimeLocalizationsCe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'хӀинца',
       one: '$seconds секунд хьалха',
       other: '$seconds секунд хьалха',
     );
   }
-
-  @override
-  String get now => 'хӀинца';
 }

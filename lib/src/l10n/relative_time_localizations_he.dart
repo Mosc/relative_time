@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsHe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'השנה',
       one: 'בעוד שנה',
       two: 'בעוד שנתיים',
       many: 'בעוד $years שנה',
@@ -22,6 +23,7 @@ class RelativeTimeLocalizationsHe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'השנה',
       one: 'לפני שנה',
       two: 'לפני שנתיים',
       many: 'לפני $years שנה',
@@ -34,6 +36,7 @@ class RelativeTimeLocalizationsHe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'רבעון זה',
       one: 'ברבעון הבא',
       two: 'בעוד שני רבעונים',
       many: 'בעוד $quarters רבעונים',
@@ -46,6 +49,7 @@ class RelativeTimeLocalizationsHe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'רבעון זה',
       one: 'ברבעון הקודם',
       two: 'לפני שני רבעונים',
       many: 'לפני $quarters רבעונים',
@@ -58,6 +62,7 @@ class RelativeTimeLocalizationsHe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'החודש',
       one: 'בעוד חודש',
       two: 'בעוד חודשיים',
       many: 'בעוד $months חודשים',
@@ -70,6 +75,7 @@ class RelativeTimeLocalizationsHe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'החודש',
       one: 'לפני חודש',
       two: 'לפני חודשיים',
       many: 'לפני $months חודשים',
@@ -82,6 +88,7 @@ class RelativeTimeLocalizationsHe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'השבוע',
       one: 'בעוד שבוע',
       two: 'בעוד שבועיים',
       many: 'בעוד $weeks שבועות',
@@ -94,6 +101,7 @@ class RelativeTimeLocalizationsHe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'השבוע',
       one: 'לפני שבוע',
       two: 'לפני שבועיים',
       many: 'לפני $weeks שבועות',
@@ -106,6 +114,7 @@ class RelativeTimeLocalizationsHe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'היום',
       one: 'בעוד יום $days',
       two: 'בעוד יומיים',
       many: 'בעוד $days ימים',
@@ -118,6 +127,7 @@ class RelativeTimeLocalizationsHe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'היום',
       one: 'לפני יום $days',
       two: 'לפני יומיים',
       many: 'לפני $days ימים',
@@ -130,6 +140,7 @@ class RelativeTimeLocalizationsHe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'בשעה זו',
       one: 'בעוד שעה',
       two: 'בעוד שעתיים',
       many: 'בעוד $hours שעות',
@@ -142,6 +153,7 @@ class RelativeTimeLocalizationsHe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'בשעה זו',
       one: 'לפני שעה',
       two: 'לפני שעתיים',
       many: 'לפני $hours שעות',
@@ -154,6 +166,7 @@ class RelativeTimeLocalizationsHe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'בדקה זו',
       one: 'בעוד דקה',
       two: 'בעוד שתי דקות',
       many: 'בעוד $minutes דקות',
@@ -166,6 +179,7 @@ class RelativeTimeLocalizationsHe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'בדקה זו',
       one: 'לפני דקה',
       two: 'לפני שתי דקות',
       many: 'לפני $minutes דקות',
@@ -178,6 +192,7 @@ class RelativeTimeLocalizationsHe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'עכשיו',
       one: 'בעוד שנייה',
       two: 'בעוד שתי שניות',
       many: 'בעוד $seconds שניות',
@@ -190,13 +205,11 @@ class RelativeTimeLocalizationsHe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'עכשיו',
       one: 'לפני שנייה',
       two: 'לפני שתי שניות',
       many: 'לפני $seconds שניות',
       other: 'לפני $seconds שניות',
     );
   }
-
-  @override
-  String get now => 'עכשיו';
 }

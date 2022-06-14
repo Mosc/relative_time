@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsSk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'tento rok',
       one: 'o $years rok',
       few: 'o $years roky',
       many: 'o $years roka',
@@ -22,6 +23,7 @@ class RelativeTimeLocalizationsSk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'tento rok',
       one: 'pred $years rokom',
       few: 'pred $years rokmi',
       many: 'pred $years roka',
@@ -34,6 +36,7 @@ class RelativeTimeLocalizationsSk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'tento štvrťrok',
       one: 'o $quarters štvrťrok',
       few: 'o $quarters štvrťroky',
       many: 'o $quarters štvrťroka',
@@ -46,6 +49,7 @@ class RelativeTimeLocalizationsSk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'tento štvrťrok',
       one: 'pred $quarters štvrťrokom',
       few: 'pred $quarters štvrťrokmi',
       many: 'pred $quarters štvrťroka',
@@ -58,6 +62,7 @@ class RelativeTimeLocalizationsSk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'tento mesiac',
       one: 'o $months mesiac',
       few: 'o $months mesiace',
       many: 'o $months mesiaca',
@@ -70,6 +75,7 @@ class RelativeTimeLocalizationsSk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'tento mesiac',
       one: 'pred $months mesiacom',
       few: 'pred $months mesiacmi',
       many: 'pred $months mesiaca',
@@ -82,6 +88,7 @@ class RelativeTimeLocalizationsSk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'tento týždeň',
       one: 'o $weeks týždeň',
       few: 'o $weeks týždne',
       many: 'o $weeks týždňa',
@@ -94,6 +101,7 @@ class RelativeTimeLocalizationsSk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'tento týždeň',
       one: 'pred $weeks týždňom',
       few: 'pred $weeks týždňami',
       many: 'pred $weeks týždňa',
@@ -106,6 +114,7 @@ class RelativeTimeLocalizationsSk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'dnes',
       one: 'o $days deň',
       few: 'o $days dni',
       many: 'o $days dňa',
@@ -118,6 +127,7 @@ class RelativeTimeLocalizationsSk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'dnes',
       one: 'pred $days dňom',
       few: 'pred $days dňami',
       many: 'pred $days dňa',
@@ -130,6 +140,7 @@ class RelativeTimeLocalizationsSk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'v tejto hodine',
       one: 'o $hours hodinu',
       few: 'o $hours hodiny',
       many: 'o $hours hodiny',
@@ -142,6 +153,7 @@ class RelativeTimeLocalizationsSk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'v tejto hodine',
       one: 'pred $hours hodinou',
       few: 'pred $hours hodinami',
       many: 'pred $hours hodinou',
@@ -154,6 +166,7 @@ class RelativeTimeLocalizationsSk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'v tejto minúte',
       one: 'o $minutes minútu',
       few: 'o $minutes minúty',
       many: 'o $minutes minúty',
@@ -166,6 +179,7 @@ class RelativeTimeLocalizationsSk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'v tejto minúte',
       one: 'pred $minutes minútou',
       few: 'pred $minutes minútami',
       many: 'pred $minutes minúty',
@@ -178,6 +192,7 @@ class RelativeTimeLocalizationsSk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'teraz',
       one: 'o $seconds sekundu',
       few: 'o $seconds sekundy',
       many: 'o $seconds sekundy',
@@ -190,13 +205,11 @@ class RelativeTimeLocalizationsSk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'teraz',
       one: 'pred $seconds sekundou',
       few: 'pred $seconds sekundami',
       many: 'pred $seconds sekundy',
       other: 'pred $seconds sekundami',
     );
   }
-
-  @override
-  String get now => 'teraz';
 }

@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsEs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'este año',
       one: 'dentro de $years año',
       other: 'dentro de $years años',
     );
@@ -20,6 +21,7 @@ class RelativeTimeLocalizationsEs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'este año',
       one: 'hace $years año',
       other: 'hace $years años',
     );
@@ -30,6 +32,7 @@ class RelativeTimeLocalizationsEs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'este trimestre',
       one: 'dentro de $quarters trimestre',
       other: 'dentro de $quarters trimestres',
     );
@@ -40,6 +43,7 @@ class RelativeTimeLocalizationsEs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'este trimestre',
       one: 'hace $quarters trimestre',
       other: 'hace $quarters trimestres',
     );
@@ -50,6 +54,7 @@ class RelativeTimeLocalizationsEs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'este mes',
       one: 'dentro de $months mes',
       other: 'dentro de $months meses',
     );
@@ -60,6 +65,7 @@ class RelativeTimeLocalizationsEs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'este mes',
       one: 'hace $months mes',
       other: 'hace $months meses',
     );
@@ -70,6 +76,7 @@ class RelativeTimeLocalizationsEs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'esta semana',
       one: 'dentro de $weeks semana',
       other: 'dentro de $weeks semanas',
     );
@@ -80,6 +87,7 @@ class RelativeTimeLocalizationsEs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'esta semana',
       one: 'hace $weeks semana',
       other: 'hace $weeks semanas',
     );
@@ -90,6 +98,7 @@ class RelativeTimeLocalizationsEs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'hoy',
       one: 'dentro de $days día',
       other: 'dentro de $days días',
     );
@@ -100,6 +109,7 @@ class RelativeTimeLocalizationsEs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'hoy',
       one: 'hace $days día',
       other: 'hace $days días',
     );
@@ -110,6 +120,7 @@ class RelativeTimeLocalizationsEs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'esta hora',
       one: 'dentro de $hours hora',
       other: 'dentro de $hours horas',
     );
@@ -120,6 +131,7 @@ class RelativeTimeLocalizationsEs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'esta hora',
       one: 'hace $hours hora',
       other: 'hace $hours horas',
     );
@@ -130,6 +142,7 @@ class RelativeTimeLocalizationsEs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'este minuto',
       one: 'dentro de $minutes minuto',
       other: 'dentro de $minutes minutos',
     );
@@ -140,6 +153,7 @@ class RelativeTimeLocalizationsEs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'este minuto',
       one: 'hace $minutes minuto',
       other: 'hace $minutes minutos',
     );
@@ -150,6 +164,7 @@ class RelativeTimeLocalizationsEs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'ahora',
       one: 'dentro de $seconds segundo',
       other: 'dentro de $seconds segundos',
     );
@@ -160,13 +175,11 @@ class RelativeTimeLocalizationsEs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'ahora',
       one: 'hace $seconds segundo',
       other: 'hace $seconds segundos',
     );
   }
-
-  @override
-  String get now => 'ahora';
 }
 
 /// The translations for Spanish Castilian, as used in Mexico (`es_MX`).
@@ -188,6 +201,7 @@ class RelativeTimeLocalizationsEsMx extends RelativeTimeLocalizationsEs {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'este mes',
       one: 'en $months mes',
       other: 'en $months meses',
     );

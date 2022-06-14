@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsLo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'ປີນີ້',
       other: 'ໃນອີກ $years ປີ',
     );
   }
@@ -19,6 +20,7 @@ class RelativeTimeLocalizationsLo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'ປີນີ້',
       other: '$years ປີກ່ອນ',
     );
   }
@@ -28,6 +30,7 @@ class RelativeTimeLocalizationsLo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'ໄຕຣມາດນີ້',
       other: 'ໃນອີກ $quarters ໄຕຣມາດ',
     );
   }
@@ -37,6 +40,7 @@ class RelativeTimeLocalizationsLo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'ໄຕຣມາດນີ້',
       other: '$quarters ໄຕຣມາດກ່ອນ',
     );
   }
@@ -46,6 +50,7 @@ class RelativeTimeLocalizationsLo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'ເດືອນນີ້',
       other: 'ໃນອີກ $months ເດືອນ',
     );
   }
@@ -55,6 +60,7 @@ class RelativeTimeLocalizationsLo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'ເດືອນນີ້',
       other: '$months ເດືອນກ່ອນ',
     );
   }
@@ -64,6 +70,7 @@ class RelativeTimeLocalizationsLo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'ອາທິດນີ້',
       other: 'ໃນອີກ $weeks ອາທິດ',
     );
   }
@@ -73,6 +80,7 @@ class RelativeTimeLocalizationsLo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'ອາທິດນີ້',
       other: '$weeks ອາທິດກ່ອນ',
     );
   }
@@ -82,6 +90,7 @@ class RelativeTimeLocalizationsLo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'ມື້ນີ້',
       other: 'ໃນອີກ $days ມື້',
     );
   }
@@ -91,6 +100,7 @@ class RelativeTimeLocalizationsLo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'ມື້ນີ້',
       other: '$days ມື້ກ່ອນ',
     );
   }
@@ -100,6 +110,7 @@ class RelativeTimeLocalizationsLo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'ຊົ່ວໂມງນີ້',
       other: 'ໃນອີກ $hours ຊົ່ວໂມງ',
     );
   }
@@ -109,6 +120,7 @@ class RelativeTimeLocalizationsLo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'ຊົ່ວໂມງນີ້',
       other: '$hours ຊົ່ວໂມງກ່ອນ',
     );
   }
@@ -118,6 +130,7 @@ class RelativeTimeLocalizationsLo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'ນາທີນີ້',
       other: 'ໃນອີກ $minutes ນາທີ',
     );
   }
@@ -127,6 +140,7 @@ class RelativeTimeLocalizationsLo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'ນາທີນີ້',
       other: '$minutes ນາທີກ່ອນ',
     );
   }
@@ -136,6 +150,7 @@ class RelativeTimeLocalizationsLo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'ຕອນນີ້',
       other: 'ໃນອີກ $seconds ວິນາທີ',
     );
   }
@@ -145,10 +160,8 @@ class RelativeTimeLocalizationsLo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'ຕອນນີ້',
       other: '$seconds ວິນາທີກ່ອນ',
     );
   }
-
-  @override
-  String get now => 'ຕອນນີ້';
 }

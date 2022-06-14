@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'в этом году',
       one: 'через $years год',
       few: 'через $years года',
       many: 'через $years лет',
@@ -22,6 +23,7 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'в этом году',
       one: '$years год назад',
       few: '$years года назад',
       many: '$years лет назад',
@@ -34,6 +36,7 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'в текущем квартале',
       one: 'через $quarters квартал',
       few: 'через $quarters квартала',
       many: 'через $quarters кварталов',
@@ -46,6 +49,7 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'в текущем квартале',
       one: '$quarters квартал назад',
       few: '$quarters квартала назад',
       many: '$quarters кварталов назад',
@@ -58,6 +62,7 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'в этом месяце',
       one: 'через $months месяц',
       few: 'через $months месяца',
       many: 'через $months месяцев',
@@ -70,6 +75,7 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'в этом месяце',
       one: '$months месяц назад',
       few: '$months месяца назад',
       many: '$months месяцев назад',
@@ -82,6 +88,7 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'на этой неделе',
       one: 'через $weeks неделю',
       few: 'через $weeks недели',
       many: 'через $weeks недель',
@@ -94,6 +101,7 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'на этой неделе',
       one: '$weeks неделю назад',
       few: '$weeks недели назад',
       many: '$weeks недель назад',
@@ -106,6 +114,7 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'сегодня',
       one: 'через $days день',
       few: 'через $days дня',
       many: 'через $days дней',
@@ -118,6 +127,7 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'сегодня',
       one: '$days день назад',
       few: '$days дня назад',
       many: '$days дней назад',
@@ -130,6 +140,7 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'в этот час',
       one: 'через $hours час',
       few: 'через $hours часа',
       many: 'через $hours часов',
@@ -142,6 +153,7 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'в этот час',
       one: '$hours час назад',
       few: '$hours часа назад',
       many: '$hours часов назад',
@@ -154,6 +166,7 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'в эту минуту',
       one: 'через $minutes минуту',
       few: 'через $minutes минуты',
       many: 'через $minutes минут',
@@ -166,6 +179,7 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'в эту минуту',
       one: '$minutes минуту назад',
       few: '$minutes минуты назад',
       many: '$minutes минут назад',
@@ -178,6 +192,7 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'сейчас',
       one: 'через $seconds секунду',
       few: 'через $seconds секунды',
       many: 'через $seconds секунд',
@@ -190,13 +205,11 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'сейчас',
       one: '$seconds секунду назад',
       few: '$seconds секунды назад',
       many: '$seconds секунд назад',
       other: '$seconds секунды назад',
     );
   }
-
-  @override
-  String get now => 'сейчас';
 }

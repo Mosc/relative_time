@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsYue extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: '今年',
       other: '$years 年後',
     );
   }
@@ -19,6 +20,7 @@ class RelativeTimeLocalizationsYue extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: '今年',
       other: '$years 年前',
     );
   }
@@ -28,6 +30,7 @@ class RelativeTimeLocalizationsYue extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: '今季',
       other: '$quarters 季後',
     );
   }
@@ -37,6 +40,7 @@ class RelativeTimeLocalizationsYue extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: '今季',
       other: '$quarters 季前',
     );
   }
@@ -46,6 +50,7 @@ class RelativeTimeLocalizationsYue extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: '今個月',
       other: '$months 個月後',
     );
   }
@@ -55,6 +60,7 @@ class RelativeTimeLocalizationsYue extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: '今個月',
       other: '$months 個月前',
     );
   }
@@ -64,6 +70,7 @@ class RelativeTimeLocalizationsYue extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: '今個星期',
       other: '$weeks 個星期後',
     );
   }
@@ -73,6 +80,7 @@ class RelativeTimeLocalizationsYue extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: '今個星期',
       other: '$weeks 個星期前',
     );
   }
@@ -82,6 +90,7 @@ class RelativeTimeLocalizationsYue extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: '今日',
       other: '$days 日後',
     );
   }
@@ -91,6 +100,7 @@ class RelativeTimeLocalizationsYue extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: '今日',
       other: '$days 日前',
     );
   }
@@ -100,6 +110,7 @@ class RelativeTimeLocalizationsYue extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: '呢個小時',
       other: '$hours 小時後',
     );
   }
@@ -109,6 +120,7 @@ class RelativeTimeLocalizationsYue extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: '呢個小時',
       other: '$hours 小時前',
     );
   }
@@ -118,6 +130,7 @@ class RelativeTimeLocalizationsYue extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: '呢分鐘',
       other: '$minutes 分鐘後',
     );
   }
@@ -127,6 +140,7 @@ class RelativeTimeLocalizationsYue extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: '呢分鐘',
       other: '$minutes 分鐘前',
     );
   }
@@ -136,6 +150,7 @@ class RelativeTimeLocalizationsYue extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: '宜家',
       other: '$seconds 秒後',
     );
   }
@@ -145,12 +160,10 @@ class RelativeTimeLocalizationsYue extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: '宜家',
       other: '$seconds 秒前',
     );
   }
-
-  @override
-  String get now => '宜家';
 }
 
 /// The translations for Yue Chinese Cantonese, using the Han script (`yue_Hans`).
@@ -162,6 +175,7 @@ class RelativeTimeLocalizationsYueHans extends RelativeTimeLocalizationsYue {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: '今年',
       other: '$years 年后',
     );
   }
@@ -171,6 +185,7 @@ class RelativeTimeLocalizationsYueHans extends RelativeTimeLocalizationsYue {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: '今年',
       other: '$years 年前',
     );
   }
@@ -180,6 +195,7 @@ class RelativeTimeLocalizationsYueHans extends RelativeTimeLocalizationsYue {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: '今季',
       other: '$quarters 季后',
     );
   }
@@ -189,6 +205,7 @@ class RelativeTimeLocalizationsYueHans extends RelativeTimeLocalizationsYue {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: '今季',
       other: '$quarters 季前',
     );
   }
@@ -198,6 +215,7 @@ class RelativeTimeLocalizationsYueHans extends RelativeTimeLocalizationsYue {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: '今个月',
       other: '$months 个月后',
     );
   }
@@ -207,6 +225,7 @@ class RelativeTimeLocalizationsYueHans extends RelativeTimeLocalizationsYue {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: '今个月',
       other: '$months 个月前',
     );
   }
@@ -216,6 +235,7 @@ class RelativeTimeLocalizationsYueHans extends RelativeTimeLocalizationsYue {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: '今个星期',
       other: '$weeks 个星期后',
     );
   }
@@ -225,6 +245,7 @@ class RelativeTimeLocalizationsYueHans extends RelativeTimeLocalizationsYue {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: '今个星期',
       other: '$weeks 个星期前',
     );
   }
@@ -234,6 +255,7 @@ class RelativeTimeLocalizationsYueHans extends RelativeTimeLocalizationsYue {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: '今日',
       other: '$days 日后',
     );
   }
@@ -243,6 +265,7 @@ class RelativeTimeLocalizationsYueHans extends RelativeTimeLocalizationsYue {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: '今日',
       other: '$days 日前',
     );
   }
@@ -252,6 +275,7 @@ class RelativeTimeLocalizationsYueHans extends RelativeTimeLocalizationsYue {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: '呢个小时',
       other: '$hours 小时后',
     );
   }
@@ -261,6 +285,7 @@ class RelativeTimeLocalizationsYueHans extends RelativeTimeLocalizationsYue {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: '呢个小时',
       other: '$hours 小时前',
     );
   }
@@ -270,6 +295,7 @@ class RelativeTimeLocalizationsYueHans extends RelativeTimeLocalizationsYue {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: '呢分钟',
       other: '$minutes 分钟后',
     );
   }
@@ -279,6 +305,7 @@ class RelativeTimeLocalizationsYueHans extends RelativeTimeLocalizationsYue {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: '呢分钟',
       other: '$minutes 分钟前',
     );
   }
@@ -288,6 +315,7 @@ class RelativeTimeLocalizationsYueHans extends RelativeTimeLocalizationsYue {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: '宜家',
       other: '$seconds 秒后',
     );
   }
@@ -297,10 +325,8 @@ class RelativeTimeLocalizationsYueHans extends RelativeTimeLocalizationsYue {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: '宜家',
       other: '$seconds 秒前',
     );
   }
-
-  @override
-  String get now => '宜家';
 }

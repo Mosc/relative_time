@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsZu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'kulo nyaka',
       one: 'onyakeni ongu-$years ozayo',
       other: 'eminyakeni engu-$years ezayo',
     );
@@ -20,6 +21,7 @@ class RelativeTimeLocalizationsZu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'kulo nyaka',
       one: '$years unyaka odlule',
       other: '$years iminyaka edlule',
     );
@@ -30,6 +32,7 @@ class RelativeTimeLocalizationsZu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'le kota',
       one: 'kwikota engu-$quarters ezayo',
       other: 'kumakota angu-$quarters ezayo',
     );
@@ -40,6 +43,7 @@ class RelativeTimeLocalizationsZu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'le kota',
       one: '$quarters ikota edlule',
       other: '$quarters amakota adlule',
     );
@@ -50,6 +54,7 @@ class RelativeTimeLocalizationsZu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'le nyanga',
       one: 'enyangeni engu-$months',
       other: 'ezinyangeni ezingu-$months ezizayo',
     );
@@ -60,6 +65,7 @@ class RelativeTimeLocalizationsZu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'le nyanga',
       one: '$months inyanga edlule',
       other: '$months izinyanga ezedlule',
     );
@@ -70,6 +76,7 @@ class RelativeTimeLocalizationsZu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'leli viki',
       one: 'evikini elingu-$weeks',
       other: 'emavikini angu-$weeks',
     );
@@ -80,6 +87,7 @@ class RelativeTimeLocalizationsZu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'leli viki',
       one: 'evikini elingu-$weeks eledlule',
       other: 'amaviki angu-$weeks edlule',
     );
@@ -90,6 +98,7 @@ class RelativeTimeLocalizationsZu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'namhlanje',
       one: 'osukwini olungu-$days oluzayo',
       other: 'ezinsukwini ezingu-$days ezizayo',
     );
@@ -100,6 +109,7 @@ class RelativeTimeLocalizationsZu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'namhlanje',
       one: 'osukwini olungu-$days olwedlule',
       other: 'ezinsukwini ezingu-$days ezedlule.',
     );
@@ -110,6 +120,7 @@ class RelativeTimeLocalizationsZu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'leli hora',
       one: 'ehoreni elingu-$hours elizayo',
       other: 'emahoreni angu-$hours ezayo',
     );
@@ -120,6 +131,7 @@ class RelativeTimeLocalizationsZu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'leli hora',
       one: '$hours ihora eledlule',
       other: 'emahoreni angu-$hours edlule',
     );
@@ -130,6 +142,7 @@ class RelativeTimeLocalizationsZu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'leli minithi',
       one: 'kuminithi elingu-$minutes elizayo',
       other: 'kumaminithi angu-$minutes ezayo',
     );
@@ -140,6 +153,7 @@ class RelativeTimeLocalizationsZu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'leli minithi',
       one: '$minutes iminithi eledlule',
       other: '$minutes amaminithi edlule',
     );
@@ -150,6 +164,7 @@ class RelativeTimeLocalizationsZu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'manje',
       one: 'kusekhondi elingu-$seconds elizayo',
       other: 'kumasekhondi angu-$seconds ezayo',
     );
@@ -160,11 +175,9 @@ class RelativeTimeLocalizationsZu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'manje',
       one: '$seconds isekhondi eledlule',
       other: '$seconds amasekhondi edlule',
     );
   }
-
-  @override
-  String get now => 'manje';
 }

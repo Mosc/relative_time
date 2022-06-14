@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsZh extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: '今年',
       other: '$years年后',
     );
   }
@@ -19,6 +20,7 @@ class RelativeTimeLocalizationsZh extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: '今年',
       other: '$years年前',
     );
   }
@@ -28,6 +30,7 @@ class RelativeTimeLocalizationsZh extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: '本季度',
       other: '$quarters个季度后',
     );
   }
@@ -37,6 +40,7 @@ class RelativeTimeLocalizationsZh extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: '本季度',
       other: '$quarters个季度前',
     );
   }
@@ -46,6 +50,7 @@ class RelativeTimeLocalizationsZh extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: '本月',
       other: '$months个月后',
     );
   }
@@ -55,6 +60,7 @@ class RelativeTimeLocalizationsZh extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: '本月',
       other: '$months个月前',
     );
   }
@@ -64,6 +70,7 @@ class RelativeTimeLocalizationsZh extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: '本周',
       other: '$weeks周后',
     );
   }
@@ -73,6 +80,7 @@ class RelativeTimeLocalizationsZh extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: '本周',
       other: '$weeks周前',
     );
   }
@@ -82,6 +90,7 @@ class RelativeTimeLocalizationsZh extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: '今天',
       other: '$days天后',
     );
   }
@@ -91,6 +100,7 @@ class RelativeTimeLocalizationsZh extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: '今天',
       other: '$days天前',
     );
   }
@@ -100,6 +110,7 @@ class RelativeTimeLocalizationsZh extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: '这一时间 / 此时',
       other: '$hours小时后',
     );
   }
@@ -109,6 +120,7 @@ class RelativeTimeLocalizationsZh extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: '这一时间 / 此时',
       other: '$hours小时前',
     );
   }
@@ -118,6 +130,7 @@ class RelativeTimeLocalizationsZh extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: '此刻',
       other: '$minutes分钟后',
     );
   }
@@ -127,6 +140,7 @@ class RelativeTimeLocalizationsZh extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: '此刻',
       other: '$minutes分钟前',
     );
   }
@@ -136,6 +150,7 @@ class RelativeTimeLocalizationsZh extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: '现在',
       other: '$seconds秒钟后',
     );
   }
@@ -145,12 +160,10 @@ class RelativeTimeLocalizationsZh extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: '现在',
       other: '$seconds秒钟前',
     );
   }
-
-  @override
-  String get now => '现在';
 }
 
 /// The translations for Chinese, as used in Hong Kong, using the Han script (`zh_Hans_HK`).
@@ -231,6 +244,7 @@ class RelativeTimeLocalizationsZhHant extends RelativeTimeLocalizationsZh {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: '今年',
       other: '$years 年後',
     );
   }
@@ -240,6 +254,7 @@ class RelativeTimeLocalizationsZhHant extends RelativeTimeLocalizationsZh {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: '今年',
       other: '$years 年前',
     );
   }
@@ -249,6 +264,7 @@ class RelativeTimeLocalizationsZhHant extends RelativeTimeLocalizationsZh {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: '這一季',
       other: '$quarters 季後',
     );
   }
@@ -258,6 +274,7 @@ class RelativeTimeLocalizationsZhHant extends RelativeTimeLocalizationsZh {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: '這一季',
       other: '$quarters 季前',
     );
   }
@@ -267,6 +284,7 @@ class RelativeTimeLocalizationsZhHant extends RelativeTimeLocalizationsZh {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: '本月',
       other: '$months 個月後',
     );
   }
@@ -276,6 +294,7 @@ class RelativeTimeLocalizationsZhHant extends RelativeTimeLocalizationsZh {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: '本月',
       other: '$months 個月前',
     );
   }
@@ -285,6 +304,7 @@ class RelativeTimeLocalizationsZhHant extends RelativeTimeLocalizationsZh {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: '本週',
       other: '$weeks 週後',
     );
   }
@@ -294,6 +314,7 @@ class RelativeTimeLocalizationsZhHant extends RelativeTimeLocalizationsZh {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: '本週',
       other: '$weeks 週前',
     );
   }
@@ -303,6 +324,7 @@ class RelativeTimeLocalizationsZhHant extends RelativeTimeLocalizationsZh {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: '今天',
       other: '$days 天後',
     );
   }
@@ -312,6 +334,7 @@ class RelativeTimeLocalizationsZhHant extends RelativeTimeLocalizationsZh {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: '今天',
       other: '$days 天前',
     );
   }
@@ -321,6 +344,7 @@ class RelativeTimeLocalizationsZhHant extends RelativeTimeLocalizationsZh {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: '這一小時',
       other: '$hours 小時後',
     );
   }
@@ -330,6 +354,7 @@ class RelativeTimeLocalizationsZhHant extends RelativeTimeLocalizationsZh {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: '這一小時',
       other: '$hours 小時前',
     );
   }
@@ -339,6 +364,7 @@ class RelativeTimeLocalizationsZhHant extends RelativeTimeLocalizationsZh {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: '這一分鐘',
       other: '$minutes 分鐘後',
     );
   }
@@ -348,6 +374,7 @@ class RelativeTimeLocalizationsZhHant extends RelativeTimeLocalizationsZh {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: '這一分鐘',
       other: '$minutes 分鐘前',
     );
   }
@@ -357,6 +384,7 @@ class RelativeTimeLocalizationsZhHant extends RelativeTimeLocalizationsZh {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: '現在',
       other: '$seconds 秒後',
     );
   }
@@ -366,12 +394,10 @@ class RelativeTimeLocalizationsZhHant extends RelativeTimeLocalizationsZh {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: '現在',
       other: '$seconds 秒前',
     );
   }
-
-  @override
-  String get now => '現在';
 }
 
 /// The translations for Chinese, as used in Hong Kong, using the Han script (`zh_Hant_HK`).
@@ -383,6 +409,7 @@ class RelativeTimeLocalizationsZhHantHk extends RelativeTimeLocalizationsZh {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: '本星期',
       other: '$weeks 星期後',
     );
   }
@@ -392,6 +419,7 @@ class RelativeTimeLocalizationsZhHantHk extends RelativeTimeLocalizationsZh {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: '本星期',
       other: '$weeks 星期前',
     );
   }
@@ -401,6 +429,7 @@ class RelativeTimeLocalizationsZhHantHk extends RelativeTimeLocalizationsZh {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: '今日',
       other: '$days 日後',
     );
   }
@@ -410,6 +439,7 @@ class RelativeTimeLocalizationsZhHantHk extends RelativeTimeLocalizationsZh {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: '今日',
       other: '$days 日前',
     );
   }

@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsFr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'cette année',
       one: 'dans $years an',
       other: 'dans $years ans',
     );
@@ -20,6 +21,7 @@ class RelativeTimeLocalizationsFr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'cette année',
       one: 'il y a $years an',
       other: 'il y a $years ans',
     );
@@ -30,6 +32,7 @@ class RelativeTimeLocalizationsFr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'ce trimestre',
       one: 'dans $quarters trimestre',
       other: 'dans $quarters trimestres',
     );
@@ -40,6 +43,7 @@ class RelativeTimeLocalizationsFr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'ce trimestre',
       one: 'il y a $quarters trimestre',
       other: 'il y a $quarters trimestres',
     );
@@ -50,6 +54,7 @@ class RelativeTimeLocalizationsFr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'ce mois-ci',
       one: 'dans $months mois',
       other: 'dans $months mois',
     );
@@ -60,6 +65,7 @@ class RelativeTimeLocalizationsFr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'ce mois-ci',
       one: 'il y a $months mois',
       other: 'il y a $months mois',
     );
@@ -70,6 +76,7 @@ class RelativeTimeLocalizationsFr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'cette semaine',
       one: 'dans $weeks semaine',
       other: 'dans $weeks semaines',
     );
@@ -80,6 +87,7 @@ class RelativeTimeLocalizationsFr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'cette semaine',
       one: 'il y a $weeks semaine',
       other: 'il y a $weeks semaines',
     );
@@ -90,6 +98,7 @@ class RelativeTimeLocalizationsFr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'aujourd’hui',
       one: 'dans $days jour',
       other: 'dans $days jours',
     );
@@ -100,6 +109,7 @@ class RelativeTimeLocalizationsFr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'aujourd’hui',
       one: 'il y a $days jour',
       other: 'il y a $days jours',
     );
@@ -110,6 +120,7 @@ class RelativeTimeLocalizationsFr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'cette heure-ci',
       one: 'dans $hours heure',
       other: 'dans $hours heures',
     );
@@ -120,6 +131,7 @@ class RelativeTimeLocalizationsFr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'cette heure-ci',
       one: 'il y a $hours heure',
       other: 'il y a $hours heures',
     );
@@ -130,6 +142,7 @@ class RelativeTimeLocalizationsFr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'cette minute-ci',
       one: 'dans $minutes minute',
       other: 'dans $minutes minutes',
     );
@@ -140,6 +153,7 @@ class RelativeTimeLocalizationsFr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'cette minute-ci',
       one: 'il y a $minutes minute',
       other: 'il y a $minutes minutes',
     );
@@ -150,6 +164,7 @@ class RelativeTimeLocalizationsFr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'maintenant',
       one: 'dans $seconds seconde',
       other: 'dans $seconds secondes',
     );
@@ -160,11 +175,9 @@ class RelativeTimeLocalizationsFr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'maintenant',
       one: 'il y a $seconds seconde',
       other: 'il y a $seconds secondes',
     );
   }
-
-  @override
-  String get now => 'maintenant';
 }

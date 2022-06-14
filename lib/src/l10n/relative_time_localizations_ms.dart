@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsMs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'tahun ini',
       other: 'dalam $years tahun',
     );
   }
@@ -19,6 +20,7 @@ class RelativeTimeLocalizationsMs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'tahun ini',
       other: '$years tahun lalu',
     );
   }
@@ -28,6 +30,7 @@ class RelativeTimeLocalizationsMs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'suku tahun ini',
       other: 'dalam $quarters suku tahun',
     );
   }
@@ -37,6 +40,7 @@ class RelativeTimeLocalizationsMs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'suku tahun ini',
       other: '$quarters suku tahun lalu',
     );
   }
@@ -46,6 +50,7 @@ class RelativeTimeLocalizationsMs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'bulan ini',
       other: 'dalam $months bulan',
     );
   }
@@ -55,6 +60,7 @@ class RelativeTimeLocalizationsMs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'bulan ini',
       other: '$months bulan lalu',
     );
   }
@@ -64,6 +70,7 @@ class RelativeTimeLocalizationsMs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'minggu ini',
       other: 'dalam $weeks minggu',
     );
   }
@@ -73,6 +80,7 @@ class RelativeTimeLocalizationsMs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'minggu ini',
       other: '$weeks minggu lalu',
     );
   }
@@ -82,6 +90,7 @@ class RelativeTimeLocalizationsMs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'hari ini',
       other: 'dalam $days hari',
     );
   }
@@ -91,6 +100,7 @@ class RelativeTimeLocalizationsMs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'hari ini',
       other: '$days hari lalu',
     );
   }
@@ -100,6 +110,7 @@ class RelativeTimeLocalizationsMs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'jam ini',
       other: 'dalam $hours jam',
     );
   }
@@ -109,6 +120,7 @@ class RelativeTimeLocalizationsMs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'jam ini',
       other: '$hours jam lalu',
     );
   }
@@ -118,6 +130,7 @@ class RelativeTimeLocalizationsMs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'pada minit ini',
       other: 'dalam $minutes minit',
     );
   }
@@ -127,6 +140,7 @@ class RelativeTimeLocalizationsMs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'pada minit ini',
       other: '$minutes minit lalu',
     );
   }
@@ -136,6 +150,7 @@ class RelativeTimeLocalizationsMs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'sekarang',
       other: 'dalam $seconds saat',
     );
   }
@@ -145,10 +160,8 @@ class RelativeTimeLocalizationsMs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'sekarang',
       other: '$seconds saat lalu',
     );
   }
-
-  @override
-  String get now => 'sekarang';
 }

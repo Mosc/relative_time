@@ -1,0 +1,19 @@
+{
+  "@@locale": "mzn",
+  "yearsFuture": "{years, plural, =0{امسال} other{{years} سال دله}}",
+  "yearsPast": "{years, plural, =0{امسال} other{{years} سال پیش}}",
+  "quartersFuture": "{quarters, plural, other{{quarters} ربع دله}}",
+  "quartersPast": "{quarters, plural, other{{quarters} ربع پیش}}",
+  "monthsFuture": "{months, plural, =0{این ماه} other{{months} ماه دله}}",
+  "monthsPast": "{months, plural, =0{این ماه} other{{months} ماه پیش}}",
+  "weeksFuture": "{weeks, plural, =0{این هفته} other{{weeks} هفته دله}}",
+  "weeksPast": "{weeks, plural, =0{این هفته} other{{weeks} هفته پیش}}",
+  "daysFuture": "{days, plural, =0{اَمروز} other{{days} روز دله}}",
+  "daysPast": "{days, plural, =0{اَمروز} other{{days} روز پیش}}",
+  "hoursFuture": "{hours, plural, other{{hours} ساعِت دله}}",
+  "hoursPast": "{hours, plural, other{{hours} ساعِت پیش}}",
+  "minutesFuture": "{minutes, plural, other{{minutes} دقیقه دله}}",
+  "minutesPast": "{minutes, plural, other{{minutes} دَقه پیش}}",
+  "secondsFuture": "{seconds, plural, other{{seconds} ثانیه دله}}",
+  "secondsPast": "{seconds, plural, other{{seconds} ثانیه پیش}}"
+}

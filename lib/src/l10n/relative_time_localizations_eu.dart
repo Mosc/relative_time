@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsEu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'aurten',
       one: '$years urte barru',
       other: '$years urte barru',
     );
@@ -20,6 +21,7 @@ class RelativeTimeLocalizationsEu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'aurten',
       one: 'Duela $years urte',
       other: 'Duela $years urte',
     );
@@ -30,6 +32,7 @@ class RelativeTimeLocalizationsEu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'hiruhileko hau',
       one: '$quarters hiruhileko barru',
       other: '$quarters hiruhileko barru',
     );
@@ -40,6 +43,7 @@ class RelativeTimeLocalizationsEu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'hiruhileko hau',
       one: 'Duela $quarters hiruhileko',
       other: 'Duela $quarters hiruhileko',
     );
@@ -50,6 +54,7 @@ class RelativeTimeLocalizationsEu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'hilabete honetan',
       one: '$months hilabete barru',
       other: '$months hilabete barru',
     );
@@ -60,6 +65,7 @@ class RelativeTimeLocalizationsEu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'hilabete honetan',
       one: 'Duela $months hilabete',
       other: 'Duela $months hilabete',
     );
@@ -70,6 +76,7 @@ class RelativeTimeLocalizationsEu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'aste honetan',
       one: '$weeks aste barru',
       other: '$weeks aste barru',
     );
@@ -80,6 +87,7 @@ class RelativeTimeLocalizationsEu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'aste honetan',
       one: 'Duela $weeks aste',
       other: 'Duela $weeks aste',
     );
@@ -90,6 +98,7 @@ class RelativeTimeLocalizationsEu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'gaur',
       one: '$days egun barru',
       other: '$days egun barru',
     );
@@ -100,6 +109,7 @@ class RelativeTimeLocalizationsEu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'gaur',
       one: 'Duela $days egun',
       other: 'Duela $days egun',
     );
@@ -110,6 +120,7 @@ class RelativeTimeLocalizationsEu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'ordu honetan',
       one: '$hours ordu barru',
       other: '$hours ordu barru',
     );
@@ -120,6 +131,7 @@ class RelativeTimeLocalizationsEu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'ordu honetan',
       one: 'Duela $hours ordu',
       other: 'Duela $hours ordu',
     );
@@ -130,6 +142,7 @@ class RelativeTimeLocalizationsEu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'minutu honetan',
       one: '$minutes minutu barru',
       other: '$minutes minutu barru',
     );
@@ -140,6 +153,7 @@ class RelativeTimeLocalizationsEu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'minutu honetan',
       one: 'Duela $minutes minutu',
       other: 'Duela $minutes minutu',
     );
@@ -150,6 +164,7 @@ class RelativeTimeLocalizationsEu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'orain',
       one: '$seconds segundo barru',
       other: '$seconds segundo barru',
     );
@@ -160,11 +175,9 @@ class RelativeTimeLocalizationsEu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'orain',
       one: 'Duela $seconds segundo',
       other: 'Duela $seconds segundo',
     );
   }
-
-  @override
-  String get now => 'orain';
 }

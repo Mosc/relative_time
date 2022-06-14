@@ -28,6 +28,7 @@ import 'relative_time_localizations_dsb.dart';
 import 'relative_time_localizations_ee.dart';
 import 'relative_time_localizations_el.dart';
 import 'relative_time_localizations_en.dart';
+import 'relative_time_localizations_eo.dart';
 import 'relative_time_localizations_es.dart';
 import 'relative_time_localizations_et.dart';
 import 'relative_time_localizations_eu.dart';
@@ -65,6 +66,7 @@ import 'relative_time_localizations_kn.dart';
 import 'relative_time_localizations_ko.dart';
 import 'relative_time_localizations_kok.dart';
 import 'relative_time_localizations_ky.dart';
+import 'relative_time_localizations_lb.dart';
 import 'relative_time_localizations_lo.dart';
 import 'relative_time_localizations_lt.dart';
 import 'relative_time_localizations_lv.dart';
@@ -75,6 +77,7 @@ import 'relative_time_localizations_mr.dart';
 import 'relative_time_localizations_ms.dart';
 import 'relative_time_localizations_mt.dart';
 import 'relative_time_localizations_my.dart';
+import 'relative_time_localizations_mzn.dart';
 import 'relative_time_localizations_ne.dart';
 import 'relative_time_localizations_nl.dart';
 import 'relative_time_localizations_no.dart';
@@ -228,6 +231,7 @@ abstract class RelativeTimeLocalizations {
     Locale('dsb'),
     Locale('ee'),
     Locale('el'),
+    Locale('eo'),
     Locale('es'),
     Locale('es', 'MX'),
     Locale('et'),
@@ -268,6 +272,7 @@ abstract class RelativeTimeLocalizations {
     Locale('ko'),
     Locale('kok'),
     Locale('ky'),
+    Locale('lb'),
     Locale('lo'),
     Locale('lt'),
     Locale('lv'),
@@ -278,6 +283,7 @@ abstract class RelativeTimeLocalizations {
     Locale('ms'),
     Locale('mt'),
     Locale('my'),
+    Locale('mzn'),
     Locale('ne'),
     Locale('nl'),
     Locale('no'),
@@ -345,104 +351,98 @@ abstract class RelativeTimeLocalizations {
   /// Number of years in the future.
   ///
   /// In en, this message translates to:
-  /// **'{years, plural, =1{in {years} year} other{in {years} years}}'**
+  /// **'{years, plural, =0{this year} =1{in {years} year} other{in {years} years}}'**
   String yearsFuture(num years);
 
   /// Number of years in the past.
   ///
   /// In en, this message translates to:
-  /// **'{years, plural, =1{{years} year ago} other{{years} years ago}}'**
+  /// **'{years, plural, =0{this year} =1{{years} year ago} other{{years} years ago}}'**
   String yearsPast(num years);
 
   /// Number of quarters in the future.
   ///
   /// In en, this message translates to:
-  /// **'{quarters, plural, =1{in {quarters} quarter} other{in {quarters} quarters}}'**
+  /// **'{quarters, plural, =0{this quarter} =1{in {quarters} quarter} other{in {quarters} quarters}}'**
   String quartersFuture(num quarters);
 
   /// Number of quarters in the past.
   ///
   /// In en, this message translates to:
-  /// **'{quarters, plural, =1{{quarters} quarter ago} other{{quarters} quarters ago}}'**
+  /// **'{quarters, plural, =0{this quarter} =1{{quarters} quarter ago} other{{quarters} quarters ago}}'**
   String quartersPast(num quarters);
 
   /// Number of months in the future.
   ///
   /// In en, this message translates to:
-  /// **'{months, plural, =1{in {months} month} other{in {months} months}}'**
+  /// **'{months, plural, =0{this month} =1{in {months} month} other{in {months} months}}'**
   String monthsFuture(num months);
 
   /// Number of months in the past.
   ///
   /// In en, this message translates to:
-  /// **'{months, plural, =1{{months} month ago} other{{months} months ago}}'**
+  /// **'{months, plural, =0{this month} =1{{months} month ago} other{{months} months ago}}'**
   String monthsPast(num months);
 
   /// Number of weeks in the future.
   ///
   /// In en, this message translates to:
-  /// **'{weeks, plural, =1{in {weeks} week} other{in {weeks} weeks}}'**
+  /// **'{weeks, plural, =0{this week} =1{in {weeks} week} other{in {weeks} weeks}}'**
   String weeksFuture(num weeks);
 
   /// Number of weeks in the past.
   ///
   /// In en, this message translates to:
-  /// **'{weeks, plural, =1{{weeks} week ago} other{{weeks} weeks ago}}'**
+  /// **'{weeks, plural, =0{this week} =1{{weeks} week ago} other{{weeks} weeks ago}}'**
   String weeksPast(num weeks);
 
   /// Number of days in the future.
   ///
   /// In en, this message translates to:
-  /// **'{days, plural, =1{in {days} day} other{in {days} days}}'**
+  /// **'{days, plural, =0{today} =1{in {days} day} other{in {days} days}}'**
   String daysFuture(num days);
 
   /// Number of days in the past.
   ///
   /// In en, this message translates to:
-  /// **'{days, plural, =1{{days} day ago} other{{days} days ago}}'**
+  /// **'{days, plural, =0{today} =1{{days} day ago} other{{days} days ago}}'**
   String daysPast(num days);
 
   /// Number of hours in the future.
   ///
   /// In en, this message translates to:
-  /// **'{hours, plural, =1{in {hours} hour} other{in {hours} hours}}'**
+  /// **'{hours, plural, =0{this hour} =1{in {hours} hour} other{in {hours} hours}}'**
   String hoursFuture(num hours);
 
   /// Number of hours in the past.
   ///
   /// In en, this message translates to:
-  /// **'{hours, plural, =1{{hours} hour ago} other{{hours} hours ago}}'**
+  /// **'{hours, plural, =0{this hour} =1{{hours} hour ago} other{{hours} hours ago}}'**
   String hoursPast(num hours);
 
   /// Number of minutes in the future.
   ///
   /// In en, this message translates to:
-  /// **'{minutes, plural, =1{in {minutes} minute} other{in {minutes} minutes}}'**
+  /// **'{minutes, plural, =0{this minute} =1{in {minutes} minute} other{in {minutes} minutes}}'**
   String minutesFuture(num minutes);
 
   /// Number of minutes in the past.
   ///
   /// In en, this message translates to:
-  /// **'{minutes, plural, =1{{minutes} minute ago} other{{minutes} minutes ago}}'**
+  /// **'{minutes, plural, =0{this minute} =1{{minutes} minute ago} other{{minutes} minutes ago}}'**
   String minutesPast(num minutes);
 
   /// Number of seconds in the future.
   ///
   /// In en, this message translates to:
-  /// **'{seconds, plural, =1{in {seconds} second} other{in {seconds} seconds}}'**
+  /// **'{seconds, plural, =0{now} =1{in {seconds} second} other{in {seconds} seconds}}'**
   String secondsFuture(num seconds);
 
   /// Number of seconds in the past.
   ///
   /// In en, this message translates to:
-  /// **'{seconds, plural, =1{{seconds} second ago} other{{seconds} seconds ago}}'**
+  /// **'{seconds, plural, =0{now} =1{{seconds} second ago} other{{seconds} seconds ago}}'**
   String secondsPast(num seconds);
-
-  /// No description provided for @now.
-  ///
-  /// In en, this message translates to:
-  /// **'now'**
-  String get now;
 }
 
 class _RelativeTimeLocalizationsDelegate
@@ -480,6 +480,7 @@ class _RelativeTimeLocalizationsDelegate
         'ee',
         'el',
         'en',
+        'eo',
         'es',
         'et',
         'eu',
@@ -517,6 +518,7 @@ class _RelativeTimeLocalizationsDelegate
         'ko',
         'kok',
         'ky',
+        'lb',
         'lo',
         'lt',
         'lv',
@@ -527,6 +529,7 @@ class _RelativeTimeLocalizationsDelegate
         'ms',
         'mt',
         'my',
+        'mzn',
         'ne',
         'nl',
         'no',
@@ -752,6 +755,8 @@ RelativeTimeLocalizations lookupRelativeTimeLocalizations(Locale locale) {
       return RelativeTimeLocalizationsEl();
     case 'en':
       return RelativeTimeLocalizationsEn();
+    case 'eo':
+      return RelativeTimeLocalizationsEo();
     case 'es':
       return RelativeTimeLocalizationsEs();
     case 'et':
@@ -826,6 +831,8 @@ RelativeTimeLocalizations lookupRelativeTimeLocalizations(Locale locale) {
       return RelativeTimeLocalizationsKok();
     case 'ky':
       return RelativeTimeLocalizationsKy();
+    case 'lb':
+      return RelativeTimeLocalizationsLb();
     case 'lo':
       return RelativeTimeLocalizationsLo();
     case 'lt':
@@ -846,6 +853,8 @@ RelativeTimeLocalizations lookupRelativeTimeLocalizations(Locale locale) {
       return RelativeTimeLocalizationsMt();
     case 'my':
       return RelativeTimeLocalizationsMy();
+    case 'mzn':
+      return RelativeTimeLocalizationsMzn();
     case 'ne':
       return RelativeTimeLocalizationsNe();
     case 'nl':

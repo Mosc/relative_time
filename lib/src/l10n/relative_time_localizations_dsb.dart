@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsDsb extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'lětosa',
       one: 'za $years lěto',
       two: 'za $years lěśe',
       few: 'za $years lěta',
@@ -22,6 +23,7 @@ class RelativeTimeLocalizationsDsb extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'lětosa',
       one: 'pśed $years lětom',
       two: 'pśed $years lětoma',
       few: 'pśed $years lětami',
@@ -34,6 +36,7 @@ class RelativeTimeLocalizationsDsb extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'toś ten kwartal',
       one: 'za $quarters kwartal',
       two: 'za $quarters kwartala',
       few: 'za $quarters kwartale',
@@ -46,6 +49,7 @@ class RelativeTimeLocalizationsDsb extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'toś ten kwartal',
       one: 'pśed $quarters kwartalom',
       two: 'pśed $quarters kwartaloma',
       few: 'pśed $quarters kwartalami',
@@ -58,6 +62,7 @@ class RelativeTimeLocalizationsDsb extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'ten mjasec',
       one: 'za $months mjasec',
       two: 'za $months mjaseca',
       few: 'za $months mjasecy',
@@ -70,6 +75,7 @@ class RelativeTimeLocalizationsDsb extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'ten mjasec',
       one: 'pśed $months mjasecom',
       two: 'pśed $months mjasecoma',
       few: 'pśed $months mjasecami',
@@ -82,6 +88,7 @@ class RelativeTimeLocalizationsDsb extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'ten tyźeń',
       one: 'za $weeks tyźeń',
       two: 'za $weeks tyźenja',
       few: 'za $weeks tyźenje',
@@ -94,6 +101,7 @@ class RelativeTimeLocalizationsDsb extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'ten tyźeń',
       one: 'pśed $weeks tyźenjom',
       two: 'pśed $weeks tyźenjoma',
       few: 'pśed $weeks tyźenjami',
@@ -106,6 +114,7 @@ class RelativeTimeLocalizationsDsb extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'źinsa',
       one: 'za $days źeń',
       two: 'za $days dnja',
       few: 'za $days dny',
@@ -118,6 +127,7 @@ class RelativeTimeLocalizationsDsb extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'źinsa',
       one: 'pśed $days dnjom',
       two: 'pśed $days dnjoma',
       few: 'pśed $days dnjami',
@@ -130,6 +140,7 @@ class RelativeTimeLocalizationsDsb extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'w toś tej góźinje',
       one: 'za $hours góźinu',
       two: 'za $hours góźinje',
       few: 'za $hours góźiny',
@@ -142,6 +153,7 @@ class RelativeTimeLocalizationsDsb extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'w toś tej góźinje',
       one: 'pśed $hours góźinu',
       two: 'pśed $hours góźinoma',
       few: 'pśed $hours góźinami',
@@ -154,6 +166,7 @@ class RelativeTimeLocalizationsDsb extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'w toś tej minuśe',
       one: 'za $minutes minutu',
       two: 'za $minutes minuśe',
       few: 'za $minutes minuty',
@@ -166,6 +179,7 @@ class RelativeTimeLocalizationsDsb extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'w toś tej minuśe',
       one: 'pśed $minutes minutu',
       two: 'pśed $minutes minutoma',
       few: 'pśed $minutes minutami',
@@ -178,6 +192,7 @@ class RelativeTimeLocalizationsDsb extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'něnto',
       one: 'za $seconds sekundu',
       two: 'za $seconds sekunźe',
       few: 'za $seconds sekundy',
@@ -190,13 +205,11 @@ class RelativeTimeLocalizationsDsb extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'něnto',
       one: 'pśed $seconds sekundu',
       two: 'pśed $seconds sekundoma',
       few: 'pśed $seconds sekundami',
       other: 'pśed $seconds sekundami',
     );
   }
-
-  @override
-  String get now => 'něnto';
 }

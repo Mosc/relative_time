@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsBg extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'тази година',
       one: 'след $years година',
       other: 'след $years години',
     );
@@ -20,6 +21,7 @@ class RelativeTimeLocalizationsBg extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'тази година',
       one: 'преди $years година',
       other: 'преди $years години',
     );
@@ -30,6 +32,7 @@ class RelativeTimeLocalizationsBg extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'това тримесечие',
       one: 'след $quarters тримесечие',
       other: 'след $quarters тримесечия',
     );
@@ -40,6 +43,7 @@ class RelativeTimeLocalizationsBg extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'това тримесечие',
       one: 'преди $quarters тримесечие',
       other: 'преди $quarters тримесечия',
     );
@@ -50,6 +54,7 @@ class RelativeTimeLocalizationsBg extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'този месец',
       one: 'след $months месец',
       other: 'след $months месеца',
     );
@@ -60,6 +65,7 @@ class RelativeTimeLocalizationsBg extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'този месец',
       one: 'преди $months месец',
       other: 'преди $months месеца',
     );
@@ -70,6 +76,7 @@ class RelativeTimeLocalizationsBg extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'тази седмица',
       one: 'след $weeks седмица',
       other: 'след $weeks седмици',
     );
@@ -80,6 +87,7 @@ class RelativeTimeLocalizationsBg extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'тази седмица',
       one: 'преди $weeks седмица',
       other: 'преди $weeks седмици',
     );
@@ -90,6 +98,7 @@ class RelativeTimeLocalizationsBg extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'днес',
       one: 'след $days ден',
       other: 'след $days дни',
     );
@@ -100,6 +109,7 @@ class RelativeTimeLocalizationsBg extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'днес',
       one: 'преди $days ден',
       other: 'преди $days дни',
     );
@@ -110,6 +120,7 @@ class RelativeTimeLocalizationsBg extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'в този час',
       one: 'след $hours час',
       other: 'след $hours часа',
     );
@@ -120,6 +131,7 @@ class RelativeTimeLocalizationsBg extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'в този час',
       one: 'преди $hours час',
       other: 'преди $hours часа',
     );
@@ -130,6 +142,7 @@ class RelativeTimeLocalizationsBg extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'в тази минута',
       one: 'след $minutes минута',
       other: 'след $minutes минути',
     );
@@ -140,6 +153,7 @@ class RelativeTimeLocalizationsBg extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'в тази минута',
       one: 'преди $minutes минута',
       other: 'преди $minutes минути',
     );
@@ -150,6 +164,7 @@ class RelativeTimeLocalizationsBg extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'сега',
       one: 'след $seconds секунда',
       other: 'след $seconds секунди',
     );
@@ -160,11 +175,9 @@ class RelativeTimeLocalizationsBg extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'сега',
       one: 'преди $seconds секунда',
       other: 'преди $seconds секунди',
     );
   }
-
-  @override
-  String get now => 'сега';
 }

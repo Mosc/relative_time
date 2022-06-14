@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsSr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'ове године',
       one: 'за $years годину',
       few: 'за $years године',
       other: 'за $years година',
@@ -21,6 +22,7 @@ class RelativeTimeLocalizationsSr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'ове године',
       one: 'пре $years године',
       few: 'пре $years године',
       other: 'пре $years година',
@@ -32,6 +34,7 @@ class RelativeTimeLocalizationsSr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'овог квартала',
       one: 'за $quarters квартал',
       few: 'за $quarters квартала',
       other: 'за $quarters квартала',
@@ -43,6 +46,7 @@ class RelativeTimeLocalizationsSr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'овог квартала',
       one: 'пре $quarters квартала',
       few: 'пре $quarters квартала',
       other: 'пре $quarters квартала',
@@ -54,6 +58,7 @@ class RelativeTimeLocalizationsSr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'овог месеца',
       one: 'за $months месец',
       few: 'за $months месеца',
       other: 'за $months месеци',
@@ -65,6 +70,7 @@ class RelativeTimeLocalizationsSr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'овог месеца',
       one: 'пре $months месеца',
       few: 'пре $months месеца',
       other: 'пре $months месеци',
@@ -76,6 +82,7 @@ class RelativeTimeLocalizationsSr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'ове недеље',
       one: 'за $weeks недељу',
       few: 'за $weeks недеље',
       other: 'за $weeks недеља',
@@ -87,6 +94,7 @@ class RelativeTimeLocalizationsSr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'ове недеље',
       one: 'пре $weeks недеље',
       few: 'пре $weeks недеље',
       other: 'пре $weeks недеља',
@@ -98,6 +106,7 @@ class RelativeTimeLocalizationsSr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'данас',
       one: 'за $days дан',
       few: 'за $days дана',
       other: 'за $days дана',
@@ -109,6 +118,7 @@ class RelativeTimeLocalizationsSr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'данас',
       one: 'пре $days дана',
       few: 'пре $days дана',
       other: 'пре $days дана',
@@ -120,6 +130,7 @@ class RelativeTimeLocalizationsSr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'овог сата',
       one: 'за $hours сат',
       few: 'за $hours сата',
       other: 'за $hours сати',
@@ -131,6 +142,7 @@ class RelativeTimeLocalizationsSr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'овог сата',
       one: 'пре $hours сата',
       few: 'пре $hours сата',
       other: 'пре $hours сати',
@@ -142,6 +154,7 @@ class RelativeTimeLocalizationsSr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'овог минута',
       one: 'за $minutes минут',
       few: 'за $minutes минута',
       other: 'за $minutes минута',
@@ -153,6 +166,7 @@ class RelativeTimeLocalizationsSr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'овог минута',
       one: 'пре $minutes минута',
       few: 'пре $minutes минута',
       other: 'пре $minutes минута',
@@ -164,6 +178,7 @@ class RelativeTimeLocalizationsSr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'сада',
       one: 'за $seconds секунду',
       few: 'за $seconds секунде',
       other: 'за $seconds секунди',
@@ -175,14 +190,12 @@ class RelativeTimeLocalizationsSr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'сада',
       one: 'пре $seconds секунде',
       few: 'пре $seconds секунде',
       other: 'пре $seconds секунди',
     );
   }
-
-  @override
-  String get now => 'сада';
 }
 
 /// The translations for Serbian, as used in Bosnia and Herzegovina, using the Cyrillic script (`sr_Cyrl_BA`).
@@ -194,6 +207,7 @@ class RelativeTimeLocalizationsSrCyrlBa extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'ове године',
       one: 'прије $years године',
       few: 'прије $years године',
       other: 'прије $years година',
@@ -205,6 +219,7 @@ class RelativeTimeLocalizationsSrCyrlBa extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'овог квартала',
       one: 'прије $quarters квартала',
       few: 'прије $quarters квартала',
       other: 'прије $quarters квартала',
@@ -216,6 +231,7 @@ class RelativeTimeLocalizationsSrCyrlBa extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'овог мјесеца',
       one: 'за $months мјесец',
       few: 'за $months мјесеца',
       other: 'за $months мјесеци',
@@ -227,6 +243,7 @@ class RelativeTimeLocalizationsSrCyrlBa extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'овог мјесеца',
       one: 'прије $months мјесеца',
       few: 'прије $months мјесеца',
       other: 'прије $months мјесеци',
@@ -238,6 +255,7 @@ class RelativeTimeLocalizationsSrCyrlBa extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'ове недјеље',
       one: 'за $weeks недјељу',
       few: 'за $weeks недјеље',
       other: 'за $weeks недјеља',
@@ -249,6 +267,7 @@ class RelativeTimeLocalizationsSrCyrlBa extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'ове недјеље',
       one: 'прије $weeks недјеље',
       few: 'прије $weeks недјеље',
       other: 'прије $weeks недјеља',
@@ -309,6 +328,7 @@ class RelativeTimeLocalizationsSrLatn extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'ove godine',
       one: 'za $years godinu',
       few: 'za $years godine',
       other: 'za $years godina',
@@ -320,6 +340,7 @@ class RelativeTimeLocalizationsSrLatn extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'ove godine',
       one: 'pre $years godine',
       few: 'pre $years godine',
       other: 'pre $years godina',
@@ -331,6 +352,7 @@ class RelativeTimeLocalizationsSrLatn extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'ovog kvartala',
       one: 'za $quarters kvartal',
       few: 'za $quarters kvartala',
       other: 'za $quarters kvartala',
@@ -342,6 +364,7 @@ class RelativeTimeLocalizationsSrLatn extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'ovog kvartala',
       one: 'pre $quarters kvartala',
       few: 'pre $quarters kvartala',
       other: 'pre $quarters kvartala',
@@ -353,6 +376,7 @@ class RelativeTimeLocalizationsSrLatn extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'ovog meseca',
       one: 'za $months mesec',
       few: 'za $months meseca',
       other: 'za $months meseci',
@@ -364,6 +388,7 @@ class RelativeTimeLocalizationsSrLatn extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'ovog meseca',
       one: 'pre $months meseca',
       few: 'pre $months meseca',
       other: 'pre $months meseci',
@@ -375,6 +400,7 @@ class RelativeTimeLocalizationsSrLatn extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'ove nedelje',
       one: 'za $weeks nedelju',
       few: 'za $weeks nedelje',
       other: 'za $weeks nedelja',
@@ -386,6 +412,7 @@ class RelativeTimeLocalizationsSrLatn extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'ove nedelje',
       one: 'pre $weeks nedelje',
       few: 'pre $weeks nedelje',
       other: 'pre $weeks nedelja',
@@ -397,6 +424,7 @@ class RelativeTimeLocalizationsSrLatn extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'danas',
       one: 'za $days dan',
       few: 'za $days dana',
       other: 'za $days dana',
@@ -408,6 +436,7 @@ class RelativeTimeLocalizationsSrLatn extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'danas',
       one: 'pre $days dana',
       few: 'pre $days dana',
       other: 'pre $days dana',
@@ -419,6 +448,7 @@ class RelativeTimeLocalizationsSrLatn extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'ovog sata',
       one: 'za $hours sat',
       few: 'za $hours sata',
       other: 'za $hours sati',
@@ -430,6 +460,7 @@ class RelativeTimeLocalizationsSrLatn extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'ovog sata',
       one: 'pre $hours sata',
       few: 'pre $hours sata',
       other: 'pre $hours sati',
@@ -441,6 +472,7 @@ class RelativeTimeLocalizationsSrLatn extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'ovog minuta',
       one: 'za $minutes minut',
       few: 'za $minutes minuta',
       other: 'za $minutes minuta',
@@ -452,6 +484,7 @@ class RelativeTimeLocalizationsSrLatn extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'ovog minuta',
       one: 'pre $minutes minuta',
       few: 'pre $minutes minuta',
       other: 'pre $minutes minuta',
@@ -463,6 +496,7 @@ class RelativeTimeLocalizationsSrLatn extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'sada',
       one: 'za $seconds sekundu',
       few: 'za $seconds sekunde',
       other: 'za $seconds sekundi',
@@ -474,14 +508,12 @@ class RelativeTimeLocalizationsSrLatn extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'sada',
       one: 'pre $seconds sekunde',
       few: 'pre $seconds sekunde',
       other: 'pre $seconds sekundi',
     );
   }
-
-  @override
-  String get now => 'sada';
 }
 
 /// The translations for Serbian, as used in Bosnia and Herzegovina, using the Latin script (`sr_Latn_BA`).
@@ -515,6 +547,7 @@ class RelativeTimeLocalizationsSrLatnBa extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'ovog mjeseca',
       one: 'za $months mjesec',
       few: 'za $months mjeseca',
       other: 'za $months mjeseci',
@@ -526,6 +559,7 @@ class RelativeTimeLocalizationsSrLatnBa extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'ovog mjeseca',
       one: 'prije $months mjeseca',
       few: 'prije $months mjeseca',
       other: 'prije $months mjeseci',
@@ -537,6 +571,7 @@ class RelativeTimeLocalizationsSrLatnBa extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'ove nedjelje',
       one: 'za $weeks nedjelju',
       few: 'za $weeks nedjelje',
       other: 'za $weeks nedjelja',
@@ -548,6 +583,7 @@ class RelativeTimeLocalizationsSrLatnBa extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'ove nedjelje',
       one: 'prije $weeks nedjelje',
       few: 'prije $weeks nedjelje',
       other: 'prije $weeks nedjelja',

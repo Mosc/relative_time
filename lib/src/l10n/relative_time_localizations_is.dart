@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsIs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'á þessu ári',
       one: 'eftir $years ár',
       other: 'eftir $years ár',
     );
@@ -20,6 +21,7 @@ class RelativeTimeLocalizationsIs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'á þessu ári',
       one: 'fyrir $years ári',
       other: 'fyrir $years árum',
     );
@@ -30,6 +32,7 @@ class RelativeTimeLocalizationsIs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'þessi ársfjórðungur',
       one: 'eftir $quarters ársfjórðung',
       other: 'eftir $quarters ársfjórðunga',
     );
@@ -40,6 +43,7 @@ class RelativeTimeLocalizationsIs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'þessi ársfjórðungur',
       one: 'fyrir $quarters ársfjórðungi',
       other: 'fyrir $quarters ársfjórðungum',
     );
@@ -50,6 +54,7 @@ class RelativeTimeLocalizationsIs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'í þessum mánuði',
       one: 'eftir $months mánuð',
       other: 'eftir $months mánuði',
     );
@@ -60,6 +65,7 @@ class RelativeTimeLocalizationsIs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'í þessum mánuði',
       one: 'fyrir $months mánuði',
       other: 'fyrir $months mánuðum',
     );
@@ -70,6 +76,7 @@ class RelativeTimeLocalizationsIs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'í þessari viku',
       one: 'eftir $weeks viku',
       other: 'eftir $weeks vikur',
     );
@@ -80,6 +87,7 @@ class RelativeTimeLocalizationsIs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'í þessari viku',
       one: 'fyrir $weeks viku',
       other: 'fyrir $weeks vikum',
     );
@@ -90,6 +98,7 @@ class RelativeTimeLocalizationsIs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'í dag',
       one: 'eftir $days dag',
       other: 'eftir $days daga',
     );
@@ -100,6 +109,7 @@ class RelativeTimeLocalizationsIs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'í dag',
       one: 'fyrir $days degi',
       other: 'fyrir $days dögum',
     );
@@ -110,6 +120,7 @@ class RelativeTimeLocalizationsIs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'þessa stundina',
       one: 'eftir $hours klukkustund',
       other: 'eftir $hours klukkustundir',
     );
@@ -120,6 +131,7 @@ class RelativeTimeLocalizationsIs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'þessa stundina',
       one: 'fyrir $hours klukkustund',
       other: 'fyrir $hours klukkustundum',
     );
@@ -130,6 +142,7 @@ class RelativeTimeLocalizationsIs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'á þessari mínútu',
       one: 'eftir $minutes mínútu',
       other: 'eftir $minutes mínútur',
     );
@@ -140,6 +153,7 @@ class RelativeTimeLocalizationsIs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'á þessari mínútu',
       one: 'fyrir $minutes mínútu',
       other: 'fyrir $minutes mínútum',
     );
@@ -150,6 +164,7 @@ class RelativeTimeLocalizationsIs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'núna',
       one: 'eftir $seconds sekúndu',
       other: 'eftir $seconds sekúndur',
     );
@@ -160,11 +175,9 @@ class RelativeTimeLocalizationsIs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'núna',
       one: 'fyrir $seconds sekúndu',
       other: 'fyrir $seconds sekúndum',
     );
   }
-
-  @override
-  String get now => 'núna';
 }

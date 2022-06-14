@@ -1,7 +1,6 @@
 import 'package:clock/clock.dart';
 import 'package:flutter/widgets.dart';
 import 'package:relative_time/src/l10n/relative_time_localizations.dart';
-import 'package:relative_time/src/duration_extension.dart';
 import 'package:relative_time/src/time_unit.dart';
 
 /// Provides a way to format a [DateTime] as relative time.
@@ -26,55 +25,61 @@ class RelativeTime {
 
   /// Formats [time] as the relative time compared to now.
   String format(DateTime time) {
-    bool shouldUse(TimeUnit timeUnit, num amount) =>
-        timeUnits.contains(timeUnit) && amount >= 1;
-
     final RelativeTimeLocalizations localizations = locale != null
         ? lookupRelativeTimeLocalizations(locale!)
         : RelativeTimeLocalizations.of(context!);
 
     final Duration difference = time.difference(clock.now());
+    final Duration absDifference = difference.abs();
+
+    final Map<TimeUnit, int> timeUnitDifferences = <TimeUnit, int>{
+      for (TimeUnit timeUnit in timeUnits)
+        timeUnit: timeUnit.difference(absDifference),
+    };
+    final MapEntry<TimeUnit, int> timeUnitDifference =
+        timeUnitDifferences.entries.firstWhere(
+      (MapEntry<TimeUnit, int> entry) => entry.value >= 1,
+      orElse: () => timeUnitDifferences.entries.last,
+    );
 
     if (difference.isNegative) {
-      final Duration absDifference = difference.abs();
-
-      if (shouldUse(TimeUnit.year, absDifference.inYears)) {
-        return localizations.yearsPast(absDifference.inYears);
-      } else if (shouldUse(TimeUnit.quarter, absDifference.inQuarters)) {
-        return localizations.quartersPast(absDifference.inQuarters);
-      } else if (shouldUse(TimeUnit.month, absDifference.inMonths)) {
-        return localizations.monthsPast(absDifference.inMonths);
-      } else if (shouldUse(TimeUnit.week, absDifference.inWeeks)) {
-        return localizations.weeksPast(absDifference.inWeeks);
-      } else if (shouldUse(TimeUnit.day, absDifference.inDays)) {
-        return localizations.daysPast(absDifference.inDays);
-      } else if (shouldUse(TimeUnit.hour, absDifference.inHours)) {
-        return localizations.hoursPast(absDifference.inHours);
-      } else if (shouldUse(TimeUnit.minute, absDifference.inMinutes)) {
-        return localizations.minutesPast(absDifference.inMinutes);
-      } else if (shouldUse(TimeUnit.second, absDifference.inSeconds)) {
-        return localizations.secondsPast(absDifference.inSeconds);
+      switch (timeUnitDifference.key) {
+        case TimeUnit.year:
+          return localizations.yearsPast(timeUnitDifference.value);
+        case TimeUnit.quarter:
+          return localizations.quartersPast(timeUnitDifference.value);
+        case TimeUnit.month:
+          return localizations.monthsPast(timeUnitDifference.value);
+        case TimeUnit.week:
+          return localizations.weeksPast(timeUnitDifference.value);
+        case TimeUnit.day:
+          return localizations.daysPast(timeUnitDifference.value);
+        case TimeUnit.hour:
+          return localizations.hoursPast(timeUnitDifference.value);
+        case TimeUnit.minute:
+          return localizations.minutesPast(timeUnitDifference.value);
+        case TimeUnit.second:
+          return localizations.secondsPast(timeUnitDifference.value);
       }
     } else {
-      if (shouldUse(TimeUnit.year, difference.inYears)) {
-        return localizations.yearsFuture(difference.inYears);
-      } else if (shouldUse(TimeUnit.quarter, difference.inQuarters)) {
-        return localizations.quartersFuture(difference.inQuarters);
-      } else if (shouldUse(TimeUnit.month, difference.inMonths)) {
-        return localizations.monthsFuture(difference.inMonths);
-      } else if (shouldUse(TimeUnit.week, difference.inWeeks)) {
-        return localizations.weeksFuture(difference.inWeeks);
-      } else if (shouldUse(TimeUnit.day, difference.inDays)) {
-        return localizations.daysFuture(difference.inDays);
-      } else if (shouldUse(TimeUnit.hour, difference.inHours)) {
-        return localizations.hoursFuture(difference.inHours);
-      } else if (shouldUse(TimeUnit.minute, difference.inMinutes)) {
-        return localizations.minutesFuture(difference.inMinutes);
-      } else if (shouldUse(TimeUnit.second, difference.inSeconds)) {
-        return localizations.secondsFuture(difference.inSeconds);
+      switch (timeUnitDifference.key) {
+        case TimeUnit.year:
+          return localizations.yearsFuture(timeUnitDifference.value);
+        case TimeUnit.quarter:
+          return localizations.quartersFuture(timeUnitDifference.value);
+        case TimeUnit.month:
+          return localizations.monthsFuture(timeUnitDifference.value);
+        case TimeUnit.week:
+          return localizations.weeksFuture(timeUnitDifference.value);
+        case TimeUnit.day:
+          return localizations.daysFuture(timeUnitDifference.value);
+        case TimeUnit.hour:
+          return localizations.hoursFuture(timeUnitDifference.value);
+        case TimeUnit.minute:
+          return localizations.minutesFuture(timeUnitDifference.value);
+        case TimeUnit.second:
+          return localizations.secondsFuture(timeUnitDifference.value);
       }
     }
-
-    return localizations.now;
   }
 }

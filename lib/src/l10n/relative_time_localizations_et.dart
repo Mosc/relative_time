@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsEt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'käesolev aasta',
       one: '$years aasta pärast',
       other: '$years aasta pärast',
     );
@@ -20,6 +21,7 @@ class RelativeTimeLocalizationsEt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'käesolev aasta',
       one: '$years aasta eest',
       other: '$years aasta eest',
     );
@@ -30,6 +32,7 @@ class RelativeTimeLocalizationsEt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'käesolev kvartal',
       one: '$quarters kvartali pärast',
       other: '$quarters kvartali pärast',
     );
@@ -40,6 +43,7 @@ class RelativeTimeLocalizationsEt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'käesolev kvartal',
       one: '$quarters kvartali eest',
       other: '$quarters kvartali eest',
     );
@@ -50,6 +54,7 @@ class RelativeTimeLocalizationsEt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'käesolev kuu',
       one: '$months kuu pärast',
       other: '$months kuu pärast',
     );
@@ -60,6 +65,7 @@ class RelativeTimeLocalizationsEt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'käesolev kuu',
       one: '$months kuu eest',
       other: '$months kuu eest',
     );
@@ -70,6 +76,7 @@ class RelativeTimeLocalizationsEt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'käesolev nädal',
       one: '$weeks nädala pärast',
       other: '$weeks nädala pärast',
     );
@@ -80,6 +87,7 @@ class RelativeTimeLocalizationsEt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'käesolev nädal',
       one: '$weeks nädala eest',
       other: '$weeks nädala eest',
     );
@@ -90,6 +98,7 @@ class RelativeTimeLocalizationsEt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'täna',
       one: '$days päeva pärast',
       other: '$days päeva pärast',
     );
@@ -100,6 +109,7 @@ class RelativeTimeLocalizationsEt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'täna',
       one: '$days päeva eest',
       other: '$days päeva eest',
     );
@@ -110,6 +120,7 @@ class RelativeTimeLocalizationsEt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'praegusel tunnil',
       one: '$hours tunni pärast',
       other: '$hours tunni pärast',
     );
@@ -120,6 +131,7 @@ class RelativeTimeLocalizationsEt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'praegusel tunnil',
       one: '$hours tunni eest',
       other: '$hours tunni eest',
     );
@@ -130,6 +142,7 @@ class RelativeTimeLocalizationsEt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'praegusel minutil',
       one: '$minutes minuti pärast',
       other: '$minutes minuti pärast',
     );
@@ -140,6 +153,7 @@ class RelativeTimeLocalizationsEt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'praegusel minutil',
       one: '$minutes minuti eest',
       other: '$minutes minuti eest',
     );
@@ -150,6 +164,7 @@ class RelativeTimeLocalizationsEt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'nüüd',
       one: '$seconds sekundi pärast',
       other: '$seconds sekundi pärast',
     );
@@ -160,11 +175,9 @@ class RelativeTimeLocalizationsEt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'nüüd',
       one: '$seconds sekundi eest',
       other: '$seconds sekundi eest',
     );
   }
-
-  @override
-  String get now => 'nüüd';
 }

@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsEl extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'φέτος',
       one: 'σε $years έτος',
       other: 'σε $years έτη',
     );
@@ -20,6 +21,7 @@ class RelativeTimeLocalizationsEl extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'φέτος',
       one: 'πριν από $years έτος',
       other: 'πριν από $years έτη',
     );
@@ -30,6 +32,7 @@ class RelativeTimeLocalizationsEl extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'τρέχον τρίμηνο',
       one: 'σε $quarters τρίμηνο',
       other: 'σε $quarters τρίμηνα',
     );
@@ -40,6 +43,7 @@ class RelativeTimeLocalizationsEl extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'τρέχον τρίμηνο',
       one: 'πριν από $quarters τρίμηνο',
       other: 'πριν από $quarters τρίμηνα',
     );
@@ -50,6 +54,7 @@ class RelativeTimeLocalizationsEl extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'τρέχων μήνας',
       one: 'σε $months μήνα',
       other: 'σε $months μήνες',
     );
@@ -60,6 +65,7 @@ class RelativeTimeLocalizationsEl extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'τρέχων μήνας',
       one: 'πριν από $months μήνα',
       other: 'πριν από $months μήνες',
     );
@@ -70,6 +76,7 @@ class RelativeTimeLocalizationsEl extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'τρέχουσα εβδομάδα',
       one: 'σε $weeks εβδομάδα',
       other: 'σε $weeks εβδομάδες',
     );
@@ -80,6 +87,7 @@ class RelativeTimeLocalizationsEl extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'τρέχουσα εβδομάδα',
       one: 'πριν από $weeks εβδομάδα',
       other: 'πριν από $weeks εβδομάδες',
     );
@@ -90,6 +98,7 @@ class RelativeTimeLocalizationsEl extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'σήμερα',
       one: 'σε $days ημέρα',
       other: 'σε $days ημέρες',
     );
@@ -100,6 +109,7 @@ class RelativeTimeLocalizationsEl extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'σήμερα',
       one: 'πριν από $days ημέρα',
       other: 'πριν από $days ημέρες',
     );
@@ -110,6 +120,7 @@ class RelativeTimeLocalizationsEl extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'τρέχουσα ώρα',
       one: 'σε $hours ώρα',
       other: 'σε $hours ώρες',
     );
@@ -120,6 +131,7 @@ class RelativeTimeLocalizationsEl extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'τρέχουσα ώρα',
       one: 'πριν από $hours ώρα',
       other: 'πριν από $hours ώρες',
     );
@@ -130,6 +142,7 @@ class RelativeTimeLocalizationsEl extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'τρέχον λεπτό',
       one: 'σε $minutes λεπτό',
       other: 'σε $minutes λεπτά',
     );
@@ -140,6 +153,7 @@ class RelativeTimeLocalizationsEl extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'τρέχον λεπτό',
       one: 'πριν από $minutes λεπτό',
       other: 'πριν από $minutes λεπτά',
     );
@@ -150,6 +164,7 @@ class RelativeTimeLocalizationsEl extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'τώρα',
       one: 'σε $seconds δευτερόλεπτο',
       other: 'σε $seconds δευτερόλεπτα',
     );
@@ -160,11 +175,9 @@ class RelativeTimeLocalizationsEl extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'τώρα',
       one: 'πριν από $seconds δευτερόλεπτο',
       other: 'πριν από $seconds δευτερόλεπτα',
     );
   }
-
-  @override
-  String get now => 'τώρα';
 }

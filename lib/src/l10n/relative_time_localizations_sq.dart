@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsSq extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'sivjet',
       one: 'pas $years viti',
       other: 'pas $years vjetësh',
     );
@@ -20,6 +21,7 @@ class RelativeTimeLocalizationsSq extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'sivjet',
       one: '$years vit më parë',
       other: '$years vjet më parë',
     );
@@ -30,6 +32,7 @@ class RelativeTimeLocalizationsSq extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'këtë tremujor',
       one: 'pas $quarters tremujori',
       other: 'pas $quarters tremujorësh',
     );
@@ -40,6 +43,7 @@ class RelativeTimeLocalizationsSq extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'këtë tremujor',
       one: '$quarters tremujor më parë',
       other: '$quarters tremujorë më parë',
     );
@@ -50,6 +54,7 @@ class RelativeTimeLocalizationsSq extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'këtë muaj',
       one: 'pas $months muaji',
       other: 'pas $months muajsh',
     );
@@ -60,6 +65,7 @@ class RelativeTimeLocalizationsSq extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'këtë muaj',
       one: '$months muaj më parë',
       other: '$months muaj më parë',
     );
@@ -70,6 +76,7 @@ class RelativeTimeLocalizationsSq extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'këtë javë',
       one: 'pas $weeks jave',
       other: 'pas $weeks javësh',
     );
@@ -80,6 +87,7 @@ class RelativeTimeLocalizationsSq extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'këtë javë',
       one: '$weeks javë më parë',
       other: '$weeks javë më parë',
     );
@@ -90,6 +98,7 @@ class RelativeTimeLocalizationsSq extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'sot',
       one: 'pas $days dite',
       other: 'pas $days ditësh',
     );
@@ -100,6 +109,7 @@ class RelativeTimeLocalizationsSq extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'sot',
       one: '$days ditë më parë',
       other: '$days ditë më parë',
     );
@@ -110,6 +120,7 @@ class RelativeTimeLocalizationsSq extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'këtë orë',
       one: 'pas $hours ore',
       other: 'pas $hours orësh',
     );
@@ -120,6 +131,7 @@ class RelativeTimeLocalizationsSq extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'këtë orë',
       one: '$hours orë më parë',
       other: '$hours orë më parë',
     );
@@ -130,6 +142,7 @@ class RelativeTimeLocalizationsSq extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'këtë minutë',
       one: 'pas $minutes minute',
       other: 'pas $minutes minutash',
     );
@@ -140,6 +153,7 @@ class RelativeTimeLocalizationsSq extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'këtë minutë',
       one: '$minutes minutë më parë',
       other: '$minutes minuta më parë',
     );
@@ -150,6 +164,7 @@ class RelativeTimeLocalizationsSq extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'tani',
       one: 'pas $seconds sekonde',
       other: 'pas $seconds sekondash',
     );
@@ -160,11 +175,9 @@ class RelativeTimeLocalizationsSq extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'tani',
       one: '$seconds sekondë më parë',
       other: '$seconds sekonda më parë',
     );
   }
-
-  @override
-  String get now => 'tani';
 }

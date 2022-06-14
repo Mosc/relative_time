@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsGl extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'este ano',
       one: 'en $years ano',
       other: 'en $years anos',
     );
@@ -20,6 +21,7 @@ class RelativeTimeLocalizationsGl extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'este ano',
       one: 'hai $years ano',
       other: 'hai $years anos',
     );
@@ -30,6 +32,7 @@ class RelativeTimeLocalizationsGl extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'este trimestre',
       one: 'en $quarters trimestre',
       other: 'en $quarters trimestres',
     );
@@ -40,6 +43,7 @@ class RelativeTimeLocalizationsGl extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'este trimestre',
       one: 'hai $quarters trimestre',
       other: 'hai $quarters trimestres',
     );
@@ -50,6 +54,7 @@ class RelativeTimeLocalizationsGl extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'este mes',
       one: 'en $months mes',
       other: 'en $months meses',
     );
@@ -60,6 +65,7 @@ class RelativeTimeLocalizationsGl extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'este mes',
       one: 'hai $months mes',
       other: 'hai $months meses',
     );
@@ -70,6 +76,7 @@ class RelativeTimeLocalizationsGl extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'esta semana',
       one: 'en $weeks semana',
       other: 'en $weeks semanas',
     );
@@ -80,6 +87,7 @@ class RelativeTimeLocalizationsGl extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'esta semana',
       one: 'hai $weeks semana',
       other: 'hai $weeks semanas',
     );
@@ -90,6 +98,7 @@ class RelativeTimeLocalizationsGl extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'hoxe',
       one: 'en $days día',
       other: 'en $days días',
     );
@@ -100,6 +109,7 @@ class RelativeTimeLocalizationsGl extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'hoxe',
       one: 'hai $days día',
       other: 'hai $days días',
     );
@@ -110,6 +120,7 @@ class RelativeTimeLocalizationsGl extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'esta hora',
       one: 'en $hours hora',
       other: 'en $hours horas',
     );
@@ -120,6 +131,7 @@ class RelativeTimeLocalizationsGl extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'esta hora',
       one: 'hai $hours hora',
       other: 'hai $hours horas',
     );
@@ -130,6 +142,7 @@ class RelativeTimeLocalizationsGl extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'este minuto',
       one: 'en $minutes minuto',
       other: 'en $minutes minutos',
     );
@@ -140,6 +153,7 @@ class RelativeTimeLocalizationsGl extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'este minuto',
       one: 'hai $minutes minuto',
       other: 'hai $minutes minutos',
     );
@@ -150,6 +164,7 @@ class RelativeTimeLocalizationsGl extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'agora',
       one: 'en $seconds segundo',
       other: 'en $seconds segundos',
     );
@@ -160,11 +175,9 @@ class RelativeTimeLocalizationsGl extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'agora',
       one: 'hai $seconds segundo',
       other: 'hai $seconds segundos',
     );
   }
-
-  @override
-  String get now => 'agora';
 }

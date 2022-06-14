@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsKea extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'es anu li',
       other: 'di li $years anu',
     );
   }
@@ -19,6 +20,7 @@ class RelativeTimeLocalizationsKea extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'es anu li',
       other: 'a ten $years anu',
     );
   }
@@ -28,6 +30,7 @@ class RelativeTimeLocalizationsKea extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'es trimestri li',
       other: 'di li $quarters trimestri',
     );
   }
@@ -37,6 +40,7 @@ class RelativeTimeLocalizationsKea extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'es trimestri li',
       other: 'a ten $quarters trimestri',
     );
   }
@@ -46,6 +50,7 @@ class RelativeTimeLocalizationsKea extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'es mes li',
       other: 'di li $months mes',
     );
   }
@@ -55,6 +60,7 @@ class RelativeTimeLocalizationsKea extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'es mes li',
       other: 'a ten $months mes',
     );
   }
@@ -64,6 +70,7 @@ class RelativeTimeLocalizationsKea extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'es simana li',
       other: 'di li $weeks simana',
     );
   }
@@ -73,6 +80,7 @@ class RelativeTimeLocalizationsKea extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'es simana li',
       other: 'a ten $weeks simana',
     );
   }
@@ -82,6 +90,7 @@ class RelativeTimeLocalizationsKea extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'oji',
       other: 'di li $days dia',
     );
   }
@@ -91,6 +100,7 @@ class RelativeTimeLocalizationsKea extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'oji',
       other: 'a ten $days dia',
     );
   }
@@ -100,6 +110,7 @@ class RelativeTimeLocalizationsKea extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'es ora li',
       other: 'di li $hours ora',
     );
   }
@@ -109,6 +120,7 @@ class RelativeTimeLocalizationsKea extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'es ora li',
       other: 'a ten $hours ora',
     );
   }
@@ -118,6 +130,7 @@ class RelativeTimeLocalizationsKea extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'es minutu li',
       other: 'di li $minutes minutu',
     );
   }
@@ -127,6 +140,7 @@ class RelativeTimeLocalizationsKea extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'es minutu li',
       other: 'a ten $minutes minutu',
     );
   }
@@ -136,6 +150,7 @@ class RelativeTimeLocalizationsKea extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'agora',
       other: 'di li $seconds sigundu',
     );
   }
@@ -145,10 +160,8 @@ class RelativeTimeLocalizationsKea extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'agora',
       other: 'a ten $seconds sigundu',
     );
   }
-
-  @override
-  String get now => 'agora';
 }

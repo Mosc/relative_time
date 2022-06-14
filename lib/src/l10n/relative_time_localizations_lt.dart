@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsLt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'šiais metais',
       one: 'po $years metų',
       few: 'po $years metų',
       many: 'po $years metų',
@@ -22,6 +23,7 @@ class RelativeTimeLocalizationsLt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'šiais metais',
       one: 'prieš $years metus',
       few: 'prieš $years metus',
       many: 'prieš $years metų',
@@ -34,6 +36,7 @@ class RelativeTimeLocalizationsLt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'šis ketvirtis',
       one: 'po $quarters ketvirčio',
       few: 'po $quarters ketvirčių',
       many: 'po $quarters ketvirčio',
@@ -46,6 +49,7 @@ class RelativeTimeLocalizationsLt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'šis ketvirtis',
       one: 'prieš $quarters ketvirtį',
       few: 'prieš $quarters ketvirčius',
       many: 'prieš $quarters ketvirčio',
@@ -58,6 +62,7 @@ class RelativeTimeLocalizationsLt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'šį mėnesį',
       one: 'po $months mėnesio',
       few: 'po $months mėnesių',
       many: 'po $months mėnesio',
@@ -70,6 +75,7 @@ class RelativeTimeLocalizationsLt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'šį mėnesį',
       one: 'prieš $months mėnesį',
       few: 'prieš $months mėnesius',
       many: 'prieš $months mėnesio',
@@ -82,6 +88,7 @@ class RelativeTimeLocalizationsLt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'šią savaitę',
       one: 'po $weeks savaitės',
       few: 'po $weeks savaičių',
       many: 'po $weeks savaitės',
@@ -94,6 +101,7 @@ class RelativeTimeLocalizationsLt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'šią savaitę',
       one: 'prieš $weeks savaitę',
       few: 'prieš $weeks savaites',
       many: 'prieš $weeks savaitės',
@@ -106,6 +114,7 @@ class RelativeTimeLocalizationsLt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'šiandien',
       one: 'po $days dienos',
       few: 'po $days dienų',
       many: 'po $days dienos',
@@ -118,6 +127,7 @@ class RelativeTimeLocalizationsLt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'šiandien',
       one: 'prieš $days dieną',
       few: 'prieš $days dienas',
       many: 'prieš $days dienos',
@@ -130,6 +140,7 @@ class RelativeTimeLocalizationsLt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'šią valandą',
       one: 'po $hours valandos',
       few: 'po $hours valandų',
       many: 'po $hours valandos',
@@ -142,6 +153,7 @@ class RelativeTimeLocalizationsLt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'šią valandą',
       one: 'prieš $hours valandą',
       few: 'prieš $hours valandas',
       many: 'prieš $hours valandos',
@@ -154,6 +166,7 @@ class RelativeTimeLocalizationsLt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'šią minutę',
       one: 'po $minutes minutės',
       few: 'po $minutes minučių',
       many: 'po $minutes minutės',
@@ -166,6 +179,7 @@ class RelativeTimeLocalizationsLt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'šią minutę',
       one: 'prieš $minutes minutę',
       few: 'prieš $minutes minutes',
       many: 'prieš $minutes minutės',
@@ -178,6 +192,7 @@ class RelativeTimeLocalizationsLt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'dabar',
       one: 'po $seconds sekundės',
       few: 'po $seconds sekundžių',
       many: 'po $seconds sekundės',
@@ -190,13 +205,11 @@ class RelativeTimeLocalizationsLt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'dabar',
       one: 'prieš $seconds sekundę',
       few: 'prieš $seconds sekundes',
       many: 'prieš $seconds sekundės',
       other: 'prieš $seconds sekundžių',
     );
   }
-
-  @override
-  String get now => 'dabar';
 }

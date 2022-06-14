@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsMy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'ယခုနှစ်',
       other: '$years နှစ်အတွင်း',
     );
   }
@@ -19,6 +20,7 @@ class RelativeTimeLocalizationsMy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'ယခုနှစ်',
       other: 'ပြီးခဲ့သည့် $years နှစ်',
     );
   }
@@ -28,6 +30,7 @@ class RelativeTimeLocalizationsMy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'ယခု သုံးလပတ်',
       other: 'သုံးလပတ်ကာလ $quarters အတွင်း',
     );
   }
@@ -37,6 +40,7 @@ class RelativeTimeLocalizationsMy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'ယခု သုံးလပတ်',
       other: 'ပြီးခဲ့သည့် သုံးလပတ်ကာလ $quarters ခုအတွင်း',
     );
   }
@@ -46,6 +50,7 @@ class RelativeTimeLocalizationsMy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'ယခုလ',
       other: '$months လအတွင်း',
     );
   }
@@ -55,6 +60,7 @@ class RelativeTimeLocalizationsMy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'ယခုလ',
       other: 'ပြီးခဲ့သည့် $months လ',
     );
   }
@@ -64,6 +70,7 @@ class RelativeTimeLocalizationsMy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'ယခု သီတင်းပတ်',
       other: '$weeks ပတ်အတွင်း',
     );
   }
@@ -73,6 +80,7 @@ class RelativeTimeLocalizationsMy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'ယခု သီတင်းပတ်',
       other: 'ပြီးခဲ့သည့် $weeks ပတ်',
     );
   }
@@ -82,6 +90,7 @@ class RelativeTimeLocalizationsMy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'ယနေ့',
       other: '$days ရက်အတွင်း',
     );
   }
@@ -91,6 +100,7 @@ class RelativeTimeLocalizationsMy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'ယနေ့',
       other: 'ပြီးခဲ့သည့် $days ရက်',
     );
   }
@@ -100,6 +110,7 @@ class RelativeTimeLocalizationsMy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'ဤအချိန်',
       other: '$hours နာရီအတွင်း',
     );
   }
@@ -109,6 +120,7 @@ class RelativeTimeLocalizationsMy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'ဤအချိန်',
       other: 'ပြီးခဲ့သည့် $hours နာရီ',
     );
   }
@@ -118,6 +130,7 @@ class RelativeTimeLocalizationsMy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'ဤမိနစ်',
       other: '$minutes မိနစ်အတွင်း',
     );
   }
@@ -127,6 +140,7 @@ class RelativeTimeLocalizationsMy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'ဤမိနစ်',
       other: 'ပြီးခဲ့သည့် $minutes မိနစ်',
     );
   }
@@ -136,6 +150,7 @@ class RelativeTimeLocalizationsMy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'ယခု',
       other: '$seconds စက္ကန့်အတွင်း',
     );
   }
@@ -145,10 +160,8 @@ class RelativeTimeLocalizationsMy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'ယခု',
       other: 'ပြီးခဲ့သည့် $seconds စက္ကန့်',
     );
   }
-
-  @override
-  String get now => 'ယခု';
 }

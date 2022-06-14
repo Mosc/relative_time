@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsHy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'այս տարի',
       one: '$years տարուց',
       other: '$years տարուց',
     );
@@ -20,6 +21,7 @@ class RelativeTimeLocalizationsHy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'այս տարի',
       one: '$years տարի առաջ',
       other: '$years տարի առաջ',
     );
@@ -30,6 +32,7 @@ class RelativeTimeLocalizationsHy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'այս եռամսյակ',
       one: '$quarters եռամսյակից',
       other: '$quarters եռամսյակից',
     );
@@ -40,6 +43,7 @@ class RelativeTimeLocalizationsHy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'այս եռամսյակ',
       one: '$quarters եռամսյակ առաջ',
       other: '$quarters եռամսյակ առաջ',
     );
@@ -50,6 +54,7 @@ class RelativeTimeLocalizationsHy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'այս ամիս',
       one: '$months ամսից',
       other: '$months ամսից',
     );
@@ -60,6 +65,7 @@ class RelativeTimeLocalizationsHy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'այս ամիս',
       one: '$months ամիս առաջ',
       other: '$months ամիս առաջ',
     );
@@ -70,6 +76,7 @@ class RelativeTimeLocalizationsHy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'այս շաբաթ',
       one: '$weeks շաբաթից',
       other: '$weeks շաբաթից',
     );
@@ -80,6 +87,7 @@ class RelativeTimeLocalizationsHy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'այս շաբաթ',
       one: '$weeks շաբաթ առաջ',
       other: '$weeks շաբաթ առաջ',
     );
@@ -90,6 +98,7 @@ class RelativeTimeLocalizationsHy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'այսօր',
       one: '$days օրից',
       other: '$days օրից',
     );
@@ -100,6 +109,7 @@ class RelativeTimeLocalizationsHy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'այսօր',
       one: '$days օր առաջ',
       other: '$days օր առաջ',
     );
@@ -110,6 +120,7 @@ class RelativeTimeLocalizationsHy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'այս ժամին',
       one: '$hours ժամից',
       other: '$hours ժամից',
     );
@@ -120,6 +131,7 @@ class RelativeTimeLocalizationsHy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'այս ժամին',
       one: '$hours ժամ առաջ',
       other: '$hours ժամ առաջ',
     );
@@ -130,6 +142,7 @@ class RelativeTimeLocalizationsHy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'այս րոպեին',
       one: '$minutes րոպեից',
       other: '$minutes րոպեից',
     );
@@ -140,6 +153,7 @@ class RelativeTimeLocalizationsHy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'այս րոպեին',
       one: '$minutes րոպե առաջ',
       other: '$minutes րոպե առաջ',
     );
@@ -150,6 +164,7 @@ class RelativeTimeLocalizationsHy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'հիմա',
       one: '$seconds վայրկյանից',
       other: '$seconds վայրկյանից',
     );
@@ -160,11 +175,9 @@ class RelativeTimeLocalizationsHy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'հիմա',
       one: '$seconds վայրկյան առաջ',
       other: '$seconds վայրկյան առաջ',
     );
   }
-
-  @override
-  String get now => 'հիմա';
 }

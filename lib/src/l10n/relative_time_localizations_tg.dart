@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsTg extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'соли ҷорӣ',
       other: 'пас аз $years сол',
     );
   }
@@ -19,6 +20,7 @@ class RelativeTimeLocalizationsTg extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'соли ҷорӣ',
       other: '$years сол пеш',
     );
   }
@@ -28,6 +30,7 @@ class RelativeTimeLocalizationsTg extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'чоряки ҷорӣ',
       other: 'пас аз $quarters чоряк',
     );
   }
@@ -37,6 +40,7 @@ class RelativeTimeLocalizationsTg extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'чоряки ҷорӣ',
       other: '$quarters чоряк пеш',
     );
   }
@@ -46,6 +50,7 @@ class RelativeTimeLocalizationsTg extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'моҳи ҷорӣ',
       other: 'пас аз $months моҳ',
     );
   }
@@ -55,6 +60,7 @@ class RelativeTimeLocalizationsTg extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'моҳи ҷорӣ',
       other: '$months моҳ пеш',
     );
   }
@@ -64,6 +70,7 @@ class RelativeTimeLocalizationsTg extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'ҳафтаи ҷорӣ',
       other: 'пас аз $weeks ҳафта',
     );
   }
@@ -73,6 +80,7 @@ class RelativeTimeLocalizationsTg extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'ҳафтаи ҷорӣ',
       other: '$weeks ҳафта пеш',
     );
   }
@@ -82,6 +90,7 @@ class RelativeTimeLocalizationsTg extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'имрӯз',
       other: 'пас аз $days рӯз',
     );
   }
@@ -91,6 +100,7 @@ class RelativeTimeLocalizationsTg extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'имрӯз',
       other: '$days рӯз пеш',
     );
   }
@@ -100,6 +110,7 @@ class RelativeTimeLocalizationsTg extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'соати ҷорӣ',
       other: 'пас аз $hours соат',
     );
   }
@@ -109,6 +120,7 @@ class RelativeTimeLocalizationsTg extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'соати ҷорӣ',
       other: '$hours соат пеш',
     );
   }
@@ -118,6 +130,7 @@ class RelativeTimeLocalizationsTg extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'дақиқаи ҷорӣ',
       other: 'пас аз $minutes дақиқа',
     );
   }
@@ -127,6 +140,7 @@ class RelativeTimeLocalizationsTg extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'дақиқаи ҷорӣ',
       other: '$minutes дақиқа пеш',
     );
   }
@@ -136,6 +150,7 @@ class RelativeTimeLocalizationsTg extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'ҳозир',
       other: 'пас аз $seconds сония',
     );
   }
@@ -145,10 +160,8 @@ class RelativeTimeLocalizationsTg extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'ҳозир',
       other: '$seconds сония пеш',
     );
   }
-
-  @override
-  String get now => 'ҳозир';
 }

@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsMr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'हे वर्ष',
       one: 'येत्या $years वर्षामध्ये',
       other: 'येत्या $years वर्षांमध्ये',
     );
@@ -20,6 +21,7 @@ class RelativeTimeLocalizationsMr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'हे वर्ष',
       one: '$years वर्षापूर्वी',
       other: '$years वर्षांपूर्वी',
     );
@@ -30,6 +32,7 @@ class RelativeTimeLocalizationsMr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'ही तिमाही',
       one: '$quarters तिमाहीमध्ये',
       other: '$quarters तिमाहींमध्ये',
     );
@@ -40,6 +43,7 @@ class RelativeTimeLocalizationsMr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'ही तिमाही',
       one: '$quarters तिमाहीपूर्वी',
       other: '$quarters तिमाहींपूर्वी',
     );
@@ -50,6 +54,7 @@ class RelativeTimeLocalizationsMr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'हा महिना',
       one: 'येत्या $months महिन्यामध्ये',
       other: 'येत्या $months महिन्यांमध्ये',
     );
@@ -60,6 +65,7 @@ class RelativeTimeLocalizationsMr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'हा महिना',
       one: '$months महिन्यापूर्वी',
       other: '$months महिन्यांपूर्वी',
     );
@@ -70,6 +76,7 @@ class RelativeTimeLocalizationsMr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'हा आठवडा',
       one: '$weeks आठवड्यामध्ये',
       other: '$weeks आठवड्यांमध्ये',
     );
@@ -80,6 +87,7 @@ class RelativeTimeLocalizationsMr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'हा आठवडा',
       one: '$weeks आठवड्यापूर्वी',
       other: '$weeks आठवड्यांपूर्वी',
     );
@@ -90,6 +98,7 @@ class RelativeTimeLocalizationsMr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'आज',
       one: 'येत्या $days दिवसामध्ये',
       other: 'येत्या $days दिवसांमध्ये',
     );
@@ -100,6 +109,7 @@ class RelativeTimeLocalizationsMr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'आज',
       one: '$days दिवसापूर्वी',
       other: '$days दिवसांपूर्वी',
     );
@@ -110,6 +120,7 @@ class RelativeTimeLocalizationsMr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'तासात',
       one: '$hours तासामध्ये',
       other: '$hours तासांमध्ये',
     );
@@ -120,6 +131,7 @@ class RelativeTimeLocalizationsMr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'तासात',
       one: '$hours तासापूर्वी',
       other: '$hours तासांपूर्वी',
     );
@@ -130,6 +142,7 @@ class RelativeTimeLocalizationsMr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'या मिनिटात',
       one: '$minutes मिनिटामध्ये',
       other: '$minutes मिनिटांमध्ये',
     );
@@ -140,6 +153,7 @@ class RelativeTimeLocalizationsMr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'या मिनिटात',
       one: '$minutes मिनिटापूर्वी',
       other: '$minutes मिनिटांपूर्वी',
     );
@@ -150,6 +164,7 @@ class RelativeTimeLocalizationsMr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'आत्ता',
       one: '$seconds सेकंदामध्ये',
       other: '$seconds सेकंदांमध्ये',
     );
@@ -160,11 +175,9 @@ class RelativeTimeLocalizationsMr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'आत्ता',
       one: '$seconds सेकंदापूर्वी',
       other: '$seconds सेकंदांपूर्वी',
     );
   }
-
-  @override
-  String get now => 'आत्ता';
 }

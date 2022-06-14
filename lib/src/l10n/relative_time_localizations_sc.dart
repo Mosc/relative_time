@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsSc extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'ocannu',
       one: 'intro de $years annu',
       other: 'intro de $years annos',
     );
@@ -20,6 +21,7 @@ class RelativeTimeLocalizationsSc extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'ocannu',
       one: '$years annu a como',
       other: '$years annos a como',
     );
@@ -30,6 +32,7 @@ class RelativeTimeLocalizationsSc extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'custu trimestre',
       one: 'intro de $quarters trimestre',
       other: 'intro de $quarters trimestres',
     );
@@ -40,6 +43,7 @@ class RelativeTimeLocalizationsSc extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'custu trimestre',
       one: '$quarters trimestre a como',
       other: '$quarters trimestres a como',
     );
@@ -50,6 +54,7 @@ class RelativeTimeLocalizationsSc extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'custu mese',
       one: 'intro de $months mese',
       other: 'intro de $months meses',
     );
@@ -60,6 +65,7 @@ class RelativeTimeLocalizationsSc extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'custu mese',
       one: '$months mese a como',
       other: '$months meses a como',
     );
@@ -70,6 +76,7 @@ class RelativeTimeLocalizationsSc extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'custa chida',
       one: 'intro de $weeks chida',
       other: 'intro de $weeks chidas',
     );
@@ -80,6 +87,7 @@ class RelativeTimeLocalizationsSc extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'custa chida',
       one: '$weeks chida a como',
       other: '$weeks chidas a como',
     );
@@ -90,6 +98,7 @@ class RelativeTimeLocalizationsSc extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'oe',
       one: 'intro de $days die',
       other: 'intro de $days dies',
     );
@@ -100,6 +109,7 @@ class RelativeTimeLocalizationsSc extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'oe',
       one: '$days die a como',
       other: '$days dies a como',
     );
@@ -110,6 +120,7 @@ class RelativeTimeLocalizationsSc extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'cust’ora',
       one: 'intro de $hours ora',
       other: 'intro de $hours oras',
     );
@@ -120,6 +131,7 @@ class RelativeTimeLocalizationsSc extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'cust’ora',
       one: '$hours ora a como',
       other: '$hours oras a como',
     );
@@ -130,6 +142,7 @@ class RelativeTimeLocalizationsSc extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'custu minutu',
       one: 'intro de $minutes minutu',
       other: 'intro de $minutes minutos',
     );
@@ -140,6 +153,7 @@ class RelativeTimeLocalizationsSc extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'custu minutu',
       one: '$minutes minutu a como',
       other: '$minutes minutos a como',
     );
@@ -150,6 +164,7 @@ class RelativeTimeLocalizationsSc extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'como',
       one: 'intro de $seconds segundu',
       other: 'intro de $seconds segundos',
     );
@@ -160,11 +175,9 @@ class RelativeTimeLocalizationsSc extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'como',
       one: '$seconds segundu a como',
       other: '$seconds segundos a como',
     );
   }
-
-  @override
-  String get now => 'como';
 }

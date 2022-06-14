@@ -47,6 +47,15 @@ void main() {
       );
 
       test(
+        'less than one average year formats as this year if year is most granular unit',
+        () => _testFormat(
+          fromNow: (DateTime now) => now.subtract(lessThanOneAverageYear),
+          matcher: 'this year',
+          timeUnits: <TimeUnit>[TimeUnit.year],
+        ),
+      );
+
+      test(
         'less than one average year formats as months ago',
         () => _testFormat(
           fromNow: (DateTime now) => now.subtract(lessThanOneAverageYear),
@@ -73,6 +82,15 @@ void main() {
       );
 
       test(
+        'less than one average quarter formats as this quarter if quarter is most granular unit',
+        () => _testFormat(
+          fromNow: (DateTime now) => now.subtract(lessThanOneAverageQuarter),
+          matcher: 'this quarter',
+          timeUnits: <TimeUnit>[TimeUnit.quarter],
+        ),
+      );
+
+      test(
         'less than one average quarter formats as months ago if quarters are enabled',
         () => _testFormat(
           fromNow: (DateTime now) => now.subtract(lessThanOneAverageQuarter),
@@ -86,6 +104,15 @@ void main() {
         () => _testFormat(
           fromNow: (DateTime now) => now.subtract(moreThanOneAverageMonth),
           matcher: '1 month ago',
+        ),
+      );
+
+      test(
+        'less than one average month formats as this month if month is most granular unit',
+        () => _testFormat(
+          fromNow: (DateTime now) => now.subtract(lessThanOneAverageMonth),
+          matcher: 'this month',
+          timeUnits: <TimeUnit>[TimeUnit.month],
         ),
       );
 
@@ -106,6 +133,15 @@ void main() {
       );
 
       test(
+        'less than one week formats as this week if week is most granular unit',
+        () => _testFormat(
+          fromNow: (DateTime now) => now.subtract(lessThanOneWeek),
+          matcher: 'this week',
+          timeUnits: <TimeUnit>[TimeUnit.week],
+        ),
+      );
+
+      test(
         'less than one week formats as days ago',
         () => _testFormat(
           fromNow: (DateTime now) => now.subtract(lessThanOneWeek),
@@ -118,6 +154,15 @@ void main() {
         () => _testFormat(
           fromNow: (DateTime now) => now.subtract(oneDay),
           matcher: '1 day ago',
+        ),
+      );
+
+      test(
+        'less than one day formats as today if day is most granular unit',
+        () => _testFormat(
+          fromNow: (DateTime now) => now.subtract(lessThanOneDay),
+          matcher: 'today',
+          timeUnits: <TimeUnit>[TimeUnit.day],
         ),
       );
 
@@ -138,6 +183,15 @@ void main() {
       );
 
       test(
+        'less than one hour formats as this hour if hour is most granular unit',
+        () => _testFormat(
+          fromNow: (DateTime now) => now.subtract(lessThanOneHour),
+          matcher: 'this hour',
+          timeUnits: <TimeUnit>[TimeUnit.hour],
+        ),
+      );
+
+      test(
         'less than one hour formats as minutes ago',
         () => _testFormat(
           fromNow: (DateTime now) => now.subtract(lessThanOneHour),
@@ -150,6 +204,15 @@ void main() {
         () => _testFormat(
           fromNow: (DateTime now) => now.subtract(oneMinute),
           matcher: '1 minute ago',
+        ),
+      );
+
+      test(
+        'less than one minute formats as this minute if minute is most granular unit',
+        () => _testFormat(
+          fromNow: (DateTime now) => now.subtract(lessThanOneMinute),
+          matcher: 'this minute',
+          timeUnits: <TimeUnit>[TimeUnit.minute],
         ),
       );
 
@@ -199,6 +262,15 @@ void main() {
       );
 
       test(
+        'less than one average year formats as this year if year is most granular unit',
+        () => _testFormat(
+          fromNow: (DateTime now) => now.add(lessThanOneAverageYear),
+          matcher: 'this year',
+          timeUnits: <TimeUnit>[TimeUnit.year],
+        ),
+      );
+
+      test(
         'less than one average year formats as in months',
         () => _testFormat(
           fromNow: (DateTime now) => now.add(lessThanOneAverageYear),
@@ -225,6 +297,15 @@ void main() {
       );
 
       test(
+        'less than one average quarter formats as this quarter if quarter is most granular unit',
+        () => _testFormat(
+          fromNow: (DateTime now) => now.add(lessThanOneAverageQuarter),
+          matcher: 'this quarter',
+          timeUnits: <TimeUnit>[TimeUnit.quarter],
+        ),
+      );
+
+      test(
         'less than one average quarter formats as in months if quarters are enabled',
         () => _testFormat(
           fromNow: (DateTime now) => now.add(lessThanOneAverageQuarter),
@@ -238,6 +319,15 @@ void main() {
         () => _testFormat(
           fromNow: (DateTime now) => now.add(moreThanOneAverageMonth),
           matcher: 'in 1 month',
+        ),
+      );
+
+      test(
+        'less than one average month formats as this month if month is most granular unit',
+        () => _testFormat(
+          fromNow: (DateTime now) => now.add(lessThanOneAverageMonth),
+          matcher: 'this month',
+          timeUnits: <TimeUnit>[TimeUnit.month],
         ),
       );
 
@@ -258,6 +348,15 @@ void main() {
       );
 
       test(
+        'less than one week formats as this week if week is most granular unit',
+        () => _testFormat(
+          fromNow: (DateTime now) => now.add(lessThanOneWeek),
+          matcher: 'this week',
+          timeUnits: <TimeUnit>[TimeUnit.week],
+        ),
+      );
+
+      test(
         'less than one week formats as in days',
         () => _testFormat(
           fromNow: (DateTime now) => now.add(lessThanOneWeek),
@@ -270,6 +369,15 @@ void main() {
         () => _testFormat(
           fromNow: (DateTime now) => now.add(oneDay),
           matcher: 'in 1 day',
+        ),
+      );
+
+      test(
+        'less than one day formats as today if day is most granular unit',
+        () => _testFormat(
+          fromNow: (DateTime now) => now.add(lessThanOneDay),
+          matcher: 'today',
+          timeUnits: <TimeUnit>[TimeUnit.day],
         ),
       );
 
@@ -290,6 +398,15 @@ void main() {
       );
 
       test(
+        'less than one hour formats as this hour if hour is most granular unit',
+        () => _testFormat(
+          fromNow: (DateTime now) => now.add(lessThanOneHour),
+          matcher: 'this hour',
+          timeUnits: <TimeUnit>[TimeUnit.hour],
+        ),
+      );
+
+      test(
         'less than one hour formats as in minutes',
         () => _testFormat(
           fromNow: (DateTime now) => now.add(lessThanOneHour),
@@ -302,6 +419,15 @@ void main() {
         () => _testFormat(
           fromNow: (DateTime now) => now.add(oneMinute),
           matcher: 'in 1 minute',
+        ),
+      );
+
+      test(
+        'less than one minute formats as this minute if minute is most granular unit',
+        () => _testFormat(
+          fromNow: (DateTime now) => now.add(lessThanOneMinute),
+          matcher: 'this minute',
+          timeUnits: <TimeUnit>[TimeUnit.minute],
         ),
       );
 

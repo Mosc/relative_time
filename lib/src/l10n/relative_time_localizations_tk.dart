@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsTk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'şu ýyl',
       one: '$years ýyldan',
       other: '$years ýyldan',
     );
@@ -20,6 +21,7 @@ class RelativeTimeLocalizationsTk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'şu ýyl',
       one: '$years ýyl öň',
       other: '$years ýyl öň',
     );
@@ -30,6 +32,7 @@ class RelativeTimeLocalizationsTk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'şu çärýek',
       one: '$quarters çärýekden',
       other: '$quarters çärýekden',
     );
@@ -40,6 +43,7 @@ class RelativeTimeLocalizationsTk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'şu çärýek',
       one: '$quarters çärýek öň',
       other: '$quarters çärýek öň',
     );
@@ -50,6 +54,7 @@ class RelativeTimeLocalizationsTk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'şu aý',
       one: '$months aýdan',
       other: '$months aýdan',
     );
@@ -60,6 +65,7 @@ class RelativeTimeLocalizationsTk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'şu aý',
       one: '$months aý öň',
       other: '$months aý öň',
     );
@@ -70,6 +76,7 @@ class RelativeTimeLocalizationsTk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'şu hepde',
       one: '$weeks hepdeden',
       other: '$weeks hepdeden',
     );
@@ -80,6 +87,7 @@ class RelativeTimeLocalizationsTk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'şu hepde',
       one: '$weeks hepde öň',
       other: '$weeks hepde öň',
     );
@@ -90,6 +98,7 @@ class RelativeTimeLocalizationsTk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'şu gün',
       one: '$days günden',
       other: '$days günden',
     );
@@ -100,6 +109,7 @@ class RelativeTimeLocalizationsTk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'şu gün',
       one: '$days gün öň',
       other: '$days gün öň',
     );
@@ -110,6 +120,7 @@ class RelativeTimeLocalizationsTk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'şu sagat',
       one: '$hours sagatdan',
       other: '$hours sagatdan',
     );
@@ -120,6 +131,7 @@ class RelativeTimeLocalizationsTk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'şu sagat',
       one: '$hours sagat öň',
       other: '$hours sagat öň',
     );
@@ -130,6 +142,7 @@ class RelativeTimeLocalizationsTk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'şu minut',
       one: '$minutes minutdan',
       other: '$minutes minutdan',
     );
@@ -140,6 +153,7 @@ class RelativeTimeLocalizationsTk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'şu minut',
       one: '$minutes minut öň',
       other: '$minutes minut öň',
     );
@@ -150,6 +164,7 @@ class RelativeTimeLocalizationsTk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'häzir',
       one: '$seconds sekuntdan',
       other: '$seconds sekuntdan',
     );
@@ -160,11 +175,9 @@ class RelativeTimeLocalizationsTk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'häzir',
       one: '$seconds sekunt öň',
       other: '$seconds sekunt öň',
     );
   }
-
-  @override
-  String get now => 'häzir';
 }

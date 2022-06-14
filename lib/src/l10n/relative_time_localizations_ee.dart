@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsEe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'ƒe sia',
       one: 'le ƒe $years me',
       other: 'le ƒe $years me',
     );
@@ -20,6 +21,7 @@ class RelativeTimeLocalizationsEe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'ƒe sia',
       one: 'ƒe $years si va yi',
       other: 'ƒe $years si wo va yi',
     );
@@ -50,6 +52,7 @@ class RelativeTimeLocalizationsEe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'ɣleti sia',
       one: 'le ɣleti $months me',
       other: 'le ɣleti $months wo me',
     );
@@ -60,6 +63,7 @@ class RelativeTimeLocalizationsEe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'ɣleti sia',
       one: 'ɣleti $months si va yi',
       other: 'ɣleti $months si wo va yi',
     );
@@ -70,6 +74,7 @@ class RelativeTimeLocalizationsEe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'kɔsiɖa sia',
       one: 'le kɔsiɖa $weeks me',
       other: 'le kɔsiɖa $weeks wo me',
     );
@@ -80,6 +85,7 @@ class RelativeTimeLocalizationsEe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'kɔsiɖa sia',
       one: 'kɔsiɖa $weeks si va yi',
       other: 'kɔsiɖa $weeks si wo va yi',
     );
@@ -90,6 +96,7 @@ class RelativeTimeLocalizationsEe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'egbe',
       one: 'le ŋkeke $days me',
       other: 'le ŋkeke $days wo me',
     );
@@ -100,6 +107,7 @@ class RelativeTimeLocalizationsEe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'egbe',
       one: 'ŋkeke $days si va yi',
       other: 'ŋkeke $days si wo va yi',
     );
@@ -150,6 +158,7 @@ class RelativeTimeLocalizationsEe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'fifi',
       one: 'le sekend $seconds me',
       other: 'le sekend $seconds wo me',
     );
@@ -160,11 +169,9 @@ class RelativeTimeLocalizationsEe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'fifi',
       one: 'sekend $seconds si va yi',
       other: 'sekend $seconds si wo va yi',
     );
   }
-
-  @override
-  String get now => 'fifi';
 }

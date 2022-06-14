@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsSe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'this year',
       one: 'in $years year',
       other: 'in $years years',
     );
@@ -20,6 +21,7 @@ class RelativeTimeLocalizationsSe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'this year',
       one: '$years year ago',
       other: '$years years ago',
     );
@@ -30,6 +32,7 @@ class RelativeTimeLocalizationsSe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'this quarter',
       one: 'in $quarters quarter',
       other: 'in $quarters quarters',
     );
@@ -40,6 +43,7 @@ class RelativeTimeLocalizationsSe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'this quarter',
       one: '$quarters quarter ago',
       other: '$quarters quarters ago',
     );
@@ -50,6 +54,7 @@ class RelativeTimeLocalizationsSe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'this month',
       one: 'in $months month',
       other: 'in $months months',
     );
@@ -60,6 +65,7 @@ class RelativeTimeLocalizationsSe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'this month',
       one: '$months month ago',
       other: '$months months ago',
     );
@@ -70,6 +76,7 @@ class RelativeTimeLocalizationsSe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'this week',
       one: 'in $weeks week',
       other: 'in $weeks weeks',
     );
@@ -80,6 +87,7 @@ class RelativeTimeLocalizationsSe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'this week',
       one: '$weeks week ago',
       other: '$weeks weeks ago',
     );
@@ -90,6 +98,7 @@ class RelativeTimeLocalizationsSe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'today',
       one: 'in $days day',
       other: 'in $days days',
     );
@@ -100,6 +109,7 @@ class RelativeTimeLocalizationsSe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'today',
       one: '$days day ago',
       other: '$days days ago',
     );
@@ -110,6 +120,7 @@ class RelativeTimeLocalizationsSe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'this hour',
       one: 'in $hours hour',
       other: 'in $hours hours',
     );
@@ -120,6 +131,7 @@ class RelativeTimeLocalizationsSe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'this hour',
       one: '$hours hour ago',
       other: '$hours hours ago',
     );
@@ -130,6 +142,7 @@ class RelativeTimeLocalizationsSe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'this minute',
       one: 'in $minutes minute',
       other: 'in $minutes minutes',
     );
@@ -140,6 +153,7 @@ class RelativeTimeLocalizationsSe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'this minute',
       one: '$minutes minute ago',
       other: '$minutes minutes ago',
     );
@@ -150,6 +164,7 @@ class RelativeTimeLocalizationsSe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'now',
       one: 'in $seconds second',
       other: 'in $seconds seconds',
     );
@@ -160,13 +175,11 @@ class RelativeTimeLocalizationsSe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'now',
       one: '$seconds second ago',
       other: '$seconds seconds ago',
     );
   }
-
-  @override
-  String get now => 'now';
 }
 
 /// The translations for Northern Sami, as used in Finland (`se_FI`).
@@ -178,6 +191,7 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'dán jagi',
       one: '$years jagi siste',
       two: '$years jagi siste',
       other: '$years jagi siste',
@@ -189,6 +203,7 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'dán jagi',
       one: 'diibmá',
       two: 'ovddet jagi',
       other: '$years jagi dás ovdal',
@@ -200,6 +215,7 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'dán njealjádasjagi',
       one: 'čuovvovaš $quarters njealjádasjagi',
       two: 'čuovvovaš $quarters njealjádasjagi',
       other: 'čuovvovaš $quarters njealjádasjagi',
@@ -211,6 +227,7 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'dán njealjádasjagi',
       one: '-$quarters njealjádasjagi dás ovdal',
       two: '-$quarters njealjádasjagi dás ovdal',
       other: '-$quarters njealjádasjagi dás ovdal',
@@ -222,6 +239,7 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'dán mánu',
       one: '$months mánu siste',
       two: '$months mánu siste',
       other: '$months mánu siste',
@@ -233,6 +251,7 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'dán mánu',
       one: '$months mánnu dás ovdal',
       two: '$months mánu dás ovdal',
       other: '$months mánu dás ovdal',
@@ -244,6 +263,7 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'dán vahku',
       one: '$weeks vahku geahčen',
       two: '$weeks vahku geahčen',
       other: '$weeks vahku geahčen',
@@ -255,6 +275,7 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'dán vahku',
       one: '$weeks vahkku dás ovdal',
       two: '$weeks vahku dás ovdal',
       other: '$weeks vahku dás ovdal',
@@ -288,6 +309,7 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'dán diimmu',
       one: '$hours diimmu siste',
       two: '$hours diimmu siste',
       other: '$hours diimmu siste',
@@ -299,6 +321,7 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'dán diimmu',
       one: '$hours diibmu áigi',
       two: '$hours diimmu áigi',
       other: '$hours diimmu áigi',
@@ -310,6 +333,7 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'dán minuhta',
       one: '$minutes minuhta siste',
       two: '$minutes minuhta siste',
       other: '$minutes minuhta siste',
@@ -321,6 +345,7 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'dán minuhta',
       one: '$minutes minuhtta áigi',
       two: '$minutes minuhta áigi',
       other: '$minutes minuhta áigi',
@@ -332,6 +357,7 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'dál',
       one: '$seconds sekundda siste',
       two: '$seconds sekundda siste',
       other: '$seconds sekundda siste',
@@ -343,12 +369,10 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'dál',
       one: '$seconds sekunda áigi',
       two: '$seconds sekundda áigi',
       other: '$seconds sekundda áigi',
     );
   }
-
-  @override
-  String get now => 'dál';
 }

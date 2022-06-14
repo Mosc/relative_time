@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsTe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'ఈ సంవత్సరం',
       one: '$years సంవత్సరంలో',
       other: '$years సంవత్సరాల్లో',
     );
@@ -20,6 +21,7 @@ class RelativeTimeLocalizationsTe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'ఈ సంవత్సరం',
       one: '$years సంవత్సరం క్రితం',
       other: '$years సంవత్సరాల క్రితం',
     );
@@ -30,6 +32,7 @@ class RelativeTimeLocalizationsTe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'ఈ త్రైమాసికం',
       one: '$quarters త్రైమాసికంలో',
       other: '$quarters త్రైమాసికాల్లో',
     );
@@ -40,6 +43,7 @@ class RelativeTimeLocalizationsTe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'ఈ త్రైమాసికం',
       one: '$quarters త్రైమాసికం క్రితం',
       other: '$quarters త్రైమాసికాల క్రితం',
     );
@@ -50,6 +54,7 @@ class RelativeTimeLocalizationsTe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'ఈ నెల',
       one: '$months నెలలో',
       other: '$months నెలల్లో',
     );
@@ -60,6 +65,7 @@ class RelativeTimeLocalizationsTe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'ఈ నెల',
       one: '$months నెల క్రితం',
       other: '$months నెలల క్రితం',
     );
@@ -70,6 +76,7 @@ class RelativeTimeLocalizationsTe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'ఈ వారం',
       one: '$weeks వారంలో',
       other: '$weeks వారాల్లో',
     );
@@ -80,6 +87,7 @@ class RelativeTimeLocalizationsTe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'ఈ వారం',
       one: '$weeks వారం క్రితం',
       other: '$weeks వారాల క్రితం',
     );
@@ -90,6 +98,7 @@ class RelativeTimeLocalizationsTe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'ఈ రోజు',
       one: '$days రోజులో',
       other: '$days రోజుల్లో',
     );
@@ -100,6 +109,7 @@ class RelativeTimeLocalizationsTe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'ఈ రోజు',
       one: '$days రోజు క్రితం',
       other: '$days రోజుల క్రితం',
     );
@@ -110,6 +120,7 @@ class RelativeTimeLocalizationsTe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'ఈ గంట',
       one: '$hours గంటలో',
       other: '$hours గంటల్లో',
     );
@@ -120,6 +131,7 @@ class RelativeTimeLocalizationsTe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'ఈ గంట',
       one: '$hours గంట క్రితం',
       other: '$hours గంటల క్రితం',
     );
@@ -130,6 +142,7 @@ class RelativeTimeLocalizationsTe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'ఈ నిమిషం',
       one: '$minutes నిమిషంలో',
       other: '$minutes నిమిషాల్లో',
     );
@@ -140,6 +153,7 @@ class RelativeTimeLocalizationsTe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'ఈ నిమిషం',
       one: '$minutes నిమిషం క్రితం',
       other: '$minutes నిమిషాల క్రితం',
     );
@@ -150,6 +164,7 @@ class RelativeTimeLocalizationsTe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'ప్రస్తుతం',
       one: '$seconds సెకనులో',
       other: '$seconds సెకన్లలో',
     );
@@ -160,11 +175,9 @@ class RelativeTimeLocalizationsTe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'ప్రస్తుతం',
       one: '$seconds సెకను క్రితం',
       other: '$seconds సెకన్ల క్రితం',
     );
   }
-
-  @override
-  String get now => 'ప్రస్తుతం';
 }

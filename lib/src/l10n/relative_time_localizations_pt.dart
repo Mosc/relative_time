@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsPt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'este ano',
       one: 'em $years ano',
       other: 'em $years anos',
     );
@@ -20,6 +21,7 @@ class RelativeTimeLocalizationsPt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'este ano',
       one: 'há $years ano',
       other: 'há $years anos',
     );
@@ -30,6 +32,7 @@ class RelativeTimeLocalizationsPt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'este trimestre',
       one: 'em $quarters trimestre',
       other: 'em $quarters trimestres',
     );
@@ -40,6 +43,7 @@ class RelativeTimeLocalizationsPt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'este trimestre',
       one: 'há $quarters trimestre',
       other: 'há $quarters trimestres',
     );
@@ -50,6 +54,7 @@ class RelativeTimeLocalizationsPt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'este mês',
       one: 'em $months mês',
       other: 'em $months meses',
     );
@@ -60,6 +65,7 @@ class RelativeTimeLocalizationsPt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'este mês',
       one: 'há $months mês',
       other: 'há $months meses',
     );
@@ -70,6 +76,7 @@ class RelativeTimeLocalizationsPt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'esta semana',
       one: 'em $weeks semana',
       other: 'em $weeks semanas',
     );
@@ -80,6 +87,7 @@ class RelativeTimeLocalizationsPt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'esta semana',
       one: 'há $weeks semana',
       other: 'há $weeks semanas',
     );
@@ -90,6 +98,7 @@ class RelativeTimeLocalizationsPt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'hoje',
       one: 'em $days dia',
       other: 'em $days dias',
     );
@@ -100,6 +109,7 @@ class RelativeTimeLocalizationsPt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'hoje',
       one: 'há $days dia',
       other: 'há $days dias',
     );
@@ -110,6 +120,7 @@ class RelativeTimeLocalizationsPt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'esta hora',
       one: 'em $hours hora',
       other: 'em $hours horas',
     );
@@ -120,6 +131,7 @@ class RelativeTimeLocalizationsPt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'esta hora',
       one: 'há $hours hora',
       other: 'há $hours horas',
     );
@@ -130,6 +142,7 @@ class RelativeTimeLocalizationsPt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'este minuto',
       one: 'em $minutes minuto',
       other: 'em $minutes minutos',
     );
@@ -140,6 +153,7 @@ class RelativeTimeLocalizationsPt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'este minuto',
       one: 'há $minutes minuto',
       other: 'há $minutes minutos',
     );
@@ -150,6 +164,7 @@ class RelativeTimeLocalizationsPt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'agora',
       one: 'em $seconds segundo',
       other: 'em $seconds segundos',
     );
@@ -160,13 +175,11 @@ class RelativeTimeLocalizationsPt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'agora',
       one: 'há $seconds segundo',
       other: 'há $seconds segundos',
     );
   }
-
-  @override
-  String get now => 'agora';
 }
 
 /// The translations for Portuguese, as used in Portugal (`pt_PT`).
@@ -188,6 +201,7 @@ class RelativeTimeLocalizationsPtPt extends RelativeTimeLocalizationsPt {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'este trimestre',
       one: 'dentro de $quarters trimestre',
       other: 'dentro de $quarters trimestres',
     );

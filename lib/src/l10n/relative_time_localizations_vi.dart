@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsVi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'năm nay',
       other: 'sau $years năm nữa',
     );
   }
@@ -19,6 +20,7 @@ class RelativeTimeLocalizationsVi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'năm nay',
       other: '$years năm trước',
     );
   }
@@ -28,6 +30,7 @@ class RelativeTimeLocalizationsVi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'quý này',
       other: 'sau $quarters quý nữa',
     );
   }
@@ -37,6 +40,7 @@ class RelativeTimeLocalizationsVi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'quý này',
       other: '$quarters quý trước',
     );
   }
@@ -46,6 +50,7 @@ class RelativeTimeLocalizationsVi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'tháng này',
       other: 'sau $months tháng nữa',
     );
   }
@@ -55,6 +60,7 @@ class RelativeTimeLocalizationsVi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'tháng này',
       other: '$months tháng trước',
     );
   }
@@ -64,6 +70,7 @@ class RelativeTimeLocalizationsVi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'tuần này',
       other: 'sau $weeks tuần nữa',
     );
   }
@@ -73,6 +80,7 @@ class RelativeTimeLocalizationsVi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'tuần này',
       other: '$weeks tuần trước',
     );
   }
@@ -82,6 +90,7 @@ class RelativeTimeLocalizationsVi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'Hôm nay',
       other: 'sau $days ngày nữa',
     );
   }
@@ -91,6 +100,7 @@ class RelativeTimeLocalizationsVi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'Hôm nay',
       other: '$days ngày trước',
     );
   }
@@ -100,6 +110,7 @@ class RelativeTimeLocalizationsVi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'giờ này',
       other: 'sau $hours giờ nữa',
     );
   }
@@ -109,6 +120,7 @@ class RelativeTimeLocalizationsVi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'giờ này',
       other: '$hours giờ trước',
     );
   }
@@ -118,6 +130,7 @@ class RelativeTimeLocalizationsVi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'phút này',
       other: 'sau $minutes phút nữa',
     );
   }
@@ -127,6 +140,7 @@ class RelativeTimeLocalizationsVi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'phút này',
       other: '$minutes phút trước',
     );
   }
@@ -136,6 +150,7 @@ class RelativeTimeLocalizationsVi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'bây giờ',
       other: 'sau $seconds giây nữa',
     );
   }
@@ -145,10 +160,8 @@ class RelativeTimeLocalizationsVi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'bây giờ',
       other: '$seconds giây trước',
     );
   }
-
-  @override
-  String get now => 'bây giờ';
 }

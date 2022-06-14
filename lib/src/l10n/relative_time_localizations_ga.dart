@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'i mbliana',
       one: 'i gceann $years bhliain',
       two: 'i gceann $years bhliain',
       few: 'i gceann $years bliana',
@@ -23,6 +24,7 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'i mbliana',
       one: '$years bhliain ó shin',
       two: '$years bhliain ó shin',
       few: '$years bliana ó shin',
@@ -36,6 +38,7 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'an ráithe seo',
       one: 'i gceann $quarters ráithe',
       two: 'i gceann $quarters ráithe',
       few: 'i gceann $quarters ráithe',
@@ -49,6 +52,7 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'an ráithe seo',
       one: '$quarters ráithe ó shin',
       two: '$quarters ráithe ó shin',
       few: '$quarters ráithe ó shin',
@@ -62,6 +66,7 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'an mhí seo',
       one: 'i gceann $months mhí',
       two: 'i gceann $months mhí',
       few: 'i gceann $months mhí',
@@ -75,6 +80,7 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'an mhí seo',
       one: '$months mhí ó shin',
       two: '$months mhí ó shin',
       few: '$months mhí ó shin',
@@ -88,6 +94,7 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'an tseachtain seo',
       one: 'i gceann $weeks seachtain',
       two: 'i gceann $weeks sheachtain',
       few: 'i gceann $weeks seachtaine',
@@ -101,6 +108,7 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'an tseachtain seo',
       one: '$weeks seachtain ó shin',
       two: '$weeks sheachtain ó shin',
       few: '$weeks seachtaine ó shin',
@@ -114,6 +122,7 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'inniu',
       one: 'i gceann $days lá',
       two: 'i gceann $days lá',
       few: 'i gceann $days lá',
@@ -127,6 +136,7 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'inniu',
       one: '$days lá ó shin',
       two: '$days lá ó shin',
       few: '$days lá ó shin',
@@ -140,6 +150,7 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'an uair seo',
       one: 'i gceann $hours uair an chloig',
       two: 'i gceann $hours uair an chloig',
       few: 'i gceann $hours uair an chloig',
@@ -153,6 +164,7 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'an uair seo',
       one: '$hours uair an chloig ó shin',
       two: '$hours uair an chloig ó shin',
       few: '$hours uair an chloig ó shin',
@@ -166,6 +178,7 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'an nóiméad seo',
       one: 'i gceann $minutes nóiméad',
       two: 'i gceann $minutes nóiméad',
       few: 'i gceann $minutes nóiméad',
@@ -179,6 +192,7 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'an nóiméad seo',
       one: '$minutes nóiméad ó shin',
       two: '$minutes nóiméad ó shin',
       few: '$minutes nóiméad ó shin',
@@ -192,6 +206,7 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'anois',
       one: 'i gceann $seconds soicind',
       two: 'i gceann $seconds shoicind',
       few: 'i gceann $seconds shoicind',
@@ -205,6 +220,7 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'anois',
       one: '$seconds soicind ó shin',
       two: '$seconds shoicind ó shin',
       few: '$seconds shoicind ó shin',
@@ -212,7 +228,4 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
       other: '$seconds soicind ó shin',
     );
   }
-
-  @override
-  String get now => 'anois';
 }

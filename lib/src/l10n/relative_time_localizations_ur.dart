@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsUr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'اس سال',
       one: '$years سال میں',
       other: '$years سال میں',
     );
@@ -20,6 +21,7 @@ class RelativeTimeLocalizationsUr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'اس سال',
       one: '$years سال پہلے',
       other: '$years سال پہلے',
     );
@@ -30,6 +32,7 @@ class RelativeTimeLocalizationsUr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'اس سہ ماہی',
       one: '$quarters سہ ماہی میں',
       other: '$quarters سہ ماہی میں',
     );
@@ -40,6 +43,7 @@ class RelativeTimeLocalizationsUr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'اس سہ ماہی',
       one: '$quarters سہ ماہی پہلے',
       other: '$quarters سہ ماہی پہلے',
     );
@@ -50,6 +54,7 @@ class RelativeTimeLocalizationsUr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'اس ماہ',
       one: '$months مہینہ میں',
       other: '$months مہینے میں',
     );
@@ -60,6 +65,7 @@ class RelativeTimeLocalizationsUr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'اس ماہ',
       one: '$months مہینہ پہلے',
       other: '$months مہینے پہلے',
     );
@@ -70,6 +76,7 @@ class RelativeTimeLocalizationsUr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'اس ہفتہ',
       one: '$weeks ہفتہ میں',
       other: '$weeks ہفتے میں',
     );
@@ -80,6 +87,7 @@ class RelativeTimeLocalizationsUr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'اس ہفتہ',
       one: '$weeks ہفتہ پہلے',
       other: '$weeks ہفتے پہلے',
     );
@@ -90,6 +98,7 @@ class RelativeTimeLocalizationsUr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'آج',
       one: '$days دن میں',
       other: '$days دنوں میں',
     );
@@ -100,6 +109,7 @@ class RelativeTimeLocalizationsUr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'آج',
       one: '$days دن پہلے',
       other: '$days دنوں پہلے',
     );
@@ -110,6 +120,7 @@ class RelativeTimeLocalizationsUr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'اس گھنٹے',
       one: '$hours گھنٹے میں',
       other: '$hours گھنٹے میں',
     );
@@ -120,6 +131,7 @@ class RelativeTimeLocalizationsUr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'اس گھنٹے',
       one: '$hours گھنٹہ پہلے',
       other: '$hours گھنٹے پہلے',
     );
@@ -130,6 +142,7 @@ class RelativeTimeLocalizationsUr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'اس منٹ',
       one: '$minutes منٹ میں',
       other: '$minutes منٹ میں',
     );
@@ -140,6 +153,7 @@ class RelativeTimeLocalizationsUr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'اس منٹ',
       one: '$minutes منٹ پہلے',
       other: '$minutes منٹ پہلے',
     );
@@ -150,6 +164,7 @@ class RelativeTimeLocalizationsUr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'اب',
       one: '$seconds سیکنڈ میں',
       other: '$seconds سیکنڈ میں',
     );
@@ -160,13 +175,11 @@ class RelativeTimeLocalizationsUr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'اب',
       one: '$seconds سیکنڈ پہلے',
       other: '$seconds سیکنڈ پہلے',
     );
   }
-
-  @override
-  String get now => 'اب';
 }
 
 /// The translations for Urdu, as used in India (`ur_IN`).
@@ -188,6 +201,7 @@ class RelativeTimeLocalizationsUrIn extends RelativeTimeLocalizationsUr {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'اس ماہ',
       one: '$months ماہ میں',
       other: '$months ماہ میں',
     );
@@ -198,6 +212,7 @@ class RelativeTimeLocalizationsUrIn extends RelativeTimeLocalizationsUr {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'اس ماہ',
       one: '$months ماہ قبل',
       other: '$months ماہ قبل',
     );
@@ -208,6 +223,7 @@ class RelativeTimeLocalizationsUrIn extends RelativeTimeLocalizationsUr {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'اس ہفتہ',
       one: '$weeks ہفتہ میں',
       other: '$weeks ہفتوں میں',
     );
@@ -218,6 +234,7 @@ class RelativeTimeLocalizationsUrIn extends RelativeTimeLocalizationsUr {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'اس ہفتہ',
       one: '$weeks ہفتہ قبل',
       other: '$weeks ہفتے قبل',
     );

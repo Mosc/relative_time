@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsAr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'السنة الحالية',
       one: 'خلال سنة واحدة',
       two: 'خلال سنتين',
       few: 'خلال $years سنوات',
@@ -23,6 +24,7 @@ class RelativeTimeLocalizationsAr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'السنة الحالية',
       one: 'قبل سنة واحدة',
       two: 'قبل سنتين',
       few: 'قبل $years سنوات',
@@ -36,6 +38,7 @@ class RelativeTimeLocalizationsAr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'هذا الربع',
       one: 'خلال ربع سنة واحد',
       two: 'خلال ربعي سنة',
       few: 'خلال $quarters أرباع سنة',
@@ -49,6 +52,7 @@ class RelativeTimeLocalizationsAr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'هذا الربع',
       one: 'قبل ربع سنة واحد',
       two: 'قبل ربعي سنة',
       few: 'قبل $quarters أرباع سنة',
@@ -62,6 +66,7 @@ class RelativeTimeLocalizationsAr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'هذا الشهر',
       one: 'خلال شهر واحد',
       two: 'خلال شهرين',
       few: 'خلال $months أشهر',
@@ -75,6 +80,7 @@ class RelativeTimeLocalizationsAr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'هذا الشهر',
       one: 'قبل شهر واحد',
       two: 'قبل شهرين',
       few: 'قبل $months أشهر',
@@ -88,6 +94,7 @@ class RelativeTimeLocalizationsAr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'هذا الأسبوع',
       one: 'خلال أسبوع واحد',
       two: 'خلال أسبوعين',
       few: 'خلال $weeks أسابيع',
@@ -101,6 +108,7 @@ class RelativeTimeLocalizationsAr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'هذا الأسبوع',
       one: 'قبل أسبوع واحد',
       two: 'قبل أسبوعين',
       few: 'قبل $weeks أسابيع',
@@ -114,6 +122,7 @@ class RelativeTimeLocalizationsAr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'اليوم',
       one: 'خلال يوم واحد',
       two: 'خلال يومين',
       few: 'خلال $days أيام',
@@ -127,6 +136,7 @@ class RelativeTimeLocalizationsAr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'اليوم',
       one: 'قبل يوم واحد',
       two: 'قبل يومين',
       few: 'قبل $days أيام',
@@ -140,6 +150,7 @@ class RelativeTimeLocalizationsAr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'الساعة الحالية',
       one: 'خلال ساعة واحدة',
       two: 'خلال ساعتين',
       few: 'خلال $hours ساعات',
@@ -153,6 +164,7 @@ class RelativeTimeLocalizationsAr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'الساعة الحالية',
       one: 'قبل ساعة واحدة',
       two: 'قبل ساعتين',
       few: 'قبل $hours ساعات',
@@ -166,6 +178,7 @@ class RelativeTimeLocalizationsAr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'هذه الدقيقة',
       one: 'خلال دقيقة واحدة',
       two: 'خلال دقيقتين',
       few: 'خلال $minutes دقائق',
@@ -179,6 +192,7 @@ class RelativeTimeLocalizationsAr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'هذه الدقيقة',
       one: 'قبل دقيقة واحدة',
       two: 'قبل دقيقتين',
       few: 'قبل $minutes دقائق',
@@ -192,6 +206,7 @@ class RelativeTimeLocalizationsAr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'الآن',
       one: 'خلال ثانية واحدة',
       two: 'خلال ثانيتين',
       few: 'خلال $seconds ثوانٍ',
@@ -205,6 +220,7 @@ class RelativeTimeLocalizationsAr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'الآن',
       one: 'قبل ثانية واحدة',
       two: 'قبل ثانيتين',
       few: 'قبل $seconds ثوانِ',
@@ -212,7 +228,4 @@ class RelativeTimeLocalizationsAr extends RelativeTimeLocalizations {
       other: 'قبل $seconds ثانية',
     );
   }
-
-  @override
-  String get now => 'الآن';
 }

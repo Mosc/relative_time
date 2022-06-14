@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsKm extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'ឆ្នាំ​នេះ',
       other: '$years ឆ្នាំទៀត',
     );
   }
@@ -19,6 +20,7 @@ class RelativeTimeLocalizationsKm extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'ឆ្នាំ​នេះ',
       other: '$years ឆ្នាំ​មុន',
     );
   }
@@ -28,6 +30,7 @@ class RelativeTimeLocalizationsKm extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'ត្រីមាស​នេះ',
       other: '$quarters ត្រីមាសទៀត',
     );
   }
@@ -37,6 +40,7 @@ class RelativeTimeLocalizationsKm extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'ត្រីមាស​នេះ',
       other: '$quarters ត្រីមាស​មុន',
     );
   }
@@ -46,6 +50,7 @@ class RelativeTimeLocalizationsKm extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'ខែ​នេះ',
       other: '$months ខែទៀត',
     );
   }
@@ -55,6 +60,7 @@ class RelativeTimeLocalizationsKm extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'ខែ​នេះ',
       other: '$months ខែមុន',
     );
   }
@@ -64,6 +70,7 @@ class RelativeTimeLocalizationsKm extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'សប្ដាហ៍​នេះ',
       other: '$weeks សប្ដាហ៍ទៀត',
     );
   }
@@ -73,6 +80,7 @@ class RelativeTimeLocalizationsKm extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'សប្ដាហ៍​នេះ',
       other: '$weeks សប្ដាហ៍​មុន',
     );
   }
@@ -82,6 +90,7 @@ class RelativeTimeLocalizationsKm extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'ថ្ងៃ​នេះ',
       other: '$days ថ្ងៃទៀត',
     );
   }
@@ -91,6 +100,7 @@ class RelativeTimeLocalizationsKm extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'ថ្ងៃ​នេះ',
       other: '$days ថ្ងៃ​មុន',
     );
   }
@@ -100,6 +110,7 @@ class RelativeTimeLocalizationsKm extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'ម៉ោងនេះ',
       other: 'ក្នុង​រយៈ​ពេល $hours ម៉ោង',
     );
   }
@@ -109,6 +120,7 @@ class RelativeTimeLocalizationsKm extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'ម៉ោងនេះ',
       other: '$hours ម៉ោង​មុន',
     );
   }
@@ -118,6 +130,7 @@ class RelativeTimeLocalizationsKm extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'នាទីនេះ',
       other: '$minutes នាទីទៀត',
     );
   }
@@ -127,6 +140,7 @@ class RelativeTimeLocalizationsKm extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'នាទីនេះ',
       other: '$minutes នាទី​មុន',
     );
   }
@@ -136,6 +150,7 @@ class RelativeTimeLocalizationsKm extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'ឥឡូវ',
       other: '$seconds វិនាទីទៀត',
     );
   }
@@ -145,10 +160,8 @@ class RelativeTimeLocalizationsKm extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'ឥឡូវ',
       other: '$seconds វិនាទី​មុន',
     );
   }
-
-  @override
-  String get now => 'ឥឡូវ';
 }

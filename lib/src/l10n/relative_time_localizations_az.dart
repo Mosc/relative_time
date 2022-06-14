@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsAz extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'bu il',
       one: '$years il ərzində',
       other: '$years il ərzində',
     );
@@ -20,6 +21,7 @@ class RelativeTimeLocalizationsAz extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'bu il',
       one: '$years il öncə',
       other: '$years il öncə',
     );
@@ -30,6 +32,7 @@ class RelativeTimeLocalizationsAz extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'bu rüb',
       one: '$quarters rüb ərzində',
       other: '$quarters rüb ərzində',
     );
@@ -40,6 +43,7 @@ class RelativeTimeLocalizationsAz extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'bu rüb',
       one: '$quarters rüb öncə',
       other: '$quarters rüb öncə',
     );
@@ -50,6 +54,7 @@ class RelativeTimeLocalizationsAz extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'bu ay',
       one: '$months ay ərzində',
       other: '$months ay ərzində',
     );
@@ -60,6 +65,7 @@ class RelativeTimeLocalizationsAz extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'bu ay',
       one: '$months ay öncə',
       other: '$months ay öncə',
     );
@@ -70,6 +76,7 @@ class RelativeTimeLocalizationsAz extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'bu həftə',
       one: '$weeks həftə ərzində',
       other: '$weeks həftə ərzində',
     );
@@ -80,6 +87,7 @@ class RelativeTimeLocalizationsAz extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'bu həftə',
       one: '$weeks həftə öncə',
       other: '$weeks həftə öncə',
     );
@@ -90,6 +98,7 @@ class RelativeTimeLocalizationsAz extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'bu gün',
       one: '$days gün ərzində',
       other: '$days gün ərzində',
     );
@@ -100,6 +109,7 @@ class RelativeTimeLocalizationsAz extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'bu gün',
       one: '$days gün öncə',
       other: '$days gün öncə',
     );
@@ -110,6 +120,7 @@ class RelativeTimeLocalizationsAz extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'bu saat',
       one: '$hours saat ərzində',
       other: '$hours saat ərzində',
     );
@@ -120,6 +131,7 @@ class RelativeTimeLocalizationsAz extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'bu saat',
       one: '$hours saat öncə',
       other: '$hours saat öncə',
     );
@@ -130,6 +142,7 @@ class RelativeTimeLocalizationsAz extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'bu dəqiqə',
       one: '$minutes dəqiqə ərzində',
       other: '$minutes dəqiqə ərzində',
     );
@@ -140,6 +153,7 @@ class RelativeTimeLocalizationsAz extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'bu dəqiqə',
       one: '$minutes dəqiqə öncə',
       other: '$minutes dəqiqə öncə',
     );
@@ -150,6 +164,7 @@ class RelativeTimeLocalizationsAz extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'indi',
       one: '$seconds saniyə ərzində',
       other: '$seconds saniyə ərzində',
     );
@@ -160,11 +175,9 @@ class RelativeTimeLocalizationsAz extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'indi',
       one: '$seconds saniyə öncə',
       other: '$seconds saniyə öncə',
     );
   }
-
-  @override
-  String get now => 'indi';
 }

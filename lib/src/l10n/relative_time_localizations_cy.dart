@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'eleni',
       one: 'ymhen blwyddyn',
       two: 'ymhen $years flynedd',
       few: 'ymhen $years blynedd',
@@ -23,6 +24,7 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'eleni',
       one: 'blwyddyn yn ôl',
       two: '$years flynedd yn ôl',
       few: '$years blynedd yn ôl',
@@ -36,6 +38,7 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'chwarter hwn',
       one: 'ymhen $quarters chwarter',
       two: 'ymhen $quarters chwarter',
       few: 'ymhen $quarters chwarter',
@@ -49,6 +52,7 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'chwarter hwn',
       one: '$quarters chwarter yn ôl',
       two: '$quarters chwarter yn ôl',
       few: '$quarters chwarter yn ôl',
@@ -62,6 +66,7 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'y mis hwn',
       one: 'ymhen mis',
       two: 'ymhen deufis',
       few: 'ymhen $months mis',
@@ -75,6 +80,7 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'y mis hwn',
       one: '$months mis yn ôl',
       two: '$months fis yn ôl',
       few: '$months mis yn ôl',
@@ -88,6 +94,7 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'yr wythnos hon',
       one: 'ymhen wythnos',
       two: 'ymhen pythefnos',
       few: 'ymhen $weeks wythnos',
@@ -101,6 +108,7 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'yr wythnos hon',
       one: '$weeks wythnos yn ôl',
       two: '$weeks wythnos yn ôl',
       few: '$weeks wythnos yn ôl',
@@ -114,6 +122,7 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'heddiw',
       one: 'ymhen diwrnod',
       two: 'ymhen deuddydd',
       few: 'ymhen $days diwrnod',
@@ -127,6 +136,7 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'heddiw',
       one: '$days diwrnod yn ôl',
       two: '$days ddiwrnod yn ôl',
       few: '$days diwrnod yn ôl',
@@ -140,6 +150,7 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'yr awr hon',
       one: 'ymhen awr',
       two: 'ymhen $hours awr',
       few: 'ymhen $hours awr',
@@ -153,6 +164,7 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'yr awr hon',
       one: '$hours awr yn ôl',
       two: '$hours awr yn ôl',
       few: '$hours awr yn ôl',
@@ -166,6 +178,7 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'y funud hon',
       one: 'ymhen $minutes munud',
       two: 'ymhen $minutes munud',
       few: 'ymhen $minutes munud',
@@ -179,6 +192,7 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'y funud hon',
       one: '$minutes munud yn ôl',
       two: '$minutes munud yn ôl',
       few: '$minutes munud yn ôl',
@@ -192,6 +206,7 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'nawr',
       one: 'ymhen $seconds eiliad',
       two: 'ymhen $seconds eiliad',
       few: 'ymhen $seconds eiliad',
@@ -205,6 +220,7 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'nawr',
       one: '$seconds eiliad yn ôl',
       two: '$seconds eiliad yn ôl',
       few: '$seconds eiliad yn ôl',
@@ -212,7 +228,4 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
       other: '$seconds eiliad yn ôl',
     );
   }
-
-  @override
-  String get now => 'nawr';
 }

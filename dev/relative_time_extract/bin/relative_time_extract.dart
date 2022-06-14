@@ -68,6 +68,10 @@ void main() {
         continue;
       }
 
+      final Iterable<XmlElement> relatives = dateField.findElements('relative');
+      final Iterable<XmlElement> relativeTypeZeroes = relatives.where(
+          (XmlElement relative) =>
+              _getXmlAttributeValue(relative, 'type') == '0');
       final Iterable<XmlElement> relativeTimes =
           dateField.findElements('relativeTime');
 
@@ -77,6 +81,8 @@ void main() {
         final Iterable<XmlElement> relativeTimePatterns =
             relativeTime.findElements('relativeTimePattern');
         final String relativeTimePatternPlurals = <String, String>{
+          if (relativeTypeZeroes.isNotEmpty)
+            '=0': relativeTypeZeroes.first.text,
           for (XmlElement relativeTimePattern in relativeTimePatterns)
             _getMappedRelativeTimePatternCount(relativeTimePattern):
                 relativeTimePattern.text
@@ -103,17 +109,6 @@ void main() {
               },
             },
           };
-        }
-      }
-
-      if (dateFieldType == allowedDateFieldTypes.last) {
-        final Iterable<XmlElement> relativeTypeZeroes = dateField
-            .findElements('relative')
-            .where((XmlElement relative) =>
-                _getXmlAttributeValue(relative, 'type') == '0');
-
-        if (relativeTypeZeroes.isNotEmpty) {
-          entries['now'] = relativeTypeZeroes.first.text;
         }
       }
     }
@@ -150,7 +145,7 @@ String _getMappedRelativeTimePatternCount(XmlElement relativeTimePattern) {
 }
 
 int _expectedEntries(String locale) =>
-    allowedDateFieldTypes.length * 2 * (locale == templateLocale ? 2 : 1) + 1;
+    allowedDateFieldTypes.length * 2 * (locale == templateLocale ? 2 : 1);
 
 void _writeArb(String locale, Map<String, dynamic> entries) {
   final String mappedLocale = localeMapping[locale] ?? locale;

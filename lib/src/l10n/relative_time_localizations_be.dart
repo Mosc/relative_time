@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsBe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'у гэтым годзе',
       one: 'праз $years год',
       few: 'праз $years гады',
       many: 'праз $years гадоў',
@@ -22,6 +23,7 @@ class RelativeTimeLocalizationsBe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'у гэтым годзе',
       one: '$years год таму',
       few: '$years гады таму',
       many: '$years гадоў таму',
@@ -34,6 +36,7 @@ class RelativeTimeLocalizationsBe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'у гэтым квартале',
       one: 'праз $quarters квартал',
       few: 'праз $quarters кварталы',
       many: 'праз $quarters кварталаў',
@@ -46,6 +49,7 @@ class RelativeTimeLocalizationsBe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'у гэтым квартале',
       one: '$quarters квартал таму',
       few: '$quarters кварталы таму',
       many: '$quarters кварталаў таму',
@@ -58,6 +62,7 @@ class RelativeTimeLocalizationsBe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'у гэтым месяцы',
       one: 'праз $months месяц',
       few: 'праз $months месяцы',
       many: 'праз $months месяцаў',
@@ -70,6 +75,7 @@ class RelativeTimeLocalizationsBe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'у гэтым месяцы',
       one: '$months месяц таму',
       few: '$months месяцы таму',
       many: '$months месяцаў таму',
@@ -82,6 +88,7 @@ class RelativeTimeLocalizationsBe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'на гэтым тыдні',
       one: 'праз $weeks тыдзень',
       few: 'праз $weeks тыдні',
       many: 'праз $weeks тыдняў',
@@ -94,6 +101,7 @@ class RelativeTimeLocalizationsBe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'на гэтым тыдні',
       one: '$weeks тыдзень таму',
       few: '$weeks тыдні таму',
       many: '$weeks тыдняў таму',
@@ -106,6 +114,7 @@ class RelativeTimeLocalizationsBe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'сёння',
       one: 'праз $days дзень',
       few: 'праз $days дні',
       many: 'праз $days дзён',
@@ -118,6 +127,7 @@ class RelativeTimeLocalizationsBe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'сёння',
       one: '$days дзень таму',
       few: '$days дні таму',
       many: '$days дзён таму',
@@ -130,6 +140,7 @@ class RelativeTimeLocalizationsBe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'у гэту гадзіну',
       one: 'праз $hours гадзіну',
       few: 'праз $hours гадзіны',
       many: 'праз $hours гадзін',
@@ -142,6 +153,7 @@ class RelativeTimeLocalizationsBe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'у гэту гадзіну',
       one: '$hours гадзіну таму',
       few: '$hours гадзіны таму',
       many: '$hours гадзін таму',
@@ -154,6 +166,7 @@ class RelativeTimeLocalizationsBe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'у гэту хвіліну',
       one: 'праз $minutes хвіліну',
       few: 'праз $minutes хвіліны',
       many: 'праз $minutes хвілін',
@@ -166,6 +179,7 @@ class RelativeTimeLocalizationsBe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'у гэту хвіліну',
       one: '$minutes хвіліну таму',
       few: '$minutes хвіліны таму',
       many: '$minutes хвілін таму',
@@ -178,6 +192,7 @@ class RelativeTimeLocalizationsBe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'цяпер',
       one: 'праз $seconds секунду',
       few: 'праз $seconds секунды',
       many: 'праз $seconds секунд',
@@ -190,15 +205,13 @@ class RelativeTimeLocalizationsBe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'цяпер',
       one: '$seconds секунду таму',
       few: '$seconds секунды таму',
       many: '$seconds секунд таму',
       other: '$seconds секунды таму',
     );
   }
-
-  @override
-  String get now => 'цяпер';
 }
 
 /// The translations for Belarusian (`be_tarask`).
@@ -234,6 +247,7 @@ class RelativeTimeLocalizationsBeTarask extends RelativeTimeLocalizationsBe {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'у гэтую гадзіну',
       one: 'праз $hours гадзіну',
       few: 'праз $hours гадзіны',
       many: 'праз $hours гадзінаў',
@@ -246,6 +260,7 @@ class RelativeTimeLocalizationsBeTarask extends RelativeTimeLocalizationsBe {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'у гэтую гадзіну',
       one: '$hours гадзіну таму',
       few: '$hours гадзіны таму',
       many: '$hours гадзінаў таму',
@@ -258,6 +273,7 @@ class RelativeTimeLocalizationsBeTarask extends RelativeTimeLocalizationsBe {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'у гэтую хвіліну',
       one: 'праз $minutes хвіліну',
       few: 'праз $minutes хвіліны',
       many: 'праз $minutes хвілінаў',
@@ -270,6 +286,7 @@ class RelativeTimeLocalizationsBeTarask extends RelativeTimeLocalizationsBe {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'у гэтую хвіліну',
       one: '$minutes хвіліну таму',
       few: '$minutes хвіліны таму',
       many: '$minutes хвілінаў таму',

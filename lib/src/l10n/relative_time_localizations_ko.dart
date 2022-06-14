@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsKo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: '올해',
       other: '$years년 후',
     );
   }
@@ -19,6 +20,7 @@ class RelativeTimeLocalizationsKo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: '올해',
       other: '$years년 전',
     );
   }
@@ -28,6 +30,7 @@ class RelativeTimeLocalizationsKo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: '이번 분기',
       other: '$quarters분기 후',
     );
   }
@@ -37,6 +40,7 @@ class RelativeTimeLocalizationsKo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: '이번 분기',
       other: '$quarters분기 전',
     );
   }
@@ -46,6 +50,7 @@ class RelativeTimeLocalizationsKo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: '이번 달',
       other: '$months개월 후',
     );
   }
@@ -55,6 +60,7 @@ class RelativeTimeLocalizationsKo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: '이번 달',
       other: '$months개월 전',
     );
   }
@@ -64,6 +70,7 @@ class RelativeTimeLocalizationsKo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: '이번 주',
       other: '$weeks주 후',
     );
   }
@@ -73,6 +80,7 @@ class RelativeTimeLocalizationsKo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: '이번 주',
       other: '$weeks주 전',
     );
   }
@@ -82,6 +90,7 @@ class RelativeTimeLocalizationsKo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: '오늘',
       other: '$days일 후',
     );
   }
@@ -91,6 +100,7 @@ class RelativeTimeLocalizationsKo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: '오늘',
       other: '$days일 전',
     );
   }
@@ -100,6 +110,7 @@ class RelativeTimeLocalizationsKo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: '현재 시간',
       other: '$hours시간 후',
     );
   }
@@ -109,6 +120,7 @@ class RelativeTimeLocalizationsKo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: '현재 시간',
       other: '$hours시간 전',
     );
   }
@@ -118,6 +130,7 @@ class RelativeTimeLocalizationsKo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: '현재 분',
       other: '$minutes분 후',
     );
   }
@@ -127,6 +140,7 @@ class RelativeTimeLocalizationsKo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: '현재 분',
       other: '$minutes분 전',
     );
   }
@@ -136,6 +150,7 @@ class RelativeTimeLocalizationsKo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: '지금',
       other: '$seconds초 후',
     );
   }
@@ -145,10 +160,8 @@ class RelativeTimeLocalizationsKo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: '지금',
       other: '$seconds초 전',
     );
   }
-
-  @override
-  String get now => '지금';
 }

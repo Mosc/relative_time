@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsIt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'quest’anno',
       one: 'tra $years anno',
       other: 'tra $years anni',
     );
@@ -20,6 +21,7 @@ class RelativeTimeLocalizationsIt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'quest’anno',
       one: '$years anno fa',
       other: '$years anni fa',
     );
@@ -30,6 +32,7 @@ class RelativeTimeLocalizationsIt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'questo trimestre',
       one: 'tra $quarters trimestre',
       other: 'tra $quarters trimestri',
     );
@@ -40,6 +43,7 @@ class RelativeTimeLocalizationsIt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'questo trimestre',
       one: '$quarters trimestre fa',
       other: '$quarters trimestri fa',
     );
@@ -50,6 +54,7 @@ class RelativeTimeLocalizationsIt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'questo mese',
       one: 'tra $months mese',
       other: 'tra $months mesi',
     );
@@ -60,6 +65,7 @@ class RelativeTimeLocalizationsIt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'questo mese',
       one: '$months mese fa',
       other: '$months mesi fa',
     );
@@ -70,6 +76,7 @@ class RelativeTimeLocalizationsIt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'questa settimana',
       one: 'tra $weeks settimana',
       other: 'tra $weeks settimane',
     );
@@ -80,6 +87,7 @@ class RelativeTimeLocalizationsIt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'questa settimana',
       one: '$weeks settimana fa',
       other: '$weeks settimane fa',
     );
@@ -90,6 +98,7 @@ class RelativeTimeLocalizationsIt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'oggi',
       one: 'tra $days giorno',
       other: 'tra $days giorni',
     );
@@ -100,6 +109,7 @@ class RelativeTimeLocalizationsIt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'oggi',
       one: '$days giorno fa',
       other: '$days giorni fa',
     );
@@ -110,6 +120,7 @@ class RelativeTimeLocalizationsIt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'quest’ora',
       one: 'tra $hours ora',
       other: 'tra $hours ore',
     );
@@ -120,6 +131,7 @@ class RelativeTimeLocalizationsIt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'quest’ora',
       one: '$hours ora fa',
       other: '$hours ore fa',
     );
@@ -130,6 +142,7 @@ class RelativeTimeLocalizationsIt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'questo minuto',
       one: 'tra $minutes minuto',
       other: 'tra $minutes minuti',
     );
@@ -140,6 +153,7 @@ class RelativeTimeLocalizationsIt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'questo minuto',
       one: '$minutes minuto fa',
       other: '$minutes minuti fa',
     );
@@ -150,6 +164,7 @@ class RelativeTimeLocalizationsIt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'ora',
       one: 'tra $seconds secondo',
       other: 'tra $seconds secondi',
     );
@@ -160,11 +175,9 @@ class RelativeTimeLocalizationsIt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'ora',
       one: '$seconds secondo fa',
       other: '$seconds secondi fa',
     );
   }
-
-  @override
-  String get now => 'ora';
 }

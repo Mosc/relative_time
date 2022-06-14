@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsTa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'இந்த ஆண்டு',
       one: '$years ஆண்டில்',
       other: '$years ஆண்டுகளில்',
     );
@@ -20,6 +21,7 @@ class RelativeTimeLocalizationsTa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'இந்த ஆண்டு',
       one: '$years ஆண்டிற்கு முன்',
       other: '$years ஆண்டுகளுக்கு முன்',
     );
@@ -30,6 +32,7 @@ class RelativeTimeLocalizationsTa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'இந்த காலாண்டு',
       one: '+$quarters காலாண்டில்',
       other: '$quarters காலாண்டுகளில்',
     );
@@ -40,6 +43,7 @@ class RelativeTimeLocalizationsTa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'இந்த காலாண்டு',
       one: '$quarters காலாண்டுக்கு முன்',
       other: '$quarters காலாண்டுகளுக்கு முன்',
     );
@@ -50,6 +54,7 @@ class RelativeTimeLocalizationsTa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'இந்த மாதம்',
       one: '$months மாதத்தில்',
       other: '$months மாதங்களில்',
     );
@@ -60,6 +65,7 @@ class RelativeTimeLocalizationsTa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'இந்த மாதம்',
       one: '$months மாதத்துக்கு முன்',
       other: '$months மாதங்களுக்கு முன்',
     );
@@ -70,6 +76,7 @@ class RelativeTimeLocalizationsTa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'இந்த வாரம்',
       one: '$weeks வாரத்தில்',
       other: '$weeks வாரங்களில்',
     );
@@ -80,6 +87,7 @@ class RelativeTimeLocalizationsTa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'இந்த வாரம்',
       one: '$weeks வாரத்திற்கு முன்',
       other: '$weeks வாரங்களுக்கு முன்',
     );
@@ -90,6 +98,7 @@ class RelativeTimeLocalizationsTa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'இன்று',
       one: '$days நாளில்',
       other: '$days நாட்களில்',
     );
@@ -100,6 +109,7 @@ class RelativeTimeLocalizationsTa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'இன்று',
       one: '$days நாளுக்கு முன்',
       other: '$days நாட்களுக்கு முன்',
     );
@@ -110,6 +120,7 @@ class RelativeTimeLocalizationsTa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'இந்த ஒரு மணிநேரத்தில்',
       one: '$hours மணிநேரத்தில்',
       other: '$hours மணிநேரத்தில்',
     );
@@ -120,6 +131,7 @@ class RelativeTimeLocalizationsTa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'இந்த ஒரு மணிநேரத்தில்',
       one: '$hours மணிநேரம் முன்',
       other: '$hours மணிநேரம் முன்',
     );
@@ -130,6 +142,7 @@ class RelativeTimeLocalizationsTa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'இந்த ஒரு நிமிடத்தில்',
       one: '$minutes நிமிடத்தில்',
       other: '$minutes நிமிடங்களில்',
     );
@@ -140,6 +153,7 @@ class RelativeTimeLocalizationsTa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'இந்த ஒரு நிமிடத்தில்',
       one: '$minutes நிமிடத்திற்கு முன்',
       other: '$minutes நிமிடங்களுக்கு முன்',
     );
@@ -150,6 +164,7 @@ class RelativeTimeLocalizationsTa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'இப்போது',
       one: '$seconds விநாடியில்',
       other: '$seconds விநாடிகளில்',
     );
@@ -160,11 +175,9 @@ class RelativeTimeLocalizationsTa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'இப்போது',
       one: '$seconds விநாடிக்கு முன்',
       other: '$seconds விநாடிகளுக்கு முன்',
     );
   }
-
-  @override
-  String get now => 'இப்போது';
 }

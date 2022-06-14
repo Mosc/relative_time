@@ -10,6 +10,7 @@ class RelativeTimeLocalizationsNo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'i år',
       one: 'om $years år',
       other: 'om $years år',
     );
@@ -20,6 +21,7 @@ class RelativeTimeLocalizationsNo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
+      zero: 'i år',
       one: 'for $years år siden',
       other: 'for $years år siden',
     );
@@ -30,6 +32,7 @@ class RelativeTimeLocalizationsNo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'dette kvartalet',
       one: 'om $quarters kvartal',
       other: 'om $quarters kvartaler',
     );
@@ -40,6 +43,7 @@ class RelativeTimeLocalizationsNo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      zero: 'dette kvartalet',
       one: 'for $quarters kvartal siden',
       other: 'for $quarters kvartaler siden',
     );
@@ -50,6 +54,7 @@ class RelativeTimeLocalizationsNo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'denne måneden',
       one: 'om $months måned',
       other: 'om $months måneder',
     );
@@ -60,6 +65,7 @@ class RelativeTimeLocalizationsNo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
+      zero: 'denne måneden',
       one: 'for $months måned siden',
       other: 'for $months måneder siden',
     );
@@ -70,6 +76,7 @@ class RelativeTimeLocalizationsNo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'denne uken',
       one: 'om $weeks uke',
       other: 'om $weeks uker',
     );
@@ -80,6 +87,7 @@ class RelativeTimeLocalizationsNo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
+      zero: 'denne uken',
       one: 'for $weeks uke siden',
       other: 'for $weeks uker siden',
     );
@@ -90,6 +98,7 @@ class RelativeTimeLocalizationsNo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'i dag',
       one: 'om $days døgn',
       other: 'om $days døgn',
     );
@@ -100,6 +109,7 @@ class RelativeTimeLocalizationsNo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'i dag',
       one: 'for $days døgn siden',
       other: 'for $days døgn siden',
     );
@@ -110,6 +120,7 @@ class RelativeTimeLocalizationsNo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'denne timen',
       one: 'om $hours time',
       other: 'om $hours timer',
     );
@@ -120,6 +131,7 @@ class RelativeTimeLocalizationsNo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'denne timen',
       one: 'for $hours time siden',
       other: 'for $hours timer siden',
     );
@@ -130,6 +142,7 @@ class RelativeTimeLocalizationsNo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'dette minuttet',
       one: 'om $minutes minutt',
       other: 'om $minutes minutter',
     );
@@ -140,6 +153,7 @@ class RelativeTimeLocalizationsNo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'dette minuttet',
       one: 'for $minutes minutt siden',
       other: 'for $minutes minutter siden',
     );
@@ -150,6 +164,7 @@ class RelativeTimeLocalizationsNo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'nå',
       one: 'om $seconds sekund',
       other: 'om $seconds sekunder',
     );
@@ -160,11 +175,9 @@ class RelativeTimeLocalizationsNo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'nå',
       one: 'for $seconds sekund siden',
       other: 'for $seconds sekunder siden',
     );
   }
-
-  @override
-  String get now => 'nå';
 }
