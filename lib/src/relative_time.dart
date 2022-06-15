@@ -33,8 +33,9 @@ class RelativeTime {
     final Duration absDifference = difference.abs();
 
     final Map<TimeUnit, int> timeUnitDifferences = <TimeUnit, int>{
-      for (TimeUnit timeUnit in timeUnits)
-        timeUnit: timeUnit.difference(absDifference),
+      for (TimeUnit timeUnit in TimeUnit.values)
+        if (timeUnits.contains(timeUnit))
+          timeUnit: timeUnit.difference(absDifference),
     };
     final MapEntry<TimeUnit, int> timeUnitDifference =
         timeUnitDifferences.entries.firstWhere(
