@@ -51,7 +51,7 @@ time.relativeTime(context: context);
 time.relativeTime(locale: const Locale('en'));
 ```
 
-You may specify a list of time units that will be considered. This can be any of the following: `year`, `quarter`, `month`, `week`, `day`, `hour`, `minute` and `second`. By default, all time units except `quarter` are potentially used. The following limits the relative time to being expressed in quarters and weeks. No judgement here. Anything less than one week would be represented as *this week*.
+You may specify a list of time units that will be considered. This can be any of the following: `year`, `quarter`, `month`, `week`, `day`, `hour`, `minute` and `second`. By default, all time units except `quarter` are potentially used. The following limits the relative time to being expressed in quarters and weeks. No judgement here. Because weeks are the most granular time unit specified, anything less than one week would be represented as *this week*.
 
 ```dart
 RelativeTime(
@@ -60,6 +60,15 @@ RelativeTime(
     TimeUnit.quarter,
     TimeUnit.week,
   ],
+).format(time);
+```
+
+By default, results are described using natural language as much as possible. That is, one day in the future will be transformed into *tomorrow*. If you'd rather see this as *in 1 day*, set the `numeric` parameter to `true`.
+
+```dart
+RelativeTime(
+  context: context
+  numeric: true,
 ).format(time);
 ```
 

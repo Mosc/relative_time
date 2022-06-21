@@ -11,6 +11,16 @@ class RelativeTimeLocalizationsUz extends RelativeTimeLocalizations {
       years,
       locale: localeName,
       zero: 'shu yil',
+      one: 'keyingi yil',
+      other: '$years yildan keyin',
+    );
+  }
+
+  @override
+  String yearsFutureNumeric(num years) {
+    return intl.Intl.pluralLogic(
+      years,
+      locale: localeName,
       one: '$years yildan keyin',
       other: '$years yildan keyin',
     );
@@ -22,6 +32,16 @@ class RelativeTimeLocalizationsUz extends RelativeTimeLocalizations {
       years,
       locale: localeName,
       zero: 'shu yil',
+      one: 'o‘tgan yil',
+      other: '$years yil oldin',
+    );
+  }
+
+  @override
+  String yearsPastNumeric(num years) {
+    return intl.Intl.pluralLogic(
+      years,
+      locale: localeName,
       one: '$years yil oldin',
       other: '$years yil oldin',
     );
@@ -33,6 +53,16 @@ class RelativeTimeLocalizationsUz extends RelativeTimeLocalizations {
       quarters,
       locale: localeName,
       zero: 'shu chorak',
+      one: 'keyingi chorak',
+      other: '$quarters chorakdan keyin',
+    );
+  }
+
+  @override
+  String quartersFutureNumeric(num quarters) {
+    return intl.Intl.pluralLogic(
+      quarters,
+      locale: localeName,
       one: '$quarters chorakdan keyin',
       other: '$quarters chorakdan keyin',
     );
@@ -44,6 +74,16 @@ class RelativeTimeLocalizationsUz extends RelativeTimeLocalizations {
       quarters,
       locale: localeName,
       zero: 'shu chorak',
+      one: 'o‘tgan chorak',
+      other: '$quarters chorak oldin',
+    );
+  }
+
+  @override
+  String quartersPastNumeric(num quarters) {
+    return intl.Intl.pluralLogic(
+      quarters,
+      locale: localeName,
       one: '$quarters chorak oldin',
       other: '$quarters chorak oldin',
     );
@@ -55,6 +95,16 @@ class RelativeTimeLocalizationsUz extends RelativeTimeLocalizations {
       months,
       locale: localeName,
       zero: 'shu oy',
+      one: 'keyingi oy',
+      other: '$months oydan keyin',
+    );
+  }
+
+  @override
+  String monthsFutureNumeric(num months) {
+    return intl.Intl.pluralLogic(
+      months,
+      locale: localeName,
       one: '$months oydan keyin',
       other: '$months oydan keyin',
     );
@@ -66,6 +116,16 @@ class RelativeTimeLocalizationsUz extends RelativeTimeLocalizations {
       months,
       locale: localeName,
       zero: 'shu oy',
+      one: 'o‘tgan oy',
+      other: '$months oy oldin',
+    );
+  }
+
+  @override
+  String monthsPastNumeric(num months) {
+    return intl.Intl.pluralLogic(
+      months,
+      locale: localeName,
       one: '$months oy oldin',
       other: '$months oy oldin',
     );
@@ -77,6 +137,16 @@ class RelativeTimeLocalizationsUz extends RelativeTimeLocalizations {
       weeks,
       locale: localeName,
       zero: 'shu hafta',
+      one: 'keyingi hafta',
+      other: '$weeks haftadan keyin',
+    );
+  }
+
+  @override
+  String weeksFutureNumeric(num weeks) {
+    return intl.Intl.pluralLogic(
+      weeks,
+      locale: localeName,
       one: '$weeks haftadan keyin',
       other: '$weeks haftadan keyin',
     );
@@ -88,6 +158,16 @@ class RelativeTimeLocalizationsUz extends RelativeTimeLocalizations {
       weeks,
       locale: localeName,
       zero: 'shu hafta',
+      one: 'o‘tgan hafta',
+      other: '$weeks hafta oldin',
+    );
+  }
+
+  @override
+  String weeksPastNumeric(num weeks) {
+    return intl.Intl.pluralLogic(
+      weeks,
+      locale: localeName,
       one: '$weeks hafta oldin',
       other: '$weeks hafta oldin',
     );
@@ -99,6 +179,16 @@ class RelativeTimeLocalizationsUz extends RelativeTimeLocalizations {
       days,
       locale: localeName,
       zero: 'bugun',
+      one: 'ertaga',
+      other: '$days kundan keyin',
+    );
+  }
+
+  @override
+  String daysFutureNumeric(num days) {
+    return intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
       one: '$days kundan keyin',
       other: '$days kundan keyin',
     );
@@ -110,6 +200,16 @@ class RelativeTimeLocalizationsUz extends RelativeTimeLocalizations {
       days,
       locale: localeName,
       zero: 'bugun',
+      one: 'kecha',
+      other: '$days kun oldin',
+    );
+  }
+
+  @override
+  String daysPastNumeric(num days) {
+    return intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
       one: '$days kun oldin',
       other: '$days kun oldin',
     );
@@ -127,11 +227,31 @@ class RelativeTimeLocalizationsUz extends RelativeTimeLocalizations {
   }
 
   @override
+  String hoursFutureNumeric(num hours) {
+    return intl.Intl.pluralLogic(
+      hours,
+      locale: localeName,
+      one: '$hours soatdan keyin',
+      other: '$hours soatdan keyin',
+    );
+  }
+
+  @override
   String hoursPast(num hours) {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
       zero: 'shu soatda',
+      one: '$hours soat oldin',
+      other: '$hours soat oldin',
+    );
+  }
+
+  @override
+  String hoursPastNumeric(num hours) {
+    return intl.Intl.pluralLogic(
+      hours,
+      locale: localeName,
       one: '$hours soat oldin',
       other: '$hours soat oldin',
     );
@@ -149,11 +269,31 @@ class RelativeTimeLocalizationsUz extends RelativeTimeLocalizations {
   }
 
   @override
+  String minutesFutureNumeric(num minutes) {
+    return intl.Intl.pluralLogic(
+      minutes,
+      locale: localeName,
+      one: '$minutes daqiqadan keyin',
+      other: '$minutes daqiqadan keyin',
+    );
+  }
+
+  @override
   String minutesPast(num minutes) {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
       zero: 'shu daqiqada',
+      one: '$minutes daqiqa oldin',
+      other: '$minutes daqiqa oldin',
+    );
+  }
+
+  @override
+  String minutesPastNumeric(num minutes) {
+    return intl.Intl.pluralLogic(
+      minutes,
+      locale: localeName,
       one: '$minutes daqiqa oldin',
       other: '$minutes daqiqa oldin',
     );
@@ -171,11 +311,31 @@ class RelativeTimeLocalizationsUz extends RelativeTimeLocalizations {
   }
 
   @override
+  String secondsFutureNumeric(num seconds) {
+    return intl.Intl.pluralLogic(
+      seconds,
+      locale: localeName,
+      one: '$seconds soniyadan keyin',
+      other: '$seconds soniyadan keyin',
+    );
+  }
+
+  @override
   String secondsPast(num seconds) {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
       zero: 'hozir',
+      one: '$seconds soniya oldin',
+      other: '$seconds soniya oldin',
+    );
+  }
+
+  @override
+  String secondsPastNumeric(num seconds) {
+    return intl.Intl.pluralLogic(
+      seconds,
+      locale: localeName,
       one: '$seconds soniya oldin',
       other: '$seconds soniya oldin',
     );
@@ -192,6 +352,16 @@ class RelativeTimeLocalizationsUzCyrl extends RelativeTimeLocalizationsUz {
       years,
       locale: localeName,
       zero: 'бу йил',
+      one: 'кейинги йил',
+      other: '$years йилдан сўнг',
+    );
+  }
+
+  @override
+  String yearsFutureNumeric(num years) {
+    return intl.Intl.pluralLogic(
+      years,
+      locale: localeName,
       one: '$years йилдан сўнг',
       other: '$years йилдан сўнг',
     );
@@ -203,6 +373,16 @@ class RelativeTimeLocalizationsUzCyrl extends RelativeTimeLocalizationsUz {
       years,
       locale: localeName,
       zero: 'бу йил',
+      one: 'ўтган йил',
+      other: '$years йил аввал',
+    );
+  }
+
+  @override
+  String yearsPastNumeric(num years) {
+    return intl.Intl.pluralLogic(
+      years,
+      locale: localeName,
       one: '$years йил аввал',
       other: '$years йил аввал',
     );
@@ -214,6 +394,16 @@ class RelativeTimeLocalizationsUzCyrl extends RelativeTimeLocalizationsUz {
       months,
       locale: localeName,
       zero: 'бу ой',
+      one: 'кейинги ой',
+      other: '$months ойдан сўнг',
+    );
+  }
+
+  @override
+  String monthsFutureNumeric(num months) {
+    return intl.Intl.pluralLogic(
+      months,
+      locale: localeName,
       one: '$months ойдан сўнг',
       other: '$months ойдан сўнг',
     );
@@ -225,6 +415,16 @@ class RelativeTimeLocalizationsUzCyrl extends RelativeTimeLocalizationsUz {
       months,
       locale: localeName,
       zero: 'бу ой',
+      one: 'ўтган ой',
+      other: '$months ой аввал',
+    );
+  }
+
+  @override
+  String monthsPastNumeric(num months) {
+    return intl.Intl.pluralLogic(
+      months,
+      locale: localeName,
       one: '$months ой аввал',
       other: '$months ой аввал',
     );
@@ -236,6 +436,16 @@ class RelativeTimeLocalizationsUzCyrl extends RelativeTimeLocalizationsUz {
       weeks,
       locale: localeName,
       zero: 'бу ҳафта',
+      one: 'кейинги ҳафта',
+      other: '$weeks ҳафтадан сўнг',
+    );
+  }
+
+  @override
+  String weeksFutureNumeric(num weeks) {
+    return intl.Intl.pluralLogic(
+      weeks,
+      locale: localeName,
       one: '$weeks ҳафтадан сўнг',
       other: '$weeks ҳафтадан сўнг',
     );
@@ -247,6 +457,16 @@ class RelativeTimeLocalizationsUzCyrl extends RelativeTimeLocalizationsUz {
       weeks,
       locale: localeName,
       zero: 'бу ҳафта',
+      one: 'ўтган ҳафта',
+      other: '$weeks ҳафта олдин',
+    );
+  }
+
+  @override
+  String weeksPastNumeric(num weeks) {
+    return intl.Intl.pluralLogic(
+      weeks,
+      locale: localeName,
       one: '$weeks ҳафта олдин',
       other: '$weeks ҳафта олдин',
     );
@@ -258,6 +478,16 @@ class RelativeTimeLocalizationsUzCyrl extends RelativeTimeLocalizationsUz {
       days,
       locale: localeName,
       zero: 'бугун',
+      one: 'эртага',
+      other: '$days кундан сўнг',
+    );
+  }
+
+  @override
+  String daysFutureNumeric(num days) {
+    return intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
       one: '$days кундан сўнг',
       other: '$days кундан сўнг',
     );
@@ -269,6 +499,16 @@ class RelativeTimeLocalizationsUzCyrl extends RelativeTimeLocalizationsUz {
       days,
       locale: localeName,
       zero: 'бугун',
+      one: 'кеча',
+      other: '$days кун олдин',
+    );
+  }
+
+  @override
+  String daysPastNumeric(num days) {
+    return intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
       one: '$days кун олдин',
       other: '$days кун олдин',
     );
@@ -276,6 +516,16 @@ class RelativeTimeLocalizationsUzCyrl extends RelativeTimeLocalizationsUz {
 
   @override
   String hoursFuture(num hours) {
+    return intl.Intl.pluralLogic(
+      hours,
+      locale: localeName,
+      one: '$hours соатдан сўнг',
+      other: '$hours соатдан сўнг',
+    );
+  }
+
+  @override
+  String hoursFutureNumeric(num hours) {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
@@ -295,6 +545,16 @@ class RelativeTimeLocalizationsUzCyrl extends RelativeTimeLocalizationsUz {
   }
 
   @override
+  String hoursPastNumeric(num hours) {
+    return intl.Intl.pluralLogic(
+      hours,
+      locale: localeName,
+      one: '$hours соат олдин',
+      other: '$hours соат олдин',
+    );
+  }
+
+  @override
   String minutesFuture(num minutes) {
     return intl.Intl.pluralLogic(
       minutes,
@@ -305,7 +565,27 @@ class RelativeTimeLocalizationsUzCyrl extends RelativeTimeLocalizationsUz {
   }
 
   @override
+  String minutesFutureNumeric(num minutes) {
+    return intl.Intl.pluralLogic(
+      minutes,
+      locale: localeName,
+      one: '$minutes дақиқадан сўнг',
+      other: '$minutes дақиқадан сўнг',
+    );
+  }
+
+  @override
   String minutesPast(num minutes) {
+    return intl.Intl.pluralLogic(
+      minutes,
+      locale: localeName,
+      one: '$minutes дақиқа олдин',
+      other: '$minutes дақиқа олдин',
+    );
+  }
+
+  @override
+  String minutesPastNumeric(num minutes) {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
@@ -326,11 +606,31 @@ class RelativeTimeLocalizationsUzCyrl extends RelativeTimeLocalizationsUz {
   }
 
   @override
+  String secondsFutureNumeric(num seconds) {
+    return intl.Intl.pluralLogic(
+      seconds,
+      locale: localeName,
+      one: '$seconds сониядан сўнг',
+      other: '$seconds сониядан сўнг',
+    );
+  }
+
+  @override
   String secondsPast(num seconds) {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
       zero: 'ҳозир',
+      one: '$seconds сония олдин',
+      other: '$seconds сония олдин',
+    );
+  }
+
+  @override
+  String secondsPastNumeric(num seconds) {
+    return intl.Intl.pluralLogic(
+      seconds,
+      locale: localeName,
       one: '$seconds сония олдин',
       other: '$seconds сония олдин',
     );

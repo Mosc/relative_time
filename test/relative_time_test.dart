@@ -39,10 +39,19 @@ void main() {
       );
 
       test(
-        'more than one average year formats as year ago',
+        'more than one average year formats as last year',
+        () => _testFormat(
+          fromNow: (DateTime now) => now.subtract(moreThanOneAverageYear),
+          matcher: 'last year',
+        ),
+      );
+
+      test(
+        'more than one average year formats as year ago if numeric',
         () => _testFormat(
           fromNow: (DateTime now) => now.subtract(moreThanOneAverageYear),
           matcher: '1 year ago',
+          numeric: true,
         ),
       );
 
@@ -73,11 +82,21 @@ void main() {
       );
 
       test(
-        'one average quarter formats as quarter ago if quarters are enabled',
+        'one average quarter formats as last quarter if quarters are enabled',
+        () => _testFormat(
+          fromNow: (DateTime now) => now.subtract(moreThanOneAverageQuarter),
+          matcher: 'last quarter',
+          timeUnits: TimeUnit.values,
+        ),
+      );
+
+      test(
+        'one average quarter formats as quarter ago if numeric and quarters are enabled',
         () => _testFormat(
           fromNow: (DateTime now) => now.subtract(moreThanOneAverageQuarter),
           matcher: '1 quarter ago',
           timeUnits: TimeUnit.values,
+          numeric: true,
         ),
       );
 
@@ -100,10 +119,19 @@ void main() {
       );
 
       test(
-        'more than one average month formats as month ago',
+        'more than one average month formats as last month',
+        () => _testFormat(
+          fromNow: (DateTime now) => now.subtract(moreThanOneAverageMonth),
+          matcher: 'last month',
+        ),
+      );
+
+      test(
+        'more than one average month formats as month ago if numeric',
         () => _testFormat(
           fromNow: (DateTime now) => now.subtract(moreThanOneAverageMonth),
           matcher: '1 month ago',
+          numeric: true,
         ),
       );
 
@@ -125,10 +153,19 @@ void main() {
       );
 
       test(
-        'one week formats as week ago',
+        'one week formats as last week',
+        () => _testFormat(
+          fromNow: (DateTime now) => now.subtract(oneWeek),
+          matcher: 'last week',
+        ),
+      );
+
+      test(
+        'one week formats as week ago if numeric',
         () => _testFormat(
           fromNow: (DateTime now) => now.subtract(oneWeek),
           matcher: '1 week ago',
+          numeric: true,
         ),
       );
 
@@ -150,10 +187,19 @@ void main() {
       );
 
       test(
-        'one day formats as day ago',
+        'one day formats as yesterday',
+        () => _testFormat(
+          fromNow: (DateTime now) => now.subtract(oneDay),
+          matcher: 'yesterday',
+        ),
+      );
+
+      test(
+        'one day formats as day ago if numeric',
         () => _testFormat(
           fromNow: (DateTime now) => now.subtract(oneDay),
           matcher: '1 day ago',
+          numeric: true,
         ),
       );
 
@@ -254,10 +300,19 @@ void main() {
       );
 
       test(
-        'more than one average year formats as in year',
+        'more than one average year formats as next year',
+        () => _testFormat(
+          fromNow: (DateTime now) => now.add(moreThanOneAverageYear),
+          matcher: 'next year',
+        ),
+      );
+
+      test(
+        'more than one average year formats as in year if numeric',
         () => _testFormat(
           fromNow: (DateTime now) => now.add(moreThanOneAverageYear),
           matcher: 'in 1 year',
+          numeric: true,
         ),
       );
 
@@ -288,11 +343,21 @@ void main() {
       );
 
       test(
-        'one average quarter formats as in quarter if quarters are enabled',
+        'one average quarter formats as next quarter if quarters are enabled',
+        () => _testFormat(
+          fromNow: (DateTime now) => now.add(moreThanOneAverageQuarter),
+          matcher: 'next quarter',
+          timeUnits: TimeUnit.values,
+        ),
+      );
+
+      test(
+        'one average quarter formats as in quarter if numeric and quarters are enabled',
         () => _testFormat(
           fromNow: (DateTime now) => now.add(moreThanOneAverageQuarter),
           matcher: 'in 1 quarter',
           timeUnits: TimeUnit.values,
+          numeric: true,
         ),
       );
 
@@ -315,10 +380,19 @@ void main() {
       );
 
       test(
-        'more than one average month formats as in month',
+        'more than one average month formats as next month',
+        () => _testFormat(
+          fromNow: (DateTime now) => now.add(moreThanOneAverageMonth),
+          matcher: 'next month',
+        ),
+      );
+
+      test(
+        'more than one average month formats as in month if numeric',
         () => _testFormat(
           fromNow: (DateTime now) => now.add(moreThanOneAverageMonth),
           matcher: 'in 1 month',
+          numeric: true,
         ),
       );
 
@@ -340,10 +414,19 @@ void main() {
       );
 
       test(
-        'one week formats as in week',
+        'one week formats as next week',
+        () => _testFormat(
+          fromNow: (DateTime now) => now.add(oneWeek),
+          matcher: 'next week',
+        ),
+      );
+
+      test(
+        'one week formats as in week if numeric',
         () => _testFormat(
           fromNow: (DateTime now) => now.add(oneWeek),
           matcher: 'in 1 week',
+          numeric: true,
         ),
       );
 
@@ -365,10 +448,19 @@ void main() {
       );
 
       test(
-        'one day formats as in day',
+        'one day formats as tomorrow',
+        () => _testFormat(
+          fromNow: (DateTime now) => now.add(oneDay),
+          matcher: 'tomorrow',
+        ),
+      );
+
+      test(
+        'one day formats as in day if numeric',
         () => _testFormat(
           fromNow: (DateTime now) => now.add(oneDay),
           matcher: 'in 1 day',
+          numeric: true,
         ),
       );
 
@@ -503,6 +595,7 @@ void _testFormat({
   BuildContext? context,
   Locale? locale = english,
   Iterable<TimeUnit> timeUnits = defaultTimeUnits,
+  bool numeric = false,
   bool useExtensionMethod = false,
 }) {
   final DateTime now = DateTime.now();
@@ -514,11 +607,13 @@ void _testFormat({
             context: context,
             locale: locale,
             timeUnits: timeUnits,
+            numeric: numeric,
           )
         : RelativeTime(
             context: context,
             locale: locale,
             timeUnits: timeUnits,
+            numeric: numeric,
           ).format(time),
   );
   expect(actual, matcher);

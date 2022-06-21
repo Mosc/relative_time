@@ -11,6 +11,16 @@ class RelativeTimeLocalizationsJa extends RelativeTimeLocalizations {
       years,
       locale: localeName,
       zero: '今年',
+      one: '来年',
+      other: '$years 年後',
+    );
+  }
+
+  @override
+  String yearsFutureNumeric(num years) {
+    return intl.Intl.pluralLogic(
+      years,
+      locale: localeName,
       other: '$years 年後',
     );
   }
@@ -21,6 +31,16 @@ class RelativeTimeLocalizationsJa extends RelativeTimeLocalizations {
       years,
       locale: localeName,
       zero: '今年',
+      one: '昨年',
+      other: '$years 年前',
+    );
+  }
+
+  @override
+  String yearsPastNumeric(num years) {
+    return intl.Intl.pluralLogic(
+      years,
+      locale: localeName,
       other: '$years 年前',
     );
   }
@@ -31,6 +51,16 @@ class RelativeTimeLocalizationsJa extends RelativeTimeLocalizations {
       quarters,
       locale: localeName,
       zero: '今四半期',
+      one: '翌四半期',
+      other: '$quarters 四半期後',
+    );
+  }
+
+  @override
+  String quartersFutureNumeric(num quarters) {
+    return intl.Intl.pluralLogic(
+      quarters,
+      locale: localeName,
       other: '$quarters 四半期後',
     );
   }
@@ -41,6 +71,16 @@ class RelativeTimeLocalizationsJa extends RelativeTimeLocalizations {
       quarters,
       locale: localeName,
       zero: '今四半期',
+      one: '前四半期',
+      other: '$quarters 四半期前',
+    );
+  }
+
+  @override
+  String quartersPastNumeric(num quarters) {
+    return intl.Intl.pluralLogic(
+      quarters,
+      locale: localeName,
       other: '$quarters 四半期前',
     );
   }
@@ -51,6 +91,16 @@ class RelativeTimeLocalizationsJa extends RelativeTimeLocalizations {
       months,
       locale: localeName,
       zero: '今月',
+      one: '来月',
+      other: '$months か月後',
+    );
+  }
+
+  @override
+  String monthsFutureNumeric(num months) {
+    return intl.Intl.pluralLogic(
+      months,
+      locale: localeName,
       other: '$months か月後',
     );
   }
@@ -61,6 +111,16 @@ class RelativeTimeLocalizationsJa extends RelativeTimeLocalizations {
       months,
       locale: localeName,
       zero: '今月',
+      one: '先月',
+      other: '$months か月前',
+    );
+  }
+
+  @override
+  String monthsPastNumeric(num months) {
+    return intl.Intl.pluralLogic(
+      months,
+      locale: localeName,
       other: '$months か月前',
     );
   }
@@ -71,6 +131,16 @@ class RelativeTimeLocalizationsJa extends RelativeTimeLocalizations {
       weeks,
       locale: localeName,
       zero: '今週',
+      one: '来週',
+      other: '$weeks 週間後',
+    );
+  }
+
+  @override
+  String weeksFutureNumeric(num weeks) {
+    return intl.Intl.pluralLogic(
+      weeks,
+      locale: localeName,
       other: '$weeks 週間後',
     );
   }
@@ -81,6 +151,16 @@ class RelativeTimeLocalizationsJa extends RelativeTimeLocalizations {
       weeks,
       locale: localeName,
       zero: '今週',
+      one: '先週',
+      other: '$weeks 週間前',
+    );
+  }
+
+  @override
+  String weeksPastNumeric(num weeks) {
+    return intl.Intl.pluralLogic(
+      weeks,
+      locale: localeName,
       other: '$weeks 週間前',
     );
   }
@@ -91,6 +171,17 @@ class RelativeTimeLocalizationsJa extends RelativeTimeLocalizations {
       days,
       locale: localeName,
       zero: '今日',
+      one: '明日',
+      two: '明後日',
+      other: '$days 日後',
+    );
+  }
+
+  @override
+  String daysFutureNumeric(num days) {
+    return intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
       other: '$days 日後',
     );
   }
@@ -101,6 +192,17 @@ class RelativeTimeLocalizationsJa extends RelativeTimeLocalizations {
       days,
       locale: localeName,
       zero: '今日',
+      one: '昨日',
+      two: '一昨日',
+      other: '$days 日前',
+    );
+  }
+
+  @override
+  String daysPastNumeric(num days) {
+    return intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
       other: '$days 日前',
     );
   }
@@ -116,11 +218,29 @@ class RelativeTimeLocalizationsJa extends RelativeTimeLocalizations {
   }
 
   @override
+  String hoursFutureNumeric(num hours) {
+    return intl.Intl.pluralLogic(
+      hours,
+      locale: localeName,
+      other: '$hours 時間後',
+    );
+  }
+
+  @override
   String hoursPast(num hours) {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
       zero: '1 時間以内',
+      other: '$hours 時間前',
+    );
+  }
+
+  @override
+  String hoursPastNumeric(num hours) {
+    return intl.Intl.pluralLogic(
+      hours,
+      locale: localeName,
       other: '$hours 時間前',
     );
   }
@@ -136,11 +256,29 @@ class RelativeTimeLocalizationsJa extends RelativeTimeLocalizations {
   }
 
   @override
+  String minutesFutureNumeric(num minutes) {
+    return intl.Intl.pluralLogic(
+      minutes,
+      locale: localeName,
+      other: '$minutes 分後',
+    );
+  }
+
+  @override
   String minutesPast(num minutes) {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
       zero: '1 分以内',
+      other: '$minutes 分前',
+    );
+  }
+
+  @override
+  String minutesPastNumeric(num minutes) {
+    return intl.Intl.pluralLogic(
+      minutes,
+      locale: localeName,
       other: '$minutes 分前',
     );
   }
@@ -156,11 +294,29 @@ class RelativeTimeLocalizationsJa extends RelativeTimeLocalizations {
   }
 
   @override
+  String secondsFutureNumeric(num seconds) {
+    return intl.Intl.pluralLogic(
+      seconds,
+      locale: localeName,
+      other: '$seconds 秒後',
+    );
+  }
+
+  @override
   String secondsPast(num seconds) {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
       zero: '今',
+      other: '$seconds 秒前',
+    );
+  }
+
+  @override
+  String secondsPastNumeric(num seconds) {
+    return intl.Intl.pluralLogic(
+      seconds,
+      locale: localeName,
       other: '$seconds 秒前',
     );
   }

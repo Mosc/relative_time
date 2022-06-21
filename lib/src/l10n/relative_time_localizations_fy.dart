@@ -11,6 +11,16 @@ class RelativeTimeLocalizationsFy extends RelativeTimeLocalizations {
       years,
       locale: localeName,
       zero: 'dit jier',
+      one: 'folgjend jier',
+      other: 'Oer $years jier',
+    );
+  }
+
+  @override
+  String yearsFutureNumeric(num years) {
+    return intl.Intl.pluralLogic(
+      years,
+      locale: localeName,
       one: 'Oer $years jier',
       other: 'Oer $years jier',
     );
@@ -22,6 +32,16 @@ class RelativeTimeLocalizationsFy extends RelativeTimeLocalizations {
       years,
       locale: localeName,
       zero: 'dit jier',
+      one: 'foarich jier',
+      other: '$years jier lyn',
+    );
+  }
+
+  @override
+  String yearsPastNumeric(num years) {
+    return intl.Intl.pluralLogic(
+      years,
+      locale: localeName,
       one: '$years jier lyn',
       other: '$years jier lyn',
     );
@@ -33,6 +53,16 @@ class RelativeTimeLocalizationsFy extends RelativeTimeLocalizations {
       quarters,
       locale: localeName,
       zero: 'dit fearnsjier',
+      one: 'folgjend fearnsjier',
+      other: 'oer $quarters fearnsjier',
+    );
+  }
+
+  @override
+  String quartersFutureNumeric(num quarters) {
+    return intl.Intl.pluralLogic(
+      quarters,
+      locale: localeName,
       one: 'oer $quarters fearnsjier',
       other: 'oer $quarters fearnsjier',
     );
@@ -44,6 +74,16 @@ class RelativeTimeLocalizationsFy extends RelativeTimeLocalizations {
       quarters,
       locale: localeName,
       zero: 'dit fearnsjier',
+      one: 'foarich fearnsjier',
+      other: '$quarters fearnsjier lyn',
+    );
+  }
+
+  @override
+  String quartersPastNumeric(num quarters) {
+    return intl.Intl.pluralLogic(
+      quarters,
+      locale: localeName,
       one: '$quarters fearnsjier lyn',
       other: '$quarters fearnsjier lyn',
     );
@@ -55,6 +95,16 @@ class RelativeTimeLocalizationsFy extends RelativeTimeLocalizations {
       months,
       locale: localeName,
       zero: 'dizze moanne',
+      one: 'folgjende moanne',
+      other: 'Oer $months moannen',
+    );
+  }
+
+  @override
+  String monthsFutureNumeric(num months) {
+    return intl.Intl.pluralLogic(
+      months,
+      locale: localeName,
       one: 'Oer $months moanne',
       other: 'Oer $months moannen',
     );
@@ -66,6 +116,16 @@ class RelativeTimeLocalizationsFy extends RelativeTimeLocalizations {
       months,
       locale: localeName,
       zero: 'dizze moanne',
+      one: 'foarige moanne',
+      other: '$months moannen lyn',
+    );
+  }
+
+  @override
+  String monthsPastNumeric(num months) {
+    return intl.Intl.pluralLogic(
+      months,
+      locale: localeName,
       one: '$months moanne lyn',
       other: '$months moannen lyn',
     );
@@ -77,6 +137,16 @@ class RelativeTimeLocalizationsFy extends RelativeTimeLocalizations {
       weeks,
       locale: localeName,
       zero: 'dizze wike',
+      one: 'folgjende wike',
+      other: 'Oer $weeks wiken',
+    );
+  }
+
+  @override
+  String weeksFutureNumeric(num weeks) {
+    return intl.Intl.pluralLogic(
+      weeks,
+      locale: localeName,
       one: 'Oer $weeks wike',
       other: 'Oer $weeks wiken',
     );
@@ -88,6 +158,16 @@ class RelativeTimeLocalizationsFy extends RelativeTimeLocalizations {
       weeks,
       locale: localeName,
       zero: 'dizze wike',
+      one: 'foarige wike',
+      other: '$weeks wiken lyn',
+    );
+  }
+
+  @override
+  String weeksPastNumeric(num weeks) {
+    return intl.Intl.pluralLogic(
+      weeks,
+      locale: localeName,
       one: '$weeks wike lyn',
       other: '$weeks wiken lyn',
     );
@@ -99,6 +179,17 @@ class RelativeTimeLocalizationsFy extends RelativeTimeLocalizations {
       days,
       locale: localeName,
       zero: 'vandaag',
+      one: 'morgen',
+      two: 'Oermorgen',
+      other: 'Oer $days deien',
+    );
+  }
+
+  @override
+  String daysFutureNumeric(num days) {
+    return intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
       one: 'Oer $days dei',
       other: 'Oer $days deien',
     );
@@ -110,6 +201,17 @@ class RelativeTimeLocalizationsFy extends RelativeTimeLocalizations {
       days,
       locale: localeName,
       zero: 'vandaag',
+      one: 'gisteren',
+      two: 'eergisteren',
+      other: '$days deien lyn',
+    );
+  }
+
+  @override
+  String daysPastNumeric(num days) {
+    return intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
       one: '$days dei lyn',
       other: '$days deien lyn',
     );
@@ -117,6 +219,16 @@ class RelativeTimeLocalizationsFy extends RelativeTimeLocalizations {
 
   @override
   String hoursFuture(num hours) {
+    return intl.Intl.pluralLogic(
+      hours,
+      locale: localeName,
+      one: 'Oer $hours oere',
+      other: 'Oer $hours oere',
+    );
+  }
+
+  @override
+  String hoursFutureNumeric(num hours) {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
@@ -136,6 +248,16 @@ class RelativeTimeLocalizationsFy extends RelativeTimeLocalizations {
   }
 
   @override
+  String hoursPastNumeric(num hours) {
+    return intl.Intl.pluralLogic(
+      hours,
+      locale: localeName,
+      one: '$hours oere lyn',
+      other: '$hours oere lyn',
+    );
+  }
+
+  @override
   String minutesFuture(num minutes) {
     return intl.Intl.pluralLogic(
       minutes,
@@ -146,7 +268,27 @@ class RelativeTimeLocalizationsFy extends RelativeTimeLocalizations {
   }
 
   @override
+  String minutesFutureNumeric(num minutes) {
+    return intl.Intl.pluralLogic(
+      minutes,
+      locale: localeName,
+      one: 'Oer $minutes minút',
+      other: 'Oer $minutes minuten',
+    );
+  }
+
+  @override
   String minutesPast(num minutes) {
+    return intl.Intl.pluralLogic(
+      minutes,
+      locale: localeName,
+      one: '$minutes minút lyn',
+      other: '$minutes minuten lyn',
+    );
+  }
+
+  @override
+  String minutesPastNumeric(num minutes) {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
@@ -167,11 +309,31 @@ class RelativeTimeLocalizationsFy extends RelativeTimeLocalizations {
   }
 
   @override
+  String secondsFutureNumeric(num seconds) {
+    return intl.Intl.pluralLogic(
+      seconds,
+      locale: localeName,
+      one: 'Oer $seconds sekonde',
+      other: 'Oer $seconds sekonden',
+    );
+  }
+
+  @override
   String secondsPast(num seconds) {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
       zero: 'nu',
+      one: '$seconds sekonde lyn',
+      other: '$seconds sekonden lyn',
+    );
+  }
+
+  @override
+  String secondsPastNumeric(num seconds) {
+    return intl.Intl.pluralLogic(
+      seconds,
+      locale: localeName,
       one: '$seconds sekonde lyn',
       other: '$seconds sekonden lyn',
     );

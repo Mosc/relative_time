@@ -11,6 +11,16 @@ class RelativeTimeLocalizationsMy extends RelativeTimeLocalizations {
       years,
       locale: localeName,
       zero: 'ယခုနှစ်',
+      one: 'လာမည့်နှစ်',
+      other: '$years နှစ်အတွင်း',
+    );
+  }
+
+  @override
+  String yearsFutureNumeric(num years) {
+    return intl.Intl.pluralLogic(
+      years,
+      locale: localeName,
       other: '$years နှစ်အတွင်း',
     );
   }
@@ -21,6 +31,16 @@ class RelativeTimeLocalizationsMy extends RelativeTimeLocalizations {
       years,
       locale: localeName,
       zero: 'ယခုနှစ်',
+      one: 'ယမန်နှစ်',
+      other: 'ပြီးခဲ့သည့် $years နှစ်',
+    );
+  }
+
+  @override
+  String yearsPastNumeric(num years) {
+    return intl.Intl.pluralLogic(
+      years,
+      locale: localeName,
       other: 'ပြီးခဲ့သည့် $years နှစ်',
     );
   }
@@ -31,6 +51,16 @@ class RelativeTimeLocalizationsMy extends RelativeTimeLocalizations {
       quarters,
       locale: localeName,
       zero: 'ယခု သုံးလပတ်',
+      one: 'လာမည့် သုံးလပတ်',
+      other: 'သုံးလပတ်ကာလ $quarters အတွင်း',
+    );
+  }
+
+  @override
+  String quartersFutureNumeric(num quarters) {
+    return intl.Intl.pluralLogic(
+      quarters,
+      locale: localeName,
       other: 'သုံးလပတ်ကာလ $quarters အတွင်း',
     );
   }
@@ -41,6 +71,16 @@ class RelativeTimeLocalizationsMy extends RelativeTimeLocalizations {
       quarters,
       locale: localeName,
       zero: 'ယခု သုံးလပတ်',
+      one: 'ပြီးခဲ့သည့် သုံးလပတ်',
+      other: 'ပြီးခဲ့သည့် သုံးလပတ်ကာလ $quarters ခုအတွင်း',
+    );
+  }
+
+  @override
+  String quartersPastNumeric(num quarters) {
+    return intl.Intl.pluralLogic(
+      quarters,
+      locale: localeName,
       other: 'ပြီးခဲ့သည့် သုံးလပတ်ကာလ $quarters ခုအတွင်း',
     );
   }
@@ -51,6 +91,16 @@ class RelativeTimeLocalizationsMy extends RelativeTimeLocalizations {
       months,
       locale: localeName,
       zero: 'ယခုလ',
+      one: 'လာမည့်လ',
+      other: '$months လအတွင်း',
+    );
+  }
+
+  @override
+  String monthsFutureNumeric(num months) {
+    return intl.Intl.pluralLogic(
+      months,
+      locale: localeName,
       other: '$months လအတွင်း',
     );
   }
@@ -61,6 +111,16 @@ class RelativeTimeLocalizationsMy extends RelativeTimeLocalizations {
       months,
       locale: localeName,
       zero: 'ယခုလ',
+      one: 'ပြီးခဲ့သည့်လ',
+      other: 'ပြီးခဲ့သည့် $months လ',
+    );
+  }
+
+  @override
+  String monthsPastNumeric(num months) {
+    return intl.Intl.pluralLogic(
+      months,
+      locale: localeName,
       other: 'ပြီးခဲ့သည့် $months လ',
     );
   }
@@ -71,6 +131,16 @@ class RelativeTimeLocalizationsMy extends RelativeTimeLocalizations {
       weeks,
       locale: localeName,
       zero: 'ယခု သီတင်းပတ်',
+      one: 'လာမည့် သီတင်းပတ်',
+      other: '$weeks ပတ်အတွင်း',
+    );
+  }
+
+  @override
+  String weeksFutureNumeric(num weeks) {
+    return intl.Intl.pluralLogic(
+      weeks,
+      locale: localeName,
       other: '$weeks ပတ်အတွင်း',
     );
   }
@@ -81,6 +151,16 @@ class RelativeTimeLocalizationsMy extends RelativeTimeLocalizations {
       weeks,
       locale: localeName,
       zero: 'ယခု သီတင်းပတ်',
+      one: 'ပြီးခဲ့သည့် သီတင်းပတ်',
+      other: 'ပြီးခဲ့သည့် $weeks ပတ်',
+    );
+  }
+
+  @override
+  String weeksPastNumeric(num weeks) {
+    return intl.Intl.pluralLogic(
+      weeks,
+      locale: localeName,
       other: 'ပြီးခဲ့သည့် $weeks ပတ်',
     );
   }
@@ -91,6 +171,17 @@ class RelativeTimeLocalizationsMy extends RelativeTimeLocalizations {
       days,
       locale: localeName,
       zero: 'ယနေ့',
+      one: 'မနက်ဖြန်',
+      two: 'သန်ဘက်ခါ',
+      other: '$days ရက်အတွင်း',
+    );
+  }
+
+  @override
+  String daysFutureNumeric(num days) {
+    return intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
       other: '$days ရက်အတွင်း',
     );
   }
@@ -101,6 +192,17 @@ class RelativeTimeLocalizationsMy extends RelativeTimeLocalizations {
       days,
       locale: localeName,
       zero: 'ယနေ့',
+      one: 'မနေ့က',
+      two: 'တစ်နေ့က',
+      other: 'ပြီးခဲ့သည့် $days ရက်',
+    );
+  }
+
+  @override
+  String daysPastNumeric(num days) {
+    return intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
       other: 'ပြီးခဲ့သည့် $days ရက်',
     );
   }
@@ -116,11 +218,29 @@ class RelativeTimeLocalizationsMy extends RelativeTimeLocalizations {
   }
 
   @override
+  String hoursFutureNumeric(num hours) {
+    return intl.Intl.pluralLogic(
+      hours,
+      locale: localeName,
+      other: '$hours နာရီအတွင်း',
+    );
+  }
+
+  @override
   String hoursPast(num hours) {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
       zero: 'ဤအချိန်',
+      other: 'ပြီးခဲ့သည့် $hours နာရီ',
+    );
+  }
+
+  @override
+  String hoursPastNumeric(num hours) {
+    return intl.Intl.pluralLogic(
+      hours,
+      locale: localeName,
       other: 'ပြီးခဲ့သည့် $hours နာရီ',
     );
   }
@@ -136,11 +256,29 @@ class RelativeTimeLocalizationsMy extends RelativeTimeLocalizations {
   }
 
   @override
+  String minutesFutureNumeric(num minutes) {
+    return intl.Intl.pluralLogic(
+      minutes,
+      locale: localeName,
+      other: '$minutes မိနစ်အတွင်း',
+    );
+  }
+
+  @override
   String minutesPast(num minutes) {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
       zero: 'ဤမိနစ်',
+      other: 'ပြီးခဲ့သည့် $minutes မိနစ်',
+    );
+  }
+
+  @override
+  String minutesPastNumeric(num minutes) {
+    return intl.Intl.pluralLogic(
+      minutes,
+      locale: localeName,
       other: 'ပြီးခဲ့သည့် $minutes မိနစ်',
     );
   }
@@ -156,11 +294,29 @@ class RelativeTimeLocalizationsMy extends RelativeTimeLocalizations {
   }
 
   @override
+  String secondsFutureNumeric(num seconds) {
+    return intl.Intl.pluralLogic(
+      seconds,
+      locale: localeName,
+      other: '$seconds စက္ကန့်အတွင်း',
+    );
+  }
+
+  @override
   String secondsPast(num seconds) {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
       zero: 'ယခု',
+      other: 'ပြီးခဲ့သည့် $seconds စက္ကန့်',
+    );
+  }
+
+  @override
+  String secondsPastNumeric(num seconds) {
+    return intl.Intl.pluralLogic(
+      seconds,
+      locale: localeName,
       other: 'ပြီးခဲ့သည့် $seconds စက္ကန့်',
     );
   }

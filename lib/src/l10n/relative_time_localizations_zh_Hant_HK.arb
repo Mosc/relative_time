@@ -1,7 +1,11 @@
 {
   "@@locale": "zh_Hant_HK",
-  "weeksFuture": "{weeks, plural, =0{本星期} other{{weeks} 星期後}}",
-  "weeksPast": "{weeks, plural, =0{本星期} other{{weeks} 星期前}}",
-  "daysFuture": "{days, plural, =0{今日} other{{days} 日後}}",
-  "daysPast": "{days, plural, =0{今日} other{{days} 日前}}"
+  "weeksFuture": "{weeks, plural, =0{本星期} =1{下星期} other{{weeks} 星期後}}",
+  "weeksFutureNumeric": "{weeks, plural, other{{weeks} 星期後}}",
+  "weeksPast": "{weeks, plural, =0{本星期} =1{上星期} other{{weeks} 星期前}}",
+  "weeksPastNumeric": "{weeks, plural, other{{weeks} 星期前}}",
+  "daysFuture": "{days, plural, =0{今日} =1{明日} =2{後日} other{{days} 日後}}",
+  "daysFutureNumeric": "{days, plural, other{{days} 日後}}",
+  "daysPast": "{days, plural, =0{今日} =1{昨日} =2{前日} other{{days} 日前}}",
+  "daysPastNumeric": "{days, plural, other{{days} 日前}}"
 }

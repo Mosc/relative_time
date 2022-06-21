@@ -11,6 +11,16 @@ class RelativeTimeLocalizationsUr extends RelativeTimeLocalizations {
       years,
       locale: localeName,
       zero: 'اس سال',
+      one: 'اگلے سال',
+      other: '$years سال میں',
+    );
+  }
+
+  @override
+  String yearsFutureNumeric(num years) {
+    return intl.Intl.pluralLogic(
+      years,
+      locale: localeName,
       one: '$years سال میں',
       other: '$years سال میں',
     );
@@ -22,6 +32,16 @@ class RelativeTimeLocalizationsUr extends RelativeTimeLocalizations {
       years,
       locale: localeName,
       zero: 'اس سال',
+      one: 'گزشتہ سال',
+      other: '$years سال پہلے',
+    );
+  }
+
+  @override
+  String yearsPastNumeric(num years) {
+    return intl.Intl.pluralLogic(
+      years,
+      locale: localeName,
       one: '$years سال پہلے',
       other: '$years سال پہلے',
     );
@@ -33,6 +53,16 @@ class RelativeTimeLocalizationsUr extends RelativeTimeLocalizations {
       quarters,
       locale: localeName,
       zero: 'اس سہ ماہی',
+      one: 'اگلے سہ ماہی',
+      other: '$quarters سہ ماہی میں',
+    );
+  }
+
+  @override
+  String quartersFutureNumeric(num quarters) {
+    return intl.Intl.pluralLogic(
+      quarters,
+      locale: localeName,
       one: '$quarters سہ ماہی میں',
       other: '$quarters سہ ماہی میں',
     );
@@ -44,6 +74,16 @@ class RelativeTimeLocalizationsUr extends RelativeTimeLocalizations {
       quarters,
       locale: localeName,
       zero: 'اس سہ ماہی',
+      one: 'گزشتہ سہ ماہی',
+      other: '$quarters سہ ماہی پہلے',
+    );
+  }
+
+  @override
+  String quartersPastNumeric(num quarters) {
+    return intl.Intl.pluralLogic(
+      quarters,
+      locale: localeName,
       one: '$quarters سہ ماہی پہلے',
       other: '$quarters سہ ماہی پہلے',
     );
@@ -55,6 +95,16 @@ class RelativeTimeLocalizationsUr extends RelativeTimeLocalizations {
       months,
       locale: localeName,
       zero: 'اس ماہ',
+      one: 'اگلا مہینہ',
+      other: '$months مہینے میں',
+    );
+  }
+
+  @override
+  String monthsFutureNumeric(num months) {
+    return intl.Intl.pluralLogic(
+      months,
+      locale: localeName,
       one: '$months مہینہ میں',
       other: '$months مہینے میں',
     );
@@ -66,6 +116,16 @@ class RelativeTimeLocalizationsUr extends RelativeTimeLocalizations {
       months,
       locale: localeName,
       zero: 'اس ماہ',
+      one: 'گزشتہ ماہ',
+      other: '$months مہینے پہلے',
+    );
+  }
+
+  @override
+  String monthsPastNumeric(num months) {
+    return intl.Intl.pluralLogic(
+      months,
+      locale: localeName,
       one: '$months مہینہ پہلے',
       other: '$months مہینے پہلے',
     );
@@ -77,6 +137,16 @@ class RelativeTimeLocalizationsUr extends RelativeTimeLocalizations {
       weeks,
       locale: localeName,
       zero: 'اس ہفتہ',
+      one: 'اگلے ہفتے',
+      other: '$weeks ہفتے میں',
+    );
+  }
+
+  @override
+  String weeksFutureNumeric(num weeks) {
+    return intl.Intl.pluralLogic(
+      weeks,
+      locale: localeName,
       one: '$weeks ہفتہ میں',
       other: '$weeks ہفتے میں',
     );
@@ -88,6 +158,16 @@ class RelativeTimeLocalizationsUr extends RelativeTimeLocalizations {
       weeks,
       locale: localeName,
       zero: 'اس ہفتہ',
+      one: 'گزشتہ ہفتے',
+      other: '$weeks ہفتے پہلے',
+    );
+  }
+
+  @override
+  String weeksPastNumeric(num weeks) {
+    return intl.Intl.pluralLogic(
+      weeks,
+      locale: localeName,
       one: '$weeks ہفتہ پہلے',
       other: '$weeks ہفتے پہلے',
     );
@@ -99,6 +179,17 @@ class RelativeTimeLocalizationsUr extends RelativeTimeLocalizations {
       days,
       locale: localeName,
       zero: 'آج',
+      one: 'آئندہ کل',
+      two: 'آنے والا پرسوں',
+      other: '$days دنوں میں',
+    );
+  }
+
+  @override
+  String daysFutureNumeric(num days) {
+    return intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
       one: '$days دن میں',
       other: '$days دنوں میں',
     );
@@ -110,6 +201,17 @@ class RelativeTimeLocalizationsUr extends RelativeTimeLocalizations {
       days,
       locale: localeName,
       zero: 'آج',
+      one: 'گزشتہ کل',
+      two: 'گزشتہ پرسوں',
+      other: '$days دنوں پہلے',
+    );
+  }
+
+  @override
+  String daysPastNumeric(num days) {
+    return intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
       one: '$days دن پہلے',
       other: '$days دنوں پہلے',
     );
@@ -127,11 +229,31 @@ class RelativeTimeLocalizationsUr extends RelativeTimeLocalizations {
   }
 
   @override
+  String hoursFutureNumeric(num hours) {
+    return intl.Intl.pluralLogic(
+      hours,
+      locale: localeName,
+      one: '$hours گھنٹے میں',
+      other: '$hours گھنٹے میں',
+    );
+  }
+
+  @override
   String hoursPast(num hours) {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
       zero: 'اس گھنٹے',
+      one: '$hours گھنٹہ پہلے',
+      other: '$hours گھنٹے پہلے',
+    );
+  }
+
+  @override
+  String hoursPastNumeric(num hours) {
+    return intl.Intl.pluralLogic(
+      hours,
+      locale: localeName,
       one: '$hours گھنٹہ پہلے',
       other: '$hours گھنٹے پہلے',
     );
@@ -149,11 +271,31 @@ class RelativeTimeLocalizationsUr extends RelativeTimeLocalizations {
   }
 
   @override
+  String minutesFutureNumeric(num minutes) {
+    return intl.Intl.pluralLogic(
+      minutes,
+      locale: localeName,
+      one: '$minutes منٹ میں',
+      other: '$minutes منٹ میں',
+    );
+  }
+
+  @override
   String minutesPast(num minutes) {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
       zero: 'اس منٹ',
+      one: '$minutes منٹ پہلے',
+      other: '$minutes منٹ پہلے',
+    );
+  }
+
+  @override
+  String minutesPastNumeric(num minutes) {
+    return intl.Intl.pluralLogic(
+      minutes,
+      locale: localeName,
       one: '$minutes منٹ پہلے',
       other: '$minutes منٹ پہلے',
     );
@@ -171,11 +313,31 @@ class RelativeTimeLocalizationsUr extends RelativeTimeLocalizations {
   }
 
   @override
+  String secondsFutureNumeric(num seconds) {
+    return intl.Intl.pluralLogic(
+      seconds,
+      locale: localeName,
+      one: '$seconds سیکنڈ میں',
+      other: '$seconds سیکنڈ میں',
+    );
+  }
+
+  @override
   String secondsPast(num seconds) {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
       zero: 'اب',
+      one: '$seconds سیکنڈ پہلے',
+      other: '$seconds سیکنڈ پہلے',
+    );
+  }
+
+  @override
+  String secondsPastNumeric(num seconds) {
+    return intl.Intl.pluralLogic(
+      seconds,
+      locale: localeName,
       one: '$seconds سیکنڈ پہلے',
       other: '$seconds سیکنڈ پہلے',
     );
@@ -197,11 +359,31 @@ class RelativeTimeLocalizationsUrIn extends RelativeTimeLocalizationsUr {
   }
 
   @override
+  String yearsFutureNumeric(num years) {
+    return intl.Intl.pluralLogic(
+      years,
+      locale: localeName,
+      one: '$years سال میں',
+      other: '$years سالوں میں',
+    );
+  }
+
+  @override
   String monthsFuture(num months) {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
       zero: 'اس ماہ',
+      one: 'اگلے ماہ',
+      other: '$months ماہ میں',
+    );
+  }
+
+  @override
+  String monthsFutureNumeric(num months) {
+    return intl.Intl.pluralLogic(
+      months,
+      locale: localeName,
       one: '$months ماہ میں',
       other: '$months ماہ میں',
     );
@@ -213,6 +395,16 @@ class RelativeTimeLocalizationsUrIn extends RelativeTimeLocalizationsUr {
       months,
       locale: localeName,
       zero: 'اس ماہ',
+      one: 'گزشتہ ماہ',
+      other: '$months ماہ قبل',
+    );
+  }
+
+  @override
+  String monthsPastNumeric(num months) {
+    return intl.Intl.pluralLogic(
+      months,
+      locale: localeName,
       one: '$months ماہ قبل',
       other: '$months ماہ قبل',
     );
@@ -224,6 +416,16 @@ class RelativeTimeLocalizationsUrIn extends RelativeTimeLocalizationsUr {
       weeks,
       locale: localeName,
       zero: 'اس ہفتہ',
+      one: 'اگلے ہفتہ',
+      other: '$weeks ہفتوں میں',
+    );
+  }
+
+  @override
+  String weeksFutureNumeric(num weeks) {
+    return intl.Intl.pluralLogic(
+      weeks,
+      locale: localeName,
       one: '$weeks ہفتہ میں',
       other: '$weeks ہفتوں میں',
     );
@@ -235,6 +437,16 @@ class RelativeTimeLocalizationsUrIn extends RelativeTimeLocalizationsUr {
       weeks,
       locale: localeName,
       zero: 'اس ہفتہ',
+      one: 'گزشتہ ہفتہ',
+      other: '$weeks ہفتے قبل',
+    );
+  }
+
+  @override
+  String weeksPastNumeric(num weeks) {
+    return intl.Intl.pluralLogic(
+      weeks,
+      locale: localeName,
       one: '$weeks ہفتہ قبل',
       other: '$weeks ہفتے قبل',
     );
@@ -251,7 +463,27 @@ class RelativeTimeLocalizationsUrIn extends RelativeTimeLocalizationsUr {
   }
 
   @override
+  String minutesPastNumeric(num minutes) {
+    return intl.Intl.pluralLogic(
+      minutes,
+      locale: localeName,
+      one: '$minutes منٹ قبل',
+      other: '$minutes منٹ قبل',
+    );
+  }
+
+  @override
   String secondsPast(num seconds) {
+    return intl.Intl.pluralLogic(
+      seconds,
+      locale: localeName,
+      one: '$seconds سیکنڈ قبل',
+      other: '$seconds سیکنڈ قبل',
+    );
+  }
+
+  @override
+  String secondsPastNumeric(num seconds) {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,

@@ -11,6 +11,17 @@ class RelativeTimeLocalizationsRo extends RelativeTimeLocalizations {
       years,
       locale: localeName,
       zero: 'anul acesta',
+      one: 'anul viitor',
+      few: 'peste $years ani',
+      other: 'peste $years de ani',
+    );
+  }
+
+  @override
+  String yearsFutureNumeric(num years) {
+    return intl.Intl.pluralLogic(
+      years,
+      locale: localeName,
       one: 'peste $years an',
       few: 'peste $years ani',
       other: 'peste $years de ani',
@@ -23,6 +34,17 @@ class RelativeTimeLocalizationsRo extends RelativeTimeLocalizations {
       years,
       locale: localeName,
       zero: 'anul acesta',
+      one: 'anul trecut',
+      few: 'acum $years ani',
+      other: 'acum $years de ani',
+    );
+  }
+
+  @override
+  String yearsPastNumeric(num years) {
+    return intl.Intl.pluralLogic(
+      years,
+      locale: localeName,
       one: 'acum $years an',
       few: 'acum $years ani',
       other: 'acum $years de ani',
@@ -35,6 +57,17 @@ class RelativeTimeLocalizationsRo extends RelativeTimeLocalizations {
       quarters,
       locale: localeName,
       zero: 'trimestrul acesta',
+      one: 'trimestrul viitor',
+      few: 'peste $quarters trimestre',
+      other: 'peste $quarters de trimestre',
+    );
+  }
+
+  @override
+  String quartersFutureNumeric(num quarters) {
+    return intl.Intl.pluralLogic(
+      quarters,
+      locale: localeName,
       one: 'peste $quarters trimestru',
       few: 'peste $quarters trimestre',
       other: 'peste $quarters de trimestre',
@@ -47,6 +80,17 @@ class RelativeTimeLocalizationsRo extends RelativeTimeLocalizations {
       quarters,
       locale: localeName,
       zero: 'trimestrul acesta',
+      one: 'trimestrul trecut',
+      few: 'acum $quarters trimestre',
+      other: 'acum $quarters de trimestre',
+    );
+  }
+
+  @override
+  String quartersPastNumeric(num quarters) {
+    return intl.Intl.pluralLogic(
+      quarters,
+      locale: localeName,
       one: 'acum $quarters trimestru',
       few: 'acum $quarters trimestre',
       other: 'acum $quarters de trimestre',
@@ -59,6 +103,17 @@ class RelativeTimeLocalizationsRo extends RelativeTimeLocalizations {
       months,
       locale: localeName,
       zero: 'luna aceasta',
+      one: 'luna viitoare',
+      few: 'peste $months luni',
+      other: 'peste $months de luni',
+    );
+  }
+
+  @override
+  String monthsFutureNumeric(num months) {
+    return intl.Intl.pluralLogic(
+      months,
+      locale: localeName,
       one: 'peste $months lună',
       few: 'peste $months luni',
       other: 'peste $months de luni',
@@ -71,6 +126,17 @@ class RelativeTimeLocalizationsRo extends RelativeTimeLocalizations {
       months,
       locale: localeName,
       zero: 'luna aceasta',
+      one: 'luna trecută',
+      few: 'acum $months luni',
+      other: 'acum $months de luni',
+    );
+  }
+
+  @override
+  String monthsPastNumeric(num months) {
+    return intl.Intl.pluralLogic(
+      months,
+      locale: localeName,
       one: 'acum $months lună',
       few: 'acum $months luni',
       other: 'acum $months de luni',
@@ -83,6 +149,17 @@ class RelativeTimeLocalizationsRo extends RelativeTimeLocalizations {
       weeks,
       locale: localeName,
       zero: 'săptămâna aceasta',
+      one: 'săptămâna viitoare',
+      few: 'peste $weeks săptămâni',
+      other: 'peste $weeks de săptămâni',
+    );
+  }
+
+  @override
+  String weeksFutureNumeric(num weeks) {
+    return intl.Intl.pluralLogic(
+      weeks,
+      locale: localeName,
       one: 'peste $weeks săptămână',
       few: 'peste $weeks săptămâni',
       other: 'peste $weeks de săptămâni',
@@ -95,6 +172,17 @@ class RelativeTimeLocalizationsRo extends RelativeTimeLocalizations {
       weeks,
       locale: localeName,
       zero: 'săptămâna aceasta',
+      one: 'săptămâna trecută',
+      few: 'acum $weeks săptămâni',
+      other: 'acum $weeks de săptămâni',
+    );
+  }
+
+  @override
+  String weeksPastNumeric(num weeks) {
+    return intl.Intl.pluralLogic(
+      weeks,
+      locale: localeName,
       one: 'acum $weeks săptămână',
       few: 'acum $weeks săptămâni',
       other: 'acum $weeks de săptămâni',
@@ -107,6 +195,18 @@ class RelativeTimeLocalizationsRo extends RelativeTimeLocalizations {
       days,
       locale: localeName,
       zero: 'azi',
+      one: 'mâine',
+      two: 'poimâine',
+      few: 'peste $days zile',
+      other: 'peste $days de zile',
+    );
+  }
+
+  @override
+  String daysFutureNumeric(num days) {
+    return intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
       one: 'peste $days zi',
       few: 'peste $days zile',
       other: 'peste $days de zile',
@@ -119,6 +219,18 @@ class RelativeTimeLocalizationsRo extends RelativeTimeLocalizations {
       days,
       locale: localeName,
       zero: 'azi',
+      one: 'ieri',
+      two: 'alaltăieri',
+      few: 'acum $days zile',
+      other: 'acum $days de zile',
+    );
+  }
+
+  @override
+  String daysPastNumeric(num days) {
+    return intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
       one: 'acum $days zi',
       few: 'acum $days zile',
       other: 'acum $days de zile',
@@ -138,11 +250,33 @@ class RelativeTimeLocalizationsRo extends RelativeTimeLocalizations {
   }
 
   @override
+  String hoursFutureNumeric(num hours) {
+    return intl.Intl.pluralLogic(
+      hours,
+      locale: localeName,
+      one: 'peste $hours oră',
+      few: 'peste $hours ore',
+      other: 'peste $hours de ore',
+    );
+  }
+
+  @override
   String hoursPast(num hours) {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
       zero: 'ora aceasta',
+      one: 'acum $hours oră',
+      few: 'acum $hours ore',
+      other: 'acum $hours de ore',
+    );
+  }
+
+  @override
+  String hoursPastNumeric(num hours) {
+    return intl.Intl.pluralLogic(
+      hours,
+      locale: localeName,
       one: 'acum $hours oră',
       few: 'acum $hours ore',
       other: 'acum $hours de ore',
@@ -162,11 +296,33 @@ class RelativeTimeLocalizationsRo extends RelativeTimeLocalizations {
   }
 
   @override
+  String minutesFutureNumeric(num minutes) {
+    return intl.Intl.pluralLogic(
+      minutes,
+      locale: localeName,
+      one: 'peste $minutes minut',
+      few: 'peste $minutes minute',
+      other: 'peste $minutes de minute',
+    );
+  }
+
+  @override
   String minutesPast(num minutes) {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
       zero: 'minutul acesta',
+      one: 'acum $minutes minut',
+      few: 'acum $minutes minute',
+      other: 'acum $minutes de minute',
+    );
+  }
+
+  @override
+  String minutesPastNumeric(num minutes) {
+    return intl.Intl.pluralLogic(
+      minutes,
+      locale: localeName,
       one: 'acum $minutes minut',
       few: 'acum $minutes minute',
       other: 'acum $minutes de minute',
@@ -186,11 +342,33 @@ class RelativeTimeLocalizationsRo extends RelativeTimeLocalizations {
   }
 
   @override
+  String secondsFutureNumeric(num seconds) {
+    return intl.Intl.pluralLogic(
+      seconds,
+      locale: localeName,
+      one: 'peste $seconds secundă',
+      few: 'peste $seconds secunde',
+      other: 'peste $seconds de secunde',
+    );
+  }
+
+  @override
   String secondsPast(num seconds) {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
       zero: 'acum',
+      one: 'acum $seconds secundă',
+      few: 'acum $seconds secunde',
+      other: 'acum $seconds de secunde',
+    );
+  }
+
+  @override
+  String secondsPastNumeric(num seconds) {
+    return intl.Intl.pluralLogic(
+      seconds,
+      locale: localeName,
       one: 'acum $seconds secundă',
       few: 'acum $seconds secunde',
       other: 'acum $seconds de secunde',

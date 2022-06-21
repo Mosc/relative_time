@@ -13,14 +13,19 @@ extension RelativeTimeExtension on DateTime {
   ///
   /// Set [timeUnits] to customize the [TimeUnit]s that may be used. Defaults to
   /// [defaultTimeUnits].
+  ///
+  /// [numeric] determines whether or not numeric values should be preferred
+  /// over natural language. Defaults to false.
   String relativeTime({
     BuildContext? context,
     Locale? locale,
     Iterable<TimeUnit> timeUnits = defaultTimeUnits,
+    bool numeric = false,
   }) =>
       RelativeTime(
         context: context,
         locale: locale,
         timeUnits: timeUnits,
+        numeric: numeric,
       ).format(this);
 }

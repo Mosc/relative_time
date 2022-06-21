@@ -11,6 +11,16 @@ class RelativeTimeLocalizationsHu extends RelativeTimeLocalizations {
       years,
       locale: localeName,
       zero: 'ez az év',
+      one: 'következő év',
+      other: '$years év múlva',
+    );
+  }
+
+  @override
+  String yearsFutureNumeric(num years) {
+    return intl.Intl.pluralLogic(
+      years,
+      locale: localeName,
       one: '$years év múlva',
       other: '$years év múlva',
     );
@@ -22,6 +32,16 @@ class RelativeTimeLocalizationsHu extends RelativeTimeLocalizations {
       years,
       locale: localeName,
       zero: 'ez az év',
+      one: 'előző év',
+      other: '$years évvel ezelőtt',
+    );
+  }
+
+  @override
+  String yearsPastNumeric(num years) {
+    return intl.Intl.pluralLogic(
+      years,
+      locale: localeName,
       one: '$years évvel ezelőtt',
       other: '$years évvel ezelőtt',
     );
@@ -33,6 +53,16 @@ class RelativeTimeLocalizationsHu extends RelativeTimeLocalizations {
       quarters,
       locale: localeName,
       zero: 'ez a negyedév',
+      one: 'következő negyedév',
+      other: '$quarters negyedév múlva',
+    );
+  }
+
+  @override
+  String quartersFutureNumeric(num quarters) {
+    return intl.Intl.pluralLogic(
+      quarters,
+      locale: localeName,
       one: '$quarters negyedév múlva',
       other: '$quarters negyedév múlva',
     );
@@ -44,6 +74,16 @@ class RelativeTimeLocalizationsHu extends RelativeTimeLocalizations {
       quarters,
       locale: localeName,
       zero: 'ez a negyedév',
+      one: 'előző negyedév',
+      other: '$quarters negyedévvel ezelőtt',
+    );
+  }
+
+  @override
+  String quartersPastNumeric(num quarters) {
+    return intl.Intl.pluralLogic(
+      quarters,
+      locale: localeName,
       one: '$quarters negyedévvel ezelőtt',
       other: '$quarters negyedévvel ezelőtt',
     );
@@ -55,6 +95,16 @@ class RelativeTimeLocalizationsHu extends RelativeTimeLocalizations {
       months,
       locale: localeName,
       zero: 'ez a hónap',
+      one: 'következő hónap',
+      other: '$months hónap múlva',
+    );
+  }
+
+  @override
+  String monthsFutureNumeric(num months) {
+    return intl.Intl.pluralLogic(
+      months,
+      locale: localeName,
       one: '$months hónap múlva',
       other: '$months hónap múlva',
     );
@@ -66,6 +116,16 @@ class RelativeTimeLocalizationsHu extends RelativeTimeLocalizations {
       months,
       locale: localeName,
       zero: 'ez a hónap',
+      one: 'előző hónap',
+      other: '$months hónappal ezelőtt',
+    );
+  }
+
+  @override
+  String monthsPastNumeric(num months) {
+    return intl.Intl.pluralLogic(
+      months,
+      locale: localeName,
       one: '$months hónappal ezelőtt',
       other: '$months hónappal ezelőtt',
     );
@@ -77,6 +137,16 @@ class RelativeTimeLocalizationsHu extends RelativeTimeLocalizations {
       weeks,
       locale: localeName,
       zero: 'ez a hét',
+      one: 'következő hét',
+      other: '$weeks hét múlva',
+    );
+  }
+
+  @override
+  String weeksFutureNumeric(num weeks) {
+    return intl.Intl.pluralLogic(
+      weeks,
+      locale: localeName,
       one: '$weeks hét múlva',
       other: '$weeks hét múlva',
     );
@@ -88,6 +158,16 @@ class RelativeTimeLocalizationsHu extends RelativeTimeLocalizations {
       weeks,
       locale: localeName,
       zero: 'ez a hét',
+      one: 'előző hét',
+      other: '$weeks héttel ezelőtt',
+    );
+  }
+
+  @override
+  String weeksPastNumeric(num weeks) {
+    return intl.Intl.pluralLogic(
+      weeks,
+      locale: localeName,
       one: '$weeks héttel ezelőtt',
       other: '$weeks héttel ezelőtt',
     );
@@ -99,6 +179,17 @@ class RelativeTimeLocalizationsHu extends RelativeTimeLocalizations {
       days,
       locale: localeName,
       zero: 'ma',
+      one: 'holnap',
+      two: 'holnapután',
+      other: '$days nap múlva',
+    );
+  }
+
+  @override
+  String daysFutureNumeric(num days) {
+    return intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
       one: '$days nap múlva',
       other: '$days nap múlva',
     );
@@ -110,6 +201,17 @@ class RelativeTimeLocalizationsHu extends RelativeTimeLocalizations {
       days,
       locale: localeName,
       zero: 'ma',
+      one: 'tegnap',
+      two: 'tegnapelőtt',
+      other: '$days nappal ezelőtt',
+    );
+  }
+
+  @override
+  String daysPastNumeric(num days) {
+    return intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
       one: '$days nappal ezelőtt',
       other: '$days nappal ezelőtt',
     );
@@ -127,11 +229,31 @@ class RelativeTimeLocalizationsHu extends RelativeTimeLocalizations {
   }
 
   @override
+  String hoursFutureNumeric(num hours) {
+    return intl.Intl.pluralLogic(
+      hours,
+      locale: localeName,
+      one: '$hours óra múlva',
+      other: '$hours óra múlva',
+    );
+  }
+
+  @override
   String hoursPast(num hours) {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
       zero: 'ebben az órában',
+      one: '$hours órával ezelőtt',
+      other: '$hours órával ezelőtt',
+    );
+  }
+
+  @override
+  String hoursPastNumeric(num hours) {
+    return intl.Intl.pluralLogic(
+      hours,
+      locale: localeName,
       one: '$hours órával ezelőtt',
       other: '$hours órával ezelőtt',
     );
@@ -149,11 +271,31 @@ class RelativeTimeLocalizationsHu extends RelativeTimeLocalizations {
   }
 
   @override
+  String minutesFutureNumeric(num minutes) {
+    return intl.Intl.pluralLogic(
+      minutes,
+      locale: localeName,
+      one: '$minutes perc múlva',
+      other: '$minutes perc múlva',
+    );
+  }
+
+  @override
   String minutesPast(num minutes) {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
       zero: 'ebben a percben',
+      one: '$minutes perccel ezelőtt',
+      other: '$minutes perccel ezelőtt',
+    );
+  }
+
+  @override
+  String minutesPastNumeric(num minutes) {
+    return intl.Intl.pluralLogic(
+      minutes,
+      locale: localeName,
       one: '$minutes perccel ezelőtt',
       other: '$minutes perccel ezelőtt',
     );
@@ -171,11 +313,31 @@ class RelativeTimeLocalizationsHu extends RelativeTimeLocalizations {
   }
 
   @override
+  String secondsFutureNumeric(num seconds) {
+    return intl.Intl.pluralLogic(
+      seconds,
+      locale: localeName,
+      one: '$seconds másodperc múlva',
+      other: '$seconds másodperc múlva',
+    );
+  }
+
+  @override
   String secondsPast(num seconds) {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
       zero: 'most',
+      one: '$seconds másodperccel ezelőtt',
+      other: '$seconds másodperccel ezelőtt',
+    );
+  }
+
+  @override
+  String secondsPastNumeric(num seconds) {
+    return intl.Intl.pluralLogic(
+      seconds,
+      locale: localeName,
       one: '$seconds másodperccel ezelőtt',
       other: '$seconds másodperccel ezelőtt',
     );

@@ -1,5 +1,7 @@
 {
   "@@locale": "ps_PK",
   "yearsFuture": "{years, plural, =1{په {years} کال کے} other{په {years} کالونو کے}}",
-  "yearsPast": "{years, plural, =1{{years} کال مخکے} other{{years} کاله مخکے}}"
+  "yearsFutureNumeric": "{years, plural, =1{په {years} کال کے} other{په {years} کالونو کے}}",
+  "yearsPast": "{years, plural, =1{{years} کال مخکے} other{{years} کاله مخکے}}",
+  "yearsPastNumeric": "{years, plural, =1{{years} کال مخکے} other{{years} کاله مخکے}}"
 }
