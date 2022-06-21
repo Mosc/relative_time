@@ -67,7 +67,7 @@ By default, results are described using natural language as much as possible. Th
 
 ```dart
 RelativeTime(
-  context: context
+  context: context,
   numeric: true,
 ).format(time);
 ```
