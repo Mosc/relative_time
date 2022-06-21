@@ -1,3 +1,7 @@
+## 1.2.1
+
+* Fix syntax error in README.
+
 ## 1.2.0
 
 * Prefer natural language over numeric values by default. For instance, 'tomorrow' is used instead of the previous 'in 1 day'.
