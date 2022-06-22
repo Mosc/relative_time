@@ -1,4 +1,5 @@
 import 'package:intl/intl.dart' as intl;
+
 import 'relative_time_localizations.dart';
 
 /// The translations for Hungarian (`hu`).

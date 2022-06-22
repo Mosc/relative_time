@@ -121,14 +121,14 @@ import 'relative_time_localizations_yue.dart';
 import 'relative_time_localizations_zh.dart';
 import 'relative_time_localizations_zu.dart';
 
-/// Callers can lookup localized strings with an instance of RelativeTimeLocalizations returned
-/// by `RelativeTimeLocalizations.of(context)`.
+/// Callers can lookup localized strings with an instance of RelativeTimeLocalizations
+/// returned by `RelativeTimeLocalizations.of(context)`.
 ///
 /// Applications need to include `RelativeTimeLocalizations.delegate()` in their app's
-/// localizationDelegates list, and the locales they support in the app's
-/// supportedLocales list. For example:
+/// `localizationDelegates` list, and the locales they support in the app's
+/// `supportedLocales` list. For example:
 ///
-/// ```
+/// ```dart
 /// import 'l10n/relative_time_localizations.dart';
 ///
 /// return MaterialApp(
@@ -143,14 +143,14 @@ import 'relative_time_localizations_zu.dart';
 /// Please make sure to update your pubspec.yaml to include the following
 /// packages:
 ///
-/// ```
+/// ```yaml
 /// dependencies:
 ///   # Internationalization support.
 ///   flutter_localizations:
 ///     sdk: flutter
 ///   intl: any # Use the pinned version from flutter_localizations
 ///
-///   # rest of dependencies
+///   # Rest of dependencies
 /// ```
 ///
 /// ## iOS Applications
