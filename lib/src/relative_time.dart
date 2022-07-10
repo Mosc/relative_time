@@ -49,10 +49,8 @@ class RelativeTime {
     final Duration difference = time.difference(clock.now());
     final Duration absDifference = difference.abs();
 
-    final List<TimeUnit> sortedTimeUnits = <TimeUnit>[
-      for (TimeUnit timeUnit in TimeUnit.values)
-        if (timeUnits.contains(timeUnit)) timeUnit,
-    ];
+    final List<TimeUnit> sortedTimeUnits = timeUnits.toList()
+      ..sort(Enum.compareByIndex);
     final TimeUnit fittingTimeUnit = sortedTimeUnits.firstWhere(
       (TimeUnit timeUnit) => timeUnit.difference(absDifference) >= 1,
       orElse: () => sortedTimeUnits.last,
