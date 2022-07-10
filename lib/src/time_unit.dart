@@ -32,7 +32,7 @@ enum TimeUnit {
 /// Extends [TimeUnit] to include calculating spanned difference.
 extension TimeUnitExtension on TimeUnit {
   /// The number of units spanned by [difference] based on this [TimeUnit].
-  int difference(Duration difference) {
+  num difference(Duration difference) {
     switch (this) {
       case TimeUnit.year:
         return difference.inYears;
