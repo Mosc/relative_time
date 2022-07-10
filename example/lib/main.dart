@@ -20,8 +20,8 @@ class RelativeTimeExampleApp extends StatelessWidget {
       builder: (BuildContext context, _) => Center(
         child: Column(
           children: <Widget>[
-            Text(RelativeTime(context: context).format(past)),
-            Text(future.relativeTime(context: context)),
+            Text(RelativeTime(context).format(past)),
+            Text(future.relativeTime(context)),
           ],
         ),
       ),

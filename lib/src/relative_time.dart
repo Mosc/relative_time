@@ -7,21 +7,33 @@ import 'package:relative_time/src/time_unit.dart';
 class RelativeTime {
   /// Creates a [RelativeTime].
   ///
-  /// Either [context] or [locale] must be set. [context], if used, must contain
-  /// a retrievable [RelativeTimeLocalizations]. If both are set, [locale] takes
-  /// precedence.
+  /// [context] must contain a retrievable [RelativeTimeLocalizations].
   ///
   /// Set [timeUnits] to customize the [TimeUnit]s that may be used. Defaults to
   /// [defaultTimeUnits].
   ///
   /// [numeric] determines whether or not numeric values should be preferred
   /// over natural language. Defaults to false.
-  const RelativeTime({
-    this.context,
-    this.locale,
+  const RelativeTime(
+    this.context, {
     this.timeUnits = defaultTimeUnits,
     this.numeric = false,
-  }) : assert(context != null || locale != null);
+  }) : locale = null;
+
+  /// Creates a [RelativeTime].
+  ///
+  /// [locale] will lookup the closest available localization.
+  ///
+  /// Set [timeUnits] to customize the [TimeUnit]s that may be used. Defaults to
+  /// [defaultTimeUnits].
+  ///
+  /// [numeric] determines whether or not numeric values should be preferred
+  /// over natural language. Defaults to false.
+  const RelativeTime.locale(
+    this.locale, {
+    this.timeUnits = defaultTimeUnits,
+    this.numeric = false,
+  }) : context = null;
 
   final BuildContext? context;
   final Locale? locale;

@@ -34,28 +34,28 @@ If your app does not make use of (this form of) localization yet but you would l
 The relative time may be accessed by passing the `DateTime` source object to `format` on an instance of `RelativeTime` with either a `BuildContext` (if configured for localization) or a specific `Locale`.
 
 ```dart
-RelativeTime(context: context).format(time);
+RelativeTime(context).format(time);
 ```
 
 ```dart
-RelativeTime(locale: const Locale('en')).format(time);
+RelativeTime.locale(const Locale('en')).format(time);
 ```
 
 Alternatively, the provided `DateTime` extension method is a bit more concise.
 
 ```dart
-time.relativeTime(context: context);
+time.relativeTime(context);
 ```
 
 ```dart
-time.relativeTime(locale: const Locale('en'));
+time.relativeTime(const Locale('en'));
 ```
 
 You may specify a list of time units that will be considered. This can be any of the following: `year`, `quarter`, `month`, `week`, `day`, `hour`, `minute` and `second`. By default, all time units except `quarter` are potentially used. The following limits the relative time to being expressed in quarters and weeks. No judgement here. Because weeks are the most granular time unit specified, anything less than one week would be represented as *this week*.
 
 ```dart
 RelativeTime(
-  context: context, 
+  context, 
   timeUnits: const <TimeUnit>[
     TimeUnit.quarter,
     TimeUnit.week,
@@ -67,7 +67,7 @@ By default, results are described using natural language as much as possible. Th
 
 ```dart
 RelativeTime(
-  context: context,
+  context,
   numeric: true,
 ).format(time);
 ```
@@ -79,7 +79,7 @@ The current time may be mocked with help from the [clock](https://pub.dev/packag
 ```dart
 withClock(
   Clock.fixed(DateTime.fromMicrosecondsSinceEpoch(0)),
-  () => RelativeTime(context: context).format(time),
+  () => RelativeTime(context).format(time),
 );
 ```
 

@@ -7,24 +7,40 @@ import 'package:relative_time/src/time_unit.dart';
 extension RelativeTimeExtension on DateTime {
   /// Formats this [DateTime] as the relative time compared to now.
   ///
-  /// Either [context] or [locale] must be set. [context], if used, must contain
-  /// a retrievable [RelativeTimeLocalizations]. If both are provided, [locale]
-  /// takes precedence.
+  /// [context] must contain a retrievable [RelativeTimeLocalizations].
   ///
   /// Set [timeUnits] to customize the [TimeUnit]s that may be used. Defaults to
   /// [defaultTimeUnits].
   ///
   /// [numeric] determines whether or not numeric values should be preferred
   /// over natural language. Defaults to false.
-  String relativeTime({
-    BuildContext? context,
-    Locale? locale,
+  String relativeTime(
+    BuildContext context, {
     Iterable<TimeUnit> timeUnits = defaultTimeUnits,
     bool numeric = false,
   }) =>
       RelativeTime(
-        context: context,
-        locale: locale,
+        context,
+        timeUnits: timeUnits,
+        numeric: numeric,
+      ).format(this);
+
+  /// Formats this [DateTime] as the relative time compared to now.
+  ///
+  /// [locale] will lookup the closest available localization.
+  ///
+  /// Set [timeUnits] to customize the [TimeUnit]s that may be used. Defaults to
+  /// [defaultTimeUnits].
+  ///
+  /// [numeric] determines whether or not numeric values should be preferred
+  /// over natural language. Defaults to false.
+  String relativeTimeLocale(
+    Locale locale, {
+    Iterable<TimeUnit> timeUnits = defaultTimeUnits,
+    bool numeric = false,
+  }) =>
+      RelativeTime.locale(
+        locale,
         timeUnits: timeUnits,
         numeric: numeric,
       ).format(this);

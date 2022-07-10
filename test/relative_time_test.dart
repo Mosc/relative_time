@@ -576,24 +576,13 @@ void main() {
       contextLocale: simplifiedChinese,
     ),
   );
-
-  testWidgets(
-    'Locale takes precedence over localized BuildContext',
-    (WidgetTester tester) async => _testFormatUsingLocalizedBuildContext(
-      tester,
-      fromNow: (DateTime now) => now,
-      matcher: 'nu',
-      locale: dutch,
-      contextLocale: simplifiedChinese,
-    ),
-  );
 }
 
 void _testFormat({
   required DateTime Function(DateTime) fromNow,
   required String matcher,
   BuildContext? context,
-  Locale? locale = english,
+  Locale locale = english,
   Iterable<TimeUnit> timeUnits = defaultTimeUnits,
   bool numeric = false,
   bool useExtensionMethod = false,
@@ -602,19 +591,37 @@ void _testFormat({
   final DateTime time = fromNow(now);
   final String actual = withClock(
     Clock.fixed(now),
-    () => useExtensionMethod
-        ? time.relativeTime(
-            context: context,
-            locale: locale,
+    () {
+      if (useExtensionMethod) {
+        if (context != null) {
+          return time.relativeTime(
+            context,
             timeUnits: timeUnits,
             numeric: numeric,
-          )
-        : RelativeTime(
-            context: context,
-            locale: locale,
+          );
+        } else {
+          return time.relativeTimeLocale(
+            locale,
             timeUnits: timeUnits,
             numeric: numeric,
-          ).format(time),
+          );
+        }
+      } else {
+        if (context != null) {
+          return RelativeTime(
+            context,
+            timeUnits: timeUnits,
+            numeric: numeric,
+          ).format(time);
+        } else {
+          return RelativeTime.locale(
+            locale,
+            timeUnits: timeUnits,
+            numeric: numeric,
+          ).format(time);
+        }
+      }
+    },
   );
   expect(actual, matcher);
 }
@@ -623,7 +630,6 @@ Future<void> _testFormatUsingLocalizedBuildContext(
   WidgetTester tester, {
   required DateTime Function(DateTime) fromNow,
   required String matcher,
-  Locale? locale,
   Locale contextLocale = english,
   Iterable<TimeUnit> timeUnits = defaultTimeUnits,
   bool useExtensionMethod = false,
@@ -641,7 +647,6 @@ Future<void> _testFormatUsingLocalizedBuildContext(
             fromNow: fromNow,
             matcher: matcher,
             context: context,
-            locale: locale,
             timeUnits: timeUnits,
             useExtensionMethod: useExtensionMethod,
           );
