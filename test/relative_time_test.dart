@@ -576,6 +576,16 @@ void main() {
       contextLocale: simplifiedChinese,
     ),
   );
+
+  testWidgets(
+    'Using localized BuildContext with extension method provides same result as class instance method call',
+    (WidgetTester tester) async => _testFormatUsingLocalizedBuildContext(
+      tester,
+      fromNow: (DateTime now) => now.add(oneSecond),
+      matcher: 'in 1 second',
+      useExtensionMethod: true,
+    ),
+  );
 }
 
 void _testFormat({
