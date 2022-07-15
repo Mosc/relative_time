@@ -1,6 +1,6 @@
 name: relative_time
 description: Expresses a DateTime object relative to the current time in text form.
-version: 2.0.0
+version: 2.0.1
 repository: https://github.com/Mosc/relative_time
 issues: https://github.com/Mosc/relative_time/issues
 

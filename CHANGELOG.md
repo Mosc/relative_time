@@ -1,3 +1,7 @@
+## 2.0.1
+
+* Fix error in README.
+
 ## 2.0.0
 
 * Introduce separate constructors and extension methods for context and locale based initialization. Prevents potential runtime errors caused by omitting both context and locale parameters.
