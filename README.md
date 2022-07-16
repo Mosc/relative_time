@@ -4,11 +4,12 @@ A Flutter package to express a `DateTime` object relative to the current time in
 
 ## Features
 
-- Available in more languages than you can imagine.
+- Available in more languages than you can name.
     - [No, seriously, it's like a stupid amount.](https://github.com/Mosc/relative_time/tree/master/lib/src/l10n)
 - Provides localization delegate for easy internationalization.
 - Usable as class instance method call or extension method.
 - Can be expressed in different, customizable time units.
+- Supports numeric and natural representations.
 
 ## Getting started
 
@@ -41,7 +42,7 @@ RelativeTime(context).format(time);
 RelativeTime.locale(const Locale('en')).format(time);
 ```
 
-Alternatively, the provided `DateTime` extension method is a bit more concise.
+Alternatively, the provided `DateTime` extension methods are a bit more concise.
 
 ```dart
 time.relativeTime(context);
