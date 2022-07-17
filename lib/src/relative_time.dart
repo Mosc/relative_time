@@ -14,11 +14,11 @@ class RelativeTime {
   ///
   /// [numeric] determines whether or not numeric values should be preferred
   /// over natural language. Defaults to false.
-  const RelativeTime(
-    this.context, {
+  RelativeTime(
+    BuildContext context, {
     this.timeUnits = defaultTimeUnits,
     this.numeric = false,
-  }) : locale = null;
+  }) : localizations = RelativeTimeLocalizations.of(context);
 
   /// Creates a [RelativeTime].
   ///
@@ -29,23 +29,18 @@ class RelativeTime {
   ///
   /// [numeric] determines whether or not numeric values should be preferred
   /// over natural language. Defaults to false.
-  const RelativeTime.locale(
-    this.locale, {
+  RelativeTime.locale(
+    Locale locale, {
     this.timeUnits = defaultTimeUnits,
     this.numeric = false,
-  }) : context = null;
+  }) : localizations = lookupRelativeTimeLocalizations(locale);
 
-  final BuildContext? context;
-  final Locale? locale;
+  final RelativeTimeLocalizations localizations;
   final Iterable<TimeUnit> timeUnits;
   final bool numeric;
 
   /// Formats [time] as the relative time compared to now.
   String format(DateTime time) {
-    final RelativeTimeLocalizations localizations = locale != null
-        ? lookupRelativeTimeLocalizations(locale!)
-        : RelativeTimeLocalizations.of(context!);
-
     final Duration difference = time.difference(clock.now());
     final Duration absDifference = difference.abs();
 
