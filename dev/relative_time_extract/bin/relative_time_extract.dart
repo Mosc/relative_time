@@ -5,7 +5,7 @@ import 'package:intl/intl.dart' as intl;
 import 'package:path/path.dart' as path;
 import 'package:xml/xml.dart';
 
-const List<String> allowedDateFieldTypes = <String>[
+const List<String> supportedDateFieldTypes = <String>[
   'year',
   'quarter',
   'month',
@@ -42,7 +42,7 @@ void main() {
       .where((element) => path.extension(element.path) == '.xml');
   final Set<String> locales = <String>{};
 
-  for (FileSystemEntity fileSystemEntity in fileSystemEntities) {
+  for (final FileSystemEntity fileSystemEntity in fileSystemEntities) {
     final File inputFile = File(fileSystemEntity.path);
     final XmlDocument document =
         XmlDocument.parse(inputFile.readAsStringSync());
@@ -57,59 +57,31 @@ void main() {
     }
 
     final String locale = path.basenameWithoutExtension(inputFile.path);
+
+    if (locale.toLowerCase() == 'root') {
+      continue;
+    }
+
     final List<String> localeParts = locale.split('_');
     final Map<String, dynamic> entries = <String, dynamic>{};
-
-    for (XmlElement dateField in dateFields) {
+    for (final XmlElement dateField in dateFields) {
       final String dateFieldType = _getXmlAttributeValue(dateField, 'type');
-      final String dateFieldTypePlural = '${dateFieldType}s';
 
-      if (!allowedDateFieldTypes.contains(dateFieldType)) {
+      if (!supportedDateFieldTypes.contains(dateFieldType)) {
         continue;
       }
 
-      final Iterable<XmlElement> relatives = dateField.findElements('relative');
-      final Iterable<XmlElement> relativeTimes =
-          dateField.findElements('relativeTime');
-
-      for (XmlElement relativeTime in relativeTimes) {
-        final String relativeTimeType =
-            _getXmlAttributeValue(relativeTime, 'type');
-        final Iterable<XmlElement> relativeTimePatterns =
-            relativeTime.findElements('relativeTimePattern');
-
-        entries.addEntries(
-          _getPluralEntries(
-            plurals: _getRelativeTimePatternPlurals(
-              relatives: relatives,
-              relativeTimePatterns: relativeTimePatterns,
-              dateType: dateFieldTypePlural,
-              relativeTimeType: relativeTimeType,
-            ),
-            dateType: dateFieldTypePlural,
-            relativeTimeType: relativeTimeType,
-            locale: locale,
-          ),
-        );
-
-        entries.addEntries(
-          _getPluralEntries(
-            plurals: _getRelativeTimePatternPluralsNumeric(
-              relativeTimePatterns: relativeTimePatterns,
-              dateType: dateFieldTypePlural,
-              relativeTimeType: relativeTimeType,
-            ),
-            dateType: dateFieldTypePlural,
-            relativeTimeType: relativeTimeType,
-            locale: locale,
-            suffix: 'numeric',
-          ),
-        );
-      }
+      final String dateFieldTypePlural = '${dateFieldType}s';
+      entries.addEntries(
+        _getEntries(
+          dateField: dateField,
+          dateType: dateFieldTypePlural,
+          locale: locale,
+        ),
+      );
     }
 
-    if (locale.toLowerCase() == 'root' ||
-        entries.isEmpty ||
+    if (entries.isEmpty ||
         entries.length != _expectedEntries(locale) &&
             (localeParts.length == 1 || !locales.contains(localeParts.first))) {
       continue;
@@ -126,6 +98,46 @@ void main() {
 
     _writeArb(locale, entries);
     locales.add(locale);
+  }
+}
+
+Iterable<MapEntry<String, dynamic>> _getEntries({
+  required XmlElement dateField,
+  required String dateType,
+  required String locale,
+}) sync* {
+  final Iterable<XmlElement> relatives = dateField.findElements('relative');
+  final Iterable<XmlElement> relativeTimes =
+      dateField.findElements('relativeTime');
+
+  for (final XmlElement relativeTime in relativeTimes) {
+    final String relativeTimeType = _getXmlAttributeValue(relativeTime, 'type');
+    final Iterable<XmlElement> relativeTimePatterns =
+        relativeTime.findElements('relativeTimePattern');
+
+    yield* _getPluralEntries(
+      plurals: _getRelativeTimePatternPlurals(
+        relatives: relatives,
+        relativeTimePatterns: relativeTimePatterns,
+        dateType: dateType,
+        relativeTimeType: relativeTimeType,
+      ),
+      dateType: dateType,
+      relativeTimeType: relativeTimeType,
+      locale: locale,
+    );
+
+    yield* _getPluralEntries(
+      plurals: _getRelativeTimePatternPluralsNumeric(
+        relativeTimePatterns: relativeTimePatterns,
+        dateType: dateType,
+        relativeTimeType: relativeTimeType,
+      ),
+      dateType: dateType,
+      relativeTimeType: relativeTimeType,
+      locale: locale,
+      suffix: 'numeric',
+    );
   }
 }
 
@@ -155,7 +167,7 @@ Map<String, String> _getRelativeTimePatternPlurals({
     relativeTimePatternPlurals[key] = relativePlurals[amount]!;
   }
 
-  for (XmlElement relativeTimePattern in relativeTimePatterns) {
+  for (final XmlElement relativeTimePattern in relativeTimePatterns) {
     final MapEntry<String, String> relativeTimePatternEntry =
         _getRelativeTimePatternEntry(
       relativeTimePattern: relativeTimePattern,
@@ -179,7 +191,7 @@ Map<String, String> _getRelativeTimePatternPluralsNumeric({
   final Map<String, String> relativeTimePatternPluralsNumeric =
       <String, String>{};
 
-  for (XmlElement relativeTimePattern in relativeTimePatterns) {
+  for (final XmlElement relativeTimePattern in relativeTimePatterns) {
     final MapEntry<String, String> relativeTimePatternEntry =
         _getRelativeTimePatternEntry(
       relativeTimePattern: relativeTimePattern,
@@ -244,7 +256,7 @@ String _getMappedRelativeTimePatternCount(XmlElement relativeTimePattern) {
 }
 
 int _expectedEntries(String locale) =>
-    allowedDateFieldTypes.length * 4 * (locale == templateLocale ? 2 : 1);
+    supportedDateFieldTypes.length * 4 * (locale == templateLocale ? 2 : 1);
 
 void _writeArb(String locale, Map<String, dynamic> entries) {
   final String mappedLocale = localeMapping[locale] ?? locale;
