@@ -1,8 +1,9 @@
-preferred-supported-locales: [en]
-nullable-getter: false
-synthetic-package: false
-arb-dir: lib/src/l10n
+arb-dir: lib/src/l10n/arb
+output-dir: lib/src/l10n
 template-arb-file: relative_time_localizations_en.arb
-output-class: RelativeTimeLocalizations
 output-localization-file: relative_time_localizations.dart
 untranslated-messages-file: untranslated-messages.txt
+output-class: RelativeTimeLocalizations
+preferred-supported-locales: [en]
+synthetic-package: false
+nullable-getter: false

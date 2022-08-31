@@ -28,16 +28,20 @@ const Map<String, String> localeMapping = <String, String>{
   'be_TARASK': 'be_tarask',
 };
 
-const inputDir = 'input';
-
-const outputDir = '../../lib/src/l10n';
+const inputPath = 'input';
+final outputPath = path.join('..', '..', 'lib', 'src', 'l10n');
+final arbPath = path.join(outputPath, 'arb');
 
 void main() {
-  Directory(outputDir)
-    ..deleteSync(recursive: true)
-    ..createSync();
+  var outputDirectory = Directory(outputPath);
 
-  final Iterable<FileSystemEntity> fileSystemEntities = Directory(inputDir)
+  if (outputDirectory.existsSync()) {
+    outputDirectory.deleteSync(recursive: true);
+  }
+
+  Directory(arbPath).createSync(recursive: true);
+
+  final Iterable<FileSystemEntity> fileSystemEntities = Directory(inputPath)
       .listSync()
       .where((element) => path.extension(element.path) == '.xml');
   final Set<String> locales = <String>{};
@@ -267,6 +271,6 @@ void _writeArb(String locale, Map<String, dynamic> entries) {
       ...entries,
     },
   );
-  final File outputFile = File(path.join(outputDir, arbFilename));
+  final File outputFile = File(path.join(arbPath, arbFilename));
   outputFile.writeAsStringSync(arbContents);
 }
