@@ -5,7 +5,7 @@ A Flutter package to express a `DateTime` object relative to the current time in
 ## Features
 
 - Available in more languages than you can name.
-    - [No, seriously, it's like a stupid amount.](https://github.com/Mosc/relative_time/tree/master/lib/src/l10n)
+    - [No, seriously, it's like a stupid amount.](https://github.com/Mosc/relative_time/tree/master/lib/src/l10n/arb)
 - Provides localization delegate for easy internationalization.
 - Usable as class instance method call or extension method.
 - Can be expressed in different, customizable time units.
