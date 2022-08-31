@@ -1,3 +1,7 @@
+## 2.1.0
+
+* Determine localization in constructor rather than on `format` call.
+
 ## 2.0.1
 
 * Fix error in README.
