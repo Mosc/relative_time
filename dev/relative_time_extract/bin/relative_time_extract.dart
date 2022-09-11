@@ -28,6 +28,8 @@ const Map<String, String> localeMapping = <String, String>{
   'be_TARASK': 'be_tarask',
 };
 
+const String placeholder = '↑↑↑';
+
 const inputPath = 'input';
 final outputPath = path.join('..', '..', 'lib', 'src', 'l10n');
 final arbPath = path.join(outputPath, 'arb');
@@ -41,9 +43,11 @@ void main() {
 
   Directory(arbPath).createSync(recursive: true);
 
-  final Iterable<FileSystemEntity> fileSystemEntities = Directory(inputPath)
-      .listSync()
-      .where((element) => path.extension(element.path) == '.xml');
+  final Iterable<FileSystemEntity> fileSystemEntities =
+      Directory(inputPath).listSync().where(
+            (FileSystemEntity element) =>
+                path.extension(element.path) == '.xml',
+          );
   final Set<String> locales = <String>{};
 
   for (final FileSystemEntity fileSystemEntity in fileSystemEntities) {
@@ -110,14 +114,17 @@ Iterable<MapEntry<String, dynamic>> _getEntries({
   required String dateType,
   required String locale,
 }) sync* {
-  final Iterable<XmlElement> relatives = dateField.findElements('relative');
+  final Iterable<XmlElement> relatives = dateField
+      .findElements('relative')
+      .where((XmlElement element) => element.text != placeholder);
   final Iterable<XmlElement> relativeTimes =
       dateField.findElements('relativeTime');
 
   for (final XmlElement relativeTime in relativeTimes) {
     final String relativeTimeType = _getXmlAttributeValue(relativeTime, 'type');
-    final Iterable<XmlElement> relativeTimePatterns =
-        relativeTime.findElements('relativeTimePattern');
+    final Iterable<XmlElement> relativeTimePatterns = relativeTime
+        .findElements('relativeTimePattern')
+        .where((XmlElement element) => element.text != placeholder);
 
     yield* _getPluralEntries(
       plurals: _getRelativeTimePatternPlurals(
@@ -225,6 +232,13 @@ Iterable<MapEntry<String, dynamic>> _getPluralEntries({
   required String locale,
   String? suffix,
 }) sync* {
+  if (plurals.entries.isEmpty ||
+      !plurals.entries
+          .map((MapEntry<String, String> entry) => entry.key)
+          .contains('other')) {
+    return;
+  }
+
   final String key = '$dateType'
       '${intl.toBeginningOfSentenceCase(relativeTimeType)}'
       '${suffix != null ? intl.toBeginningOfSentenceCase(suffix) : ''}';
