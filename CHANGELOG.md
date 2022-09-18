@@ -1,3 +1,8 @@
+## 2.2.0-beta.1
+
+* Add Bodo, Maithili and Norwegian Nynorsk languages.
+* Update Taraškievica Belarusian, Lower Sorbian, English (as used in the United Kingdom), Esperanto, Spanish (as used in Latin America and the Caribbean), Persian, Filipino, French (as used in Canada), Irish, Hindi, Macedonian, Maltese, Oriya, Portuguese (as used in Portugal) and Northern Sami translations.
+
 ## 2.1.0
 
 * Determine localization in constructor rather than on `format` call.
