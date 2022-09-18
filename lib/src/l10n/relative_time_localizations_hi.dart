@@ -377,7 +377,7 @@ class RelativeTimeLocalizationsHiLatn extends RelativeTimeLocalizationsHi {
       locale: localeName,
       zero: 'is saal',
       one: 'pichhla saal',
-      other: '$years saal pehle',
+      other: '$years saal pahle',
     );
   }
 
@@ -386,8 +386,50 @@ class RelativeTimeLocalizationsHiLatn extends RelativeTimeLocalizationsHi {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      one: '$years saal pehle',
-      other: '$years saal pehle',
+      one: '$years saal pahle',
+      other: '$years saal pahle',
+    );
+  }
+
+  @override
+  String quartersFuture(num quarters) {
+    return intl.Intl.pluralLogic(
+      quarters,
+      locale: localeName,
+      zero: 'is quarter',
+      one: '$quarters quarter mein',
+      other: '$quarters quarters mein',
+    );
+  }
+
+  @override
+  String quartersFutureNumeric(num quarters) {
+    return intl.Intl.pluralLogic(
+      quarters,
+      locale: localeName,
+      one: '$quarters quarter mein',
+      other: '$quarters quarters mein',
+    );
+  }
+
+  @override
+  String quartersPast(num quarters) {
+    return intl.Intl.pluralLogic(
+      quarters,
+      locale: localeName,
+      zero: 'is quarter',
+      one: '$quarters quarter pahle',
+      other: '$quarters quarters pahle',
+    );
+  }
+
+  @override
+  String quartersPastNumeric(num quarters) {
+    return intl.Intl.pluralLogic(
+      quarters,
+      locale: localeName,
+      one: '$quarters quarter pahle',
+      other: '$quarters quarters pahle',
     );
   }
 
@@ -396,9 +438,9 @@ class RelativeTimeLocalizationsHiLatn extends RelativeTimeLocalizationsHi {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
-      zero: 'is mahine',
-      one: 'agla mahina',
-      other: '$months mahine mein',
+      zero: 'yah maheena',
+      one: 'agla maheena',
+      other: '$months maheene mein',
     );
   }
 
@@ -407,8 +449,8 @@ class RelativeTimeLocalizationsHiLatn extends RelativeTimeLocalizationsHi {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
-      one: '$months mahine mein',
-      other: '$months mahine mein',
+      one: '$months maheene mein',
+      other: '$months maheene mein',
     );
   }
 
@@ -417,9 +459,9 @@ class RelativeTimeLocalizationsHiLatn extends RelativeTimeLocalizationsHi {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
-      zero: 'is mahine',
-      one: 'pichhla mahina',
-      other: '$months mahine pehle',
+      zero: 'yah maheena',
+      one: 'pichhla maheena',
+      other: '$months maheene pahle',
     );
   }
 
@@ -428,8 +470,8 @@ class RelativeTimeLocalizationsHiLatn extends RelativeTimeLocalizationsHi {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
-      one: '$months mahine pehle',
-      other: '$months mahine pehle',
+      one: '$months maheene pahle',
+      other: '$months maheene pahle',
     );
   }
 
@@ -524,7 +566,7 @@ class RelativeTimeLocalizationsHiLatn extends RelativeTimeLocalizationsHi {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      zero: 'yeh ghanta',
+      zero: 'yah ghanta',
       one: '$hours ghante mein',
       other: '$hours ghante mein',
     );
@@ -545,9 +587,9 @@ class RelativeTimeLocalizationsHiLatn extends RelativeTimeLocalizationsHi {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      zero: 'yeh ghanta',
-      one: '$hours ghante pehle',
-      other: '$hours ghante pehle',
+      zero: 'yah ghanta',
+      one: '$hours ghante pahle',
+      other: '$hours ghante pahle',
     );
   }
 
@@ -556,8 +598,8 @@ class RelativeTimeLocalizationsHiLatn extends RelativeTimeLocalizationsHi {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      one: '$hours ghante pehle',
-      other: '$hours ghante pehle',
+      one: '$hours ghante pahle',
+      other: '$hours ghante pahle',
     );
   }
 
@@ -566,7 +608,7 @@ class RelativeTimeLocalizationsHiLatn extends RelativeTimeLocalizationsHi {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
-      zero: 'yeh minute',
+      zero: 'yah minute',
       one: '$minutes minute mein',
       other: '$minutes minute mein',
     );
@@ -587,9 +629,9 @@ class RelativeTimeLocalizationsHiLatn extends RelativeTimeLocalizationsHi {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
-      zero: 'yeh minute',
-      one: '$minutes minute pehle',
-      other: '$minutes minute pehle',
+      zero: 'yah minute',
+      one: '$minutes minute pahle',
+      other: '$minutes minute pahle',
     );
   }
 
@@ -598,8 +640,8 @@ class RelativeTimeLocalizationsHiLatn extends RelativeTimeLocalizationsHi {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
-      one: '$minutes minute pehle',
-      other: '$minutes minute pehle',
+      one: '$minutes minute pahle',
+      other: '$minutes minute pahle',
     );
   }
 
@@ -630,8 +672,8 @@ class RelativeTimeLocalizationsHiLatn extends RelativeTimeLocalizationsHi {
       seconds,
       locale: localeName,
       zero: 'abhi',
-      one: '$seconds second pehle',
-      other: '$seconds second pehle',
+      one: '$seconds second pahle',
+      other: '$seconds second pahle',
     );
   }
 
@@ -640,8 +682,8 @@ class RelativeTimeLocalizationsHiLatn extends RelativeTimeLocalizationsHi {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
-      one: '$seconds second pehle',
-      other: '$seconds second pehle',
+      one: '$seconds second pahle',
+      other: '$seconds second pahle',
     );
   }
 }

@@ -53,8 +53,9 @@ class RelativeTimeLocalizationsEo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: 'post $quarters kvaronjaro',
-      other: 'post $quarters kvaronjaroj',
+      zero: 'nuna jarkvarono',
+      one: 'venonta jarkvarono',
+      other: 'post $quarters jarkvaronoj',
     );
   }
 
@@ -63,8 +64,8 @@ class RelativeTimeLocalizationsEo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: 'post $quarters kvaronjaro',
-      other: 'post $quarters kvaronjaroj',
+      one: 'post $quarters jarkvarono',
+      other: 'post $quarters jarkvaronoj',
     );
   }
 
@@ -73,8 +74,9 @@ class RelativeTimeLocalizationsEo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: 'antaŭ $quarters kvaronjaro',
-      other: 'antaŭ $quarters kvaronjaroj',
+      zero: 'nuna jarkvarono',
+      one: 'pasinta jarkvarono',
+      other: 'antaŭ $quarters jarkvaronoj',
     );
   }
 
@@ -83,8 +85,8 @@ class RelativeTimeLocalizationsEo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: 'antaŭ $quarters kvaronjaro',
-      other: 'antaŭ $quarters kvaronjaroj',
+      one: 'antaŭ $quarters jarkvarono',
+      other: 'antaŭ $quarters jarkvaronoj',
     );
   }
 
@@ -219,6 +221,7 @@ class RelativeTimeLocalizationsEo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'nuna horo',
       one: 'post $hours horo',
       other: 'post $hours horoj',
     );
@@ -239,6 +242,7 @@ class RelativeTimeLocalizationsEo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
+      zero: 'nuna horo',
       one: 'antaŭ $hours horo',
       other: 'antaŭ $hours horoj',
     );
@@ -259,6 +263,7 @@ class RelativeTimeLocalizationsEo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'nuna minuto',
       one: 'post $minutes minuto',
       other: 'post $minutes minutoj',
     );
@@ -279,6 +284,7 @@ class RelativeTimeLocalizationsEo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
+      zero: 'nuna minuto',
       one: 'antaŭ $minutes minuto',
       other: 'antaŭ $minutes minutoj',
     );
@@ -299,6 +305,7 @@ class RelativeTimeLocalizationsEo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'nun',
       one: 'post $seconds sekundo',
       other: 'post $seconds sekundoj',
     );
@@ -319,6 +326,7 @@ class RelativeTimeLocalizationsEo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'nun',
       one: 'antaŭ $seconds sekundo',
       other: 'antaŭ $seconds sekundoj',
     );

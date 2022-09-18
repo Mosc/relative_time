@@ -1,8 +1,8 @@
 {
   "@@locale": "mk",
-  "yearsFuture": "{years, plural, =0{оваа година} =1{следната година} other{за {years} години}}",
+  "yearsFuture": "{years, plural, =0{оваа година} =1{догодина} other{за {years} години}}",
   "yearsFutureNumeric": "{years, plural, =1{за {years} година} other{за {years} години}}",
-  "yearsPast": "{years, plural, =0{оваа година} =1{минатата година} other{пред {years} години}}",
+  "yearsPast": "{years, plural, =0{оваа година} =1{лани} other{пред {years} години}}",
   "yearsPastNumeric": "{years, plural, =1{пред {years} година} other{пред {years} години}}",
   "quartersFuture": "{quarters, plural, =0{ова тромесечје} =1{следното тромесечје} other{за {quarters} тромесечја}}",
   "quartersFutureNumeric": "{quarters, plural, =1{за {quarters} тромесечје} other{за {quarters} тромесечја}}",

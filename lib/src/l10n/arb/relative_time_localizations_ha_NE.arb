@@ -1,5 +1,5 @@
 {
-  "@@locale": "ha",
+  "@@locale": "ha_NE",
   "yearsFuture": "{years, plural, =0{bana} =1{badi} other{a shekaru {years}}}",
   "yearsFutureNumeric": "{years, plural, =1{a shekarar {years}} other{a shekaru {years}}}",
   "yearsPast": "{years, plural, =0{bana} =1{bara} other{shekara da suka gabata {years}}}",

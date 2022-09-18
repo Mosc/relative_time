@@ -182,7 +182,7 @@ class RelativeTimeLocalizationsFa extends RelativeTimeLocalizations {
       zero: 'امروز',
       one: 'فردا',
       two: 'پس‌فردا',
-      other: '$days روز بعد',
+      other: '$days روز دیگر',
     );
   }
 
@@ -191,8 +191,8 @@ class RelativeTimeLocalizationsFa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
-      one: '$days روز بعد',
-      other: '$days روز بعد',
+      one: '$days روز دیگر',
+      other: '$days روز دیگر',
     );
   }
 

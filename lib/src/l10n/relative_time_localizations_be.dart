@@ -414,11 +414,62 @@ class RelativeTimeLocalizationsBeTarask extends RelativeTimeLocalizationsBe {
   RelativeTimeLocalizationsBeTarask() : super('be_tarask');
 
   @override
+  String yearsFuture(num years) {
+    return intl.Intl.pluralLogic(
+      years,
+      locale: localeName,
+      zero: 'у гэтым годзе',
+      one: 'у наступным годзе',
+      few: 'праз $years гады',
+      many: 'праз $years гадоў',
+      other: 'праз $years года',
+    );
+  }
+
+  @override
+  String yearsFutureNumeric(num years) {
+    return intl.Intl.pluralLogic(
+      years,
+      locale: localeName,
+      one: 'праз $years год',
+      few: 'праз $years гады',
+      many: 'праз $years гадоў',
+      other: 'праз $years года',
+    );
+  }
+
+  @override
+  String yearsPast(num years) {
+    return intl.Intl.pluralLogic(
+      years,
+      locale: localeName,
+      zero: 'у гэтым годзе',
+      one: 'у мінулым годзе',
+      few: '$years гады таму',
+      many: '$years гадоў таму',
+      other: '$years года таму',
+    );
+  }
+
+  @override
+  String yearsPastNumeric(num years) {
+    return intl.Intl.pluralLogic(
+      years,
+      locale: localeName,
+      one: '$years год таму',
+      few: '$years гады таму',
+      many: '$years гадоў таму',
+      other: '$years года таму',
+    );
+  }
+
+  @override
   String quartersFuture(num quarters) {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: 'праз $quarters квартал',
+      zero: 'у гэтым квартале',
+      one: 'у наступным квартале',
       few: 'праз $quarters кварталы',
       many: 'праз $quarters кварталаў',
       other: 'праз $quarters кварталу',
@@ -442,7 +493,8 @@ class RelativeTimeLocalizationsBeTarask extends RelativeTimeLocalizationsBe {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: '$quarters квартал таму',
+      zero: 'у гэтым квартале',
+      one: 'у мінулым квартале',
       few: '$quarters кварталы таму',
       many: '$quarters кварталаў таму',
       other: '$quarters кварталу таму',
@@ -458,6 +510,158 @@ class RelativeTimeLocalizationsBeTarask extends RelativeTimeLocalizationsBe {
       few: '$quarters кварталы таму',
       many: '$quarters кварталаў таму',
       other: '$quarters кварталу таму',
+    );
+  }
+
+  @override
+  String monthsFuture(num months) {
+    return intl.Intl.pluralLogic(
+      months,
+      locale: localeName,
+      zero: 'у гэтым месяцы',
+      one: 'у наступным месяцы',
+      few: 'праз $months месяцы',
+      many: 'праз $months месяцаў',
+      other: 'праз $months месяца',
+    );
+  }
+
+  @override
+  String monthsFutureNumeric(num months) {
+    return intl.Intl.pluralLogic(
+      months,
+      locale: localeName,
+      one: 'праз $months месяц',
+      few: 'праз $months месяцы',
+      many: 'праз $months месяцаў',
+      other: 'праз $months месяца',
+    );
+  }
+
+  @override
+  String monthsPast(num months) {
+    return intl.Intl.pluralLogic(
+      months,
+      locale: localeName,
+      zero: 'у гэтым месяцы',
+      one: 'у мінулым месяцы',
+      few: '$months месяцы таму',
+      many: '$months месяцаў таму',
+      other: '$months месяца таму',
+    );
+  }
+
+  @override
+  String monthsPastNumeric(num months) {
+    return intl.Intl.pluralLogic(
+      months,
+      locale: localeName,
+      one: '$months месяц таму',
+      few: '$months месяцы таму',
+      many: '$months месяцаў таму',
+      other: '$months месяца таму',
+    );
+  }
+
+  @override
+  String weeksFuture(num weeks) {
+    return intl.Intl.pluralLogic(
+      weeks,
+      locale: localeName,
+      zero: 'на гэтым тыдні',
+      one: 'на наступным тыдні',
+      few: 'праз $weeks тыдні',
+      many: 'праз $weeks тыдняў',
+      other: 'праз $weeks тыдня',
+    );
+  }
+
+  @override
+  String weeksFutureNumeric(num weeks) {
+    return intl.Intl.pluralLogic(
+      weeks,
+      locale: localeName,
+      one: 'праз $weeks тыдзень',
+      few: 'праз $weeks тыдні',
+      many: 'праз $weeks тыдняў',
+      other: 'праз $weeks тыдня',
+    );
+  }
+
+  @override
+  String weeksPast(num weeks) {
+    return intl.Intl.pluralLogic(
+      weeks,
+      locale: localeName,
+      zero: 'на гэтым тыдні',
+      one: 'на мінулым тыдні',
+      few: '$weeks тыдні таму',
+      many: '$weeks тыдняў таму',
+      other: '$weeks тыдня таму',
+    );
+  }
+
+  @override
+  String weeksPastNumeric(num weeks) {
+    return intl.Intl.pluralLogic(
+      weeks,
+      locale: localeName,
+      one: '$weeks тыдзень таму',
+      few: '$weeks тыдні таму',
+      many: '$weeks тыдняў таму',
+      other: '$weeks тыдня таму',
+    );
+  }
+
+  @override
+  String daysFuture(num days) {
+    return intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
+      zero: 'сёньня',
+      one: 'заўтра',
+      two: 'паслязаўтра',
+      few: 'праз $days дні',
+      many: 'праз $days дзён',
+      other: 'праз $days дня',
+    );
+  }
+
+  @override
+  String daysFutureNumeric(num days) {
+    return intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
+      one: 'праз $days дзень',
+      few: 'праз $days дні',
+      many: 'праз $days дзён',
+      other: 'праз $days дня',
+    );
+  }
+
+  @override
+  String daysPast(num days) {
+    return intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
+      zero: 'сёньня',
+      one: 'учора',
+      two: 'пазаўчора',
+      few: '$days дні таму',
+      many: '$days дзён таму',
+      other: '$days дня таму',
+    );
+  }
+
+  @override
+  String daysPastNumeric(num days) {
+    return intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
+      one: '$days дзень таму',
+      few: '$days дні таму',
+      many: '$days дзён таму',
+      other: '$days дня таму',
     );
   }
 
@@ -566,6 +770,7 @@ class RelativeTimeLocalizationsBeTarask extends RelativeTimeLocalizationsBe {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'цяпер',
       one: 'праз $seconds сэкунду',
       few: 'праз $seconds сэкунды',
       many: 'праз $seconds сэкундаў',
@@ -590,6 +795,7 @@ class RelativeTimeLocalizationsBeTarask extends RelativeTimeLocalizationsBe {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
+      zero: 'цяпер',
       one: '$seconds сэкунду таму',
       few: '$seconds сэкунды таму',
       many: '$seconds сэкундаў таму',

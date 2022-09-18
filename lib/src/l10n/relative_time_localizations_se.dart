@@ -536,7 +536,8 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
-      one: '$days beaivve siste',
+      zero: 'odne',
+      one: 'ihttin',
       two: 'don beaivve',
       other: '$days beaivve siste',
     );
@@ -558,6 +559,7 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
+      zero: 'odne',
       one: 'ikte',
       two: 'ovddet beaivvi',
       other: '$days beaivve dás ovdal',

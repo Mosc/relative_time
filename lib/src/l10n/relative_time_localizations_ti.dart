@@ -43,7 +43,6 @@ class RelativeTimeLocalizationsTi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      one: 'ቅድሚ $years ዓ',
       other: 'ቅድሚ $years ዓ',
     );
   }

@@ -386,8 +386,7 @@ class RelativeTimeLocalizationsSrCyrlBa extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      zero: 'ове године',
-      one: 'прошле године',
+      one: 'прије $years године',
       few: 'прије $years године',
       other: 'прије $years година',
     );
@@ -409,8 +408,7 @@ class RelativeTimeLocalizationsSrCyrlBa extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      zero: 'овог квартала',
-      one: 'прошлог квартала',
+      one: 'прије $quarters квартала',
       few: 'прије $quarters квартала',
       other: 'прије $quarters квартала',
     );
@@ -478,10 +476,10 @@ class RelativeTimeLocalizationsSrCyrlBa extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      zero: 'ове недјеље',
-      one: 'наредне недеље',
-      few: 'за $weeks недјеље',
-      other: 'за $weeks недјеља',
+      zero: 'ове седмице',
+      one: 'сљедеће седмице',
+      few: 'за $weeks седмице',
+      other: 'за $weeks седмица',
     );
   }
 
@@ -490,9 +488,9 @@ class RelativeTimeLocalizationsSrCyrlBa extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      one: 'за $weeks недјељу',
-      few: 'за $weeks недјеље',
-      other: 'за $weeks недјеља',
+      one: 'за $weeks седмицу',
+      few: 'за $weeks седмице',
+      other: 'за $weeks седмица',
     );
   }
 
@@ -501,10 +499,10 @@ class RelativeTimeLocalizationsSrCyrlBa extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      zero: 'ове недјеље',
-      one: 'претходне недеље',
-      few: 'прије $weeks недјеље',
-      other: 'прије $weeks недјеља',
+      zero: 'ове седмице',
+      one: 'прошле седмице',
+      few: 'прије $weeks седмице',
+      other: 'прије $weeks седмица',
     );
   }
 
@@ -513,9 +511,9 @@ class RelativeTimeLocalizationsSrCyrlBa extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      one: 'прије $weeks недјеље',
-      few: 'прије $weeks недјеље',
-      other: 'прије $weeks недјеља',
+      one: 'прије $weeks седмице',
+      few: 'прије $weeks седмице',
+      other: 'прије $weeks седмица',
     );
   }
 
@@ -1082,10 +1080,10 @@ class RelativeTimeLocalizationsSrLatnBa extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      zero: 'ove nedjelje',
-      one: 'naredne nedelje',
-      few: 'za $weeks nedjelje',
-      other: 'za $weeks nedjelja',
+      zero: 'ove sedmice',
+      one: 'sljedeće sedmice',
+      few: 'za $weeks sedmice',
+      other: 'za $weeks sedmica',
     );
   }
 
@@ -1094,9 +1092,9 @@ class RelativeTimeLocalizationsSrLatnBa extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      one: 'za $weeks nedjelju',
-      few: 'za $weeks nedjelje',
-      other: 'za $weeks nedjelja',
+      one: 'za $weeks sedmicu',
+      few: 'za $weeks sedmice',
+      other: 'za $weeks sedmica',
     );
   }
 
@@ -1105,10 +1103,10 @@ class RelativeTimeLocalizationsSrLatnBa extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      zero: 'ove nedjelje',
-      one: 'prethodne nedelje',
-      few: 'prije $weeks nedjelje',
-      other: 'prije $weeks nedjelja',
+      zero: 'ove sedmice',
+      one: 'prošle sedmice',
+      few: 'prije $weeks sedmice',
+      other: 'prije $weeks sedmica',
     );
   }
 
@@ -1117,9 +1115,9 @@ class RelativeTimeLocalizationsSrLatnBa extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      one: 'prije $weeks nedjelje',
-      few: 'prije $weeks nedjelje',
-      other: 'prije $weeks nedjelja',
+      one: 'prije $weeks sedmice',
+      few: 'prije $weeks sedmice',
+      other: 'prije $weeks sedmica',
     );
   }
 

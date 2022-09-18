@@ -15,6 +15,7 @@ import 'relative_time_localizations_be.dart';
 import 'relative_time_localizations_bg.dart';
 import 'relative_time_localizations_bn.dart';
 import 'relative_time_localizations_br.dart';
+import 'relative_time_localizations_brx.dart';
 import 'relative_time_localizations_bs.dart';
 import 'relative_time_localizations_ca.dart';
 import 'relative_time_localizations_ccp.dart';
@@ -70,6 +71,7 @@ import 'relative_time_localizations_lb.dart';
 import 'relative_time_localizations_lo.dart';
 import 'relative_time_localizations_lt.dart';
 import 'relative_time_localizations_lv.dart';
+import 'relative_time_localizations_mai.dart';
 import 'relative_time_localizations_mk.dart';
 import 'relative_time_localizations_ml.dart';
 import 'relative_time_localizations_mn.dart';
@@ -80,6 +82,7 @@ import 'relative_time_localizations_my.dart';
 import 'relative_time_localizations_mzn.dart';
 import 'relative_time_localizations_ne.dart';
 import 'relative_time_localizations_nl.dart';
+import 'relative_time_localizations_nn.dart';
 import 'relative_time_localizations_no.dart';
 import 'relative_time_localizations_or.dart';
 import 'relative_time_localizations_pa.dart';
@@ -218,6 +221,7 @@ abstract class RelativeTimeLocalizations {
     Locale('bg'),
     Locale('bn'),
     Locale('br'),
+    Locale('brx'),
     Locale('bs'),
     Locale.fromSubtags(languageCode: 'bs', scriptCode: 'Cyrl'),
     Locale('ca'),
@@ -231,8 +235,10 @@ abstract class RelativeTimeLocalizations {
     Locale('dsb'),
     Locale('ee'),
     Locale('el'),
+    Locale('en', 'GB'),
     Locale('eo'),
     Locale('es'),
+    Locale('es', '419'),
     Locale('es', 'MX'),
     Locale('et'),
     Locale('eu'),
@@ -243,12 +249,14 @@ abstract class RelativeTimeLocalizations {
     Locale('fil'),
     Locale('fo'),
     Locale('fr'),
+    Locale('fr', 'CA'),
     Locale('fy'),
     Locale('ga'),
     Locale('gd'),
     Locale('gl'),
     Locale('gu'),
     Locale('ha'),
+    Locale('ha', 'NE'),
     Locale('he'),
     Locale('hi'),
     Locale.fromSubtags(languageCode: 'hi', scriptCode: 'Latn'),
@@ -276,6 +284,7 @@ abstract class RelativeTimeLocalizations {
     Locale('lo'),
     Locale('lt'),
     Locale('lv'),
+    Locale('mai'),
     Locale('mk'),
     Locale('ml'),
     Locale('mn'),
@@ -286,6 +295,7 @@ abstract class RelativeTimeLocalizations {
     Locale('mzn'),
     Locale('ne'),
     Locale('nl'),
+    Locale('nn'),
     Locale('no'),
     Locale('or'),
     Locale('pa'),
@@ -563,6 +573,7 @@ class _RelativeTimeLocalizationsDelegate
         'bg',
         'bn',
         'br',
+        'brx',
         'bs',
         'ca',
         'ccp',
@@ -618,6 +629,7 @@ class _RelativeTimeLocalizationsDelegate
         'lo',
         'lt',
         'lv',
+        'mai',
         'mk',
         'ml',
         'mn',
@@ -628,6 +640,7 @@ class _RelativeTimeLocalizationsDelegate
         'mzn',
         'ne',
         'nl',
+        'nn',
         'no',
         'or',
         'pa',
@@ -761,11 +774,37 @@ RelativeTimeLocalizations lookupRelativeTimeLocalizations(Locale locale) {
 
   // Lookup logic when language+country codes are specified.
   switch (locale.languageCode) {
+    case 'en':
+      {
+        switch (locale.countryCode) {
+          case 'GB':
+            return RelativeTimeLocalizationsEnGb();
+        }
+        break;
+      }
     case 'es':
       {
         switch (locale.countryCode) {
+          case '419':
+            return RelativeTimeLocalizationsEs419();
           case 'MX':
             return RelativeTimeLocalizationsEsMx();
+        }
+        break;
+      }
+    case 'fr':
+      {
+        switch (locale.countryCode) {
+          case 'CA':
+            return RelativeTimeLocalizationsFrCa();
+        }
+        break;
+      }
+    case 'ha':
+      {
+        switch (locale.countryCode) {
+          case 'NE':
+            return RelativeTimeLocalizationsHaNe();
         }
         break;
       }
@@ -825,6 +864,8 @@ RelativeTimeLocalizations lookupRelativeTimeLocalizations(Locale locale) {
       return RelativeTimeLocalizationsBn();
     case 'br':
       return RelativeTimeLocalizationsBr();
+    case 'brx':
+      return RelativeTimeLocalizationsBrx();
     case 'bs':
       return RelativeTimeLocalizationsBs();
     case 'ca':
@@ -935,6 +976,8 @@ RelativeTimeLocalizations lookupRelativeTimeLocalizations(Locale locale) {
       return RelativeTimeLocalizationsLt();
     case 'lv':
       return RelativeTimeLocalizationsLv();
+    case 'mai':
+      return RelativeTimeLocalizationsMai();
     case 'mk':
       return RelativeTimeLocalizationsMk();
     case 'ml':
@@ -955,6 +998,8 @@ RelativeTimeLocalizations lookupRelativeTimeLocalizations(Locale locale) {
       return RelativeTimeLocalizationsNe();
     case 'nl':
       return RelativeTimeLocalizationsNl();
+    case 'nn':
+      return RelativeTimeLocalizationsNn();
     case 'no':
       return RelativeTimeLocalizationsNo();
     case 'or':

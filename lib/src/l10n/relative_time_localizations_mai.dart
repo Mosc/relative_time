@@ -2,18 +2,18 @@ import 'package:intl/intl.dart' as intl;
 
 import 'relative_time_localizations.dart';
 
-/// The translations for Macedonian (`mk`).
-class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsMk([String locale = 'mk']) : super(locale);
+/// The translations for Maithili (`mai`).
+class RelativeTimeLocalizationsMai extends RelativeTimeLocalizations {
+  RelativeTimeLocalizationsMai([String locale = 'mai']) : super(locale);
 
   @override
   String yearsFuture(num years) {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      zero: 'оваа година',
-      one: 'догодина',
-      other: 'за $years години',
+      zero: 'एहि बरख',
+      one: 'अगिला बरख',
+      other: '$years बरख मे',
     );
   }
 
@@ -22,8 +22,7 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      one: 'за $years година',
-      other: 'за $years години',
+      other: '$years बरख मे',
     );
   }
 
@@ -32,9 +31,9 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      zero: 'оваа година',
-      one: 'лани',
-      other: 'пред $years години',
+      zero: 'एहि बरख',
+      one: 'बीतल बरख',
+      other: '$years बरख पहिले',
     );
   }
 
@@ -43,8 +42,7 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      one: 'пред $years година',
-      other: 'пред $years години',
+      other: '$years बरख पहिले',
     );
   }
 
@@ -53,9 +51,9 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      zero: 'ова тромесечје',
-      one: 'следното тромесечје',
-      other: 'за $quarters тромесечја',
+      zero: 'एहि तिमाही',
+      one: 'अगिला तिमाही',
+      other: '$quarters तिमाही मे',
     );
   }
 
@@ -64,8 +62,7 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: 'за $quarters тромесечје',
-      other: 'за $quarters тромесечја',
+      other: '$quarters तिमाही मे',
     );
   }
 
@@ -74,9 +71,9 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      zero: 'ова тромесечје',
-      one: 'последното тромесечје',
-      other: 'пред $quarters тромесечја',
+      zero: 'एहि तिमाही',
+      one: 'बीतल तिमाही',
+      other: '$quarters तिमाही पहिले',
     );
   }
 
@@ -85,8 +82,7 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: 'пред $quarters тромесечје',
-      other: 'пред $quarters тромесечја',
+      other: '$quarters तिमाही पहिले',
     );
   }
 
@@ -95,9 +91,9 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
-      zero: 'овој месец',
-      one: 'следниот месец',
-      other: 'за $months месеци',
+      zero: 'एहि माह',
+      one: 'अगिला माह',
+      other: '$months माह मे',
     );
   }
 
@@ -106,8 +102,7 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
-      one: 'за $months месец',
-      other: 'за $months месеци',
+      other: '$months माह मे',
     );
   }
 
@@ -116,9 +111,9 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
-      zero: 'овој месец',
-      one: 'минатиот месец',
-      other: 'пред $months месеци',
+      zero: 'एहि माह',
+      one: 'बीतल माह',
+      other: '$months माह पहिले',
     );
   }
 
@@ -127,8 +122,7 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
-      one: 'пред $months месец',
-      other: 'пред $months месеци',
+      other: '$months माह पहिले',
     );
   }
 
@@ -137,9 +131,9 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      zero: 'оваа седмица',
-      one: 'следната седмица',
-      other: 'за $weeks седмици',
+      zero: 'एहि सप्ताह',
+      one: 'अगिला सप्ताह',
+      other: '$weeks सप्ताह मे',
     );
   }
 
@@ -148,8 +142,7 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      one: 'за $weeks седмица',
-      other: 'за $weeks седмици',
+      other: '$weeks सप्ताह मे',
     );
   }
 
@@ -158,9 +151,9 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      zero: 'оваа седмица',
-      one: 'минатата седмица',
-      other: 'пред $weeks седмици',
+      zero: 'एहि सप्ताह',
+      one: 'बीतल सप्ताह',
+      other: '$weeks सप्ताह पहिले',
     );
   }
 
@@ -169,8 +162,7 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      one: 'пред $weeks седмица',
-      other: 'пред $weeks седмици',
+      other: '$weeks सप्ताह पहिले',
     );
   }
 
@@ -179,10 +171,9 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
-      zero: 'денес',
-      one: 'утре',
-      two: 'задутре',
-      other: 'за $days дена',
+      zero: 'आजुक दिन',
+      one: 'काल्हिक दिन',
+      other: '$days दिन मे',
     );
   }
 
@@ -191,8 +182,7 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
-      one: 'за $days ден',
-      other: 'за $days дена',
+      other: '$days दिन मे',
     );
   }
 
@@ -201,10 +191,9 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
-      zero: 'денес',
-      one: 'вчера',
-      two: 'завчера',
-      other: 'пред $days дена',
+      zero: 'आजुक दिन',
+      one: 'काल्हिक दिन',
+      other: '$days दिन मे',
     );
   }
 
@@ -213,8 +202,7 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
-      one: 'пред $days ден',
-      other: 'пред $days дена',
+      other: '$days दिन मे',
     );
   }
 
@@ -223,9 +211,8 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      zero: 'часов',
-      one: 'за $hours час',
-      other: 'за $hours часа',
+      zero: 'एहि घंटा',
+      other: '$hours घंटा मे',
     );
   }
 
@@ -234,8 +221,7 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      one: 'за $hours час',
-      other: 'за $hours часа',
+      other: '$hours घंटा मे',
     );
   }
 
@@ -244,9 +230,8 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      zero: 'часов',
-      one: 'пред $hours час',
-      other: 'пред $hours часа',
+      zero: 'एहि घंटा',
+      other: '$hours घंटा पहिले',
     );
   }
 
@@ -255,8 +240,7 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      one: 'пред $hours час',
-      other: 'пред $hours часа',
+      other: '$hours घंटा पहिले',
     );
   }
 
@@ -265,9 +249,8 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
-      zero: 'оваа минута',
-      one: 'за $minutes минута',
-      other: 'за $minutes минути',
+      zero: 'एहि मिनट',
+      other: '$minutes मिनट मे',
     );
   }
 
@@ -276,8 +259,7 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
-      one: 'за $minutes минута',
-      other: 'за $minutes минути',
+      other: '$minutes मिनट मे',
     );
   }
 
@@ -286,9 +268,8 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
-      zero: 'оваа минута',
-      one: 'пред $minutes минута',
-      other: 'пред $minutes минути',
+      zero: 'एहि मिनट',
+      other: '$minutes मिनट पहिले',
     );
   }
 
@@ -297,8 +278,7 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
-      one: 'пред $minutes минута',
-      other: 'пред $minutes минути',
+      other: '$minutes मिनट पहिले',
     );
   }
 
@@ -307,9 +287,8 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
-      zero: 'сега',
-      one: 'за $seconds секунда',
-      other: 'за $seconds секунди',
+      zero: 'एहि समय',
+      other: '$seconds सेकेंड मे',
     );
   }
 
@@ -318,8 +297,7 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
-      one: 'за $seconds секунда',
-      other: 'за $seconds секунди',
+      other: '$seconds सेकेंड मे',
     );
   }
 
@@ -328,9 +306,8 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
-      zero: 'сега',
-      one: 'пред $seconds секунда',
-      other: 'пред $seconds секунди',
+      zero: 'एहि समय',
+      other: '$seconds सेकेंड पहिले',
     );
   }
 
@@ -339,8 +316,7 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
-      one: 'пред $seconds секунда',
-      other: 'пред $seconds секунди',
+      other: '$seconds सेकेंड पहिले',
     );
   }
 }

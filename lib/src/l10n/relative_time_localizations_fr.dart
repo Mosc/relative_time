@@ -344,3 +344,170 @@ class RelativeTimeLocalizationsFr extends RelativeTimeLocalizations {
     );
   }
 }
+
+/// The translations for French, as used in Canada (`fr_CA`).
+class RelativeTimeLocalizationsFrCa extends RelativeTimeLocalizationsFr {
+  RelativeTimeLocalizationsFrCa() : super('fr_CA');
+
+  @override
+  String quartersFuture(num quarters) {
+    return intl.Intl.pluralLogic(
+      quarters,
+      locale: localeName,
+      zero: 'ce trimestre-ci',
+      one: 'le trimestre prochain',
+      other: 'dans $quarters trimestres',
+    );
+  }
+
+  @override
+  String quartersFutureNumeric(num quarters) {
+    return intl.Intl.pluralLogic(
+      quarters,
+      locale: localeName,
+      one: 'dans $quarters trimestre',
+      other: 'dans $quarters trimestres',
+    );
+  }
+
+  @override
+  String quartersPast(num quarters) {
+    return intl.Intl.pluralLogic(
+      quarters,
+      locale: localeName,
+      zero: 'ce trimestre-ci',
+      one: 'le trimestre dernier',
+      other: 'il y a $quarters trimestres',
+    );
+  }
+
+  @override
+  String quartersPastNumeric(num quarters) {
+    return intl.Intl.pluralLogic(
+      quarters,
+      locale: localeName,
+      one: 'il y a $quarters trimestre',
+      other: 'il y a $quarters trimestres',
+    );
+  }
+
+  @override
+  String hoursFuture(num hours) {
+    return intl.Intl.pluralLogic(
+      hours,
+      locale: localeName,
+      one: 'dans $hours heure',
+      other: 'dans $hours heures',
+    );
+  }
+
+  @override
+  String hoursFutureNumeric(num hours) {
+    return intl.Intl.pluralLogic(
+      hours,
+      locale: localeName,
+      one: 'dans $hours heure',
+      other: 'dans $hours heures',
+    );
+  }
+
+  @override
+  String hoursPast(num hours) {
+    return intl.Intl.pluralLogic(
+      hours,
+      locale: localeName,
+      one: 'il y a $hours heure',
+      other: 'il y a $hours heures',
+    );
+  }
+
+  @override
+  String hoursPastNumeric(num hours) {
+    return intl.Intl.pluralLogic(
+      hours,
+      locale: localeName,
+      one: 'il y a $hours heure',
+      other: 'il y a $hours heures',
+    );
+  }
+
+  @override
+  String minutesFuture(num minutes) {
+    return intl.Intl.pluralLogic(
+      minutes,
+      locale: localeName,
+      one: 'dans $minutes minute',
+      other: 'dans $minutes minutes',
+    );
+  }
+
+  @override
+  String minutesFutureNumeric(num minutes) {
+    return intl.Intl.pluralLogic(
+      minutes,
+      locale: localeName,
+      one: 'dans $minutes minute',
+      other: 'dans $minutes minutes',
+    );
+  }
+
+  @override
+  String minutesPast(num minutes) {
+    return intl.Intl.pluralLogic(
+      minutes,
+      locale: localeName,
+      one: 'il y a $minutes minute',
+      other: 'il y a $minutes minutes',
+    );
+  }
+
+  @override
+  String minutesPastNumeric(num minutes) {
+    return intl.Intl.pluralLogic(
+      minutes,
+      locale: localeName,
+      one: 'il y a $minutes minute',
+      other: 'il y a $minutes minutes',
+    );
+  }
+
+  @override
+  String secondsFuture(num seconds) {
+    return intl.Intl.pluralLogic(
+      seconds,
+      locale: localeName,
+      one: 'dans $seconds seconde',
+      other: 'dans $seconds secondes',
+    );
+  }
+
+  @override
+  String secondsFutureNumeric(num seconds) {
+    return intl.Intl.pluralLogic(
+      seconds,
+      locale: localeName,
+      one: 'dans $seconds seconde',
+      other: 'dans $seconds secondes',
+    );
+  }
+
+  @override
+  String secondsPast(num seconds) {
+    return intl.Intl.pluralLogic(
+      seconds,
+      locale: localeName,
+      one: 'il y a $seconds seconde',
+      other: 'il y a $seconds secondes',
+    );
+  }
+
+  @override
+  String secondsPastNumeric(num seconds) {
+    return intl.Intl.pluralLogic(
+      seconds,
+      locale: localeName,
+      one: 'il y a $seconds seconde',
+      other: 'il y a $seconds secondes',
+    );
+  }
+}

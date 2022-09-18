@@ -13,7 +13,7 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'ngayong taon',
       one: 'susunod na taon',
-      other: 'sa $years (na) taon',
+      other: 'sa $years taon',
     );
   }
 
@@ -23,7 +23,7 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
       years,
       locale: localeName,
       one: 'sa $years taon',
-      other: 'sa $years (na) taon',
+      other: 'sa $years taon',
     );
   }
 
@@ -34,7 +34,7 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'ngayong taon',
       one: 'nakaraang taon',
-      other: '$years (na) taon ang nakalipas',
+      other: '$years taon ang nakalipas',
     );
   }
 
@@ -44,7 +44,7 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
       years,
       locale: localeName,
       one: '$years taon ang nakalipas',
-      other: '$years (na) taon ang nakalipas',
+      other: '$years taon ang nakalipas',
     );
   }
 
@@ -55,7 +55,7 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'ngayong quarter',
       one: 'susunod na quarter',
-      other: 'sa $quarters (na) quarter',
+      other: 'sa $quarters quarter',
     );
   }
 
@@ -65,7 +65,7 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
       quarters,
       locale: localeName,
       one: 'sa $quarters quarter',
-      other: 'sa $quarters (na) quarter',
+      other: 'sa $quarters quarter',
     );
   }
 
@@ -76,7 +76,7 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'ngayong quarter',
       one: 'nakaraang quarter',
-      other: '$quarters (na) quarter ang nakalipas',
+      other: '$quarters quarter ang nakalipas',
     );
   }
 
@@ -86,7 +86,7 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
       quarters,
       locale: localeName,
       one: '$quarters quarter ang nakalipas',
-      other: '$quarters (na) quarter ang nakalipas',
+      other: '$quarters quarter ang nakalipas',
     );
   }
 
@@ -97,7 +97,7 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'ngayong buwan',
       one: 'susunod na buwan',
-      other: 'sa $months (na) buwan',
+      other: 'sa $months buwan',
     );
   }
 
@@ -107,7 +107,7 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
       months,
       locale: localeName,
       one: 'sa $months buwan',
-      other: 'sa $months (na) buwan',
+      other: 'sa $months buwan',
     );
   }
 
@@ -118,7 +118,7 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'ngayong buwan',
       one: 'nakaraang buwan',
-      other: '$months (na) buwan ang nakalipas',
+      other: '$months buwan ang nakalipas',
     );
   }
 
@@ -128,7 +128,7 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
       months,
       locale: localeName,
       one: '$months buwan ang nakalipas',
-      other: '$months (na) buwan ang nakalipas',
+      other: '$months buwan ang nakalipas',
     );
   }
 
@@ -139,7 +139,7 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'sa linggong ito',
       one: 'susunod na linggo',
-      other: 'sa $weeks (na) linggo',
+      other: 'sa $weeks linggo',
     );
   }
 
@@ -149,7 +149,7 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
       weeks,
       locale: localeName,
       one: 'sa $weeks linggo',
-      other: 'sa $weeks (na) linggo',
+      other: 'sa $weeks linggo',
     );
   }
 
@@ -160,7 +160,7 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'sa linggong ito',
       one: 'nakalipas na linggo',
-      other: '$weeks (na) linggo ang nakalipas',
+      other: '$weeks linggo ang nakalipas',
     );
   }
 
@@ -170,7 +170,7 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
       weeks,
       locale: localeName,
       one: '$weeks linggo ang nakalipas',
-      other: '$weeks (na) linggo ang nakalipas',
+      other: '$weeks linggo ang nakalipas',
     );
   }
 
@@ -182,7 +182,7 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
       zero: 'ngayong araw',
       one: 'bukas',
       two: 'Samakalawa',
-      other: 'sa $days (na) araw',
+      other: 'sa $days araw',
     );
   }
 
@@ -192,7 +192,7 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
       days,
       locale: localeName,
       one: 'sa $days araw',
-      other: 'sa $days (na) araw',
+      other: 'sa $days araw',
     );
   }
 
@@ -204,7 +204,7 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
       zero: 'ngayong araw',
       one: 'kahapon',
       two: 'Araw bago ang kahapon',
-      other: '$days (na) araw ang nakalipas',
+      other: '$days araw ang nakalipas',
     );
   }
 
@@ -214,7 +214,7 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
       days,
       locale: localeName,
       one: '$days araw ang nakalipas',
-      other: '$days (na) araw ang nakalipas',
+      other: '$days araw ang nakalipas',
     );
   }
 
@@ -225,7 +225,7 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'ngayong oras',
       one: 'sa $hours oras',
-      other: 'sa $hours (na) oras',
+      other: 'sa $hours oras',
     );
   }
 
@@ -235,7 +235,7 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
       hours,
       locale: localeName,
       one: 'sa $hours oras',
-      other: 'sa $hours (na) oras',
+      other: 'sa $hours oras',
     );
   }
 
@@ -246,7 +246,7 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'ngayong oras',
       one: '$hours oras ang nakalipas',
-      other: '$hours (na) oras ang nakalipas',
+      other: '$hours oras ang nakalipas',
     );
   }
 
@@ -256,7 +256,7 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
       hours,
       locale: localeName,
       one: '$hours oras ang nakalipas',
-      other: '$hours (na) oras ang nakalipas',
+      other: '$hours oras ang nakalipas',
     );
   }
 
@@ -267,7 +267,7 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'sa minutong ito',
       one: 'sa $minutes minuto',
-      other: 'sa $minutes (na) minuto',
+      other: 'sa $minutes minuto',
     );
   }
 
@@ -277,7 +277,7 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
       minutes,
       locale: localeName,
       one: 'sa $minutes minuto',
-      other: 'sa $minutes (na) minuto',
+      other: 'sa $minutes minuto',
     );
   }
 
@@ -288,7 +288,7 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'sa minutong ito',
       one: '$minutes minuto ang nakalipas',
-      other: '$minutes (na) minuto ang nakalipas',
+      other: '$minutes minuto ang nakalipas',
     );
   }
 
@@ -298,7 +298,7 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
       minutes,
       locale: localeName,
       one: '$minutes minuto ang nakalipas',
-      other: '$minutes (na) minuto ang nakalipas',
+      other: '$minutes minuto ang nakalipas',
     );
   }
 
@@ -309,7 +309,7 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'ngayon',
       one: 'sa $seconds segundo',
-      other: 'sa $seconds (na) segundo',
+      other: 'sa $seconds segundo',
     );
   }
 
@@ -319,7 +319,7 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
       seconds,
       locale: localeName,
       one: 'sa $seconds segundo',
-      other: 'sa $seconds (na) segundo',
+      other: 'sa $seconds segundo',
     );
   }
 
@@ -330,7 +330,7 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'ngayon',
       one: '$seconds segundo ang nakalipas',
-      other: '$seconds (na) segundo ang nakalipas',
+      other: '$seconds segundo ang nakalipas',
     );
   }
 
@@ -340,7 +340,7 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
       seconds,
       locale: localeName,
       one: '$seconds segundo ang nakalipas',
-      other: '$seconds (na) segundo ang nakalipas',
+      other: '$seconds segundo ang nakalipas',
     );
   }
 }

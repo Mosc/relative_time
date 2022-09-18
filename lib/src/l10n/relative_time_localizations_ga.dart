@@ -25,7 +25,7 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      one: 'i gceann $years bhliain',
+      one: 'i gceann $years bliana',
       two: 'i gceann $years bhliain',
       few: 'i gceann $years bliana',
       many: 'i gceann $years mbliana',
@@ -187,7 +187,7 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      one: 'i gceann $weeks seachtain',
+      one: 'i gceann $weeks seachtaine',
       two: 'i gceann $weeks sheachtain',
       few: 'i gceann $weeks seachtaine',
       many: 'i gceann $weeks seachtaine',
@@ -284,8 +284,7 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
       zero: 'an uair seo',
       one: 'i gceann $hours uair an chloig',
       two: 'i gceann $hours uair an chloig',
-      few: 'i gceann $hours uair an chloig',
-      many: 'i gceann $hours n-uaire an chloig',
+      many: 'i gceann $hours n-uair an chloig',
       other: 'i gceann $hours uair an chloig',
     );
   }
@@ -297,8 +296,7 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
       locale: localeName,
       one: 'i gceann $hours uair an chloig',
       two: 'i gceann $hours uair an chloig',
-      few: 'i gceann $hours uair an chloig',
-      many: 'i gceann $hours n-uaire an chloig',
+      many: 'i gceann $hours n-uair an chloig',
       other: 'i gceann $hours uair an chloig',
     );
   }
@@ -311,8 +309,7 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
       zero: 'an uair seo',
       one: '$hours uair an chloig ó shin',
       two: '$hours uair an chloig ó shin',
-      few: '$hours uair an chloig ó shin',
-      many: '$hours n-uaire an chloig ó shin',
+      many: '$hours n-uair an chloig ó shin',
       other: '$hours uair an chloig ó shin',
     );
   }
@@ -324,8 +321,7 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
       locale: localeName,
       one: '$hours uair an chloig ó shin',
       two: '$hours uair an chloig ó shin',
-      few: '$hours uair an chloig ó shin',
-      many: '$hours n-uaire an chloig ó shin',
+      many: '$hours n-uair an chloig ó shin',
       other: '$hours uair an chloig ó shin',
     );
   }

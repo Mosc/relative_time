@@ -1,0 +1,19 @@
+{
+  "@@locale": "fr_CA",
+  "quartersFuture": "{quarters, plural, =0{ce trimestre-ci} =1{le trimestre prochain} other{dans {quarters} trimestres}}",
+  "quartersFutureNumeric": "{quarters, plural, =1{dans {quarters} trimestre} other{dans {quarters} trimestres}}",
+  "quartersPast": "{quarters, plural, =0{ce trimestre-ci} =1{le trimestre dernier} other{il y a {quarters} trimestres}}",
+  "quartersPastNumeric": "{quarters, plural, =1{il y a {quarters} trimestre} other{il y a {quarters} trimestres}}",
+  "hoursFuture": "{hours, plural, =1{dans {hours} heure} other{dans {hours} heures}}",
+  "hoursFutureNumeric": "{hours, plural, =1{dans {hours} heure} other{dans {hours} heures}}",
+  "hoursPast": "{hours, plural, =1{il y a {hours} heure} other{il y a {hours} heures}}",
+  "hoursPastNumeric": "{hours, plural, =1{il y a {hours} heure} other{il y a {hours} heures}}",
+  "minutesFuture": "{minutes, plural, =1{dans {minutes} minute} other{dans {minutes} minutes}}",
+  "minutesFutureNumeric": "{minutes, plural, =1{dans {minutes} minute} other{dans {minutes} minutes}}",
+  "minutesPast": "{minutes, plural, =1{il y a {minutes} minute} other{il y a {minutes} minutes}}",
+  "minutesPastNumeric": "{minutes, plural, =1{il y a {minutes} minute} other{il y a {minutes} minutes}}",
+  "secondsFuture": "{seconds, plural, =1{dans {seconds} seconde} other{dans {seconds} secondes}}",
+  "secondsFutureNumeric": "{seconds, plural, =1{dans {seconds} seconde} other{dans {seconds} secondes}}",
+  "secondsPast": "{seconds, plural, =1{il y a {seconds} seconde} other{il y a {seconds} secondes}}",
+  "secondsPastNumeric": "{seconds, plural, =1{il y a {seconds} seconde} other{il y a {seconds} secondes}}"
+}

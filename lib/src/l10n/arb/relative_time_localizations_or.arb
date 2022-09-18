@@ -15,7 +15,7 @@
   "weeksFuture": "{weeks, plural, =0{ଏହି ସପ୍ତାହ} =1{ଆଗାମୀ ସପ୍ତାହ} other{{weeks} ସପ୍ତାହରେ}}",
   "weeksFutureNumeric": "{weeks, plural, =1{{weeks} ସପ୍ତାହରେ} other{{weeks} ସପ୍ତାହରେ}}",
   "weeksPast": "{weeks, plural, =0{ଏହି ସପ୍ତାହ} =1{ଗତ ସପ୍ତାହ} other{{weeks} ସପ୍ତାହ ପୂର୍ବେ}}",
-  "weeksPastNumeric": "{weeks, plural, =1{{weeks} ସପ୍ତାହରେ} other{{weeks} ସପ୍ତାହ ପୂର୍ବେ}}",
+  "weeksPastNumeric": "{weeks, plural, other{{weeks} ସପ୍ତାହ ପୂର୍ବେ}}",
   "daysFuture": "{days, plural, =0{ଆଜି} =1{ଆସନ୍ତାକାଲି} other{{days} ଦିନରେ}}",
   "daysFutureNumeric": "{days, plural, =1{{days} ଦିନରେ} other{{days} ଦିନରେ}}",
   "daysPast": "{days, plural, =0{ଆଜି} =1{ଗତକାଲି} other{{days} ଦିନ ପୂର୍ବେ}}",

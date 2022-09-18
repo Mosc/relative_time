@@ -169,7 +169,6 @@ class RelativeTimeLocalizationsOr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      one: '$weeks ସପ୍ତାହରେ',
       other: '$weeks ସପ୍ତାହ ପୂର୍ବେ',
     );
   }

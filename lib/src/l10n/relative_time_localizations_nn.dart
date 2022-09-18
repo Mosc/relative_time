@@ -2,18 +2,18 @@ import 'package:intl/intl.dart' as intl;
 
 import 'relative_time_localizations.dart';
 
-/// The translations for Macedonian (`mk`).
-class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsMk([String locale = 'mk']) : super(locale);
+/// The translations for Norwegian Nynorsk (`nn`).
+class RelativeTimeLocalizationsNn extends RelativeTimeLocalizations {
+  RelativeTimeLocalizationsNn([String locale = 'nn']) : super(locale);
 
   @override
   String yearsFuture(num years) {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      zero: 'оваа година',
-      one: 'догодина',
-      other: 'за $years години',
+      zero: 'i år',
+      one: 'neste år',
+      other: 'om $years år',
     );
   }
 
@@ -22,8 +22,8 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      one: 'за $years година',
-      other: 'за $years години',
+      one: 'om $years år',
+      other: 'om $years år',
     );
   }
 
@@ -32,9 +32,9 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      zero: 'оваа година',
-      one: 'лани',
-      other: 'пред $years години',
+      zero: 'i år',
+      one: 'i fjor',
+      other: 'for $years år sidan',
     );
   }
 
@@ -43,8 +43,8 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      one: 'пред $years година',
-      other: 'пред $years години',
+      one: 'for $years år sidan',
+      other: 'for $years år sidan',
     );
   }
 
@@ -53,9 +53,9 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      zero: 'ова тромесечје',
-      one: 'следното тромесечје',
-      other: 'за $quarters тромесечја',
+      zero: 'dette kvartalet',
+      one: 'neste kvartal',
+      other: 'om $quarters kvartal',
     );
   }
 
@@ -64,8 +64,8 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: 'за $quarters тромесечје',
-      other: 'за $quarters тромесечја',
+      one: 'om $quarters kvartal',
+      other: 'om $quarters kvartal',
     );
   }
 
@@ -74,9 +74,9 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      zero: 'ова тромесечје',
-      one: 'последното тромесечје',
-      other: 'пред $quarters тромесечја',
+      zero: 'dette kvartalet',
+      one: 'førre kvartal',
+      other: 'for $quarters kvartal sidan',
     );
   }
 
@@ -85,8 +85,8 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: 'пред $quarters тромесечје',
-      other: 'пред $quarters тромесечја',
+      one: 'for $quarters kvartal sidan',
+      other: 'for $quarters kvartal sidan',
     );
   }
 
@@ -95,9 +95,9 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
-      zero: 'овој месец',
-      one: 'следниот месец',
-      other: 'за $months месеци',
+      zero: 'denne månaden',
+      one: 'neste månad',
+      other: 'om $months månadar',
     );
   }
 
@@ -106,8 +106,8 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
-      one: 'за $months месец',
-      other: 'за $months месеци',
+      one: 'om $months månad',
+      other: 'om $months månadar',
     );
   }
 
@@ -116,9 +116,9 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
-      zero: 'овој месец',
-      one: 'минатиот месец',
-      other: 'пред $months месеци',
+      zero: 'denne månaden',
+      one: 'førre månad',
+      other: 'for $months månadar sidan',
     );
   }
 
@@ -127,8 +127,8 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
-      one: 'пред $months месец',
-      other: 'пред $months месеци',
+      one: 'for $months månad sidan',
+      other: 'for $months månadar sidan',
     );
   }
 
@@ -137,9 +137,9 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      zero: 'оваа седмица',
-      one: 'следната седмица',
-      other: 'за $weeks седмици',
+      zero: 'denne veka',
+      one: 'neste veke',
+      other: 'om $weeks veker',
     );
   }
 
@@ -148,8 +148,8 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      one: 'за $weeks седмица',
-      other: 'за $weeks седмици',
+      one: 'om $weeks veke',
+      other: 'om $weeks veker',
     );
   }
 
@@ -158,9 +158,9 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      zero: 'оваа седмица',
-      one: 'минатата седмица',
-      other: 'пред $weeks седмици',
+      zero: 'denne veka',
+      one: 'førre veke',
+      other: 'for $weeks veker sidan',
     );
   }
 
@@ -169,8 +169,8 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      one: 'пред $weeks седмица',
-      other: 'пред $weeks седмици',
+      one: 'for $weeks veke sidan',
+      other: 'for $weeks veker sidan',
     );
   }
 
@@ -179,10 +179,10 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
-      zero: 'денес',
-      one: 'утре',
-      two: 'задутре',
-      other: 'за $days дена',
+      zero: 'i dag',
+      one: 'i morgon',
+      two: 'i overmorgon',
+      other: 'om $days døgn',
     );
   }
 
@@ -191,8 +191,8 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
-      one: 'за $days ден',
-      other: 'за $days дена',
+      one: 'om $days døgn',
+      other: 'om $days døgn',
     );
   }
 
@@ -201,10 +201,10 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
-      zero: 'денес',
-      one: 'вчера',
-      two: 'завчера',
-      other: 'пред $days дена',
+      zero: 'i dag',
+      one: 'i går',
+      two: 'i førgår',
+      other: 'for $days døgn sidan',
     );
   }
 
@@ -213,8 +213,8 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
-      one: 'пред $days ден',
-      other: 'пред $days дена',
+      one: 'for $days døgn sidan',
+      other: 'for $days døgn sidan',
     );
   }
 
@@ -223,9 +223,9 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      zero: 'часов',
-      one: 'за $hours час',
-      other: 'за $hours часа',
+      zero: 'denne timen',
+      one: 'om $hours time',
+      other: 'om $hours timar',
     );
   }
 
@@ -234,8 +234,8 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      one: 'за $hours час',
-      other: 'за $hours часа',
+      one: 'om $hours time',
+      other: 'om $hours timar',
     );
   }
 
@@ -244,9 +244,9 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      zero: 'часов',
-      one: 'пред $hours час',
-      other: 'пред $hours часа',
+      zero: 'denne timen',
+      one: 'for $hours time sidan',
+      other: 'for $hours timar sidan',
     );
   }
 
@@ -255,8 +255,8 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      one: 'пред $hours час',
-      other: 'пред $hours часа',
+      one: 'for $hours time sidan',
+      other: 'for $hours timar sidan',
     );
   }
 
@@ -265,9 +265,9 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
-      zero: 'оваа минута',
-      one: 'за $minutes минута',
-      other: 'за $minutes минути',
+      zero: 'dette minuttet',
+      one: 'om $minutes minutt',
+      other: 'om $minutes minutt',
     );
   }
 
@@ -276,8 +276,8 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
-      one: 'за $minutes минута',
-      other: 'за $minutes минути',
+      one: 'om $minutes minutt',
+      other: 'om $minutes minutt',
     );
   }
 
@@ -286,9 +286,9 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
-      zero: 'оваа минута',
-      one: 'пред $minutes минута',
-      other: 'пред $minutes минути',
+      zero: 'dette minuttet',
+      one: 'for $minutes minutt sidan',
+      other: 'for $minutes minutt sidan',
     );
   }
 
@@ -297,8 +297,8 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
-      one: 'пред $minutes минута',
-      other: 'пред $minutes минути',
+      one: 'for $minutes minutt sidan',
+      other: 'for $minutes minutt sidan',
     );
   }
 
@@ -307,9 +307,9 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
-      zero: 'сега',
-      one: 'за $seconds секунда',
-      other: 'за $seconds секунди',
+      zero: 'no',
+      one: 'om $seconds sekund',
+      other: 'om $seconds sekund',
     );
   }
 
@@ -318,8 +318,8 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
-      one: 'за $seconds секунда',
-      other: 'за $seconds секунди',
+      one: 'om $seconds sekund',
+      other: 'om $seconds sekund',
     );
   }
 
@@ -328,9 +328,9 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
-      zero: 'сега',
-      one: 'пред $seconds секунда',
-      other: 'пред $seconds секунди',
+      zero: 'no',
+      one: 'for $seconds sekund sidan',
+      other: 'for $seconds sekund sidan',
     );
   }
 
@@ -339,8 +339,8 @@ class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
-      one: 'пред $seconds секунда',
-      other: 'пред $seconds секунди',
+      one: 'for $seconds sekund sidan',
+      other: 'for $seconds sekund sidan',
     );
   }
 }
