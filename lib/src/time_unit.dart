@@ -5,53 +5,40 @@ import 'package:relative_time/src/relative_time_extension.dart';
 /// Different units to represent time.
 enum TimeUnit {
   /// A year.
-  year,
+  year(microseconds: DurationExtension.microsecondsPerYear),
 
   /// A quarter.
-  quarter,
+  quarter(microseconds: DurationExtension.microsecondsPerQuarter),
 
   /// A month.
-  month,
+  month(microseconds: DurationExtension.microsecondsPerMonth),
 
   /// A week.
-  week,
+  week(microseconds: DurationExtension.microsecondsPerWeek),
 
   /// A day.
-  day,
+  day(microseconds: Duration.microsecondsPerDay),
 
   /// An hour.
-  hour,
+  hour(microseconds: Duration.microsecondsPerHour),
 
   /// A minute.
-  minute,
+  minute(microseconds: Duration.microsecondsPerMinute),
 
   /// A second.
-  second,
-}
+  second(microseconds: Duration.microsecondsPerSecond);
 
-/// Extends [TimeUnit] to include calculating spanned difference.
-extension TimeUnitExtension on TimeUnit {
+  /// Creates a [TimeUnit].
+  ///
+  /// [microseconds] represents the number of microseconds in this [TimeUnit].
+  const TimeUnit({required this.microseconds});
+
+  /// The number of microseconds in this [TimeUnit].
+  final num microseconds;
+
   /// The number of units spanned by [difference] based on this [TimeUnit].
-  num difference(Duration difference) {
-    switch (this) {
-      case TimeUnit.year:
-        return difference.inYears;
-      case TimeUnit.quarter:
-        return difference.inQuarters;
-      case TimeUnit.month:
-        return difference.inMonths;
-      case TimeUnit.week:
-        return difference.inWeeks;
-      case TimeUnit.day:
-        return difference.inDays;
-      case TimeUnit.hour:
-        return difference.inHours;
-      case TimeUnit.minute:
-        return difference.inMinutes;
-      case TimeUnit.second:
-        return difference.inSeconds;
-    }
-  }
+  num difference(Duration difference) =>
+      difference.inMicroseconds ~/ microseconds;
 }
 
 /// The [TimeUnit]s used by default in [RelativeTime] and

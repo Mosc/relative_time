@@ -28,16 +28,4 @@ extension DurationExtension on Duration {
   /// The number of microseconds per week.
   static const int microsecondsPerWeek =
       Duration.microsecondsPerDay * daysPerWeek;
-
-  /// The number of entire average years spanned by this [Duration].
-  int get inYears => inMicroseconds ~/ microsecondsPerYear;
-
-  /// The number of entire average quarters spanned by this [Duration].
-  int get inQuarters => inMicroseconds ~/ microsecondsPerQuarter;
-
-  /// The number of entire average months spanned by this [Duration].
-  int get inMonths => inMicroseconds ~/ microsecondsPerMonth;
-
-  /// The number of entire weeks spanned by this [Duration].
-  int get inWeeks => inMicroseconds ~/ microsecondsPerWeek;
 }
