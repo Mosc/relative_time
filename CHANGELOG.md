@@ -1,7 +1,7 @@
-## 2.2.0-beta.1
+## 2.2.0
 
-* Add Bodo, Maithili and Norwegian Nynorsk languages.
-* Update Taraškievica Belarusian, Lower Sorbian, English (as used in the United Kingdom), Esperanto, Spanish (as used in Latin America and the Caribbean), Persian, Filipino, French (as used in Canada), Irish, Hindi, Macedonian, Maltese, Oriya, Portuguese (as used in Portugal) and Northern Sami translations.
+* Add Bodo and Maithili languages.
+* Update Lower Sorbian, Esperanto, Persian, Filipino, Irish, Hindi, Macedonian, Maltese, Oriya and Serbian (as used in Bosnia and Herzegovina) translations.
 
 ## 2.1.0
 
