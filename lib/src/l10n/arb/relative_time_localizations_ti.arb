@@ -3,7 +3,7 @@
   "yearsFuture": "{years, plural, =0{ሎሚ ዓመት} =1{ንዓመታ} other{ኣብ {years} ዓ}}",
   "yearsFutureNumeric": "{years, plural, =1{ኣብ {years} ዓ} other{ኣብ {years} ዓ}}",
   "yearsPast": "{years, plural, =0{ሎሚ ዓመት} =1{ዓሚ} other{ቅድሚ {years} ዓ}}",
-  "yearsPastNumeric": "{years, plural, other{ቅድሚ {years} ዓ}}",
+  "yearsPastNumeric": "{years, plural, =1{ቅድሚ {years} ዓ} other{ቅድሚ {years} ዓ}}",
   "quartersFuture": "{quarters, plural, =0{ህሉው ርብዒ} =1{ዝመጽእ ርብዒ} other{ኣብ {quarters} ርብዒ}}",
   "quartersFutureNumeric": "{quarters, plural, =1{ኣብ {quarters} ርብዒ} other{ኣብ {quarters} ርብዒ}}",
   "quartersPast": "{quarters, plural, =0{ህሉው ርብዒ} =1{ዝሓለፈ ርብዒ} other{ቅድሚ {quarters} ርብዒ}}",

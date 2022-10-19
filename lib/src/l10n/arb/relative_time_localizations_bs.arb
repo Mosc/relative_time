@@ -7,7 +7,7 @@
   "quartersFuture": "{quarters, plural, =0{ovaj kvartal} =1{sljedeći kvartal} few{za {quarters} kvartala} other{za {quarters} kvartala}}",
   "quartersFutureNumeric": "{quarters, plural, =1{za {quarters} kvartal} few{za {quarters} kvartala} other{za {quarters} kvartala}}",
   "quartersPast": "{quarters, plural, =0{ovaj kvartal} =1{posljednji kvartal} few{prije {quarters} kvartala} other{prije {quarters} kvartala}}",
-  "quartersPastNumeric": "{quarters, plural, few{prije {quarters} kvartala} other{prije {quarters} kvartala}}",
+  "quartersPastNumeric": "{quarters, plural, =1{prije {quarters} kvartala} few{prije {quarters} kvartala} other{prije {quarters} kvartala}}",
   "monthsFuture": "{months, plural, =0{ovaj mjesec} =1{sljedeći mjesec} few{za {months} mjeseca} other{za {months} mjeseci}}",
   "monthsFutureNumeric": "{months, plural, =1{za {months} mjesec} few{za {months} mjeseca} other{za {months} mjeseci}}",
   "monthsPast": "{months, plural, =0{ovaj mjesec} =1{prošli mjesec} few{prije {months} mjeseca} other{prije {months} mjeseci}}",

@@ -397,7 +397,7 @@ class RelativeTimeLocalizationsHiLatn extends RelativeTimeLocalizationsHi {
       quarters,
       locale: localeName,
       zero: 'is quarter',
-      one: '$quarters quarter mein',
+      one: 'next quarter',
       other: '$quarters quarters mein',
     );
   }
@@ -418,7 +418,7 @@ class RelativeTimeLocalizationsHiLatn extends RelativeTimeLocalizationsHi {
       quarters,
       locale: localeName,
       zero: 'is quarter',
-      one: '$quarters quarter pahle',
+      one: 'last quarter',
       other: '$quarters quarters pahle',
     );
   }

@@ -386,7 +386,8 @@ class RelativeTimeLocalizationsSrCyrlBa extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      one: 'прије $years године',
+      zero: 'ове године',
+      one: 'прошле године',
       few: 'прије $years године',
       other: 'прије $years година',
     );
@@ -408,7 +409,8 @@ class RelativeTimeLocalizationsSrCyrlBa extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: 'прије $quarters квартала',
+      zero: 'овог квартала',
+      one: 'прошлог квартала',
       few: 'прије $quarters квартала',
       other: 'прије $quarters квартала',
     );
@@ -990,7 +992,8 @@ class RelativeTimeLocalizationsSrLatnBa extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      one: 'prije $years godine',
+      zero: 'ove godine',
+      one: 'prošle godine',
       few: 'prije $years godine',
       other: 'prije $years godina',
     );
@@ -1012,7 +1015,8 @@ class RelativeTimeLocalizationsSrLatnBa extends RelativeTimeLocalizationsSr {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: 'prije $quarters kvartala',
+      zero: 'ovog kvartala',
+      one: 'prošlog kvartala',
       few: 'prije $quarters kvartala',
       other: 'prije $quarters kvartala',
     );

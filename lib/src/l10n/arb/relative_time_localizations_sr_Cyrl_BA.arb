@@ -1,8 +1,8 @@
 {
   "@@locale": "sr_Cyrl_BA",
-  "yearsPast": "{years, plural, =1{прије {years} године} few{прије {years} године} other{прије {years} година}}",
+  "yearsPast": "{years, plural, =0{ове године} =1{прошле године} few{прије {years} године} other{прије {years} година}}",
   "yearsPastNumeric": "{years, plural, =1{прије {years} године} few{прије {years} године} other{прије {years} година}}",
-  "quartersPast": "{quarters, plural, =1{прије {quarters} квартала} few{прије {quarters} квартала} other{прије {quarters} квартала}}",
+  "quartersPast": "{quarters, plural, =0{овог квартала} =1{прошлог квартала} few{прије {quarters} квартала} other{прије {quarters} квартала}}",
   "quartersPastNumeric": "{quarters, plural, =1{прије {quarters} квартала} few{прије {quarters} квартала} other{прије {quarters} квартала}}",
   "monthsFuture": "{months, plural, =0{овог мјесеца} =1{сљедећег мјесеца} few{за {months} мјесеца} other{за {months} мјесеци}}",
   "monthsFutureNumeric": "{months, plural, =1{за {months} мјесец} few{за {months} мјесеца} other{за {months} мјесеци}}",

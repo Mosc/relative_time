@@ -82,7 +82,6 @@ import 'relative_time_localizations_my.dart';
 import 'relative_time_localizations_mzn.dart';
 import 'relative_time_localizations_ne.dart';
 import 'relative_time_localizations_nl.dart';
-import 'relative_time_localizations_nn.dart';
 import 'relative_time_localizations_no.dart';
 import 'relative_time_localizations_or.dart';
 import 'relative_time_localizations_pa.dart';
@@ -235,10 +234,8 @@ abstract class RelativeTimeLocalizations {
     Locale('dsb'),
     Locale('ee'),
     Locale('el'),
-    Locale('en', 'GB'),
     Locale('eo'),
     Locale('es'),
-    Locale('es', '419'),
     Locale('es', 'MX'),
     Locale('et'),
     Locale('eu'),
@@ -249,14 +246,12 @@ abstract class RelativeTimeLocalizations {
     Locale('fil'),
     Locale('fo'),
     Locale('fr'),
-    Locale('fr', 'CA'),
     Locale('fy'),
     Locale('ga'),
     Locale('gd'),
     Locale('gl'),
     Locale('gu'),
     Locale('ha'),
-    Locale('ha', 'NE'),
     Locale('he'),
     Locale('hi'),
     Locale.fromSubtags(languageCode: 'hi', scriptCode: 'Latn'),
@@ -295,7 +290,6 @@ abstract class RelativeTimeLocalizations {
     Locale('mzn'),
     Locale('ne'),
     Locale('nl'),
-    Locale('nn'),
     Locale('no'),
     Locale('or'),
     Locale('pa'),
@@ -640,7 +634,6 @@ class _RelativeTimeLocalizationsDelegate
         'mzn',
         'ne',
         'nl',
-        'nn',
         'no',
         'or',
         'pa',
@@ -774,37 +767,11 @@ RelativeTimeLocalizations lookupRelativeTimeLocalizations(Locale locale) {
 
   // Lookup logic when language+country codes are specified.
   switch (locale.languageCode) {
-    case 'en':
-      {
-        switch (locale.countryCode) {
-          case 'GB':
-            return RelativeTimeLocalizationsEnGb();
-        }
-        break;
-      }
     case 'es':
       {
         switch (locale.countryCode) {
-          case '419':
-            return RelativeTimeLocalizationsEs419();
           case 'MX':
             return RelativeTimeLocalizationsEsMx();
-        }
-        break;
-      }
-    case 'fr':
-      {
-        switch (locale.countryCode) {
-          case 'CA':
-            return RelativeTimeLocalizationsFrCa();
-        }
-        break;
-      }
-    case 'ha':
-      {
-        switch (locale.countryCode) {
-          case 'NE':
-            return RelativeTimeLocalizationsHaNe();
         }
         break;
       }
@@ -998,8 +965,6 @@ RelativeTimeLocalizations lookupRelativeTimeLocalizations(Locale locale) {
       return RelativeTimeLocalizationsNe();
     case 'nl':
       return RelativeTimeLocalizationsNl();
-    case 'nn':
-      return RelativeTimeLocalizationsNn();
     case 'no':
       return RelativeTimeLocalizationsNo();
     case 'or':

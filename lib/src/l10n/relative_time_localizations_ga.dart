@@ -284,6 +284,7 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
       zero: 'an uair seo',
       one: 'i gceann $hours uair an chloig',
       two: 'i gceann $hours uair an chloig',
+      few: 'i gceann $hours uair an chloig',
       many: 'i gceann $hours n-uair an chloig',
       other: 'i gceann $hours uair an chloig',
     );
@@ -296,6 +297,7 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
       locale: localeName,
       one: 'i gceann $hours uair an chloig',
       two: 'i gceann $hours uair an chloig',
+      few: 'i gceann $hours uair an chloig',
       many: 'i gceann $hours n-uair an chloig',
       other: 'i gceann $hours uair an chloig',
     );
@@ -309,6 +311,7 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
       zero: 'an uair seo',
       one: '$hours uair an chloig ó shin',
       two: '$hours uair an chloig ó shin',
+      few: '$hours uair an chloig ó shin',
       many: '$hours n-uair an chloig ó shin',
       other: '$hours uair an chloig ó shin',
     );
@@ -321,6 +324,7 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
       locale: localeName,
       one: '$hours uair an chloig ó shin',
       two: '$hours uair an chloig ó shin',
+      few: '$hours uair an chloig ó shin',
       many: '$hours n-uair an chloig ó shin',
       other: '$hours uair an chloig ó shin',
     );

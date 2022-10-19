@@ -92,6 +92,7 @@ class RelativeTimeLocalizationsBs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
+      one: 'prije $quarters kvartala',
       few: 'prije $quarters kvartala',
       other: 'prije $quarters kvartala',
     );
