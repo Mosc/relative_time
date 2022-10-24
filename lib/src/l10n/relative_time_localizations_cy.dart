@@ -67,9 +67,6 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'chwarter hwn',
       one: 'chwarter nesaf',
-      two: 'ymhen $quarters chwarter',
-      few: 'ymhen $quarters chwarter',
-      many: 'ymhen $quarters chwarter',
       other: 'ymhen $quarters chwarter',
     );
   }
@@ -79,10 +76,6 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: 'ymhen $quarters chwarter',
-      two: 'ymhen $quarters chwarter',
-      few: 'ymhen $quarters chwarter',
-      many: 'ymhen $quarters chwarter',
       other: 'ymhen $quarters chwarter',
     );
   }
@@ -122,8 +115,6 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
       zero: 'y mis hwn',
       one: 'mis nesaf',
       two: 'ymhen deufis',
-      few: 'ymhen $months mis',
-      many: 'ymhen $months mis',
       other: 'ymhen $months mis',
     );
   }
@@ -135,8 +126,6 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
       locale: localeName,
       one: 'ymhen mis',
       two: 'ymhen deufis',
-      few: 'ymhen $months mis',
-      many: 'ymhen $months mis',
       other: 'ymhen $months mis',
     );
   }
@@ -149,8 +138,6 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
       zero: 'y mis hwn',
       one: 'mis diwethaf',
       two: '$months fis yn ôl',
-      few: '$months mis yn ôl',
-      many: '$months mis yn ôl',
       other: '$months mis yn ôl',
     );
   }
@@ -160,10 +147,7 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
-      one: '$months mis yn ôl',
       two: '$months fis yn ôl',
-      few: '$months mis yn ôl',
-      many: '$months mis yn ôl',
       other: '$months mis yn ôl',
     );
   }
@@ -176,8 +160,6 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
       zero: 'yr wythnos hon',
       one: 'wythnos nesaf',
       two: 'ymhen pythefnos',
-      few: 'ymhen $weeks wythnos',
-      many: 'ymhen $weeks wythnos',
       other: 'ymhen $weeks wythnos',
     );
   }
@@ -189,8 +171,6 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
       locale: localeName,
       one: 'ymhen wythnos',
       two: 'ymhen pythefnos',
-      few: 'ymhen $weeks wythnos',
-      many: 'ymhen $weeks wythnos',
       other: 'ymhen $weeks wythnos',
     );
   }
@@ -202,9 +182,6 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'yr wythnos hon',
       one: 'wythnos ddiwethaf',
-      two: '$weeks wythnos yn ôl',
-      few: '$weeks wythnos yn ôl',
-      many: '$weeks wythnos yn ôl',
       other: '$weeks wythnos yn ôl',
     );
   }
@@ -214,10 +191,6 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      one: '$weeks wythnos yn ôl',
-      two: '$weeks wythnos yn ôl',
-      few: '$weeks wythnos yn ôl',
-      many: '$weeks wythnos yn ôl',
       other: '$weeks wythnos yn ôl',
     );
   }
@@ -230,8 +203,6 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
       zero: 'heddiw',
       one: 'yfory',
       two: 'drennydd',
-      few: 'ymhen $days diwrnod',
-      many: 'ymhen $days diwrnod',
       other: 'ymhen $days diwrnod',
     );
   }
@@ -243,8 +214,6 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
       locale: localeName,
       one: 'ymhen diwrnod',
       two: 'ymhen deuddydd',
-      few: 'ymhen $days diwrnod',
-      many: 'ymhen $days diwrnod',
       other: 'ymhen $days diwrnod',
     );
   }
@@ -257,8 +226,6 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
       zero: 'heddiw',
       one: 'ddoe',
       two: 'echdoe',
-      few: '$days diwrnod yn ôl',
-      many: '$days diwrnod yn ôl',
       other: '$days diwrnod yn ôl',
     );
   }
@@ -268,10 +235,7 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
-      one: '$days diwrnod yn ôl',
       two: '$days ddiwrnod yn ôl',
-      few: '$days diwrnod yn ôl',
-      many: '$days diwrnod yn ôl',
       other: '$days diwrnod yn ôl',
     );
   }
@@ -283,9 +247,6 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'yr awr hon',
       one: 'ymhen awr',
-      two: 'ymhen $hours awr',
-      few: 'ymhen $hours awr',
-      many: 'ymhen $hours awr',
       other: 'ymhen $hours awr',
     );
   }
@@ -296,9 +257,6 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
       hours,
       locale: localeName,
       one: 'ymhen awr',
-      two: 'ymhen $hours awr',
-      few: 'ymhen $hours awr',
-      many: 'ymhen $hours awr',
       other: 'ymhen $hours awr',
     );
   }
@@ -309,10 +267,6 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
       hours,
       locale: localeName,
       zero: 'yr awr hon',
-      one: '$hours awr yn ôl',
-      two: '$hours awr yn ôl',
-      few: '$hours awr yn ôl',
-      many: '$hours awr yn ôl',
       other: '$hours awr yn ôl',
     );
   }
@@ -322,10 +276,6 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      one: '$hours awr yn ôl',
-      two: '$hours awr yn ôl',
-      few: '$hours awr yn ôl',
-      many: '$hours awr yn ôl',
       other: '$hours awr yn ôl',
     );
   }
@@ -336,10 +286,6 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
       minutes,
       locale: localeName,
       zero: 'y funud hon',
-      one: 'ymhen $minutes munud',
-      two: 'ymhen $minutes munud',
-      few: 'ymhen $minutes munud',
-      many: 'ymhen $minutes munud',
       other: 'ymhen $minutes munud',
     );
   }
@@ -349,10 +295,6 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
-      one: 'ymhen $minutes munud',
-      two: 'ymhen $minutes munud',
-      few: 'ymhen $minutes munud',
-      many: 'ymhen $minutes munud',
       other: 'ymhen $minutes munud',
     );
   }
@@ -363,10 +305,6 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
       minutes,
       locale: localeName,
       zero: 'y funud hon',
-      one: '$minutes munud yn ôl',
-      two: '$minutes munud yn ôl',
-      few: '$minutes munud yn ôl',
-      many: '$minutes munud yn ôl',
       other: '$minutes munud yn ôl',
     );
   }
@@ -376,10 +314,6 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
-      one: '$minutes munud yn ôl',
-      two: '$minutes munud yn ôl',
-      few: '$minutes munud yn ôl',
-      many: '$minutes munud yn ôl',
       other: '$minutes munud yn ôl',
     );
   }
@@ -390,10 +324,6 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
       seconds,
       locale: localeName,
       zero: 'nawr',
-      one: 'ymhen $seconds eiliad',
-      two: 'ymhen $seconds eiliad',
-      few: 'ymhen $seconds eiliad',
-      many: 'ymhen $seconds eiliad',
       other: 'ymhen $seconds eiliad',
     );
   }
@@ -403,10 +333,6 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
-      one: 'ymhen $seconds eiliad',
-      two: 'ymhen $seconds eiliad',
-      few: 'ymhen $seconds eiliad',
-      many: 'ymhen $seconds eiliad',
       other: 'ymhen $seconds eiliad',
     );
   }
@@ -417,10 +343,6 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
       seconds,
       locale: localeName,
       zero: 'nawr',
-      one: '$seconds eiliad yn ôl',
-      two: '$seconds eiliad yn ôl',
-      few: '$seconds eiliad yn ôl',
-      many: '$seconds eiliad yn ôl',
       other: '$seconds eiliad yn ôl',
     );
   }
@@ -430,10 +352,6 @@ class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
-      one: '$seconds eiliad yn ôl',
-      two: '$seconds eiliad yn ôl',
-      few: '$seconds eiliad yn ôl',
-      many: '$seconds eiliad yn ôl',
       other: '$seconds eiliad yn ôl',
     );
   }

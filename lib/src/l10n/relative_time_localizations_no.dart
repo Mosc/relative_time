@@ -22,7 +22,6 @@ class RelativeTimeLocalizationsNo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      one: 'om $years år',
       other: 'om $years år',
     );
   }
@@ -43,7 +42,6 @@ class RelativeTimeLocalizationsNo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      one: 'for $years år siden',
       other: 'for $years år siden',
     );
   }
@@ -191,7 +189,6 @@ class RelativeTimeLocalizationsNo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
-      one: 'om $days døgn',
       other: 'om $days døgn',
     );
   }
@@ -213,7 +210,6 @@ class RelativeTimeLocalizationsNo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
-      one: 'for $days døgn siden',
       other: 'for $days døgn siden',
     );
   }

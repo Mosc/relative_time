@@ -22,7 +22,6 @@ class RelativeTimeLocalizationsAm extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      one: 'በ$years ዓመታት ውስጥ',
       other: 'በ$years ዓመታት ውስጥ',
     );
   }
@@ -64,7 +63,6 @@ class RelativeTimeLocalizationsAm extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: '+$quarters ሩብ',
       other: '+$quarters ሩብ',
     );
   }
@@ -85,7 +83,6 @@ class RelativeTimeLocalizationsAm extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: '$quarters ሩብ በፊት',
       other: '$quarters ሩብ በፊት',
     );
   }

@@ -22,7 +22,6 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      one: 'sa $years taon',
       other: 'sa $years taon',
     );
   }
@@ -43,7 +42,6 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      one: '$years taon ang nakalipas',
       other: '$years taon ang nakalipas',
     );
   }
@@ -64,7 +62,6 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: 'sa $quarters quarter',
       other: 'sa $quarters quarter',
     );
   }
@@ -85,7 +82,6 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: '$quarters quarter ang nakalipas',
       other: '$quarters quarter ang nakalipas',
     );
   }
@@ -106,7 +102,6 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
-      one: 'sa $months buwan',
       other: 'sa $months buwan',
     );
   }
@@ -127,7 +122,6 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
-      one: '$months buwan ang nakalipas',
       other: '$months buwan ang nakalipas',
     );
   }
@@ -148,7 +142,6 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      one: 'sa $weeks linggo',
       other: 'sa $weeks linggo',
     );
   }
@@ -169,7 +162,6 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      one: '$weeks linggo ang nakalipas',
       other: '$weeks linggo ang nakalipas',
     );
   }
@@ -191,7 +183,6 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
-      one: 'sa $days araw',
       other: 'sa $days araw',
     );
   }
@@ -213,7 +204,6 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
-      one: '$days araw ang nakalipas',
       other: '$days araw ang nakalipas',
     );
   }
@@ -224,7 +214,6 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
       hours,
       locale: localeName,
       zero: 'ngayong oras',
-      one: 'sa $hours oras',
       other: 'sa $hours oras',
     );
   }
@@ -234,7 +223,6 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      one: 'sa $hours oras',
       other: 'sa $hours oras',
     );
   }
@@ -245,7 +233,6 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
       hours,
       locale: localeName,
       zero: 'ngayong oras',
-      one: '$hours oras ang nakalipas',
       other: '$hours oras ang nakalipas',
     );
   }
@@ -255,7 +242,6 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      one: '$hours oras ang nakalipas',
       other: '$hours oras ang nakalipas',
     );
   }
@@ -266,7 +252,6 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
       minutes,
       locale: localeName,
       zero: 'sa minutong ito',
-      one: 'sa $minutes minuto',
       other: 'sa $minutes minuto',
     );
   }
@@ -276,7 +261,6 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
-      one: 'sa $minutes minuto',
       other: 'sa $minutes minuto',
     );
   }
@@ -287,7 +271,6 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
       minutes,
       locale: localeName,
       zero: 'sa minutong ito',
-      one: '$minutes minuto ang nakalipas',
       other: '$minutes minuto ang nakalipas',
     );
   }
@@ -297,7 +280,6 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
-      one: '$minutes minuto ang nakalipas',
       other: '$minutes minuto ang nakalipas',
     );
   }
@@ -308,7 +290,6 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
       seconds,
       locale: localeName,
       zero: 'ngayon',
-      one: 'sa $seconds segundo',
       other: 'sa $seconds segundo',
     );
   }
@@ -318,7 +299,6 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
-      one: 'sa $seconds segundo',
       other: 'sa $seconds segundo',
     );
   }
@@ -329,7 +309,6 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
       seconds,
       locale: localeName,
       zero: 'ngayon',
-      one: '$seconds segundo ang nakalipas',
       other: '$seconds segundo ang nakalipas',
     );
   }
@@ -339,7 +318,6 @@ class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
-      one: '$seconds segundo ang nakalipas',
       other: '$seconds segundo ang nakalipas',
     );
   }

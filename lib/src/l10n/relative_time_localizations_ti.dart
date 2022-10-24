@@ -22,7 +22,6 @@ class RelativeTimeLocalizationsTi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      one: 'ኣብ $years ዓ',
       other: 'ኣብ $years ዓ',
     );
   }
@@ -43,7 +42,6 @@ class RelativeTimeLocalizationsTi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      one: 'ቅድሚ $years ዓ',
       other: 'ቅድሚ $years ዓ',
     );
   }
@@ -64,7 +62,6 @@ class RelativeTimeLocalizationsTi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: 'ኣብ $quarters ርብዒ',
       other: 'ኣብ $quarters ርብዒ',
     );
   }
@@ -85,7 +82,6 @@ class RelativeTimeLocalizationsTi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: 'ቅድሚ $quarters ርብዒ',
       other: 'ቅድሚ $quarters ርብዒ',
     );
   }
@@ -106,7 +102,6 @@ class RelativeTimeLocalizationsTi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
-      one: 'ኣብ $months ወርሒ',
       other: 'ኣብ $months ወርሒ',
     );
   }
@@ -127,7 +122,6 @@ class RelativeTimeLocalizationsTi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
-      one: 'ቅድሚ $months ወርሒ',
       other: 'ቅድሚ $months ወርሒ',
     );
   }
@@ -148,7 +142,6 @@ class RelativeTimeLocalizationsTi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      one: 'ኣብ $weeks ሰሙን',
       other: 'ኣብ $weeks ሰሙን',
     );
   }
@@ -169,7 +162,6 @@ class RelativeTimeLocalizationsTi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      one: 'ቅድሚ $weeks ሰሙን',
       other: 'ቅድሚ $weeks ሰሙን',
     );
   }
@@ -190,7 +182,6 @@ class RelativeTimeLocalizationsTi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
-      one: 'ኣብ $days መዓልቲ',
       other: 'ኣብ $days መዓልቲ',
     );
   }
@@ -222,7 +213,6 @@ class RelativeTimeLocalizationsTi extends RelativeTimeLocalizations {
       hours,
       locale: localeName,
       zero: 'ኣብዚ ሰዓት',
-      one: 'ኣብ $hours ሰዓት',
       other: 'ኣብ $hours ሰዓት',
     );
   }
@@ -232,7 +222,6 @@ class RelativeTimeLocalizationsTi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      one: 'ኣብ $hours ሰዓት',
       other: 'ኣብ $hours ሰዓት',
     );
   }
@@ -243,7 +232,6 @@ class RelativeTimeLocalizationsTi extends RelativeTimeLocalizations {
       hours,
       locale: localeName,
       zero: 'ኣብዚ ሰዓት',
-      one: 'ቅድሚ $hours ሰዓት',
       other: 'ቅድሚ $hours ሰዓት',
     );
   }
@@ -253,7 +241,6 @@ class RelativeTimeLocalizationsTi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      one: 'ቅድሚ $hours ሰዓት',
       other: 'ቅድሚ $hours ሰዓት',
     );
   }
@@ -264,7 +251,6 @@ class RelativeTimeLocalizationsTi extends RelativeTimeLocalizations {
       minutes,
       locale: localeName,
       zero: 'ኣብዚ ደቒቕ',
-      one: 'ኣብ $minutes ደቒቕ',
       other: 'ኣብ $minutes ደቒቕ',
     );
   }
@@ -274,7 +260,6 @@ class RelativeTimeLocalizationsTi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
-      one: 'ኣብ $minutes ደቒቕ',
       other: 'ኣብ $minutes ደቒቕ',
     );
   }
@@ -285,7 +270,6 @@ class RelativeTimeLocalizationsTi extends RelativeTimeLocalizations {
       minutes,
       locale: localeName,
       zero: 'ኣብዚ ደቒቕ',
-      one: 'ቅድሚ $minutes ደቒቕ',
       other: 'ቅድሚ $minutes ደቒቕ',
     );
   }
@@ -295,7 +279,6 @@ class RelativeTimeLocalizationsTi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
-      one: 'ቅድሚ $minutes ደቒቕ',
       other: 'ቅድሚ $minutes ደቒቕ',
     );
   }
@@ -306,7 +289,6 @@ class RelativeTimeLocalizationsTi extends RelativeTimeLocalizations {
       seconds,
       locale: localeName,
       zero: 'ሕጂ',
-      one: 'ኣብ $seconds ካልኢት',
       other: 'ኣብ $seconds ካልኢት',
     );
   }
@@ -316,7 +298,6 @@ class RelativeTimeLocalizationsTi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
-      one: 'ኣብ $seconds ካልኢት',
       other: 'ኣብ $seconds ካልኢት',
     );
   }
@@ -327,7 +308,6 @@ class RelativeTimeLocalizationsTi extends RelativeTimeLocalizations {
       seconds,
       locale: localeName,
       zero: 'ሕጂ',
-      one: 'ቅድሚ $seconds ካልኢት',
       other: 'ቅድሚ $seconds ካልኢት',
     );
   }
@@ -337,7 +317,6 @@ class RelativeTimeLocalizationsTi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
-      one: 'ቅድሚ $seconds ካልኢት',
       other: 'ቅድሚ $seconds ካልኢት',
     );
   }

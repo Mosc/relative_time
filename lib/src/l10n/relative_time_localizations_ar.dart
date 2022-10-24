@@ -15,7 +15,6 @@ class RelativeTimeLocalizationsAr extends RelativeTimeLocalizations {
       one: 'السنة القادمة',
       two: 'خلال سنتين',
       few: 'خلال $years سنوات',
-      many: 'خلال $years سنة',
       other: 'خلال $years سنة',
     );
   }
@@ -28,7 +27,6 @@ class RelativeTimeLocalizationsAr extends RelativeTimeLocalizations {
       one: 'خلال سنة واحدة',
       two: 'خلال سنتين',
       few: 'خلال $years سنوات',
-      many: 'خلال $years سنة',
       other: 'خلال $years سنة',
     );
   }
@@ -42,7 +40,6 @@ class RelativeTimeLocalizationsAr extends RelativeTimeLocalizations {
       one: 'السنة الماضية',
       two: 'قبل سنتين',
       few: 'قبل $years سنوات',
-      many: 'قبل $years سنة',
       other: 'قبل $years سنة',
     );
   }
@@ -55,7 +52,6 @@ class RelativeTimeLocalizationsAr extends RelativeTimeLocalizations {
       one: 'قبل سنة واحدة',
       two: 'قبل سنتين',
       few: 'قبل $years سنوات',
-      many: 'قبل $years سنة',
       other: 'قبل $years سنة',
     );
   }
@@ -69,7 +65,6 @@ class RelativeTimeLocalizationsAr extends RelativeTimeLocalizations {
       one: 'الربع القادم',
       two: 'خلال ربعي سنة',
       few: 'خلال $quarters أرباع سنة',
-      many: 'خلال $quarters ربع سنة',
       other: 'خلال $quarters ربع سنة',
     );
   }
@@ -82,7 +77,6 @@ class RelativeTimeLocalizationsAr extends RelativeTimeLocalizations {
       one: 'خلال ربع سنة واحد',
       two: 'خلال ربعي سنة',
       few: 'خلال $quarters أرباع سنة',
-      many: 'خلال $quarters ربع سنة',
       other: 'خلال $quarters ربع سنة',
     );
   }
@@ -96,7 +90,6 @@ class RelativeTimeLocalizationsAr extends RelativeTimeLocalizations {
       one: 'الربع الأخير',
       two: 'قبل ربعي سنة',
       few: 'قبل $quarters أرباع سنة',
-      many: 'قبل $quarters ربع سنة',
       other: 'قبل $quarters ربع سنة',
     );
   }
@@ -109,7 +102,6 @@ class RelativeTimeLocalizationsAr extends RelativeTimeLocalizations {
       one: 'قبل ربع سنة واحد',
       two: 'قبل ربعي سنة',
       few: 'قبل $quarters أرباع سنة',
-      many: 'قبل $quarters ربع سنة',
       other: 'قبل $quarters ربع سنة',
     );
   }
@@ -285,7 +277,6 @@ class RelativeTimeLocalizationsAr extends RelativeTimeLocalizations {
       one: 'خلال ساعة واحدة',
       two: 'خلال ساعتين',
       few: 'خلال $hours ساعات',
-      many: 'خلال $hours ساعة',
       other: 'خلال $hours ساعة',
     );
   }
@@ -298,7 +289,6 @@ class RelativeTimeLocalizationsAr extends RelativeTimeLocalizations {
       one: 'خلال ساعة واحدة',
       two: 'خلال ساعتين',
       few: 'خلال $hours ساعات',
-      many: 'خلال $hours ساعة',
       other: 'خلال $hours ساعة',
     );
   }
@@ -312,7 +302,6 @@ class RelativeTimeLocalizationsAr extends RelativeTimeLocalizations {
       one: 'قبل ساعة واحدة',
       two: 'قبل ساعتين',
       few: 'قبل $hours ساعات',
-      many: 'قبل $hours ساعة',
       other: 'قبل $hours ساعة',
     );
   }
@@ -325,7 +314,6 @@ class RelativeTimeLocalizationsAr extends RelativeTimeLocalizations {
       one: 'قبل ساعة واحدة',
       two: 'قبل ساعتين',
       few: 'قبل $hours ساعات',
-      many: 'قبل $hours ساعة',
       other: 'قبل $hours ساعة',
     );
   }
@@ -339,7 +327,6 @@ class RelativeTimeLocalizationsAr extends RelativeTimeLocalizations {
       one: 'خلال دقيقة واحدة',
       two: 'خلال دقيقتين',
       few: 'خلال $minutes دقائق',
-      many: 'خلال $minutes دقيقة',
       other: 'خلال $minutes دقيقة',
     );
   }
@@ -352,7 +339,6 @@ class RelativeTimeLocalizationsAr extends RelativeTimeLocalizations {
       one: 'خلال دقيقة واحدة',
       two: 'خلال دقيقتين',
       few: 'خلال $minutes دقائق',
-      many: 'خلال $minutes دقيقة',
       other: 'خلال $minutes دقيقة',
     );
   }
@@ -366,7 +352,6 @@ class RelativeTimeLocalizationsAr extends RelativeTimeLocalizations {
       one: 'قبل دقيقة واحدة',
       two: 'قبل دقيقتين',
       few: 'قبل $minutes دقائق',
-      many: 'قبل $minutes دقيقة',
       other: 'قبل $minutes دقيقة',
     );
   }
@@ -379,7 +364,6 @@ class RelativeTimeLocalizationsAr extends RelativeTimeLocalizations {
       one: 'قبل دقيقة واحدة',
       two: 'قبل دقيقتين',
       few: 'قبل $minutes دقائق',
-      many: 'قبل $minutes دقيقة',
       other: 'قبل $minutes دقيقة',
     );
   }
@@ -393,7 +377,6 @@ class RelativeTimeLocalizationsAr extends RelativeTimeLocalizations {
       one: 'خلال ثانية واحدة',
       two: 'خلال ثانيتين',
       few: 'خلال $seconds ثوانٍ',
-      many: 'خلال $seconds ثانية',
       other: 'خلال $seconds ثانية',
     );
   }
@@ -406,7 +389,6 @@ class RelativeTimeLocalizationsAr extends RelativeTimeLocalizations {
       one: 'خلال ثانية واحدة',
       two: 'خلال ثانيتين',
       few: 'خلال $seconds ثوانٍ',
-      many: 'خلال $seconds ثانية',
       other: 'خلال $seconds ثانية',
     );
   }
@@ -420,7 +402,6 @@ class RelativeTimeLocalizationsAr extends RelativeTimeLocalizations {
       one: 'قبل ثانية واحدة',
       two: 'قبل ثانيتين',
       few: 'قبل $seconds ثوانِ',
-      many: 'قبل $seconds ثانية',
       other: 'قبل $seconds ثانية',
     );
   }
@@ -433,7 +414,6 @@ class RelativeTimeLocalizationsAr extends RelativeTimeLocalizations {
       one: 'قبل ثانية واحدة',
       two: 'قبل ثانيتين',
       few: 'قبل $seconds ثوانِ',
-      many: 'قبل $seconds ثانية',
       other: 'قبل $seconds ثانية',
     );
   }

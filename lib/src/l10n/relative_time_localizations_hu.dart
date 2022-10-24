@@ -22,7 +22,6 @@ class RelativeTimeLocalizationsHu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      one: '$years év múlva',
       other: '$years év múlva',
     );
   }
@@ -43,7 +42,6 @@ class RelativeTimeLocalizationsHu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      one: '$years évvel ezelőtt',
       other: '$years évvel ezelőtt',
     );
   }
@@ -64,7 +62,6 @@ class RelativeTimeLocalizationsHu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: '$quarters negyedév múlva',
       other: '$quarters negyedév múlva',
     );
   }
@@ -85,7 +82,6 @@ class RelativeTimeLocalizationsHu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: '$quarters negyedévvel ezelőtt',
       other: '$quarters negyedévvel ezelőtt',
     );
   }
@@ -106,7 +102,6 @@ class RelativeTimeLocalizationsHu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
-      one: '$months hónap múlva',
       other: '$months hónap múlva',
     );
   }
@@ -127,7 +122,6 @@ class RelativeTimeLocalizationsHu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
-      one: '$months hónappal ezelőtt',
       other: '$months hónappal ezelőtt',
     );
   }
@@ -148,7 +142,6 @@ class RelativeTimeLocalizationsHu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      one: '$weeks hét múlva',
       other: '$weeks hét múlva',
     );
   }
@@ -169,7 +162,6 @@ class RelativeTimeLocalizationsHu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      one: '$weeks héttel ezelőtt',
       other: '$weeks héttel ezelőtt',
     );
   }
@@ -191,7 +183,6 @@ class RelativeTimeLocalizationsHu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
-      one: '$days nap múlva',
       other: '$days nap múlva',
     );
   }
@@ -213,7 +204,6 @@ class RelativeTimeLocalizationsHu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
-      one: '$days nappal ezelőtt',
       other: '$days nappal ezelőtt',
     );
   }
@@ -224,7 +214,6 @@ class RelativeTimeLocalizationsHu extends RelativeTimeLocalizations {
       hours,
       locale: localeName,
       zero: 'ebben az órában',
-      one: '$hours óra múlva',
       other: '$hours óra múlva',
     );
   }
@@ -234,7 +223,6 @@ class RelativeTimeLocalizationsHu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      one: '$hours óra múlva',
       other: '$hours óra múlva',
     );
   }
@@ -245,7 +233,6 @@ class RelativeTimeLocalizationsHu extends RelativeTimeLocalizations {
       hours,
       locale: localeName,
       zero: 'ebben az órában',
-      one: '$hours órával ezelőtt',
       other: '$hours órával ezelőtt',
     );
   }
@@ -255,7 +242,6 @@ class RelativeTimeLocalizationsHu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      one: '$hours órával ezelőtt',
       other: '$hours órával ezelőtt',
     );
   }
@@ -266,7 +252,6 @@ class RelativeTimeLocalizationsHu extends RelativeTimeLocalizations {
       minutes,
       locale: localeName,
       zero: 'ebben a percben',
-      one: '$minutes perc múlva',
       other: '$minutes perc múlva',
     );
   }
@@ -276,7 +261,6 @@ class RelativeTimeLocalizationsHu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
-      one: '$minutes perc múlva',
       other: '$minutes perc múlva',
     );
   }
@@ -287,7 +271,6 @@ class RelativeTimeLocalizationsHu extends RelativeTimeLocalizations {
       minutes,
       locale: localeName,
       zero: 'ebben a percben',
-      one: '$minutes perccel ezelőtt',
       other: '$minutes perccel ezelőtt',
     );
   }
@@ -297,7 +280,6 @@ class RelativeTimeLocalizationsHu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
-      one: '$minutes perccel ezelőtt',
       other: '$minutes perccel ezelőtt',
     );
   }
@@ -308,7 +290,6 @@ class RelativeTimeLocalizationsHu extends RelativeTimeLocalizations {
       seconds,
       locale: localeName,
       zero: 'most',
-      one: '$seconds másodperc múlva',
       other: '$seconds másodperc múlva',
     );
   }
@@ -318,7 +299,6 @@ class RelativeTimeLocalizationsHu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
-      one: '$seconds másodperc múlva',
       other: '$seconds másodperc múlva',
     );
   }
@@ -329,7 +309,6 @@ class RelativeTimeLocalizationsHu extends RelativeTimeLocalizations {
       seconds,
       locale: localeName,
       zero: 'most',
-      one: '$seconds másodperccel ezelőtt',
       other: '$seconds másodperccel ezelőtt',
     );
   }
@@ -339,7 +318,6 @@ class RelativeTimeLocalizationsHu extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
-      one: '$seconds másodperccel ezelőtt',
       other: '$seconds másodperccel ezelőtt',
     );
   }

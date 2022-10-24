@@ -38,7 +38,6 @@ class RelativeTimeLocalizationsCs extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'tento rok',
       one: 'minulý rok',
-      few: 'před $years lety',
       many: 'před $years roku',
       other: 'před $years lety',
     );
@@ -50,7 +49,6 @@ class RelativeTimeLocalizationsCs extends RelativeTimeLocalizations {
       years,
       locale: localeName,
       one: 'před $years rokem',
-      few: 'před $years lety',
       many: 'před $years roku',
       other: 'před $years lety',
     );
@@ -63,8 +61,6 @@ class RelativeTimeLocalizationsCs extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'toto čtvrtletí',
       one: 'příští čtvrtletí',
-      few: 'za $quarters čtvrtletí',
-      many: 'za $quarters čtvrtletí',
       other: 'za $quarters čtvrtletí',
     );
   }
@@ -74,9 +70,6 @@ class RelativeTimeLocalizationsCs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: 'za $quarters čtvrtletí',
-      few: 'za $quarters čtvrtletí',
-      many: 'za $quarters čtvrtletí',
       other: 'za $quarters čtvrtletí',
     );
   }
@@ -88,7 +81,6 @@ class RelativeTimeLocalizationsCs extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'toto čtvrtletí',
       one: 'minulé čtvrtletí',
-      few: 'před $quarters čtvrtletími',
       many: 'před $quarters čtvrtletí',
       other: 'před $quarters čtvrtletími',
     );
@@ -100,7 +92,6 @@ class RelativeTimeLocalizationsCs extends RelativeTimeLocalizations {
       quarters,
       locale: localeName,
       one: 'před $quarters čtvrtletím',
-      few: 'před $quarters čtvrtletími',
       many: 'před $quarters čtvrtletí',
       other: 'před $quarters čtvrtletími',
     );
@@ -138,7 +129,6 @@ class RelativeTimeLocalizationsCs extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'tento měsíc',
       one: 'minulý měsíc',
-      few: 'před $months měsíci',
       many: 'před $months měsíce',
       other: 'před $months měsíci',
     );
@@ -150,7 +140,6 @@ class RelativeTimeLocalizationsCs extends RelativeTimeLocalizations {
       months,
       locale: localeName,
       one: 'před $months měsícem',
-      few: 'před $months měsíci',
       many: 'před $months měsíce',
       other: 'před $months měsíci',
     );
@@ -188,7 +177,6 @@ class RelativeTimeLocalizationsCs extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'tento týden',
       one: 'minulý týden',
-      few: 'před $weeks týdny',
       many: 'před $weeks týdne',
       other: 'před $weeks týdny',
     );
@@ -200,7 +188,6 @@ class RelativeTimeLocalizationsCs extends RelativeTimeLocalizations {
       weeks,
       locale: localeName,
       one: 'před $weeks týdnem',
-      few: 'před $weeks týdny',
       many: 'před $weeks týdne',
       other: 'před $weeks týdny',
     );
@@ -240,7 +227,6 @@ class RelativeTimeLocalizationsCs extends RelativeTimeLocalizations {
       zero: 'dnes',
       one: 'včera',
       two: 'předevčírem',
-      few: 'před $days dny',
       many: 'před $days dne',
       other: 'před $days dny',
     );
@@ -252,7 +238,6 @@ class RelativeTimeLocalizationsCs extends RelativeTimeLocalizations {
       days,
       locale: localeName,
       one: 'před $days dnem',
-      few: 'před $days dny',
       many: 'před $days dne',
       other: 'před $days dny',
     );
@@ -290,7 +275,6 @@ class RelativeTimeLocalizationsCs extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'tuto hodinu',
       one: 'před $hours hodinou',
-      few: 'před $hours hodinami',
       many: 'před $hours hodiny',
       other: 'před $hours hodinami',
     );
@@ -302,7 +286,6 @@ class RelativeTimeLocalizationsCs extends RelativeTimeLocalizations {
       hours,
       locale: localeName,
       one: 'před $hours hodinou',
-      few: 'před $hours hodinami',
       many: 'před $hours hodiny',
       other: 'před $hours hodinami',
     );
@@ -340,7 +323,6 @@ class RelativeTimeLocalizationsCs extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'tuto minutu',
       one: 'před $minutes minutou',
-      few: 'před $minutes minutami',
       many: 'před $minutes minuty',
       other: 'před $minutes minutami',
     );
@@ -352,7 +334,6 @@ class RelativeTimeLocalizationsCs extends RelativeTimeLocalizations {
       minutes,
       locale: localeName,
       one: 'před $minutes minutou',
-      few: 'před $minutes minutami',
       many: 'před $minutes minuty',
       other: 'před $minutes minutami',
     );
@@ -390,7 +371,6 @@ class RelativeTimeLocalizationsCs extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'nyní',
       one: 'před $seconds sekundou',
-      few: 'před $seconds sekundami',
       many: 'před $seconds sekundy',
       other: 'před $seconds sekundami',
     );
@@ -402,7 +382,6 @@ class RelativeTimeLocalizationsCs extends RelativeTimeLocalizations {
       seconds,
       locale: localeName,
       one: 'před $seconds sekundou',
-      few: 'před $seconds sekundami',
       many: 'před $seconds sekundy',
       other: 'před $seconds sekundami',
     );

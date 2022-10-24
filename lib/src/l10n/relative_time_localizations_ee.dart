@@ -22,7 +22,6 @@ class RelativeTimeLocalizationsEe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      one: 'le ƒe $years me',
       other: 'le ƒe $years me',
     );
   }
@@ -53,7 +52,6 @@ class RelativeTimeLocalizationsEe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: 'le kɔta $quarters si gbɔ na me',
       other: 'le kɔta $quarters si gbɔ na me',
     );
   }
@@ -63,7 +61,6 @@ class RelativeTimeLocalizationsEe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: 'le kɔta $quarters si gbɔ na me',
       other: 'le kɔta $quarters si gbɔ na me',
     );
   }
@@ -73,7 +70,6 @@ class RelativeTimeLocalizationsEe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: 'kɔta $quarters si va yi me',
       other: 'kɔta $quarters si va yi me',
     );
   }
@@ -83,7 +79,6 @@ class RelativeTimeLocalizationsEe extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: 'kɔta $quarters si va yi me',
       other: 'kɔta $quarters si va yi me',
     );
   }

@@ -79,7 +79,6 @@ class RelativeTimeLocalizationsMt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: 'f’$quarters kwart ta’ sena oħrajn',
       two: 'f’$quarters kwarti ta’ sena oħrajn',
       few: 'f’$quarters kwarti ta’ sena oħrajn',
       many: 'f’$quarters-il kwart ta’ sena oħrajn',

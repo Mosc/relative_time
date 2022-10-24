@@ -22,7 +22,6 @@ class RelativeTimeLocalizationsFo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      one: 'um $years ár',
       other: 'um $years ár',
     );
   }
@@ -43,7 +42,6 @@ class RelativeTimeLocalizationsFo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      one: '$years ár síðan',
       other: '$years ár síðan',
     );
   }
@@ -308,7 +306,6 @@ class RelativeTimeLocalizationsFo extends RelativeTimeLocalizations {
       seconds,
       locale: localeName,
       zero: 'nú',
-      one: 'um $seconds sekund',
       other: 'um $seconds sekund',
     );
   }
@@ -318,7 +315,6 @@ class RelativeTimeLocalizationsFo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
-      one: 'um $seconds sekund',
       other: 'um $seconds sekund',
     );
   }
@@ -329,7 +325,6 @@ class RelativeTimeLocalizationsFo extends RelativeTimeLocalizations {
       seconds,
       locale: localeName,
       zero: 'nú',
-      one: '$seconds sekund síðan',
       other: '$seconds sekund síðan',
     );
   }
@@ -339,7 +334,6 @@ class RelativeTimeLocalizationsFo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
-      one: '$seconds sekund síðan',
       other: '$seconds sekund síðan',
     );
   }

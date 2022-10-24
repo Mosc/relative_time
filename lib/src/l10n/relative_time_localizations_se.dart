@@ -354,7 +354,6 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
       locale: localeName,
       zero: 'dán jagi',
       one: 'boahtte jagi',
-      two: '$years jagi siste',
       other: '$years jagi siste',
     );
   }
@@ -364,8 +363,6 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      one: '$years jagi siste',
-      two: '$years jagi siste',
       other: '$years jagi siste',
     );
   }
@@ -400,7 +397,6 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
       locale: localeName,
       zero: 'dán njealjádasjagi',
       one: 'boahtte njealjádasjagi',
-      two: 'čuovvovaš $quarters njealjádasjagi',
       other: 'čuovvovaš $quarters njealjádasjagi',
     );
   }
@@ -410,8 +406,6 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: 'čuovvovaš $quarters njealjádasjagi',
-      two: 'čuovvovaš $quarters njealjádasjagi',
       other: 'čuovvovaš $quarters njealjádasjagi',
     );
   }
@@ -423,7 +417,6 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
       locale: localeName,
       zero: 'dán njealjádasjagi',
       one: 'mannan njealjádasjagi',
-      two: '-$quarters njealjádasjagi dás ovdal',
       other: '-$quarters njealjádasjagi dás ovdal',
     );
   }
@@ -433,8 +426,6 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: '-$quarters njealjádasjagi dás ovdal',
-      two: '-$quarters njealjádasjagi dás ovdal',
       other: '-$quarters njealjádasjagi dás ovdal',
     );
   }
@@ -446,7 +437,6 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
       locale: localeName,
       zero: 'dán mánu',
       one: 'boahtte mánu',
-      two: '$months mánu siste',
       other: '$months mánu siste',
     );
   }
@@ -456,8 +446,6 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
-      one: '$months mánu siste',
-      two: '$months mánu siste',
       other: '$months mánu siste',
     );
   }
@@ -469,7 +457,6 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
       locale: localeName,
       zero: 'dán mánu',
       one: 'mannan mánu',
-      two: '$months mánu dás ovdal',
       other: '$months mánu dás ovdal',
     );
   }
@@ -480,7 +467,6 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
       months,
       locale: localeName,
       one: '$months mánnu dás ovdal',
-      two: '$months mánu dás ovdal',
       other: '$months mánu dás ovdal',
     );
   }
@@ -492,7 +478,6 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
       locale: localeName,
       zero: 'dán vahku',
       one: 'boahtte vahku',
-      two: '$weeks vahku geahčen',
       other: '$weeks vahku geahčen',
     );
   }
@@ -502,8 +487,6 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      one: '$weeks vahku geahčen',
-      two: '$weeks vahku geahčen',
       other: '$weeks vahku geahčen',
     );
   }
@@ -515,7 +498,6 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
       locale: localeName,
       zero: 'dán vahku',
       one: 'mannan vahku',
-      two: '$weeks vahku dás ovdal',
       other: '$weeks vahku dás ovdal',
     );
   }
@@ -526,7 +508,6 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
       weeks,
       locale: localeName,
       one: '$weeks vahkku dás ovdal',
-      two: '$weeks vahku dás ovdal',
       other: '$weeks vahku dás ovdal',
     );
   }
@@ -536,7 +517,6 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
-      one: '$days beaivve siste',
       two: 'don beaivve',
       other: '$days beaivve siste',
     );
@@ -547,8 +527,6 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
-      one: '$days beaivve siste',
-      two: '$days beaivve siste',
       other: '$days beaivve siste',
     );
   }
@@ -581,8 +559,6 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
       hours,
       locale: localeName,
       zero: 'dán diimmu',
-      one: '$hours diimmu siste',
-      two: '$hours diimmu siste',
       other: '$hours diimmu siste',
     );
   }
@@ -592,8 +568,6 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      one: '$hours diimmu siste',
-      two: '$hours diimmu siste',
       other: '$hours diimmu siste',
     );
   }
@@ -605,7 +579,6 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
       locale: localeName,
       zero: 'dán diimmu',
       one: '$hours diibmu áigi',
-      two: '$hours diimmu áigi',
       other: '$hours diimmu áigi',
     );
   }
@@ -616,7 +589,6 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
       hours,
       locale: localeName,
       one: '$hours diibmu áigi',
-      two: '$hours diimmu áigi',
       other: '$hours diimmu áigi',
     );
   }
@@ -627,8 +599,6 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
       minutes,
       locale: localeName,
       zero: 'dán minuhta',
-      one: '$minutes minuhta siste',
-      two: '$minutes minuhta siste',
       other: '$minutes minuhta siste',
     );
   }
@@ -638,8 +608,6 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
-      one: '$minutes minuhta siste',
-      two: '$minutes minuhta siste',
       other: '$minutes minuhta siste',
     );
   }
@@ -651,7 +619,6 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
       locale: localeName,
       zero: 'dán minuhta',
       one: '$minutes minuhtta áigi',
-      two: '$minutes minuhta áigi',
       other: '$minutes minuhta áigi',
     );
   }
@@ -662,7 +629,6 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
       minutes,
       locale: localeName,
       one: '$minutes minuhtta áigi',
-      two: '$minutes minuhta áigi',
       other: '$minutes minuhta áigi',
     );
   }
@@ -673,8 +639,6 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
       seconds,
       locale: localeName,
       zero: 'dál',
-      one: '$seconds sekundda siste',
-      two: '$seconds sekundda siste',
       other: '$seconds sekundda siste',
     );
   }
@@ -684,8 +648,6 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
-      one: '$seconds sekundda siste',
-      two: '$seconds sekundda siste',
       other: '$seconds sekundda siste',
     );
   }
@@ -697,7 +659,6 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
       locale: localeName,
       zero: 'dál',
       one: '$seconds sekunda áigi',
-      two: '$seconds sekundda áigi',
       other: '$seconds sekundda áigi',
     );
   }
@@ -708,7 +669,6 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
       seconds,
       locale: localeName,
       one: '$seconds sekunda áigi',
-      two: '$seconds sekundda áigi',
       other: '$seconds sekundda áigi',
     );
   }

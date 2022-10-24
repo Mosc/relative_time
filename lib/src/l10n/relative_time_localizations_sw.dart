@@ -64,7 +64,6 @@ class RelativeTimeLocalizationsSw extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: 'baada ya robo $quarters',
       other: 'baada ya robo $quarters',
     );
   }
@@ -148,7 +147,6 @@ class RelativeTimeLocalizationsSw extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      one: 'baada ya wiki $weeks',
       other: 'baada ya wiki $weeks',
     );
   }
@@ -191,7 +189,6 @@ class RelativeTimeLocalizationsSw extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
-      one: 'baada ya siku $days',
       other: 'baada ya siku $days',
     );
   }
@@ -224,7 +221,6 @@ class RelativeTimeLocalizationsSw extends RelativeTimeLocalizations {
       hours,
       locale: localeName,
       zero: 'saa hii',
-      one: 'baada ya saa $hours',
       other: 'baada ya saa $hours',
     );
   }
@@ -234,7 +230,6 @@ class RelativeTimeLocalizationsSw extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      one: 'baada ya saa $hours',
       other: 'baada ya saa $hours',
     );
   }
@@ -266,7 +261,6 @@ class RelativeTimeLocalizationsSw extends RelativeTimeLocalizations {
       minutes,
       locale: localeName,
       zero: 'dakika hii',
-      one: 'baada ya dakika $minutes',
       other: 'baada ya dakika $minutes',
     );
   }
@@ -276,7 +270,6 @@ class RelativeTimeLocalizationsSw extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
-      one: 'baada ya dakika $minutes',
       other: 'baada ya dakika $minutes',
     );
   }
@@ -308,7 +301,6 @@ class RelativeTimeLocalizationsSw extends RelativeTimeLocalizations {
       seconds,
       locale: localeName,
       zero: 'sasa hivi',
-      one: 'baada ya sekunde $seconds',
       other: 'baada ya sekunde $seconds',
     );
   }
@@ -318,7 +310,6 @@ class RelativeTimeLocalizationsSw extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
-      one: 'baada ya sekunde $seconds',
       other: 'baada ya sekunde $seconds',
     );
   }

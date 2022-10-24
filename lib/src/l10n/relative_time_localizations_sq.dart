@@ -127,7 +127,6 @@ class RelativeTimeLocalizationsSq extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
-      one: '$months muaj më parë',
       other: '$months muaj më parë',
     );
   }
@@ -169,7 +168,6 @@ class RelativeTimeLocalizationsSq extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      one: '$weeks javë më parë',
       other: '$weeks javë më parë',
     );
   }
@@ -211,7 +209,6 @@ class RelativeTimeLocalizationsSq extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
-      one: '$days ditë më parë',
       other: '$days ditë më parë',
     );
   }
@@ -243,7 +240,6 @@ class RelativeTimeLocalizationsSq extends RelativeTimeLocalizations {
       hours,
       locale: localeName,
       zero: 'këtë orë',
-      one: '$hours orë më parë',
       other: '$hours orë më parë',
     );
   }
@@ -253,7 +249,6 @@ class RelativeTimeLocalizationsSq extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      one: '$hours orë më parë',
       other: '$hours orë më parë',
     );
   }

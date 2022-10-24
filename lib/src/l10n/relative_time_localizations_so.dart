@@ -64,7 +64,6 @@ class RelativeTimeLocalizationsSo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: '$quarters rubuc',
       other: '$quarters rubuc',
     );
   }
@@ -85,7 +84,6 @@ class RelativeTimeLocalizationsSo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: '$quarters rubuc kahor',
       other: '$quarters rubuc kahor',
     );
   }
@@ -148,7 +146,6 @@ class RelativeTimeLocalizationsSo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      one: '$weeks toddobaad',
       other: '$weeks toddobaad',
     );
   }
@@ -169,7 +166,6 @@ class RelativeTimeLocalizationsSo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      one: '$weeks toddobaad kahor',
       other: '$weeks toddobaad kahor',
     );
   }
@@ -306,7 +302,6 @@ class RelativeTimeLocalizationsSo extends RelativeTimeLocalizations {
       seconds,
       locale: localeName,
       zero: 'Imika',
-      one: '$seconds ilbiriqsi',
       other: '$seconds ilbiriqsi',
     );
   }
@@ -316,7 +311,6 @@ class RelativeTimeLocalizationsSo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
-      one: '$seconds ilbiriqsi',
       other: '$seconds ilbiriqsi',
     );
   }
@@ -327,7 +321,6 @@ class RelativeTimeLocalizationsSo extends RelativeTimeLocalizations {
       seconds,
       locale: localeName,
       zero: 'Imika',
-      one: '$seconds ilbiriqsi kahor',
       other: '$seconds ilbiriqsi kahor',
     );
   }
@@ -337,7 +330,6 @@ class RelativeTimeLocalizationsSo extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
-      one: '$seconds ilbiriqsi kahor',
       other: '$seconds ilbiriqsi kahor',
     );
   }

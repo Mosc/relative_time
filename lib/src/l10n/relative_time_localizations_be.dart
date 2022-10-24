@@ -265,7 +265,6 @@ class RelativeTimeLocalizationsBe extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'у гэту гадзіну',
       one: 'праз $hours гадзіну',
-      few: 'праз $hours гадзіны',
       many: 'праз $hours гадзін',
       other: 'праз $hours гадзіны',
     );
@@ -277,7 +276,6 @@ class RelativeTimeLocalizationsBe extends RelativeTimeLocalizations {
       hours,
       locale: localeName,
       one: 'праз $hours гадзіну',
-      few: 'праз $hours гадзіны',
       many: 'праз $hours гадзін',
       other: 'праз $hours гадзіны',
     );
@@ -290,7 +288,6 @@ class RelativeTimeLocalizationsBe extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'у гэту гадзіну',
       one: '$hours гадзіну таму',
-      few: '$hours гадзіны таму',
       many: '$hours гадзін таму',
       other: '$hours гадзіны таму',
     );
@@ -302,7 +299,6 @@ class RelativeTimeLocalizationsBe extends RelativeTimeLocalizations {
       hours,
       locale: localeName,
       one: '$hours гадзіну таму',
-      few: '$hours гадзіны таму',
       many: '$hours гадзін таму',
       other: '$hours гадзіны таму',
     );
@@ -315,7 +311,6 @@ class RelativeTimeLocalizationsBe extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'у гэту хвіліну',
       one: 'праз $minutes хвіліну',
-      few: 'праз $minutes хвіліны',
       many: 'праз $minutes хвілін',
       other: 'праз $minutes хвіліны',
     );
@@ -327,7 +322,6 @@ class RelativeTimeLocalizationsBe extends RelativeTimeLocalizations {
       minutes,
       locale: localeName,
       one: 'праз $minutes хвіліну',
-      few: 'праз $minutes хвіліны',
       many: 'праз $minutes хвілін',
       other: 'праз $minutes хвіліны',
     );
@@ -340,7 +334,6 @@ class RelativeTimeLocalizationsBe extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'у гэту хвіліну',
       one: '$minutes хвіліну таму',
-      few: '$minutes хвіліны таму',
       many: '$minutes хвілін таму',
       other: '$minutes хвіліны таму',
     );
@@ -352,7 +345,6 @@ class RelativeTimeLocalizationsBe extends RelativeTimeLocalizations {
       minutes,
       locale: localeName,
       one: '$minutes хвіліну таму',
-      few: '$minutes хвіліны таму',
       many: '$minutes хвілін таму',
       other: '$minutes хвіліны таму',
     );
@@ -365,7 +357,6 @@ class RelativeTimeLocalizationsBe extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'цяпер',
       one: 'праз $seconds секунду',
-      few: 'праз $seconds секунды',
       many: 'праз $seconds секунд',
       other: 'праз $seconds секунды',
     );
@@ -377,7 +368,6 @@ class RelativeTimeLocalizationsBe extends RelativeTimeLocalizations {
       seconds,
       locale: localeName,
       one: 'праз $seconds секунду',
-      few: 'праз $seconds секунды',
       many: 'праз $seconds секунд',
       other: 'праз $seconds секунды',
     );
@@ -390,7 +380,6 @@ class RelativeTimeLocalizationsBe extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'цяпер',
       one: '$seconds секунду таму',
-      few: '$seconds секунды таму',
       many: '$seconds секунд таму',
       other: '$seconds секунды таму',
     );
@@ -402,7 +391,6 @@ class RelativeTimeLocalizationsBe extends RelativeTimeLocalizations {
       seconds,
       locale: localeName,
       one: '$seconds секунду таму',
-      few: '$seconds секунды таму',
       many: '$seconds секунд таму',
       other: '$seconds секунды таму',
     );
@@ -468,7 +456,6 @@ class RelativeTimeLocalizationsBeTarask extends RelativeTimeLocalizationsBe {
       locale: localeName,
       zero: 'у гэтую гадзіну',
       one: 'праз $hours гадзіну',
-      few: 'праз $hours гадзіны',
       many: 'праз $hours гадзінаў',
       other: 'праз $hours гадзіны',
     );
@@ -480,7 +467,6 @@ class RelativeTimeLocalizationsBeTarask extends RelativeTimeLocalizationsBe {
       hours,
       locale: localeName,
       one: 'праз $hours гадзіну',
-      few: 'праз $hours гадзіны',
       many: 'праз $hours гадзінаў',
       other: 'праз $hours гадзіны',
     );
@@ -493,7 +479,6 @@ class RelativeTimeLocalizationsBeTarask extends RelativeTimeLocalizationsBe {
       locale: localeName,
       zero: 'у гэтую гадзіну',
       one: '$hours гадзіну таму',
-      few: '$hours гадзіны таму',
       many: '$hours гадзінаў таму',
       other: '$hours гадзіны таму',
     );
@@ -505,7 +490,6 @@ class RelativeTimeLocalizationsBeTarask extends RelativeTimeLocalizationsBe {
       hours,
       locale: localeName,
       one: '$hours гадзіну таму',
-      few: '$hours гадзіны таму',
       many: '$hours гадзінаў таму',
       other: '$hours гадзіны таму',
     );
@@ -518,7 +502,6 @@ class RelativeTimeLocalizationsBeTarask extends RelativeTimeLocalizationsBe {
       locale: localeName,
       zero: 'у гэтую хвіліну',
       one: 'праз $minutes хвіліну',
-      few: 'праз $minutes хвіліны',
       many: 'праз $minutes хвілінаў',
       other: 'праз $minutes хвіліны',
     );
@@ -530,7 +513,6 @@ class RelativeTimeLocalizationsBeTarask extends RelativeTimeLocalizationsBe {
       minutes,
       locale: localeName,
       one: 'праз $minutes хвіліну',
-      few: 'праз $minutes хвіліны',
       many: 'праз $minutes хвілінаў',
       other: 'праз $minutes хвіліны',
     );
@@ -543,7 +525,6 @@ class RelativeTimeLocalizationsBeTarask extends RelativeTimeLocalizationsBe {
       locale: localeName,
       zero: 'у гэтую хвіліну',
       one: '$minutes хвіліну таму',
-      few: '$minutes хвіліны таму',
       many: '$minutes хвілінаў таму',
       other: '$minutes хвіліны таму',
     );
@@ -555,7 +536,6 @@ class RelativeTimeLocalizationsBeTarask extends RelativeTimeLocalizationsBe {
       minutes,
       locale: localeName,
       one: '$minutes хвіліну таму',
-      few: '$minutes хвіліны таму',
       many: '$minutes хвілінаў таму',
       other: '$minutes хвіліны таму',
     );
@@ -567,7 +547,6 @@ class RelativeTimeLocalizationsBeTarask extends RelativeTimeLocalizationsBe {
       seconds,
       locale: localeName,
       one: 'праз $seconds сэкунду',
-      few: 'праз $seconds сэкунды',
       many: 'праз $seconds сэкундаў',
       other: 'праз $seconds сэкунды',
     );
@@ -579,7 +558,6 @@ class RelativeTimeLocalizationsBeTarask extends RelativeTimeLocalizationsBe {
       seconds,
       locale: localeName,
       one: 'праз $seconds сэкунду',
-      few: 'праз $seconds сэкунды',
       many: 'праз $seconds сэкундаў',
       other: 'праз $seconds сэкунды',
     );
@@ -591,7 +569,6 @@ class RelativeTimeLocalizationsBeTarask extends RelativeTimeLocalizationsBe {
       seconds,
       locale: localeName,
       one: '$seconds сэкунду таму',
-      few: '$seconds сэкунды таму',
       many: '$seconds сэкундаў таму',
       other: '$seconds сэкунды таму',
     );
@@ -603,7 +580,6 @@ class RelativeTimeLocalizationsBeTarask extends RelativeTimeLocalizationsBe {
       seconds,
       locale: localeName,
       one: '$seconds сэкунду таму',
-      few: '$seconds сэкунды таму',
       many: '$seconds сэкундаў таму',
       other: '$seconds сэкунды таму',
     );

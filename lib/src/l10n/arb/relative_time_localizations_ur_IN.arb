@@ -3,15 +3,15 @@
   "yearsFuture": "{years, plural, =1{{years} سال میں} other{{years} سالوں میں}}",
   "yearsFutureNumeric": "{years, plural, =1{{years} سال میں} other{{years} سالوں میں}}",
   "monthsFuture": "{months, plural, =0{اس ماہ} =1{اگلے ماہ} other{{months} ماہ میں}}",
-  "monthsFutureNumeric": "{months, plural, =1{{months} ماہ میں} other{{months} ماہ میں}}",
+  "monthsFutureNumeric": "{months, plural, other{{months} ماہ میں}}",
   "monthsPast": "{months, plural, =0{اس ماہ} =1{گزشتہ ماہ} other{{months} ماہ قبل}}",
-  "monthsPastNumeric": "{months, plural, =1{{months} ماہ قبل} other{{months} ماہ قبل}}",
+  "monthsPastNumeric": "{months, plural, other{{months} ماہ قبل}}",
   "weeksFuture": "{weeks, plural, =0{اس ہفتہ} =1{اگلے ہفتہ} other{{weeks} ہفتوں میں}}",
   "weeksFutureNumeric": "{weeks, plural, =1{{weeks} ہفتہ میں} other{{weeks} ہفتوں میں}}",
   "weeksPast": "{weeks, plural, =0{اس ہفتہ} =1{گزشتہ ہفتہ} other{{weeks} ہفتے قبل}}",
   "weeksPastNumeric": "{weeks, plural, =1{{weeks} ہفتہ قبل} other{{weeks} ہفتے قبل}}",
-  "minutesPast": "{minutes, plural, =1{{minutes} منٹ قبل} other{{minutes} منٹ قبل}}",
-  "minutesPastNumeric": "{minutes, plural, =1{{minutes} منٹ قبل} other{{minutes} منٹ قبل}}",
-  "secondsPast": "{seconds, plural, =1{{seconds} سیکنڈ قبل} other{{seconds} سیکنڈ قبل}}",
-  "secondsPastNumeric": "{seconds, plural, =1{{seconds} سیکنڈ قبل} other{{seconds} سیکنڈ قبل}}"
+  "minutesPast": "{minutes, plural, other{{minutes} منٹ قبل}}",
+  "minutesPastNumeric": "{minutes, plural, other{{minutes} منٹ قبل}}",
+  "secondsPast": "{seconds, plural, other{{seconds} سیکنڈ قبل}}",
+  "secondsPastNumeric": "{seconds, plural, other{{seconds} سیکنڈ قبل}}"
 }

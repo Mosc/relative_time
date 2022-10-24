@@ -15,7 +15,7 @@
   "weeksFuture": "{weeks, plural, =0{دا اونۍ} =1{راتلونکې اونۍ} other{په {weeks} اونيو کې}}",
   "weeksFutureNumeric": "{weeks, plural, =1{په {weeks} اونۍ کې} other{په {weeks} اونيو کې}}",
   "weeksPast": "{weeks, plural, =0{دا اونۍ} =1{تيره اونۍ} other{{weeks} اونۍ مخکې}}",
-  "weeksPastNumeric": "{weeks, plural, =1{{weeks} اونۍ مخکې} other{{weeks} اونۍ مخکې}}",
+  "weeksPastNumeric": "{weeks, plural, other{{weeks} اونۍ مخکې}}",
   "daysFuture": "{days, plural, =0{نن} =1{سبا} other{په {days} ورځو کې}}",
   "daysFutureNumeric": "{days, plural, =1{په {days} ورځ کې} other{په {days} ورځو کې}}",
   "daysPast": "{days, plural, =0{نن} =1{پرون} other{{days} ورځې مخکې}}",

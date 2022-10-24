@@ -22,7 +22,6 @@ class RelativeTimeLocalizationsSv extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      one: 'om $years år',
       other: 'om $years år',
     );
   }
@@ -43,7 +42,6 @@ class RelativeTimeLocalizationsSv extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      one: 'för $years år sedan',
       other: 'för $years år sedan',
     );
   }
@@ -64,7 +62,6 @@ class RelativeTimeLocalizationsSv extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: 'om $quarters kvartal',
       other: 'om $quarters kvartal',
     );
   }
@@ -85,7 +82,6 @@ class RelativeTimeLocalizationsSv extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: 'för $quarters kvartal sedan',
       other: 'för $quarters kvartal sedan',
     );
   }

@@ -22,7 +22,6 @@ class RelativeTimeLocalizationsTr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      one: '$years yıl sonra',
       other: '$years yıl sonra',
     );
   }
@@ -43,7 +42,6 @@ class RelativeTimeLocalizationsTr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      one: '$years yıl önce',
       other: '$years yıl önce',
     );
   }
@@ -64,7 +62,6 @@ class RelativeTimeLocalizationsTr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: '$quarters çeyrek sonra',
       other: '$quarters çeyrek sonra',
     );
   }
@@ -85,7 +82,6 @@ class RelativeTimeLocalizationsTr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: '$quarters çeyrek önce',
       other: '$quarters çeyrek önce',
     );
   }
@@ -106,7 +102,6 @@ class RelativeTimeLocalizationsTr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
-      one: '$months ay sonra',
       other: '$months ay sonra',
     );
   }
@@ -127,7 +122,6 @@ class RelativeTimeLocalizationsTr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
-      one: '$months ay önce',
       other: '$months ay önce',
     );
   }
@@ -148,7 +142,6 @@ class RelativeTimeLocalizationsTr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      one: '$weeks hafta sonra',
       other: '$weeks hafta sonra',
     );
   }
@@ -169,7 +162,6 @@ class RelativeTimeLocalizationsTr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      one: '$weeks hafta önce',
       other: '$weeks hafta önce',
     );
   }
@@ -191,7 +183,6 @@ class RelativeTimeLocalizationsTr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
-      one: '$days gün sonra',
       other: '$days gün sonra',
     );
   }
@@ -213,7 +204,6 @@ class RelativeTimeLocalizationsTr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
-      one: '$days gün önce',
       other: '$days gün önce',
     );
   }
@@ -224,7 +214,6 @@ class RelativeTimeLocalizationsTr extends RelativeTimeLocalizations {
       hours,
       locale: localeName,
       zero: 'bu saat',
-      one: '$hours saat sonra',
       other: '$hours saat sonra',
     );
   }
@@ -234,7 +223,6 @@ class RelativeTimeLocalizationsTr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      one: '$hours saat sonra',
       other: '$hours saat sonra',
     );
   }
@@ -245,7 +233,6 @@ class RelativeTimeLocalizationsTr extends RelativeTimeLocalizations {
       hours,
       locale: localeName,
       zero: 'bu saat',
-      one: '$hours saat önce',
       other: '$hours saat önce',
     );
   }
@@ -255,7 +242,6 @@ class RelativeTimeLocalizationsTr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      one: '$hours saat önce',
       other: '$hours saat önce',
     );
   }
@@ -266,7 +252,6 @@ class RelativeTimeLocalizationsTr extends RelativeTimeLocalizations {
       minutes,
       locale: localeName,
       zero: 'bu dakika',
-      one: '$minutes dakika sonra',
       other: '$minutes dakika sonra',
     );
   }
@@ -276,7 +261,6 @@ class RelativeTimeLocalizationsTr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
-      one: '$minutes dakika sonra',
       other: '$minutes dakika sonra',
     );
   }
@@ -287,7 +271,6 @@ class RelativeTimeLocalizationsTr extends RelativeTimeLocalizations {
       minutes,
       locale: localeName,
       zero: 'bu dakika',
-      one: '$minutes dakika önce',
       other: '$minutes dakika önce',
     );
   }
@@ -297,7 +280,6 @@ class RelativeTimeLocalizationsTr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
-      one: '$minutes dakika önce',
       other: '$minutes dakika önce',
     );
   }
@@ -308,7 +290,6 @@ class RelativeTimeLocalizationsTr extends RelativeTimeLocalizations {
       seconds,
       locale: localeName,
       zero: 'şimdi',
-      one: '$seconds saniye sonra',
       other: '$seconds saniye sonra',
     );
   }
@@ -318,7 +299,6 @@ class RelativeTimeLocalizationsTr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
-      one: '$seconds saniye sonra',
       other: '$seconds saniye sonra',
     );
   }
@@ -329,7 +309,6 @@ class RelativeTimeLocalizationsTr extends RelativeTimeLocalizations {
       seconds,
       locale: localeName,
       zero: 'şimdi',
-      one: '$seconds saniye önce',
       other: '$seconds saniye önce',
     );
   }
@@ -339,7 +318,6 @@ class RelativeTimeLocalizationsTr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
-      one: '$seconds saniye önce',
       other: '$seconds saniye önce',
     );
   }

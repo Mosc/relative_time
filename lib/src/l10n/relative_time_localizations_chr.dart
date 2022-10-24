@@ -64,7 +64,6 @@ class RelativeTimeLocalizationsChr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: 'ᎾᎿ $quarters ᎩᏄᏙᏗ',
       other: 'ᎾᎿ $quarters ᎩᏄᏙᏗ',
     );
   }
@@ -264,7 +263,6 @@ class RelativeTimeLocalizationsChr extends RelativeTimeLocalizations {
       minutes,
       locale: localeName,
       zero: 'ᎯᎠ ᎢᏯᏔᏬᏍᏔᏅ',
-      one: 'ᎾᎿ $minutes ᎢᏯᏔᏬᏍᏔᏅ',
       other: 'ᎾᎿ $minutes ᎢᏯᏔᏬᏍᏔᏅ',
     );
   }
@@ -274,7 +272,6 @@ class RelativeTimeLocalizationsChr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
-      one: 'ᎾᎿ $minutes ᎢᏯᏔᏬᏍᏔᏅ',
       other: 'ᎾᎿ $minutes ᎢᏯᏔᏬᏍᏔᏅ',
     );
   }
@@ -285,7 +282,6 @@ class RelativeTimeLocalizationsChr extends RelativeTimeLocalizations {
       minutes,
       locale: localeName,
       zero: 'ᎯᎠ ᎢᏯᏔᏬᏍᏔᏅ',
-      one: '$minutes ᎢᏯᏔᏬᏍᏔᏅ ᏥᎨᏒ',
       other: '$minutes ᎢᏯᏔᏬᏍᏔᏅ ᏥᎨᏒ',
     );
   }
@@ -295,7 +291,6 @@ class RelativeTimeLocalizationsChr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
-      one: '$minutes ᎢᏯᏔᏬᏍᏔᏅ ᏥᎨᏒ',
       other: '$minutes ᎢᏯᏔᏬᏍᏔᏅ ᏥᎨᏒ',
     );
   }

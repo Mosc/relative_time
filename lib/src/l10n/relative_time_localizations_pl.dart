@@ -265,7 +265,6 @@ class RelativeTimeLocalizationsPl extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'ta godzina',
       one: 'za $hours godzinę',
-      few: 'za $hours godziny',
       many: 'za $hours godzin',
       other: 'za $hours godziny',
     );
@@ -277,7 +276,6 @@ class RelativeTimeLocalizationsPl extends RelativeTimeLocalizations {
       hours,
       locale: localeName,
       one: 'za $hours godzinę',
-      few: 'za $hours godziny',
       many: 'za $hours godzin',
       other: 'za $hours godziny',
     );
@@ -290,7 +288,6 @@ class RelativeTimeLocalizationsPl extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'ta godzina',
       one: '$hours godzinę temu',
-      few: '$hours godziny temu',
       many: '$hours godzin temu',
       other: '$hours godziny temu',
     );
@@ -302,7 +299,6 @@ class RelativeTimeLocalizationsPl extends RelativeTimeLocalizations {
       hours,
       locale: localeName,
       one: '$hours godzinę temu',
-      few: '$hours godziny temu',
       many: '$hours godzin temu',
       other: '$hours godziny temu',
     );
@@ -315,7 +311,6 @@ class RelativeTimeLocalizationsPl extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'ta minuta',
       one: 'za $minutes minutę',
-      few: 'za $minutes minuty',
       many: 'za $minutes minut',
       other: 'za $minutes minuty',
     );
@@ -327,7 +322,6 @@ class RelativeTimeLocalizationsPl extends RelativeTimeLocalizations {
       minutes,
       locale: localeName,
       one: 'za $minutes minutę',
-      few: 'za $minutes minuty',
       many: 'za $minutes minut',
       other: 'za $minutes minuty',
     );
@@ -340,7 +334,6 @@ class RelativeTimeLocalizationsPl extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'ta minuta',
       one: '$minutes minutę temu',
-      few: '$minutes minuty temu',
       many: '$minutes minut temu',
       other: '$minutes minuty temu',
     );
@@ -352,7 +345,6 @@ class RelativeTimeLocalizationsPl extends RelativeTimeLocalizations {
       minutes,
       locale: localeName,
       one: '$minutes minutę temu',
-      few: '$minutes minuty temu',
       many: '$minutes minut temu',
       other: '$minutes minuty temu',
     );
@@ -365,7 +357,6 @@ class RelativeTimeLocalizationsPl extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'teraz',
       one: 'za $seconds sekundę',
-      few: 'za $seconds sekundy',
       many: 'za $seconds sekund',
       other: 'za $seconds sekundy',
     );
@@ -377,7 +368,6 @@ class RelativeTimeLocalizationsPl extends RelativeTimeLocalizations {
       seconds,
       locale: localeName,
       one: 'za $seconds sekundę',
-      few: 'za $seconds sekundy',
       many: 'za $seconds sekund',
       other: 'za $seconds sekundy',
     );
@@ -390,7 +380,6 @@ class RelativeTimeLocalizationsPl extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'teraz',
       one: '$seconds sekundę temu',
-      few: '$seconds sekundy temu',
       many: '$seconds sekund temu',
       other: '$seconds sekundy temu',
     );
@@ -402,7 +391,6 @@ class RelativeTimeLocalizationsPl extends RelativeTimeLocalizations {
       seconds,
       locale: localeName,
       one: '$seconds sekundę temu',
-      few: '$seconds sekundy temu',
       many: '$seconds sekund temu',
       other: '$seconds sekundy temu',
     );

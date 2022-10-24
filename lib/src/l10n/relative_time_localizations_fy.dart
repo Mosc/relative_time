@@ -22,7 +22,6 @@ class RelativeTimeLocalizationsFy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      one: 'Oer $years jier',
       other: 'Oer $years jier',
     );
   }
@@ -43,7 +42,6 @@ class RelativeTimeLocalizationsFy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      one: '$years jier lyn',
       other: '$years jier lyn',
     );
   }
@@ -64,7 +62,6 @@ class RelativeTimeLocalizationsFy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: 'oer $quarters fearnsjier',
       other: 'oer $quarters fearnsjier',
     );
   }
@@ -85,7 +82,6 @@ class RelativeTimeLocalizationsFy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: '$quarters fearnsjier lyn',
       other: '$quarters fearnsjier lyn',
     );
   }
@@ -223,7 +219,6 @@ class RelativeTimeLocalizationsFy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      one: 'Oer $hours oere',
       other: 'Oer $hours oere',
     );
   }
@@ -233,7 +228,6 @@ class RelativeTimeLocalizationsFy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      one: 'Oer $hours oere',
       other: 'Oer $hours oere',
     );
   }
@@ -243,7 +237,6 @@ class RelativeTimeLocalizationsFy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      one: '$hours oere lyn',
       other: '$hours oere lyn',
     );
   }
@@ -253,7 +246,6 @@ class RelativeTimeLocalizationsFy extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      one: '$hours oere lyn',
       other: '$hours oere lyn',
     );
   }

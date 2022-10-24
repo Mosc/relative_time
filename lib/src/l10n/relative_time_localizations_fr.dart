@@ -106,7 +106,6 @@ class RelativeTimeLocalizationsFr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
-      one: 'dans $months mois',
       other: 'dans $months mois',
     );
   }
@@ -127,7 +126,6 @@ class RelativeTimeLocalizationsFr extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
-      one: 'il y a $months mois',
       other: 'il y a $months mois',
     );
   }

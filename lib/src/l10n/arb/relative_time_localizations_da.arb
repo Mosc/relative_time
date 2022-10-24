@@ -1,9 +1,9 @@
 {
   "@@locale": "da",
   "yearsFuture": "{years, plural, =0{i år} =1{næste år} other{om {years} år}}",
-  "yearsFutureNumeric": "{years, plural, =1{om {years} år} other{om {years} år}}",
+  "yearsFutureNumeric": "{years, plural, other{om {years} år}}",
   "yearsPast": "{years, plural, =0{i år} =1{sidste år} other{for {years} år siden}}",
-  "yearsPastNumeric": "{years, plural, =1{for {years} år siden} other{for {years} år siden}}",
+  "yearsPastNumeric": "{years, plural, other{for {years} år siden}}",
   "quartersFuture": "{quarters, plural, =0{dette kvartal} =1{næste kvartal} other{om {quarters} kvartaler}}",
   "quartersFutureNumeric": "{quarters, plural, =1{om {quarters} kvartal} other{om {quarters} kvartaler}}",
   "quartersPast": "{quarters, plural, =0{dette kvartal} =1{sidste kvartal} other{for {quarters} kvartaler siden}}",

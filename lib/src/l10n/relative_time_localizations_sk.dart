@@ -38,7 +38,6 @@ class RelativeTimeLocalizationsSk extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'tento rok',
       one: 'minulý rok',
-      few: 'pred $years rokmi',
       many: 'pred $years roka',
       other: 'pred $years rokmi',
     );
@@ -50,7 +49,6 @@ class RelativeTimeLocalizationsSk extends RelativeTimeLocalizations {
       years,
       locale: localeName,
       one: 'pred $years rokom',
-      few: 'pred $years rokmi',
       many: 'pred $years roka',
       other: 'pred $years rokmi',
     );
@@ -88,7 +86,6 @@ class RelativeTimeLocalizationsSk extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'tento štvrťrok',
       one: 'minulý štvrťrok',
-      few: 'pred $quarters štvrťrokmi',
       many: 'pred $quarters štvrťroka',
       other: 'pred $quarters štvrťrokmi',
     );
@@ -100,7 +97,6 @@ class RelativeTimeLocalizationsSk extends RelativeTimeLocalizations {
       quarters,
       locale: localeName,
       one: 'pred $quarters štvrťrokom',
-      few: 'pred $quarters štvrťrokmi',
       many: 'pred $quarters štvrťroka',
       other: 'pred $quarters štvrťrokmi',
     );
@@ -138,7 +134,6 @@ class RelativeTimeLocalizationsSk extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'tento mesiac',
       one: 'minulý mesiac',
-      few: 'pred $months mesiacmi',
       many: 'pred $months mesiaca',
       other: 'pred $months mesiacmi',
     );
@@ -150,7 +145,6 @@ class RelativeTimeLocalizationsSk extends RelativeTimeLocalizations {
       months,
       locale: localeName,
       one: 'pred $months mesiacom',
-      few: 'pred $months mesiacmi',
       many: 'pred $months mesiaca',
       other: 'pred $months mesiacmi',
     );
@@ -188,7 +182,6 @@ class RelativeTimeLocalizationsSk extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'tento týždeň',
       one: 'minulý týždeň',
-      few: 'pred $weeks týždňami',
       many: 'pred $weeks týždňa',
       other: 'pred $weeks týždňami',
     );
@@ -200,7 +193,6 @@ class RelativeTimeLocalizationsSk extends RelativeTimeLocalizations {
       weeks,
       locale: localeName,
       one: 'pred $weeks týždňom',
-      few: 'pred $weeks týždňami',
       many: 'pred $weeks týždňa',
       other: 'pred $weeks týždňami',
     );
@@ -240,7 +232,6 @@ class RelativeTimeLocalizationsSk extends RelativeTimeLocalizations {
       zero: 'dnes',
       one: 'včera',
       two: 'predvčerom',
-      few: 'pred $days dňami',
       many: 'pred $days dňa',
       other: 'pred $days dňami',
     );
@@ -252,7 +243,6 @@ class RelativeTimeLocalizationsSk extends RelativeTimeLocalizations {
       days,
       locale: localeName,
       one: 'pred $days dňom',
-      few: 'pred $days dňami',
       many: 'pred $days dňa',
       other: 'pred $days dňami',
     );
@@ -290,7 +280,6 @@ class RelativeTimeLocalizationsSk extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'v tejto hodine',
       one: 'pred $hours hodinou',
-      few: 'pred $hours hodinami',
       many: 'pred $hours hodinou',
       other: 'pred $hours hodinami',
     );
@@ -302,7 +291,6 @@ class RelativeTimeLocalizationsSk extends RelativeTimeLocalizations {
       hours,
       locale: localeName,
       one: 'pred $hours hodinou',
-      few: 'pred $hours hodinami',
       many: 'pred $hours hodinou',
       other: 'pred $hours hodinami',
     );
@@ -340,7 +328,6 @@ class RelativeTimeLocalizationsSk extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'v tejto minúte',
       one: 'pred $minutes minútou',
-      few: 'pred $minutes minútami',
       many: 'pred $minutes minúty',
       other: 'pred $minutes minútami',
     );
@@ -352,7 +339,6 @@ class RelativeTimeLocalizationsSk extends RelativeTimeLocalizations {
       minutes,
       locale: localeName,
       one: 'pred $minutes minútou',
-      few: 'pred $minutes minútami',
       many: 'pred $minutes minúty',
       other: 'pred $minutes minútami',
     );
@@ -390,7 +376,6 @@ class RelativeTimeLocalizationsSk extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'teraz',
       one: 'pred $seconds sekundou',
-      few: 'pred $seconds sekundami',
       many: 'pred $seconds sekundy',
       other: 'pred $seconds sekundami',
     );
@@ -402,7 +387,6 @@ class RelativeTimeLocalizationsSk extends RelativeTimeLocalizations {
       seconds,
       locale: localeName,
       one: 'pred $seconds sekundou',
-      few: 'pred $seconds sekundami',
       many: 'pred $seconds sekundy',
       other: 'pred $seconds sekundami',
     );

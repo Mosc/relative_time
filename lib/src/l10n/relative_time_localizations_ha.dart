@@ -43,7 +43,6 @@ class RelativeTimeLocalizationsHa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      one: 'shekara da suka gabata $years',
       other: 'shekara da suka gabata $years',
     );
   }
@@ -222,7 +221,6 @@ class RelativeTimeLocalizationsHa extends RelativeTimeLocalizations {
       hours,
       locale: localeName,
       zero: 'wannan awa',
-      one: 'cikin $hours awa',
       other: 'cikin $hours awa',
     );
   }
@@ -232,7 +230,6 @@ class RelativeTimeLocalizationsHa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      one: 'cikin $hours awa',
       other: 'cikin $hours awa',
     );
   }
@@ -243,7 +240,6 @@ class RelativeTimeLocalizationsHa extends RelativeTimeLocalizations {
       hours,
       locale: localeName,
       zero: 'wannan awa',
-      one: '$hours awa da ya gabata',
       other: '$hours awa da ya gabata',
     );
   }
@@ -253,7 +249,6 @@ class RelativeTimeLocalizationsHa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      one: '$hours awa da ya gabata',
       other: '$hours awa da ya gabata',
     );
   }
@@ -264,7 +259,6 @@ class RelativeTimeLocalizationsHa extends RelativeTimeLocalizations {
       minutes,
       locale: localeName,
       zero: 'wannan mintin',
-      one: 'cikin $minutes minti',
       other: 'cikin $minutes minti',
     );
   }
@@ -274,7 +268,6 @@ class RelativeTimeLocalizationsHa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
-      one: 'cikin $minutes minti',
       other: 'cikin $minutes minti',
     );
   }
@@ -285,7 +278,6 @@ class RelativeTimeLocalizationsHa extends RelativeTimeLocalizations {
       minutes,
       locale: localeName,
       zero: 'wannan mintin',
-      one: '$minutes minti da ya gabata',
       other: '$minutes minti da ya gabata',
     );
   }
@@ -295,7 +287,6 @@ class RelativeTimeLocalizationsHa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
-      one: '$minutes minti da ya gabata',
       other: '$minutes minti da ya gabata',
     );
   }
@@ -306,7 +297,6 @@ class RelativeTimeLocalizationsHa extends RelativeTimeLocalizations {
       seconds,
       locale: localeName,
       zero: 'yanzu',
-      one: 'cikin $seconds dakika',
       other: 'cikin $seconds dakika',
     );
   }
@@ -316,7 +306,6 @@ class RelativeTimeLocalizationsHa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
-      one: 'cikin $seconds dakika',
       other: 'cikin $seconds dakika',
     );
   }
@@ -327,7 +316,6 @@ class RelativeTimeLocalizationsHa extends RelativeTimeLocalizations {
       seconds,
       locale: localeName,
       zero: 'yanzu',
-      one: '$seconds dakika da ya gabata',
       other: '$seconds dakika da ya gabata',
     );
   }
@@ -337,7 +325,6 @@ class RelativeTimeLocalizationsHa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
-      one: '$seconds dakika da ya gabata',
       other: '$seconds dakika da ya gabata',
     );
   }

@@ -22,7 +22,6 @@ class RelativeTimeLocalizationsBn extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      one: '$years বছরে',
       other: '$years বছরে',
     );
   }
@@ -43,7 +42,6 @@ class RelativeTimeLocalizationsBn extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      one: '$years বছর পূর্বে',
       other: '$years বছর পূর্বে',
     );
   }
@@ -64,7 +62,6 @@ class RelativeTimeLocalizationsBn extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: '$quarters ত্রৈমাসিকে',
       other: '$quarters ত্রৈমাসিকে',
     );
   }
@@ -85,7 +82,6 @@ class RelativeTimeLocalizationsBn extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: '$quarters ত্রৈমাসিক আগে',
       other: '$quarters ত্রৈমাসিক আগে',
     );
   }
@@ -106,7 +102,6 @@ class RelativeTimeLocalizationsBn extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
-      one: '$months মাসে',
       other: '$months মাসে',
     );
   }
@@ -127,7 +122,6 @@ class RelativeTimeLocalizationsBn extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
-      one: '$months মাস আগে',
       other: '$months মাস আগে',
     );
   }
@@ -148,7 +142,6 @@ class RelativeTimeLocalizationsBn extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      one: '$weeks সপ্তাহে',
       other: '$weeks সপ্তাহে',
     );
   }
@@ -169,7 +162,6 @@ class RelativeTimeLocalizationsBn extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      one: '$weeks সপ্তাহ আগে',
       other: '$weeks সপ্তাহ আগে',
     );
   }
@@ -191,7 +183,6 @@ class RelativeTimeLocalizationsBn extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
-      one: '$days দিনের মধ্যে',
       other: '$days দিনের মধ্যে',
     );
   }
@@ -213,7 +204,6 @@ class RelativeTimeLocalizationsBn extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
-      one: '$days দিন আগে',
       other: '$days দিন আগে',
     );
   }
@@ -224,7 +214,6 @@ class RelativeTimeLocalizationsBn extends RelativeTimeLocalizations {
       hours,
       locale: localeName,
       zero: 'এই ঘণ্টায়',
-      one: '$hours ঘন্টায়',
       other: '$hours ঘন্টায়',
     );
   }
@@ -234,7 +223,6 @@ class RelativeTimeLocalizationsBn extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      one: '$hours ঘন্টায়',
       other: '$hours ঘন্টায়',
     );
   }
@@ -245,7 +233,6 @@ class RelativeTimeLocalizationsBn extends RelativeTimeLocalizations {
       hours,
       locale: localeName,
       zero: 'এই ঘণ্টায়',
-      one: '$hours ঘন্টা আগে',
       other: '$hours ঘন্টা আগে',
     );
   }
@@ -255,7 +242,6 @@ class RelativeTimeLocalizationsBn extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      one: '$hours ঘন্টা আগে',
       other: '$hours ঘন্টা আগে',
     );
   }
@@ -266,7 +252,6 @@ class RelativeTimeLocalizationsBn extends RelativeTimeLocalizations {
       minutes,
       locale: localeName,
       zero: 'এই মিনিট',
-      one: '$minutes মিনিটে',
       other: '$minutes মিনিটে',
     );
   }
@@ -276,7 +261,6 @@ class RelativeTimeLocalizationsBn extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
-      one: '$minutes মিনিটে',
       other: '$minutes মিনিটে',
     );
   }
@@ -287,7 +271,6 @@ class RelativeTimeLocalizationsBn extends RelativeTimeLocalizations {
       minutes,
       locale: localeName,
       zero: 'এই মিনিট',
-      one: '$minutes মিনিট আগে',
       other: '$minutes মিনিট আগে',
     );
   }
@@ -297,7 +280,6 @@ class RelativeTimeLocalizationsBn extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
-      one: '$minutes মিনিট আগে',
       other: '$minutes মিনিট আগে',
     );
   }
@@ -308,7 +290,6 @@ class RelativeTimeLocalizationsBn extends RelativeTimeLocalizations {
       seconds,
       locale: localeName,
       zero: 'এখন',
-      one: '$seconds সেকেন্ডে',
       other: '$seconds সেকেন্ডে',
     );
   }
@@ -318,7 +299,6 @@ class RelativeTimeLocalizationsBn extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
-      one: '$seconds সেকেন্ডে',
       other: '$seconds সেকেন্ডে',
     );
   }
@@ -329,7 +309,6 @@ class RelativeTimeLocalizationsBn extends RelativeTimeLocalizations {
       seconds,
       locale: localeName,
       zero: 'এখন',
-      one: '$seconds সেকেন্ড পূর্বে',
       other: '$seconds সেকেন্ড পূর্বে',
     );
   }
@@ -339,7 +318,6 @@ class RelativeTimeLocalizationsBn extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
-      one: '$seconds সেকেন্ড পূর্বে',
       other: '$seconds সেকেন্ড পূর্বে',
     );
   }

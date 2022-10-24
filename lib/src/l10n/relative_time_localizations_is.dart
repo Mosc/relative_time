@@ -22,7 +22,6 @@ class RelativeTimeLocalizationsIs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      one: 'eftir $years ár',
       other: 'eftir $years ár',
     );
   }

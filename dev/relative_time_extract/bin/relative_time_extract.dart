@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 
+import 'package:collection/collection.dart';
 import 'package:intl/intl.dart' as intl;
 import 'package:path/path.dart' as path;
 import 'package:xml/xml.dart';
@@ -232,10 +233,10 @@ Iterable<MapEntry<String, dynamic>> _getPluralEntries({
   required String locale,
   String? suffix,
 }) sync* {
-  if (plurals.entries.isEmpty ||
-      !plurals.entries
-          .map((MapEntry<String, String> entry) => entry.key)
-          .contains('other')) {
+  final MapEntry<String, String>? otherEntry =
+      plurals.entries.firstWhereOrNull((entry) => entry.key == 'other');
+
+  if (otherEntry == null) {
     return;
   }
 
@@ -243,7 +244,11 @@ Iterable<MapEntry<String, dynamic>> _getPluralEntries({
       '${intl.toBeginningOfSentenceCase(relativeTimeType)}'
       '${suffix != null ? intl.toBeginningOfSentenceCase(suffix) : ''}';
   final String pluralsJoined = plurals.entries
-      .map<String>(
+      .where(
+        (MapEntry<String, String> entry) =>
+            entry.key == otherEntry.key || entry.value != otherEntry.value,
+      )
+      .map(
         (MapEntry<String, String> plural) => '${plural.key}{${plural.value}}',
       )
       .join(' ');

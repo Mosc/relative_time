@@ -265,7 +265,6 @@ class RelativeTimeLocalizationsUk extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'цієї години',
       one: 'через $hours годину',
-      few: 'через $hours години',
       many: 'через $hours годин',
       other: 'через $hours години',
     );
@@ -277,7 +276,6 @@ class RelativeTimeLocalizationsUk extends RelativeTimeLocalizations {
       hours,
       locale: localeName,
       one: 'через $hours годину',
-      few: 'через $hours години',
       many: 'через $hours годин',
       other: 'через $hours години',
     );
@@ -290,7 +288,6 @@ class RelativeTimeLocalizationsUk extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'цієї години',
       one: '$hours годину тому',
-      few: '$hours години тому',
       many: '$hours годин тому',
       other: '$hours години тому',
     );
@@ -302,7 +299,6 @@ class RelativeTimeLocalizationsUk extends RelativeTimeLocalizations {
       hours,
       locale: localeName,
       one: '$hours годину тому',
-      few: '$hours години тому',
       many: '$hours годин тому',
       other: '$hours години тому',
     );
@@ -315,7 +311,6 @@ class RelativeTimeLocalizationsUk extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'цієї хвилини',
       one: 'через $minutes хвилину',
-      few: 'через $minutes хвилини',
       many: 'через $minutes хвилин',
       other: 'через $minutes хвилини',
     );
@@ -327,7 +322,6 @@ class RelativeTimeLocalizationsUk extends RelativeTimeLocalizations {
       minutes,
       locale: localeName,
       one: 'через $minutes хвилину',
-      few: 'через $minutes хвилини',
       many: 'через $minutes хвилин',
       other: 'через $minutes хвилини',
     );
@@ -340,7 +334,6 @@ class RelativeTimeLocalizationsUk extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'цієї хвилини',
       one: '$minutes хвилину тому',
-      few: '$minutes хвилини тому',
       many: '$minutes хвилин тому',
       other: '$minutes хвилини тому',
     );
@@ -352,7 +345,6 @@ class RelativeTimeLocalizationsUk extends RelativeTimeLocalizations {
       minutes,
       locale: localeName,
       one: '$minutes хвилину тому',
-      few: '$minutes хвилини тому',
       many: '$minutes хвилин тому',
       other: '$minutes хвилини тому',
     );
@@ -365,7 +357,6 @@ class RelativeTimeLocalizationsUk extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'зараз',
       one: 'через $seconds секунду',
-      few: 'через $seconds секунди',
       many: 'через $seconds секунд',
       other: 'через $seconds секунди',
     );
@@ -377,7 +368,6 @@ class RelativeTimeLocalizationsUk extends RelativeTimeLocalizations {
       seconds,
       locale: localeName,
       one: 'через $seconds секунду',
-      few: 'через $seconds секунди',
       many: 'через $seconds секунд',
       other: 'через $seconds секунди',
     );
@@ -390,7 +380,6 @@ class RelativeTimeLocalizationsUk extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'зараз',
       one: '$seconds секунду тому',
-      few: '$seconds секунди тому',
       many: '$seconds секунд тому',
       other: '$seconds секунди тому',
     );
@@ -402,7 +391,6 @@ class RelativeTimeLocalizationsUk extends RelativeTimeLocalizations {
       seconds,
       locale: localeName,
       one: '$seconds секунду тому',
-      few: '$seconds секунди тому',
       many: '$seconds секунд тому',
       other: '$seconds секунди тому',
     );

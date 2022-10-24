@@ -22,7 +22,6 @@ class RelativeTimeLocalizationsFi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      one: '$years vuoden päästä',
       other: '$years vuoden päästä',
     );
   }
@@ -64,7 +63,6 @@ class RelativeTimeLocalizationsFi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: '$quarters neljännesvuoden päästä',
       other: '$quarters neljännesvuoden päästä',
     );
   }
@@ -106,7 +104,6 @@ class RelativeTimeLocalizationsFi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
-      one: '$months kuukauden päästä',
       other: '$months kuukauden päästä',
     );
   }
@@ -148,7 +145,6 @@ class RelativeTimeLocalizationsFi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      one: '$weeks viikon päästä',
       other: '$weeks viikon päästä',
     );
   }
@@ -191,7 +187,6 @@ class RelativeTimeLocalizationsFi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
-      one: '$days päivän päästä',
       other: '$days päivän päästä',
     );
   }
@@ -224,7 +219,6 @@ class RelativeTimeLocalizationsFi extends RelativeTimeLocalizations {
       hours,
       locale: localeName,
       zero: 'tämän tunnin aikana',
-      one: '$hours tunnin päästä',
       other: '$hours tunnin päästä',
     );
   }
@@ -234,7 +228,6 @@ class RelativeTimeLocalizationsFi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      one: '$hours tunnin päästä',
       other: '$hours tunnin päästä',
     );
   }
@@ -266,7 +259,6 @@ class RelativeTimeLocalizationsFi extends RelativeTimeLocalizations {
       minutes,
       locale: localeName,
       zero: 'tämän minuutin aikana',
-      one: '$minutes minuutin päästä',
       other: '$minutes minuutin päästä',
     );
   }
@@ -276,7 +268,6 @@ class RelativeTimeLocalizationsFi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
-      one: '$minutes minuutin päästä',
       other: '$minutes minuutin päästä',
     );
   }
@@ -308,7 +299,6 @@ class RelativeTimeLocalizationsFi extends RelativeTimeLocalizations {
       seconds,
       locale: localeName,
       zero: 'nyt',
-      one: '$seconds sekunnin päästä',
       other: '$seconds sekunnin päästä',
     );
   }
@@ -318,7 +308,6 @@ class RelativeTimeLocalizationsFi extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
-      one: '$seconds sekunnin päästä',
       other: '$seconds sekunnin päästä',
     );
   }

@@ -13,7 +13,6 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'в этом году',
       one: 'в следующем году',
-      few: 'через $years года',
       many: 'через $years лет',
       other: 'через $years года',
     );
@@ -25,7 +24,6 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
       years,
       locale: localeName,
       one: 'через $years год',
-      few: 'через $years года',
       many: 'через $years лет',
       other: 'через $years года',
     );
@@ -38,7 +36,6 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'в этом году',
       one: 'в прошлом году',
-      few: '$years года назад',
       many: '$years лет назад',
       other: '$years года назад',
     );
@@ -50,7 +47,6 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
       years,
       locale: localeName,
       one: '$years год назад',
-      few: '$years года назад',
       many: '$years лет назад',
       other: '$years года назад',
     );
@@ -63,7 +59,6 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'в текущем квартале',
       one: 'в следующем квартале',
-      few: 'через $quarters квартала',
       many: 'через $quarters кварталов',
       other: 'через $quarters квартала',
     );
@@ -75,7 +70,6 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
       quarters,
       locale: localeName,
       one: 'через $quarters квартал',
-      few: 'через $quarters квартала',
       many: 'через $quarters кварталов',
       other: 'через $quarters квартала',
     );
@@ -88,7 +82,6 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'в текущем квартале',
       one: 'в прошлом квартале',
-      few: '$quarters квартала назад',
       many: '$quarters кварталов назад',
       other: '$quarters квартала назад',
     );
@@ -100,7 +93,6 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
       quarters,
       locale: localeName,
       one: '$quarters квартал назад',
-      few: '$quarters квартала назад',
       many: '$quarters кварталов назад',
       other: '$quarters квартала назад',
     );
@@ -113,7 +105,6 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'в этом месяце',
       one: 'в следующем месяце',
-      few: 'через $months месяца',
       many: 'через $months месяцев',
       other: 'через $months месяца',
     );
@@ -125,7 +116,6 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
       months,
       locale: localeName,
       one: 'через $months месяц',
-      few: 'через $months месяца',
       many: 'через $months месяцев',
       other: 'через $months месяца',
     );
@@ -138,7 +128,6 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'в этом месяце',
       one: 'в прошлом месяце',
-      few: '$months месяца назад',
       many: '$months месяцев назад',
       other: '$months месяца назад',
     );
@@ -150,7 +139,6 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
       months,
       locale: localeName,
       one: '$months месяц назад',
-      few: '$months месяца назад',
       many: '$months месяцев назад',
       other: '$months месяца назад',
     );
@@ -163,7 +151,6 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'на этой неделе',
       one: 'на следующей неделе',
-      few: 'через $weeks недели',
       many: 'через $weeks недель',
       other: 'через $weeks недели',
     );
@@ -175,7 +162,6 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
       weeks,
       locale: localeName,
       one: 'через $weeks неделю',
-      few: 'через $weeks недели',
       many: 'через $weeks недель',
       other: 'через $weeks недели',
     );
@@ -188,7 +174,6 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'на этой неделе',
       one: 'на прошлой неделе',
-      few: '$weeks недели назад',
       many: '$weeks недель назад',
       other: '$weeks недели назад',
     );
@@ -200,7 +185,6 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
       weeks,
       locale: localeName,
       one: '$weeks неделю назад',
-      few: '$weeks недели назад',
       many: '$weeks недель назад',
       other: '$weeks недели назад',
     );
@@ -214,7 +198,6 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
       zero: 'сегодня',
       one: 'завтра',
       two: 'послезавтра',
-      few: 'через $days дня',
       many: 'через $days дней',
       other: 'через $days дня',
     );
@@ -226,7 +209,6 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
       days,
       locale: localeName,
       one: 'через $days день',
-      few: 'через $days дня',
       many: 'через $days дней',
       other: 'через $days дня',
     );
@@ -240,7 +222,6 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
       zero: 'сегодня',
       one: 'вчера',
       two: 'позавчера',
-      few: '$days дня назад',
       many: '$days дней назад',
       other: '$days дня назад',
     );
@@ -252,7 +233,6 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
       days,
       locale: localeName,
       one: '$days день назад',
-      few: '$days дня назад',
       many: '$days дней назад',
       other: '$days дня назад',
     );
@@ -265,7 +245,6 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'в этот час',
       one: 'через $hours час',
-      few: 'через $hours часа',
       many: 'через $hours часов',
       other: 'через $hours часа',
     );
@@ -277,7 +256,6 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
       hours,
       locale: localeName,
       one: 'через $hours час',
-      few: 'через $hours часа',
       many: 'через $hours часов',
       other: 'через $hours часа',
     );
@@ -290,7 +268,6 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'в этот час',
       one: '$hours час назад',
-      few: '$hours часа назад',
       many: '$hours часов назад',
       other: '$hours часа назад',
     );
@@ -302,7 +279,6 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
       hours,
       locale: localeName,
       one: '$hours час назад',
-      few: '$hours часа назад',
       many: '$hours часов назад',
       other: '$hours часа назад',
     );
@@ -315,7 +291,6 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'в эту минуту',
       one: 'через $minutes минуту',
-      few: 'через $minutes минуты',
       many: 'через $minutes минут',
       other: 'через $minutes минуты',
     );
@@ -327,7 +302,6 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
       minutes,
       locale: localeName,
       one: 'через $minutes минуту',
-      few: 'через $minutes минуты',
       many: 'через $minutes минут',
       other: 'через $minutes минуты',
     );
@@ -340,7 +314,6 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'в эту минуту',
       one: '$minutes минуту назад',
-      few: '$minutes минуты назад',
       many: '$minutes минут назад',
       other: '$minutes минуты назад',
     );
@@ -352,7 +325,6 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
       minutes,
       locale: localeName,
       one: '$minutes минуту назад',
-      few: '$minutes минуты назад',
       many: '$minutes минут назад',
       other: '$minutes минуты назад',
     );
@@ -365,7 +337,6 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'сейчас',
       one: 'через $seconds секунду',
-      few: 'через $seconds секунды',
       many: 'через $seconds секунд',
       other: 'через $seconds секунды',
     );
@@ -377,7 +348,6 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
       seconds,
       locale: localeName,
       one: 'через $seconds секунду',
-      few: 'через $seconds секунды',
       many: 'через $seconds секунд',
       other: 'через $seconds секунды',
     );
@@ -390,7 +360,6 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'сейчас',
       one: '$seconds секунду назад',
-      few: '$seconds секунды назад',
       many: '$seconds секунд назад',
       other: '$seconds секунды назад',
     );
@@ -402,7 +371,6 @@ class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
       seconds,
       locale: localeName,
       one: '$seconds секунду назад',
-      few: '$seconds секунды назад',
       many: '$seconds секунд назад',
       other: '$seconds секунды назад',
     );

@@ -59,7 +59,6 @@ class RelativeTimeLocalizationsHr extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'ovaj kvartal',
       one: 'sljedeći kvartal',
-      few: 'za $quarters kvartala',
       other: 'za $quarters kvartala',
     );
   }
@@ -70,7 +69,6 @@ class RelativeTimeLocalizationsHr extends RelativeTimeLocalizations {
       quarters,
       locale: localeName,
       one: 'za $quarters kvartal',
-      few: 'za $quarters kvartala',
       other: 'za $quarters kvartala',
     );
   }
@@ -82,7 +80,6 @@ class RelativeTimeLocalizationsHr extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'ovaj kvartal',
       one: 'prošli kvartal',
-      few: 'prije $quarters kvartala',
       other: 'prije $quarters kvartala',
     );
   }
@@ -93,7 +90,6 @@ class RelativeTimeLocalizationsHr extends RelativeTimeLocalizations {
       quarters,
       locale: localeName,
       one: 'prije $quarters kvartal',
-      few: 'prije $quarters kvartala',
       other: 'prije $quarters kvartala',
     );
   }
@@ -198,7 +194,6 @@ class RelativeTimeLocalizationsHr extends RelativeTimeLocalizations {
       zero: 'danas',
       one: 'sutra',
       two: 'prekosutra',
-      few: 'za $days dana',
       other: 'za $days dana',
     );
   }
@@ -209,7 +204,6 @@ class RelativeTimeLocalizationsHr extends RelativeTimeLocalizations {
       days,
       locale: localeName,
       one: 'za $days dan',
-      few: 'za $days dana',
       other: 'za $days dana',
     );
   }
@@ -222,7 +216,6 @@ class RelativeTimeLocalizationsHr extends RelativeTimeLocalizations {
       zero: 'danas',
       one: 'jučer',
       two: 'prekjučer',
-      few: 'prije $days dana',
       other: 'prije $days dana',
     );
   }
@@ -233,7 +226,6 @@ class RelativeTimeLocalizationsHr extends RelativeTimeLocalizations {
       days,
       locale: localeName,
       one: 'prije $days dan',
-      few: 'prije $days dana',
       other: 'prije $days dana',
     );
   }

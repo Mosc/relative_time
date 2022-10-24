@@ -13,8 +13,6 @@ class RelativeTimeLocalizationsLt extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'šiais metais',
       one: 'kitais metais',
-      few: 'po $years metų',
-      many: 'po $years metų',
       other: 'po $years metų',
     );
   }
@@ -24,9 +22,6 @@ class RelativeTimeLocalizationsLt extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      one: 'po $years metų',
-      few: 'po $years metų',
-      many: 'po $years metų',
       other: 'po $years metų',
     );
   }
@@ -39,7 +34,6 @@ class RelativeTimeLocalizationsLt extends RelativeTimeLocalizations {
       zero: 'šiais metais',
       one: 'praėjusiais metais',
       few: 'prieš $years metus',
-      many: 'prieš $years metų',
       other: 'prieš $years metų',
     );
   }
@@ -51,7 +45,6 @@ class RelativeTimeLocalizationsLt extends RelativeTimeLocalizations {
       locale: localeName,
       one: 'prieš $years metus',
       few: 'prieš $years metus',
-      many: 'prieš $years metų',
       other: 'prieš $years metų',
     );
   }
@@ -63,7 +56,6 @@ class RelativeTimeLocalizationsLt extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'šis ketvirtis',
       one: 'kitas ketvirtis',
-      few: 'po $quarters ketvirčių',
       many: 'po $quarters ketvirčio',
       other: 'po $quarters ketvirčių',
     );
@@ -75,7 +67,6 @@ class RelativeTimeLocalizationsLt extends RelativeTimeLocalizations {
       quarters,
       locale: localeName,
       one: 'po $quarters ketvirčio',
-      few: 'po $quarters ketvirčių',
       many: 'po $quarters ketvirčio',
       other: 'po $quarters ketvirčių',
     );
@@ -113,7 +104,6 @@ class RelativeTimeLocalizationsLt extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'šį mėnesį',
       one: 'kitą mėnesį',
-      few: 'po $months mėnesių',
       many: 'po $months mėnesio',
       other: 'po $months mėnesių',
     );
@@ -125,7 +115,6 @@ class RelativeTimeLocalizationsLt extends RelativeTimeLocalizations {
       months,
       locale: localeName,
       one: 'po $months mėnesio',
-      few: 'po $months mėnesių',
       many: 'po $months mėnesio',
       other: 'po $months mėnesių',
     );
@@ -163,7 +152,6 @@ class RelativeTimeLocalizationsLt extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'šią savaitę',
       one: 'kitą savaitę',
-      few: 'po $weeks savaičių',
       many: 'po $weeks savaitės',
       other: 'po $weeks savaičių',
     );
@@ -175,7 +163,6 @@ class RelativeTimeLocalizationsLt extends RelativeTimeLocalizations {
       weeks,
       locale: localeName,
       one: 'po $weeks savaitės',
-      few: 'po $weeks savaičių',
       many: 'po $weeks savaitės',
       other: 'po $weeks savaičių',
     );
@@ -214,7 +201,6 @@ class RelativeTimeLocalizationsLt extends RelativeTimeLocalizations {
       zero: 'šiandien',
       one: 'rytoj',
       two: 'poryt',
-      few: 'po $days dienų',
       many: 'po $days dienos',
       other: 'po $days dienų',
     );
@@ -226,7 +212,6 @@ class RelativeTimeLocalizationsLt extends RelativeTimeLocalizations {
       days,
       locale: localeName,
       one: 'po $days dienos',
-      few: 'po $days dienų',
       many: 'po $days dienos',
       other: 'po $days dienų',
     );
@@ -265,7 +250,6 @@ class RelativeTimeLocalizationsLt extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'šią valandą',
       one: 'po $hours valandos',
-      few: 'po $hours valandų',
       many: 'po $hours valandos',
       other: 'po $hours valandų',
     );
@@ -277,7 +261,6 @@ class RelativeTimeLocalizationsLt extends RelativeTimeLocalizations {
       hours,
       locale: localeName,
       one: 'po $hours valandos',
-      few: 'po $hours valandų',
       many: 'po $hours valandos',
       other: 'po $hours valandų',
     );
@@ -315,7 +298,6 @@ class RelativeTimeLocalizationsLt extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'šią minutę',
       one: 'po $minutes minutės',
-      few: 'po $minutes minučių',
       many: 'po $minutes minutės',
       other: 'po $minutes minučių',
     );
@@ -327,7 +309,6 @@ class RelativeTimeLocalizationsLt extends RelativeTimeLocalizations {
       minutes,
       locale: localeName,
       one: 'po $minutes minutės',
-      few: 'po $minutes minučių',
       many: 'po $minutes minutės',
       other: 'po $minutes minučių',
     );
@@ -365,7 +346,6 @@ class RelativeTimeLocalizationsLt extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'dabar',
       one: 'po $seconds sekundės',
-      few: 'po $seconds sekundžių',
       many: 'po $seconds sekundės',
       other: 'po $seconds sekundžių',
     );
@@ -377,7 +357,6 @@ class RelativeTimeLocalizationsLt extends RelativeTimeLocalizations {
       seconds,
       locale: localeName,
       one: 'po $seconds sekundės',
-      few: 'po $seconds sekundžių',
       many: 'po $seconds sekundės',
       other: 'po $seconds sekundžių',
     );

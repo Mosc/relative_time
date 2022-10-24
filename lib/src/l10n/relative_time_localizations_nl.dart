@@ -22,7 +22,6 @@ class RelativeTimeLocalizationsNl extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      one: 'over $years jaar',
       other: 'over $years jaar',
     );
   }
@@ -43,7 +42,6 @@ class RelativeTimeLocalizationsNl extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      one: '$years jaar geleden',
       other: '$years jaar geleden',
     );
   }
@@ -224,7 +222,6 @@ class RelativeTimeLocalizationsNl extends RelativeTimeLocalizations {
       hours,
       locale: localeName,
       zero: 'binnen een uur',
-      one: 'over $hours uur',
       other: 'over $hours uur',
     );
   }
@@ -234,7 +231,6 @@ class RelativeTimeLocalizationsNl extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      one: 'over $hours uur',
       other: 'over $hours uur',
     );
   }
@@ -245,7 +241,6 @@ class RelativeTimeLocalizationsNl extends RelativeTimeLocalizations {
       hours,
       locale: localeName,
       zero: 'binnen een uur',
-      one: '$hours uur geleden',
       other: '$hours uur geleden',
     );
   }
@@ -255,7 +250,6 @@ class RelativeTimeLocalizationsNl extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      one: '$hours uur geleden',
       other: '$hours uur geleden',
     );
   }

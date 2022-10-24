@@ -1,9 +1,9 @@
 {
   "@@locale": "fo",
   "yearsFuture": "{years, plural, =0{í ár} =1{næsta ár} other{um {years} ár}}",
-  "yearsFutureNumeric": "{years, plural, =1{um {years} ár} other{um {years} ár}}",
+  "yearsFutureNumeric": "{years, plural, other{um {years} ár}}",
   "yearsPast": "{years, plural, =0{í ár} =1{í fjør} other{{years} ár síðan}}",
-  "yearsPastNumeric": "{years, plural, =1{{years} ár síðan} other{{years} ár síðan}}",
+  "yearsPastNumeric": "{years, plural, other{{years} ár síðan}}",
   "quartersFuture": "{quarters, plural, =0{hendan ársfjórðingin} =1{næsta ársfjórðing} other{um {quarters} ársfjórðingar}}",
   "quartersFutureNumeric": "{quarters, plural, =1{um {quarters} ársfjórðing} other{um {quarters} ársfjórðingar}}",
   "quartersPast": "{quarters, plural, =0{hendan ársfjórðingin} =1{seinasta ársfjórðing} other{{quarters} ársfjórðingar síðan}}",
@@ -28,8 +28,8 @@
   "minutesFutureNumeric": "{minutes, plural, =1{um {minutes} minutt} other{um {minutes} minuttir}}",
   "minutesPast": "{minutes, plural, =0{hendan minuttin} =1{{minutes} minutt síðan} other{{minutes} minuttir síðan}}",
   "minutesPastNumeric": "{minutes, plural, =1{{minutes} minutt síðan} other{{minutes} minuttir síðan}}",
-  "secondsFuture": "{seconds, plural, =0{nú} =1{um {seconds} sekund} other{um {seconds} sekund}}",
-  "secondsFutureNumeric": "{seconds, plural, =1{um {seconds} sekund} other{um {seconds} sekund}}",
-  "secondsPast": "{seconds, plural, =0{nú} =1{{seconds} sekund síðan} other{{seconds} sekund síðan}}",
-  "secondsPastNumeric": "{seconds, plural, =1{{seconds} sekund síðan} other{{seconds} sekund síðan}}"
+  "secondsFuture": "{seconds, plural, =0{nú} other{um {seconds} sekund}}",
+  "secondsFutureNumeric": "{seconds, plural, other{um {seconds} sekund}}",
+  "secondsPast": "{seconds, plural, =0{nú} other{{seconds} sekund síðan}}",
+  "secondsPastNumeric": "{seconds, plural, other{{seconds} sekund síðan}}"
 }

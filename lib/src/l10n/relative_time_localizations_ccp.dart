@@ -22,7 +22,6 @@ class RelativeTimeLocalizationsCcp extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      one: '$years 𑄝𑄧𑄏𑄧𑄢𑄬',
       other: '$years 𑄝𑄧𑄏𑄧𑄢𑄬',
     );
   }
@@ -43,7 +42,6 @@ class RelativeTimeLocalizationsCcp extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       years,
       locale: localeName,
-      one: '$years 𑄝𑄧𑄏𑄧𑄢𑄴 𑄃𑄉𑄬',
       other: '$years 𑄝𑄧𑄏𑄧𑄢𑄴 𑄃𑄉𑄬',
     );
   }
@@ -85,7 +83,6 @@ class RelativeTimeLocalizationsCcp extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: '$quarters 𑄖𑄨𑄚𑄴𑄟𑄏𑄧𑄢𑄴 𑄃𑄉𑄬',
       other: '$quarters 𑄖𑄨𑄚𑄴𑄟𑄏𑄧𑄢𑄴 𑄃𑄉𑄬',
     );
   }
@@ -106,7 +103,6 @@ class RelativeTimeLocalizationsCcp extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
-      one: '$months 𑄟𑄏𑄬',
       other: '$months 𑄟𑄏𑄬',
     );
   }
@@ -127,7 +123,6 @@ class RelativeTimeLocalizationsCcp extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       months,
       locale: localeName,
-      one: '$months 𑄟𑄏𑄧 𑄃𑄉𑄬',
       other: '$months 𑄟𑄏𑄧 𑄃𑄉𑄬',
     );
   }
@@ -148,7 +143,6 @@ class RelativeTimeLocalizationsCcp extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      one: '$weeks 𑄥𑄛𑄴𑄖𑄠𑄴',
       other: '$weeks 𑄥𑄛𑄴𑄖𑄠𑄴',
     );
   }
@@ -169,7 +163,6 @@ class RelativeTimeLocalizationsCcp extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      one: '$weeks 𑄥𑄛𑄴𑄖 𑄃𑄉𑄬',
       other: '$weeks 𑄥𑄛𑄴𑄖 𑄃𑄉𑄬',
     );
   }
@@ -191,7 +184,6 @@ class RelativeTimeLocalizationsCcp extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
-      one: '$days 𑄘𑄨𑄚𑄮 𑄟𑄧𑄖𑄴𑄙𑄳𑄠',
       other: '$days 𑄘𑄨𑄚𑄮 𑄟𑄧𑄖𑄴𑄙𑄳𑄠',
     );
   }
@@ -213,7 +205,6 @@ class RelativeTimeLocalizationsCcp extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
-      one: '$days 𑄘𑄨𑄚𑄴 𑄃𑄉𑄬',
       other: '$days 𑄘𑄨𑄚𑄴 𑄃𑄉𑄬',
     );
   }
@@ -224,7 +215,6 @@ class RelativeTimeLocalizationsCcp extends RelativeTimeLocalizations {
       hours,
       locale: localeName,
       zero: '𑄃𑄳𑄆𑄬 𑄊𑄮𑄚𑄴𑄓𑄠𑄴',
-      one: '$hours 𑄊𑄮𑄚𑄴𑄓𑄠𑄴',
       other: '$hours 𑄊𑄮𑄚𑄴𑄓𑄠𑄴',
     );
   }
@@ -234,7 +224,6 @@ class RelativeTimeLocalizationsCcp extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      one: '$hours 𑄊𑄮𑄚𑄴𑄓𑄠𑄴',
       other: '$hours 𑄊𑄮𑄚𑄴𑄓𑄠𑄴',
     );
   }
@@ -245,7 +234,6 @@ class RelativeTimeLocalizationsCcp extends RelativeTimeLocalizations {
       hours,
       locale: localeName,
       zero: '𑄃𑄳𑄆𑄬 𑄊𑄮𑄚𑄴𑄓𑄠𑄴',
-      one: '$hours 𑄊𑄮𑄚𑄴𑄓 𑄃𑄉𑄬',
       other: '$hours 𑄊𑄮𑄚𑄴𑄓 𑄃𑄉𑄬',
     );
   }
@@ -255,7 +243,6 @@ class RelativeTimeLocalizationsCcp extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      one: '$hours 𑄊𑄮𑄚𑄴𑄓 𑄃𑄉𑄬',
       other: '$hours 𑄊𑄮𑄚𑄴𑄓 𑄃𑄉𑄬',
     );
   }
@@ -266,7 +253,6 @@ class RelativeTimeLocalizationsCcp extends RelativeTimeLocalizations {
       minutes,
       locale: localeName,
       zero: '𑄃𑄳𑄆𑄬 𑄟𑄨𑄚𑄨𑄖𑄴',
-      one: '$minutes 𑄟𑄨𑄚𑄨𑄘𑄬',
       other: '$minutes 𑄟𑄨𑄚𑄨𑄘𑄬',
     );
   }
@@ -276,7 +262,6 @@ class RelativeTimeLocalizationsCcp extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
-      one: '$minutes 𑄟𑄨𑄚𑄨𑄘𑄬',
       other: '$minutes 𑄟𑄨𑄚𑄨𑄘𑄬',
     );
   }
@@ -287,7 +272,6 @@ class RelativeTimeLocalizationsCcp extends RelativeTimeLocalizations {
       minutes,
       locale: localeName,
       zero: '𑄃𑄳𑄆𑄬 𑄟𑄨𑄚𑄨𑄖𑄴',
-      one: '$minutes 𑄟𑄨𑄚𑄨𑄖𑄴 𑄃𑄉𑄬',
       other: '$minutes 𑄟𑄨𑄚𑄨𑄖𑄴 𑄃𑄉𑄬',
     );
   }
@@ -297,7 +281,6 @@ class RelativeTimeLocalizationsCcp extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
-      one: '$minutes 𑄟𑄨𑄚𑄨𑄖𑄴 𑄃𑄉𑄬',
       other: '$minutes 𑄟𑄨𑄚𑄨𑄖𑄴 𑄃𑄉𑄬',
     );
   }
@@ -308,7 +291,6 @@ class RelativeTimeLocalizationsCcp extends RelativeTimeLocalizations {
       seconds,
       locale: localeName,
       zero: '𑄃𑄨𑄇𑄴𑄅𑄚𑄪',
-      one: '$seconds 𑄥𑄬𑄉𑄬𑄚𑄴𑄘𑄬',
       other: '$seconds 𑄥𑄬𑄉𑄬𑄚𑄴𑄘𑄬',
     );
   }
@@ -318,7 +300,6 @@ class RelativeTimeLocalizationsCcp extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
-      one: '$seconds 𑄥𑄬𑄉𑄬𑄚𑄴𑄘𑄬',
       other: '$seconds 𑄥𑄬𑄉𑄬𑄚𑄴𑄘𑄬',
     );
   }
@@ -329,7 +310,6 @@ class RelativeTimeLocalizationsCcp extends RelativeTimeLocalizations {
       seconds,
       locale: localeName,
       zero: '𑄃𑄨𑄇𑄴𑄅𑄚𑄪',
-      one: '$seconds 𑄥𑄬𑄉𑄬𑄚𑄴 𑄃𑄉𑄬',
       other: '$seconds 𑄥𑄬𑄉𑄬𑄚𑄴 𑄃𑄉𑄬',
     );
   }
@@ -339,7 +319,6 @@ class RelativeTimeLocalizationsCcp extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
-      one: '$seconds 𑄥𑄬𑄉𑄬𑄚𑄴 𑄃𑄉𑄬',
       other: '$seconds 𑄥𑄬𑄉𑄬𑄚𑄴 𑄃𑄉𑄬',
     );
   }

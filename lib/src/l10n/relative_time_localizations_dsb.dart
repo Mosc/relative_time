@@ -39,7 +39,6 @@ class RelativeTimeLocalizationsDsb extends RelativeTimeLocalizations {
       zero: 'lětosa',
       one: 'łoni',
       two: 'pśed $years lětoma',
-      few: 'pśed $years lětami',
       other: 'pśed $years lětami',
     );
   }
@@ -51,7 +50,6 @@ class RelativeTimeLocalizationsDsb extends RelativeTimeLocalizations {
       locale: localeName,
       one: 'pśed $years lětom',
       two: 'pśed $years lětoma',
-      few: 'pśed $years lětami',
       other: 'pśed $years lětami',
     );
   }
@@ -89,7 +87,6 @@ class RelativeTimeLocalizationsDsb extends RelativeTimeLocalizations {
       zero: 'toś ten kwartal',
       one: 'zajźony kwartal',
       two: 'pśed $quarters kwartaloma',
-      few: 'pśed $quarters kwartalami',
       other: 'pśed $quarters kwartalami',
     );
   }
@@ -101,7 +98,6 @@ class RelativeTimeLocalizationsDsb extends RelativeTimeLocalizations {
       locale: localeName,
       one: 'pśed $quarters kwartalom',
       two: 'pśed $quarters kwartaloma',
-      few: 'pśed $quarters kwartalami',
       other: 'pśed $quarters kwartalami',
     );
   }
@@ -139,7 +135,6 @@ class RelativeTimeLocalizationsDsb extends RelativeTimeLocalizations {
       zero: 'ten mjasec',
       one: 'zajźony mjasec',
       two: 'pśed $months mjasecoma',
-      few: 'pśed $months mjasecami',
       other: 'pśed $months mjasecami',
     );
   }
@@ -151,7 +146,6 @@ class RelativeTimeLocalizationsDsb extends RelativeTimeLocalizations {
       locale: localeName,
       one: 'pśed $months mjasecom',
       two: 'pśed $months mjasecoma',
-      few: 'pśed $months mjasecami',
       other: 'pśed $months mjasecami',
     );
   }
@@ -189,7 +183,6 @@ class RelativeTimeLocalizationsDsb extends RelativeTimeLocalizations {
       zero: 'ten tyźeń',
       one: 'zajźony tyźeń',
       two: 'pśed $weeks tyźenjoma',
-      few: 'pśed $weeks tyźenjami',
       other: 'pśed $weeks tyźenjami',
     );
   }
@@ -201,7 +194,6 @@ class RelativeTimeLocalizationsDsb extends RelativeTimeLocalizations {
       locale: localeName,
       one: 'pśed $weeks tyźenjom',
       two: 'pśed $weeks tyźenjoma',
-      few: 'pśed $weeks tyźenjami',
       other: 'pśed $weeks tyźenjami',
     );
   }
@@ -239,7 +231,6 @@ class RelativeTimeLocalizationsDsb extends RelativeTimeLocalizations {
       zero: 'źinsa',
       one: 'cora',
       two: 'pśed $days dnjoma',
-      few: 'pśed $days dnjami',
       other: 'pśed $days dnjami',
     );
   }
@@ -251,7 +242,6 @@ class RelativeTimeLocalizationsDsb extends RelativeTimeLocalizations {
       locale: localeName,
       one: 'pśed $days dnjom',
       two: 'pśed $days dnjoma',
-      few: 'pśed $days dnjami',
       other: 'pśed $days dnjami',
     );
   }
@@ -289,7 +279,6 @@ class RelativeTimeLocalizationsDsb extends RelativeTimeLocalizations {
       zero: 'w toś tej góźinje',
       one: 'pśed $hours góźinu',
       two: 'pśed $hours góźinoma',
-      few: 'pśed $hours góźinami',
       other: 'pśed $hours góźinami',
     );
   }
@@ -301,7 +290,6 @@ class RelativeTimeLocalizationsDsb extends RelativeTimeLocalizations {
       locale: localeName,
       one: 'pśed $hours góźinu',
       two: 'pśed $hours góźinoma',
-      few: 'pśed $hours góźinami',
       other: 'pśed $hours góźinami',
     );
   }
@@ -339,7 +327,6 @@ class RelativeTimeLocalizationsDsb extends RelativeTimeLocalizations {
       zero: 'w toś tej minuśe',
       one: 'pśed $minutes minutu',
       two: 'pśed $minutes minutoma',
-      few: 'pśed $minutes minutami',
       other: 'pśed $minutes minutami',
     );
   }
@@ -351,7 +338,6 @@ class RelativeTimeLocalizationsDsb extends RelativeTimeLocalizations {
       locale: localeName,
       one: 'pśed $minutes minutu',
       two: 'pśed $minutes minutoma',
-      few: 'pśed $minutes minutami',
       other: 'pśed $minutes minutami',
     );
   }
@@ -389,7 +375,6 @@ class RelativeTimeLocalizationsDsb extends RelativeTimeLocalizations {
       zero: 'něnto',
       one: 'pśed $seconds sekundu',
       two: 'pśed $seconds sekundoma',
-      few: 'pśed $seconds sekundami',
       other: 'pśed $seconds sekundami',
     );
   }
@@ -401,7 +386,6 @@ class RelativeTimeLocalizationsDsb extends RelativeTimeLocalizations {
       locale: localeName,
       one: 'pśed $seconds sekundu',
       two: 'pśed $seconds sekundoma',
-      few: 'pśed $seconds sekundami',
       other: 'pśed $seconds sekundami',
     );
   }

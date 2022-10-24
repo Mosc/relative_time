@@ -224,7 +224,6 @@ class RelativeTimeLocalizationsTa extends RelativeTimeLocalizations {
       hours,
       locale: localeName,
       zero: 'இந்த ஒரு மணிநேரத்தில்',
-      one: '$hours மணிநேரத்தில்',
       other: '$hours மணிநேரத்தில்',
     );
   }
@@ -234,7 +233,6 @@ class RelativeTimeLocalizationsTa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      one: '$hours மணிநேரத்தில்',
       other: '$hours மணிநேரத்தில்',
     );
   }
@@ -245,7 +243,6 @@ class RelativeTimeLocalizationsTa extends RelativeTimeLocalizations {
       hours,
       locale: localeName,
       zero: 'இந்த ஒரு மணிநேரத்தில்',
-      one: '$hours மணிநேரம் முன்',
       other: '$hours மணிநேரம் முன்',
     );
   }
@@ -255,7 +252,6 @@ class RelativeTimeLocalizationsTa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      one: '$hours மணிநேரம் முன்',
       other: '$hours மணிநேரம் முன்',
     );
   }

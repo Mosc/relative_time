@@ -39,7 +39,6 @@ class RelativeTimeLocalizationsSl extends RelativeTimeLocalizations {
       zero: 'letos',
       one: 'lani',
       two: 'pred $years letoma',
-      few: 'pred $years leti',
       other: 'pred $years leti',
     );
   }
@@ -51,7 +50,6 @@ class RelativeTimeLocalizationsSl extends RelativeTimeLocalizations {
       locale: localeName,
       one: 'pred $years letom',
       two: 'pred $years letoma',
-      few: 'pred $years leti',
       other: 'pred $years leti',
     );
   }
@@ -89,7 +87,6 @@ class RelativeTimeLocalizationsSl extends RelativeTimeLocalizations {
       zero: 'to četrtletje',
       one: 'zadnje četrtletje',
       two: 'pred $quarters četrtletjema',
-      few: 'pred $quarters četrtletji',
       other: 'pred $quarters četrtletji',
     );
   }
@@ -101,7 +98,6 @@ class RelativeTimeLocalizationsSl extends RelativeTimeLocalizations {
       locale: localeName,
       one: 'pred $quarters četrtletjem',
       two: 'pred $quarters četrtletjema',
-      few: 'pred $quarters četrtletji',
       other: 'pred $quarters četrtletji',
     );
   }
@@ -139,7 +135,6 @@ class RelativeTimeLocalizationsSl extends RelativeTimeLocalizations {
       zero: 'ta mesec',
       one: 'prejšnji mesec',
       two: 'pred $months mesecema',
-      few: 'pred $months meseci',
       other: 'pred $months meseci',
     );
   }
@@ -151,7 +146,6 @@ class RelativeTimeLocalizationsSl extends RelativeTimeLocalizations {
       locale: localeName,
       one: 'pred $months mesecem',
       two: 'pred $months mesecema',
-      few: 'pred $months meseci',
       other: 'pred $months meseci',
     );
   }
@@ -189,7 +183,6 @@ class RelativeTimeLocalizationsSl extends RelativeTimeLocalizations {
       zero: 'ta teden',
       one: 'prejšnji teden',
       two: 'pred $weeks tednoma',
-      few: 'pred $weeks tedni',
       other: 'pred $weeks tedni',
     );
   }
@@ -201,7 +194,6 @@ class RelativeTimeLocalizationsSl extends RelativeTimeLocalizations {
       locale: localeName,
       one: 'pred $weeks tednom',
       two: 'pred $weeks tednoma',
-      few: 'pred $weeks tedni',
       other: 'pred $weeks tedni',
     );
   }
@@ -214,7 +206,6 @@ class RelativeTimeLocalizationsSl extends RelativeTimeLocalizations {
       zero: 'danes',
       one: 'jutri',
       two: 'pojutrišnjem',
-      few: 'čez $days dni',
       other: 'čez $days dni',
     );
   }
@@ -226,7 +217,6 @@ class RelativeTimeLocalizationsSl extends RelativeTimeLocalizations {
       locale: localeName,
       one: 'čez $days dan',
       two: 'čez $days dneva',
-      few: 'čez $days dni',
       other: 'čez $days dni',
     );
   }
@@ -239,7 +229,6 @@ class RelativeTimeLocalizationsSl extends RelativeTimeLocalizations {
       zero: 'danes',
       one: 'včeraj',
       two: 'predvčerajšnjim',
-      few: 'pred $days dnevi',
       other: 'pred $days dnevi',
     );
   }
@@ -251,7 +240,6 @@ class RelativeTimeLocalizationsSl extends RelativeTimeLocalizations {
       locale: localeName,
       one: 'pred $days dnevom',
       two: 'pred $days dnevoma',
-      few: 'pred $days dnevi',
       other: 'pred $days dnevi',
     );
   }
@@ -289,7 +277,6 @@ class RelativeTimeLocalizationsSl extends RelativeTimeLocalizations {
       zero: 'v tej uri',
       one: 'pred $hours uro',
       two: 'pred $hours urama',
-      few: 'pred $hours urami',
       other: 'pred $hours urami',
     );
   }
@@ -301,7 +288,6 @@ class RelativeTimeLocalizationsSl extends RelativeTimeLocalizations {
       locale: localeName,
       one: 'pred $hours uro',
       two: 'pred $hours urama',
-      few: 'pred $hours urami',
       other: 'pred $hours urami',
     );
   }
@@ -339,7 +325,6 @@ class RelativeTimeLocalizationsSl extends RelativeTimeLocalizations {
       zero: 'to minuto',
       one: 'pred $minutes minuto',
       two: 'pred $minutes minutama',
-      few: 'pred $minutes minutami',
       other: 'pred $minutes minutami',
     );
   }
@@ -351,7 +336,6 @@ class RelativeTimeLocalizationsSl extends RelativeTimeLocalizations {
       locale: localeName,
       one: 'pred $minutes minuto',
       two: 'pred $minutes minutama',
-      few: 'pred $minutes minutami',
       other: 'pred $minutes minutami',
     );
   }
@@ -389,7 +373,6 @@ class RelativeTimeLocalizationsSl extends RelativeTimeLocalizations {
       zero: 'zdaj',
       one: 'pred $seconds sekundo',
       two: 'pred $seconds sekundama',
-      few: 'pred $seconds sekundami',
       other: 'pred $seconds sekundami',
     );
   }
@@ -401,7 +384,6 @@ class RelativeTimeLocalizationsSl extends RelativeTimeLocalizations {
       locale: localeName,
       one: 'pred $seconds sekundo',
       two: 'pred $seconds sekundama',
-      few: 'pred $seconds sekundami',
       other: 'pred $seconds sekundami',
     );
   }

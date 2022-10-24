@@ -67,9 +67,6 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'an ráithe seo',
       one: 'an ráithe seo chugainn',
-      two: 'i gceann $quarters ráithe',
-      few: 'i gceann $quarters ráithe',
-      many: 'i gceann $quarters ráithe',
       other: 'i gceann $quarters ráithe',
     );
   }
@@ -79,10 +76,6 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: 'i gceann $quarters ráithe',
-      two: 'i gceann $quarters ráithe',
-      few: 'i gceann $quarters ráithe',
-      many: 'i gceann $quarters ráithe',
       other: 'i gceann $quarters ráithe',
     );
   }
@@ -94,9 +87,6 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
       locale: localeName,
       zero: 'an ráithe seo',
       one: 'an ráithe seo caite',
-      two: '$quarters ráithe ó shin',
-      few: '$quarters ráithe ó shin',
-      many: '$quarters ráithe ó shin',
       other: '$quarters ráithe ó shin',
     );
   }
@@ -106,10 +96,6 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       quarters,
       locale: localeName,
-      one: '$quarters ráithe ó shin',
-      two: '$quarters ráithe ó shin',
-      few: '$quarters ráithe ó shin',
-      many: '$quarters ráithe ó shin',
       other: '$quarters ráithe ó shin',
     );
   }
@@ -123,7 +109,6 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
       one: 'an mhí seo chugainn',
       two: 'i gceann $months mhí',
       few: 'i gceann $months mhí',
-      many: 'i gceann $months mí',
       other: 'i gceann $months mí',
     );
   }
@@ -136,7 +121,6 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
       one: 'i gceann $months mhí',
       two: 'i gceann $months mhí',
       few: 'i gceann $months mhí',
-      many: 'i gceann $months mí',
       other: 'i gceann $months mí',
     );
   }
@@ -150,7 +134,6 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
       one: 'an mhí seo caite',
       two: '$months mhí ó shin',
       few: '$months mhí ó shin',
-      many: '$months mí ó shin',
       other: '$months mí ó shin',
     );
   }
@@ -163,7 +146,6 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
       one: '$months mhí ó shin',
       two: '$months mhí ó shin',
       few: '$months mhí ó shin',
-      many: '$months mí ó shin',
       other: '$months mí ó shin',
     );
   }
@@ -214,7 +196,6 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      one: '$weeks seachtain ó shin',
       two: '$weeks sheachtain ó shin',
       few: '$weeks seachtaine ó shin',
       many: '$weeks seachtaine ó shin',
@@ -230,8 +211,6 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
       zero: 'inniu',
       one: 'amárach',
       two: 'arú amárach',
-      few: 'i gceann $days lá',
-      many: 'i gceann $days lá',
       other: 'i gceann $days lá',
     );
   }
@@ -241,10 +220,6 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
-      one: 'i gceann $days lá',
-      two: 'i gceann $days lá',
-      few: 'i gceann $days lá',
-      many: 'i gceann $days lá',
       other: 'i gceann $days lá',
     );
   }
@@ -257,8 +232,6 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
       zero: 'inniu',
       one: 'inné',
       two: 'arú inné',
-      few: '$days lá ó shin',
-      many: '$days lá ó shin',
       other: '$days lá ó shin',
     );
   }
@@ -268,10 +241,6 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       days,
       locale: localeName,
-      one: '$days lá ó shin',
-      two: '$days lá ó shin',
-      few: '$days lá ó shin',
-      many: '$days lá ó shin',
       other: '$days lá ó shin',
     );
   }
@@ -282,9 +251,6 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
       hours,
       locale: localeName,
       zero: 'an uair seo',
-      one: 'i gceann $hours uair an chloig',
-      two: 'i gceann $hours uair an chloig',
-      few: 'i gceann $hours uair an chloig',
       many: 'i gceann $hours n-uair an chloig',
       other: 'i gceann $hours uair an chloig',
     );
@@ -295,9 +261,6 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      one: 'i gceann $hours uair an chloig',
-      two: 'i gceann $hours uair an chloig',
-      few: 'i gceann $hours uair an chloig',
       many: 'i gceann $hours n-uair an chloig',
       other: 'i gceann $hours uair an chloig',
     );
@@ -309,9 +272,6 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
       hours,
       locale: localeName,
       zero: 'an uair seo',
-      one: '$hours uair an chloig ó shin',
-      two: '$hours uair an chloig ó shin',
-      few: '$hours uair an chloig ó shin',
       many: '$hours n-uair an chloig ó shin',
       other: '$hours uair an chloig ó shin',
     );
@@ -322,9 +282,6 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       hours,
       locale: localeName,
-      one: '$hours uair an chloig ó shin',
-      two: '$hours uair an chloig ó shin',
-      few: '$hours uair an chloig ó shin',
       many: '$hours n-uair an chloig ó shin',
       other: '$hours uair an chloig ó shin',
     );
@@ -336,10 +293,6 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
       minutes,
       locale: localeName,
       zero: 'an nóiméad seo',
-      one: 'i gceann $minutes nóiméad',
-      two: 'i gceann $minutes nóiméad',
-      few: 'i gceann $minutes nóiméad',
-      many: 'i gceann $minutes nóiméad',
       other: 'i gceann $minutes nóiméad',
     );
   }
@@ -349,10 +302,6 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
-      one: 'i gceann $minutes nóiméad',
-      two: 'i gceann $minutes nóiméad',
-      few: 'i gceann $minutes nóiméad',
-      many: 'i gceann $minutes nóiméad',
       other: 'i gceann $minutes nóiméad',
     );
   }
@@ -363,10 +312,6 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
       minutes,
       locale: localeName,
       zero: 'an nóiméad seo',
-      one: '$minutes nóiméad ó shin',
-      two: '$minutes nóiméad ó shin',
-      few: '$minutes nóiméad ó shin',
-      many: '$minutes nóiméad ó shin',
       other: '$minutes nóiméad ó shin',
     );
   }
@@ -376,10 +321,6 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       minutes,
       locale: localeName,
-      one: '$minutes nóiméad ó shin',
-      two: '$minutes nóiméad ó shin',
-      few: '$minutes nóiméad ó shin',
-      many: '$minutes nóiméad ó shin',
       other: '$minutes nóiméad ó shin',
     );
   }
@@ -390,10 +331,8 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
       seconds,
       locale: localeName,
       zero: 'anois',
-      one: 'i gceann $seconds soicind',
       two: 'i gceann $seconds shoicind',
       few: 'i gceann $seconds shoicind',
-      many: 'i gceann $seconds soicind',
       other: 'i gceann $seconds soicind',
     );
   }
@@ -403,10 +342,8 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
-      one: 'i gceann $seconds soicind',
       two: 'i gceann $seconds shoicind',
       few: 'i gceann $seconds shoicind',
-      many: 'i gceann $seconds soicind',
       other: 'i gceann $seconds soicind',
     );
   }
@@ -417,10 +354,8 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
       seconds,
       locale: localeName,
       zero: 'anois',
-      one: '$seconds soicind ó shin',
       two: '$seconds shoicind ó shin',
       few: '$seconds shoicind ó shin',
-      many: '$seconds soicind ó shin',
       other: '$seconds soicind ó shin',
     );
   }
@@ -430,10 +365,8 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       seconds,
       locale: localeName,
-      one: '$seconds soicind ó shin',
       two: '$seconds shoicind ó shin',
       few: '$seconds shoicind ó shin',
-      many: '$seconds soicind ó shin',
       other: '$seconds soicind ó shin',
     );
   }

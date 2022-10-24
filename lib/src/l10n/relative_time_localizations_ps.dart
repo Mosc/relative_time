@@ -169,7 +169,6 @@ class RelativeTimeLocalizationsPs extends RelativeTimeLocalizations {
     return intl.Intl.pluralLogic(
       weeks,
       locale: localeName,
-      one: '$weeks اونۍ مخکې',
       other: '$weeks اونۍ مخکې',
     );
   }

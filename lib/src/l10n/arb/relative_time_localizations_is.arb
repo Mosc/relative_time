@@ -1,7 +1,7 @@
 {
   "@@locale": "is",
   "yearsFuture": "{years, plural, =0{á þessu ári} =1{á næsta ári} other{eftir {years} ár}}",
-  "yearsFutureNumeric": "{years, plural, =1{eftir {years} ár} other{eftir {years} ár}}",
+  "yearsFutureNumeric": "{years, plural, other{eftir {years} ár}}",
   "yearsPast": "{years, plural, =0{á þessu ári} =1{á síðasta ári} other{fyrir {years} árum}}",
   "yearsPastNumeric": "{years, plural, =1{fyrir {years} ári} other{fyrir {years} árum}}",
   "quartersFuture": "{quarters, plural, =0{þessi ársfjórðungur} =1{næsti ársfjórðungur} other{eftir {quarters} ársfjórðunga}}",

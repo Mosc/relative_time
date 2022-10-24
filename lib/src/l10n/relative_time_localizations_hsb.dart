@@ -39,7 +39,6 @@ class RelativeTimeLocalizationsHsb extends RelativeTimeLocalizations {
       zero: 'lětsa',
       one: 'loni',
       two: 'před $years lětomaj',
-      few: 'před $years lětami',
       other: 'před $years lětami',
     );
   }
@@ -51,7 +50,6 @@ class RelativeTimeLocalizationsHsb extends RelativeTimeLocalizations {
       locale: localeName,
       one: 'před $years lětom',
       two: 'před $years lětomaj',
-      few: 'před $years lětami',
       other: 'před $years lětami',
     );
   }
@@ -89,7 +87,6 @@ class RelativeTimeLocalizationsHsb extends RelativeTimeLocalizations {
       zero: 'tutón kwartal',
       one: 'zašły kwartal',
       two: 'před $quarters kwartalomaj',
-      few: 'před $quarters kwartalemi',
       other: 'před $quarters kwartalemi',
     );
   }
@@ -101,7 +98,6 @@ class RelativeTimeLocalizationsHsb extends RelativeTimeLocalizations {
       locale: localeName,
       one: 'před $quarters kwartalom',
       two: 'před $quarters kwartalomaj',
-      few: 'před $quarters kwartalemi',
       other: 'před $quarters kwartalemi',
     );
   }
@@ -139,7 +135,6 @@ class RelativeTimeLocalizationsHsb extends RelativeTimeLocalizations {
       zero: 'tutón měsac',
       one: 'zašły měsac',
       two: 'před $months měsacomaj',
-      few: 'před $months měsacami',
       other: 'před $months měsacami',
     );
   }
@@ -151,7 +146,6 @@ class RelativeTimeLocalizationsHsb extends RelativeTimeLocalizations {
       locale: localeName,
       one: 'před $months měsacom',
       two: 'před $months měsacomaj',
-      few: 'před $months měsacami',
       other: 'před $months měsacami',
     );
   }
@@ -189,7 +183,6 @@ class RelativeTimeLocalizationsHsb extends RelativeTimeLocalizations {
       zero: 'tutón tydźeń',
       one: 'zašły tydźeń',
       two: 'před $weeks tydźenjomaj',
-      few: 'před $weeks tydźenjemi',
       other: 'před $weeks tydźenjemi',
     );
   }
@@ -201,7 +194,6 @@ class RelativeTimeLocalizationsHsb extends RelativeTimeLocalizations {
       locale: localeName,
       one: 'před $weeks tydźenjom',
       two: 'před $weeks tydźenjomaj',
-      few: 'před $weeks tydźenjemi',
       other: 'před $weeks tydźenjemi',
     );
   }
@@ -239,7 +231,6 @@ class RelativeTimeLocalizationsHsb extends RelativeTimeLocalizations {
       zero: 'dźensa',
       one: 'wčera',
       two: 'před $days dnjomaj',
-      few: 'před $days dnjemi',
       other: 'před $days dnjemi',
     );
   }
@@ -251,7 +242,6 @@ class RelativeTimeLocalizationsHsb extends RelativeTimeLocalizations {
       locale: localeName,
       one: 'před $days dnjom',
       two: 'před $days dnjomaj',
-      few: 'před $days dnjemi',
       other: 'před $days dnjemi',
     );
   }
@@ -289,7 +279,6 @@ class RelativeTimeLocalizationsHsb extends RelativeTimeLocalizations {
       zero: 'w tutej hodźinje',
       one: 'před $hours hodźinu',
       two: 'před $hours hodźinomaj',
-      few: 'před $hours hodźinami',
       other: 'před $hours hodźinami',
     );
   }
@@ -301,7 +290,6 @@ class RelativeTimeLocalizationsHsb extends RelativeTimeLocalizations {
       locale: localeName,
       one: 'před $hours hodźinu',
       two: 'před $hours hodźinomaj',
-      few: 'před $hours hodźinami',
       other: 'před $hours hodźinami',
     );
   }
@@ -339,7 +327,6 @@ class RelativeTimeLocalizationsHsb extends RelativeTimeLocalizations {
       zero: 'w tutej mjeńšinje',
       one: 'před $minutes minutu',
       two: 'před $minutes minutomaj',
-      few: 'před $minutes minutami',
       other: 'před $minutes minutami',
     );
   }
@@ -351,7 +338,6 @@ class RelativeTimeLocalizationsHsb extends RelativeTimeLocalizations {
       locale: localeName,
       one: 'před $minutes minutu',
       two: 'před $minutes minutomaj',
-      few: 'před $minutes minutami',
       other: 'před $minutes minutami',
     );
   }
@@ -389,7 +375,6 @@ class RelativeTimeLocalizationsHsb extends RelativeTimeLocalizations {
       zero: 'nětko',
       one: 'před $seconds sekundu',
       two: 'před $seconds sekundomaj',
-      few: 'před $seconds sekundami',
       other: 'před $seconds sekundami',
     );
   }
@@ -401,7 +386,6 @@ class RelativeTimeLocalizationsHsb extends RelativeTimeLocalizations {
       locale: localeName,
       one: 'před $seconds sekundu',
       two: 'před $seconds sekundomaj',
-      few: 'před $seconds sekundami',
       other: 'před $seconds sekundami',
     );
   }
