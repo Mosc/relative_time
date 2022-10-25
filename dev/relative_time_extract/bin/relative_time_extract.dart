@@ -44,15 +44,16 @@ void main() {
 
   Directory(arbPath).createSync(recursive: true);
 
-  final Iterable<FileSystemEntity> fileSystemEntities =
-      Directory(inputPath).listSync().where(
-            (FileSystemEntity element) =>
-                path.extension(element.path) == '.xml',
-          );
+  final List<String> inputFilePaths = Directory(inputPath)
+      .listSync()
+      .map((FileSystemEntity fileSystemEntity) => fileSystemEntity.path)
+      .where((String filePath) => path.extension(filePath) == '.xml')
+      .toList()
+    ..sort();
   final Set<String> locales = <String>{};
 
-  for (final FileSystemEntity fileSystemEntity in fileSystemEntities) {
-    final File inputFile = File(fileSystemEntity.path);
+  for (final String inputFilePath in inputFilePaths) {
+    final File inputFile = File(inputFilePath);
     final XmlDocument document =
         XmlDocument.parse(inputFile.readAsStringSync());
     final Iterable<XmlElement>? dateFields = document
@@ -65,7 +66,7 @@ void main() {
       continue;
     }
 
-    final String locale = path.basenameWithoutExtension(inputFile.path);
+    final String locale = path.basenameWithoutExtension(inputFilePath);
 
     if (locale.toLowerCase() == 'root') {
       continue;
