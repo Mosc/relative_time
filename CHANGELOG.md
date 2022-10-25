@@ -1,3 +1,7 @@
+## 2.2.1
+
+* Reduce size a bit by eliminating redundant entries.
+
 ## 2.2.0
 
 * Add Bodo and Maithili languages.
