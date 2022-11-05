@@ -16,7 +16,7 @@
   "weeksFutureNumeric": "{weeks, plural, =2{an ceann {weeks} sheachdain} few{an ceann {weeks} seachdainean} other{an ceann {weeks} seachdain}}",
   "weeksPast": "{weeks, plural, =0{an t-seachdain seo} =1{an t-seachdain seo chaidh} =2{{weeks} sheachdain air ais} few{{weeks} seachdainean air ais} other{{weeks} seachdain air ais}}",
   "weeksPastNumeric": "{weeks, plural, =2{{weeks} sheachdain air ais} few{{weeks} seachdainean air ais} other{{weeks} seachdain air ais}}",
-  "daysFuture": "{days, plural, =0{an-diugh} =1{a-màireach} =2{an-earar} =3{an-eararais} few{an ceann {days} làithean} other{an ceann {days} latha}}",
+  "daysFuture": "{days, plural, =0{an-diugh} =1{a-màireach} =2{an-earar} few{an ceann {days} làithean} other{an ceann {days} latha}}",
   "daysFutureNumeric": "{days, plural, few{an ceann {days} làithean} other{an ceann {days} latha}}",
   "daysPast": "{days, plural, =0{an-diugh} =1{an-dè} =2{a-bhòin-dè} few{{days} làithean air ais} other{{days} latha air ais}}",
   "daysPastNumeric": "{days, plural, few{{days} làithean air ais} other{{days} latha air ais}}",

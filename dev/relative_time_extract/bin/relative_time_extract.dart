@@ -169,7 +169,10 @@ Map<String, String> _getRelativeTimePatternPlurals({
     if (amount <= 0 && relativeTimeType == 'past' ||
         amount >= 0 && relativeTimeType == 'future') {
       final int key = amount.abs();
-      relativePlurals[key] = relative.text;
+
+      if (key <= 2) {
+        relativePlurals[key] = relative.text;
+      }
     }
   }
 
