@@ -1,11 +1,7 @@
 {
   "@@locale": "zh_Hant_HK",
-  "weeksFuture": "{weeks, plural, =0{本星期} =1{下星期} other{{weeks} 星期後}}",
-  "weeksFutureNumeric": "{weeks, plural, other{{weeks} 星期後}}",
-  "weeksPast": "{weeks, plural, =0{本星期} =1{上星期} other{{weeks} 星期前}}",
-  "weeksPastNumeric": "{weeks, plural, other{{weeks} 星期前}}",
-  "daysFuture": "{days, plural, =0{今日} =1{明日} =2{後日} other{{days} 日後}}",
-  "daysFutureNumeric": "{days, plural, other{{days} 日後}}",
-  "daysPast": "{days, plural, =0{今日} =1{昨日} =2{前日} other{{days} 日前}}",
-  "daysPastNumeric": "{days, plural, other{{days} 日前}}"
+  "weeksFuture": "{weeks, plural, =0{{numeric, select, true{{weeks} 星期後} other{本星期}}} =1{{numeric, select, true{{weeks} 星期後} other{下星期}}} other{{weeks} 星期後}}",
+  "weeksPast": "{weeks, plural, =0{{numeric, select, true{{weeks} 星期前} other{本星期}}} =1{{numeric, select, true{{weeks} 星期前} other{上星期}}} other{{weeks} 星期前}}",
+  "daysFuture": "{days, plural, =0{{numeric, select, true{{days} 日後} other{今日}}} =1{{numeric, select, true{{days} 日後} other{明日}}} =2{{numeric, select, true{{days} 日後} other{後日}}} other{{days} 日後}}",
+  "daysPast": "{days, plural, =0{{numeric, select, true{{days} 日前} other{今日}}} =1{{numeric, select, true{{days} 日前} other{昨日}}} =2{{numeric, select, true{{days} 日前} other{前日}}} other{{days} 日前}}"
 }

@@ -55,68 +55,36 @@ class RelativeTime {
     switch (fittingTimeUnit) {
       case TimeUnit.year:
         return difference.isNegative
-            ? numeric
-                ? localizations.yearsPastNumeric(timeUnitDifference)
-                : localizations.yearsPast(timeUnitDifference)
-            : numeric
-                ? localizations.yearsFutureNumeric(timeUnitDifference)
-                : localizations.yearsFuture(timeUnitDifference);
+            ? localizations.yearsPast(timeUnitDifference, numeric)
+            : localizations.yearsFuture(timeUnitDifference, numeric);
       case TimeUnit.quarter:
         return difference.isNegative
-            ? numeric
-                ? localizations.quartersPastNumeric(timeUnitDifference)
-                : localizations.quartersPast(timeUnitDifference)
-            : numeric
-                ? localizations.quartersFutureNumeric(timeUnitDifference)
-                : localizations.quartersFuture(timeUnitDifference);
+            ? localizations.quartersPast(timeUnitDifference, numeric)
+            : localizations.quartersFuture(timeUnitDifference, numeric);
       case TimeUnit.month:
         return difference.isNegative
-            ? numeric
-                ? localizations.monthsPastNumeric(timeUnitDifference)
-                : localizations.monthsPast(timeUnitDifference)
-            : numeric
-                ? localizations.monthsFutureNumeric(timeUnitDifference)
-                : localizations.monthsFuture(timeUnitDifference);
+            ? localizations.monthsPast(timeUnitDifference, numeric)
+            : localizations.monthsFuture(timeUnitDifference, numeric);
       case TimeUnit.week:
         return difference.isNegative
-            ? numeric
-                ? localizations.weeksPastNumeric(timeUnitDifference)
-                : localizations.weeksPast(timeUnitDifference)
-            : numeric
-                ? localizations.weeksFutureNumeric(timeUnitDifference)
-                : localizations.weeksFuture(timeUnitDifference);
+            ? localizations.weeksPast(timeUnitDifference, numeric)
+            : localizations.weeksFuture(timeUnitDifference, numeric);
       case TimeUnit.day:
         return difference.isNegative
-            ? numeric
-                ? localizations.daysPastNumeric(timeUnitDifference)
-                : localizations.daysPast(timeUnitDifference)
-            : numeric
-                ? localizations.daysFutureNumeric(timeUnitDifference)
-                : localizations.daysFuture(timeUnitDifference);
+            ? localizations.daysPast(timeUnitDifference, numeric)
+            : localizations.daysFuture(timeUnitDifference, numeric);
       case TimeUnit.hour:
         return difference.isNegative
-            ? numeric
-                ? localizations.hoursPastNumeric(timeUnitDifference)
-                : localizations.hoursPast(timeUnitDifference)
-            : numeric
-                ? localizations.hoursFutureNumeric(timeUnitDifference)
-                : localizations.hoursFuture(timeUnitDifference);
+            ? localizations.hoursPast(timeUnitDifference, numeric)
+            : localizations.hoursFuture(timeUnitDifference, numeric);
       case TimeUnit.minute:
         return difference.isNegative
-            ? numeric
-                ? localizations.minutesPastNumeric(timeUnitDifference)
-                : localizations.minutesPast(timeUnitDifference)
-            : numeric
-                ? localizations.minutesFutureNumeric(timeUnitDifference)
-                : localizations.minutesFuture(timeUnitDifference);
+            ? localizations.minutesPast(timeUnitDifference, numeric)
+            : localizations.minutesFuture(timeUnitDifference, numeric);
       case TimeUnit.second:
         return difference.isNegative
-            ? numeric
-                ? localizations.secondsPastNumeric(timeUnitDifference)
-                : localizations.secondsPast(timeUnitDifference)
-            : numeric
-                ? localizations.secondsFutureNumeric(timeUnitDifference)
-                : localizations.secondsFuture(timeUnitDifference);
+            ? localizations.secondsPast(timeUnitDifference, numeric)
+            : localizations.secondsFuture(timeUnitDifference, numeric);
     }
   }
 }

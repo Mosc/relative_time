@@ -7,367 +7,916 @@ class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
   RelativeTimeLocalizationsGa([String locale = 'ga']) : super(locale);
 
   @override
-  String yearsFuture(num years) {
-    return intl.Intl.pluralLogic(
-      years,
-      locale: localeName,
-      zero: 'i mbliana',
-      one: 'an bhliain seo chugainn',
-      two: 'i gceann $years bhliain',
-      few: 'i gceann $years bliana',
-      many: 'i gceann $years mbliana',
-      other: 'i gceann $years bliain',
-    );
+  String yearsFuture(num years, Object numeric) {
+    String _yearsFuture0(num years) {
+      return 'i gceann $years bliain';
+    }
+
+    String _yearsFuture1(num years) {
+      return 'i gceann $years mbliana';
+    }
+
+    String _yearsFuture2(num years) {
+      return 'i gceann $years bliana';
+    }
+
+    String _yearsFuture3(num years) {
+      return 'i gceann $years bhliain';
+    }
+
+    String _yearsFuture4(num years) {
+      return 'i gceann $years bliana';
+    }
+
+    String _yearsFuture5(Object numeric, num years) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _yearsFuture4(years),
+          'other': 'an bhliain seo chugainn',
+        },
+      );
+    }
+
+    String _yearsFuture6(Object numeric, num years) {
+      return _yearsFuture5(numeric, years);
+    }
+
+    String _yearsFuture7(num years) {
+      return 'i gceann $years bliain';
+    }
+
+    String _yearsFuture8(Object numeric, num years) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _yearsFuture7(years),
+          'other': 'i mbliana',
+        },
+      );
+    }
+
+    String _yearsFuture9(Object numeric, num years) {
+      return _yearsFuture8(numeric, years);
+    }
+
+    String _yearsFuture10(num years, Object numeric) {
+      return intl.Intl.pluralLogic(
+        years,
+        locale: localeName,
+        other: _yearsFuture0(years),
+        many: _yearsFuture1(years),
+        few: _yearsFuture2(years),
+        two: _yearsFuture3(years),
+        one: _yearsFuture6(numeric, years),
+        zero: _yearsFuture9(numeric, years),
+      );
+    }
+
+    return _yearsFuture10(years, numeric);
   }
 
   @override
-  String yearsFutureNumeric(num years) {
-    return intl.Intl.pluralLogic(
-      years,
-      locale: localeName,
-      one: 'i gceann $years bliana',
-      two: 'i gceann $years bhliain',
-      few: 'i gceann $years bliana',
-      many: 'i gceann $years mbliana',
-      other: 'i gceann $years bliain',
-    );
+  String yearsPast(num years, Object numeric) {
+    String _yearsPast0(num years) {
+      return '$years bliain ó shin';
+    }
+
+    String _yearsPast1(num years) {
+      return '$years mbliana ó shin';
+    }
+
+    String _yearsPast2(num years) {
+      return '$years bliana ó shin';
+    }
+
+    String _yearsPast3(num years) {
+      return '$years bhliain ó shin';
+    }
+
+    String _yearsPast4(num years) {
+      return '$years bhliain ó shin';
+    }
+
+    String _yearsPast5(Object numeric, num years) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _yearsPast4(years),
+          'other': 'anuraidh',
+        },
+      );
+    }
+
+    String _yearsPast6(Object numeric, num years) {
+      return _yearsPast5(numeric, years);
+    }
+
+    String _yearsPast7(num years) {
+      return '$years bliain ó shin';
+    }
+
+    String _yearsPast8(Object numeric, num years) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _yearsPast7(years),
+          'other': 'i mbliana',
+        },
+      );
+    }
+
+    String _yearsPast9(Object numeric, num years) {
+      return _yearsPast8(numeric, years);
+    }
+
+    String _yearsPast10(num years, Object numeric) {
+      return intl.Intl.pluralLogic(
+        years,
+        locale: localeName,
+        other: _yearsPast0(years),
+        many: _yearsPast1(years),
+        few: _yearsPast2(years),
+        two: _yearsPast3(years),
+        one: _yearsPast6(numeric, years),
+        zero: _yearsPast9(numeric, years),
+      );
+    }
+
+    return _yearsPast10(years, numeric);
   }
 
   @override
-  String yearsPast(num years) {
-    return intl.Intl.pluralLogic(
-      years,
-      locale: localeName,
-      zero: 'i mbliana',
-      one: 'anuraidh',
-      two: '$years bhliain ó shin',
-      few: '$years bliana ó shin',
-      many: '$years mbliana ó shin',
-      other: '$years bliain ó shin',
-    );
+  String quartersFuture(num quarters, Object numeric) {
+    String _quartersFuture0(num quarters) {
+      return 'i gceann $quarters ráithe';
+    }
+
+    String _quartersFuture1(num quarters) {
+      return 'i gceann $quarters ráithe';
+    }
+
+    String _quartersFuture2(Object numeric, num quarters) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _quartersFuture1(quarters),
+          'other': 'an ráithe seo chugainn',
+        },
+      );
+    }
+
+    String _quartersFuture3(Object numeric, num quarters) {
+      return _quartersFuture2(numeric, quarters);
+    }
+
+    String _quartersFuture4(num quarters) {
+      return 'i gceann $quarters ráithe';
+    }
+
+    String _quartersFuture5(Object numeric, num quarters) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _quartersFuture4(quarters),
+          'other': 'an ráithe seo',
+        },
+      );
+    }
+
+    String _quartersFuture6(Object numeric, num quarters) {
+      return _quartersFuture5(numeric, quarters);
+    }
+
+    String _quartersFuture7(num quarters, Object numeric) {
+      return intl.Intl.pluralLogic(
+        quarters,
+        locale: localeName,
+        other: _quartersFuture0(quarters),
+        one: _quartersFuture3(numeric, quarters),
+        zero: _quartersFuture6(numeric, quarters),
+      );
+    }
+
+    return _quartersFuture7(quarters, numeric);
   }
 
   @override
-  String yearsPastNumeric(num years) {
-    return intl.Intl.pluralLogic(
-      years,
-      locale: localeName,
-      one: '$years bhliain ó shin',
-      two: '$years bhliain ó shin',
-      few: '$years bliana ó shin',
-      many: '$years mbliana ó shin',
-      other: '$years bliain ó shin',
-    );
+  String quartersPast(num quarters, Object numeric) {
+    String _quartersPast0(num quarters) {
+      return '$quarters ráithe ó shin';
+    }
+
+    String _quartersPast1(num quarters) {
+      return '$quarters ráithe ó shin';
+    }
+
+    String _quartersPast2(Object numeric, num quarters) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _quartersPast1(quarters),
+          'other': 'an ráithe seo caite',
+        },
+      );
+    }
+
+    String _quartersPast3(Object numeric, num quarters) {
+      return _quartersPast2(numeric, quarters);
+    }
+
+    String _quartersPast4(num quarters) {
+      return '$quarters ráithe ó shin';
+    }
+
+    String _quartersPast5(Object numeric, num quarters) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _quartersPast4(quarters),
+          'other': 'an ráithe seo',
+        },
+      );
+    }
+
+    String _quartersPast6(Object numeric, num quarters) {
+      return _quartersPast5(numeric, quarters);
+    }
+
+    String _quartersPast7(num quarters, Object numeric) {
+      return intl.Intl.pluralLogic(
+        quarters,
+        locale: localeName,
+        other: _quartersPast0(quarters),
+        one: _quartersPast3(numeric, quarters),
+        zero: _quartersPast6(numeric, quarters),
+      );
+    }
+
+    return _quartersPast7(quarters, numeric);
   }
 
   @override
-  String quartersFuture(num quarters) {
-    return intl.Intl.pluralLogic(
-      quarters,
-      locale: localeName,
-      zero: 'an ráithe seo',
-      one: 'an ráithe seo chugainn',
-      other: 'i gceann $quarters ráithe',
-    );
+  String monthsFuture(num months, Object numeric) {
+    String _monthsFuture0(num months) {
+      return 'i gceann $months mí';
+    }
+
+    String _monthsFuture1(num months) {
+      return 'i gceann $months mhí';
+    }
+
+    String _monthsFuture2(num months) {
+      return 'i gceann $months mhí';
+    }
+
+    String _monthsFuture3(num months) {
+      return 'i gceann $months mhí';
+    }
+
+    String _monthsFuture4(Object numeric, num months) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _monthsFuture3(months),
+          'other': 'an mhí seo chugainn',
+        },
+      );
+    }
+
+    String _monthsFuture5(Object numeric, num months) {
+      return _monthsFuture4(numeric, months);
+    }
+
+    String _monthsFuture6(num months) {
+      return 'i gceann $months mí';
+    }
+
+    String _monthsFuture7(Object numeric, num months) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _monthsFuture6(months),
+          'other': 'an mhí seo',
+        },
+      );
+    }
+
+    String _monthsFuture8(Object numeric, num months) {
+      return _monthsFuture7(numeric, months);
+    }
+
+    String _monthsFuture9(num months, Object numeric) {
+      return intl.Intl.pluralLogic(
+        months,
+        locale: localeName,
+        other: _monthsFuture0(months),
+        few: _monthsFuture1(months),
+        two: _monthsFuture2(months),
+        one: _monthsFuture5(numeric, months),
+        zero: _monthsFuture8(numeric, months),
+      );
+    }
+
+    return _monthsFuture9(months, numeric);
   }
 
   @override
-  String quartersFutureNumeric(num quarters) {
-    return intl.Intl.pluralLogic(
-      quarters,
-      locale: localeName,
-      other: 'i gceann $quarters ráithe',
-    );
+  String monthsPast(num months, Object numeric) {
+    String _monthsPast0(num months) {
+      return '$months mí ó shin';
+    }
+
+    String _monthsPast1(num months) {
+      return '$months mhí ó shin';
+    }
+
+    String _monthsPast2(num months) {
+      return '$months mhí ó shin';
+    }
+
+    String _monthsPast3(num months) {
+      return '$months mhí ó shin';
+    }
+
+    String _monthsPast4(Object numeric, num months) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _monthsPast3(months),
+          'other': 'an mhí seo caite',
+        },
+      );
+    }
+
+    String _monthsPast5(Object numeric, num months) {
+      return _monthsPast4(numeric, months);
+    }
+
+    String _monthsPast6(num months) {
+      return '$months mí ó shin';
+    }
+
+    String _monthsPast7(Object numeric, num months) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _monthsPast6(months),
+          'other': 'an mhí seo',
+        },
+      );
+    }
+
+    String _monthsPast8(Object numeric, num months) {
+      return _monthsPast7(numeric, months);
+    }
+
+    String _monthsPast9(num months, Object numeric) {
+      return intl.Intl.pluralLogic(
+        months,
+        locale: localeName,
+        other: _monthsPast0(months),
+        few: _monthsPast1(months),
+        two: _monthsPast2(months),
+        one: _monthsPast5(numeric, months),
+        zero: _monthsPast8(numeric, months),
+      );
+    }
+
+    return _monthsPast9(months, numeric);
   }
 
   @override
-  String quartersPast(num quarters) {
-    return intl.Intl.pluralLogic(
-      quarters,
-      locale: localeName,
-      zero: 'an ráithe seo',
-      one: 'an ráithe seo caite',
-      other: '$quarters ráithe ó shin',
-    );
+  String weeksFuture(num weeks, Object numeric) {
+    String _weeksFuture0(num weeks) {
+      return 'i gceann $weeks seachtain';
+    }
+
+    String _weeksFuture1(num weeks) {
+      return 'i gceann $weeks seachtaine';
+    }
+
+    String _weeksFuture2(num weeks) {
+      return 'i gceann $weeks seachtaine';
+    }
+
+    String _weeksFuture3(num weeks) {
+      return 'i gceann $weeks sheachtain';
+    }
+
+    String _weeksFuture4(num weeks) {
+      return 'i gceann $weeks seachtaine';
+    }
+
+    String _weeksFuture5(Object numeric, num weeks) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _weeksFuture4(weeks),
+          'other': 'an tseachtain seo chugainn',
+        },
+      );
+    }
+
+    String _weeksFuture6(Object numeric, num weeks) {
+      return _weeksFuture5(numeric, weeks);
+    }
+
+    String _weeksFuture7(num weeks) {
+      return 'i gceann $weeks seachtain';
+    }
+
+    String _weeksFuture8(Object numeric, num weeks) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _weeksFuture7(weeks),
+          'other': 'an tseachtain seo',
+        },
+      );
+    }
+
+    String _weeksFuture9(Object numeric, num weeks) {
+      return _weeksFuture8(numeric, weeks);
+    }
+
+    String _weeksFuture10(num weeks, Object numeric) {
+      return intl.Intl.pluralLogic(
+        weeks,
+        locale: localeName,
+        other: _weeksFuture0(weeks),
+        many: _weeksFuture1(weeks),
+        few: _weeksFuture2(weeks),
+        two: _weeksFuture3(weeks),
+        one: _weeksFuture6(numeric, weeks),
+        zero: _weeksFuture9(numeric, weeks),
+      );
+    }
+
+    return _weeksFuture10(weeks, numeric);
   }
 
   @override
-  String quartersPastNumeric(num quarters) {
-    return intl.Intl.pluralLogic(
-      quarters,
-      locale: localeName,
-      other: '$quarters ráithe ó shin',
-    );
+  String weeksPast(num weeks, Object numeric) {
+    String _weeksPast0(num weeks) {
+      return '$weeks seachtain ó shin';
+    }
+
+    String _weeksPast1(num weeks) {
+      return '$weeks seachtaine ó shin';
+    }
+
+    String _weeksPast2(num weeks) {
+      return '$weeks seachtaine ó shin';
+    }
+
+    String _weeksPast3(num weeks) {
+      return '$weeks sheachtain ó shin';
+    }
+
+    String _weeksPast4(num weeks) {
+      return '$weeks seachtain ó shin';
+    }
+
+    String _weeksPast5(Object numeric, num weeks) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _weeksPast4(weeks),
+          'other': 'an tseachtain seo caite',
+        },
+      );
+    }
+
+    String _weeksPast6(Object numeric, num weeks) {
+      return _weeksPast5(numeric, weeks);
+    }
+
+    String _weeksPast7(num weeks) {
+      return '$weeks seachtain ó shin';
+    }
+
+    String _weeksPast8(Object numeric, num weeks) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _weeksPast7(weeks),
+          'other': 'an tseachtain seo',
+        },
+      );
+    }
+
+    String _weeksPast9(Object numeric, num weeks) {
+      return _weeksPast8(numeric, weeks);
+    }
+
+    String _weeksPast10(num weeks, Object numeric) {
+      return intl.Intl.pluralLogic(
+        weeks,
+        locale: localeName,
+        other: _weeksPast0(weeks),
+        many: _weeksPast1(weeks),
+        few: _weeksPast2(weeks),
+        two: _weeksPast3(weeks),
+        one: _weeksPast6(numeric, weeks),
+        zero: _weeksPast9(numeric, weeks),
+      );
+    }
+
+    return _weeksPast10(weeks, numeric);
   }
 
   @override
-  String monthsFuture(num months) {
-    return intl.Intl.pluralLogic(
-      months,
-      locale: localeName,
-      zero: 'an mhí seo',
-      one: 'an mhí seo chugainn',
-      two: 'i gceann $months mhí',
-      few: 'i gceann $months mhí',
-      other: 'i gceann $months mí',
-    );
+  String daysFuture(num days, Object numeric) {
+    String _daysFuture0(num days) {
+      return 'i gceann $days lá';
+    }
+
+    String _daysFuture1(num days) {
+      return 'i gceann $days lá';
+    }
+
+    String _daysFuture2(Object numeric, num days) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _daysFuture1(days),
+          'other': 'arú amárach',
+        },
+      );
+    }
+
+    String _daysFuture3(Object numeric, num days) {
+      return _daysFuture2(numeric, days);
+    }
+
+    String _daysFuture4(num days) {
+      return 'i gceann $days lá';
+    }
+
+    String _daysFuture5(Object numeric, num days) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _daysFuture4(days),
+          'other': 'amárach',
+        },
+      );
+    }
+
+    String _daysFuture6(Object numeric, num days) {
+      return _daysFuture5(numeric, days);
+    }
+
+    String _daysFuture7(num days) {
+      return 'i gceann $days lá';
+    }
+
+    String _daysFuture8(Object numeric, num days) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _daysFuture7(days),
+          'other': 'inniu',
+        },
+      );
+    }
+
+    String _daysFuture9(Object numeric, num days) {
+      return _daysFuture8(numeric, days);
+    }
+
+    String _daysFuture10(num days, Object numeric) {
+      return intl.Intl.pluralLogic(
+        days,
+        locale: localeName,
+        other: _daysFuture0(days),
+        two: _daysFuture3(numeric, days),
+        one: _daysFuture6(numeric, days),
+        zero: _daysFuture9(numeric, days),
+      );
+    }
+
+    return _daysFuture10(days, numeric);
   }
 
   @override
-  String monthsFutureNumeric(num months) {
-    return intl.Intl.pluralLogic(
-      months,
-      locale: localeName,
-      one: 'i gceann $months mhí',
-      two: 'i gceann $months mhí',
-      few: 'i gceann $months mhí',
-      other: 'i gceann $months mí',
-    );
+  String daysPast(num days, Object numeric) {
+    String _daysPast0(num days) {
+      return '$days lá ó shin';
+    }
+
+    String _daysPast1(num days) {
+      return '$days lá ó shin';
+    }
+
+    String _daysPast2(Object numeric, num days) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _daysPast1(days),
+          'other': 'arú inné',
+        },
+      );
+    }
+
+    String _daysPast3(Object numeric, num days) {
+      return _daysPast2(numeric, days);
+    }
+
+    String _daysPast4(num days) {
+      return '$days lá ó shin';
+    }
+
+    String _daysPast5(Object numeric, num days) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _daysPast4(days),
+          'other': 'inné',
+        },
+      );
+    }
+
+    String _daysPast6(Object numeric, num days) {
+      return _daysPast5(numeric, days);
+    }
+
+    String _daysPast7(num days) {
+      return '$days lá ó shin';
+    }
+
+    String _daysPast8(Object numeric, num days) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _daysPast7(days),
+          'other': 'inniu',
+        },
+      );
+    }
+
+    String _daysPast9(Object numeric, num days) {
+      return _daysPast8(numeric, days);
+    }
+
+    String _daysPast10(num days, Object numeric) {
+      return intl.Intl.pluralLogic(
+        days,
+        locale: localeName,
+        other: _daysPast0(days),
+        two: _daysPast3(numeric, days),
+        one: _daysPast6(numeric, days),
+        zero: _daysPast9(numeric, days),
+      );
+    }
+
+    return _daysPast10(days, numeric);
   }
 
   @override
-  String monthsPast(num months) {
-    return intl.Intl.pluralLogic(
-      months,
-      locale: localeName,
-      zero: 'an mhí seo',
-      one: 'an mhí seo caite',
-      two: '$months mhí ó shin',
-      few: '$months mhí ó shin',
-      other: '$months mí ó shin',
-    );
+  String hoursFuture(num hours, Object numeric) {
+    String _hoursFuture0(num hours) {
+      return 'i gceann $hours uair an chloig';
+    }
+
+    String _hoursFuture1(num hours) {
+      return 'i gceann $hours n-uair an chloig';
+    }
+
+    String _hoursFuture2(num hours) {
+      return 'i gceann $hours uair an chloig';
+    }
+
+    String _hoursFuture3(Object numeric, num hours) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _hoursFuture2(hours),
+          'other': 'an uair seo',
+        },
+      );
+    }
+
+    String _hoursFuture4(Object numeric, num hours) {
+      return _hoursFuture3(numeric, hours);
+    }
+
+    String _hoursFuture5(num hours, Object numeric) {
+      return intl.Intl.pluralLogic(
+        hours,
+        locale: localeName,
+        other: _hoursFuture0(hours),
+        many: _hoursFuture1(hours),
+        zero: _hoursFuture4(numeric, hours),
+      );
+    }
+
+    return _hoursFuture5(hours, numeric);
   }
 
   @override
-  String monthsPastNumeric(num months) {
-    return intl.Intl.pluralLogic(
-      months,
-      locale: localeName,
-      one: '$months mhí ó shin',
-      two: '$months mhí ó shin',
-      few: '$months mhí ó shin',
-      other: '$months mí ó shin',
-    );
+  String hoursPast(num hours, Object numeric) {
+    String _hoursPast0(num hours) {
+      return '$hours uair an chloig ó shin';
+    }
+
+    String _hoursPast1(num hours) {
+      return '$hours n-uair an chloig ó shin';
+    }
+
+    String _hoursPast2(num hours) {
+      return '$hours uair an chloig ó shin';
+    }
+
+    String _hoursPast3(Object numeric, num hours) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _hoursPast2(hours),
+          'other': 'an uair seo',
+        },
+      );
+    }
+
+    String _hoursPast4(Object numeric, num hours) {
+      return _hoursPast3(numeric, hours);
+    }
+
+    String _hoursPast5(num hours, Object numeric) {
+      return intl.Intl.pluralLogic(
+        hours,
+        locale: localeName,
+        other: _hoursPast0(hours),
+        many: _hoursPast1(hours),
+        zero: _hoursPast4(numeric, hours),
+      );
+    }
+
+    return _hoursPast5(hours, numeric);
   }
 
   @override
-  String weeksFuture(num weeks) {
-    return intl.Intl.pluralLogic(
-      weeks,
-      locale: localeName,
-      zero: 'an tseachtain seo',
-      one: 'an tseachtain seo chugainn',
-      two: 'i gceann $weeks sheachtain',
-      few: 'i gceann $weeks seachtaine',
-      many: 'i gceann $weeks seachtaine',
-      other: 'i gceann $weeks seachtain',
-    );
+  String minutesFuture(num minutes, Object numeric) {
+    String _minutesFuture0(num minutes) {
+      return 'i gceann $minutes nóiméad';
+    }
+
+    String _minutesFuture1(num minutes) {
+      return 'i gceann $minutes nóiméad';
+    }
+
+    String _minutesFuture2(Object numeric, num minutes) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _minutesFuture1(minutes),
+          'other': 'an nóiméad seo',
+        },
+      );
+    }
+
+    String _minutesFuture3(Object numeric, num minutes) {
+      return _minutesFuture2(numeric, minutes);
+    }
+
+    String _minutesFuture4(num minutes, Object numeric) {
+      return intl.Intl.pluralLogic(
+        minutes,
+        locale: localeName,
+        other: _minutesFuture0(minutes),
+        zero: _minutesFuture3(numeric, minutes),
+      );
+    }
+
+    return _minutesFuture4(minutes, numeric);
   }
 
   @override
-  String weeksFutureNumeric(num weeks) {
-    return intl.Intl.pluralLogic(
-      weeks,
-      locale: localeName,
-      one: 'i gceann $weeks seachtaine',
-      two: 'i gceann $weeks sheachtain',
-      few: 'i gceann $weeks seachtaine',
-      many: 'i gceann $weeks seachtaine',
-      other: 'i gceann $weeks seachtain',
-    );
+  String minutesPast(num minutes, Object numeric) {
+    String _minutesPast0(num minutes) {
+      return '$minutes nóiméad ó shin';
+    }
+
+    String _minutesPast1(num minutes) {
+      return '$minutes nóiméad ó shin';
+    }
+
+    String _minutesPast2(Object numeric, num minutes) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _minutesPast1(minutes),
+          'other': 'an nóiméad seo',
+        },
+      );
+    }
+
+    String _minutesPast3(Object numeric, num minutes) {
+      return _minutesPast2(numeric, minutes);
+    }
+
+    String _minutesPast4(num minutes, Object numeric) {
+      return intl.Intl.pluralLogic(
+        minutes,
+        locale: localeName,
+        other: _minutesPast0(minutes),
+        zero: _minutesPast3(numeric, minutes),
+      );
+    }
+
+    return _minutesPast4(minutes, numeric);
   }
 
   @override
-  String weeksPast(num weeks) {
-    return intl.Intl.pluralLogic(
-      weeks,
-      locale: localeName,
-      zero: 'an tseachtain seo',
-      one: 'an tseachtain seo caite',
-      two: '$weeks sheachtain ó shin',
-      few: '$weeks seachtaine ó shin',
-      many: '$weeks seachtaine ó shin',
-      other: '$weeks seachtain ó shin',
-    );
+  String secondsFuture(num seconds, Object numeric) {
+    String _secondsFuture0(num seconds) {
+      return 'i gceann $seconds soicind';
+    }
+
+    String _secondsFuture1(num seconds) {
+      return 'i gceann $seconds shoicind';
+    }
+
+    String _secondsFuture2(num seconds) {
+      return 'i gceann $seconds shoicind';
+    }
+
+    String _secondsFuture3(num seconds) {
+      return 'i gceann $seconds soicind';
+    }
+
+    String _secondsFuture4(Object numeric, num seconds) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _secondsFuture3(seconds),
+          'other': 'anois',
+        },
+      );
+    }
+
+    String _secondsFuture5(Object numeric, num seconds) {
+      return _secondsFuture4(numeric, seconds);
+    }
+
+    String _secondsFuture6(num seconds, Object numeric) {
+      return intl.Intl.pluralLogic(
+        seconds,
+        locale: localeName,
+        other: _secondsFuture0(seconds),
+        few: _secondsFuture1(seconds),
+        two: _secondsFuture2(seconds),
+        zero: _secondsFuture5(numeric, seconds),
+      );
+    }
+
+    return _secondsFuture6(seconds, numeric);
   }
 
   @override
-  String weeksPastNumeric(num weeks) {
-    return intl.Intl.pluralLogic(
-      weeks,
-      locale: localeName,
-      two: '$weeks sheachtain ó shin',
-      few: '$weeks seachtaine ó shin',
-      many: '$weeks seachtaine ó shin',
-      other: '$weeks seachtain ó shin',
-    );
-  }
+  String secondsPast(num seconds, Object numeric) {
+    String _secondsPast0(num seconds) {
+      return '$seconds soicind ó shin';
+    }
 
-  @override
-  String daysFuture(num days) {
-    return intl.Intl.pluralLogic(
-      days,
-      locale: localeName,
-      zero: 'inniu',
-      one: 'amárach',
-      two: 'arú amárach',
-      other: 'i gceann $days lá',
-    );
-  }
+    String _secondsPast1(num seconds) {
+      return '$seconds shoicind ó shin';
+    }
 
-  @override
-  String daysFutureNumeric(num days) {
-    return intl.Intl.pluralLogic(
-      days,
-      locale: localeName,
-      other: 'i gceann $days lá',
-    );
-  }
+    String _secondsPast2(num seconds) {
+      return '$seconds shoicind ó shin';
+    }
 
-  @override
-  String daysPast(num days) {
-    return intl.Intl.pluralLogic(
-      days,
-      locale: localeName,
-      zero: 'inniu',
-      one: 'inné',
-      two: 'arú inné',
-      other: '$days lá ó shin',
-    );
-  }
+    String _secondsPast3(num seconds) {
+      return '$seconds soicind ó shin';
+    }
 
-  @override
-  String daysPastNumeric(num days) {
-    return intl.Intl.pluralLogic(
-      days,
-      locale: localeName,
-      other: '$days lá ó shin',
-    );
-  }
+    String _secondsPast4(Object numeric, num seconds) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _secondsPast3(seconds),
+          'other': 'anois',
+        },
+      );
+    }
 
-  @override
-  String hoursFuture(num hours) {
-    return intl.Intl.pluralLogic(
-      hours,
-      locale: localeName,
-      zero: 'an uair seo',
-      many: 'i gceann $hours n-uair an chloig',
-      other: 'i gceann $hours uair an chloig',
-    );
-  }
+    String _secondsPast5(Object numeric, num seconds) {
+      return _secondsPast4(numeric, seconds);
+    }
 
-  @override
-  String hoursFutureNumeric(num hours) {
-    return intl.Intl.pluralLogic(
-      hours,
-      locale: localeName,
-      many: 'i gceann $hours n-uair an chloig',
-      other: 'i gceann $hours uair an chloig',
-    );
-  }
+    String _secondsPast6(num seconds, Object numeric) {
+      return intl.Intl.pluralLogic(
+        seconds,
+        locale: localeName,
+        other: _secondsPast0(seconds),
+        few: _secondsPast1(seconds),
+        two: _secondsPast2(seconds),
+        zero: _secondsPast5(numeric, seconds),
+      );
+    }
 
-  @override
-  String hoursPast(num hours) {
-    return intl.Intl.pluralLogic(
-      hours,
-      locale: localeName,
-      zero: 'an uair seo',
-      many: '$hours n-uair an chloig ó shin',
-      other: '$hours uair an chloig ó shin',
-    );
-  }
-
-  @override
-  String hoursPastNumeric(num hours) {
-    return intl.Intl.pluralLogic(
-      hours,
-      locale: localeName,
-      many: '$hours n-uair an chloig ó shin',
-      other: '$hours uair an chloig ó shin',
-    );
-  }
-
-  @override
-  String minutesFuture(num minutes) {
-    return intl.Intl.pluralLogic(
-      minutes,
-      locale: localeName,
-      zero: 'an nóiméad seo',
-      other: 'i gceann $minutes nóiméad',
-    );
-  }
-
-  @override
-  String minutesFutureNumeric(num minutes) {
-    return intl.Intl.pluralLogic(
-      minutes,
-      locale: localeName,
-      other: 'i gceann $minutes nóiméad',
-    );
-  }
-
-  @override
-  String minutesPast(num minutes) {
-    return intl.Intl.pluralLogic(
-      minutes,
-      locale: localeName,
-      zero: 'an nóiméad seo',
-      other: '$minutes nóiméad ó shin',
-    );
-  }
-
-  @override
-  String minutesPastNumeric(num minutes) {
-    return intl.Intl.pluralLogic(
-      minutes,
-      locale: localeName,
-      other: '$minutes nóiméad ó shin',
-    );
-  }
-
-  @override
-  String secondsFuture(num seconds) {
-    return intl.Intl.pluralLogic(
-      seconds,
-      locale: localeName,
-      zero: 'anois',
-      two: 'i gceann $seconds shoicind',
-      few: 'i gceann $seconds shoicind',
-      other: 'i gceann $seconds soicind',
-    );
-  }
-
-  @override
-  String secondsFutureNumeric(num seconds) {
-    return intl.Intl.pluralLogic(
-      seconds,
-      locale: localeName,
-      two: 'i gceann $seconds shoicind',
-      few: 'i gceann $seconds shoicind',
-      other: 'i gceann $seconds soicind',
-    );
-  }
-
-  @override
-  String secondsPast(num seconds) {
-    return intl.Intl.pluralLogic(
-      seconds,
-      locale: localeName,
-      zero: 'anois',
-      two: '$seconds shoicind ó shin',
-      few: '$seconds shoicind ó shin',
-      other: '$seconds soicind ó shin',
-    );
-  }
-
-  @override
-  String secondsPastNumeric(num seconds) {
-    return intl.Intl.pluralLogic(
-      seconds,
-      locale: localeName,
-      two: '$seconds shoicind ó shin',
-      few: '$seconds shoicind ó shin',
-      other: '$seconds soicind ó shin',
-    );
+    return _secondsPast6(seconds, numeric);
   }
 }

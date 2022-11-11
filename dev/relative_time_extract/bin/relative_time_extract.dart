@@ -20,6 +20,7 @@ const List<String> supportedDateFieldTypes = <String>[
 const String templateLocale = 'en';
 
 const Map<String, String> relativeTimePatternCountMapping = <String, String>{
+  'zero': '=0',
   'one': '=1',
   'two': '=2',
 };
@@ -131,6 +132,10 @@ Iterable<MapEntry<String, dynamic>> _getEntries({
     yield* _getPluralEntries(
       plurals: _getRelativeTimePatternPlurals(
         relatives: relatives,
+        dateType: dateType,
+        relativeTimeType: relativeTimeType,
+      ),
+      pluralsNumeric: _getRelativeTimePatternPluralsNumeric(
         relativeTimePatterns: relativeTimePatterns,
         dateType: dateType,
         relativeTimeType: relativeTimeType,
@@ -138,25 +143,12 @@ Iterable<MapEntry<String, dynamic>> _getEntries({
       dateType: dateType,
       relativeTimeType: relativeTimeType,
       locale: locale,
-    );
-
-    yield* _getPluralEntries(
-      plurals: _getRelativeTimePatternPluralsNumeric(
-        relativeTimePatterns: relativeTimePatterns,
-        dateType: dateType,
-        relativeTimeType: relativeTimeType,
-      ),
-      dateType: dateType,
-      relativeTimeType: relativeTimeType,
-      locale: locale,
-      suffix: 'numeric',
     );
   }
 }
 
 Map<String, String> _getRelativeTimePatternPlurals({
   required Iterable<XmlElement> relatives,
-  required Iterable<XmlElement> relativeTimePatterns,
   required String relativeTimeType,
   required String dateType,
 }) {
@@ -181,19 +173,6 @@ Map<String, String> _getRelativeTimePatternPlurals({
   for (final amount in amounts) {
     final String key = '=$amount';
     relativeTimePatternPlurals[key] = relativePlurals[amount]!;
-  }
-
-  for (final XmlElement relativeTimePattern in relativeTimePatterns) {
-    final MapEntry<String, String> relativeTimePatternEntry =
-        _getRelativeTimePatternEntry(
-      relativeTimePattern: relativeTimePattern,
-      dateType: dateType,
-    );
-
-    if (!relativeTimePatternPlurals.containsKey(relativeTimePatternEntry.key)) {
-      relativeTimePatternPlurals[relativeTimePatternEntry.key] =
-          relativeTimePatternEntry.value;
-    }
   }
 
   return relativeTimePatternPlurals;
@@ -226,47 +205,51 @@ MapEntry<String, String> _getRelativeTimePatternEntry({
 }) {
   final String key = _getMappedRelativeTimePatternCount(relativeTimePattern);
   final String value =
-      relativeTimePattern.text.replaceFirst('{0}', '{$dateType}');
+      relativeTimePattern.text.replaceFirst(RegExp(r'\{+0\}+'), '{$dateType}');
   return MapEntry<String, String>(key, value);
 }
 
 Iterable<MapEntry<String, dynamic>> _getPluralEntries({
   required Map<String, String> plurals,
+  required Map<String, String> pluralsNumeric,
   required String dateType,
   required String relativeTimeType,
   required String locale,
-  String? suffix,
 }) sync* {
   final MapEntry<String, String>? otherEntry =
-      plurals.entries.firstWhereOrNull((entry) => entry.key == 'other');
+      pluralsNumeric.entries.firstWhereOrNull(
+    (MapEntry<String, String> entry) => entry.key == 'other',
+  );
 
   if (otherEntry == null) {
     return;
   }
 
   final String key = '$dateType'
-      '${intl.toBeginningOfSentenceCase(relativeTimeType)}'
-      '${suffix != null ? intl.toBeginningOfSentenceCase(suffix) : ''}';
-  final String pluralsJoined = plurals.entries
+      '${intl.toBeginningOfSentenceCase(relativeTimeType)}';
+  final String pluralsJoined = {...plurals.keys, ...pluralsNumeric.keys}
       .where(
-        (MapEntry<String, String> entry) =>
-            entry.key == otherEntry.key || entry.value != otherEntry.value,
+        (String pluralKey) =>
+            pluralKey == otherEntry.key ||
+            plurals[pluralKey] != null ||
+            pluralsNumeric[pluralKey] != otherEntry.value,
       )
       .map(
-        (MapEntry<String, String> plural) => '${plural.key}{${plural.value}}',
+        (String pluralKey) => plurals.containsKey(pluralKey)
+            ? '$pluralKey{{numeric, select, true{${pluralsNumeric[pluralKey] ?? otherEntry.value}} other{${plurals[pluralKey]}}}}'
+            : '$pluralKey{${pluralsNumeric[pluralKey]}}',
       )
       .join(' ');
   yield MapEntry(key, '{$dateType, plural, $pluralsJoined}');
 
   if (locale == templateLocale) {
     yield MapEntry('@$key', <String, dynamic>{
-      'description': 'Number of $dateType in the $relativeTimeType'
-          '${suffix != null ? ' ($suffix)' : ''}'
-          '.',
+      'description': 'Number of $dateType in the $relativeTimeType.',
       'placeholders': <String, dynamic>{
         dateType: <String, dynamic>{
           'type': 'int',
         },
+        'numeric': <String, dynamic>{},
       },
     });
   }
@@ -283,7 +266,7 @@ String _getMappedRelativeTimePatternCount(XmlElement relativeTimePattern) {
 }
 
 int _expectedEntries(String locale) =>
-    supportedDateFieldTypes.length * 4 * (locale == templateLocale ? 2 : 1);
+    supportedDateFieldTypes.length * 2 * (locale == templateLocale ? 2 : 1);
 
 void _writeArb(String locale, Map<String, dynamic> entries) {
   final String mappedLocale = localeMapping[locale] ?? locale;

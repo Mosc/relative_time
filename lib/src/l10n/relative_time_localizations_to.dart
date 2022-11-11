@@ -7,318 +7,806 @@ class RelativeTimeLocalizationsTo extends RelativeTimeLocalizations {
   RelativeTimeLocalizationsTo([String locale = 'to']) : super(locale);
 
   @override
-  String yearsFuture(num years) {
-    return intl.Intl.pluralLogic(
-      years,
-      locale: localeName,
-      zero: 'taʻú ni',
-      one: 'taʻu kahaʻu',
-      other: 'ʻi he taʻu ʻe $years',
-    );
+  String yearsFuture(num years, Object numeric) {
+    String _yearsFuture0(num years) {
+      return 'ʻi he taʻu ʻe $years';
+    }
+
+    String _yearsFuture1(num years) {
+      return 'ʻi he taʻu ʻe $years';
+    }
+
+    String _yearsFuture2(Object numeric, num years) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _yearsFuture1(years),
+          'other': 'taʻu kahaʻu',
+        },
+      );
+    }
+
+    String _yearsFuture3(Object numeric, num years) {
+      return _yearsFuture2(numeric, years);
+    }
+
+    String _yearsFuture4(num years) {
+      return 'ʻi he taʻu ʻe $years';
+    }
+
+    String _yearsFuture5(Object numeric, num years) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _yearsFuture4(years),
+          'other': 'taʻú ni',
+        },
+      );
+    }
+
+    String _yearsFuture6(Object numeric, num years) {
+      return _yearsFuture5(numeric, years);
+    }
+
+    String _yearsFuture7(num years, Object numeric) {
+      return intl.Intl.pluralLogic(
+        years,
+        locale: localeName,
+        other: _yearsFuture0(years),
+        one: _yearsFuture3(numeric, years),
+        zero: _yearsFuture6(numeric, years),
+      );
+    }
+
+    return _yearsFuture7(years, numeric);
   }
 
   @override
-  String yearsFutureNumeric(num years) {
-    return intl.Intl.pluralLogic(
-      years,
-      locale: localeName,
-      other: 'ʻi he taʻu ʻe $years',
-    );
+  String yearsPast(num years, Object numeric) {
+    String _yearsPast0(num years) {
+      return 'taʻu ʻe $years kuoʻosi';
+    }
+
+    String _yearsPast1(num years) {
+      return 'taʻu ʻe $years kuoʻosi';
+    }
+
+    String _yearsPast2(Object numeric, num years) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _yearsPast1(years),
+          'other': 'taʻu kuoʻosi',
+        },
+      );
+    }
+
+    String _yearsPast3(Object numeric, num years) {
+      return _yearsPast2(numeric, years);
+    }
+
+    String _yearsPast4(num years) {
+      return 'taʻu ʻe $years kuoʻosi';
+    }
+
+    String _yearsPast5(Object numeric, num years) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _yearsPast4(years),
+          'other': 'taʻú ni',
+        },
+      );
+    }
+
+    String _yearsPast6(Object numeric, num years) {
+      return _yearsPast5(numeric, years);
+    }
+
+    String _yearsPast7(num years, Object numeric) {
+      return intl.Intl.pluralLogic(
+        years,
+        locale: localeName,
+        other: _yearsPast0(years),
+        one: _yearsPast3(numeric, years),
+        zero: _yearsPast6(numeric, years),
+      );
+    }
+
+    return _yearsPast7(years, numeric);
   }
 
   @override
-  String yearsPast(num years) {
-    return intl.Intl.pluralLogic(
-      years,
-      locale: localeName,
-      zero: 'taʻú ni',
-      one: 'taʻu kuoʻosi',
-      other: 'taʻu ʻe $years kuoʻosi',
-    );
+  String quartersFuture(num quarters, Object numeric) {
+    String _quartersFuture0(num quarters) {
+      return 'ʻi he kuata ʻe $quarters';
+    }
+
+    String _quartersFuture1(num quarters) {
+      return 'ʻi he kuata ʻe $quarters';
+    }
+
+    String _quartersFuture2(Object numeric, num quarters) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _quartersFuture1(quarters),
+          'other': 'kuata hoko',
+        },
+      );
+    }
+
+    String _quartersFuture3(Object numeric, num quarters) {
+      return _quartersFuture2(numeric, quarters);
+    }
+
+    String _quartersFuture4(num quarters) {
+      return 'ʻi he kuata ʻe $quarters';
+    }
+
+    String _quartersFuture5(Object numeric, num quarters) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _quartersFuture4(quarters),
+          'other': 'kuata koʻeni',
+        },
+      );
+    }
+
+    String _quartersFuture6(Object numeric, num quarters) {
+      return _quartersFuture5(numeric, quarters);
+    }
+
+    String _quartersFuture7(num quarters, Object numeric) {
+      return intl.Intl.pluralLogic(
+        quarters,
+        locale: localeName,
+        other: _quartersFuture0(quarters),
+        one: _quartersFuture3(numeric, quarters),
+        zero: _quartersFuture6(numeric, quarters),
+      );
+    }
+
+    return _quartersFuture7(quarters, numeric);
   }
 
   @override
-  String yearsPastNumeric(num years) {
-    return intl.Intl.pluralLogic(
-      years,
-      locale: localeName,
-      other: 'taʻu ʻe $years kuoʻosi',
-    );
+  String quartersPast(num quarters, Object numeric) {
+    String _quartersPast0(num quarters) {
+      return 'kuata ʻe $quarters kuoʻosi';
+    }
+
+    String _quartersPast1(num quarters) {
+      return 'kuata ʻe $quarters kuoʻosi';
+    }
+
+    String _quartersPast2(Object numeric, num quarters) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _quartersPast1(quarters),
+          'other': 'kuata kuoʻosi',
+        },
+      );
+    }
+
+    String _quartersPast3(Object numeric, num quarters) {
+      return _quartersPast2(numeric, quarters);
+    }
+
+    String _quartersPast4(num quarters) {
+      return 'kuata ʻe $quarters kuoʻosi';
+    }
+
+    String _quartersPast5(Object numeric, num quarters) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _quartersPast4(quarters),
+          'other': 'kuata koʻeni',
+        },
+      );
+    }
+
+    String _quartersPast6(Object numeric, num quarters) {
+      return _quartersPast5(numeric, quarters);
+    }
+
+    String _quartersPast7(num quarters, Object numeric) {
+      return intl.Intl.pluralLogic(
+        quarters,
+        locale: localeName,
+        other: _quartersPast0(quarters),
+        one: _quartersPast3(numeric, quarters),
+        zero: _quartersPast6(numeric, quarters),
+      );
+    }
+
+    return _quartersPast7(quarters, numeric);
   }
 
   @override
-  String quartersFuture(num quarters) {
-    return intl.Intl.pluralLogic(
-      quarters,
-      locale: localeName,
-      zero: 'kuata koʻeni',
-      one: 'kuata hoko',
-      other: 'ʻi he kuata ʻe $quarters',
-    );
+  String monthsFuture(num months, Object numeric) {
+    String _monthsFuture0(num months) {
+      return 'ʻi he māhina ʻe $months';
+    }
+
+    String _monthsFuture1(num months) {
+      return 'ʻi he māhina ʻe $months';
+    }
+
+    String _monthsFuture2(Object numeric, num months) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _monthsFuture1(months),
+          'other': 'māhina kahaʻu',
+        },
+      );
+    }
+
+    String _monthsFuture3(Object numeric, num months) {
+      return _monthsFuture2(numeric, months);
+    }
+
+    String _monthsFuture4(num months) {
+      return 'ʻi he māhina ʻe $months';
+    }
+
+    String _monthsFuture5(Object numeric, num months) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _monthsFuture4(months),
+          'other': 'māhiná ni',
+        },
+      );
+    }
+
+    String _monthsFuture6(Object numeric, num months) {
+      return _monthsFuture5(numeric, months);
+    }
+
+    String _monthsFuture7(num months, Object numeric) {
+      return intl.Intl.pluralLogic(
+        months,
+        locale: localeName,
+        other: _monthsFuture0(months),
+        one: _monthsFuture3(numeric, months),
+        zero: _monthsFuture6(numeric, months),
+      );
+    }
+
+    return _monthsFuture7(months, numeric);
   }
 
   @override
-  String quartersFutureNumeric(num quarters) {
-    return intl.Intl.pluralLogic(
-      quarters,
-      locale: localeName,
-      other: 'ʻi he kuata ʻe $quarters',
-    );
+  String monthsPast(num months, Object numeric) {
+    String _monthsPast0(num months) {
+      return 'māhina ʻe $months kuoʻosi';
+    }
+
+    String _monthsPast1(num months) {
+      return 'māhina ʻe $months kuoʻosi';
+    }
+
+    String _monthsPast2(Object numeric, num months) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _monthsPast1(months),
+          'other': 'māhina kuoʻosi',
+        },
+      );
+    }
+
+    String _monthsPast3(Object numeric, num months) {
+      return _monthsPast2(numeric, months);
+    }
+
+    String _monthsPast4(num months) {
+      return 'māhina ʻe $months kuoʻosi';
+    }
+
+    String _monthsPast5(Object numeric, num months) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _monthsPast4(months),
+          'other': 'māhiná ni',
+        },
+      );
+    }
+
+    String _monthsPast6(Object numeric, num months) {
+      return _monthsPast5(numeric, months);
+    }
+
+    String _monthsPast7(num months, Object numeric) {
+      return intl.Intl.pluralLogic(
+        months,
+        locale: localeName,
+        other: _monthsPast0(months),
+        one: _monthsPast3(numeric, months),
+        zero: _monthsPast6(numeric, months),
+      );
+    }
+
+    return _monthsPast7(months, numeric);
   }
 
   @override
-  String quartersPast(num quarters) {
-    return intl.Intl.pluralLogic(
-      quarters,
-      locale: localeName,
-      zero: 'kuata koʻeni',
-      one: 'kuata kuoʻosi',
-      other: 'kuata ʻe $quarters kuoʻosi',
-    );
+  String weeksFuture(num weeks, Object numeric) {
+    String _weeksFuture0(num weeks) {
+      return 'ʻi he uike ʻe $weeks';
+    }
+
+    String _weeksFuture1(num weeks) {
+      return 'ʻi he uike ʻe $weeks';
+    }
+
+    String _weeksFuture2(Object numeric, num weeks) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _weeksFuture1(weeks),
+          'other': 'uike kahaʻu',
+        },
+      );
+    }
+
+    String _weeksFuture3(Object numeric, num weeks) {
+      return _weeksFuture2(numeric, weeks);
+    }
+
+    String _weeksFuture4(num weeks) {
+      return 'ʻi he uike ʻe $weeks';
+    }
+
+    String _weeksFuture5(Object numeric, num weeks) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _weeksFuture4(weeks),
+          'other': 'uiké ni',
+        },
+      );
+    }
+
+    String _weeksFuture6(Object numeric, num weeks) {
+      return _weeksFuture5(numeric, weeks);
+    }
+
+    String _weeksFuture7(num weeks, Object numeric) {
+      return intl.Intl.pluralLogic(
+        weeks,
+        locale: localeName,
+        other: _weeksFuture0(weeks),
+        one: _weeksFuture3(numeric, weeks),
+        zero: _weeksFuture6(numeric, weeks),
+      );
+    }
+
+    return _weeksFuture7(weeks, numeric);
   }
 
   @override
-  String quartersPastNumeric(num quarters) {
-    return intl.Intl.pluralLogic(
-      quarters,
-      locale: localeName,
-      other: 'kuata ʻe $quarters kuoʻosi',
-    );
+  String weeksPast(num weeks, Object numeric) {
+    String _weeksPast0(num weeks) {
+      return 'uike ʻe $weeks kuoʻosi';
+    }
+
+    String _weeksPast1(num weeks) {
+      return 'uike ʻe $weeks kuoʻosi';
+    }
+
+    String _weeksPast2(Object numeric, num weeks) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _weeksPast1(weeks),
+          'other': 'uike kuoʻosi',
+        },
+      );
+    }
+
+    String _weeksPast3(Object numeric, num weeks) {
+      return _weeksPast2(numeric, weeks);
+    }
+
+    String _weeksPast4(num weeks) {
+      return 'uike ʻe $weeks kuoʻosi';
+    }
+
+    String _weeksPast5(Object numeric, num weeks) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _weeksPast4(weeks),
+          'other': 'uiké ni',
+        },
+      );
+    }
+
+    String _weeksPast6(Object numeric, num weeks) {
+      return _weeksPast5(numeric, weeks);
+    }
+
+    String _weeksPast7(num weeks, Object numeric) {
+      return intl.Intl.pluralLogic(
+        weeks,
+        locale: localeName,
+        other: _weeksPast0(weeks),
+        one: _weeksPast3(numeric, weeks),
+        zero: _weeksPast6(numeric, weeks),
+      );
+    }
+
+    return _weeksPast7(weeks, numeric);
   }
 
   @override
-  String monthsFuture(num months) {
-    return intl.Intl.pluralLogic(
-      months,
-      locale: localeName,
-      zero: 'māhiná ni',
-      one: 'māhina kahaʻu',
-      other: 'ʻi he māhina ʻe $months',
-    );
+  String daysFuture(num days, Object numeric) {
+    String _daysFuture0(num days) {
+      return 'ʻi he ʻaho ʻe $days';
+    }
+
+    String _daysFuture1(num days) {
+      return 'ʻi he ʻaho ʻe $days';
+    }
+
+    String _daysFuture2(Object numeric, num days) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _daysFuture1(days),
+          'other': 'ʻahepongipongi',
+        },
+      );
+    }
+
+    String _daysFuture3(Object numeric, num days) {
+      return _daysFuture2(numeric, days);
+    }
+
+    String _daysFuture4(num days) {
+      return 'ʻi he ʻaho ʻe $days';
+    }
+
+    String _daysFuture5(Object numeric, num days) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _daysFuture4(days),
+          'other': 'ʻapongipongi',
+        },
+      );
+    }
+
+    String _daysFuture6(Object numeric, num days) {
+      return _daysFuture5(numeric, days);
+    }
+
+    String _daysFuture7(num days) {
+      return 'ʻi he ʻaho ʻe $days';
+    }
+
+    String _daysFuture8(Object numeric, num days) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _daysFuture7(days),
+          'other': 'ʻahó ni',
+        },
+      );
+    }
+
+    String _daysFuture9(Object numeric, num days) {
+      return _daysFuture8(numeric, days);
+    }
+
+    String _daysFuture10(num days, Object numeric) {
+      return intl.Intl.pluralLogic(
+        days,
+        locale: localeName,
+        other: _daysFuture0(days),
+        two: _daysFuture3(numeric, days),
+        one: _daysFuture6(numeric, days),
+        zero: _daysFuture9(numeric, days),
+      );
+    }
+
+    return _daysFuture10(days, numeric);
   }
 
   @override
-  String monthsFutureNumeric(num months) {
-    return intl.Intl.pluralLogic(
-      months,
-      locale: localeName,
-      other: 'ʻi he māhina ʻe $months',
-    );
+  String daysPast(num days, Object numeric) {
+    String _daysPast0(num days) {
+      return 'ʻaho ʻe $days kuoʻosi';
+    }
+
+    String _daysPast1(num days) {
+      return 'ʻaho ʻe $days kuoʻosi';
+    }
+
+    String _daysPast2(Object numeric, num days) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _daysPast1(days),
+          'other': 'ʻaneheafi',
+        },
+      );
+    }
+
+    String _daysPast3(Object numeric, num days) {
+      return _daysPast2(numeric, days);
+    }
+
+    String _daysPast4(num days) {
+      return 'ʻaho ʻe $days kuoʻosi';
+    }
+
+    String _daysPast5(Object numeric, num days) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _daysPast4(days),
+          'other': 'ʻaneafi',
+        },
+      );
+    }
+
+    String _daysPast6(Object numeric, num days) {
+      return _daysPast5(numeric, days);
+    }
+
+    String _daysPast7(num days) {
+      return 'ʻaho ʻe $days kuoʻosi';
+    }
+
+    String _daysPast8(Object numeric, num days) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _daysPast7(days),
+          'other': 'ʻahó ni',
+        },
+      );
+    }
+
+    String _daysPast9(Object numeric, num days) {
+      return _daysPast8(numeric, days);
+    }
+
+    String _daysPast10(num days, Object numeric) {
+      return intl.Intl.pluralLogic(
+        days,
+        locale: localeName,
+        other: _daysPast0(days),
+        two: _daysPast3(numeric, days),
+        one: _daysPast6(numeric, days),
+        zero: _daysPast9(numeric, days),
+      );
+    }
+
+    return _daysPast10(days, numeric);
   }
 
   @override
-  String monthsPast(num months) {
-    return intl.Intl.pluralLogic(
-      months,
-      locale: localeName,
-      zero: 'māhiná ni',
-      one: 'māhina kuoʻosi',
-      other: 'māhina ʻe $months kuoʻosi',
-    );
+  String hoursFuture(num hours, Object numeric) {
+    String _hoursFuture0(num hours) {
+      return 'ʻi he houa ʻe $hours';
+    }
+
+    String _hoursFuture1(num hours) {
+      return 'ʻi he houa ʻe $hours';
+    }
+
+    String _hoursFuture2(Object numeric, num hours) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _hoursFuture1(hours),
+          'other': 'ko e houa ʻeni',
+        },
+      );
+    }
+
+    String _hoursFuture3(Object numeric, num hours) {
+      return _hoursFuture2(numeric, hours);
+    }
+
+    String _hoursFuture4(num hours, Object numeric) {
+      return intl.Intl.pluralLogic(
+        hours,
+        locale: localeName,
+        other: _hoursFuture0(hours),
+        zero: _hoursFuture3(numeric, hours),
+      );
+    }
+
+    return _hoursFuture4(hours, numeric);
   }
 
   @override
-  String monthsPastNumeric(num months) {
-    return intl.Intl.pluralLogic(
-      months,
-      locale: localeName,
-      other: 'māhina ʻe $months kuoʻosi',
-    );
+  String hoursPast(num hours, Object numeric) {
+    String _hoursPast0(num hours) {
+      return 'houa ʻe $hours kuoʻosi';
+    }
+
+    String _hoursPast1(num hours) {
+      return 'houa ʻe $hours kuoʻosi';
+    }
+
+    String _hoursPast2(Object numeric, num hours) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _hoursPast1(hours),
+          'other': 'ko e houa ʻeni',
+        },
+      );
+    }
+
+    String _hoursPast3(Object numeric, num hours) {
+      return _hoursPast2(numeric, hours);
+    }
+
+    String _hoursPast4(num hours, Object numeric) {
+      return intl.Intl.pluralLogic(
+        hours,
+        locale: localeName,
+        other: _hoursPast0(hours),
+        zero: _hoursPast3(numeric, hours),
+      );
+    }
+
+    return _hoursPast4(hours, numeric);
   }
 
   @override
-  String weeksFuture(num weeks) {
-    return intl.Intl.pluralLogic(
-      weeks,
-      locale: localeName,
-      zero: 'uiké ni',
-      one: 'uike kahaʻu',
-      other: 'ʻi he uike ʻe $weeks',
-    );
+  String minutesFuture(num minutes, Object numeric) {
+    String _minutesFuture0(num minutes) {
+      return 'ʻi he miniti ʻe $minutes';
+    }
+
+    String _minutesFuture1(num minutes) {
+      return 'ʻi he miniti ʻe $minutes';
+    }
+
+    String _minutesFuture2(Object numeric, num minutes) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _minutesFuture1(minutes),
+          'other': 'ko e miniti ʻeni',
+        },
+      );
+    }
+
+    String _minutesFuture3(Object numeric, num minutes) {
+      return _minutesFuture2(numeric, minutes);
+    }
+
+    String _minutesFuture4(num minutes, Object numeric) {
+      return intl.Intl.pluralLogic(
+        minutes,
+        locale: localeName,
+        other: _minutesFuture0(minutes),
+        zero: _minutesFuture3(numeric, minutes),
+      );
+    }
+
+    return _minutesFuture4(minutes, numeric);
   }
 
   @override
-  String weeksFutureNumeric(num weeks) {
-    return intl.Intl.pluralLogic(
-      weeks,
-      locale: localeName,
-      other: 'ʻi he uike ʻe $weeks',
-    );
+  String minutesPast(num minutes, Object numeric) {
+    String _minutesPast0(num minutes) {
+      return 'miniti ʻe $minutes kuoʻosi';
+    }
+
+    String _minutesPast1(num minutes) {
+      return 'miniti ʻe $minutes kuoʻosi';
+    }
+
+    String _minutesPast2(Object numeric, num minutes) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _minutesPast1(minutes),
+          'other': 'ko e miniti ʻeni',
+        },
+      );
+    }
+
+    String _minutesPast3(Object numeric, num minutes) {
+      return _minutesPast2(numeric, minutes);
+    }
+
+    String _minutesPast4(num minutes, Object numeric) {
+      return intl.Intl.pluralLogic(
+        minutes,
+        locale: localeName,
+        other: _minutesPast0(minutes),
+        zero: _minutesPast3(numeric, minutes),
+      );
+    }
+
+    return _minutesPast4(minutes, numeric);
   }
 
   @override
-  String weeksPast(num weeks) {
-    return intl.Intl.pluralLogic(
-      weeks,
-      locale: localeName,
-      zero: 'uiké ni',
-      one: 'uike kuoʻosi',
-      other: 'uike ʻe $weeks kuoʻosi',
-    );
+  String secondsFuture(num seconds, Object numeric) {
+    String _secondsFuture0(num seconds) {
+      return 'ʻi he sekoni ʻe $seconds';
+    }
+
+    String _secondsFuture1(num seconds) {
+      return 'ʻi he sekoni ʻe $seconds';
+    }
+
+    String _secondsFuture2(Object numeric, num seconds) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _secondsFuture1(seconds),
+          'other': 'taimí ni',
+        },
+      );
+    }
+
+    String _secondsFuture3(Object numeric, num seconds) {
+      return _secondsFuture2(numeric, seconds);
+    }
+
+    String _secondsFuture4(num seconds, Object numeric) {
+      return intl.Intl.pluralLogic(
+        seconds,
+        locale: localeName,
+        other: _secondsFuture0(seconds),
+        zero: _secondsFuture3(numeric, seconds),
+      );
+    }
+
+    return _secondsFuture4(seconds, numeric);
   }
 
   @override
-  String weeksPastNumeric(num weeks) {
-    return intl.Intl.pluralLogic(
-      weeks,
-      locale: localeName,
-      other: 'uike ʻe $weeks kuoʻosi',
-    );
-  }
+  String secondsPast(num seconds, Object numeric) {
+    String _secondsPast0(num seconds) {
+      return 'sekoni ʻe $seconds kuoʻosi';
+    }
 
-  @override
-  String daysFuture(num days) {
-    return intl.Intl.pluralLogic(
-      days,
-      locale: localeName,
-      zero: 'ʻahó ni',
-      one: 'ʻapongipongi',
-      two: 'ʻahepongipongi',
-      other: 'ʻi he ʻaho ʻe $days',
-    );
-  }
+    String _secondsPast1(num seconds) {
+      return 'sekoni ʻe $seconds kuoʻosi';
+    }
 
-  @override
-  String daysFutureNumeric(num days) {
-    return intl.Intl.pluralLogic(
-      days,
-      locale: localeName,
-      other: 'ʻi he ʻaho ʻe $days',
-    );
-  }
+    String _secondsPast2(Object numeric, num seconds) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _secondsPast1(seconds),
+          'other': 'taimí ni',
+        },
+      );
+    }
 
-  @override
-  String daysPast(num days) {
-    return intl.Intl.pluralLogic(
-      days,
-      locale: localeName,
-      zero: 'ʻahó ni',
-      one: 'ʻaneafi',
-      two: 'ʻaneheafi',
-      other: 'ʻaho ʻe $days kuoʻosi',
-    );
-  }
+    String _secondsPast3(Object numeric, num seconds) {
+      return _secondsPast2(numeric, seconds);
+    }
 
-  @override
-  String daysPastNumeric(num days) {
-    return intl.Intl.pluralLogic(
-      days,
-      locale: localeName,
-      other: 'ʻaho ʻe $days kuoʻosi',
-    );
-  }
+    String _secondsPast4(num seconds, Object numeric) {
+      return intl.Intl.pluralLogic(
+        seconds,
+        locale: localeName,
+        other: _secondsPast0(seconds),
+        zero: _secondsPast3(numeric, seconds),
+      );
+    }
 
-  @override
-  String hoursFuture(num hours) {
-    return intl.Intl.pluralLogic(
-      hours,
-      locale: localeName,
-      zero: 'ko e houa ʻeni',
-      other: 'ʻi he houa ʻe $hours',
-    );
-  }
-
-  @override
-  String hoursFutureNumeric(num hours) {
-    return intl.Intl.pluralLogic(
-      hours,
-      locale: localeName,
-      other: 'ʻi he houa ʻe $hours',
-    );
-  }
-
-  @override
-  String hoursPast(num hours) {
-    return intl.Intl.pluralLogic(
-      hours,
-      locale: localeName,
-      zero: 'ko e houa ʻeni',
-      other: 'houa ʻe $hours kuoʻosi',
-    );
-  }
-
-  @override
-  String hoursPastNumeric(num hours) {
-    return intl.Intl.pluralLogic(
-      hours,
-      locale: localeName,
-      other: 'houa ʻe $hours kuoʻosi',
-    );
-  }
-
-  @override
-  String minutesFuture(num minutes) {
-    return intl.Intl.pluralLogic(
-      minutes,
-      locale: localeName,
-      zero: 'ko e miniti ʻeni',
-      other: 'ʻi he miniti ʻe $minutes',
-    );
-  }
-
-  @override
-  String minutesFutureNumeric(num minutes) {
-    return intl.Intl.pluralLogic(
-      minutes,
-      locale: localeName,
-      other: 'ʻi he miniti ʻe $minutes',
-    );
-  }
-
-  @override
-  String minutesPast(num minutes) {
-    return intl.Intl.pluralLogic(
-      minutes,
-      locale: localeName,
-      zero: 'ko e miniti ʻeni',
-      other: 'miniti ʻe $minutes kuoʻosi',
-    );
-  }
-
-  @override
-  String minutesPastNumeric(num minutes) {
-    return intl.Intl.pluralLogic(
-      minutes,
-      locale: localeName,
-      other: 'miniti ʻe $minutes kuoʻosi',
-    );
-  }
-
-  @override
-  String secondsFuture(num seconds) {
-    return intl.Intl.pluralLogic(
-      seconds,
-      locale: localeName,
-      zero: 'taimí ni',
-      other: 'ʻi he sekoni ʻe $seconds',
-    );
-  }
-
-  @override
-  String secondsFutureNumeric(num seconds) {
-    return intl.Intl.pluralLogic(
-      seconds,
-      locale: localeName,
-      other: 'ʻi he sekoni ʻe $seconds',
-    );
-  }
-
-  @override
-  String secondsPast(num seconds) {
-    return intl.Intl.pluralLogic(
-      seconds,
-      locale: localeName,
-      zero: 'taimí ni',
-      other: 'sekoni ʻe $seconds kuoʻosi',
-    );
-  }
-
-  @override
-  String secondsPastNumeric(num seconds) {
-    return intl.Intl.pluralLogic(
-      seconds,
-      locale: localeName,
-      other: 'sekoni ʻe $seconds kuoʻosi',
-    );
+    return _secondsPast4(seconds, numeric);
   }
 }

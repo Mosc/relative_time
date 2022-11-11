@@ -7,372 +7,916 @@ class RelativeTimeLocalizationsRo extends RelativeTimeLocalizations {
   RelativeTimeLocalizationsRo([String locale = 'ro']) : super(locale);
 
   @override
-  String yearsFuture(num years) {
-    return intl.Intl.pluralLogic(
-      years,
-      locale: localeName,
-      zero: 'anul acesta',
-      one: 'anul viitor',
-      few: 'peste $years ani',
-      other: 'peste $years de ani',
-    );
+  String yearsFuture(num years, Object numeric) {
+    String _yearsFuture0(num years) {
+      return 'peste $years de ani';
+    }
+
+    String _yearsFuture1(num years) {
+      return 'peste $years ani';
+    }
+
+    String _yearsFuture2(num years) {
+      return 'peste $years an';
+    }
+
+    String _yearsFuture3(Object numeric, num years) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _yearsFuture2(years),
+          'other': 'anul viitor',
+        },
+      );
+    }
+
+    String _yearsFuture4(Object numeric, num years) {
+      return _yearsFuture3(numeric, years);
+    }
+
+    String _yearsFuture5(num years) {
+      return 'peste $years de ani';
+    }
+
+    String _yearsFuture6(Object numeric, num years) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _yearsFuture5(years),
+          'other': 'anul acesta',
+        },
+      );
+    }
+
+    String _yearsFuture7(Object numeric, num years) {
+      return _yearsFuture6(numeric, years);
+    }
+
+    String _yearsFuture8(num years, Object numeric) {
+      return intl.Intl.pluralLogic(
+        years,
+        locale: localeName,
+        other: _yearsFuture0(years),
+        few: _yearsFuture1(years),
+        one: _yearsFuture4(numeric, years),
+        zero: _yearsFuture7(numeric, years),
+      );
+    }
+
+    return _yearsFuture8(years, numeric);
   }
 
   @override
-  String yearsFutureNumeric(num years) {
-    return intl.Intl.pluralLogic(
-      years,
-      locale: localeName,
-      one: 'peste $years an',
-      few: 'peste $years ani',
-      other: 'peste $years de ani',
-    );
+  String yearsPast(num years, Object numeric) {
+    String _yearsPast0(num years) {
+      return 'acum $years de ani';
+    }
+
+    String _yearsPast1(num years) {
+      return 'acum $years ani';
+    }
+
+    String _yearsPast2(num years) {
+      return 'acum $years an';
+    }
+
+    String _yearsPast3(Object numeric, num years) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _yearsPast2(years),
+          'other': 'anul trecut',
+        },
+      );
+    }
+
+    String _yearsPast4(Object numeric, num years) {
+      return _yearsPast3(numeric, years);
+    }
+
+    String _yearsPast5(num years) {
+      return 'acum $years de ani';
+    }
+
+    String _yearsPast6(Object numeric, num years) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _yearsPast5(years),
+          'other': 'anul acesta',
+        },
+      );
+    }
+
+    String _yearsPast7(Object numeric, num years) {
+      return _yearsPast6(numeric, years);
+    }
+
+    String _yearsPast8(num years, Object numeric) {
+      return intl.Intl.pluralLogic(
+        years,
+        locale: localeName,
+        other: _yearsPast0(years),
+        few: _yearsPast1(years),
+        one: _yearsPast4(numeric, years),
+        zero: _yearsPast7(numeric, years),
+      );
+    }
+
+    return _yearsPast8(years, numeric);
   }
 
   @override
-  String yearsPast(num years) {
-    return intl.Intl.pluralLogic(
-      years,
-      locale: localeName,
-      zero: 'anul acesta',
-      one: 'anul trecut',
-      few: 'acum $years ani',
-      other: 'acum $years de ani',
-    );
+  String quartersFuture(num quarters, Object numeric) {
+    String _quartersFuture0(num quarters) {
+      return 'peste $quarters de trimestre';
+    }
+
+    String _quartersFuture1(num quarters) {
+      return 'peste $quarters trimestre';
+    }
+
+    String _quartersFuture2(num quarters) {
+      return 'peste $quarters trimestru';
+    }
+
+    String _quartersFuture3(Object numeric, num quarters) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _quartersFuture2(quarters),
+          'other': 'trimestrul viitor',
+        },
+      );
+    }
+
+    String _quartersFuture4(Object numeric, num quarters) {
+      return _quartersFuture3(numeric, quarters);
+    }
+
+    String _quartersFuture5(num quarters) {
+      return 'peste $quarters de trimestre';
+    }
+
+    String _quartersFuture6(Object numeric, num quarters) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _quartersFuture5(quarters),
+          'other': 'trimestrul acesta',
+        },
+      );
+    }
+
+    String _quartersFuture7(Object numeric, num quarters) {
+      return _quartersFuture6(numeric, quarters);
+    }
+
+    String _quartersFuture8(num quarters, Object numeric) {
+      return intl.Intl.pluralLogic(
+        quarters,
+        locale: localeName,
+        other: _quartersFuture0(quarters),
+        few: _quartersFuture1(quarters),
+        one: _quartersFuture4(numeric, quarters),
+        zero: _quartersFuture7(numeric, quarters),
+      );
+    }
+
+    return _quartersFuture8(quarters, numeric);
   }
 
   @override
-  String yearsPastNumeric(num years) {
-    return intl.Intl.pluralLogic(
-      years,
-      locale: localeName,
-      one: 'acum $years an',
-      few: 'acum $years ani',
-      other: 'acum $years de ani',
-    );
+  String quartersPast(num quarters, Object numeric) {
+    String _quartersPast0(num quarters) {
+      return 'acum $quarters de trimestre';
+    }
+
+    String _quartersPast1(num quarters) {
+      return 'acum $quarters trimestre';
+    }
+
+    String _quartersPast2(num quarters) {
+      return 'acum $quarters trimestru';
+    }
+
+    String _quartersPast3(Object numeric, num quarters) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _quartersPast2(quarters),
+          'other': 'trimestrul trecut',
+        },
+      );
+    }
+
+    String _quartersPast4(Object numeric, num quarters) {
+      return _quartersPast3(numeric, quarters);
+    }
+
+    String _quartersPast5(num quarters) {
+      return 'acum $quarters de trimestre';
+    }
+
+    String _quartersPast6(Object numeric, num quarters) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _quartersPast5(quarters),
+          'other': 'trimestrul acesta',
+        },
+      );
+    }
+
+    String _quartersPast7(Object numeric, num quarters) {
+      return _quartersPast6(numeric, quarters);
+    }
+
+    String _quartersPast8(num quarters, Object numeric) {
+      return intl.Intl.pluralLogic(
+        quarters,
+        locale: localeName,
+        other: _quartersPast0(quarters),
+        few: _quartersPast1(quarters),
+        one: _quartersPast4(numeric, quarters),
+        zero: _quartersPast7(numeric, quarters),
+      );
+    }
+
+    return _quartersPast8(quarters, numeric);
   }
 
   @override
-  String quartersFuture(num quarters) {
-    return intl.Intl.pluralLogic(
-      quarters,
-      locale: localeName,
-      zero: 'trimestrul acesta',
-      one: 'trimestrul viitor',
-      few: 'peste $quarters trimestre',
-      other: 'peste $quarters de trimestre',
-    );
+  String monthsFuture(num months, Object numeric) {
+    String _monthsFuture0(num months) {
+      return 'peste $months de luni';
+    }
+
+    String _monthsFuture1(num months) {
+      return 'peste $months luni';
+    }
+
+    String _monthsFuture2(num months) {
+      return 'peste $months lună';
+    }
+
+    String _monthsFuture3(Object numeric, num months) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _monthsFuture2(months),
+          'other': 'luna viitoare',
+        },
+      );
+    }
+
+    String _monthsFuture4(Object numeric, num months) {
+      return _monthsFuture3(numeric, months);
+    }
+
+    String _monthsFuture5(num months) {
+      return 'peste $months de luni';
+    }
+
+    String _monthsFuture6(Object numeric, num months) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _monthsFuture5(months),
+          'other': 'luna aceasta',
+        },
+      );
+    }
+
+    String _monthsFuture7(Object numeric, num months) {
+      return _monthsFuture6(numeric, months);
+    }
+
+    String _monthsFuture8(num months, Object numeric) {
+      return intl.Intl.pluralLogic(
+        months,
+        locale: localeName,
+        other: _monthsFuture0(months),
+        few: _monthsFuture1(months),
+        one: _monthsFuture4(numeric, months),
+        zero: _monthsFuture7(numeric, months),
+      );
+    }
+
+    return _monthsFuture8(months, numeric);
   }
 
   @override
-  String quartersFutureNumeric(num quarters) {
-    return intl.Intl.pluralLogic(
-      quarters,
-      locale: localeName,
-      one: 'peste $quarters trimestru',
-      few: 'peste $quarters trimestre',
-      other: 'peste $quarters de trimestre',
-    );
+  String monthsPast(num months, Object numeric) {
+    String _monthsPast0(num months) {
+      return 'acum $months de luni';
+    }
+
+    String _monthsPast1(num months) {
+      return 'acum $months luni';
+    }
+
+    String _monthsPast2(num months) {
+      return 'acum $months lună';
+    }
+
+    String _monthsPast3(Object numeric, num months) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _monthsPast2(months),
+          'other': 'luna trecută',
+        },
+      );
+    }
+
+    String _monthsPast4(Object numeric, num months) {
+      return _monthsPast3(numeric, months);
+    }
+
+    String _monthsPast5(num months) {
+      return 'acum $months de luni';
+    }
+
+    String _monthsPast6(Object numeric, num months) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _monthsPast5(months),
+          'other': 'luna aceasta',
+        },
+      );
+    }
+
+    String _monthsPast7(Object numeric, num months) {
+      return _monthsPast6(numeric, months);
+    }
+
+    String _monthsPast8(num months, Object numeric) {
+      return intl.Intl.pluralLogic(
+        months,
+        locale: localeName,
+        other: _monthsPast0(months),
+        few: _monthsPast1(months),
+        one: _monthsPast4(numeric, months),
+        zero: _monthsPast7(numeric, months),
+      );
+    }
+
+    return _monthsPast8(months, numeric);
   }
 
   @override
-  String quartersPast(num quarters) {
-    return intl.Intl.pluralLogic(
-      quarters,
-      locale: localeName,
-      zero: 'trimestrul acesta',
-      one: 'trimestrul trecut',
-      few: 'acum $quarters trimestre',
-      other: 'acum $quarters de trimestre',
-    );
+  String weeksFuture(num weeks, Object numeric) {
+    String _weeksFuture0(num weeks) {
+      return 'peste $weeks de săptămâni';
+    }
+
+    String _weeksFuture1(num weeks) {
+      return 'peste $weeks săptămâni';
+    }
+
+    String _weeksFuture2(num weeks) {
+      return 'peste $weeks săptămână';
+    }
+
+    String _weeksFuture3(Object numeric, num weeks) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _weeksFuture2(weeks),
+          'other': 'săptămâna viitoare',
+        },
+      );
+    }
+
+    String _weeksFuture4(Object numeric, num weeks) {
+      return _weeksFuture3(numeric, weeks);
+    }
+
+    String _weeksFuture5(num weeks) {
+      return 'peste $weeks de săptămâni';
+    }
+
+    String _weeksFuture6(Object numeric, num weeks) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _weeksFuture5(weeks),
+          'other': 'săptămâna aceasta',
+        },
+      );
+    }
+
+    String _weeksFuture7(Object numeric, num weeks) {
+      return _weeksFuture6(numeric, weeks);
+    }
+
+    String _weeksFuture8(num weeks, Object numeric) {
+      return intl.Intl.pluralLogic(
+        weeks,
+        locale: localeName,
+        other: _weeksFuture0(weeks),
+        few: _weeksFuture1(weeks),
+        one: _weeksFuture4(numeric, weeks),
+        zero: _weeksFuture7(numeric, weeks),
+      );
+    }
+
+    return _weeksFuture8(weeks, numeric);
   }
 
   @override
-  String quartersPastNumeric(num quarters) {
-    return intl.Intl.pluralLogic(
-      quarters,
-      locale: localeName,
-      one: 'acum $quarters trimestru',
-      few: 'acum $quarters trimestre',
-      other: 'acum $quarters de trimestre',
-    );
+  String weeksPast(num weeks, Object numeric) {
+    String _weeksPast0(num weeks) {
+      return 'acum $weeks de săptămâni';
+    }
+
+    String _weeksPast1(num weeks) {
+      return 'acum $weeks săptămâni';
+    }
+
+    String _weeksPast2(num weeks) {
+      return 'acum $weeks săptămână';
+    }
+
+    String _weeksPast3(Object numeric, num weeks) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _weeksPast2(weeks),
+          'other': 'săptămâna trecută',
+        },
+      );
+    }
+
+    String _weeksPast4(Object numeric, num weeks) {
+      return _weeksPast3(numeric, weeks);
+    }
+
+    String _weeksPast5(num weeks) {
+      return 'acum $weeks de săptămâni';
+    }
+
+    String _weeksPast6(Object numeric, num weeks) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _weeksPast5(weeks),
+          'other': 'săptămâna aceasta',
+        },
+      );
+    }
+
+    String _weeksPast7(Object numeric, num weeks) {
+      return _weeksPast6(numeric, weeks);
+    }
+
+    String _weeksPast8(num weeks, Object numeric) {
+      return intl.Intl.pluralLogic(
+        weeks,
+        locale: localeName,
+        other: _weeksPast0(weeks),
+        few: _weeksPast1(weeks),
+        one: _weeksPast4(numeric, weeks),
+        zero: _weeksPast7(numeric, weeks),
+      );
+    }
+
+    return _weeksPast8(weeks, numeric);
   }
 
   @override
-  String monthsFuture(num months) {
-    return intl.Intl.pluralLogic(
-      months,
-      locale: localeName,
-      zero: 'luna aceasta',
-      one: 'luna viitoare',
-      few: 'peste $months luni',
-      other: 'peste $months de luni',
-    );
+  String daysFuture(num days, Object numeric) {
+    String _daysFuture0(num days) {
+      return 'peste $days de zile';
+    }
+
+    String _daysFuture1(num days) {
+      return 'peste $days zile';
+    }
+
+    String _daysFuture2(num days) {
+      return 'peste $days de zile';
+    }
+
+    String _daysFuture3(Object numeric, num days) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _daysFuture2(days),
+          'other': 'poimâine',
+        },
+      );
+    }
+
+    String _daysFuture4(Object numeric, num days) {
+      return _daysFuture3(numeric, days);
+    }
+
+    String _daysFuture5(num days) {
+      return 'peste $days zi';
+    }
+
+    String _daysFuture6(Object numeric, num days) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _daysFuture5(days),
+          'other': 'mâine',
+        },
+      );
+    }
+
+    String _daysFuture7(Object numeric, num days) {
+      return _daysFuture6(numeric, days);
+    }
+
+    String _daysFuture8(num days) {
+      return 'peste $days de zile';
+    }
+
+    String _daysFuture9(Object numeric, num days) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _daysFuture8(days),
+          'other': 'azi',
+        },
+      );
+    }
+
+    String _daysFuture10(Object numeric, num days) {
+      return _daysFuture9(numeric, days);
+    }
+
+    String _daysFuture11(num days, Object numeric) {
+      return intl.Intl.pluralLogic(
+        days,
+        locale: localeName,
+        other: _daysFuture0(days),
+        few: _daysFuture1(days),
+        two: _daysFuture4(numeric, days),
+        one: _daysFuture7(numeric, days),
+        zero: _daysFuture10(numeric, days),
+      );
+    }
+
+    return _daysFuture11(days, numeric);
   }
 
   @override
-  String monthsFutureNumeric(num months) {
-    return intl.Intl.pluralLogic(
-      months,
-      locale: localeName,
-      one: 'peste $months lună',
-      few: 'peste $months luni',
-      other: 'peste $months de luni',
-    );
+  String daysPast(num days, Object numeric) {
+    String _daysPast0(num days) {
+      return 'acum $days de zile';
+    }
+
+    String _daysPast1(num days) {
+      return 'acum $days zile';
+    }
+
+    String _daysPast2(num days) {
+      return 'acum $days de zile';
+    }
+
+    String _daysPast3(Object numeric, num days) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _daysPast2(days),
+          'other': 'alaltăieri',
+        },
+      );
+    }
+
+    String _daysPast4(Object numeric, num days) {
+      return _daysPast3(numeric, days);
+    }
+
+    String _daysPast5(num days) {
+      return 'acum $days zi';
+    }
+
+    String _daysPast6(Object numeric, num days) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _daysPast5(days),
+          'other': 'ieri',
+        },
+      );
+    }
+
+    String _daysPast7(Object numeric, num days) {
+      return _daysPast6(numeric, days);
+    }
+
+    String _daysPast8(num days) {
+      return 'acum $days de zile';
+    }
+
+    String _daysPast9(Object numeric, num days) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _daysPast8(days),
+          'other': 'azi',
+        },
+      );
+    }
+
+    String _daysPast10(Object numeric, num days) {
+      return _daysPast9(numeric, days);
+    }
+
+    String _daysPast11(num days, Object numeric) {
+      return intl.Intl.pluralLogic(
+        days,
+        locale: localeName,
+        other: _daysPast0(days),
+        few: _daysPast1(days),
+        two: _daysPast4(numeric, days),
+        one: _daysPast7(numeric, days),
+        zero: _daysPast10(numeric, days),
+      );
+    }
+
+    return _daysPast11(days, numeric);
   }
 
   @override
-  String monthsPast(num months) {
-    return intl.Intl.pluralLogic(
-      months,
-      locale: localeName,
-      zero: 'luna aceasta',
-      one: 'luna trecută',
-      few: 'acum $months luni',
-      other: 'acum $months de luni',
-    );
+  String hoursFuture(num hours, Object numeric) {
+    String _hoursFuture0(num hours) {
+      return 'peste $hours de ore';
+    }
+
+    String _hoursFuture1(num hours) {
+      return 'peste $hours ore';
+    }
+
+    String _hoursFuture2(num hours) {
+      return 'peste $hours oră';
+    }
+
+    String _hoursFuture3(num hours) {
+      return 'peste $hours de ore';
+    }
+
+    String _hoursFuture4(Object numeric, num hours) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _hoursFuture3(hours),
+          'other': 'ora aceasta',
+        },
+      );
+    }
+
+    String _hoursFuture5(Object numeric, num hours) {
+      return _hoursFuture4(numeric, hours);
+    }
+
+    String _hoursFuture6(num hours, Object numeric) {
+      return intl.Intl.pluralLogic(
+        hours,
+        locale: localeName,
+        other: _hoursFuture0(hours),
+        few: _hoursFuture1(hours),
+        one: _hoursFuture2(hours),
+        zero: _hoursFuture5(numeric, hours),
+      );
+    }
+
+    return _hoursFuture6(hours, numeric);
   }
 
   @override
-  String monthsPastNumeric(num months) {
-    return intl.Intl.pluralLogic(
-      months,
-      locale: localeName,
-      one: 'acum $months lună',
-      few: 'acum $months luni',
-      other: 'acum $months de luni',
-    );
+  String hoursPast(num hours, Object numeric) {
+    String _hoursPast0(num hours) {
+      return 'acum $hours de ore';
+    }
+
+    String _hoursPast1(num hours) {
+      return 'acum $hours ore';
+    }
+
+    String _hoursPast2(num hours) {
+      return 'acum $hours oră';
+    }
+
+    String _hoursPast3(num hours) {
+      return 'acum $hours de ore';
+    }
+
+    String _hoursPast4(Object numeric, num hours) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _hoursPast3(hours),
+          'other': 'ora aceasta',
+        },
+      );
+    }
+
+    String _hoursPast5(Object numeric, num hours) {
+      return _hoursPast4(numeric, hours);
+    }
+
+    String _hoursPast6(num hours, Object numeric) {
+      return intl.Intl.pluralLogic(
+        hours,
+        locale: localeName,
+        other: _hoursPast0(hours),
+        few: _hoursPast1(hours),
+        one: _hoursPast2(hours),
+        zero: _hoursPast5(numeric, hours),
+      );
+    }
+
+    return _hoursPast6(hours, numeric);
   }
 
   @override
-  String weeksFuture(num weeks) {
-    return intl.Intl.pluralLogic(
-      weeks,
-      locale: localeName,
-      zero: 'săptămâna aceasta',
-      one: 'săptămâna viitoare',
-      few: 'peste $weeks săptămâni',
-      other: 'peste $weeks de săptămâni',
-    );
+  String minutesFuture(num minutes, Object numeric) {
+    String _minutesFuture0(num minutes) {
+      return 'peste $minutes de minute';
+    }
+
+    String _minutesFuture1(num minutes) {
+      return 'peste $minutes minute';
+    }
+
+    String _minutesFuture2(num minutes) {
+      return 'peste $minutes minut';
+    }
+
+    String _minutesFuture3(num minutes) {
+      return 'peste $minutes de minute';
+    }
+
+    String _minutesFuture4(Object numeric, num minutes) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _minutesFuture3(minutes),
+          'other': 'minutul acesta',
+        },
+      );
+    }
+
+    String _minutesFuture5(Object numeric, num minutes) {
+      return _minutesFuture4(numeric, minutes);
+    }
+
+    String _minutesFuture6(num minutes, Object numeric) {
+      return intl.Intl.pluralLogic(
+        minutes,
+        locale: localeName,
+        other: _minutesFuture0(minutes),
+        few: _minutesFuture1(minutes),
+        one: _minutesFuture2(minutes),
+        zero: _minutesFuture5(numeric, minutes),
+      );
+    }
+
+    return _minutesFuture6(minutes, numeric);
   }
 
   @override
-  String weeksFutureNumeric(num weeks) {
-    return intl.Intl.pluralLogic(
-      weeks,
-      locale: localeName,
-      one: 'peste $weeks săptămână',
-      few: 'peste $weeks săptămâni',
-      other: 'peste $weeks de săptămâni',
-    );
+  String minutesPast(num minutes, Object numeric) {
+    String _minutesPast0(num minutes) {
+      return 'acum $minutes de minute';
+    }
+
+    String _minutesPast1(num minutes) {
+      return 'acum $minutes minute';
+    }
+
+    String _minutesPast2(num minutes) {
+      return 'acum $minutes minut';
+    }
+
+    String _minutesPast3(num minutes) {
+      return 'acum $minutes de minute';
+    }
+
+    String _minutesPast4(Object numeric, num minutes) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _minutesPast3(minutes),
+          'other': 'minutul acesta',
+        },
+      );
+    }
+
+    String _minutesPast5(Object numeric, num minutes) {
+      return _minutesPast4(numeric, minutes);
+    }
+
+    String _minutesPast6(num minutes, Object numeric) {
+      return intl.Intl.pluralLogic(
+        minutes,
+        locale: localeName,
+        other: _minutesPast0(minutes),
+        few: _minutesPast1(minutes),
+        one: _minutesPast2(minutes),
+        zero: _minutesPast5(numeric, minutes),
+      );
+    }
+
+    return _minutesPast6(minutes, numeric);
   }
 
   @override
-  String weeksPast(num weeks) {
-    return intl.Intl.pluralLogic(
-      weeks,
-      locale: localeName,
-      zero: 'săptămâna aceasta',
-      one: 'săptămâna trecută',
-      few: 'acum $weeks săptămâni',
-      other: 'acum $weeks de săptămâni',
-    );
+  String secondsFuture(num seconds, Object numeric) {
+    String _secondsFuture0(num seconds) {
+      return 'peste $seconds de secunde';
+    }
+
+    String _secondsFuture1(num seconds) {
+      return 'peste $seconds secunde';
+    }
+
+    String _secondsFuture2(num seconds) {
+      return 'peste $seconds secundă';
+    }
+
+    String _secondsFuture3(num seconds) {
+      return 'peste $seconds de secunde';
+    }
+
+    String _secondsFuture4(Object numeric, num seconds) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _secondsFuture3(seconds),
+          'other': 'acum',
+        },
+      );
+    }
+
+    String _secondsFuture5(Object numeric, num seconds) {
+      return _secondsFuture4(numeric, seconds);
+    }
+
+    String _secondsFuture6(num seconds, Object numeric) {
+      return intl.Intl.pluralLogic(
+        seconds,
+        locale: localeName,
+        other: _secondsFuture0(seconds),
+        few: _secondsFuture1(seconds),
+        one: _secondsFuture2(seconds),
+        zero: _secondsFuture5(numeric, seconds),
+      );
+    }
+
+    return _secondsFuture6(seconds, numeric);
   }
 
   @override
-  String weeksPastNumeric(num weeks) {
-    return intl.Intl.pluralLogic(
-      weeks,
-      locale: localeName,
-      one: 'acum $weeks săptămână',
-      few: 'acum $weeks săptămâni',
-      other: 'acum $weeks de săptămâni',
-    );
-  }
+  String secondsPast(num seconds, Object numeric) {
+    String _secondsPast0(num seconds) {
+      return 'acum $seconds de secunde';
+    }
 
-  @override
-  String daysFuture(num days) {
-    return intl.Intl.pluralLogic(
-      days,
-      locale: localeName,
-      zero: 'azi',
-      one: 'mâine',
-      two: 'poimâine',
-      few: 'peste $days zile',
-      other: 'peste $days de zile',
-    );
-  }
+    String _secondsPast1(num seconds) {
+      return 'acum $seconds secunde';
+    }
 
-  @override
-  String daysFutureNumeric(num days) {
-    return intl.Intl.pluralLogic(
-      days,
-      locale: localeName,
-      one: 'peste $days zi',
-      few: 'peste $days zile',
-      other: 'peste $days de zile',
-    );
-  }
+    String _secondsPast2(num seconds) {
+      return 'acum $seconds secundă';
+    }
 
-  @override
-  String daysPast(num days) {
-    return intl.Intl.pluralLogic(
-      days,
-      locale: localeName,
-      zero: 'azi',
-      one: 'ieri',
-      two: 'alaltăieri',
-      few: 'acum $days zile',
-      other: 'acum $days de zile',
-    );
-  }
+    String _secondsPast3(num seconds) {
+      return 'acum $seconds de secunde';
+    }
 
-  @override
-  String daysPastNumeric(num days) {
-    return intl.Intl.pluralLogic(
-      days,
-      locale: localeName,
-      one: 'acum $days zi',
-      few: 'acum $days zile',
-      other: 'acum $days de zile',
-    );
-  }
+    String _secondsPast4(Object numeric, num seconds) {
+      return intl.Intl.selectLogic(
+        numeric,
+        {
+          'true': _secondsPast3(seconds),
+          'other': 'acum',
+        },
+      );
+    }
 
-  @override
-  String hoursFuture(num hours) {
-    return intl.Intl.pluralLogic(
-      hours,
-      locale: localeName,
-      zero: 'ora aceasta',
-      one: 'peste $hours oră',
-      few: 'peste $hours ore',
-      other: 'peste $hours de ore',
-    );
-  }
+    String _secondsPast5(Object numeric, num seconds) {
+      return _secondsPast4(numeric, seconds);
+    }
 
-  @override
-  String hoursFutureNumeric(num hours) {
-    return intl.Intl.pluralLogic(
-      hours,
-      locale: localeName,
-      one: 'peste $hours oră',
-      few: 'peste $hours ore',
-      other: 'peste $hours de ore',
-    );
-  }
+    String _secondsPast6(num seconds, Object numeric) {
+      return intl.Intl.pluralLogic(
+        seconds,
+        locale: localeName,
+        other: _secondsPast0(seconds),
+        few: _secondsPast1(seconds),
+        one: _secondsPast2(seconds),
+        zero: _secondsPast5(numeric, seconds),
+      );
+    }
 
-  @override
-  String hoursPast(num hours) {
-    return intl.Intl.pluralLogic(
-      hours,
-      locale: localeName,
-      zero: 'ora aceasta',
-      one: 'acum $hours oră',
-      few: 'acum $hours ore',
-      other: 'acum $hours de ore',
-    );
-  }
-
-  @override
-  String hoursPastNumeric(num hours) {
-    return intl.Intl.pluralLogic(
-      hours,
-      locale: localeName,
-      one: 'acum $hours oră',
-      few: 'acum $hours ore',
-      other: 'acum $hours de ore',
-    );
-  }
-
-  @override
-  String minutesFuture(num minutes) {
-    return intl.Intl.pluralLogic(
-      minutes,
-      locale: localeName,
-      zero: 'minutul acesta',
-      one: 'peste $minutes minut',
-      few: 'peste $minutes minute',
-      other: 'peste $minutes de minute',
-    );
-  }
-
-  @override
-  String minutesFutureNumeric(num minutes) {
-    return intl.Intl.pluralLogic(
-      minutes,
-      locale: localeName,
-      one: 'peste $minutes minut',
-      few: 'peste $minutes minute',
-      other: 'peste $minutes de minute',
-    );
-  }
-
-  @override
-  String minutesPast(num minutes) {
-    return intl.Intl.pluralLogic(
-      minutes,
-      locale: localeName,
-      zero: 'minutul acesta',
-      one: 'acum $minutes minut',
-      few: 'acum $minutes minute',
-      other: 'acum $minutes de minute',
-    );
-  }
-
-  @override
-  String minutesPastNumeric(num minutes) {
-    return intl.Intl.pluralLogic(
-      minutes,
-      locale: localeName,
-      one: 'acum $minutes minut',
-      few: 'acum $minutes minute',
-      other: 'acum $minutes de minute',
-    );
-  }
-
-  @override
-  String secondsFuture(num seconds) {
-    return intl.Intl.pluralLogic(
-      seconds,
-      locale: localeName,
-      zero: 'acum',
-      one: 'peste $seconds secundă',
-      few: 'peste $seconds secunde',
-      other: 'peste $seconds de secunde',
-    );
-  }
-
-  @override
-  String secondsFutureNumeric(num seconds) {
-    return intl.Intl.pluralLogic(
-      seconds,
-      locale: localeName,
-      one: 'peste $seconds secundă',
-      few: 'peste $seconds secunde',
-      other: 'peste $seconds de secunde',
-    );
-  }
-
-  @override
-  String secondsPast(num seconds) {
-    return intl.Intl.pluralLogic(
-      seconds,
-      locale: localeName,
-      zero: 'acum',
-      one: 'acum $seconds secundă',
-      few: 'acum $seconds secunde',
-      other: 'acum $seconds de secunde',
-    );
-  }
-
-  @override
-  String secondsPastNumeric(num seconds) {
-    return intl.Intl.pluralLogic(
-      seconds,
-      locale: localeName,
-      one: 'acum $seconds secundă',
-      few: 'acum $seconds secunde',
-      other: 'acum $seconds de secunde',
-    );
+    return _secondsPast6(seconds, numeric);
   }
 }

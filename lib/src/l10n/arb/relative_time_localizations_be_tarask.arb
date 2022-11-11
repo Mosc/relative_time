@@ -1,19 +1,11 @@
 {
   "@@locale": "be_tarask",
   "quartersFuture": "{quarters, plural, =1{праз {quarters} квартал} few{праз {quarters} кварталы} many{праз {quarters} кварталаў} other{праз {quarters} кварталу}}",
-  "quartersFutureNumeric": "{quarters, plural, =1{праз {quarters} квартал} few{праз {quarters} кварталы} many{праз {quarters} кварталаў} other{праз {quarters} кварталу}}",
   "quartersPast": "{quarters, plural, =1{{quarters} квартал таму} few{{quarters} кварталы таму} many{{quarters} кварталаў таму} other{{quarters} кварталу таму}}",
-  "quartersPastNumeric": "{quarters, plural, =1{{quarters} квартал таму} few{{quarters} кварталы таму} many{{quarters} кварталаў таму} other{{quarters} кварталу таму}}",
-  "hoursFuture": "{hours, plural, =0{у гэтую гадзіну} =1{праз {hours} гадзіну} many{праз {hours} гадзінаў} other{праз {hours} гадзіны}}",
-  "hoursFutureNumeric": "{hours, plural, =1{праз {hours} гадзіну} many{праз {hours} гадзінаў} other{праз {hours} гадзіны}}",
-  "hoursPast": "{hours, plural, =0{у гэтую гадзіну} =1{{hours} гадзіну таму} many{{hours} гадзінаў таму} other{{hours} гадзіны таму}}",
-  "hoursPastNumeric": "{hours, plural, =1{{hours} гадзіну таму} many{{hours} гадзінаў таму} other{{hours} гадзіны таму}}",
-  "minutesFuture": "{minutes, plural, =0{у гэтую хвіліну} =1{праз {minutes} хвіліну} many{праз {minutes} хвілінаў} other{праз {minutes} хвіліны}}",
-  "minutesFutureNumeric": "{minutes, plural, =1{праз {minutes} хвіліну} many{праз {minutes} хвілінаў} other{праз {minutes} хвіліны}}",
-  "minutesPast": "{minutes, plural, =0{у гэтую хвіліну} =1{{minutes} хвіліну таму} many{{minutes} хвілінаў таму} other{{minutes} хвіліны таму}}",
-  "minutesPastNumeric": "{minutes, plural, =1{{minutes} хвіліну таму} many{{minutes} хвілінаў таму} other{{minutes} хвіліны таму}}",
+  "hoursFuture": "{hours, plural, =0{{numeric, select, true{праз {hours} гадзіны} other{у гэтую гадзіну}}} =1{праз {hours} гадзіну} many{праз {hours} гадзінаў} other{праз {hours} гадзіны}}",
+  "hoursPast": "{hours, plural, =0{{numeric, select, true{{hours} гадзіны таму} other{у гэтую гадзіну}}} =1{{hours} гадзіну таму} many{{hours} гадзінаў таму} other{{hours} гадзіны таму}}",
+  "minutesFuture": "{minutes, plural, =0{{numeric, select, true{праз {minutes} хвіліны} other{у гэтую хвіліну}}} =1{праз {minutes} хвіліну} many{праз {minutes} хвілінаў} other{праз {minutes} хвіліны}}",
+  "minutesPast": "{minutes, plural, =0{{numeric, select, true{{minutes} хвіліны таму} other{у гэтую хвіліну}}} =1{{minutes} хвіліну таму} many{{minutes} хвілінаў таму} other{{minutes} хвіліны таму}}",
   "secondsFuture": "{seconds, plural, =1{праз {seconds} сэкунду} many{праз {seconds} сэкундаў} other{праз {seconds} сэкунды}}",
-  "secondsFutureNumeric": "{seconds, plural, =1{праз {seconds} сэкунду} many{праз {seconds} сэкундаў} other{праз {seconds} сэкунды}}",
-  "secondsPast": "{seconds, plural, =1{{seconds} сэкунду таму} many{{seconds} сэкундаў таму} other{{seconds} сэкунды таму}}",
-  "secondsPastNumeric": "{seconds, plural, =1{{seconds} сэкунду таму} many{{seconds} сэкундаў таму} other{{seconds} сэкунды таму}}"
+  "secondsPast": "{seconds, plural, =1{{seconds} сэкунду таму} many{{seconds} сэкундаў таму} other{{seconds} сэкунды таму}}"
 }

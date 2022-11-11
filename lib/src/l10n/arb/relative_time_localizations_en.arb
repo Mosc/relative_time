@@ -1,291 +1,163 @@
 {
   "@@locale": "en",
-  "yearsFuture": "{years, plural, =0{this year} =1{next year} other{in {years} years}}",
+  "yearsFuture": "{years, plural, =0{{numeric, select, true{in {years} years} other{this year}}} =1{{numeric, select, true{in {years} year} other{next year}}} other{in {years} years}}",
   "@yearsFuture": {
     "description": "Number of years in the future.",
     "placeholders": {
       "years": {
         "type": "int"
-      }
+      },
+      "numeric": {}
     }
   },
-  "yearsFutureNumeric": "{years, plural, =1{in {years} year} other{in {years} years}}",
-  "@yearsFutureNumeric": {
-    "description": "Number of years in the future (numeric).",
-    "placeholders": {
-      "years": {
-        "type": "int"
-      }
-    }
-  },
-  "yearsPast": "{years, plural, =0{this year} =1{last year} other{{years} years ago}}",
+  "yearsPast": "{years, plural, =0{{numeric, select, true{{years} years ago} other{this year}}} =1{{numeric, select, true{{years} year ago} other{last year}}} other{{years} years ago}}",
   "@yearsPast": {
     "description": "Number of years in the past.",
     "placeholders": {
       "years": {
         "type": "int"
-      }
+      },
+      "numeric": {}
     }
   },
-  "yearsPastNumeric": "{years, plural, =1{{years} year ago} other{{years} years ago}}",
-  "@yearsPastNumeric": {
-    "description": "Number of years in the past (numeric).",
-    "placeholders": {
-      "years": {
-        "type": "int"
-      }
-    }
-  },
-  "quartersFuture": "{quarters, plural, =0{this quarter} =1{next quarter} other{in {quarters} quarters}}",
+  "quartersFuture": "{quarters, plural, =0{{numeric, select, true{in {quarters} quarters} other{this quarter}}} =1{{numeric, select, true{in {quarters} quarter} other{next quarter}}} other{in {quarters} quarters}}",
   "@quartersFuture": {
     "description": "Number of quarters in the future.",
     "placeholders": {
       "quarters": {
         "type": "int"
-      }
+      },
+      "numeric": {}
     }
   },
-  "quartersFutureNumeric": "{quarters, plural, =1{in {quarters} quarter} other{in {quarters} quarters}}",
-  "@quartersFutureNumeric": {
-    "description": "Number of quarters in the future (numeric).",
-    "placeholders": {
-      "quarters": {
-        "type": "int"
-      }
-    }
-  },
-  "quartersPast": "{quarters, plural, =0{this quarter} =1{last quarter} other{{quarters} quarters ago}}",
+  "quartersPast": "{quarters, plural, =0{{numeric, select, true{{quarters} quarters ago} other{this quarter}}} =1{{numeric, select, true{{quarters} quarter ago} other{last quarter}}} other{{quarters} quarters ago}}",
   "@quartersPast": {
     "description": "Number of quarters in the past.",
     "placeholders": {
       "quarters": {
         "type": "int"
-      }
+      },
+      "numeric": {}
     }
   },
-  "quartersPastNumeric": "{quarters, plural, =1{{quarters} quarter ago} other{{quarters} quarters ago}}",
-  "@quartersPastNumeric": {
-    "description": "Number of quarters in the past (numeric).",
-    "placeholders": {
-      "quarters": {
-        "type": "int"
-      }
-    }
-  },
-  "monthsFuture": "{months, plural, =0{this month} =1{next month} other{in {months} months}}",
+  "monthsFuture": "{months, plural, =0{{numeric, select, true{in {months} months} other{this month}}} =1{{numeric, select, true{in {months} month} other{next month}}} other{in {months} months}}",
   "@monthsFuture": {
     "description": "Number of months in the future.",
     "placeholders": {
       "months": {
         "type": "int"
-      }
+      },
+      "numeric": {}
     }
   },
-  "monthsFutureNumeric": "{months, plural, =1{in {months} month} other{in {months} months}}",
-  "@monthsFutureNumeric": {
-    "description": "Number of months in the future (numeric).",
-    "placeholders": {
-      "months": {
-        "type": "int"
-      }
-    }
-  },
-  "monthsPast": "{months, plural, =0{this month} =1{last month} other{{months} months ago}}",
+  "monthsPast": "{months, plural, =0{{numeric, select, true{{months} months ago} other{this month}}} =1{{numeric, select, true{{months} month ago} other{last month}}} other{{months} months ago}}",
   "@monthsPast": {
     "description": "Number of months in the past.",
     "placeholders": {
       "months": {
         "type": "int"
-      }
+      },
+      "numeric": {}
     }
   },
-  "monthsPastNumeric": "{months, plural, =1{{months} month ago} other{{months} months ago}}",
-  "@monthsPastNumeric": {
-    "description": "Number of months in the past (numeric).",
-    "placeholders": {
-      "months": {
-        "type": "int"
-      }
-    }
-  },
-  "weeksFuture": "{weeks, plural, =0{this week} =1{next week} other{in {weeks} weeks}}",
+  "weeksFuture": "{weeks, plural, =0{{numeric, select, true{in {weeks} weeks} other{this week}}} =1{{numeric, select, true{in {weeks} week} other{next week}}} other{in {weeks} weeks}}",
   "@weeksFuture": {
     "description": "Number of weeks in the future.",
     "placeholders": {
       "weeks": {
         "type": "int"
-      }
+      },
+      "numeric": {}
     }
   },
-  "weeksFutureNumeric": "{weeks, plural, =1{in {weeks} week} other{in {weeks} weeks}}",
-  "@weeksFutureNumeric": {
-    "description": "Number of weeks in the future (numeric).",
-    "placeholders": {
-      "weeks": {
-        "type": "int"
-      }
-    }
-  },
-  "weeksPast": "{weeks, plural, =0{this week} =1{last week} other{{weeks} weeks ago}}",
+  "weeksPast": "{weeks, plural, =0{{numeric, select, true{{weeks} weeks ago} other{this week}}} =1{{numeric, select, true{{weeks} week ago} other{last week}}} other{{weeks} weeks ago}}",
   "@weeksPast": {
     "description": "Number of weeks in the past.",
     "placeholders": {
       "weeks": {
         "type": "int"
-      }
+      },
+      "numeric": {}
     }
   },
-  "weeksPastNumeric": "{weeks, plural, =1{{weeks} week ago} other{{weeks} weeks ago}}",
-  "@weeksPastNumeric": {
-    "description": "Number of weeks in the past (numeric).",
-    "placeholders": {
-      "weeks": {
-        "type": "int"
-      }
-    }
-  },
-  "daysFuture": "{days, plural, =0{today} =1{tomorrow} other{in {days} days}}",
+  "daysFuture": "{days, plural, =0{{numeric, select, true{in {days} days} other{today}}} =1{{numeric, select, true{in {days} day} other{tomorrow}}} other{in {days} days}}",
   "@daysFuture": {
     "description": "Number of days in the future.",
     "placeholders": {
       "days": {
         "type": "int"
-      }
+      },
+      "numeric": {}
     }
   },
-  "daysFutureNumeric": "{days, plural, =1{in {days} day} other{in {days} days}}",
-  "@daysFutureNumeric": {
-    "description": "Number of days in the future (numeric).",
-    "placeholders": {
-      "days": {
-        "type": "int"
-      }
-    }
-  },
-  "daysPast": "{days, plural, =0{today} =1{yesterday} other{{days} days ago}}",
+  "daysPast": "{days, plural, =0{{numeric, select, true{{days} days ago} other{today}}} =1{{numeric, select, true{{days} day ago} other{yesterday}}} other{{days} days ago}}",
   "@daysPast": {
     "description": "Number of days in the past.",
     "placeholders": {
       "days": {
         "type": "int"
-      }
+      },
+      "numeric": {}
     }
   },
-  "daysPastNumeric": "{days, plural, =1{{days} day ago} other{{days} days ago}}",
-  "@daysPastNumeric": {
-    "description": "Number of days in the past (numeric).",
-    "placeholders": {
-      "days": {
-        "type": "int"
-      }
-    }
-  },
-  "hoursFuture": "{hours, plural, =0{this hour} =1{in {hours} hour} other{in {hours} hours}}",
+  "hoursFuture": "{hours, plural, =0{{numeric, select, true{in {hours} hours} other{this hour}}} =1{in {hours} hour} other{in {hours} hours}}",
   "@hoursFuture": {
     "description": "Number of hours in the future.",
     "placeholders": {
       "hours": {
         "type": "int"
-      }
+      },
+      "numeric": {}
     }
   },
-  "hoursFutureNumeric": "{hours, plural, =1{in {hours} hour} other{in {hours} hours}}",
-  "@hoursFutureNumeric": {
-    "description": "Number of hours in the future (numeric).",
-    "placeholders": {
-      "hours": {
-        "type": "int"
-      }
-    }
-  },
-  "hoursPast": "{hours, plural, =0{this hour} =1{{hours} hour ago} other{{hours} hours ago}}",
+  "hoursPast": "{hours, plural, =0{{numeric, select, true{{hours} hours ago} other{this hour}}} =1{{hours} hour ago} other{{hours} hours ago}}",
   "@hoursPast": {
     "description": "Number of hours in the past.",
     "placeholders": {
       "hours": {
         "type": "int"
-      }
+      },
+      "numeric": {}
     }
   },
-  "hoursPastNumeric": "{hours, plural, =1{{hours} hour ago} other{{hours} hours ago}}",
-  "@hoursPastNumeric": {
-    "description": "Number of hours in the past (numeric).",
-    "placeholders": {
-      "hours": {
-        "type": "int"
-      }
-    }
-  },
-  "minutesFuture": "{minutes, plural, =0{this minute} =1{in {minutes} minute} other{in {minutes} minutes}}",
+  "minutesFuture": "{minutes, plural, =0{{numeric, select, true{in {minutes} minutes} other{this minute}}} =1{in {minutes} minute} other{in {minutes} minutes}}",
   "@minutesFuture": {
     "description": "Number of minutes in the future.",
     "placeholders": {
       "minutes": {
         "type": "int"
-      }
+      },
+      "numeric": {}
     }
   },
-  "minutesFutureNumeric": "{minutes, plural, =1{in {minutes} minute} other{in {minutes} minutes}}",
-  "@minutesFutureNumeric": {
-    "description": "Number of minutes in the future (numeric).",
-    "placeholders": {
-      "minutes": {
-        "type": "int"
-      }
-    }
-  },
-  "minutesPast": "{minutes, plural, =0{this minute} =1{{minutes} minute ago} other{{minutes} minutes ago}}",
+  "minutesPast": "{minutes, plural, =0{{numeric, select, true{{minutes} minutes ago} other{this minute}}} =1{{minutes} minute ago} other{{minutes} minutes ago}}",
   "@minutesPast": {
     "description": "Number of minutes in the past.",
     "placeholders": {
       "minutes": {
         "type": "int"
-      }
+      },
+      "numeric": {}
     }
   },
-  "minutesPastNumeric": "{minutes, plural, =1{{minutes} minute ago} other{{minutes} minutes ago}}",
-  "@minutesPastNumeric": {
-    "description": "Number of minutes in the past (numeric).",
-    "placeholders": {
-      "minutes": {
-        "type": "int"
-      }
-    }
-  },
-  "secondsFuture": "{seconds, plural, =0{now} =1{in {seconds} second} other{in {seconds} seconds}}",
+  "secondsFuture": "{seconds, plural, =0{{numeric, select, true{in {seconds} seconds} other{now}}} =1{in {seconds} second} other{in {seconds} seconds}}",
   "@secondsFuture": {
     "description": "Number of seconds in the future.",
     "placeholders": {
       "seconds": {
         "type": "int"
-      }
+      },
+      "numeric": {}
     }
   },
-  "secondsFutureNumeric": "{seconds, plural, =1{in {seconds} second} other{in {seconds} seconds}}",
-  "@secondsFutureNumeric": {
-    "description": "Number of seconds in the future (numeric).",
-    "placeholders": {
-      "seconds": {
-        "type": "int"
-      }
-    }
-  },
-  "secondsPast": "{seconds, plural, =0{now} =1{{seconds} second ago} other{{seconds} seconds ago}}",
+  "secondsPast": "{seconds, plural, =0{{numeric, select, true{{seconds} seconds ago} other{now}}} =1{{seconds} second ago} other{{seconds} seconds ago}}",
   "@secondsPast": {
     "description": "Number of seconds in the past.",
     "placeholders": {
       "seconds": {
         "type": "int"
-      }
-    }
-  },
-  "secondsPastNumeric": "{seconds, plural, =1{{seconds} second ago} other{{seconds} seconds ago}}",
-  "@secondsPastNumeric": {
-    "description": "Number of seconds in the past (numeric).",
-    "placeholders": {
-      "seconds": {
-        "type": "int"
-      }
+      },
+      "numeric": {}
     }
   }
 }

@@ -1,7 +1,5 @@
 {
   "@@locale": "zh_Hans_SG",
   "secondsFuture": "{seconds, plural, other{{seconds}秒后}}",
-  "secondsFutureNumeric": "{seconds, plural, other{{seconds}秒后}}",
-  "secondsPast": "{seconds, plural, other{{seconds}秒前}}",
-  "secondsPastNumeric": "{seconds, plural, other{{seconds}秒前}}"
+  "secondsPast": "{seconds, plural, other{{seconds}秒前}}"
 }

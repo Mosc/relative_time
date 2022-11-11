@@ -1,19 +1,11 @@
 {
   "@@locale": "pt_PT",
   "yearsFuture": "{years, plural, =1{dentro de {years} ano} other{dentro de {years} anos}}",
-  "yearsFutureNumeric": "{years, plural, =1{dentro de {years} ano} other{dentro de {years} anos}}",
-  "quartersFuture": "{quarters, plural, =0{este trimestre} =1{próximo trimestre} other{dentro de {quarters} trimestres}}",
-  "quartersFutureNumeric": "{quarters, plural, =1{dentro de {quarters} trimestre} other{dentro de {quarters} trimestres}}",
+  "quartersFuture": "{quarters, plural, =0{{numeric, select, true{dentro de {quarters} trimestres} other{este trimestre}}} =1{{numeric, select, true{dentro de {quarters} trimestre} other{próximo trimestre}}} other{dentro de {quarters} trimestres}}",
   "monthsFuture": "{months, plural, =1{dentro de {months} mês} other{dentro de {months} meses}}",
-  "monthsFutureNumeric": "{months, plural, =1{dentro de {months} mês} other{dentro de {months} meses}}",
   "weeksFuture": "{weeks, plural, =1{dentro de {weeks} semana} other{dentro de {weeks} semanas}}",
-  "weeksFutureNumeric": "{weeks, plural, =1{dentro de {weeks} semana} other{dentro de {weeks} semanas}}",
   "daysFuture": "{days, plural, =1{dentro de {days} dia} other{dentro de {days} dias}}",
-  "daysFutureNumeric": "{days, plural, =1{dentro de {days} dia} other{dentro de {days} dias}}",
   "hoursFuture": "{hours, plural, =1{dentro de {hours} hora} other{dentro de {hours} horas}}",
-  "hoursFutureNumeric": "{hours, plural, =1{dentro de {hours} hora} other{dentro de {hours} horas}}",
   "minutesFuture": "{minutes, plural, =1{dentro de {minutes} minuto} other{dentro de {minutes} minutos}}",
-  "minutesFutureNumeric": "{minutes, plural, =1{dentro de {minutes} minuto} other{dentro de {minutes} minutos}}",
-  "secondsFuture": "{seconds, plural, =1{dentro de {seconds} segundo} other{dentro de {seconds} segundos}}",
-  "secondsFutureNumeric": "{seconds, plural, =1{dentro de {seconds} segundo} other{dentro de {seconds} segundos}}"
+  "secondsFuture": "{seconds, plural, =1{dentro de {seconds} segundo} other{dentro de {seconds} segundos}}"
 }
