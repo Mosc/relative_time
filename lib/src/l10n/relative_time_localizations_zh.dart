@@ -817,36 +817,12 @@ class RelativeTimeLocalizationsZhHansHk extends RelativeTimeLocalizationsZh {
 
   @override
   String secondsFuture(num seconds, Object numeric) {
-    String _secondsFuture0(num seconds) {
-      return '$seconds秒后';
-    }
-
-    String _secondsFuture1(num seconds) {
-      return intl.Intl.pluralLogic(
-        seconds,
-        locale: localeName,
-        other: _secondsFuture0(seconds),
-      );
-    }
-
-    return _secondsFuture1(seconds);
+    return '$seconds秒后';
   }
 
   @override
   String secondsPast(num seconds, Object numeric) {
-    String _secondsPast0(num seconds) {
-      return '$seconds秒前';
-    }
-
-    String _secondsPast1(num seconds) {
-      return intl.Intl.pluralLogic(
-        seconds,
-        locale: localeName,
-        other: _secondsPast0(seconds),
-      );
-    }
-
-    return _secondsPast1(seconds);
+    return '$seconds秒前';
   }
 }
 
@@ -856,36 +832,12 @@ class RelativeTimeLocalizationsZhHansMo extends RelativeTimeLocalizationsZh {
 
   @override
   String secondsFuture(num seconds, Object numeric) {
-    String _secondsFuture0(num seconds) {
-      return '$seconds秒后';
-    }
-
-    String _secondsFuture1(num seconds) {
-      return intl.Intl.pluralLogic(
-        seconds,
-        locale: localeName,
-        other: _secondsFuture0(seconds),
-      );
-    }
-
-    return _secondsFuture1(seconds);
+    return '$seconds秒后';
   }
 
   @override
   String secondsPast(num seconds, Object numeric) {
-    String _secondsPast0(num seconds) {
-      return '$seconds秒前';
-    }
-
-    String _secondsPast1(num seconds) {
-      return intl.Intl.pluralLogic(
-        seconds,
-        locale: localeName,
-        other: _secondsPast0(seconds),
-      );
-    }
-
-    return _secondsPast1(seconds);
+    return '$seconds秒前';
   }
 }
 
@@ -895,36 +847,12 @@ class RelativeTimeLocalizationsZhHansSg extends RelativeTimeLocalizationsZh {
 
   @override
   String secondsFuture(num seconds, Object numeric) {
-    String _secondsFuture0(num seconds) {
-      return '$seconds秒后';
-    }
-
-    String _secondsFuture1(num seconds) {
-      return intl.Intl.pluralLogic(
-        seconds,
-        locale: localeName,
-        other: _secondsFuture0(seconds),
-      );
-    }
-
-    return _secondsFuture1(seconds);
+    return '$seconds秒后';
   }
 
   @override
   String secondsPast(num seconds, Object numeric) {
-    String _secondsPast0(num seconds) {
-      return '$seconds秒前';
-    }
-
-    String _secondsPast1(num seconds) {
-      return intl.Intl.pluralLogic(
-        seconds,
-        locale: localeName,
-        other: _secondsPast0(seconds),
-      );
-    }
-
-    return _secondsPast1(seconds);
+    return '$seconds秒前';
   }
 }
 

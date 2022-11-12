@@ -1064,35 +1064,11 @@ class RelativeTimeLocalizationsUrIn extends RelativeTimeLocalizationsUr {
 
   @override
   String minutesPast(num minutes, Object numeric) {
-    String _minutesPast0(num minutes) {
-      return '$minutes منٹ قبل';
-    }
-
-    String _minutesPast1(num minutes) {
-      return intl.Intl.pluralLogic(
-        minutes,
-        locale: localeName,
-        other: _minutesPast0(minutes),
-      );
-    }
-
-    return _minutesPast1(minutes);
+    return '$minutes منٹ قبل';
   }
 
   @override
   String secondsPast(num seconds, Object numeric) {
-    String _secondsPast0(num seconds) {
-      return '$seconds سیکنڈ قبل';
-    }
-
-    String _secondsPast1(num seconds) {
-      return intl.Intl.pluralLogic(
-        seconds,
-        locale: localeName,
-        other: _secondsPast0(seconds),
-      );
-    }
-
-    return _secondsPast1(seconds);
+    return '$seconds سیکنڈ قبل';
   }
 }

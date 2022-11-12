@@ -8,10 +8,10 @@
   "weeksPast": "{weeks, plural, zero{{numeric, select, true{{weeks} ҳафта олдин} other{бу ҳафта}}} one{{numeric, select, true{{weeks} ҳафта олдин} other{ўтган ҳафта}}} other{{weeks} ҳафта олдин}}",
   "daysFuture": "{days, plural, zero{{numeric, select, true{{days} кундан сўнг} other{бугун}}} one{{numeric, select, true{{days} кундан сўнг} other{эртага}}} other{{days} кундан сўнг}}",
   "daysPast": "{days, plural, zero{{numeric, select, true{{days} кун олдин} other{бугун}}} one{{numeric, select, true{{days} кун олдин} other{кеча}}} other{{days} кун олдин}}",
-  "hoursFuture": "{hours, plural, other{{hours} соатдан сўнг}}",
-  "hoursPast": "{hours, plural, other{{hours} соат олдин}}",
-  "minutesFuture": "{minutes, plural, other{{minutes} дақиқадан сўнг}}",
-  "minutesPast": "{minutes, plural, other{{minutes} дақиқа олдин}}",
+  "hoursFuture": "{hours} соатдан сўнг",
+  "hoursPast": "{hours} соат олдин",
+  "minutesFuture": "{minutes} дақиқадан сўнг",
+  "minutesPast": "{minutes} дақиқа олдин",
   "secondsFuture": "{seconds, plural, zero{{numeric, select, true{{seconds} сониядан сўнг} other{ҳозир}}} other{{seconds} сониядан сўнг}}",
   "secondsPast": "{seconds, plural, zero{{numeric, select, true{{seconds} сония олдин} other{ҳозир}}} other{{seconds} сония олдин}}"
 }

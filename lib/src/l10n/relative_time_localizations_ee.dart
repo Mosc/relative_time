@@ -118,36 +118,12 @@ class RelativeTimeLocalizationsEe extends RelativeTimeLocalizations {
 
   @override
   String quartersFuture(num quarters, Object numeric) {
-    String _quartersFuture0(num quarters) {
-      return 'le kɔta $quarters si gbɔ na me';
-    }
-
-    String _quartersFuture1(num quarters) {
-      return intl.Intl.pluralLogic(
-        quarters,
-        locale: localeName,
-        other: _quartersFuture0(quarters),
-      );
-    }
-
-    return _quartersFuture1(quarters);
+    return 'le kɔta $quarters si gbɔ na me';
   }
 
   @override
   String quartersPast(num quarters, Object numeric) {
-    String _quartersPast0(num quarters) {
-      return 'kɔta $quarters si va yi me';
-    }
-
-    String _quartersPast1(num quarters) {
-      return intl.Intl.pluralLogic(
-        quarters,
-        locale: localeName,
-        other: _quartersPast0(quarters),
-      );
-    }
-
-    return _quartersPast1(quarters);
+    return 'kɔta $quarters si va yi me';
   }
 
   @override

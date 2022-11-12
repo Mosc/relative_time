@@ -1247,19 +1247,7 @@ class RelativeTimeLocalizationsSrCyrlBa extends RelativeTimeLocalizationsSr {
 
   @override
   String daysPast(num days, Object numeric) {
-    String _daysPast0(num days) {
-      return 'прије $days дана';
-    }
-
-    String _daysPast1(num days) {
-      return intl.Intl.pluralLogic(
-        days,
-        locale: localeName,
-        other: _daysPast0(days),
-      );
-    }
-
-    return _daysPast1(days);
+    return 'прије $days дана';
   }
 
   @override
@@ -1291,19 +1279,7 @@ class RelativeTimeLocalizationsSrCyrlBa extends RelativeTimeLocalizationsSr {
 
   @override
   String minutesPast(num minutes, Object numeric) {
-    String _minutesPast0(num minutes) {
-      return 'прије $minutes минута';
-    }
-
-    String _minutesPast1(num minutes) {
-      return intl.Intl.pluralLogic(
-        minutes,
-        locale: localeName,
-        other: _minutesPast0(minutes),
-      );
-    }
-
-    return _minutesPast1(minutes);
+    return 'прије $minutes минута';
   }
 
   @override
@@ -2579,19 +2555,7 @@ class RelativeTimeLocalizationsSrLatnBa extends RelativeTimeLocalizationsSr {
 
   @override
   String daysPast(num days, Object numeric) {
-    String _daysPast0(num days) {
-      return 'prije $days dana';
-    }
-
-    String _daysPast1(num days) {
-      return intl.Intl.pluralLogic(
-        days,
-        locale: localeName,
-        other: _daysPast0(days),
-      );
-    }
-
-    return _daysPast1(days);
+    return 'prije $days dana';
   }
 
   @override
@@ -2623,19 +2587,7 @@ class RelativeTimeLocalizationsSrLatnBa extends RelativeTimeLocalizationsSr {
 
   @override
   String minutesPast(num minutes, Object numeric) {
-    String _minutesPast0(num minutes) {
-      return 'prije $minutes minuta';
-    }
-
-    String _minutesPast1(num minutes) {
-      return intl.Intl.pluralLogic(
-        minutes,
-        locale: localeName,
-        other: _minutesPast0(minutes),
-      );
-    }
-
-    return _minutesPast1(minutes);
+    return 'prije $minutes minuta';
   }
 
   @override

@@ -5,6 +5,6 @@
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} ماہ قبل} other{اس ماہ}}} one{{numeric, select, true{{months} ماہ قبل} other{گزشتہ ماہ}}} other{{months} ماہ قبل}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{{weeks} ہفتوں میں} other{اس ہفتہ}}} one{{numeric, select, true{{weeks} ہفتہ میں} other{اگلے ہفتہ}}} other{{weeks} ہفتوں میں}}",
   "weeksPast": "{weeks, plural, zero{{numeric, select, true{{weeks} ہفتے قبل} other{اس ہفتہ}}} one{{numeric, select, true{{weeks} ہفتہ قبل} other{گزشتہ ہفتہ}}} other{{weeks} ہفتے قبل}}",
-  "minutesPast": "{minutes, plural, other{{minutes} منٹ قبل}}",
-  "secondsPast": "{seconds, plural, other{{seconds} سیکنڈ قبل}}"
+  "minutesPast": "{minutes} منٹ قبل",
+  "secondsPast": "{seconds} سیکنڈ قبل"
 }

@@ -6,8 +6,8 @@
   "monthsPast": "{months, plural, zero{{numeric, select, true{прије {months} мјесеци} other{овог мјесеца}}} one{{numeric, select, true{прије {months} мјесеца} other{прошлог мјесеца}}} few{прије {months} мјесеца} other{прије {months} мјесеци}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{за {weeks} седмица} other{ове седмице}}} one{{numeric, select, true{за {weeks} седмицу} other{сљедеће седмице}}} few{за {weeks} седмице} other{за {weeks} седмица}}",
   "weeksPast": "{weeks, plural, zero{{numeric, select, true{прије {weeks} седмица} other{ове седмице}}} one{{numeric, select, true{прије {weeks} седмице} other{прошле седмице}}} few{прије {weeks} седмице} other{прије {weeks} седмица}}",
-  "daysPast": "{days, plural, other{прије {days} дана}}",
+  "daysPast": "прије {days} дана",
   "hoursPast": "{hours, plural, one{прије {hours} сата} few{прије {hours} сата} other{прије {hours} сати}}",
-  "minutesPast": "{minutes, plural, other{прије {minutes} минута}}",
+  "minutesPast": "прије {minutes} минута",
   "secondsPast": "{seconds, plural, one{прије {seconds} секунде} few{прије {seconds} секунде} other{прије {seconds} секунди}}"
 }

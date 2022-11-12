@@ -596,36 +596,12 @@ class RelativeTimeLocalizationsFy extends RelativeTimeLocalizations {
 
   @override
   String hoursFuture(num hours, Object numeric) {
-    String _hoursFuture0(num hours) {
-      return 'Oer $hours oere';
-    }
-
-    String _hoursFuture1(num hours) {
-      return intl.Intl.pluralLogic(
-        hours,
-        locale: localeName,
-        other: _hoursFuture0(hours),
-      );
-    }
-
-    return _hoursFuture1(hours);
+    return 'Oer $hours oere';
   }
 
   @override
   String hoursPast(num hours, Object numeric) {
-    String _hoursPast0(num hours) {
-      return '$hours oere lyn';
-    }
-
-    String _hoursPast1(num hours) {
-      return intl.Intl.pluralLogic(
-        hours,
-        locale: localeName,
-        other: _hoursPast0(hours),
-      );
-    }
-
-    return _hoursPast1(hours);
+    return '$hours oere lyn';
   }
 
   @override

@@ -1219,70 +1219,22 @@ class RelativeTimeLocalizationsUzCyrl extends RelativeTimeLocalizationsUz {
 
   @override
   String hoursFuture(num hours, Object numeric) {
-    String _hoursFuture0(num hours) {
-      return '$hours соатдан сўнг';
-    }
-
-    String _hoursFuture1(num hours) {
-      return intl.Intl.pluralLogic(
-        hours,
-        locale: localeName,
-        other: _hoursFuture0(hours),
-      );
-    }
-
-    return _hoursFuture1(hours);
+    return '$hours соатдан сўнг';
   }
 
   @override
   String hoursPast(num hours, Object numeric) {
-    String _hoursPast0(num hours) {
-      return '$hours соат олдин';
-    }
-
-    String _hoursPast1(num hours) {
-      return intl.Intl.pluralLogic(
-        hours,
-        locale: localeName,
-        other: _hoursPast0(hours),
-      );
-    }
-
-    return _hoursPast1(hours);
+    return '$hours соат олдин';
   }
 
   @override
   String minutesFuture(num minutes, Object numeric) {
-    String _minutesFuture0(num minutes) {
-      return '$minutes дақиқадан сўнг';
-    }
-
-    String _minutesFuture1(num minutes) {
-      return intl.Intl.pluralLogic(
-        minutes,
-        locale: localeName,
-        other: _minutesFuture0(minutes),
-      );
-    }
-
-    return _minutesFuture1(minutes);
+    return '$minutes дақиқадан сўнг';
   }
 
   @override
   String minutesPast(num minutes, Object numeric) {
-    String _minutesPast0(num minutes) {
-      return '$minutes дақиқа олдин';
-    }
-
-    String _minutesPast1(num minutes) {
-      return intl.Intl.pluralLogic(
-        minutes,
-        locale: localeName,
-        other: _minutesPast0(minutes),
-      );
-    }
-
-    return _minutesPast1(minutes);
+    return '$minutes дақиқа олдин';
   }
 
   @override

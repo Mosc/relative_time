@@ -118,36 +118,12 @@ class RelativeTimeLocalizationsMzn extends RelativeTimeLocalizations {
 
   @override
   String quartersFuture(num quarters, Object numeric) {
-    String _quartersFuture0(num quarters) {
-      return '$quarters ربع دله';
-    }
-
-    String _quartersFuture1(num quarters) {
-      return intl.Intl.pluralLogic(
-        quarters,
-        locale: localeName,
-        other: _quartersFuture0(quarters),
-      );
-    }
-
-    return _quartersFuture1(quarters);
+    return '$quarters ربع دله';
   }
 
   @override
   String quartersPast(num quarters, Object numeric) {
-    String _quartersPast0(num quarters) {
-      return '$quarters ربع پیش';
-    }
-
-    String _quartersPast1(num quarters) {
-      return intl.Intl.pluralLogic(
-        quarters,
-        locale: localeName,
-        other: _quartersPast0(quarters),
-      );
-    }
-
-    return _quartersPast1(quarters);
+    return '$quarters ربع پیش';
   }
 
   @override
@@ -482,103 +458,31 @@ class RelativeTimeLocalizationsMzn extends RelativeTimeLocalizations {
 
   @override
   String hoursFuture(num hours, Object numeric) {
-    String _hoursFuture0(num hours) {
-      return '$hours ساعِت دله';
-    }
-
-    String _hoursFuture1(num hours) {
-      return intl.Intl.pluralLogic(
-        hours,
-        locale: localeName,
-        other: _hoursFuture0(hours),
-      );
-    }
-
-    return _hoursFuture1(hours);
+    return '$hours ساعِت دله';
   }
 
   @override
   String hoursPast(num hours, Object numeric) {
-    String _hoursPast0(num hours) {
-      return '$hours ساعِت پیش';
-    }
-
-    String _hoursPast1(num hours) {
-      return intl.Intl.pluralLogic(
-        hours,
-        locale: localeName,
-        other: _hoursPast0(hours),
-      );
-    }
-
-    return _hoursPast1(hours);
+    return '$hours ساعِت پیش';
   }
 
   @override
   String minutesFuture(num minutes, Object numeric) {
-    String _minutesFuture0(num minutes) {
-      return '$minutes دقیقه دله';
-    }
-
-    String _minutesFuture1(num minutes) {
-      return intl.Intl.pluralLogic(
-        minutes,
-        locale: localeName,
-        other: _minutesFuture0(minutes),
-      );
-    }
-
-    return _minutesFuture1(minutes);
+    return '$minutes دقیقه دله';
   }
 
   @override
   String minutesPast(num minutes, Object numeric) {
-    String _minutesPast0(num minutes) {
-      return '$minutes دَقه پیش';
-    }
-
-    String _minutesPast1(num minutes) {
-      return intl.Intl.pluralLogic(
-        minutes,
-        locale: localeName,
-        other: _minutesPast0(minutes),
-      );
-    }
-
-    return _minutesPast1(minutes);
+    return '$minutes دَقه پیش';
   }
 
   @override
   String secondsFuture(num seconds, Object numeric) {
-    String _secondsFuture0(num seconds) {
-      return '$seconds ثانیه دله';
-    }
-
-    String _secondsFuture1(num seconds) {
-      return intl.Intl.pluralLogic(
-        seconds,
-        locale: localeName,
-        other: _secondsFuture0(seconds),
-      );
-    }
-
-    return _secondsFuture1(seconds);
+    return '$seconds ثانیه دله';
   }
 
   @override
   String secondsPast(num seconds, Object numeric) {
-    String _secondsPast0(num seconds) {
-      return '$seconds ثانیه پیش';
-    }
-
-    String _secondsPast1(num seconds) {
-      return intl.Intl.pluralLogic(
-        seconds,
-        locale: localeName,
-        other: _secondsPast0(seconds),
-      );
-    }
-
-    return _secondsPast1(seconds);
+    return '$seconds ثانیه پیش';
   }
 }

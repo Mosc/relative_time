@@ -6,8 +6,8 @@
   "monthsPast": "{months, plural, zero{{numeric, select, true{prije {months} mjeseci} other{ovog mjeseca}}} one{{numeric, select, true{prije {months} mjeseca} other{prošlog mjeseca}}} few{prije {months} mjeseca} other{prije {months} mjeseci}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{za {weeks} sedmica} other{ove sedmice}}} one{{numeric, select, true{za {weeks} sedmicu} other{sljedeće sedmice}}} few{za {weeks} sedmice} other{za {weeks} sedmica}}",
   "weeksPast": "{weeks, plural, zero{{numeric, select, true{prije {weeks} sedmica} other{ove sedmice}}} one{{numeric, select, true{prije {weeks} sedmice} other{prošle sedmice}}} few{prije {weeks} sedmice} other{prije {weeks} sedmica}}",
-  "daysPast": "{days, plural, other{prije {days} dana}}",
+  "daysPast": "prije {days} dana",
   "hoursPast": "{hours, plural, one{prije {hours} sata} few{prije {hours} sata} other{prije {hours} sati}}",
-  "minutesPast": "{minutes, plural, other{prije {minutes} minuta}}",
+  "minutesPast": "prije {minutes} minuta",
   "secondsPast": "{seconds, plural, one{prije {seconds} sekunde} few{prije {seconds} sekunde} other{prije {seconds} sekundi}}"
 }
