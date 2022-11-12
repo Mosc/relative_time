@@ -1,10 +1,10 @@
 {
   "@@locale": "ur_IN",
-  "yearsFuture": "{years, plural, =1{{years} سال میں} other{{years} سالوں میں}}",
-  "monthsFuture": "{months, plural, =0{{numeric, select, true{{months} ماہ میں} other{اس ماہ}}} =1{{numeric, select, true{{months} ماہ میں} other{اگلے ماہ}}} other{{months} ماہ میں}}",
-  "monthsPast": "{months, plural, =0{{numeric, select, true{{months} ماہ قبل} other{اس ماہ}}} =1{{numeric, select, true{{months} ماہ قبل} other{گزشتہ ماہ}}} other{{months} ماہ قبل}}",
-  "weeksFuture": "{weeks, plural, =0{{numeric, select, true{{weeks} ہفتوں میں} other{اس ہفتہ}}} =1{{numeric, select, true{{weeks} ہفتہ میں} other{اگلے ہفتہ}}} other{{weeks} ہفتوں میں}}",
-  "weeksPast": "{weeks, plural, =0{{numeric, select, true{{weeks} ہفتے قبل} other{اس ہفتہ}}} =1{{numeric, select, true{{weeks} ہفتہ قبل} other{گزشتہ ہفتہ}}} other{{weeks} ہفتے قبل}}",
+  "yearsFuture": "{years, plural, one{{years} سال میں} other{{years} سالوں میں}}",
+  "monthsFuture": "{months, plural, zero{{numeric, select, true{{months} ماہ میں} other{اس ماہ}}} one{{numeric, select, true{{months} ماہ میں} other{اگلے ماہ}}} other{{months} ماہ میں}}",
+  "monthsPast": "{months, plural, zero{{numeric, select, true{{months} ماہ قبل} other{اس ماہ}}} one{{numeric, select, true{{months} ماہ قبل} other{گزشتہ ماہ}}} other{{months} ماہ قبل}}",
+  "weeksFuture": "{weeks, plural, zero{{numeric, select, true{{weeks} ہفتوں میں} other{اس ہفتہ}}} one{{numeric, select, true{{weeks} ہفتہ میں} other{اگلے ہفتہ}}} other{{weeks} ہفتوں میں}}",
+  "weeksPast": "{weeks, plural, zero{{numeric, select, true{{weeks} ہفتے قبل} other{اس ہفتہ}}} one{{numeric, select, true{{weeks} ہفتہ قبل} other{گزشتہ ہفتہ}}} other{{weeks} ہفتے قبل}}",
   "minutesPast": "{minutes, plural, other{{minutes} منٹ قبل}}",
   "secondsPast": "{seconds, plural, other{{seconds} سیکنڈ قبل}}"
 }

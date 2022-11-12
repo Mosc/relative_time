@@ -1,17 +1,17 @@
 {
   "@@locale": "uz_Cyrl",
-  "yearsFuture": "{years, plural, =0{{numeric, select, true{{years} йилдан сўнг} other{бу йил}}} =1{{numeric, select, true{{years} йилдан сўнг} other{кейинги йил}}} other{{years} йилдан сўнг}}",
-  "yearsPast": "{years, plural, =0{{numeric, select, true{{years} йил аввал} other{бу йил}}} =1{{numeric, select, true{{years} йил аввал} other{ўтган йил}}} other{{years} йил аввал}}",
-  "monthsFuture": "{months, plural, =0{{numeric, select, true{{months} ойдан сўнг} other{бу ой}}} =1{{numeric, select, true{{months} ойдан сўнг} other{кейинги ой}}} other{{months} ойдан сўнг}}",
-  "monthsPast": "{months, plural, =0{{numeric, select, true{{months} ой аввал} other{бу ой}}} =1{{numeric, select, true{{months} ой аввал} other{ўтган ой}}} other{{months} ой аввал}}",
-  "weeksFuture": "{weeks, plural, =0{{numeric, select, true{{weeks} ҳафтадан сўнг} other{бу ҳафта}}} =1{{numeric, select, true{{weeks} ҳафтадан сўнг} other{кейинги ҳафта}}} other{{weeks} ҳафтадан сўнг}}",
-  "weeksPast": "{weeks, plural, =0{{numeric, select, true{{weeks} ҳафта олдин} other{бу ҳафта}}} =1{{numeric, select, true{{weeks} ҳафта олдин} other{ўтган ҳафта}}} other{{weeks} ҳафта олдин}}",
-  "daysFuture": "{days, plural, =0{{numeric, select, true{{days} кундан сўнг} other{бугун}}} =1{{numeric, select, true{{days} кундан сўнг} other{эртага}}} other{{days} кундан сўнг}}",
-  "daysPast": "{days, plural, =0{{numeric, select, true{{days} кун олдин} other{бугун}}} =1{{numeric, select, true{{days} кун олдин} other{кеча}}} other{{days} кун олдин}}",
+  "yearsFuture": "{years, plural, zero{{numeric, select, true{{years} йилдан сўнг} other{бу йил}}} one{{numeric, select, true{{years} йилдан сўнг} other{кейинги йил}}} other{{years} йилдан сўнг}}",
+  "yearsPast": "{years, plural, zero{{numeric, select, true{{years} йил аввал} other{бу йил}}} one{{numeric, select, true{{years} йил аввал} other{ўтган йил}}} other{{years} йил аввал}}",
+  "monthsFuture": "{months, plural, zero{{numeric, select, true{{months} ойдан сўнг} other{бу ой}}} one{{numeric, select, true{{months} ойдан сўнг} other{кейинги ой}}} other{{months} ойдан сўнг}}",
+  "monthsPast": "{months, plural, zero{{numeric, select, true{{months} ой аввал} other{бу ой}}} one{{numeric, select, true{{months} ой аввал} other{ўтган ой}}} other{{months} ой аввал}}",
+  "weeksFuture": "{weeks, plural, zero{{numeric, select, true{{weeks} ҳафтадан сўнг} other{бу ҳафта}}} one{{numeric, select, true{{weeks} ҳафтадан сўнг} other{кейинги ҳафта}}} other{{weeks} ҳафтадан сўнг}}",
+  "weeksPast": "{weeks, plural, zero{{numeric, select, true{{weeks} ҳафта олдин} other{бу ҳафта}}} one{{numeric, select, true{{weeks} ҳафта олдин} other{ўтган ҳафта}}} other{{weeks} ҳафта олдин}}",
+  "daysFuture": "{days, plural, zero{{numeric, select, true{{days} кундан сўнг} other{бугун}}} one{{numeric, select, true{{days} кундан сўнг} other{эртага}}} other{{days} кундан сўнг}}",
+  "daysPast": "{days, plural, zero{{numeric, select, true{{days} кун олдин} other{бугун}}} one{{numeric, select, true{{days} кун олдин} other{кеча}}} other{{days} кун олдин}}",
   "hoursFuture": "{hours, plural, other{{hours} соатдан сўнг}}",
   "hoursPast": "{hours, plural, other{{hours} соат олдин}}",
   "minutesFuture": "{minutes, plural, other{{minutes} дақиқадан сўнг}}",
   "minutesPast": "{minutes, plural, other{{minutes} дақиқа олдин}}",
-  "secondsFuture": "{seconds, plural, =0{{numeric, select, true{{seconds} сониядан сўнг} other{ҳозир}}} other{{seconds} сониядан сўнг}}",
-  "secondsPast": "{seconds, plural, =0{{numeric, select, true{{seconds} сония олдин} other{ҳозир}}} other{{seconds} сония олдин}}"
+  "secondsFuture": "{seconds, plural, zero{{numeric, select, true{{seconds} сониядан сўнг} other{ҳозир}}} other{{seconds} сониядан сўнг}}",
+  "secondsPast": "{seconds, plural, zero{{numeric, select, true{{seconds} сония олдин} other{ҳозир}}} other{{seconds} сония олдин}}"
 }

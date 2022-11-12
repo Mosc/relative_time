@@ -19,10 +19,10 @@ const List<String> supportedDateFieldTypes = <String>[
 
 const String templateLocale = 'en';
 
-const Map<String, String> relativeTimePatternCountMapping = <String, String>{
-  'zero': '=0',
-  'one': '=1',
-  'two': '=2',
+const Map<int, String> relativeCountMapping = <int, String>{
+  0: 'zero',
+  1: 'one',
+  2: 'two',
 };
 
 const Map<String, String> localeMapping = <String, String>{
@@ -171,7 +171,7 @@ Map<String, String> _getRelativeTimePatternPlurals({
   final List<int> amounts = relativePlurals.keys.toList()..sort();
 
   for (final amount in amounts) {
-    final String key = '=$amount';
+    final String key = relativeCountMapping[amount] ?? '=$amount';
     relativeTimePatternPlurals[key] = relativePlurals[amount]!;
   }
 
@@ -203,7 +203,7 @@ MapEntry<String, String> _getRelativeTimePatternEntry({
   required XmlElement relativeTimePattern,
   required String dateType,
 }) {
-  final String key = _getMappedRelativeTimePatternCount(relativeTimePattern);
+  final String key = _getXmlAttributeValue(relativeTimePattern, 'count');
   final String value =
       relativeTimePattern.text.replaceFirst(RegExp(r'\{+0\}+'), '{$dateType}');
   return MapEntry<String, String>(key, value);
@@ -259,11 +259,6 @@ String _getXmlAttributeValue(XmlElement element, String name) =>
     element.attributes
         .singleWhere((XmlAttribute attribute) => attribute.name.local == name)
         .value;
-
-String _getMappedRelativeTimePatternCount(XmlElement relativeTimePattern) {
-  var attributeValue = _getXmlAttributeValue(relativeTimePattern, 'count');
-  return relativeTimePatternCountMapping[attributeValue] ?? attributeValue;
-}
 
 int _expectedEntries(String locale) =>
     supportedDateFieldTypes.length * 2 * (locale == templateLocale ? 2 : 1);

@@ -1,11 +1,11 @@
 {
   "@@locale": "pt_PT",
-  "yearsFuture": "{years, plural, =1{dentro de {years} ano} other{dentro de {years} anos}}",
-  "quartersFuture": "{quarters, plural, =0{{numeric, select, true{dentro de {quarters} trimestres} other{este trimestre}}} =1{{numeric, select, true{dentro de {quarters} trimestre} other{próximo trimestre}}} other{dentro de {quarters} trimestres}}",
-  "monthsFuture": "{months, plural, =1{dentro de {months} mês} other{dentro de {months} meses}}",
-  "weeksFuture": "{weeks, plural, =1{dentro de {weeks} semana} other{dentro de {weeks} semanas}}",
-  "daysFuture": "{days, plural, =1{dentro de {days} dia} other{dentro de {days} dias}}",
-  "hoursFuture": "{hours, plural, =1{dentro de {hours} hora} other{dentro de {hours} horas}}",
-  "minutesFuture": "{minutes, plural, =1{dentro de {minutes} minuto} other{dentro de {minutes} minutos}}",
-  "secondsFuture": "{seconds, plural, =1{dentro de {seconds} segundo} other{dentro de {seconds} segundos}}"
+  "yearsFuture": "{years, plural, one{dentro de {years} ano} other{dentro de {years} anos}}",
+  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{dentro de {quarters} trimestres} other{este trimestre}}} one{{numeric, select, true{dentro de {quarters} trimestre} other{próximo trimestre}}} other{dentro de {quarters} trimestres}}",
+  "monthsFuture": "{months, plural, one{dentro de {months} mês} other{dentro de {months} meses}}",
+  "weeksFuture": "{weeks, plural, one{dentro de {weeks} semana} other{dentro de {weeks} semanas}}",
+  "daysFuture": "{days, plural, one{dentro de {days} dia} other{dentro de {days} dias}}",
+  "hoursFuture": "{hours, plural, one{dentro de {hours} hora} other{dentro de {hours} horas}}",
+  "minutesFuture": "{minutes, plural, one{dentro de {minutes} minuto} other{dentro de {minutes} minutos}}",
+  "secondsFuture": "{seconds, plural, one{dentro de {seconds} segundo} other{dentro de {seconds} segundos}}"
 }
