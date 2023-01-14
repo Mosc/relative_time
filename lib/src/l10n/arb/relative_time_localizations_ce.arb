@@ -2,8 +2,6 @@
   "@@locale": "ce",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{{years} шо даьлча} other{карарчу шарахь}}} one{{numeric, select, true{{years} шо даьлча} other{рогӀерчу шарахь}}} other{{years} шо даьлча}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} шо хьалха} other{карарчу шарахь}}} one{{numeric, select, true{{years} шо хьалха} other{даханчу шарахь}}} other{{years} шо хьалха}}",
-  "quartersFuture": "{quarters} квартал яьлча",
-  "quartersPast": "{quarters} квартал хьалха",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{{months} бутт баьлча} other{карарчу баттахь}}} one{{numeric, select, true{{months} бутт баьлча} other{рогӀерчу баттахь}}} other{{months} бутт баьлча}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} бутт хьалха} other{карарчу баттахь}}} one{{numeric, select, true{{months} бутт хьалха} other{баханчу баттахь}}} other{{months} бутт хьалха}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{{weeks} кӀира даьлча} other{карарчу кӀирнахь}}} one{{numeric, select, true{{weeks} кӀира даьлча} other{рогӀерчу кӀирнахь}}} other{{weeks} кӀира даьлча}}",

@@ -2,8 +2,6 @@
   "@@locale": "ko",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{{years}년 후} other{올해}}} one{{numeric, select, true{{years}년 후} other{내년}}} other{{years}년 후}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years}년 전} other{올해}}} one{{numeric, select, true{{years}년 전} other{작년}}} other{{years}년 전}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{{quarters}분기 후} other{이번 분기}}} one{{numeric, select, true{{quarters}분기 후} other{다음 분기}}} other{{quarters}분기 후}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters}분기 전} other{이번 분기}}} one{{numeric, select, true{{quarters}분기 전} other{지난 분기}}} other{{quarters}분기 전}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{{months}개월 후} other{이번 달}}} one{{numeric, select, true{{months}개월 후} other{다음 달}}} other{{months}개월 후}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months}개월 전} other{이번 달}}} one{{numeric, select, true{{months}개월 전} other{지난달}}} other{{months}개월 전}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{{weeks}주 후} other{이번 주}}} one{{numeric, select, true{{weeks}주 후} other{다음 주}}} other{{weeks}주 후}}",

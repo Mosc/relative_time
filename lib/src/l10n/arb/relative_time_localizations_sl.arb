@@ -2,8 +2,6 @@
   "@@locale": "sl",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{čez {years} let} other{letos}}} one{{numeric, select, true{čez {years} leto} other{naslednje leto}}} two{čez {years} leti} few{čez {years} leta} other{čez {years} let}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{pred {years} leti} other{letos}}} one{{numeric, select, true{pred {years} letom} other{lani}}} two{pred {years} letoma} other{pred {years} leti}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{čez {quarters} četrtletij} other{to četrtletje}}} one{{numeric, select, true{čez {quarters} četrtletje} other{naslednje četrtletje}}} two{čez {quarters} četrtletji} few{čez {quarters} četrtletja} other{čez {quarters} četrtletij}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{pred {quarters} četrtletji} other{to četrtletje}}} one{{numeric, select, true{pred {quarters} četrtletjem} other{zadnje četrtletje}}} two{pred {quarters} četrtletjema} other{pred {quarters} četrtletji}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{čez {months} mesecev} other{ta mesec}}} one{{numeric, select, true{čez {months} mesec} other{naslednji mesec}}} two{čez {months} meseca} few{čez {months} mesece} other{čez {months} mesecev}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{pred {months} meseci} other{ta mesec}}} one{{numeric, select, true{pred {months} mesecem} other{prejšnji mesec}}} two{pred {months} mesecema} other{pred {months} meseci}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{čez {weeks} tednov} other{ta teden}}} one{{numeric, select, true{čez {weeks} teden} other{naslednji teden}}} two{čez {weeks} tedna} few{čez {weeks} tedne} other{čez {weeks} tednov}}",

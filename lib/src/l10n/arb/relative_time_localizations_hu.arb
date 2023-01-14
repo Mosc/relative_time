@@ -2,8 +2,6 @@
   "@@locale": "hu",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{{years} év múlva} other{ez az év}}} one{{numeric, select, true{{years} év múlva} other{következő év}}} other{{years} év múlva}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} évvel ezelőtt} other{ez az év}}} one{{numeric, select, true{{years} évvel ezelőtt} other{előző év}}} other{{years} évvel ezelőtt}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{{quarters} negyedév múlva} other{ez a negyedév}}} one{{numeric, select, true{{quarters} negyedév múlva} other{következő negyedév}}} other{{quarters} negyedév múlva}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} negyedévvel ezelőtt} other{ez a negyedév}}} one{{numeric, select, true{{quarters} negyedévvel ezelőtt} other{előző negyedév}}} other{{quarters} negyedévvel ezelőtt}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{{months} hónap múlva} other{ez a hónap}}} one{{numeric, select, true{{months} hónap múlva} other{következő hónap}}} other{{months} hónap múlva}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} hónappal ezelőtt} other{ez a hónap}}} one{{numeric, select, true{{months} hónappal ezelőtt} other{előző hónap}}} other{{months} hónappal ezelőtt}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{{weeks} hét múlva} other{ez a hét}}} one{{numeric, select, true{{weeks} hét múlva} other{következő hét}}} other{{weeks} hét múlva}}",

@@ -2,8 +2,6 @@
   "@@locale": "mai",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{{years} बरख मे} other{एहि बरख}}} one{{numeric, select, true{{years} बरख मे} other{अगिला बरख}}} other{{years} बरख मे}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} बरख पहिले} other{एहि बरख}}} one{{numeric, select, true{{years} बरख पहिले} other{बीतल बरख}}} other{{years} बरख पहिले}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{{quarters} तिमाही मे} other{एहि तिमाही}}} one{{numeric, select, true{{quarters} तिमाही मे} other{अगिला तिमाही}}} other{{quarters} तिमाही मे}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} तिमाही पहिले} other{एहि तिमाही}}} one{{numeric, select, true{{quarters} तिमाही पहिले} other{बीतल तिमाही}}} other{{quarters} तिमाही पहिले}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{{months} माह मे} other{एहि माह}}} one{{numeric, select, true{{months} माह मे} other{अगिला माह}}} other{{months} माह मे}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} माह पहिले} other{एहि माह}}} one{{numeric, select, true{{months} माह पहिले} other{बीतल माह}}} other{{months} माह पहिले}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{{weeks} सप्ताह मे} other{एहि सप्ताह}}} one{{numeric, select, true{{weeks} सप्ताह मे} other{अगिला सप्ताह}}} other{{weeks} सप्ताह मे}}",

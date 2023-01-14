@@ -2,8 +2,6 @@
   "@@locale": "da",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{om {years} år} other{i år}}} one{{numeric, select, true{om {years} år} other{næste år}}} other{om {years} år}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{for {years} år siden} other{i år}}} one{{numeric, select, true{for {years} år siden} other{sidste år}}} other{for {years} år siden}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{om {quarters} kvartaler} other{dette kvartal}}} one{{numeric, select, true{om {quarters} kvartal} other{næste kvartal}}} other{om {quarters} kvartaler}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{for {quarters} kvartaler siden} other{dette kvartal}}} one{{numeric, select, true{for {quarters} kvartal siden} other{sidste kvartal}}} other{for {quarters} kvartaler siden}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{om {months} måneder} other{denne måned}}} one{{numeric, select, true{om {months} måned} other{næste måned}}} other{om {months} måneder}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{for {months} måneder siden} other{denne måned}}} one{{numeric, select, true{for {months} måned siden} other{sidste måned}}} other{for {months} måneder siden}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{om {weeks} uger} other{denne uge}}} one{{numeric, select, true{om {weeks} uge} other{næste uge}}} other{om {weeks} uger}}",

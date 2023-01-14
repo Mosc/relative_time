@@ -2,8 +2,6 @@
   "@@locale": "chr",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{ᎾᎿ {years} ᎢᏧᏕᏘᏴᏌᏗᏒᎢ} other{ᎯᎠ ᏧᏕᏘᏴᏒᏘ}}} one{{numeric, select, true{ᎾᎿ {years} ᎤᏕᏘᏴᏌᏗᏒᎢ} other{ᎡᏘᏴᎢ}}} other{ᎾᎿ {years} ᎢᏧᏕᏘᏴᏌᏗᏒᎢ}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} ᎢᏧᏕᏘᏴᏌᏗᏒᎢ ᏥᎨᏒ} other{ᎯᎠ ᏧᏕᏘᏴᏒᏘ}}} one{{numeric, select, true{{years} ᎤᏕᏘᏴᏌᏗᏒᎢ ᏥᎨᏒ} other{ᎡᏘ ᏥᎨᏒ}}} other{{years} ᎢᏧᏕᏘᏴᏌᏗᏒᎢ ᏥᎨᏒ}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{ᎾᎿ {quarters} ᎩᏄᏙᏗ} other{ᎯᎠ ᎩᏄᏙᏗ}}} one{{numeric, select, true{ᎾᎿ {quarters} ᎩᏄᏙᏗ} other{ᏔᎵᏁ ᎩᏄᏙᏗ}}} other{ᎾᎿ {quarters} ᎩᏄᏙᏗ}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} ᎩᏄᏙᏗ ᏥᎨᏒ} other{ᎯᎠ ᎩᏄᏙᏗ}}} one{{numeric, select, true{ᎾᎿ {quarters} ᎩᏄᏙᏗ ᏥᎨᏒ} other{ᎩᏄᏙᏗ ᏥᎨᏒ}}} other{{quarters} ᎩᏄᏙᏗ ᏥᎨᏒ}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{ᎾᎿ {months} ᏗᎧᎸᎢ} other{ᎯᎠ ᎧᎸᎢ}}} one{{numeric, select, true{ᎾᎿ {months} ᎧᎸᎢ} other{ᏔᎵᏁ ᎧᎸᎢ}}} other{ᎾᎿ {months} ᏗᎧᎸᎢ}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} ᏗᎧᎸᎢ ᏥᎨᏒ} other{ᎯᎠ ᎧᎸᎢ}}} one{{numeric, select, true{{months} ᎧᎸᎢ ᏥᎨᏒ} other{ᎧᎸᎢ ᏥᎨᏒ}}} other{{months} ᏗᎧᎸᎢ ᏥᎨᏒ}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{ᎾᎿ {weeks} ᎢᏳᎾᏙᏓᏆᏍᏗ} other{ᎯᎠ ᎠᎵᎵᏌ}}} one{{numeric, select, true{ᎾᎿ {weeks} ᏒᎾᏙᏓᏆᏍᏗ} other{ᏐᏆᎴᏅᎲ}}} other{ᎾᎿ {weeks} ᎢᏳᎾᏙᏓᏆᏍᏗ}}",

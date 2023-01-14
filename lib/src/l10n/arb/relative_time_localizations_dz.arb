@@ -1,0 +1,17 @@
+{
+  "@@locale": "dz",
+  "yearsFuture": "ལོ་འཁོར་ {years} ནང་",
+  "yearsPast": "ལོ་འཁོར་ {years} ཧེ་མ་",
+  "monthsFuture": "ཟླཝ་ {months} ནང་",
+  "monthsPast": "ཟླཝ་ {months} ཧེ་མ་",
+  "weeksFuture": "བངུན་ཕྲག་ {weeks} ནང་",
+  "weeksPast": "བངུན་ཕྲག་ {weeks} ཧེ་མ་",
+  "daysFuture": "{days, plural, zero{{numeric, select, true{ཉིནམ་ {days} ནང་} other{ད་རིས་}}} one{{numeric, select, true{ཉིནམ་ {days} ནང་} other{ནངས་པ་}}} two{{numeric, select, true{ཉིནམ་ {days} ནང་} other{གནངས་ཚེ}}} other{ཉིནམ་ {days} ནང་}}",
+  "daysPast": "{days, plural, zero{{numeric, select, true{ཉིནམ་ {days} ཧེ་མ་} other{ད་རིས་}}} one{{numeric, select, true{ཉིནམ་ {days} ཧེ་མ་} other{ཁ་ཙ་}}} two{{numeric, select, true{ཉིནམ་ {days} ཧེ་མ་} other{ཁ་ཉིམ}}} other{ཉིནམ་ {days} ཧེ་མ་}}",
+  "hoursFuture": "ཆུ་ཚོད་ {hours} ནང་",
+  "hoursPast": "ཆུ་ཚོད་ {hours} ཧེ་མ་",
+  "minutesFuture": "སྐར་མ་ {minutes} ནང་",
+  "minutesPast": "སྐར་མ་ {minutes} ཧེ་མ་",
+  "secondsFuture": "སྐར་ཆ་ {seconds} ནང་",
+  "secondsPast": "སྐར་ཆ་ {seconds} ཧེ་མ་"
+}

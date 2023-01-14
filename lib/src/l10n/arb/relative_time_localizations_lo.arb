@@ -2,8 +2,6 @@
   "@@locale": "lo",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{ໃນອີກ {years} ປີ} other{ປີນີ້}}} one{{numeric, select, true{ໃນອີກ {years} ປີ} other{ປີໜ້າ}}} other{ໃນອີກ {years} ປີ}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} ປີກ່ອນ} other{ປີນີ້}}} one{{numeric, select, true{{years} ປີກ່ອນ} other{ປີກາຍ}}} other{{years} ປີກ່ອນ}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{ໃນອີກ {quarters} ໄຕຣມາດ} other{ໄຕຣມາດນີ້}}} one{{numeric, select, true{ໃນອີກ {quarters} ໄຕຣມາດ} other{ໄຕຣມາດໜ້າ}}} other{ໃນອີກ {quarters} ໄຕຣມາດ}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} ໄຕຣມາດກ່ອນ} other{ໄຕຣມາດນີ້}}} one{{numeric, select, true{{quarters} ໄຕຣມາດກ່ອນ} other{ໄຕຣມາດກ່ອນໜ້າ}}} other{{quarters} ໄຕຣມາດກ່ອນ}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{ໃນອີກ {months} ເດືອນ} other{ເດືອນນີ້}}} one{{numeric, select, true{ໃນອີກ {months} ເດືອນ} other{ເດືອນໜ້າ}}} other{ໃນອີກ {months} ເດືອນ}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} ເດືອນກ່ອນ} other{ເດືອນນີ້}}} one{{numeric, select, true{{months} ເດືອນກ່ອນ} other{ເດືອນແລ້ວ}}} other{{months} ເດືອນກ່ອນ}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{ໃນອີກ {weeks} ອາທິດ} other{ອາທິດນີ້}}} one{{numeric, select, true{ໃນອີກ {weeks} ອາທິດ} other{ອາທິດໜ້າ}}} other{ໃນອີກ {weeks} ອາທິດ}}",

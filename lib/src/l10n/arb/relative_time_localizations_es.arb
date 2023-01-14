@@ -2,8 +2,6 @@
   "@@locale": "es",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{dentro de {years} años} other{este año}}} one{{numeric, select, true{dentro de {years} año} other{el próximo año}}} other{dentro de {years} años}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{hace {years} años} other{este año}}} one{{numeric, select, true{hace {years} año} other{el año pasado}}} other{hace {years} años}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{dentro de {quarters} trimestres} other{este trimestre}}} one{{numeric, select, true{dentro de {quarters} trimestre} other{el próximo trimestre}}} other{dentro de {quarters} trimestres}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{hace {quarters} trimestres} other{este trimestre}}} one{{numeric, select, true{hace {quarters} trimestre} other{el trimestre pasado}}} other{hace {quarters} trimestres}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{dentro de {months} meses} other{este mes}}} one{{numeric, select, true{dentro de {months} mes} other{el próximo mes}}} other{dentro de {months} meses}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{hace {months} meses} other{este mes}}} one{{numeric, select, true{hace {months} mes} other{el mes pasado}}} other{hace {months} meses}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{dentro de {weeks} semanas} other{esta semana}}} one{{numeric, select, true{dentro de {weeks} semana} other{la próxima semana}}} other{dentro de {weeks} semanas}}",

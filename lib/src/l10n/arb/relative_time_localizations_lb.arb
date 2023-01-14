@@ -2,8 +2,6 @@
   "@@locale": "lb",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{a(n) {years} Joer} other{dëst Joer}}} one{{numeric, select, true{an {years} Joer} other{nächst Joer}}} other{a(n) {years} Joer}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{viru(n) {years} Joer} other{dëst Joer}}} one{{numeric, select, true{virun {years} Joer} other{lescht Joer}}} other{viru(n) {years} Joer}}",
-  "quartersFuture": "{quarters, plural, one{an {quarters} Quartal} other{a(n) {quarters} Quartaler}}",
-  "quartersPast": "{quarters, plural, one{virun {quarters} Quartal} other{viru(n) {quarters} Quartaler}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{a(n) {months} Méint} other{dëse Mount}}} one{{numeric, select, true{an {months} Mount} other{nächste Mount}}} other{a(n) {months} Méint}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{viru(n) {months} Méint} other{dëse Mount}}} one{{numeric, select, true{virun {months} Mount} other{leschte Mount}}} other{viru(n) {months} Méint}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{a(n) {weeks} Wochen} other{dës Woch}}} one{{numeric, select, true{an {weeks} Woch} other{nächst Woch}}} other{a(n) {weeks} Wochen}}",

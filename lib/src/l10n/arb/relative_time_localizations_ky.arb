@@ -2,8 +2,6 @@
   "@@locale": "ky",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{{years} жылдан кийин} other{быйыл}}} one{{numeric, select, true{{years} жылдан кийин} other{эмдиги жылы}}} other{{years} жылдан кийин}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} жыл мурун} other{быйыл}}} one{{numeric, select, true{{years} жыл мурун} other{былтыр}}} other{{years} жыл мурун}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{{quarters} чейректен кийин} other{бул чейрек}}} one{{numeric, select, true{{quarters} чейректен кийин} other{кийинки чейрек}}} other{{quarters} чейректен кийин}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} чейрек мурун} other{бул чейрек}}} one{{numeric, select, true{{quarters} чейрек мурун} other{акыркы чейрек}}} other{{quarters} чейрек мурун}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{{months} айдан кийин} other{бул айда}}} one{{numeric, select, true{{months} айдан кийин} other{эмдиги айда}}} other{{months} айдан кийин}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} ай мурун} other{бул айда}}} one{{numeric, select, true{{months} ай мурун} other{өткөн айда}}} other{{months} ай мурун}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{{weeks} аптадан кийин} other{ушул аптада}}} one{{numeric, select, true{{weeks} аптадан кийин} other{келерки аптада}}} other{{weeks} аптадан кийин}}",

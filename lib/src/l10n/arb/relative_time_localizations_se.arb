@@ -1,3 +1,17 @@
 {
-  "@@locale": "se"
+  "@@locale": "se",
+  "yearsFuture": "{years, plural, one{{years} jahki maŋŋilit} other{{years} jahkki maŋŋilit}}",
+  "yearsPast": "{years, plural, one{{years} jahki árat} other{{years} jahkki árat}}",
+  "monthsFuture": "{months} mánotbadji maŋŋilit",
+  "monthsPast": "{months} mánotbadji árat",
+  "weeksFuture": "{weeks, plural, one{{weeks} vahku maŋŋilit} other{{weeks} vahkku maŋŋilit}}",
+  "weeksPast": "{weeks, plural, one{{weeks} vahku árat} other{{weeks} vahkku árat}}",
+  "daysFuture": "{days, plural, zero{{numeric, select, true{{days} jándora maŋŋilit} other{odne}}} one{{numeric, select, true{{days} jándor maŋŋilit} other{ihttin}}} two{{numeric, select, true{{days} jándor amaŋŋilit} other{paijeelittáá}}} other{{days} jándora maŋŋilit}}",
+  "daysPast": "{days, plural, zero{{numeric, select, true{{days} jándora árat} other{odne}}} one{{numeric, select, true{{days} jándor árat} other{ikte}}} two{{numeric, select, true{{days} jándora árat} other{oovdebpeivvi}}} other{{days} jándora árat}}",
+  "hoursFuture": "{hours, plural, one{{hours} diibmu maŋŋilit} other{{hours} diibmur maŋŋilit}}",
+  "hoursPast": "{hours, plural, one{{hours} diibmu árat} other{{hours} diibmur árat}}",
+  "minutesFuture": "{minutes, plural, one{{minutes} minuhta maŋŋilit} other{{minutes} minuhtta maŋŋilit}}",
+  "minutesPast": "{minutes, plural, one{{minutes} minuhta árat} other{{minutes} minuhtta árat}}",
+  "secondsFuture": "{seconds, plural, zero{{numeric, select, true{{seconds} sekundda maŋŋilit} other{na}}} one{{seconds} sekunda maŋŋilit} other{{seconds} sekundda maŋŋilit}}",
+  "secondsPast": "{seconds, plural, zero{{numeric, select, true{{seconds} sekundda árat} other{na}}} one{{seconds} sekunda árat} other{{seconds} sekundda árat}}"
 }

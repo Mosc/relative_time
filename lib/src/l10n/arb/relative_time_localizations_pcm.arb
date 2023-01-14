@@ -2,8 +2,6 @@
   "@@locale": "pcm",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{fọ {years} yiẹ wé de kọm} other{Dís yiẹ}}} one{{numeric, select, true{fọ {years} yiẹ wé de kọm} other{Nẹ́st yiẹ}}} other{fọ {years} yiẹ wé de kọm}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} yiẹ wé dọ́n pas} other{Dís yiẹ}}} one{{numeric, select, true{{years} yiẹ wé dọ́n pas} other{Lást yiẹ}}} other{{years} yiẹ wé dọ́n pas}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{fọ {quarters} kwọ́ta wé de kọm} other{Dís kwọ́ta}}} one{{numeric, select, true{fọ {quarters} kwọ́ta wé de kọm} other{Nẹ́st kwọ́ta}}} other{fọ {quarters} kwọ́ta wé de kọm}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} kwọ́ta wé dọ́n pas} other{Dís kwọ́ta}}} one{{numeric, select, true{{quarters} kwọ́ta wé dọ́n pas} other{Lást kwọ́ta}}} other{{quarters} kwọ́ta wé dọ́n pas}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{Fọ {months}mọnt wé de kọm} other{Dís mọnt}}} one{{numeric, select, true{Fọ {months}mọnt wé de kọm} other{Nẹ́st mọnt}}} other{Fọ {months}mọnt wé de kọm}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} mọnt wé dọ́n pas} other{Dís mọnt}}} one{{numeric, select, true{{months} mọnt wé dọ́n pas} other{Lást mọnt}}} other{{months} mọnt wé dọ́n pas}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{Fọ {weeks}wik wé de kọm} other{Dís wik}}} one{{numeric, select, true{Fọ {weeks}wik wé de kọm} other{Nẹ́st wik}}} other{Fọ {weeks}wik wé de kọm}}",

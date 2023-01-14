@@ -2,8 +2,6 @@
   "@@locale": "zh",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{{years}年后} other{今年}}} one{{numeric, select, true{{years}年后} other{明年}}} other{{years}年后}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years}年前} other{今年}}} one{{numeric, select, true{{years}年前} other{去年}}} other{{years}年前}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{{quarters}个季度后} other{本季度}}} one{{numeric, select, true{{quarters}个季度后} other{下季度}}} other{{quarters}个季度后}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters}个季度前} other{本季度}}} one{{numeric, select, true{{quarters}个季度前} other{上季度}}} other{{quarters}个季度前}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{{months}个月后} other{本月}}} one{{numeric, select, true{{months}个月后} other{下个月}}} other{{months}个月后}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months}个月前} other{本月}}} one{{numeric, select, true{{months}个月前} other{上个月}}} other{{months}个月前}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{{weeks}周后} other{本周}}} one{{numeric, select, true{{weeks}周后} other{下周}}} other{{weeks}周后}}",

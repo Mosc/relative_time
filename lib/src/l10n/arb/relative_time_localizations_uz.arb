@@ -2,8 +2,6 @@
   "@@locale": "uz",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{{years} yildan keyin} other{shu yil}}} one{{numeric, select, true{{years} yildan keyin} other{keyingi yil}}} other{{years} yildan keyin}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} yil oldin} other{shu yil}}} one{{numeric, select, true{{years} yil oldin} other{o‘tgan yil}}} other{{years} yil oldin}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{{quarters} chorakdan keyin} other{shu chorak}}} one{{numeric, select, true{{quarters} chorakdan keyin} other{keyingi chorak}}} other{{quarters} chorakdan keyin}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} chorak oldin} other{shu chorak}}} one{{numeric, select, true{{quarters} chorak oldin} other{o‘tgan chorak}}} other{{quarters} chorak oldin}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{{months} oydan keyin} other{shu oy}}} one{{numeric, select, true{{months} oydan keyin} other{keyingi oy}}} other{{months} oydan keyin}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} oy oldin} other{shu oy}}} one{{numeric, select, true{{months} oy oldin} other{o‘tgan oy}}} other{{months} oy oldin}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{{weeks} haftadan keyin} other{shu hafta}}} one{{numeric, select, true{{weeks} haftadan keyin} other{keyingi hafta}}} other{{weeks} haftadan keyin}}",

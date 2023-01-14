@@ -2,8 +2,6 @@
   "@@locale": "az",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{{years} il ərzində} other{bu il}}} one{{numeric, select, true{{years} il ərzində} other{gələn il}}} other{{years} il ərzində}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} il öncə} other{bu il}}} one{{numeric, select, true{{years} il öncə} other{keçən il}}} other{{years} il öncə}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{{quarters} rüb ərzində} other{bu rüb}}} one{{numeric, select, true{{quarters} rüb ərzində} other{gələn rüb}}} other{{quarters} rüb ərzində}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} rüb öncə} other{bu rüb}}} one{{numeric, select, true{{quarters} rüb öncə} other{keçən rüb}}} other{{quarters} rüb öncə}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{{months} ay ərzində} other{bu ay}}} one{{numeric, select, true{{months} ay ərzində} other{gələn ay}}} other{{months} ay ərzində}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} ay öncə} other{bu ay}}} one{{numeric, select, true{{months} ay öncə} other{keçən ay}}} other{{months} ay öncə}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{{weeks} həftə ərzində} other{bu həftə}}} one{{numeric, select, true{{weeks} həftə ərzində} other{gələn həftə}}} other{{weeks} həftə ərzində}}",

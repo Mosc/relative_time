@@ -2,8 +2,6 @@
   "@@locale": "eu",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{{years} urte barru} other{aurten}}} one{{numeric, select, true{{years} urte barru} other{hurrengo urtean}}} other{{years} urte barru}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{Duela {years} urte} other{aurten}}} one{{numeric, select, true{Duela {years} urte} other{iaz}}} other{Duela {years} urte}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{{quarters} hiruhileko barru} other{hiruhileko hau}}} one{{numeric, select, true{{quarters} hiruhileko barru} other{hurrengo hiruhilekoa}}} other{{quarters} hiruhileko barru}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{Duela {quarters} hiruhileko} other{hiruhileko hau}}} one{{numeric, select, true{Duela {quarters} hiruhileko} other{aurreko hiruhilekoa}}} other{Duela {quarters} hiruhileko}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{{months} hilabete barru} other{hilabete honetan}}} one{{numeric, select, true{{months} hilabete barru} other{hurrengo hilabetean}}} other{{months} hilabete barru}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{Duela {months} hilabete} other{hilabete honetan}}} one{{numeric, select, true{Duela {months} hilabete} other{aurreko hilabetean}}} other{Duela {months} hilabete}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{{weeks} aste barru} other{aste honetan}}} one{{numeric, select, true{{weeks} aste barru} other{hurrengo astean}}} other{{weeks} aste barru}}",

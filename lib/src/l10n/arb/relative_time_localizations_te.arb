@@ -2,8 +2,6 @@
   "@@locale": "te",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{{years} సంవత్సరాల్లో} other{ఈ సంవత్సరం}}} one{{numeric, select, true{{years} సంవత్సరంలో} other{తదుపరి సంవత్సరం}}} other{{years} సంవత్సరాల్లో}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} సంవత్సరాల క్రితం} other{ఈ సంవత్సరం}}} one{{numeric, select, true{{years} సంవత్సరం క్రితం} other{గత సంవత్సరం}}} other{{years} సంవత్సరాల క్రితం}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{{quarters} త్రైమాసికాల్లో} other{ఈ త్రైమాసికం}}} one{{numeric, select, true{{quarters} త్రైమాసికంలో} other{తదుపరి త్రైమాసికం}}} other{{quarters} త్రైమాసికాల్లో}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} త్రైమాసికాల క్రితం} other{ఈ త్రైమాసికం}}} one{{numeric, select, true{{quarters} త్రైమాసికం క్రితం} other{గత త్రైమాసికం}}} other{{quarters} త్రైమాసికాల క్రితం}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{{months} నెలల్లో} other{ఈ నెల}}} one{{numeric, select, true{{months} నెలలో} other{తదుపరి నెల}}} other{{months} నెలల్లో}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} నెలల క్రితం} other{ఈ నెల}}} one{{numeric, select, true{{months} నెల క్రితం} other{గత నెల}}} other{{months} నెలల క్రితం}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{{weeks} వారాల్లో} other{ఈ వారం}}} one{{numeric, select, true{{weeks} వారంలో} other{తదుపరి వారం}}} other{{weeks} వారాల్లో}}",

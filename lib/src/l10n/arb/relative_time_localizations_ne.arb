@@ -2,8 +2,6 @@
   "@@locale": "ne",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{{years} वर्षमा} other{यो वर्ष}}} one{{numeric, select, true{{years} वर्षमा} other{आगामी वर्ष}}} other{{years} वर्षमा}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} वर्ष अघि} other{यो वर्ष}}} one{{numeric, select, true{{years} वर्ष अघि} other{गत वर्ष}}} other{{years} वर्ष अघि}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{{quarters}सत्रमा} other{यो सत्र}}} one{{numeric, select, true{+{quarters} सत्रमा} other{अर्को सत्र}}} other{{quarters}सत्रमा}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters}सत्र अघि} other{यो सत्र}}} one{{numeric, select, true{{quarters}सत्र अघि} other{अघिल्लो सत्र}}} other{{quarters}सत्र अघि}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{{months} महिनामा} other{यो महिना}}} one{{numeric, select, true{{months} महिनामा} other{अर्को महिना}}} other{{months} महिनामा}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} महिना पहिले} other{यो महिना}}} one{{numeric, select, true{{months} महिना पहिले} other{गत महिना}}} other{{months} महिना पहिले}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{{weeks} हप्तामा} other{यो हप्ता}}} one{{numeric, select, true{{weeks} हप्तामा} other{आउने हप्ता}}} other{{weeks} हप्तामा}}",

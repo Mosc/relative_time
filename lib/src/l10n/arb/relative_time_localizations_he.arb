@@ -2,8 +2,6 @@
   "@@locale": "he",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{בעוד {years} שנים} other{השנה}}} one{{numeric, select, true{בעוד שנה} other{השנה הבאה}}} two{בעוד שנתיים} many{בעוד {years} שנה} other{בעוד {years} שנים}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{לפני {years} שנים} other{השנה}}} one{{numeric, select, true{לפני שנה} other{השנה שעברה}}} two{לפני שנתיים} many{לפני {years} שנה} other{לפני {years} שנים}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{בעוד {quarters} רבעונים} other{רבעון זה}}} one{{numeric, select, true{ברבעון הבא} other{הרבעון הבא}}} two{בעוד שני רבעונים} other{בעוד {quarters} רבעונים}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{לפני {quarters} רבעונים} other{רבעון זה}}} one{{numeric, select, true{ברבעון הקודם} other{הרבעון הקודם}}} two{לפני שני רבעונים} other{לפני {quarters} רבעונים}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{בעוד {months} חודשים} other{החודש}}} one{{numeric, select, true{בעוד חודש} other{החודש הבא}}} two{בעוד חודשיים} other{בעוד {months} חודשים}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{לפני {months} חודשים} other{החודש}}} one{{numeric, select, true{לפני חודש} other{החודש שעבר}}} two{לפני חודשיים} other{לפני {months} חודשים}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{בעוד {weeks} שבועות} other{השבוע}}} one{{numeric, select, true{בעוד שבוע} other{השבוע הבא}}} two{בעוד שבועיים} other{בעוד {weeks} שבועות}}",

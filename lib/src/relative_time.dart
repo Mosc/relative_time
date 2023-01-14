@@ -16,7 +16,7 @@ class RelativeTime {
   /// over natural language. Defaults to false.
   RelativeTime(
     BuildContext context, {
-    this.timeUnits = defaultTimeUnits,
+    this.timeUnits = TimeUnit.values,
     this.numeric = false,
   }) : localizations = RelativeTimeLocalizations.of(context);
 
@@ -31,7 +31,7 @@ class RelativeTime {
   /// over natural language. Defaults to false.
   RelativeTime.locale(
     Locale locale, {
-    this.timeUnits = defaultTimeUnits,
+    this.timeUnits = TimeUnit.values,
     this.numeric = false,
   }) : localizations = lookupRelativeTimeLocalizations(locale);
 
@@ -57,10 +57,6 @@ class RelativeTime {
         return difference.isNegative
             ? localizations.yearsPast(timeUnitDifference, numeric)
             : localizations.yearsFuture(timeUnitDifference, numeric);
-      case TimeUnit.quarter:
-        return difference.isNegative
-            ? localizations.quartersPast(timeUnitDifference, numeric)
-            : localizations.quartersFuture(timeUnitDifference, numeric);
       case TimeUnit.month:
         return difference.isNegative
             ? localizations.monthsPast(timeUnitDifference, numeric)

@@ -2,8 +2,6 @@
   "@@locale": "dsb",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{za {years} lět} other{lětosa}}} one{{numeric, select, true{za {years} lěto} other{znowa}}} two{za {years} lěśe} few{za {years} lěta} other{za {years} lět}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{pśed {years} lětami} other{lětosa}}} one{{numeric, select, true{pśed {years} lětom} other{łoni}}} two{pśed {years} lětoma} other{pśed {years} lětami}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{za {quarters} kwartalow} other{toś ten kwartal}}} one{{numeric, select, true{za {quarters} kwartal} other{pśiducy kwartal}}} two{za {quarters} kwartala} few{za {quarters} kwartale} other{za {quarters} kwartalow}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{pśed {quarters} kwartalami} other{toś ten kwartal}}} one{{numeric, select, true{pśed {quarters} kwartalom} other{zajźony kwartal}}} two{pśed {quarters} kwartaloma} other{pśed {quarters} kwartalami}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{za {months} mjasecow} other{ten mjasec}}} one{{numeric, select, true{za {months} mjasec} other{pśiducy mjasec}}} two{za {months} mjaseca} few{za {months} mjasecy} other{za {months} mjasecow}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{pśed {months} mjasecami} other{ten mjasec}}} one{{numeric, select, true{pśed {months} mjasecom} other{zajźony mjasec}}} two{pśed {months} mjasecoma} other{pśed {months} mjasecami}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{za {weeks} tyźenjow} other{ten tyźeń}}} one{{numeric, select, true{za {weeks} tyźeń} other{pśiducy tyźeń}}} two{za {weeks} tyźenja} few{za {weeks} tyźenje} other{za {weeks} tyźenjow}}",

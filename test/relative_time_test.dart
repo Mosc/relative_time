@@ -11,8 +11,6 @@ const Locale simplifiedChinese =
 const Duration severalYears = Duration(days: 1234);
 const Duration moreThanOneAverageYear = Duration(days: 366);
 const Duration lessThanOneAverageYear = Duration(days: 365);
-const Duration moreThanOneAverageQuarter = Duration(days: 92);
-const Duration lessThanOneAverageQuarter = Duration(days: 91);
 const Duration moreThanOneAverageMonth = Duration(days: 31);
 const Duration lessThanOneAverageMonth = Duration(days: 30);
 const Duration oneWeek = Duration(days: 7);
@@ -69,52 +67,6 @@ void main() {
         () => _testFormat(
           fromNow: (DateTime now) => now.subtract(lessThanOneAverageYear),
           matcher: '11 months ago',
-        ),
-      );
-
-      test(
-        'less than one average year formats as quarters ago if quarters are enabled',
-        () => _testFormat(
-          fromNow: (DateTime now) => now.subtract(lessThanOneAverageYear),
-          matcher: '3 quarters ago',
-          timeUnits: TimeUnit.values,
-        ),
-      );
-
-      test(
-        'one average quarter formats as last quarter if quarters are enabled',
-        () => _testFormat(
-          fromNow: (DateTime now) => now.subtract(moreThanOneAverageQuarter),
-          matcher: 'last quarter',
-          timeUnits: TimeUnit.values,
-        ),
-      );
-
-      test(
-        'one average quarter formats as quarter ago if numeric and quarters are enabled',
-        () => _testFormat(
-          fromNow: (DateTime now) => now.subtract(moreThanOneAverageQuarter),
-          matcher: '1 quarter ago',
-          timeUnits: TimeUnit.values,
-          numeric: true,
-        ),
-      );
-
-      test(
-        'less than one average quarter formats as this quarter if quarter is most granular unit',
-        () => _testFormat(
-          fromNow: (DateTime now) => now.subtract(lessThanOneAverageQuarter),
-          matcher: 'this quarter',
-          timeUnits: <TimeUnit>[TimeUnit.quarter],
-        ),
-      );
-
-      test(
-        'less than one average quarter formats as months ago if quarters are enabled',
-        () => _testFormat(
-          fromNow: (DateTime now) => now.subtract(lessThanOneAverageQuarter),
-          matcher: '2 months ago',
-          timeUnits: TimeUnit.values,
         ),
       );
 
@@ -334,52 +286,6 @@ void main() {
       );
 
       test(
-        'less than one average year formats as in quarters if quarters are enabled',
-        () => _testFormat(
-          fromNow: (DateTime now) => now.add(lessThanOneAverageYear),
-          matcher: 'in 3 quarters',
-          timeUnits: TimeUnit.values,
-        ),
-      );
-
-      test(
-        'one average quarter formats as next quarter if quarters are enabled',
-        () => _testFormat(
-          fromNow: (DateTime now) => now.add(moreThanOneAverageQuarter),
-          matcher: 'next quarter',
-          timeUnits: TimeUnit.values,
-        ),
-      );
-
-      test(
-        'one average quarter formats as in quarter if numeric and quarters are enabled',
-        () => _testFormat(
-          fromNow: (DateTime now) => now.add(moreThanOneAverageQuarter),
-          matcher: 'in 1 quarter',
-          timeUnits: TimeUnit.values,
-          numeric: true,
-        ),
-      );
-
-      test(
-        'less than one average quarter formats as this quarter if quarter is most granular unit',
-        () => _testFormat(
-          fromNow: (DateTime now) => now.add(lessThanOneAverageQuarter),
-          matcher: 'this quarter',
-          timeUnits: <TimeUnit>[TimeUnit.quarter],
-        ),
-      );
-
-      test(
-        'less than one average quarter formats as in months if quarters are enabled',
-        () => _testFormat(
-          fromNow: (DateTime now) => now.add(lessThanOneAverageQuarter),
-          matcher: 'in 2 months',
-          timeUnits: TimeUnit.values,
-        ),
-      );
-
-      test(
         'more than one average month formats as next month',
         () => _testFormat(
           fromNow: (DateTime now) => now.add(moreThanOneAverageMonth),
@@ -593,7 +499,7 @@ void _testFormat({
   required String matcher,
   BuildContext? context,
   Locale locale = english,
-  Iterable<TimeUnit> timeUnits = defaultTimeUnits,
+  Iterable<TimeUnit> timeUnits = TimeUnit.values,
   bool numeric = false,
   bool useExtensionMethod = false,
 }) {
@@ -641,7 +547,7 @@ Future<void> _testFormatUsingLocalizedBuildContext(
   required DateTime Function(DateTime) fromNow,
   required String matcher,
   Locale contextLocale = english,
-  Iterable<TimeUnit> timeUnits = defaultTimeUnits,
+  Iterable<TimeUnit> timeUnits = TimeUnit.values,
   bool useExtensionMethod = false,
 }) async {
   return tester.pumpWidget(

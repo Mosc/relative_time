@@ -1,14 +1,9 @@
 import 'package:relative_time/src/duration_extension.dart';
-import 'package:relative_time/src/relative_time.dart';
-import 'package:relative_time/src/relative_time_extension.dart';
 
 /// Different units to represent time.
 enum TimeUnit {
   /// A year.
   year(microseconds: DurationExtension.microsecondsPerYear),
-
-  /// A quarter.
-  quarter(microseconds: DurationExtension.microsecondsPerQuarter),
 
   /// A month.
   month(microseconds: DurationExtension.microsecondsPerMonth),
@@ -40,16 +35,3 @@ enum TimeUnit {
   num difference(Duration difference) =>
       difference.inMicroseconds ~/ microseconds;
 }
-
-/// The [TimeUnit]s used by default in [RelativeTime] and
-/// [RelativeTimeExtension]. Includes all values other than [TimeUnit.quarter].
-const Iterable<TimeUnit> defaultTimeUnits = <TimeUnit>[
-  TimeUnit.year,
-  // Specifically exclude quarters from defaults.
-  TimeUnit.month,
-  TimeUnit.week,
-  TimeUnit.day,
-  TimeUnit.hour,
-  TimeUnit.minute,
-  TimeUnit.second,
-];

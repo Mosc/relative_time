@@ -2,8 +2,6 @@
   "@@locale": "nl",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{over {years} jaar} other{dit jaar}}} one{{numeric, select, true{over {years} jaar} other{volgend jaar}}} other{over {years} jaar}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} jaar geleden} other{dit jaar}}} one{{numeric, select, true{{years} jaar geleden} other{vorig jaar}}} other{{years} jaar geleden}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{over {quarters} kwartalen} other{dit kwartaal}}} one{{numeric, select, true{over {quarters} kwartaal} other{volgend kwartaal}}} other{over {quarters} kwartalen}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} kwartalen geleden} other{dit kwartaal}}} one{{numeric, select, true{{quarters} kwartaal geleden} other{vorig kwartaal}}} other{{quarters} kwartalen geleden}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{over {months} maanden} other{deze maand}}} one{{numeric, select, true{over {months} maand} other{volgende maand}}} other{over {months} maanden}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} maanden geleden} other{deze maand}}} one{{numeric, select, true{{months} maand geleden} other{vorige maand}}} other{{months} maanden geleden}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{over {weeks} weken} other{deze week}}} one{{numeric, select, true{over {weeks} week} other{volgende week}}} other{over {weeks} weken}}",

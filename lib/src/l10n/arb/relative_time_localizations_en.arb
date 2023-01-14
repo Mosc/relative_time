@@ -20,26 +20,6 @@
       "numeric": {}
     }
   },
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{in {quarters} quarters} other{this quarter}}} one{{numeric, select, true{in {quarters} quarter} other{next quarter}}} other{in {quarters} quarters}}",
-  "@quartersFuture": {
-    "description": "Number of quarters in the future.",
-    "placeholders": {
-      "quarters": {
-        "type": "int"
-      },
-      "numeric": {}
-    }
-  },
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} quarters ago} other{this quarter}}} one{{numeric, select, true{{quarters} quarter ago} other{last quarter}}} other{{quarters} quarters ago}}",
-  "@quartersPast": {
-    "description": "Number of quarters in the past.",
-    "placeholders": {
-      "quarters": {
-        "type": "int"
-      },
-      "numeric": {}
-    }
-  },
   "monthsFuture": "{months, plural, zero{{numeric, select, true{in {months} months} other{this month}}} one{{numeric, select, true{in {months} month} other{next month}}} other{in {months} months}}",
   "@monthsFuture": {
     "description": "Number of months in the future.",

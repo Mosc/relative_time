@@ -2,8 +2,6 @@
   "@@locale": "am",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{በ{years} ዓመታት ውስጥ} other{በዚህ ዓመት}}} one{{numeric, select, true{በ{years} ዓመታት ውስጥ} other{የሚቀጥለው ዓመት}}} other{በ{years} ዓመታት ውስጥ}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{ከ{years} ዓመታት በፊት} other{በዚህ ዓመት}}} one{{numeric, select, true{ከ{years} ዓመት በፊት} other{ያለፈው ዓመት}}} other{ከ{years} ዓመታት በፊት}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{+{quarters} ሩብ} other{ይህ ሩብ}}} one{{numeric, select, true{+{quarters} ሩብ} other{የሚቀጥለው ሩብ}}} other{+{quarters} ሩብ}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} ሩብ በፊት} other{ይህ ሩብ}}} one{{numeric, select, true{{quarters} ሩብ በፊት} other{የመጨረሻው ሩብ}}} other{{quarters} ሩብ በፊት}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{በ{months} ወራት ውስጥ} other{በዚህ ወር}}} one{{numeric, select, true{በ{months} ወር ውስጥ} other{የሚቀጥለው ወር}}} other{በ{months} ወራት ውስጥ}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{ከ{months} ወራት በፊት} other{በዚህ ወር}}} one{{numeric, select, true{ከ{months} ወር በፊት} other{ያለፈው ወር}}} other{ከ{months} ወራት በፊት}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{በ{weeks} ሳምንታት ውስጥ} other{በዚህ ሳምንት}}} one{{numeric, select, true{በ{weeks} ሳምንት ውስጥ} other{የሚቀጥለው ሳምንት}}} other{በ{weeks} ሳምንታት ውስጥ}}",

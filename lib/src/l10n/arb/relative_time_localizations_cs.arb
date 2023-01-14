@@ -2,8 +2,6 @@
   "@@locale": "cs",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{za {years} let} other{tento rok}}} one{{numeric, select, true{za {years} rok} other{příští rok}}} few{za {years} roky} many{za {years} roku} other{za {years} let}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{před {years} lety} other{tento rok}}} one{{numeric, select, true{před {years} rokem} other{minulý rok}}} many{před {years} roku} other{před {years} lety}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{za {quarters} čtvrtletí} other{toto čtvrtletí}}} one{{numeric, select, true{za {quarters} čtvrtletí} other{příští čtvrtletí}}} other{za {quarters} čtvrtletí}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{před {quarters} čtvrtletími} other{toto čtvrtletí}}} one{{numeric, select, true{před {quarters} čtvrtletím} other{minulé čtvrtletí}}} many{před {quarters} čtvrtletí} other{před {quarters} čtvrtletími}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{za {months} měsíců} other{tento měsíc}}} one{{numeric, select, true{za {months} měsíc} other{příští měsíc}}} few{za {months} měsíce} many{za {months} měsíce} other{za {months} měsíců}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{před {months} měsíci} other{tento měsíc}}} one{{numeric, select, true{před {months} měsícem} other{minulý měsíc}}} many{před {months} měsíce} other{před {months} měsíci}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{za {weeks} týdnů} other{tento týden}}} one{{numeric, select, true{za {weeks} týden} other{příští týden}}} few{za {weeks} týdny} many{za {weeks} týdne} other{za {weeks} týdnů}}",

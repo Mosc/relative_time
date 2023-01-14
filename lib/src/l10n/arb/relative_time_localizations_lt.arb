@@ -2,8 +2,6 @@
   "@@locale": "lt",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{po {years} metų} other{šiais metais}}} one{{numeric, select, true{po {years} metų} other{kitais metais}}} other{po {years} metų}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{prieš {years} metų} other{šiais metais}}} one{{numeric, select, true{prieš {years} metus} other{praėjusiais metais}}} few{prieš {years} metus} other{prieš {years} metų}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{po {quarters} ketvirčių} other{šis ketvirtis}}} one{{numeric, select, true{po {quarters} ketvirčio} other{kitas ketvirtis}}} many{po {quarters} ketvirčio} other{po {quarters} ketvirčių}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{prieš {quarters} ketvirčių} other{šis ketvirtis}}} one{{numeric, select, true{prieš {quarters} ketvirtį} other{praėjęs ketvirtis}}} few{prieš {quarters} ketvirčius} many{prieš {quarters} ketvirčio} other{prieš {quarters} ketvirčių}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{po {months} mėnesių} other{šį mėnesį}}} one{{numeric, select, true{po {months} mėnesio} other{kitą mėnesį}}} many{po {months} mėnesio} other{po {months} mėnesių}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{prieš {months} mėnesių} other{šį mėnesį}}} one{{numeric, select, true{prieš {months} mėnesį} other{praėjusį mėnesį}}} few{prieš {months} mėnesius} many{prieš {months} mėnesio} other{prieš {months} mėnesių}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{po {weeks} savaičių} other{šią savaitę}}} one{{numeric, select, true{po {weeks} savaitės} other{kitą savaitę}}} many{po {weeks} savaitės} other{po {weeks} savaičių}}",

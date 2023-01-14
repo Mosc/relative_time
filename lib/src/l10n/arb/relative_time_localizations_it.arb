@@ -2,8 +2,6 @@
   "@@locale": "it",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{tra {years} anni} other{quest’anno}}} one{{numeric, select, true{tra {years} anno} other{anno prossimo}}} other{tra {years} anni}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} anni fa} other{quest’anno}}} one{{numeric, select, true{{years} anno fa} other{anno scorso}}} other{{years} anni fa}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{tra {quarters} trimestri} other{questo trimestre}}} one{{numeric, select, true{tra {quarters} trimestre} other{trimestre prossimo}}} other{tra {quarters} trimestri}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} trimestri fa} other{questo trimestre}}} one{{numeric, select, true{{quarters} trimestre fa} other{trimestre scorso}}} other{{quarters} trimestri fa}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{tra {months} mesi} other{questo mese}}} one{{numeric, select, true{tra {months} mese} other{mese prossimo}}} other{tra {months} mesi}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} mesi fa} other{questo mese}}} one{{numeric, select, true{{months} mese fa} other{mese scorso}}} other{{months} mesi fa}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{tra {weeks} settimane} other{questa settimana}}} one{{numeric, select, true{tra {weeks} settimana} other{settimana prossima}}} other{tra {weeks} settimane}}",

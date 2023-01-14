@@ -1,10 +1,7 @@
-/// Extends [Duration] to cover weeks, months, quarters and years.
+/// Extends [Duration] to cover weeks, months and years.
 extension DurationExtension on Duration {
-  /// The number of quarters per year.
-  static const int quartersPerYear = 4;
-
-  /// The number of months per quarter.
-  static const int monthsPerQuarter = 3;
+  /// The number of months per year.
+  static const int monthsPerYear = 12;
 
   /// The average number of days per year.
   // https://www.grc.nasa.gov/WWW/K-12/Numbers/Math/Mathematical_Thinking/calendar_calculations.htm
@@ -17,13 +14,9 @@ extension DurationExtension on Duration {
   static const double microsecondsPerYear =
       Duration.microsecondsPerDay * daysPerYear;
 
-  /// The average number of microseconds per quarter.
-  static const double microsecondsPerQuarter =
-      microsecondsPerYear / quartersPerYear;
-
   /// The average number of microseconds per month.
   static const double microsecondsPerMonth =
-      microsecondsPerQuarter / monthsPerQuarter;
+      microsecondsPerYear / monthsPerYear;
 
   /// The number of microseconds per week.
   static const int microsecondsPerWeek =

@@ -2,8 +2,6 @@
   "@@locale": "sq",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{pas {years} vjetësh} other{sivjet}}} one{{numeric, select, true{pas {years} viti} other{mot}}} other{pas {years} vjetësh}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} vjet më parë} other{sivjet}}} one{{numeric, select, true{{years} vit më parë} other{vjet}}} other{{years} vjet më parë}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{pas {quarters} tremujorësh} other{këtë tremujor}}} one{{numeric, select, true{pas {quarters} tremujori} other{tremujorin e ardhshëm}}} other{pas {quarters} tremujorësh}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} tremujorë më parë} other{këtë tremujor}}} one{{numeric, select, true{{quarters} tremujor më parë} other{tremujorin e kaluar}}} other{{quarters} tremujorë më parë}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{pas {months} muajsh} other{këtë muaj}}} one{{numeric, select, true{pas {months} muaji} other{muajin e ardhshëm}}} other{pas {months} muajsh}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} muaj më parë} other{këtë muaj}}} one{{numeric, select, true{{months} muaj më parë} other{muajin e kaluar}}} other{{months} muaj më parë}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{pas {weeks} javësh} other{këtë javë}}} one{{numeric, select, true{pas {weeks} jave} other{javën e ardhshme}}} other{pas {weeks} javësh}}",

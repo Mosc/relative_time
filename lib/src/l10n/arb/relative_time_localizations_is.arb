@@ -2,8 +2,6 @@
   "@@locale": "is",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{eftir {years} ár} other{á þessu ári}}} one{{numeric, select, true{eftir {years} ár} other{á næsta ári}}} other{eftir {years} ár}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{fyrir {years} árum} other{á þessu ári}}} one{{numeric, select, true{fyrir {years} ári} other{á síðasta ári}}} other{fyrir {years} árum}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{eftir {quarters} ársfjórðunga} other{þessi ársfjórðungur}}} one{{numeric, select, true{eftir {quarters} ársfjórðung} other{næsti ársfjórðungur}}} other{eftir {quarters} ársfjórðunga}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{fyrir {quarters} ársfjórðungum} other{þessi ársfjórðungur}}} one{{numeric, select, true{fyrir {quarters} ársfjórðungi} other{síðasti ársfjórðungur}}} other{fyrir {quarters} ársfjórðungum}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{eftir {months} mánuði} other{í þessum mánuði}}} one{{numeric, select, true{eftir {months} mánuð} other{í næsta mánuði}}} other{eftir {months} mánuði}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{fyrir {months} mánuðum} other{í þessum mánuði}}} one{{numeric, select, true{fyrir {months} mánuði} other{í síðasta mánuði}}} other{fyrir {months} mánuðum}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{eftir {weeks} vikur} other{í þessari viku}}} one{{numeric, select, true{eftir {weeks} viku} other{í næstu viku}}} other{eftir {weeks} vikur}}",

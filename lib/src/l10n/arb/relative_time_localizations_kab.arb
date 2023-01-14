@@ -2,8 +2,6 @@
   "@@locale": "kab",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{deg {years} n yiseggasen} other{aseggas-a}}} one{{numeric, select, true{deg {years} n useggas} other{qabel}}} other{deg {years} n yiseggasen}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} n yiseggasen aya} other{aseggas-a}}} one{{numeric, select, true{{years} n useggas aya} other{ilindi}}} other{{years} n yiseggasen aya}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{deg {quarters} n ikraḍyuren} other{akraḍyur-agi}}} one{{numeric, select, true{deg {quarters} n ukraḍyur} other{akraḍyur d-iteddun}}} other{deg {quarters} n ikraḍyuren}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} n yikraḍyuren aya} other{akraḍyur-agi}}} one{{numeric, select, true{{quarters} n ukraḍyur aya} other{akraḍyur izrin}}} other{{quarters} n yikraḍyuren aya}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{deg {months} n wayyuren} other{ayyur-a}}} one{{numeric, select, true{deg {months} n wayyur} other{ayyur i d-itteddun}}} other{deg {months} n wayyuren}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} n wayyuren aya} other{ayyur-a}}} one{{numeric, select, true{{months} n wayyur aya} other{ayyur izrin}}} other{{months} n wayyuren aya}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{deg {weeks} n dduṛtat} other{dduṛt -a}}} one{{numeric, select, true{deg {weeks} n dduṛt} other{dduṛt i d-itteddun}}} other{deg {weeks} n dduṛtat}}",

@@ -2,8 +2,6 @@
   "@@locale": "pa",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{{years} ਸਾਲਾਂ ਵਿੱਚ} other{ਇਹ ਸਾਲ}}} one{{numeric, select, true{{years} ਸਾਲ ਵਿੱਚ} other{ਅਗਲਾ ਸਾਲ}}} other{{years} ਸਾਲਾਂ ਵਿੱਚ}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} ਸਾਲ ਪਹਿਲਾਂ} other{ਇਹ ਸਾਲ}}} one{{numeric, select, true{{years} ਸਾਲ ਪਹਿਲਾਂ} other{ਪਿਛਲਾ ਸਾਲ}}} other{{years} ਸਾਲ ਪਹਿਲਾਂ}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{{quarters} ਤਿਮਾਹੀਆਂ ਵਿੱਚ} other{ਇਸ ਤਿਮਾਹੀ}}} one{{numeric, select, true{{quarters} ਤਿਮਾਹੀ ਵਿੱਚ} other{ਅਗਲੀ ਤਿਮਾਹੀ}}} other{{quarters} ਤਿਮਾਹੀਆਂ ਵਿੱਚ}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} ਤਿਮਾਹੀਆਂ ਪਹਿਲਾਂ} other{ਇਸ ਤਿਮਾਹੀ}}} one{{numeric, select, true{{quarters} ਤਿਮਾਹੀ ਪਹਿਲਾਂ} other{ਪਿਛਲੀ ਤਿਮਾਹੀ}}} other{{quarters} ਤਿਮਾਹੀਆਂ ਪਹਿਲਾਂ}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{{months} ਮਹੀਨਿਆਂ ਵਿੱਚ} other{ਇਹ ਮਹੀਨਾ}}} one{{numeric, select, true{{months} ਮਹੀਨੇ ਵਿੱਚ} other{ਅਗਲਾ ਮਹੀਨਾ}}} other{{months} ਮਹੀਨਿਆਂ ਵਿੱਚ}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} ਮਹੀਨੇ ਪਹਿਲਾਂ} other{ਇਹ ਮਹੀਨਾ}}} one{{numeric, select, true{{months} ਮਹੀਨਾ ਪਹਿਲਾਂ} other{ਪਿਛਲਾ ਮਹੀਨਾ}}} other{{months} ਮਹੀਨੇ ਪਹਿਲਾਂ}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{{weeks} ਹਫ਼ਤਿਆਂ ਵਿੱਚ} other{ਇਹ ਹਫ਼ਤਾ}}} one{{numeric, select, true{{weeks} ਹਫ਼ਤੇ ਵਿੱਚ} other{ਅਗਲਾ ਹਫ਼ਤਾ}}} other{{weeks} ਹਫ਼ਤਿਆਂ ਵਿੱਚ}}",

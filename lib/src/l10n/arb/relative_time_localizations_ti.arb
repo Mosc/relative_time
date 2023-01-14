@@ -2,8 +2,6 @@
   "@@locale": "ti",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{ኣብ {years} ዓ} other{ሎሚ ዓመት}}} one{{numeric, select, true{ኣብ {years} ዓ} other{ንዓመታ}}} other{ኣብ {years} ዓ}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{ቅድሚ {years} ዓ} other{ሎሚ ዓመት}}} one{{numeric, select, true{ቅድሚ {years} ዓ} other{ዓሚ}}} other{ቅድሚ {years} ዓ}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{ኣብ {quarters} ርብዒ} other{ህሉው ርብዒ}}} one{{numeric, select, true{ኣብ {quarters} ርብዒ} other{ዝመጽእ ርብዒ}}} other{ኣብ {quarters} ርብዒ}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{ቅድሚ {quarters} ርብዒ} other{ህሉው ርብዒ}}} one{{numeric, select, true{ቅድሚ {quarters} ርብዒ} other{ዝሓለፈ ርብዒ}}} other{ቅድሚ {quarters} ርብዒ}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{ኣብ {months} ወርሒ} other{ህሉው ወርሒ}}} one{{numeric, select, true{ኣብ {months} ወርሒ} other{ዝመጽእ ወርሒ}}} other{ኣብ {months} ወርሒ}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{ቅድሚ {months} ወርሒ} other{ህሉው ወርሒ}}} one{{numeric, select, true{ቅድሚ {months} ወርሒ} other{ዝሓለፈ ወርሒ}}} other{ቅድሚ {months} ወርሒ}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{ኣብ {weeks} ሰሙን} other{ህሉው ሰሙን}}} one{{numeric, select, true{ኣብ {weeks} ሰሙን} other{ዝመጽእ ሰሙን}}} other{ኣብ {weeks} ሰሙን}}",

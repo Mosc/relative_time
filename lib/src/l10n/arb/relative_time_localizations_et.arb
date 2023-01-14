@@ -2,8 +2,6 @@
   "@@locale": "et",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{{years} aasta pärast} other{käesolev aasta}}} one{{numeric, select, true{{years} aasta pärast} other{järgmine aasta}}} other{{years} aasta pärast}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} aasta eest} other{käesolev aasta}}} one{{numeric, select, true{{years} aasta eest} other{eelmine aasta}}} other{{years} aasta eest}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{{quarters} kvartali pärast} other{käesolev kvartal}}} one{{numeric, select, true{{quarters} kvartali pärast} other{järgmine kvartal}}} other{{quarters} kvartali pärast}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} kvartali eest} other{käesolev kvartal}}} one{{numeric, select, true{{quarters} kvartali eest} other{eelmine kvartal}}} other{{quarters} kvartali eest}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{{months} kuu pärast} other{käesolev kuu}}} one{{numeric, select, true{{months} kuu pärast} other{järgmine kuu}}} other{{months} kuu pärast}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} kuu eest} other{käesolev kuu}}} one{{numeric, select, true{{months} kuu eest} other{eelmine kuu}}} other{{months} kuu eest}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{{weeks} nädala pärast} other{käesolev nädal}}} one{{numeric, select, true{{weeks} nädala pärast} other{järgmine nädal}}} other{{weeks} nädala pärast}}",

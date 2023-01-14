@@ -2,8 +2,6 @@
   "@@locale": "el",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{σε {years} έτη} other{φέτος}}} one{{numeric, select, true{σε {years} έτος} other{επόμενο έτος}}} other{σε {years} έτη}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{πριν από {years} έτη} other{φέτος}}} one{{numeric, select, true{πριν από {years} έτος} other{πέρσι}}} other{πριν από {years} έτη}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{σε {quarters} τρίμηνα} other{τρέχον τρίμηνο}}} one{{numeric, select, true{σε {quarters} τρίμηνο} other{επόμενο τρίμηνο}}} other{σε {quarters} τρίμηνα}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{πριν από {quarters} τρίμηνα} other{τρέχον τρίμηνο}}} one{{numeric, select, true{πριν από {quarters} τρίμηνο} other{προηγούμενο τρίμηνο}}} other{πριν από {quarters} τρίμηνα}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{σε {months} μήνες} other{τρέχων μήνας}}} one{{numeric, select, true{σε {months} μήνα} other{επόμενος μήνας}}} other{σε {months} μήνες}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{πριν από {months} μήνες} other{τρέχων μήνας}}} one{{numeric, select, true{πριν από {months} μήνα} other{προηγούμενος μήνας}}} other{πριν από {months} μήνες}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{σε {weeks} εβδομάδες} other{τρέχουσα εβδομάδα}}} one{{numeric, select, true{σε {weeks} εβδομάδα} other{επόμενη εβδομάδα}}} other{σε {weeks} εβδομάδες}}",

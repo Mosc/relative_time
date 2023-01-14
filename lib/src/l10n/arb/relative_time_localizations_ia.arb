@@ -2,8 +2,6 @@
   "@@locale": "ia",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{in {years} annos} other{iste anno}}} one{{numeric, select, true{in {years} anno} other{le anno proxime}}} other{in {years} annos}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} annos retro} other{iste anno}}} one{{numeric, select, true{{years} anno retro} other{le anno passate}}} other{{years} annos retro}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{in {quarters} trimestres} other{iste trimestre}}} one{{numeric, select, true{in {quarters} trimestre} other{le trimestre proxime}}} other{in {quarters} trimestres}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} trimestres retro} other{iste trimestre}}} one{{numeric, select, true{{quarters} trimestre retro} other{le trimestre passate}}} other{{quarters} trimestres retro}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{in {months} menses} other{iste mense}}} one{{numeric, select, true{in {months} mense} other{le mense proxime}}} other{in {months} menses}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} menses retro} other{iste mense}}} one{{numeric, select, true{{months} mense retro} other{le mense passate}}} other{{months} menses retro}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{in {weeks} septimanas} other{iste septimana}}} one{{numeric, select, true{in {weeks} septimana} other{le septimana proxime}}} other{in {weeks} septimanas}}",

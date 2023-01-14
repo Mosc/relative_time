@@ -2,8 +2,6 @@
   "@@locale": "ro",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{peste {years} de ani} other{anul acesta}}} one{{numeric, select, true{peste {years} an} other{anul viitor}}} few{peste {years} ani} other{peste {years} de ani}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{acum {years} de ani} other{anul acesta}}} one{{numeric, select, true{acum {years} an} other{anul trecut}}} few{acum {years} ani} other{acum {years} de ani}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{peste {quarters} de trimestre} other{trimestrul acesta}}} one{{numeric, select, true{peste {quarters} trimestru} other{trimestrul viitor}}} few{peste {quarters} trimestre} other{peste {quarters} de trimestre}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{acum {quarters} de trimestre} other{trimestrul acesta}}} one{{numeric, select, true{acum {quarters} trimestru} other{trimestrul trecut}}} few{acum {quarters} trimestre} other{acum {quarters} de trimestre}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{peste {months} de luni} other{luna aceasta}}} one{{numeric, select, true{peste {months} lună} other{luna viitoare}}} few{peste {months} luni} other{peste {months} de luni}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{acum {months} de luni} other{luna aceasta}}} one{{numeric, select, true{acum {months} lună} other{luna trecută}}} few{acum {months} luni} other{acum {months} de luni}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{peste {weeks} de săptămâni} other{săptămâna aceasta}}} one{{numeric, select, true{peste {weeks} săptămână} other{săptămâna viitoare}}} few{peste {weeks} săptămâni} other{peste {weeks} de săptămâni}}",

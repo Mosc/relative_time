@@ -10,13 +10,13 @@ extension RelativeTimeExtension on DateTime {
   /// [context] must contain a retrievable [RelativeTimeLocalizations].
   ///
   /// Set [timeUnits] to customize the [TimeUnit]s that may be used. Defaults to
-  /// [defaultTimeUnits].
+  /// all.
   ///
   /// [numeric] determines whether or not numeric values should be preferred
   /// over natural language. Defaults to false.
   String relativeTime(
     BuildContext context, {
-    Iterable<TimeUnit> timeUnits = defaultTimeUnits,
+    Iterable<TimeUnit> timeUnits = TimeUnit.values,
     bool numeric = false,
   }) =>
       RelativeTime(
@@ -30,13 +30,13 @@ extension RelativeTimeExtension on DateTime {
   /// [locale] will lookup the closest available localization.
   ///
   /// Set [timeUnits] to customize the [TimeUnit]s that may be used. Defaults to
-  /// [defaultTimeUnits].
+  /// all.
   ///
   /// [numeric] determines whether or not numeric values should be preferred
   /// over natural language. Defaults to false.
   String relativeTimeLocale(
     Locale locale, {
-    Iterable<TimeUnit> timeUnits = defaultTimeUnits,
+    Iterable<TimeUnit> timeUnits = TimeUnit.values,
     bool numeric = false,
   }) =>
       RelativeTime.locale(

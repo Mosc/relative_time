@@ -2,8 +2,6 @@
   "@@locale": "sd",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{{years} سالن ۾} other{پويون سال}}} one{{numeric, select, true{{years} سالن ۾} other{پويون سال}}} other{{years} سالن ۾}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} سال پهرين} other{پويون سال}}} one{{numeric, select, true{{years} سال پهرين} other{پويون سال}}} other{{years} سال پهرين}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{{quarters} ٽي ماهي ۾} other{هن ٽي ماهي}}} one{{numeric, select, true{{quarters} ٽي ماهي ۾} other{اڳين ٽي ماهي}}} other{{quarters} ٽي ماهي ۾}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} ٽي ماهي پهرين} other{هن ٽي ماهي}}} one{{numeric, select, true{{quarters} ٽي ماهي پهرين} other{پوئين ٽي ماهي}}} other{{quarters} ٽي ماهي پهرين}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{{months} مهينن ۾} other{هن مهيني}}} one{{numeric, select, true{{months} مهينن ۾} other{اڳين مهيني}}} other{{months} مهينن ۾}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} مهينا پهرين} other{هن مهيني}}} one{{numeric, select, true{{months} مهينا پهرين} other{پوئين مهيني}}} other{{months} مهينا پهرين}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{{weeks} هفتن ۾} other{هن هفتي}}} one{{numeric, select, true{{weeks} هفتن ۾} other{اڳين هفتي}}} other{{weeks} هفتن ۾}}",

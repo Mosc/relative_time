@@ -2,8 +2,6 @@
   "@@locale": "mr",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{येत्या {years} वर्षांमध्ये} other{हे वर्ष}}} one{{numeric, select, true{येत्या {years} वर्षामध्ये} other{पुढील वर्ष}}} other{येत्या {years} वर्षांमध्ये}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} वर्षांपूर्वी} other{हे वर्ष}}} one{{numeric, select, true{{years} वर्षापूर्वी} other{मागील वर्ष}}} other{{years} वर्षांपूर्वी}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{{quarters} तिमाहींमध्ये} other{ही तिमाही}}} one{{numeric, select, true{{quarters} तिमाहीमध्ये} other{पुढील तिमाही}}} other{{quarters} तिमाहींमध्ये}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} तिमाहींपूर्वी} other{ही तिमाही}}} one{{numeric, select, true{{quarters} तिमाहीपूर्वी} other{मागील तिमाही}}} other{{quarters} तिमाहींपूर्वी}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{येत्या {months} महिन्यांमध्ये} other{हा महिना}}} one{{numeric, select, true{येत्या {months} महिन्यामध्ये} other{पुढील महिना}}} other{येत्या {months} महिन्यांमध्ये}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} महिन्यांपूर्वी} other{हा महिना}}} one{{numeric, select, true{{months} महिन्यापूर्वी} other{मागील महिना}}} other{{months} महिन्यांपूर्वी}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{{weeks} आठवड्यांमध्ये} other{हा आठवडा}}} one{{numeric, select, true{{weeks} आठवड्यामध्ये} other{पुढील आठवडा}}} other{{weeks} आठवड्यांमध्ये}}",

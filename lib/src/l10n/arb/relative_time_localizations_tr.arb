@@ -2,8 +2,6 @@
   "@@locale": "tr",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{{years} yıl sonra} other{bu yıl}}} one{{numeric, select, true{{years} yıl sonra} other{gelecek yıl}}} other{{years} yıl sonra}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} yıl önce} other{bu yıl}}} one{{numeric, select, true{{years} yıl önce} other{geçen yıl}}} other{{years} yıl önce}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{{quarters} çeyrek sonra} other{bu çeyrek}}} one{{numeric, select, true{{quarters} çeyrek sonra} other{gelecek çeyrek}}} other{{quarters} çeyrek sonra}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} çeyrek önce} other{bu çeyrek}}} one{{numeric, select, true{{quarters} çeyrek önce} other{geçen çeyrek}}} other{{quarters} çeyrek önce}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{{months} ay sonra} other{bu ay}}} one{{numeric, select, true{{months} ay sonra} other{gelecek ay}}} other{{months} ay sonra}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} ay önce} other{bu ay}}} one{{numeric, select, true{{months} ay önce} other{geçen ay}}} other{{months} ay önce}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{{weeks} hafta sonra} other{bu hafta}}} one{{numeric, select, true{{weeks} hafta sonra} other{gelecek hafta}}} other{{weeks} hafta sonra}}",

@@ -2,8 +2,6 @@
   "@@locale": "brx",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{{years} बोसोरआव} other{बे बोसोर}}} one{{numeric, select, true{{years} बोसोरआव} other{फैगौ बोसोर}}} other{{years} बोसोरआव}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} बोसोर सिगां} other{बे बोसोर}}} one{{numeric, select, true{{years} बोसोर सिगां} other{थांनाय बोसोर}}} other{{years} बोसोर सिगां}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{{quarters} खोन्दोसेआव} other{बे खोन्दोसे}}} one{{numeric, select, true{{quarters} खोन्दोसेआव} other{फैगौ खोन्दोसे}}} other{{quarters} खोन्दोसेआव}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} खोन्दोसे सिगां} other{बे खोन्दोसे}}} one{{numeric, select, true{{quarters} खोन्दोसे सिगां} other{थांनाय खोन्दोसे}}} other{{quarters} खोन्दोसे सिगां}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{{months} दानाव} other{बे दान}}} one{{numeric, select, true{{months} दानाव} other{फैगौ दान}}} other{{months} दानाव}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} दान सिगां} other{बे दान}}} one{{numeric, select, true{{months} दान सिगां} other{थांनाय दान}}} other{{months} दान सिगां}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{{weeks} सप्थाहयाव} other{बे सप्थाह}}} one{{numeric, select, true{{weeks} सप्थाहयाव} other{फैगौ सप्थाह}}} other{{weeks} सप्थाहयाव}}",

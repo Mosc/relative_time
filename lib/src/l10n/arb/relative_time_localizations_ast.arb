@@ -2,8 +2,6 @@
   "@@locale": "ast",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{en {years} años} other{esti añu}}} one{{numeric, select, true{en {years} añu} other{l’añu viniente}}} other{en {years} años}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{hai {years} años} other{esti añu}}} one{{numeric, select, true{hai {years} añu} other{l’añu pasáu}}} other{hai {years} años}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{en {quarters} trimestres} other{esti trimestre}}} one{{numeric, select, true{en {quarters} trimestre} other{trimestre viniente}}} other{en {quarters} trimestres}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{hai {quarters} trimestres} other{esti trimestre}}} one{{numeric, select, true{hai {quarters} trimestre} other{trimestre anterior}}} other{hai {quarters} trimestres}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{en {months} meses} other{esti mes}}} one{{numeric, select, true{en {months} mes} other{el mes viniente}}} other{en {months} meses}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{hai {months} meses} other{esti mes}}} one{{numeric, select, true{hai {months} mes} other{el mes pasáu}}} other{hai {months} meses}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{en {weeks} selmanes} other{esta selmana}}} one{{numeric, select, true{en {weeks} selmana} other{la selmana viniente}}} other{en {weeks} selmanes}}",

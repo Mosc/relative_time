@@ -2,8 +2,6 @@
   "@@locale": "eo",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{post {years} jaroj} other{nuna jaro}}} one{{numeric, select, true{post {years} jaro} other{venonta jaro}}} other{post {years} jaroj}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{antaŭ {years} jaroj} other{nuna jaro}}} one{{numeric, select, true{antaŭ {years} jaro} other{pasinta jaro}}} other{antaŭ {years} jaroj}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{post {quarters} jarkvaronoj} other{nuna jarkvarono}}} one{{numeric, select, true{post {quarters} jarkvarono} other{venonta jarkvarono}}} other{post {quarters} jarkvaronoj}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{antaŭ {quarters} jarkvaronoj} other{nuna jarkvarono}}} one{{numeric, select, true{antaŭ {quarters} jarkvarono} other{pasinta jarkvarono}}} other{antaŭ {quarters} jarkvaronoj}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{post {months} monatoj} other{nuna monato}}} one{{numeric, select, true{post {months} monato} other{venonta monato}}} other{post {months} monatoj}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{antaŭ {months} monatoj} other{nuna monato}}} one{{numeric, select, true{antaŭ {months} monato} other{pasinta monato}}} other{antaŭ {months} monatoj}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{post {weeks} semajnoj} other{nuna semajno}}} one{{numeric, select, true{post {weeks} semajno} other{venonta semajno}}} other{post {weeks} semajnoj}}",

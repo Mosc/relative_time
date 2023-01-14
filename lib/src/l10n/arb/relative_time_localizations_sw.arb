@@ -2,8 +2,6 @@
   "@@locale": "sw",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{baada ya miaka {years}} other{mwaka huu}}} one{{numeric, select, true{baada ya mwaka {years}} other{mwaka ujao}}} other{baada ya miaka {years}}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{miaka {years} iliyopita} other{mwaka huu}}} one{{numeric, select, true{mwaka {years} uliopita} other{mwaka uliopita}}} other{miaka {years} iliyopita}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{baada ya robo {quarters}} other{robo hii ya mwaka}}} one{{numeric, select, true{baada ya robo {quarters}} other{robo ya mwaka inayofuata}}} other{baada ya robo {quarters}}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{robo {quarters} zilizopita} other{robo hii ya mwaka}}} one{{numeric, select, true{robo {quarters} iliyopita} other{robo ya mwaka iliyopita}}} other{robo {quarters} zilizopita}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{baada ya miezi {months}} other{mwezi huu}}} one{{numeric, select, true{baada ya mwezi {months}} other{mwezi ujao}}} other{baada ya miezi {months}}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{miezi {months} iliyopita} other{mwezi huu}}} one{{numeric, select, true{mwezi {months} uliopita} other{mwezi uliopita}}} other{miezi {months} iliyopita}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{baada ya wiki {weeks}} other{wiki hii}}} one{{numeric, select, true{baada ya wiki {weeks}} other{wiki ijayo}}} other{baada ya wiki {weeks}}}",

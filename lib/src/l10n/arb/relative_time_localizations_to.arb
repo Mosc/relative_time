@@ -2,8 +2,6 @@
   "@@locale": "to",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{ʻi he taʻu ʻe {years}} other{taʻú ni}}} one{{numeric, select, true{ʻi he taʻu ʻe {years}} other{taʻu kahaʻu}}} other{ʻi he taʻu ʻe {years}}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{taʻu ʻe {years} kuoʻosi} other{taʻú ni}}} one{{numeric, select, true{taʻu ʻe {years} kuoʻosi} other{taʻu kuoʻosi}}} other{taʻu ʻe {years} kuoʻosi}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{ʻi he kuata ʻe {quarters}} other{kuata koʻeni}}} one{{numeric, select, true{ʻi he kuata ʻe {quarters}} other{kuata hoko}}} other{ʻi he kuata ʻe {quarters}}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{kuata ʻe {quarters} kuoʻosi} other{kuata koʻeni}}} one{{numeric, select, true{kuata ʻe {quarters} kuoʻosi} other{kuata kuoʻosi}}} other{kuata ʻe {quarters} kuoʻosi}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{ʻi he māhina ʻe {months}} other{māhiná ni}}} one{{numeric, select, true{ʻi he māhina ʻe {months}} other{māhina kahaʻu}}} other{ʻi he māhina ʻe {months}}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{māhina ʻe {months} kuoʻosi} other{māhiná ni}}} one{{numeric, select, true{māhina ʻe {months} kuoʻosi} other{māhina kuoʻosi}}} other{māhina ʻe {months} kuoʻosi}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{ʻi he uike ʻe {weeks}} other{uiké ni}}} one{{numeric, select, true{ʻi he uike ʻe {weeks}} other{uike kahaʻu}}} other{ʻi he uike ʻe {weeks}}}",

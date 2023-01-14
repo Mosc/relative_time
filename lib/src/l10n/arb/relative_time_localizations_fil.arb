@@ -2,8 +2,6 @@
   "@@locale": "fil",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{sa {years} taon} other{ngayong taon}}} one{{numeric, select, true{sa {years} taon} other{susunod na taon}}} other{sa {years} taon}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} taon ang nakalipas} other{ngayong taon}}} one{{numeric, select, true{{years} taon ang nakalipas} other{nakaraang taon}}} other{{years} taon ang nakalipas}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{sa {quarters} quarter} other{ngayong quarter}}} one{{numeric, select, true{sa {quarters} quarter} other{susunod na quarter}}} other{sa {quarters} quarter}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} quarter ang nakalipas} other{ngayong quarter}}} one{{numeric, select, true{{quarters} quarter ang nakalipas} other{nakaraang quarter}}} other{{quarters} quarter ang nakalipas}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{sa {months} buwan} other{ngayong buwan}}} one{{numeric, select, true{sa {months} buwan} other{susunod na buwan}}} other{sa {months} buwan}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} buwan ang nakalipas} other{ngayong buwan}}} one{{numeric, select, true{{months} buwan ang nakalipas} other{nakaraang buwan}}} other{{months} buwan ang nakalipas}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{sa {weeks} linggo} other{sa linggong ito}}} one{{numeric, select, true{sa {weeks} linggo} other{susunod na linggo}}} other{sa {weeks} linggo}}",

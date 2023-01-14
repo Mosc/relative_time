@@ -2,8 +2,6 @@
   "@@locale": "vi",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{sau {years} năm nữa} other{năm nay}}} one{{numeric, select, true{sau {years} năm nữa} other{năm sau}}} other{sau {years} năm nữa}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} năm trước} other{năm nay}}} one{{numeric, select, true{{years} năm trước} other{năm ngoái}}} other{{years} năm trước}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{sau {quarters} quý nữa} other{quý này}}} one{{numeric, select, true{sau {quarters} quý nữa} other{quý sau}}} other{sau {quarters} quý nữa}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} quý trước} other{quý này}}} one{{numeric, select, true{{quarters} quý trước} other{quý trước}}} other{{quarters} quý trước}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{sau {months} tháng nữa} other{tháng này}}} one{{numeric, select, true{sau {months} tháng nữa} other{tháng sau}}} other{sau {months} tháng nữa}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} tháng trước} other{tháng này}}} one{{numeric, select, true{{months} tháng trước} other{tháng trước}}} other{{months} tháng trước}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{sau {weeks} tuần nữa} other{tuần này}}} one{{numeric, select, true{sau {weeks} tuần nữa} other{tuần sau}}} other{sau {weeks} tuần nữa}}",

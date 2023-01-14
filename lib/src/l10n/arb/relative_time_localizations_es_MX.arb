@@ -1,5 +1,4 @@
 {
   "@@locale": "es_MX",
-  "quartersFuture": "{quarters, plural, one{en {quarters} trimestre} other{dentro de {quarters} trimetres}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{en {months} meses} other{este mes}}} one{{numeric, select, true{en {months} mes} other{el mes próximo}}} other{en {months} meses}}"
 }

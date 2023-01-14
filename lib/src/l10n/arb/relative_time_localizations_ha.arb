@@ -2,8 +2,6 @@
   "@@locale": "ha",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{a shekaru {years}} other{bana}}} one{{numeric, select, true{a shekarar {years}} other{badi}}} other{a shekaru {years}}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{shekara da suka gabata {years}} other{bana}}} one{{numeric, select, true{shekara da suka gabata {years}} other{bara}}} other{shekara da suka gabata {years}}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{a cikin kwatas {quarters}} other{wannan kwatan}}} one{{numeric, select, true{a cikin kwata {quarters}} other{kwata na gaba}}} other{a cikin kwatas {quarters}}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{kwatas da suka gabata {quarters}} other{wannan kwatan}}} one{{numeric, select, true{kwata da suka gabata {quarters}} other{kwatan karshe}}} other{kwatas da suka gabata {quarters}}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{a cikin watanni {months}} other{wannan watan}}} one{{numeric, select, true{a cikin watan {months}} other{wata na gaba}}} other{a cikin watanni {months}}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{watanni da suka gabata {months}} other{wannan watan}}} one{{numeric, select, true{watan da ya gabata} other{watan da ya gabata}}} other{watanni da suka gabata {months}}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{a cikin makonni {weeks}} other{wannan satin}}} one{{numeric, select, true{a cikin mako {weeks}} other{sati na gaba}}} other{a cikin makonni {weeks}}}",

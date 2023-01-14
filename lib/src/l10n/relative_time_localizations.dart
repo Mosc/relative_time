@@ -26,6 +26,7 @@ import 'relative_time_localizations_cy.dart';
 import 'relative_time_localizations_da.dart';
 import 'relative_time_localizations_de.dart';
 import 'relative_time_localizations_dsb.dart';
+import 'relative_time_localizations_dz.dart';
 import 'relative_time_localizations_ee.dart';
 import 'relative_time_localizations_el.dart';
 import 'relative_time_localizations_en.dart';
@@ -39,6 +40,7 @@ import 'relative_time_localizations_fi.dart';
 import 'relative_time_localizations_fil.dart';
 import 'relative_time_localizations_fo.dart';
 import 'relative_time_localizations_fr.dart';
+import 'relative_time_localizations_fur.dart';
 import 'relative_time_localizations_fy.dart';
 import 'relative_time_localizations_ga.dart';
 import 'relative_time_localizations_gd.dart';
@@ -62,12 +64,14 @@ import 'relative_time_localizations_kab.dart';
 import 'relative_time_localizations_kea.dart';
 import 'relative_time_localizations_kgp.dart';
 import 'relative_time_localizations_kk.dart';
+import 'relative_time_localizations_kl.dart';
 import 'relative_time_localizations_km.dart';
 import 'relative_time_localizations_kn.dart';
 import 'relative_time_localizations_ko.dart';
 import 'relative_time_localizations_kok.dart';
 import 'relative_time_localizations_ky.dart';
 import 'relative_time_localizations_lb.dart';
+import 'relative_time_localizations_lkt.dart';
 import 'relative_time_localizations_lo.dart';
 import 'relative_time_localizations_lt.dart';
 import 'relative_time_localizations_lv.dart';
@@ -113,10 +117,12 @@ import 'relative_time_localizations_tk.dart';
 import 'relative_time_localizations_to.dart';
 import 'relative_time_localizations_tr.dart';
 import 'relative_time_localizations_tt.dart';
+import 'relative_time_localizations_ug.dart';
 import 'relative_time_localizations_uk.dart';
 import 'relative_time_localizations_ur.dart';
 import 'relative_time_localizations_uz.dart';
 import 'relative_time_localizations_vi.dart';
+import 'relative_time_localizations_wae.dart';
 import 'relative_time_localizations_wo.dart';
 import 'relative_time_localizations_yrl.dart';
 import 'relative_time_localizations_yue.dart';
@@ -232,6 +238,7 @@ abstract class RelativeTimeLocalizations {
     Locale('da'),
     Locale('de'),
     Locale('dsb'),
+    Locale('dz'),
     Locale('ee'),
     Locale('el'),
     Locale('eo'),
@@ -246,6 +253,7 @@ abstract class RelativeTimeLocalizations {
     Locale('fil'),
     Locale('fo'),
     Locale('fr'),
+    Locale('fur'),
     Locale('fy'),
     Locale('ga'),
     Locale('gd'),
@@ -270,12 +278,14 @@ abstract class RelativeTimeLocalizations {
     Locale('kea'),
     Locale('kgp'),
     Locale('kk'),
+    Locale('kl'),
     Locale('km'),
     Locale('kn'),
     Locale('ko'),
     Locale('kok'),
     Locale('ky'),
     Locale('lb'),
+    Locale('lkt'),
     Locale('lo'),
     Locale('lt'),
     Locale('lv'),
@@ -329,12 +339,14 @@ abstract class RelativeTimeLocalizations {
     Locale('to'),
     Locale('tr'),
     Locale('tt'),
+    Locale('ug'),
     Locale('uk'),
     Locale('ur'),
     Locale('ur', 'IN'),
     Locale('uz'),
     Locale.fromSubtags(languageCode: 'uz', scriptCode: 'Cyrl'),
     Locale('vi'),
+    Locale('wae'),
     Locale('wo'),
     Locale('yrl'),
     Locale('yue'),
@@ -363,18 +375,6 @@ abstract class RelativeTimeLocalizations {
   /// In en, this message translates to:
   /// **'{years, plural, zero{{numeric, select, true{{years} years ago} other{this year}}} one{{numeric, select, true{{years} year ago} other{last year}}} other{{years} years ago}}'**
   String yearsPast(num years, Object numeric);
-
-  /// Number of quarters in the future.
-  ///
-  /// In en, this message translates to:
-  /// **'{quarters, plural, zero{{numeric, select, true{in {quarters} quarters} other{this quarter}}} one{{numeric, select, true{in {quarters} quarter} other{next quarter}}} other{in {quarters} quarters}}'**
-  String quartersFuture(num quarters, Object numeric);
-
-  /// Number of quarters in the past.
-  ///
-  /// In en, this message translates to:
-  /// **'{quarters, plural, zero{{numeric, select, true{{quarters} quarters ago} other{this quarter}}} one{{numeric, select, true{{quarters} quarter ago} other{last quarter}}} other{{quarters} quarters ago}}'**
-  String quartersPast(num quarters, Object numeric);
 
   /// Number of months in the future.
   ///
@@ -482,6 +482,7 @@ class _RelativeTimeLocalizationsDelegate
         'da',
         'de',
         'dsb',
+        'dz',
         'ee',
         'el',
         'en',
@@ -495,6 +496,7 @@ class _RelativeTimeLocalizationsDelegate
         'fil',
         'fo',
         'fr',
+        'fur',
         'fy',
         'ga',
         'gd',
@@ -518,12 +520,14 @@ class _RelativeTimeLocalizationsDelegate
         'kea',
         'kgp',
         'kk',
+        'kl',
         'km',
         'kn',
         'ko',
         'kok',
         'ky',
         'lb',
+        'lkt',
         'lo',
         'lt',
         'lv',
@@ -569,10 +573,12 @@ class _RelativeTimeLocalizationsDelegate
         'to',
         'tr',
         'tt',
+        'ug',
         'uk',
         'ur',
         'uz',
         'vi',
+        'wae',
         'wo',
         'yrl',
         'yue',
@@ -757,6 +763,8 @@ RelativeTimeLocalizations lookupRelativeTimeLocalizations(Locale locale) {
       return RelativeTimeLocalizationsDe();
     case 'dsb':
       return RelativeTimeLocalizationsDsb();
+    case 'dz':
+      return RelativeTimeLocalizationsDz();
     case 'ee':
       return RelativeTimeLocalizationsEe();
     case 'el':
@@ -783,6 +791,8 @@ RelativeTimeLocalizations lookupRelativeTimeLocalizations(Locale locale) {
       return RelativeTimeLocalizationsFo();
     case 'fr':
       return RelativeTimeLocalizationsFr();
+    case 'fur':
+      return RelativeTimeLocalizationsFur();
     case 'fy':
       return RelativeTimeLocalizationsFy();
     case 'ga':
@@ -829,6 +839,8 @@ RelativeTimeLocalizations lookupRelativeTimeLocalizations(Locale locale) {
       return RelativeTimeLocalizationsKgp();
     case 'kk':
       return RelativeTimeLocalizationsKk();
+    case 'kl':
+      return RelativeTimeLocalizationsKl();
     case 'km':
       return RelativeTimeLocalizationsKm();
     case 'kn':
@@ -841,6 +853,8 @@ RelativeTimeLocalizations lookupRelativeTimeLocalizations(Locale locale) {
       return RelativeTimeLocalizationsKy();
     case 'lb':
       return RelativeTimeLocalizationsLb();
+    case 'lkt':
+      return RelativeTimeLocalizationsLkt();
     case 'lo':
       return RelativeTimeLocalizationsLo();
     case 'lt':
@@ -931,6 +945,8 @@ RelativeTimeLocalizations lookupRelativeTimeLocalizations(Locale locale) {
       return RelativeTimeLocalizationsTr();
     case 'tt':
       return RelativeTimeLocalizationsTt();
+    case 'ug':
+      return RelativeTimeLocalizationsUg();
     case 'uk':
       return RelativeTimeLocalizationsUk();
     case 'ur':
@@ -939,6 +955,8 @@ RelativeTimeLocalizations lookupRelativeTimeLocalizations(Locale locale) {
       return RelativeTimeLocalizationsUz();
     case 'vi':
       return RelativeTimeLocalizationsVi();
+    case 'wae':
+      return RelativeTimeLocalizationsWae();
     case 'wo':
       return RelativeTimeLocalizationsWo();
     case 'yrl':

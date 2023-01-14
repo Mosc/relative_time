@@ -2,8 +2,6 @@
   "@@locale": "tt",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{{years} елдан} other{быел}}} one{{numeric, select, true{{years} елдан} other{киләсе елда}}} other{{years} елдан}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} ел элек} other{быел}}} one{{numeric, select, true{{years} ел элек} other{узган ел}}} other{{years} ел элек}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{{quarters} кварталдан} other{бу кварталда}}} one{{numeric, select, true{{quarters} кварталдан} other{киләсе кварталда}}} other{{quarters} кварталдан}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} квартал элек} other{бу кварталда}}} one{{numeric, select, true{{quarters} квартал элек} other{узган кварталда}}} other{{quarters} квартал элек}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{{months} айдан} other{бу айда}}} one{{numeric, select, true{{months} айдан} other{киләсе айда}}} other{{months} айдан}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} ай элек} other{бу айда}}} one{{numeric, select, true{{months} ай элек} other{узган айда}}} other{{months} ай элек}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{{weeks} атнадан} other{бу атнада}}} one{{numeric, select, true{{weeks} атнадан} other{киләсе атнада}}} other{{weeks} атнадан}}",

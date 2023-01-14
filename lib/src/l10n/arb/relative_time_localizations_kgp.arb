@@ -2,8 +2,6 @@
   "@@locale": "kgp",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{prỹg {years} kar kỹ} other{prỹg tag kã}}} one{{numeric, select, true{prỹg {years} kar kỹ} other{prỹg ũ kã}}} other{prỹg {years} kar kỹ}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{prỹg {years} si ser} other{prỹg tag kã}}} one{{numeric, select, true{prỹg {years} si ser} other{prỹg tĩ mũnh kã}}} other{prỹg {years} si ser}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{kysã-tẽgtũ {quarters} kar kỹ} other{kysã tẽgtũ tag}}} one{{numeric, select, true{kysã-tẽgtũ {quarters} kar kỹ} other{kysã tẽgtũ ũn kã}}} other{kysã-tẽgtũ {quarters} kar kỹ}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{kysã-tẽgtũ {quarters} si ser} other{kysã tẽgtũ tag}}} one{{numeric, select, true{kysã-tẽgtũ {quarters} si ser} other{kysã tẽgtũ ẽg no}}} other{kysã-tẽgtũ {quarters} si ser}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{kysã {months} kar kỹ} other{kysã tag kã}}} one{{numeric, select, true{kysã {months} kar kỹ} other{kysã ũn kã}}} other{kysã {months} kar kỹ}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{kysã {months} si ser} other{kysã tag kã}}} one{{numeric, select, true{kysã {months} si ser} other{kysã tĩ mũn kã}}} other{kysã {months} si ser}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{simỹnỹ {weeks} kar kỹ} other{simỹnỹ tag kã}}} one{{numeric, select, true{simỹnỹ {weeks} kar kỹ} other{simỹnỹ ũn kã}}} other{simỹnỹ {weeks} kar kỹ}}",

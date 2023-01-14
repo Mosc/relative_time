@@ -8,7 +8,6 @@ import 'package:xml/xml.dart';
 
 const List<String> supportedDateFieldTypes = <String>[
   'year',
-  'quarter',
   'month',
   'week',
   'day',

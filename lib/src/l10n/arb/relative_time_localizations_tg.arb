@@ -2,8 +2,6 @@
   "@@locale": "tg",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{пас аз {years} сол} other{соли ҷорӣ}}} one{{numeric, select, true{пас аз {years} сол} other{соли оянда}}} other{пас аз {years} сол}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} сол пеш} other{соли ҷорӣ}}} one{{numeric, select, true{{years} сол пеш} other{соли гузашта}}} other{{years} сол пеш}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{пас аз {quarters} чоряк} other{чоряки ҷорӣ}}} one{{numeric, select, true{пас аз {quarters} чоряк} other{чоряки оянда}}} other{пас аз {quarters} чоряк}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} чоряк пеш} other{чоряки ҷорӣ}}} one{{numeric, select, true{{quarters} чоряк пеш} other{чоряки гузашта}}} other{{quarters} чоряк пеш}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{пас аз {months} моҳ} other{моҳи ҷорӣ}}} one{{numeric, select, true{пас аз {months} моҳ} other{моҳи оянда}}} other{пас аз {months} моҳ}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} моҳ пеш} other{моҳи ҷорӣ}}} one{{numeric, select, true{{months} моҳ пеш} other{моҳи гузашта}}} other{{months} моҳ пеш}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{пас аз {weeks} ҳафта} other{ҳафтаи ҷорӣ}}} one{{numeric, select, true{пас аз {weeks} ҳафта} other{ҳафтаи оянда}}} other{пас аз {weeks} ҳафта}}",

@@ -2,8 +2,6 @@
   "@@locale": "id",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{dalam {years} tahun} other{tahun ini}}} one{{numeric, select, true{dalam {years} tahun} other{tahun depan}}} other{dalam {years} tahun}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} tahun yang lalu} other{tahun ini}}} one{{numeric, select, true{{years} tahun yang lalu} other{tahun lalu}}} other{{years} tahun yang lalu}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{dalam {quarters} kuartal} other{kuartal ini}}} one{{numeric, select, true{dalam {quarters} kuartal} other{kuartal berikutnya}}} other{dalam {quarters} kuartal}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} kuartal yang lalu} other{kuartal ini}}} one{{numeric, select, true{{quarters} kuartal yang lalu} other{Kuartal lalu}}} other{{quarters} kuartal yang lalu}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{dalam {months} bulan} other{bulan ini}}} one{{numeric, select, true{dalam {months} bulan} other{bulan depan}}} other{dalam {months} bulan}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} bulan yang lalu} other{bulan ini}}} one{{numeric, select, true{{months} bulan yang lalu} other{bulan lalu}}} other{{months} bulan yang lalu}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{dalam {weeks} minggu} other{minggu ini}}} one{{numeric, select, true{dalam {weeks} minggu} other{minggu depan}}} other{dalam {weeks} minggu}}",

@@ -2,8 +2,6 @@
   "@@locale": "lv",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{pēc {years} gadiem} other{šajā gadā}}} one{{numeric, select, true{pēc {years} gada} other{nākamajā gadā}}} other{pēc {years} gadiem}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{pirms {years} gadiem} other{šajā gadā}}} one{{numeric, select, true{pirms {years} gada} other{pagājušajā gadā}}} other{pirms {years} gadiem}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{pēc {quarters} ceturkšņiem} other{šis ceturksnis}}} one{{numeric, select, true{pēc {quarters} ceturkšņa} other{nākamais ceturksnis}}} other{pēc {quarters} ceturkšņiem}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{pirms {quarters} ceturkšņiem} other{šis ceturksnis}}} one{{numeric, select, true{pirms {quarters} ceturkšņa} other{pēdējais ceturksnis}}} other{pirms {quarters} ceturkšņiem}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{pēc {months} mēnešiem} other{šajā mēnesī}}} one{{numeric, select, true{pēc {months} mēneša} other{nākamajā mēnesī}}} other{pēc {months} mēnešiem}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{pirms {months} mēnešiem} other{šajā mēnesī}}} one{{numeric, select, true{pirms {months} mēneša} other{pagājušajā mēnesī}}} other{pirms {months} mēnešiem}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{pēc {weeks} nedēļām} other{šajā nedēļā}}} one{{numeric, select, true{pēc {weeks} nedēļas} other{nākamajā nedēļā}}} other{pēc {weeks} nedēļām}}",

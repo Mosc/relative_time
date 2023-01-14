@@ -2,8 +2,6 @@
   "@@locale": "zu",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{eminyakeni engu-{years} ezayo} other{kulo nyaka}}} one{{numeric, select, true{onyakeni ongu-{years} ozayo} other{unyaka ozayo}}} other{eminyakeni engu-{years} ezayo}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} iminyaka edlule} other{kulo nyaka}}} one{{numeric, select, true{{years} unyaka odlule} other{onyakeni odlule}}} other{{years} iminyaka edlule}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{kumakota angu-{quarters} ezayo} other{le kota}}} one{{numeric, select, true{kwikota engu-{quarters} ezayo} other{ikota ezayo}}} other{kumakota angu-{quarters} ezayo}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} amakota adlule} other{le kota}}} one{{numeric, select, true{{quarters} ikota edlule} other{ikota edlule}}} other{{quarters} amakota adlule}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{ezinyangeni ezingu-{months} ezizayo} other{le nyanga}}} one{{numeric, select, true{enyangeni engu-{months}} other{inyanga ezayo}}} other{ezinyangeni ezingu-{months} ezizayo}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} izinyanga ezedlule} other{le nyanga}}} one{{numeric, select, true{{months} inyanga edlule} other{inyanga edlule}}} other{{months} izinyanga ezedlule}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{emavikini angu-{weeks}} other{leli viki}}} one{{numeric, select, true{evikini elingu-{weeks}} other{iviki elizayo}}} other{emavikini angu-{weeks}}}",

@@ -1,0 +1,17 @@
+{
+  "@@locale": "lkt",
+  "yearsFuture": "{years, plural, zero{{numeric, select, true{Letáŋhaŋ ómakȟa {years} kiŋháŋ} other{Lé ómakȟa kiŋ}}} one{{numeric, select, true{Letáŋhaŋ ómakȟa {years} kiŋháŋ} other{Tȟokáta ómakȟa kiŋháŋ}}} other{Letáŋhaŋ ómakȟa {years} kiŋháŋ}}",
+  "yearsPast": "{years, plural, zero{{numeric, select, true{Hékta ómakȟa {years} kʼuŋ héhaŋ} other{Lé ómakȟa kiŋ}}} one{{numeric, select, true{Hékta ómakȟa {years} kʼuŋ héhaŋ} other{Ómakȟa kʼuŋ héhaŋ}}} other{Hékta ómakȟa {years} kʼuŋ héhaŋ}}",
+  "monthsFuture": "{months, plural, zero{{numeric, select, true{Letáŋhaŋ wíyawapi {months} kiŋháŋ} other{Lé wí kiŋ}}} one{{numeric, select, true{Letáŋhaŋ wíyawapi {months} kiŋháŋ} other{Tȟokáta wí kiŋháŋ}}} other{Letáŋhaŋ wíyawapi {months} kiŋháŋ}}",
+  "monthsPast": "{months, plural, zero{{numeric, select, true{Hékta wíyawapi {months} kʼuŋ héhaŋ} other{Lé wí kiŋ}}} one{{numeric, select, true{Hékta wíyawapi {months} kʼuŋ héhaŋ} other{Wí kʼuŋ héhaŋ}}} other{Hékta wíyawapi {months} kʼuŋ héhaŋ}}",
+  "weeksFuture": "{weeks, plural, zero{{numeric, select, true{Letáŋhaŋ okó {weeks} kiŋháŋ} other{Lé okó kiŋ}}} one{{numeric, select, true{Letáŋhaŋ okó {weeks} kiŋháŋ} other{Tȟokáta okó kiŋháŋ}}} other{Letáŋhaŋ okó {weeks} kiŋháŋ}}",
+  "weeksPast": "{weeks, plural, zero{{numeric, select, true{Hékta okó {weeks} kʼuŋ héhaŋ} other{Lé okó kiŋ}}} one{{numeric, select, true{Hékta okó {weeks} kʼuŋ héhaŋ} other{Okó kʼuŋ héhaŋ}}} other{Hékta okó {weeks} kʼuŋ héhaŋ}}",
+  "daysFuture": "{days, plural, zero{{numeric, select, true{Letáŋhaŋ {days}-čháŋ kiŋháŋ} other{Lé aŋpétu kiŋ}}} one{{numeric, select, true{Letáŋhaŋ {days}-čháŋ kiŋháŋ} other{Híŋhaŋni kiŋháŋ}}} other{Letáŋhaŋ {days}-čháŋ kiŋháŋ}}",
+  "daysPast": "{days, plural, zero{{numeric, select, true{Hékta {days}-čháŋ k’uŋ héhaŋ} other{Lé aŋpétu kiŋ}}} one{{numeric, select, true{Hékta {days}-čháŋ k’uŋ héhaŋ} other{Ȟtálehaŋ}}} other{Hékta {days}-čháŋ k’uŋ héhaŋ}}",
+  "hoursFuture": "Letáŋhaŋ owápȟe {hours} kiŋháŋ",
+  "hoursPast": "Hékta owápȟe {hours} kʼuŋ héhaŋ",
+  "minutesFuture": "Letáŋhaŋ oȟ’áŋkȟo {minutes} kiŋháŋ",
+  "minutesPast": "Hékta oȟ’áŋkȟo {minutes} k’uŋ héhaŋ",
+  "secondsFuture": "Letáŋhaŋ okpí {seconds} kiŋháŋ",
+  "secondsPast": "Hékta okpí {seconds} k’uŋ héhaŋ"
+}

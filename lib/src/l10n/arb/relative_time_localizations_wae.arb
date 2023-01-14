@@ -1,0 +1,17 @@
+{
+  "@@locale": "wae",
+  "yearsFuture": "I {years} jár",
+  "yearsPast": "{years, plural, one{vor {years} jár} other{cor {years} jár}}",
+  "monthsFuture": "I {months} mánet",
+  "monthsPast": "vor {months} mánet",
+  "weeksFuture": "{weeks, plural, one{i {weeks} wuča} other{i {weeks} wučä}}",
+  "weeksPast": "{weeks, plural, one{vor {weeks} wuča} other{cor {weeks} wučä}}",
+  "daysFuture": "{days, plural, zero{{numeric, select, true{i {days} täg} other{Hitte}}} one{{numeric, select, true{i {days} tag} other{Móre}}} two{{numeric, select, true{i {days} täg} other{Ubermóre}}} other{i {days} täg}}",
+  "daysPast": "{days, plural, zero{{numeric, select, true{vor {days} täg} other{Hitte}}} one{{numeric, select, true{vor {days} tag} other{Gešter}}} two{{numeric, select, true{vor {days} täg} other{Vorgešter}}} other{vor {days} täg}}",
+  "hoursFuture": "{hours, plural, one{i {hours} stund} other{i {hours} stunde}}",
+  "hoursPast": "{hours, plural, one{vor {hours} stund} other{vor {hours} stunde}}",
+  "minutesFuture": "{minutes, plural, one{i {minutes} minüta} other{i {minutes} minüte}}",
+  "minutesPast": "{minutes, plural, one{vor {minutes} minüta} other{vor {minutes} minüte}}",
+  "secondsFuture": "{seconds, plural, one{i {seconds} sekund} other{i {seconds} sekunde}}",
+  "secondsPast": "{seconds, plural, one{vor {seconds} sekund} other{vor {seconds} sekunde}}"
+}

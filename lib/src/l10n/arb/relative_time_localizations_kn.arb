@@ -2,8 +2,6 @@
   "@@locale": "kn",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{{years} ವರ್ಷಗಳಲ್ಲಿ} other{ಈ ವರ್ಷ}}} one{{numeric, select, true{{years} ವರ್ಷದಲ್ಲಿ} other{ಮುಂದಿನ ವರ್ಷ}}} other{{years} ವರ್ಷಗಳಲ್ಲಿ}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} ವರ್ಷಗಳ ಹಿಂದೆ} other{ಈ ವರ್ಷ}}} one{{numeric, select, true{{years} ವರ್ಷದ ಹಿಂದೆ} other{ಹಿಂದಿನ ವರ್ಷ}}} other{{years} ವರ್ಷಗಳ ಹಿಂದೆ}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{{quarters} ತ್ರೈಮಾಸಿಕಗಳಲ್ಲಿ} other{ಈ ತ್ರೈಮಾಸಿಕ}}} one{{numeric, select, true{{quarters} ತ್ರೈಮಾಸಿಕದಲ್ಲಿ} other{ಮುಂದಿನ ತ್ರೈಮಾಸಿಕ}}} other{{quarters} ತ್ರೈಮಾಸಿಕಗಳಲ್ಲಿ}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} ತ್ರೈಮಾಸಿಕಗಳ ಹಿಂದೆ} other{ಈ ತ್ರೈಮಾಸಿಕ}}} one{{numeric, select, true{{quarters} ತ್ರೈಮಾಸಿಕದ ಹಿಂದೆ} other{ಹಿಂದಿನ ತ್ರೈಮಾಸಿಕ}}} other{{quarters} ತ್ರೈಮಾಸಿಕಗಳ ಹಿಂದೆ}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{{months} ತಿಂಗಳುಗಳಲ್ಲಿ} other{ಈ ತಿಂಗಳು}}} one{{numeric, select, true{{months} ತಿಂಗಳಲ್ಲಿ} other{ಮುಂದಿನ ತಿಂಗಳು}}} other{{months} ತಿಂಗಳುಗಳಲ್ಲಿ}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} ತಿಂಗಳುಗಳ ಹಿಂದೆ} other{ಈ ತಿಂಗಳು}}} one{{numeric, select, true{{months} ತಿಂಗಳ ಹಿಂದೆ} other{ಕಳೆದ ತಿಂಗಳು}}} other{{months} ತಿಂಗಳುಗಳ ಹಿಂದೆ}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{{weeks} ವಾರಗಳಲ್ಲಿ} other{ಈ ವಾರ}}} one{{numeric, select, true{{weeks} ವಾರದಲ್ಲಿ} other{ಮುಂದಿನ ವಾರ}}} other{{weeks} ವಾರಗಳಲ್ಲಿ}}",

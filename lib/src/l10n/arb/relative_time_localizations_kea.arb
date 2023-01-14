@@ -2,8 +2,6 @@
   "@@locale": "kea",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{di li {years} anu} other{es anu li}}} one{{numeric, select, true{di li {years} anu} other{prósimu anu}}} other{di li {years} anu}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{a ten {years} anu} other{es anu li}}} one{{numeric, select, true{a ten {years} anu} other{anu pasadu}}} other{a ten {years} anu}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{di li {quarters} trimestri} other{es trimestri li}}} one{{numeric, select, true{di li {quarters} trimestri} other{prósimu trimestri}}} other{di li {quarters} trimestri}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{a ten {quarters} trimestri} other{es trimestri li}}} one{{numeric, select, true{a ten {quarters} trimestri} other{trimestri pasadu}}} other{a ten {quarters} trimestri}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{di li {months} mes} other{es mes li}}} one{{numeric, select, true{di li {months} mes} other{prósimu mes}}} other{di li {months} mes}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{a ten {months} mes} other{es mes li}}} one{{numeric, select, true{a ten {months} mes} other{mes pasadu}}} other{a ten {months} mes}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{di li {weeks} simana} other{es simana li}}} one{{numeric, select, true{di li {weeks} simana} other{prósimu simana}}} other{di li {weeks} simana}}",

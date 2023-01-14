@@ -2,8 +2,6 @@
   "@@locale": "bn",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{{years} বছরে} other{এই বছর}}} one{{numeric, select, true{{years} বছরে} other{পরের বছর}}} other{{years} বছরে}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} বছর পূর্বে} other{এই বছর}}} one{{numeric, select, true{{years} বছর পূর্বে} other{গত বছর}}} other{{years} বছর পূর্বে}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{{quarters} ত্রৈমাসিকে} other{এই ত্রৈমাসিক}}} one{{numeric, select, true{{quarters} ত্রৈমাসিকে} other{পরের ত্রৈমাসিক}}} other{{quarters} ত্রৈমাসিকে}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} ত্রৈমাসিক আগে} other{এই ত্রৈমাসিক}}} one{{numeric, select, true{{quarters} ত্রৈমাসিক আগে} other{গত ত্রৈমাসিক}}} other{{quarters} ত্রৈমাসিক আগে}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{{months} মাসে} other{এই মাস}}} one{{numeric, select, true{{months} মাসে} other{পরের মাস}}} other{{months} মাসে}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} মাস আগে} other{এই মাস}}} one{{numeric, select, true{{months} মাস আগে} other{গত মাস}}} other{{months} মাস আগে}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{{weeks} সপ্তাহে} other{এই সপ্তাহ}}} one{{numeric, select, true{{weeks} সপ্তাহে} other{পরের সপ্তাহ}}} other{{weeks} সপ্তাহে}}",

@@ -2,8 +2,6 @@
   "@@locale": "th",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{ในอีก {years} ปี} other{ปีนี้}}} one{{numeric, select, true{ในอีก {years} ปี} other{ปีหน้า}}} other{ในอีก {years} ปี}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} ปีที่แล้ว} other{ปีนี้}}} one{{numeric, select, true{{years} ปีที่แล้ว} other{ปีที่แล้ว}}} other{{years} ปีที่แล้ว}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{ในอีก {quarters} ไตรมาส} other{ไตรมาสนี้}}} one{{numeric, select, true{ในอีก {quarters} ไตรมาส} other{ไตรมาสหน้า}}} other{ในอีก {quarters} ไตรมาส}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} ไตรมาสที่แล้ว} other{ไตรมาสนี้}}} one{{numeric, select, true{{quarters} ไตรมาสที่แล้ว} other{ไตรมาสที่แล้ว}}} other{{quarters} ไตรมาสที่แล้ว}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{ในอีก {months} เดือน} other{เดือนนี้}}} one{{numeric, select, true{ในอีก {months} เดือน} other{เดือนหน้า}}} other{ในอีก {months} เดือน}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} เดือนที่ผ่านมา} other{เดือนนี้}}} one{{numeric, select, true{{months} เดือนที่ผ่านมา} other{เดือนที่แล้ว}}} other{{months} เดือนที่ผ่านมา}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{ในอีก {weeks} สัปดาห์} other{สัปดาห์นี้}}} one{{numeric, select, true{ในอีก {weeks} สัปดาห์} other{สัปดาห์หน้า}}} other{ในอีก {weeks} สัปดาห์}}",

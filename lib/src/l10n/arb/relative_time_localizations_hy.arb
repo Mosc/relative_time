@@ -2,8 +2,6 @@
   "@@locale": "hy",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{{years} տարուց} other{այս տարի}}} one{{numeric, select, true{{years} տարուց} other{հաջորդ տարի}}} other{{years} տարուց}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} տարի առաջ} other{այս տարի}}} one{{numeric, select, true{{years} տարի առաջ} other{նախորդ տարի}}} other{{years} տարի առաջ}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{{quarters} եռամսյակից} other{այս եռամսյակ}}} one{{numeric, select, true{{quarters} եռամսյակից} other{հաջորդ եռամսյակ}}} other{{quarters} եռամսյակից}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} եռամսյակ առաջ} other{այս եռամսյակ}}} one{{numeric, select, true{{quarters} եռամսյակ առաջ} other{նախորդ եռամսյակ}}} other{{quarters} եռամսյակ առաջ}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{{months} ամսից} other{այս ամիս}}} one{{numeric, select, true{{months} ամսից} other{հաջորդ ամիս}}} other{{months} ամսից}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} ամիս առաջ} other{այս ամիս}}} one{{numeric, select, true{{months} ամիս առաջ} other{նախորդ ամիս}}} other{{months} ամիս առաջ}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{{weeks} շաբաթից} other{այս շաբաթ}}} one{{numeric, select, true{{weeks} շաբաթից} other{հաջորդ շաբաթ}}} other{{weeks} շաբաթից}}",

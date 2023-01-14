@@ -2,8 +2,6 @@
   "@@locale": "fa",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{{years} سال بعد} other{امسال}}} one{{numeric, select, true{{years} سال بعد} other{سال آینده}}} other{{years} سال بعد}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} سال پیش} other{امسال}}} one{{numeric, select, true{{years} سال پیش} other{سال گذشته}}} other{{years} سال پیش}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{{quarters} سه‌ماههٔ بعد} other{سه‌ماههٔ کنونی}}} one{{numeric, select, true{{quarters} سه‌ماههٔ بعد} other{سه‌ماههٔ آینده}}} other{{quarters} سه‌ماههٔ بعد}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} سه‌ماههٔ پیش} other{سه‌ماههٔ کنونی}}} one{{numeric, select, true{{quarters} سه‌ماههٔ پیش} other{سه‌ماههٔ گذشته}}} other{{quarters} سه‌ماههٔ پیش}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{{months} ماه بعد} other{این ماه}}} one{{numeric, select, true{{months} ماه بعد} other{ماه آینده}}} other{{months} ماه بعد}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} ماه پیش} other{این ماه}}} one{{numeric, select, true{{months} ماه پیش} other{ماه گذشته}}} other{{months} ماه پیش}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{{weeks} هفته بعد} other{این هفته}}} one{{numeric, select, true{{weeks} هفته بعد} other{هفتهٔ آینده}}} other{{weeks} هفته بعد}}",

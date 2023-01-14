@@ -2,8 +2,6 @@
   "@@locale": "mk",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{за {years} години} other{оваа година}}} one{{numeric, select, true{за {years} година} other{догодина}}} other{за {years} години}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{пред {years} години} other{оваа година}}} one{{numeric, select, true{пред {years} година} other{лани}}} other{пред {years} години}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{за {quarters} тромесечја} other{ова тромесечје}}} one{{numeric, select, true{за {quarters} тромесечје} other{следното тромесечје}}} other{за {quarters} тромесечја}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{пред {quarters} тромесечја} other{ова тромесечје}}} one{{numeric, select, true{пред {quarters} тромесечје} other{последното тромесечје}}} other{пред {quarters} тромесечја}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{за {months} месеци} other{овој месец}}} one{{numeric, select, true{за {months} месец} other{следниот месец}}} other{за {months} месеци}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{пред {months} месеци} other{овој месец}}} one{{numeric, select, true{пред {months} месец} other{минатиот месец}}} other{пред {months} месеци}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{за {weeks} седмици} other{оваа седмица}}} one{{numeric, select, true{за {weeks} седмица} other{следната седмица}}} other{за {weeks} седмици}}",

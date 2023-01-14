@@ -2,8 +2,6 @@
   "@@locale": "my",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{{years} နှစ်အတွင်း} other{ယခုနှစ်}}} one{{numeric, select, true{{years} နှစ်အတွင်း} other{လာမည့်နှစ်}}} other{{years} နှစ်အတွင်း}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{ပြီးခဲ့သည့် {years} နှစ်} other{ယခုနှစ်}}} one{{numeric, select, true{ပြီးခဲ့သည့် {years} နှစ်} other{ယမန်နှစ်}}} other{ပြီးခဲ့သည့် {years} နှစ်}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{သုံးလပတ်ကာလ {quarters} အတွင်း} other{ယခု သုံးလပတ်}}} one{{numeric, select, true{သုံးလပတ်ကာလ {quarters} အတွင်း} other{လာမည့် သုံးလပတ်}}} other{သုံးလပတ်ကာလ {quarters} အတွင်း}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{ပြီးခဲ့သည့် သုံးလပတ်ကာလ {quarters} ခုအတွင်း} other{ယခု သုံးလပတ်}}} one{{numeric, select, true{ပြီးခဲ့သည့် သုံးလပတ်ကာလ {quarters} ခုအတွင်း} other{ပြီးခဲ့သည့် သုံးလပတ်}}} other{ပြီးခဲ့သည့် သုံးလပတ်ကာလ {quarters} ခုအတွင်း}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{{months} လအတွင်း} other{ယခုလ}}} one{{numeric, select, true{{months} လအတွင်း} other{လာမည့်လ}}} other{{months} လအတွင်း}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{ပြီးခဲ့သည့် {months} လ} other{ယခုလ}}} one{{numeric, select, true{ပြီးခဲ့သည့် {months} လ} other{ပြီးခဲ့သည့်လ}}} other{ပြီးခဲ့သည့် {months} လ}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{{weeks} ပတ်အတွင်း} other{ယခု သီတင်းပတ်}}} one{{numeric, select, true{{weeks} ပတ်အတွင်း} other{လာမည့် သီတင်းပတ်}}} other{{weeks} ပတ်အတွင်း}}",

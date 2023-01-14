@@ -2,8 +2,6 @@
   "@@locale": "sah",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{{years} сылынан} other{быйыл}}} one{{numeric, select, true{{years} сылынан} other{эһиил}}} other{{years} сылынан}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} сыл ынараа өттүгэр} other{быйыл}}} one{{numeric, select, true{{years} сыл ынараа өттүгэр} other{Былырыын}}} other{{years} сыл ынараа өттүгэр}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{{quarters} кыбаарталынан} other{бу кыбаартал}}} one{{numeric, select, true{{quarters} кыбаарталынан} other{кэлэр кыбаартал}}} other{{quarters} кыбаарталынан}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} кыбаартал анараа өттүгэр} other{бу кыбаартал}}} one{{numeric, select, true{{quarters} кыбаартал анараа өттүгэр} other{ааспыт кыбаартал}}} other{{quarters} кыбаартал анараа өттүгэр}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{{months} ыйынан} other{бу ый}}} one{{numeric, select, true{{months} ыйынан} other{аныгыскы ый}}} other{{months} ыйынан}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} ый ынараа өттүгэр} other{бу ый}}} one{{numeric, select, true{{months} ый ынараа өттүгэр} other{ааспыт ый}}} other{{months} ый ынараа өттүгэр}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{{weeks} нэдиэлэннэн} other{бу нэдиэлэ}}} one{{numeric, select, true{{weeks} нэдиэлэннэн} other{кэлэр нэдиэлэ}}} other{{weeks} нэдиэлэннэн}}",

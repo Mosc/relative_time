@@ -2,8 +2,6 @@
   "@@locale": "fy",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{Oer {years} jier} other{dit jier}}} one{{numeric, select, true{Oer {years} jier} other{folgjend jier}}} other{Oer {years} jier}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} jier lyn} other{dit jier}}} one{{numeric, select, true{{years} jier lyn} other{foarich jier}}} other{{years} jier lyn}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{oer {quarters} fearnsjier} other{dit fearnsjier}}} one{{numeric, select, true{oer {quarters} fearnsjier} other{folgjend fearnsjier}}} other{oer {quarters} fearnsjier}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} fearnsjier lyn} other{dit fearnsjier}}} one{{numeric, select, true{{quarters} fearnsjier lyn} other{foarich fearnsjier}}} other{{quarters} fearnsjier lyn}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{Oer {months} moannen} other{dizze moanne}}} one{{numeric, select, true{Oer {months} moanne} other{folgjende moanne}}} other{Oer {months} moannen}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} moannen lyn} other{dizze moanne}}} one{{numeric, select, true{{months} moanne lyn} other{foarige moanne}}} other{{months} moannen lyn}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{Oer {weeks} wiken} other{dizze wike}}} one{{numeric, select, true{Oer {weeks} wike} other{folgjende wike}}} other{Oer {weeks} wiken}}",

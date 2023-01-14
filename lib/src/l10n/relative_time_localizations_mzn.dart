@@ -117,16 +117,6 @@ class RelativeTimeLocalizationsMzn extends RelativeTimeLocalizations {
   }
 
   @override
-  String quartersFuture(num quarters, Object numeric) {
-    return '$quarters ربع دله';
-  }
-
-  @override
-  String quartersPast(num quarters, Object numeric) {
-    return '$quarters ربع پیش';
-  }
-
-  @override
   String monthsFuture(num months, Object numeric) {
     String _monthsFuture0(num months) {
       return '$months ماه دله';

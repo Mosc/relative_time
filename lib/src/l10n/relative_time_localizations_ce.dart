@@ -117,16 +117,6 @@ class RelativeTimeLocalizationsCe extends RelativeTimeLocalizations {
   }
 
   @override
-  String quartersFuture(num quarters, Object numeric) {
-    return '$quarters квартал яьлча';
-  }
-
-  @override
-  String quartersPast(num quarters, Object numeric) {
-    return '$quarters квартал хьалха';
-  }
-
-  @override
   String monthsFuture(num months, Object numeric) {
     String _monthsFuture0(num months) {
       return '$months бутт баьлча';

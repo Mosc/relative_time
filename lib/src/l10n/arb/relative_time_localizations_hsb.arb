@@ -2,8 +2,6 @@
   "@@locale": "hsb",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{za {years} lět} other{lětsa}}} one{{numeric, select, true{za {years} lěto} other{klětu}}} two{za {years} lěće} few{za {years} lěta} other{za {years} lět}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{před {years} lětami} other{lětsa}}} one{{numeric, select, true{před {years} lětom} other{loni}}} two{před {years} lětomaj} other{před {years} lětami}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{za {quarters} kwartalow} other{tutón kwartal}}} one{{numeric, select, true{za {quarters} kwartal} other{přichodny kwartal}}} two{za {quarters} kwartalej} few{za {quarters} kwartale} other{za {quarters} kwartalow}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{před {quarters} kwartalemi} other{tutón kwartal}}} one{{numeric, select, true{před {quarters} kwartalom} other{zašły kwartal}}} two{před {quarters} kwartalomaj} other{před {quarters} kwartalemi}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{za {months} měsacow} other{tutón měsac}}} one{{numeric, select, true{za {months} měsac} other{přichodny měsac}}} two{za {months} měsacaj} few{za {months} měsacy} other{za {months} měsacow}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{před {months} měsacami} other{tutón měsac}}} one{{numeric, select, true{před {months} měsacom} other{zašły měsac}}} two{před {months} měsacomaj} other{před {months} měsacami}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{za {weeks} tydźenjow} other{tutón tydźeń}}} one{{numeric, select, true{za {weeks} tydźeń} other{přichodny tydźeń}}} two{za {weeks} tydźenjej} few{za {weeks} tydźenje} other{za {weeks} tydźenjow}}",

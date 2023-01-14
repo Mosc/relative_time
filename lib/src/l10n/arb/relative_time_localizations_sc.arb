@@ -2,8 +2,6 @@
   "@@locale": "sc",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{intro de {years} annos} other{ocannu}}} one{{numeric, select, true{intro de {years} annu} other{ocannu chi benit}}} other{intro de {years} annos}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} annos a como} other{ocannu}}} one{{numeric, select, true{{years} annu a como} other{ocannu coladu}}} other{{years} annos a como}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{intro de {quarters} trimestres} other{custu trimestre}}} one{{numeric, select, true{intro de {quarters} trimestre} other{su trimestre chi intrat}}} other{intro de {quarters} trimestres}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} trimestres a como} other{custu trimestre}}} one{{numeric, select, true{{quarters} trimestre a como} other{su trimestre coladu}}} other{{quarters} trimestres a como}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{intro de {months} meses} other{custu mese}}} one{{numeric, select, true{intro de {months} mese} other{su mese chi intrat}}} other{intro de {months} meses}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} meses a como} other{custu mese}}} one{{numeric, select, true{{months} mese a como} other{su mese coladu}}} other{{months} meses a como}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{intro de {weeks} chidas} other{custa chida}}} one{{numeric, select, true{intro de {weeks} chida} other{sa chida chi intrat}}} other{intro de {weeks} chidas}}",

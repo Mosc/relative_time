@@ -2,8 +2,6 @@
   "@@locale": "mn",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{{years} жилийн дараа} other{энэ жил}}} one{{numeric, select, true{{years} жилийн дараа} other{ирэх жил}}} other{{years} жилийн дараа}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} жилийн өмнө} other{энэ жил}}} one{{numeric, select, true{{years} жилийн өмнө} other{өнгөрсөн жил}}} other{{years} жилийн өмнө}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{{quarters} улирлын дараа} other{энэ улирал}}} one{{numeric, select, true{{quarters} улирлын дараа} other{дараагийн улирал}}} other{{quarters} улирлын дараа}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} улирлын өмнө} other{энэ улирал}}} one{{numeric, select, true{{quarters} улирлын өмнө} other{өнгөрсөн улирал}}} other{{quarters} улирлын өмнө}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{{months} сарын дараа} other{энэ сар}}} one{{numeric, select, true{{months} сарын дараа} other{ирэх сар}}} other{{months} сарын дараа}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} сарын өмнө} other{энэ сар}}} one{{numeric, select, true{{months} сарын өмнө} other{өнгөрсөн сар}}} other{{months} сарын өмнө}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{{weeks} долоо хоногийн дараа} other{энэ долоо хоног}}} one{{numeric, select, true{{weeks} долоо хоногийн дараа} other{ирэх долоо хоног}}} other{{weeks} долоо хоногийн дараа}}",

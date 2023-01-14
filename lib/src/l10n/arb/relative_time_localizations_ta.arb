@@ -2,8 +2,6 @@
   "@@locale": "ta",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{{years} ஆண்டுகளில்} other{இந்த ஆண்டு}}} one{{numeric, select, true{{years} ஆண்டில்} other{அடுத்த ஆண்டு}}} other{{years} ஆண்டுகளில்}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} ஆண்டுகளுக்கு முன்} other{இந்த ஆண்டு}}} one{{numeric, select, true{{years} ஆண்டிற்கு முன்} other{கடந்த ஆண்டு}}} other{{years} ஆண்டுகளுக்கு முன்}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{{quarters} காலாண்டுகளில்} other{இந்த காலாண்டு}}} one{{numeric, select, true{+{quarters} காலாண்டில்} other{அடுத்த காலாண்டு}}} other{{quarters} காலாண்டுகளில்}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} காலாண்டுகளுக்கு முன்} other{இந்த காலாண்டு}}} one{{numeric, select, true{{quarters} காலாண்டுக்கு முன்} other{கடந்த காலாண்டு}}} other{{quarters} காலாண்டுகளுக்கு முன்}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{{months} மாதங்களில்} other{இந்த மாதம்}}} one{{numeric, select, true{{months} மாதத்தில்} other{அடுத்த மாதம்}}} other{{months} மாதங்களில்}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} மாதங்களுக்கு முன்} other{இந்த மாதம்}}} one{{numeric, select, true{{months} மாதத்துக்கு முன்} other{கடந்த மாதம்}}} other{{months} மாதங்களுக்கு முன்}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{{weeks} வாரங்களில்} other{இந்த வாரம்}}} one{{numeric, select, true{{weeks} வாரத்தில்} other{அடுத்த வாரம்}}} other{{weeks} வாரங்களில்}}",

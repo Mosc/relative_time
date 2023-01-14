@@ -2,8 +2,6 @@
   "@@locale": "km",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{{years} ឆ្នាំទៀត} other{ឆ្នាំ​នេះ}}} one{{numeric, select, true{{years} ឆ្នាំទៀត} other{ឆ្នាំ​ក្រោយ}}} other{{years} ឆ្នាំទៀត}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} ឆ្នាំ​មុន} other{ឆ្នាំ​នេះ}}} one{{numeric, select, true{{years} ឆ្នាំ​មុន} other{ឆ្នាំ​មុន}}} other{{years} ឆ្នាំ​មុន}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{{quarters} ត្រីមាសទៀត} other{ត្រីមាស​នេះ}}} one{{numeric, select, true{{quarters} ត្រីមាសទៀត} other{ត្រីមាស​ក្រោយ}}} other{{quarters} ត្រីមាសទៀត}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} ត្រីមាស​មុន} other{ត្រីមាស​នេះ}}} one{{numeric, select, true{{quarters} ត្រីមាស​មុន} other{ត្រីមាស​មុន}}} other{{quarters} ត្រីមាស​មុន}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{{months} ខែទៀត} other{ខែ​នេះ}}} one{{numeric, select, true{{months} ខែទៀត} other{ខែ​ក្រោយ}}} other{{months} ខែទៀត}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} ខែមុន} other{ខែ​នេះ}}} one{{numeric, select, true{{months} ខែមុន} other{ខែ​មុន}}} other{{months} ខែមុន}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{{weeks} សប្ដាហ៍ទៀត} other{សប្ដាហ៍​នេះ}}} one{{numeric, select, true{{weeks} សប្ដាហ៍ទៀត} other{សប្ដាហ៍​ក្រោយ}}} other{{weeks} សប្ដាហ៍ទៀត}}",

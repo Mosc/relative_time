@@ -2,8 +2,6 @@
   "@@locale": "sk",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{o {years} rokov} other{tento rok}}} one{{numeric, select, true{o {years} rok} other{budúci rok}}} few{o {years} roky} many{o {years} roka} other{o {years} rokov}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{pred {years} rokmi} other{tento rok}}} one{{numeric, select, true{pred {years} rokom} other{minulý rok}}} many{pred {years} roka} other{pred {years} rokmi}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{o {quarters} štvrťrokov} other{tento štvrťrok}}} one{{numeric, select, true{o {quarters} štvrťrok} other{budúci štvrťrok}}} few{o {quarters} štvrťroky} many{o {quarters} štvrťroka} other{o {quarters} štvrťrokov}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{pred {quarters} štvrťrokmi} other{tento štvrťrok}}} one{{numeric, select, true{pred {quarters} štvrťrokom} other{minulý štvrťrok}}} many{pred {quarters} štvrťroka} other{pred {quarters} štvrťrokmi}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{o {months} mesiacov} other{tento mesiac}}} one{{numeric, select, true{o {months} mesiac} other{budúci mesiac}}} few{o {months} mesiace} many{o {months} mesiaca} other{o {months} mesiacov}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{pred {months} mesiacmi} other{tento mesiac}}} one{{numeric, select, true{pred {months} mesiacom} other{minulý mesiac}}} many{pred {months} mesiaca} other{pred {months} mesiacmi}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{o {weeks} týždňov} other{tento týždeň}}} one{{numeric, select, true{o {weeks} týždeň} other{budúci týždeň}}} few{o {weeks} týždne} many{o {weeks} týždňa} other{o {weeks} týždňov}}",

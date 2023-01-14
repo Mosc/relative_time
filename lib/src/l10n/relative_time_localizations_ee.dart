@@ -117,16 +117,6 @@ class RelativeTimeLocalizationsEe extends RelativeTimeLocalizations {
   }
 
   @override
-  String quartersFuture(num quarters, Object numeric) {
-    return 'le kɔta $quarters si gbɔ na me';
-  }
-
-  @override
-  String quartersPast(num quarters, Object numeric) {
-    return 'kɔta $quarters si va yi me';
-  }
-
-  @override
   String monthsFuture(num months, Object numeric) {
     String _monthsFuture0(num months) {
       return 'le ɣleti $months wo me';

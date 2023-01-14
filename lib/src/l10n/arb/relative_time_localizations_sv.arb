@@ -2,8 +2,6 @@
   "@@locale": "sv",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{om {years} år} other{i år}}} one{{numeric, select, true{om {years} år} other{nästa år}}} other{om {years} år}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{för {years} år sedan} other{i år}}} one{{numeric, select, true{för {years} år sedan} other{i fjol}}} other{för {years} år sedan}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{om {quarters} kvartal} other{detta kvartal}}} one{{numeric, select, true{om {quarters} kvartal} other{nästa kvartal}}} other{om {quarters} kvartal}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{för {quarters} kvartal sedan} other{detta kvartal}}} one{{numeric, select, true{för {quarters} kvartal sedan} other{förra kvartalet}}} other{för {quarters} kvartal sedan}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{om {months} månader} other{denna månad}}} one{{numeric, select, true{om {months} månad} other{nästa månad}}} other{om {months} månader}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{för {months} månader sedan} other{denna månad}}} one{{numeric, select, true{för {months} månad sedan} other{förra månaden}}} other{för {months} månader sedan}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{om {weeks} veckor} other{denna vecka}}} one{{numeric, select, true{om {weeks} vecka} other{nästa vecka}}} other{om {weeks} veckor}}",

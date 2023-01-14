@@ -2,8 +2,6 @@
   "@@locale": "kok",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{{years} वर्सांनीं} other{हें वर्स}}} one{{numeric, select, true{{years} वर्सांनीं} other{फुडलें वर्स}}} other{{years} वर्सांनीं}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{{years} वर्सां आदीं} other{हें वर्स}}} one{{numeric, select, true{{years} वर्सां आदीं} other{फाटलें वर्स}}} other{{years} वर्सां आदीं}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{{quarters} त्रैमासीकांत} other{हो त्रैमासीक}}} one{{numeric, select, true{{quarters} त्रैमासीकांत} other{फुडलो त्रैमासीक}}} other{{quarters} त्रैमासीकांत}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{{quarters} त्रैमासीकां आदीं} other{हो त्रैमासीक}}} one{{numeric, select, true{{quarters} त्रैमासीकां आदीं} other{फाटलो त्रैमासीक}}} other{{quarters} त्रैमासीकां आदीं}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{{months} म्हयन्यानीं} other{हो म्हयनो}}} one{{numeric, select, true{{months} म्हयन्यानीं} other{फुडलो म्हयनो}}} other{{months} म्हयन्यानीं}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} म्हयन्यां आदीं} other{हो म्हयनो}}} one{{numeric, select, true{{months} म्हयन्यां आदीं} other{फाटलो म्हयनो}}} other{{months} म्हयन्यां आदीं}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{{weeks} सप्तकांनीं} other{हो सप्तक}}} one{{numeric, select, true{{weeks} सप्तकांनीं} other{फुडलो सप्तक}}} other{{weeks} सप्तकांनीं}}",

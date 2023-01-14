@@ -1,0 +1,17 @@
+{
+  "@@locale": "fur",
+  "yearsFuture": "{years, plural, one{ca di {years} an} other{ca di {years} agns}}",
+  "yearsPast": "{years, plural, one{{years} an indaûr} other{{years} agns indaûr}}",
+  "monthsFuture": "ca di {months} mês",
+  "monthsPast": "{months} mês indaûr",
+  "weeksFuture": "{weeks, plural, one{ca di {weeks} setemane} other{ca di {weeks} setemanis}}",
+  "weeksPast": "{weeks, plural, one{{weeks} setemane indaûr} other{{weeks} setemanis indaûr}}",
+  "daysFuture": "{days, plural, zero{{numeric, select, true{ca di {days} zornadis} other{vuê}}} one{{numeric, select, true{ca di {days} zornade} other{doman}}} two{{numeric, select, true{ca di {days} zornadis} other{passantdoman}}} other{ca di {days} zornadis}}",
+  "daysPast": "{days, plural, zero{{numeric, select, true{{days} zornadis indaûr} other{vuê}}} one{{numeric, select, true{{days} zornade indaûr} other{îr}}} two{{numeric, select, true{{days} zornadis indaûr} other{îr l’altri}}} other{{days} zornadis indaûr}}",
+  "hoursFuture": "{hours, plural, one{ca di {hours} ore} other{ca di {hours} oris}}",
+  "hoursPast": "{hours, plural, one{{hours} ore indaûr} other{{hours} oris indaûr}}",
+  "minutesFuture": "{minutes, plural, one{ca di {minutes} minût} other{ca di {minutes} minûts}}",
+  "minutesPast": "{minutes, plural, one{{minutes} minût indaûr} other{{minutes} minûts indaûr}}",
+  "secondsFuture": "{seconds, plural, one{ca di {seconds} secont} other{ca di {seconds} seconts}}",
+  "secondsPast": "{seconds, plural, one{{seconds} secont indaûr} other{{seconds} seconts indaûr}}"
+}

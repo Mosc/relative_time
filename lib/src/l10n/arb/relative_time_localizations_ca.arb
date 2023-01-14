@@ -2,8 +2,6 @@
   "@@locale": "ca",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{d’aquí a {years} anys} other{enguany}}} one{{numeric, select, true{d’aquí a {years} any} other{l’any que ve}}} other{d’aquí a {years} anys}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{fa {years} anys} other{enguany}}} one{{numeric, select, true{fa {years} any} other{l’any passat}}} other{fa {years} anys}}",
-  "quartersFuture": "{quarters, plural, zero{{numeric, select, true{d’aquí a {quarters} trimestres} other{aquest trimestre}}} one{{numeric, select, true{d’aquí a {quarters} trimestre} other{el trimestre que ve}}} other{d’aquí a {quarters} trimestres}}",
-  "quartersPast": "{quarters, plural, zero{{numeric, select, true{fa {quarters} trimestres} other{aquest trimestre}}} one{{numeric, select, true{fa {quarters} trimestre} other{el trimestre passat}}} other{fa {quarters} trimestres}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{d’aquí a {months} mesos} other{aquest mes}}} one{{numeric, select, true{d’aquí a {months} mes} other{el mes que ve}}} other{d’aquí a {months} mesos}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{fa {months} mesos} other{aquest mes}}} one{{numeric, select, true{fa {months} mes} other{el mes passat}}} other{fa {months} mesos}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{d’aquí a {weeks} setmanes} other{aquesta setmana}}} one{{numeric, select, true{d’aquí a {weeks} setmana} other{la setmana que ve}}} other{d’aquí a {weeks} setmanes}}",

@@ -117,50 +117,6 @@ class RelativeTimeLocalizationsLb extends RelativeTimeLocalizations {
   }
 
   @override
-  String quartersFuture(num quarters, Object numeric) {
-    String _quartersFuture0(num quarters) {
-      return 'a(n) $quarters Quartaler';
-    }
-
-    String _quartersFuture1(num quarters) {
-      return 'an $quarters Quartal';
-    }
-
-    String _quartersFuture2(num quarters) {
-      return intl.Intl.pluralLogic(
-        quarters,
-        locale: localeName,
-        other: _quartersFuture0(quarters),
-        one: _quartersFuture1(quarters),
-      );
-    }
-
-    return _quartersFuture2(quarters);
-  }
-
-  @override
-  String quartersPast(num quarters, Object numeric) {
-    String _quartersPast0(num quarters) {
-      return 'viru(n) $quarters Quartaler';
-    }
-
-    String _quartersPast1(num quarters) {
-      return 'virun $quarters Quartal';
-    }
-
-    String _quartersPast2(num quarters) {
-      return intl.Intl.pluralLogic(
-        quarters,
-        locale: localeName,
-        other: _quartersPast0(quarters),
-        one: _quartersPast1(quarters),
-      );
-    }
-
-    return _quartersPast2(quarters);
-  }
-
-  @override
   String monthsFuture(num months, Object numeric) {
     String _monthsFuture0(num months) {
       return 'a(n) $months Méint';
