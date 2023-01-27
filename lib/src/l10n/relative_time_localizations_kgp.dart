@@ -7,696 +7,334 @@ class RelativeTimeLocalizationsKgp extends RelativeTimeLocalizations {
   RelativeTimeLocalizationsKgp([String locale = 'kgp']) : super(locale);
 
   @override
-  String yearsFuture(num years, Object numeric) {
-    String _yearsFuture0(num years) {
-      return 'prỹg $years kar kỹ';
-    }
-
-    String _yearsFuture1(num years) {
-      return 'prỹg $years kar kỹ';
-    }
-
-    String _yearsFuture2(Object numeric, num years) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _yearsFuture1(years),
-          'other': 'prỹg ũ kã',
-        },
-      );
-    }
-
-    String _yearsFuture3(Object numeric, num years) {
-      return _yearsFuture2(numeric, years);
-    }
-
-    String _yearsFuture4(num years) {
-      return 'prỹg $years kar kỹ';
-    }
-
-    String _yearsFuture5(Object numeric, num years) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _yearsFuture4(years),
-          'other': 'prỹg tag kã',
-        },
-      );
-    }
-
-    String _yearsFuture6(Object numeric, num years) {
-      return _yearsFuture5(numeric, years);
-    }
-
-    String _yearsFuture7(num years, Object numeric) {
-      return intl.Intl.pluralLogic(
-        years,
-        locale: localeName,
-        other: _yearsFuture0(years),
-        one: _yearsFuture3(numeric, years),
-        zero: _yearsFuture6(numeric, years),
-      );
-    }
-
-    return _yearsFuture7(years, numeric);
+  String yearsFuture(int years, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'prỹg $years kar kỹ',
+        'other': 'prỹg ũ kã',
+      },
+    );
+    String temp1 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'prỹg $years kar kỹ',
+        'other': 'prỹg tag kã',
+      },
+    );
+    String temp2 = intl.Intl.pluralLogic(
+      years,
+      locale: localeName,
+      other: 'prỹg $years kar kỹ',
+      one: temp0,
+      zero: temp1,
+    );
+    return temp2;
   }
 
   @override
-  String yearsPast(num years, Object numeric) {
-    String _yearsPast0(num years) {
-      return 'prỹg $years si ser';
-    }
-
-    String _yearsPast1(num years) {
-      return 'prỹg $years si ser';
-    }
-
-    String _yearsPast2(Object numeric, num years) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _yearsPast1(years),
-          'other': 'prỹg tĩ mũnh kã',
-        },
-      );
-    }
-
-    String _yearsPast3(Object numeric, num years) {
-      return _yearsPast2(numeric, years);
-    }
-
-    String _yearsPast4(num years) {
-      return 'prỹg $years si ser';
-    }
-
-    String _yearsPast5(Object numeric, num years) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _yearsPast4(years),
-          'other': 'prỹg tag kã',
-        },
-      );
-    }
-
-    String _yearsPast6(Object numeric, num years) {
-      return _yearsPast5(numeric, years);
-    }
-
-    String _yearsPast7(num years, Object numeric) {
-      return intl.Intl.pluralLogic(
-        years,
-        locale: localeName,
-        other: _yearsPast0(years),
-        one: _yearsPast3(numeric, years),
-        zero: _yearsPast6(numeric, years),
-      );
-    }
-
-    return _yearsPast7(years, numeric);
+  String yearsPast(int years, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'prỹg $years si ser',
+        'other': 'prỹg tĩ mũnh kã',
+      },
+    );
+    String temp1 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'prỹg $years si ser',
+        'other': 'prỹg tag kã',
+      },
+    );
+    String temp2 = intl.Intl.pluralLogic(
+      years,
+      locale: localeName,
+      other: 'prỹg $years si ser',
+      one: temp0,
+      zero: temp1,
+    );
+    return temp2;
   }
 
   @override
-  String monthsFuture(num months, Object numeric) {
-    String _monthsFuture0(num months) {
-      return 'kysã $months kar kỹ';
-    }
-
-    String _monthsFuture1(num months) {
-      return 'kysã $months kar kỹ';
-    }
-
-    String _monthsFuture2(Object numeric, num months) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _monthsFuture1(months),
-          'other': 'kysã ũn kã',
-        },
-      );
-    }
-
-    String _monthsFuture3(Object numeric, num months) {
-      return _monthsFuture2(numeric, months);
-    }
-
-    String _monthsFuture4(num months) {
-      return 'kysã $months kar kỹ';
-    }
-
-    String _monthsFuture5(Object numeric, num months) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _monthsFuture4(months),
-          'other': 'kysã tag kã',
-        },
-      );
-    }
-
-    String _monthsFuture6(Object numeric, num months) {
-      return _monthsFuture5(numeric, months);
-    }
-
-    String _monthsFuture7(num months, Object numeric) {
-      return intl.Intl.pluralLogic(
-        months,
-        locale: localeName,
-        other: _monthsFuture0(months),
-        one: _monthsFuture3(numeric, months),
-        zero: _monthsFuture6(numeric, months),
-      );
-    }
-
-    return _monthsFuture7(months, numeric);
+  String monthsFuture(int months, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'kysã $months kar kỹ',
+        'other': 'kysã ũn kã',
+      },
+    );
+    String temp1 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'kysã $months kar kỹ',
+        'other': 'kysã tag kã',
+      },
+    );
+    String temp2 = intl.Intl.pluralLogic(
+      months,
+      locale: localeName,
+      other: 'kysã $months kar kỹ',
+      one: temp0,
+      zero: temp1,
+    );
+    return temp2;
   }
 
   @override
-  String monthsPast(num months, Object numeric) {
-    String _monthsPast0(num months) {
-      return 'kysã $months si ser';
-    }
-
-    String _monthsPast1(num months) {
-      return 'kysã $months si ser';
-    }
-
-    String _monthsPast2(Object numeric, num months) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _monthsPast1(months),
-          'other': 'kysã tĩ mũn kã',
-        },
-      );
-    }
-
-    String _monthsPast3(Object numeric, num months) {
-      return _monthsPast2(numeric, months);
-    }
-
-    String _monthsPast4(num months) {
-      return 'kysã $months si ser';
-    }
-
-    String _monthsPast5(Object numeric, num months) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _monthsPast4(months),
-          'other': 'kysã tag kã',
-        },
-      );
-    }
-
-    String _monthsPast6(Object numeric, num months) {
-      return _monthsPast5(numeric, months);
-    }
-
-    String _monthsPast7(num months, Object numeric) {
-      return intl.Intl.pluralLogic(
-        months,
-        locale: localeName,
-        other: _monthsPast0(months),
-        one: _monthsPast3(numeric, months),
-        zero: _monthsPast6(numeric, months),
-      );
-    }
-
-    return _monthsPast7(months, numeric);
+  String monthsPast(int months, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'kysã $months si ser',
+        'other': 'kysã tĩ mũn kã',
+      },
+    );
+    String temp1 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'kysã $months si ser',
+        'other': 'kysã tag kã',
+      },
+    );
+    String temp2 = intl.Intl.pluralLogic(
+      months,
+      locale: localeName,
+      other: 'kysã $months si ser',
+      one: temp0,
+      zero: temp1,
+    );
+    return temp2;
   }
 
   @override
-  String weeksFuture(num weeks, Object numeric) {
-    String _weeksFuture0(num weeks) {
-      return 'simỹnỹ $weeks kar kỹ';
-    }
-
-    String _weeksFuture1(num weeks) {
-      return 'simỹnỹ $weeks kar kỹ';
-    }
-
-    String _weeksFuture2(Object numeric, num weeks) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _weeksFuture1(weeks),
-          'other': 'simỹnỹ ũn kã',
-        },
-      );
-    }
-
-    String _weeksFuture3(Object numeric, num weeks) {
-      return _weeksFuture2(numeric, weeks);
-    }
-
-    String _weeksFuture4(num weeks) {
-      return 'simỹnỹ $weeks kar kỹ';
-    }
-
-    String _weeksFuture5(Object numeric, num weeks) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _weeksFuture4(weeks),
-          'other': 'simỹnỹ tag kã',
-        },
-      );
-    }
-
-    String _weeksFuture6(Object numeric, num weeks) {
-      return _weeksFuture5(numeric, weeks);
-    }
-
-    String _weeksFuture7(num weeks, Object numeric) {
-      return intl.Intl.pluralLogic(
-        weeks,
-        locale: localeName,
-        other: _weeksFuture0(weeks),
-        one: _weeksFuture3(numeric, weeks),
-        zero: _weeksFuture6(numeric, weeks),
-      );
-    }
-
-    return _weeksFuture7(weeks, numeric);
+  String weeksFuture(int weeks, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'simỹnỹ $weeks kar kỹ',
+        'other': 'simỹnỹ ũn kã',
+      },
+    );
+    String temp1 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'simỹnỹ $weeks kar kỹ',
+        'other': 'simỹnỹ tag kã',
+      },
+    );
+    String temp2 = intl.Intl.pluralLogic(
+      weeks,
+      locale: localeName,
+      other: 'simỹnỹ $weeks kar kỹ',
+      one: temp0,
+      zero: temp1,
+    );
+    return temp2;
   }
 
   @override
-  String weeksPast(num weeks, Object numeric) {
-    String _weeksPast0(num weeks) {
-      return 'simỹnỹ $weeks si ser';
-    }
-
-    String _weeksPast1(num weeks) {
-      return 'simỹnỹ $weeks si ser';
-    }
-
-    String _weeksPast2(Object numeric, num weeks) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _weeksPast1(weeks),
-          'other': 'simỹnỹ tĩ mũn kã',
-        },
-      );
-    }
-
-    String _weeksPast3(Object numeric, num weeks) {
-      return _weeksPast2(numeric, weeks);
-    }
-
-    String _weeksPast4(num weeks) {
-      return 'simỹnỹ $weeks si ser';
-    }
-
-    String _weeksPast5(Object numeric, num weeks) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _weeksPast4(weeks),
-          'other': 'simỹnỹ tag kã',
-        },
-      );
-    }
-
-    String _weeksPast6(Object numeric, num weeks) {
-      return _weeksPast5(numeric, weeks);
-    }
-
-    String _weeksPast7(num weeks, Object numeric) {
-      return intl.Intl.pluralLogic(
-        weeks,
-        locale: localeName,
-        other: _weeksPast0(weeks),
-        one: _weeksPast3(numeric, weeks),
-        zero: _weeksPast6(numeric, weeks),
-      );
-    }
-
-    return _weeksPast7(weeks, numeric);
+  String weeksPast(int weeks, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'simỹnỹ $weeks si ser',
+        'other': 'simỹnỹ tĩ mũn kã',
+      },
+    );
+    String temp1 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'simỹnỹ $weeks si ser',
+        'other': 'simỹnỹ tag kã',
+      },
+    );
+    String temp2 = intl.Intl.pluralLogic(
+      weeks,
+      locale: localeName,
+      other: 'simỹnỹ $weeks si ser',
+      one: temp0,
+      zero: temp1,
+    );
+    return temp2;
   }
 
   @override
-  String daysFuture(num days, Object numeric) {
-    String _daysFuture0(num days) {
-      return 'kurã $days kar kỹ';
-    }
-
-    String _daysFuture1(num days) {
-      return 'kurã $days kar kỹ';
-    }
-
-    String _daysFuture2(Object numeric, num days) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _daysFuture1(days),
-          'other': 'vaj ũn ka',
-        },
-      );
-    }
-
-    String _daysFuture3(Object numeric, num days) {
-      return _daysFuture2(numeric, days);
-    }
-
-    String _daysFuture4(num days) {
-      return 'kurã $days kar kỹ';
-    }
-
-    String _daysFuture5(Object numeric, num days) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _daysFuture4(days),
-          'other': 'vajkỹ',
-        },
-      );
-    }
-
-    String _daysFuture6(Object numeric, num days) {
-      return _daysFuture5(numeric, days);
-    }
-
-    String _daysFuture7(num days) {
-      return 'kurã $days kar kỹ';
-    }
-
-    String _daysFuture8(Object numeric, num days) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _daysFuture7(days),
-          'other': 'uri',
-        },
-      );
-    }
-
-    String _daysFuture9(Object numeric, num days) {
-      return _daysFuture8(numeric, days);
-    }
-
-    String _daysFuture10(num days, Object numeric) {
-      return intl.Intl.pluralLogic(
-        days,
-        locale: localeName,
-        other: _daysFuture0(days),
-        two: _daysFuture3(numeric, days),
-        one: _daysFuture6(numeric, days),
-        zero: _daysFuture9(numeric, days),
-      );
-    }
-
-    return _daysFuture10(days, numeric);
+  String daysFuture(int days, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'kurã $days kar kỹ',
+        'other': 'vaj ũn ka',
+      },
+    );
+    String temp1 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'kurã $days kar kỹ',
+        'other': 'vajkỹ',
+      },
+    );
+    String temp2 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'kurã $days kar kỹ',
+        'other': 'uri',
+      },
+    );
+    String temp3 = intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
+      other: 'kurã $days kar kỹ',
+      two: temp0,
+      one: temp1,
+      zero: temp2,
+    );
+    return temp3;
   }
 
   @override
-  String daysPast(num days, Object numeric) {
-    String _daysPast0(num days) {
-      return 'kurã $days si ser';
-    }
-
-    String _daysPast1(num days) {
-      return 'kurã $days si ser';
-    }
-
-    String _daysPast2(Object numeric, num days) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _daysPast1(days),
-          'other': 'rãké ũn tá',
-        },
-      );
-    }
-
-    String _daysPast3(Object numeric, num days) {
-      return _daysPast2(numeric, days);
-    }
-
-    String _daysPast4(num days) {
-      return 'kurã $days si ser';
-    }
-
-    String _daysPast5(Object numeric, num days) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _daysPast4(days),
-          'other': 'rãketá',
-        },
-      );
-    }
-
-    String _daysPast6(Object numeric, num days) {
-      return _daysPast5(numeric, days);
-    }
-
-    String _daysPast7(num days) {
-      return 'kurã $days si ser';
-    }
-
-    String _daysPast8(Object numeric, num days) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _daysPast7(days),
-          'other': 'uri',
-        },
-      );
-    }
-
-    String _daysPast9(Object numeric, num days) {
-      return _daysPast8(numeric, days);
-    }
-
-    String _daysPast10(num days, Object numeric) {
-      return intl.Intl.pluralLogic(
-        days,
-        locale: localeName,
-        other: _daysPast0(days),
-        two: _daysPast3(numeric, days),
-        one: _daysPast6(numeric, days),
-        zero: _daysPast9(numeric, days),
-      );
-    }
-
-    return _daysPast10(days, numeric);
+  String daysPast(int days, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'kurã $days si ser',
+        'other': 'rãké ũn tá',
+      },
+    );
+    String temp1 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'kurã $days si ser',
+        'other': 'rãketá',
+      },
+    );
+    String temp2 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'kurã $days si ser',
+        'other': 'uri',
+      },
+    );
+    String temp3 = intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
+      other: 'kurã $days si ser',
+      two: temp0,
+      one: temp1,
+      zero: temp2,
+    );
+    return temp3;
   }
 
   @override
-  String hoursFuture(num hours, Object numeric) {
-    String _hoursFuture0(num hours) {
-      return 'óra $hours kar kỹ';
-    }
-
-    String _hoursFuture1(num hours) {
-      return 'óra $hours kar kỹ';
-    }
-
-    String _hoursFuture2(Object numeric, num hours) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _hoursFuture1(hours),
-          'other': 'óra tag kã',
-        },
-      );
-    }
-
-    String _hoursFuture3(Object numeric, num hours) {
-      return _hoursFuture2(numeric, hours);
-    }
-
-    String _hoursFuture4(num hours, Object numeric) {
-      return intl.Intl.pluralLogic(
-        hours,
-        locale: localeName,
-        other: _hoursFuture0(hours),
-        zero: _hoursFuture3(numeric, hours),
-      );
-    }
-
-    return _hoursFuture4(hours, numeric);
+  String hoursFuture(int hours, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'óra $hours kar kỹ',
+        'other': 'óra tag kã',
+      },
+    );
+    String temp1 = intl.Intl.pluralLogic(
+      hours,
+      locale: localeName,
+      other: 'óra $hours kar kỹ',
+      zero: temp0,
+    );
+    return temp1;
   }
 
   @override
-  String hoursPast(num hours, Object numeric) {
-    String _hoursPast0(num hours) {
-      return 'óra $hours si ser';
-    }
-
-    String _hoursPast1(num hours) {
-      return 'óra $hours si ser';
-    }
-
-    String _hoursPast2(Object numeric, num hours) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _hoursPast1(hours),
-          'other': 'óra tag kã',
-        },
-      );
-    }
-
-    String _hoursPast3(Object numeric, num hours) {
-      return _hoursPast2(numeric, hours);
-    }
-
-    String _hoursPast4(num hours, Object numeric) {
-      return intl.Intl.pluralLogic(
-        hours,
-        locale: localeName,
-        other: _hoursPast0(hours),
-        zero: _hoursPast3(numeric, hours),
-      );
-    }
-
-    return _hoursPast4(hours, numeric);
+  String hoursPast(int hours, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'óra $hours si ser',
+        'other': 'óra tag kã',
+      },
+    );
+    String temp1 = intl.Intl.pluralLogic(
+      hours,
+      locale: localeName,
+      other: 'óra $hours si ser',
+      zero: temp0,
+    );
+    return temp1;
   }
 
   @override
-  String minutesFuture(num minutes, Object numeric) {
-    String _minutesFuture0(num minutes) {
-      return 'mĩnũtu $minutes kar kỹ';
-    }
-
-    String _minutesFuture1(num minutes) {
-      return 'mĩnũtu $minutes kar kỹ';
-    }
-
-    String _minutesFuture2(Object numeric, num minutes) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _minutesFuture1(minutes),
-          'other': 'mĩnũtu tag',
-        },
-      );
-    }
-
-    String _minutesFuture3(Object numeric, num minutes) {
-      return _minutesFuture2(numeric, minutes);
-    }
-
-    String _minutesFuture4(num minutes, Object numeric) {
-      return intl.Intl.pluralLogic(
-        minutes,
-        locale: localeName,
-        other: _minutesFuture0(minutes),
-        zero: _minutesFuture3(numeric, minutes),
-      );
-    }
-
-    return _minutesFuture4(minutes, numeric);
+  String minutesFuture(int minutes, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'mĩnũtu $minutes kar kỹ',
+        'other': 'mĩnũtu tag',
+      },
+    );
+    String temp1 = intl.Intl.pluralLogic(
+      minutes,
+      locale: localeName,
+      other: 'mĩnũtu $minutes kar kỹ',
+      zero: temp0,
+    );
+    return temp1;
   }
 
   @override
-  String minutesPast(num minutes, Object numeric) {
-    String _minutesPast0(num minutes) {
-      return 'mĩnũtu $minutes si ser';
-    }
-
-    String _minutesPast1(num minutes) {
-      return 'mĩnũtu $minutes si ser';
-    }
-
-    String _minutesPast2(Object numeric, num minutes) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _minutesPast1(minutes),
-          'other': 'mĩnũtu tag',
-        },
-      );
-    }
-
-    String _minutesPast3(Object numeric, num minutes) {
-      return _minutesPast2(numeric, minutes);
-    }
-
-    String _minutesPast4(num minutes, Object numeric) {
-      return intl.Intl.pluralLogic(
-        minutes,
-        locale: localeName,
-        other: _minutesPast0(minutes),
-        zero: _minutesPast3(numeric, minutes),
-      );
-    }
-
-    return _minutesPast4(minutes, numeric);
+  String minutesPast(int minutes, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'mĩnũtu $minutes si ser',
+        'other': 'mĩnũtu tag',
+      },
+    );
+    String temp1 = intl.Intl.pluralLogic(
+      minutes,
+      locale: localeName,
+      other: 'mĩnũtu $minutes si ser',
+      zero: temp0,
+    );
+    return temp1;
   }
 
   @override
-  String secondsFuture(num seconds, Object numeric) {
-    String _secondsFuture0(num seconds) {
-      return 'segũno $seconds kar kỹ';
-    }
-
-    String _secondsFuture1(num seconds) {
-      return 'segũno $seconds kar kỹ';
-    }
-
-    String _secondsFuture2(Object numeric, num seconds) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _secondsFuture1(seconds),
-          'other': 'ha',
-        },
-      );
-    }
-
-    String _secondsFuture3(Object numeric, num seconds) {
-      return _secondsFuture2(numeric, seconds);
-    }
-
-    String _secondsFuture4(num seconds, Object numeric) {
-      return intl.Intl.pluralLogic(
-        seconds,
-        locale: localeName,
-        other: _secondsFuture0(seconds),
-        zero: _secondsFuture3(numeric, seconds),
-      );
-    }
-
-    return _secondsFuture4(seconds, numeric);
+  String secondsFuture(int seconds, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'segũno $seconds kar kỹ',
+        'other': 'ha',
+      },
+    );
+    String temp1 = intl.Intl.pluralLogic(
+      seconds,
+      locale: localeName,
+      other: 'segũno $seconds kar kỹ',
+      zero: temp0,
+    );
+    return temp1;
   }
 
   @override
-  String secondsPast(num seconds, Object numeric) {
-    String _secondsPast0(num seconds) {
-      return 'segũno $seconds si ser';
-    }
-
-    String _secondsPast1(num seconds) {
-      return 'segũno $seconds si ser';
-    }
-
-    String _secondsPast2(Object numeric, num seconds) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _secondsPast1(seconds),
-          'other': 'ha',
-        },
-      );
-    }
-
-    String _secondsPast3(Object numeric, num seconds) {
-      return _secondsPast2(numeric, seconds);
-    }
-
-    String _secondsPast4(num seconds, Object numeric) {
-      return intl.Intl.pluralLogic(
-        seconds,
-        locale: localeName,
-        other: _secondsPast0(seconds),
-        zero: _secondsPast3(numeric, seconds),
-      );
-    }
-
-    return _secondsPast4(seconds, numeric);
+  String secondsPast(int seconds, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'segũno $seconds si ser',
+        'other': 'ha',
+      },
+    );
+    String temp1 = intl.Intl.pluralLogic(
+      seconds,
+      locale: localeName,
+      other: 'segũno $seconds si ser',
+      zero: temp0,
+    );
+    return temp1;
   }
 }

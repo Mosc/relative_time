@@ -368,85 +368,85 @@ abstract class RelativeTimeLocalizations {
   ///
   /// In en, this message translates to:
   /// **'{years, plural, zero{{numeric, select, true{in {years} years} other{this year}}} one{{numeric, select, true{in {years} year} other{next year}}} other{in {years} years}}'**
-  String yearsFuture(num years, Object numeric);
+  String yearsFuture(int years, String numeric);
 
   /// Number of years in the past.
   ///
   /// In en, this message translates to:
   /// **'{years, plural, zero{{numeric, select, true{{years} years ago} other{this year}}} one{{numeric, select, true{{years} year ago} other{last year}}} other{{years} years ago}}'**
-  String yearsPast(num years, Object numeric);
+  String yearsPast(int years, String numeric);
 
   /// Number of months in the future.
   ///
   /// In en, this message translates to:
   /// **'{months, plural, zero{{numeric, select, true{in {months} months} other{this month}}} one{{numeric, select, true{in {months} month} other{next month}}} other{in {months} months}}'**
-  String monthsFuture(num months, Object numeric);
+  String monthsFuture(int months, String numeric);
 
   /// Number of months in the past.
   ///
   /// In en, this message translates to:
   /// **'{months, plural, zero{{numeric, select, true{{months} months ago} other{this month}}} one{{numeric, select, true{{months} month ago} other{last month}}} other{{months} months ago}}'**
-  String monthsPast(num months, Object numeric);
+  String monthsPast(int months, String numeric);
 
   /// Number of weeks in the future.
   ///
   /// In en, this message translates to:
   /// **'{weeks, plural, zero{{numeric, select, true{in {weeks} weeks} other{this week}}} one{{numeric, select, true{in {weeks} week} other{next week}}} other{in {weeks} weeks}}'**
-  String weeksFuture(num weeks, Object numeric);
+  String weeksFuture(int weeks, String numeric);
 
   /// Number of weeks in the past.
   ///
   /// In en, this message translates to:
   /// **'{weeks, plural, zero{{numeric, select, true{{weeks} weeks ago} other{this week}}} one{{numeric, select, true{{weeks} week ago} other{last week}}} other{{weeks} weeks ago}}'**
-  String weeksPast(num weeks, Object numeric);
+  String weeksPast(int weeks, String numeric);
 
   /// Number of days in the future.
   ///
   /// In en, this message translates to:
   /// **'{days, plural, zero{{numeric, select, true{in {days} days} other{today}}} one{{numeric, select, true{in {days} day} other{tomorrow}}} other{in {days} days}}'**
-  String daysFuture(num days, Object numeric);
+  String daysFuture(int days, String numeric);
 
   /// Number of days in the past.
   ///
   /// In en, this message translates to:
   /// **'{days, plural, zero{{numeric, select, true{{days} days ago} other{today}}} one{{numeric, select, true{{days} day ago} other{yesterday}}} other{{days} days ago}}'**
-  String daysPast(num days, Object numeric);
+  String daysPast(int days, String numeric);
 
   /// Number of hours in the future.
   ///
   /// In en, this message translates to:
   /// **'{hours, plural, zero{{numeric, select, true{in {hours} hours} other{this hour}}} one{in {hours} hour} other{in {hours} hours}}'**
-  String hoursFuture(num hours, Object numeric);
+  String hoursFuture(int hours, String numeric);
 
   /// Number of hours in the past.
   ///
   /// In en, this message translates to:
   /// **'{hours, plural, zero{{numeric, select, true{{hours} hours ago} other{this hour}}} one{{hours} hour ago} other{{hours} hours ago}}'**
-  String hoursPast(num hours, Object numeric);
+  String hoursPast(int hours, String numeric);
 
   /// Number of minutes in the future.
   ///
   /// In en, this message translates to:
   /// **'{minutes, plural, zero{{numeric, select, true{in {minutes} minutes} other{this minute}}} one{in {minutes} minute} other{in {minutes} minutes}}'**
-  String minutesFuture(num minutes, Object numeric);
+  String minutesFuture(int minutes, String numeric);
 
   /// Number of minutes in the past.
   ///
   /// In en, this message translates to:
   /// **'{minutes, plural, zero{{numeric, select, true{{minutes} minutes ago} other{this minute}}} one{{minutes} minute ago} other{{minutes} minutes ago}}'**
-  String minutesPast(num minutes, Object numeric);
+  String minutesPast(int minutes, String numeric);
 
   /// Number of seconds in the future.
   ///
   /// In en, this message translates to:
   /// **'{seconds, plural, zero{{numeric, select, true{in {seconds} seconds} other{now}}} one{in {seconds} second} other{in {seconds} seconds}}'**
-  String secondsFuture(num seconds, Object numeric);
+  String secondsFuture(int seconds, String numeric);
 
   /// Number of seconds in the past.
   ///
   /// In en, this message translates to:
   /// **'{seconds, plural, zero{{numeric, select, true{{seconds} seconds ago} other{now}}} one{{seconds} second ago} other{{seconds} seconds ago}}'**
-  String secondsPast(num seconds, Object numeric);
+  String secondsPast(int seconds, String numeric);
 }
 
 class _RelativeTimeLocalizationsDelegate

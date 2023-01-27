@@ -7,726 +7,340 @@ class RelativeTimeLocalizationsEl extends RelativeTimeLocalizations {
   RelativeTimeLocalizationsEl([String locale = 'el']) : super(locale);
 
   @override
-  String yearsFuture(num years, Object numeric) {
-    String _yearsFuture0(num years) {
-      return 'σε $years έτη';
-    }
-
-    String _yearsFuture1(num years) {
-      return 'σε $years έτος';
-    }
-
-    String _yearsFuture2(Object numeric, num years) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _yearsFuture1(years),
-          'other': 'επόμενο έτος',
-        },
-      );
-    }
-
-    String _yearsFuture3(Object numeric, num years) {
-      return _yearsFuture2(numeric, years);
-    }
-
-    String _yearsFuture4(num years) {
-      return 'σε $years έτη';
-    }
-
-    String _yearsFuture5(Object numeric, num years) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _yearsFuture4(years),
-          'other': 'φέτος',
-        },
-      );
-    }
-
-    String _yearsFuture6(Object numeric, num years) {
-      return _yearsFuture5(numeric, years);
-    }
-
-    String _yearsFuture7(num years, Object numeric) {
-      return intl.Intl.pluralLogic(
-        years,
-        locale: localeName,
-        other: _yearsFuture0(years),
-        one: _yearsFuture3(numeric, years),
-        zero: _yearsFuture6(numeric, years),
-      );
-    }
-
-    return _yearsFuture7(years, numeric);
+  String yearsFuture(int years, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'σε $years έτος',
+        'other': 'επόμενο έτος',
+      },
+    );
+    String temp1 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'σε $years έτη',
+        'other': 'φέτος',
+      },
+    );
+    String temp2 = intl.Intl.pluralLogic(
+      years,
+      locale: localeName,
+      other: 'σε $years έτη',
+      one: temp0,
+      zero: temp1,
+    );
+    return temp2;
   }
 
   @override
-  String yearsPast(num years, Object numeric) {
-    String _yearsPast0(num years) {
-      return 'πριν από $years έτη';
-    }
-
-    String _yearsPast1(num years) {
-      return 'πριν από $years έτος';
-    }
-
-    String _yearsPast2(Object numeric, num years) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _yearsPast1(years),
-          'other': 'πέρσι',
-        },
-      );
-    }
-
-    String _yearsPast3(Object numeric, num years) {
-      return _yearsPast2(numeric, years);
-    }
-
-    String _yearsPast4(num years) {
-      return 'πριν από $years έτη';
-    }
-
-    String _yearsPast5(Object numeric, num years) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _yearsPast4(years),
-          'other': 'φέτος',
-        },
-      );
-    }
-
-    String _yearsPast6(Object numeric, num years) {
-      return _yearsPast5(numeric, years);
-    }
-
-    String _yearsPast7(num years, Object numeric) {
-      return intl.Intl.pluralLogic(
-        years,
-        locale: localeName,
-        other: _yearsPast0(years),
-        one: _yearsPast3(numeric, years),
-        zero: _yearsPast6(numeric, years),
-      );
-    }
-
-    return _yearsPast7(years, numeric);
+  String yearsPast(int years, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'πριν από $years έτος',
+        'other': 'πέρσι',
+      },
+    );
+    String temp1 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'πριν από $years έτη',
+        'other': 'φέτος',
+      },
+    );
+    String temp2 = intl.Intl.pluralLogic(
+      years,
+      locale: localeName,
+      other: 'πριν από $years έτη',
+      one: temp0,
+      zero: temp1,
+    );
+    return temp2;
   }
 
   @override
-  String monthsFuture(num months, Object numeric) {
-    String _monthsFuture0(num months) {
-      return 'σε $months μήνες';
-    }
-
-    String _monthsFuture1(num months) {
-      return 'σε $months μήνα';
-    }
-
-    String _monthsFuture2(Object numeric, num months) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _monthsFuture1(months),
-          'other': 'επόμενος μήνας',
-        },
-      );
-    }
-
-    String _monthsFuture3(Object numeric, num months) {
-      return _monthsFuture2(numeric, months);
-    }
-
-    String _monthsFuture4(num months) {
-      return 'σε $months μήνες';
-    }
-
-    String _monthsFuture5(Object numeric, num months) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _monthsFuture4(months),
-          'other': 'τρέχων μήνας',
-        },
-      );
-    }
-
-    String _monthsFuture6(Object numeric, num months) {
-      return _monthsFuture5(numeric, months);
-    }
-
-    String _monthsFuture7(num months, Object numeric) {
-      return intl.Intl.pluralLogic(
-        months,
-        locale: localeName,
-        other: _monthsFuture0(months),
-        one: _monthsFuture3(numeric, months),
-        zero: _monthsFuture6(numeric, months),
-      );
-    }
-
-    return _monthsFuture7(months, numeric);
+  String monthsFuture(int months, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'σε $months μήνα',
+        'other': 'επόμενος μήνας',
+      },
+    );
+    String temp1 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'σε $months μήνες',
+        'other': 'τρέχων μήνας',
+      },
+    );
+    String temp2 = intl.Intl.pluralLogic(
+      months,
+      locale: localeName,
+      other: 'σε $months μήνες',
+      one: temp0,
+      zero: temp1,
+    );
+    return temp2;
   }
 
   @override
-  String monthsPast(num months, Object numeric) {
-    String _monthsPast0(num months) {
-      return 'πριν από $months μήνες';
-    }
-
-    String _monthsPast1(num months) {
-      return 'πριν από $months μήνα';
-    }
-
-    String _monthsPast2(Object numeric, num months) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _monthsPast1(months),
-          'other': 'προηγούμενος μήνας',
-        },
-      );
-    }
-
-    String _monthsPast3(Object numeric, num months) {
-      return _monthsPast2(numeric, months);
-    }
-
-    String _monthsPast4(num months) {
-      return 'πριν από $months μήνες';
-    }
-
-    String _monthsPast5(Object numeric, num months) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _monthsPast4(months),
-          'other': 'τρέχων μήνας',
-        },
-      );
-    }
-
-    String _monthsPast6(Object numeric, num months) {
-      return _monthsPast5(numeric, months);
-    }
-
-    String _monthsPast7(num months, Object numeric) {
-      return intl.Intl.pluralLogic(
-        months,
-        locale: localeName,
-        other: _monthsPast0(months),
-        one: _monthsPast3(numeric, months),
-        zero: _monthsPast6(numeric, months),
-      );
-    }
-
-    return _monthsPast7(months, numeric);
+  String monthsPast(int months, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'πριν από $months μήνα',
+        'other': 'προηγούμενος μήνας',
+      },
+    );
+    String temp1 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'πριν από $months μήνες',
+        'other': 'τρέχων μήνας',
+      },
+    );
+    String temp2 = intl.Intl.pluralLogic(
+      months,
+      locale: localeName,
+      other: 'πριν από $months μήνες',
+      one: temp0,
+      zero: temp1,
+    );
+    return temp2;
   }
 
   @override
-  String weeksFuture(num weeks, Object numeric) {
-    String _weeksFuture0(num weeks) {
-      return 'σε $weeks εβδομάδες';
-    }
-
-    String _weeksFuture1(num weeks) {
-      return 'σε $weeks εβδομάδα';
-    }
-
-    String _weeksFuture2(Object numeric, num weeks) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _weeksFuture1(weeks),
-          'other': 'επόμενη εβδομάδα',
-        },
-      );
-    }
-
-    String _weeksFuture3(Object numeric, num weeks) {
-      return _weeksFuture2(numeric, weeks);
-    }
-
-    String _weeksFuture4(num weeks) {
-      return 'σε $weeks εβδομάδες';
-    }
-
-    String _weeksFuture5(Object numeric, num weeks) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _weeksFuture4(weeks),
-          'other': 'τρέχουσα εβδομάδα',
-        },
-      );
-    }
-
-    String _weeksFuture6(Object numeric, num weeks) {
-      return _weeksFuture5(numeric, weeks);
-    }
-
-    String _weeksFuture7(num weeks, Object numeric) {
-      return intl.Intl.pluralLogic(
-        weeks,
-        locale: localeName,
-        other: _weeksFuture0(weeks),
-        one: _weeksFuture3(numeric, weeks),
-        zero: _weeksFuture6(numeric, weeks),
-      );
-    }
-
-    return _weeksFuture7(weeks, numeric);
+  String weeksFuture(int weeks, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'σε $weeks εβδομάδα',
+        'other': 'επόμενη εβδομάδα',
+      },
+    );
+    String temp1 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'σε $weeks εβδομάδες',
+        'other': 'τρέχουσα εβδομάδα',
+      },
+    );
+    String temp2 = intl.Intl.pluralLogic(
+      weeks,
+      locale: localeName,
+      other: 'σε $weeks εβδομάδες',
+      one: temp0,
+      zero: temp1,
+    );
+    return temp2;
   }
 
   @override
-  String weeksPast(num weeks, Object numeric) {
-    String _weeksPast0(num weeks) {
-      return 'πριν από $weeks εβδομάδες';
-    }
-
-    String _weeksPast1(num weeks) {
-      return 'πριν από $weeks εβδομάδα';
-    }
-
-    String _weeksPast2(Object numeric, num weeks) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _weeksPast1(weeks),
-          'other': 'προηγούμενη εβδομάδα',
-        },
-      );
-    }
-
-    String _weeksPast3(Object numeric, num weeks) {
-      return _weeksPast2(numeric, weeks);
-    }
-
-    String _weeksPast4(num weeks) {
-      return 'πριν από $weeks εβδομάδες';
-    }
-
-    String _weeksPast5(Object numeric, num weeks) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _weeksPast4(weeks),
-          'other': 'τρέχουσα εβδομάδα',
-        },
-      );
-    }
-
-    String _weeksPast6(Object numeric, num weeks) {
-      return _weeksPast5(numeric, weeks);
-    }
-
-    String _weeksPast7(num weeks, Object numeric) {
-      return intl.Intl.pluralLogic(
-        weeks,
-        locale: localeName,
-        other: _weeksPast0(weeks),
-        one: _weeksPast3(numeric, weeks),
-        zero: _weeksPast6(numeric, weeks),
-      );
-    }
-
-    return _weeksPast7(weeks, numeric);
+  String weeksPast(int weeks, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'πριν από $weeks εβδομάδα',
+        'other': 'προηγούμενη εβδομάδα',
+      },
+    );
+    String temp1 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'πριν από $weeks εβδομάδες',
+        'other': 'τρέχουσα εβδομάδα',
+      },
+    );
+    String temp2 = intl.Intl.pluralLogic(
+      weeks,
+      locale: localeName,
+      other: 'πριν από $weeks εβδομάδες',
+      one: temp0,
+      zero: temp1,
+    );
+    return temp2;
   }
 
   @override
-  String daysFuture(num days, Object numeric) {
-    String _daysFuture0(num days) {
-      return 'σε $days ημέρες';
-    }
-
-    String _daysFuture1(num days) {
-      return 'σε $days ημέρες';
-    }
-
-    String _daysFuture2(Object numeric, num days) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _daysFuture1(days),
-          'other': 'μεθαύριο',
-        },
-      );
-    }
-
-    String _daysFuture3(Object numeric, num days) {
-      return _daysFuture2(numeric, days);
-    }
-
-    String _daysFuture4(num days) {
-      return 'σε $days ημέρα';
-    }
-
-    String _daysFuture5(Object numeric, num days) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _daysFuture4(days),
-          'other': 'αύριο',
-        },
-      );
-    }
-
-    String _daysFuture6(Object numeric, num days) {
-      return _daysFuture5(numeric, days);
-    }
-
-    String _daysFuture7(num days) {
-      return 'σε $days ημέρες';
-    }
-
-    String _daysFuture8(Object numeric, num days) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _daysFuture7(days),
-          'other': 'σήμερα',
-        },
-      );
-    }
-
-    String _daysFuture9(Object numeric, num days) {
-      return _daysFuture8(numeric, days);
-    }
-
-    String _daysFuture10(num days, Object numeric) {
-      return intl.Intl.pluralLogic(
-        days,
-        locale: localeName,
-        other: _daysFuture0(days),
-        two: _daysFuture3(numeric, days),
-        one: _daysFuture6(numeric, days),
-        zero: _daysFuture9(numeric, days),
-      );
-    }
-
-    return _daysFuture10(days, numeric);
+  String daysFuture(int days, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'σε $days ημέρες',
+        'other': 'μεθαύριο',
+      },
+    );
+    String temp1 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'σε $days ημέρα',
+        'other': 'αύριο',
+      },
+    );
+    String temp2 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'σε $days ημέρες',
+        'other': 'σήμερα',
+      },
+    );
+    String temp3 = intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
+      other: 'σε $days ημέρες',
+      two: temp0,
+      one: temp1,
+      zero: temp2,
+    );
+    return temp3;
   }
 
   @override
-  String daysPast(num days, Object numeric) {
-    String _daysPast0(num days) {
-      return 'πριν από $days ημέρες';
-    }
-
-    String _daysPast1(num days) {
-      return 'πριν από $days ημέρες';
-    }
-
-    String _daysPast2(Object numeric, num days) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _daysPast1(days),
-          'other': 'προχθές',
-        },
-      );
-    }
-
-    String _daysPast3(Object numeric, num days) {
-      return _daysPast2(numeric, days);
-    }
-
-    String _daysPast4(num days) {
-      return 'πριν από $days ημέρα';
-    }
-
-    String _daysPast5(Object numeric, num days) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _daysPast4(days),
-          'other': 'χθες',
-        },
-      );
-    }
-
-    String _daysPast6(Object numeric, num days) {
-      return _daysPast5(numeric, days);
-    }
-
-    String _daysPast7(num days) {
-      return 'πριν από $days ημέρες';
-    }
-
-    String _daysPast8(Object numeric, num days) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _daysPast7(days),
-          'other': 'σήμερα',
-        },
-      );
-    }
-
-    String _daysPast9(Object numeric, num days) {
-      return _daysPast8(numeric, days);
-    }
-
-    String _daysPast10(num days, Object numeric) {
-      return intl.Intl.pluralLogic(
-        days,
-        locale: localeName,
-        other: _daysPast0(days),
-        two: _daysPast3(numeric, days),
-        one: _daysPast6(numeric, days),
-        zero: _daysPast9(numeric, days),
-      );
-    }
-
-    return _daysPast10(days, numeric);
+  String daysPast(int days, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'πριν από $days ημέρες',
+        'other': 'προχθές',
+      },
+    );
+    String temp1 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'πριν από $days ημέρα',
+        'other': 'χθες',
+      },
+    );
+    String temp2 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'πριν από $days ημέρες',
+        'other': 'σήμερα',
+      },
+    );
+    String temp3 = intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
+      other: 'πριν από $days ημέρες',
+      two: temp0,
+      one: temp1,
+      zero: temp2,
+    );
+    return temp3;
   }
 
   @override
-  String hoursFuture(num hours, Object numeric) {
-    String _hoursFuture0(num hours) {
-      return 'σε $hours ώρες';
-    }
-
-    String _hoursFuture1(num hours) {
-      return 'σε $hours ώρα';
-    }
-
-    String _hoursFuture2(num hours) {
-      return 'σε $hours ώρες';
-    }
-
-    String _hoursFuture3(Object numeric, num hours) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _hoursFuture2(hours),
-          'other': 'τρέχουσα ώρα',
-        },
-      );
-    }
-
-    String _hoursFuture4(Object numeric, num hours) {
-      return _hoursFuture3(numeric, hours);
-    }
-
-    String _hoursFuture5(num hours, Object numeric) {
-      return intl.Intl.pluralLogic(
-        hours,
-        locale: localeName,
-        other: _hoursFuture0(hours),
-        one: _hoursFuture1(hours),
-        zero: _hoursFuture4(numeric, hours),
-      );
-    }
-
-    return _hoursFuture5(hours, numeric);
+  String hoursFuture(int hours, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'σε $hours ώρες',
+        'other': 'τρέχουσα ώρα',
+      },
+    );
+    String temp1 = intl.Intl.pluralLogic(
+      hours,
+      locale: localeName,
+      other: 'σε $hours ώρες',
+      one: 'σε $hours ώρα',
+      zero: temp0,
+    );
+    return temp1;
   }
 
   @override
-  String hoursPast(num hours, Object numeric) {
-    String _hoursPast0(num hours) {
-      return 'πριν από $hours ώρες';
-    }
-
-    String _hoursPast1(num hours) {
-      return 'πριν από $hours ώρα';
-    }
-
-    String _hoursPast2(num hours) {
-      return 'πριν από $hours ώρες';
-    }
-
-    String _hoursPast3(Object numeric, num hours) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _hoursPast2(hours),
-          'other': 'τρέχουσα ώρα',
-        },
-      );
-    }
-
-    String _hoursPast4(Object numeric, num hours) {
-      return _hoursPast3(numeric, hours);
-    }
-
-    String _hoursPast5(num hours, Object numeric) {
-      return intl.Intl.pluralLogic(
-        hours,
-        locale: localeName,
-        other: _hoursPast0(hours),
-        one: _hoursPast1(hours),
-        zero: _hoursPast4(numeric, hours),
-      );
-    }
-
-    return _hoursPast5(hours, numeric);
+  String hoursPast(int hours, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'πριν από $hours ώρες',
+        'other': 'τρέχουσα ώρα',
+      },
+    );
+    String temp1 = intl.Intl.pluralLogic(
+      hours,
+      locale: localeName,
+      other: 'πριν από $hours ώρες',
+      one: 'πριν από $hours ώρα',
+      zero: temp0,
+    );
+    return temp1;
   }
 
   @override
-  String minutesFuture(num minutes, Object numeric) {
-    String _minutesFuture0(num minutes) {
-      return 'σε $minutes λεπτά';
-    }
-
-    String _minutesFuture1(num minutes) {
-      return 'σε $minutes λεπτό';
-    }
-
-    String _minutesFuture2(num minutes) {
-      return 'σε $minutes λεπτά';
-    }
-
-    String _minutesFuture3(Object numeric, num minutes) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _minutesFuture2(minutes),
-          'other': 'τρέχον λεπτό',
-        },
-      );
-    }
-
-    String _minutesFuture4(Object numeric, num minutes) {
-      return _minutesFuture3(numeric, minutes);
-    }
-
-    String _minutesFuture5(num minutes, Object numeric) {
-      return intl.Intl.pluralLogic(
-        minutes,
-        locale: localeName,
-        other: _minutesFuture0(minutes),
-        one: _minutesFuture1(minutes),
-        zero: _minutesFuture4(numeric, minutes),
-      );
-    }
-
-    return _minutesFuture5(minutes, numeric);
+  String minutesFuture(int minutes, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'σε $minutes λεπτά',
+        'other': 'τρέχον λεπτό',
+      },
+    );
+    String temp1 = intl.Intl.pluralLogic(
+      minutes,
+      locale: localeName,
+      other: 'σε $minutes λεπτά',
+      one: 'σε $minutes λεπτό',
+      zero: temp0,
+    );
+    return temp1;
   }
 
   @override
-  String minutesPast(num minutes, Object numeric) {
-    String _minutesPast0(num minutes) {
-      return 'πριν από $minutes λεπτά';
-    }
-
-    String _minutesPast1(num minutes) {
-      return 'πριν από $minutes λεπτό';
-    }
-
-    String _minutesPast2(num minutes) {
-      return 'πριν από $minutes λεπτά';
-    }
-
-    String _minutesPast3(Object numeric, num minutes) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _minutesPast2(minutes),
-          'other': 'τρέχον λεπτό',
-        },
-      );
-    }
-
-    String _minutesPast4(Object numeric, num minutes) {
-      return _minutesPast3(numeric, minutes);
-    }
-
-    String _minutesPast5(num minutes, Object numeric) {
-      return intl.Intl.pluralLogic(
-        minutes,
-        locale: localeName,
-        other: _minutesPast0(minutes),
-        one: _minutesPast1(minutes),
-        zero: _minutesPast4(numeric, minutes),
-      );
-    }
-
-    return _minutesPast5(minutes, numeric);
+  String minutesPast(int minutes, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'πριν από $minutes λεπτά',
+        'other': 'τρέχον λεπτό',
+      },
+    );
+    String temp1 = intl.Intl.pluralLogic(
+      minutes,
+      locale: localeName,
+      other: 'πριν από $minutes λεπτά',
+      one: 'πριν από $minutes λεπτό',
+      zero: temp0,
+    );
+    return temp1;
   }
 
   @override
-  String secondsFuture(num seconds, Object numeric) {
-    String _secondsFuture0(num seconds) {
-      return 'σε $seconds δευτερόλεπτα';
-    }
-
-    String _secondsFuture1(num seconds) {
-      return 'σε $seconds δευτερόλεπτο';
-    }
-
-    String _secondsFuture2(num seconds) {
-      return 'σε $seconds δευτερόλεπτα';
-    }
-
-    String _secondsFuture3(Object numeric, num seconds) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _secondsFuture2(seconds),
-          'other': 'τώρα',
-        },
-      );
-    }
-
-    String _secondsFuture4(Object numeric, num seconds) {
-      return _secondsFuture3(numeric, seconds);
-    }
-
-    String _secondsFuture5(num seconds, Object numeric) {
-      return intl.Intl.pluralLogic(
-        seconds,
-        locale: localeName,
-        other: _secondsFuture0(seconds),
-        one: _secondsFuture1(seconds),
-        zero: _secondsFuture4(numeric, seconds),
-      );
-    }
-
-    return _secondsFuture5(seconds, numeric);
+  String secondsFuture(int seconds, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'σε $seconds δευτερόλεπτα',
+        'other': 'τώρα',
+      },
+    );
+    String temp1 = intl.Intl.pluralLogic(
+      seconds,
+      locale: localeName,
+      other: 'σε $seconds δευτερόλεπτα',
+      one: 'σε $seconds δευτερόλεπτο',
+      zero: temp0,
+    );
+    return temp1;
   }
 
   @override
-  String secondsPast(num seconds, Object numeric) {
-    String _secondsPast0(num seconds) {
-      return 'πριν από $seconds δευτερόλεπτα';
-    }
-
-    String _secondsPast1(num seconds) {
-      return 'πριν από $seconds δευτερόλεπτο';
-    }
-
-    String _secondsPast2(num seconds) {
-      return 'πριν από $seconds δευτερόλεπτα';
-    }
-
-    String _secondsPast3(Object numeric, num seconds) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _secondsPast2(seconds),
-          'other': 'τώρα',
-        },
-      );
-    }
-
-    String _secondsPast4(Object numeric, num seconds) {
-      return _secondsPast3(numeric, seconds);
-    }
-
-    String _secondsPast5(num seconds, Object numeric) {
-      return intl.Intl.pluralLogic(
-        seconds,
-        locale: localeName,
-        other: _secondsPast0(seconds),
-        one: _secondsPast1(seconds),
-        zero: _secondsPast4(numeric, seconds),
-      );
-    }
-
-    return _secondsPast5(seconds, numeric);
+  String secondsPast(int seconds, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'πριν από $seconds δευτερόλεπτα',
+        'other': 'τώρα',
+      },
+    );
+    String temp1 = intl.Intl.pluralLogic(
+      seconds,
+      locale: localeName,
+      other: 'πριν από $seconds δευτερόλεπτα',
+      one: 'πριν από $seconds δευτερόλεπτο',
+      zero: temp0,
+    );
+    return temp1;
   }
 }

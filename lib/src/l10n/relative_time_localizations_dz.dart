@@ -7,210 +7,130 @@ class RelativeTimeLocalizationsDz extends RelativeTimeLocalizations {
   RelativeTimeLocalizationsDz([String locale = 'dz']) : super(locale);
 
   @override
-  String yearsFuture(num years, Object numeric) {
+  String yearsFuture(int years, String numeric) {
     return 'ལོ་འཁོར་ $years ནང་';
   }
 
   @override
-  String yearsPast(num years, Object numeric) {
+  String yearsPast(int years, String numeric) {
     return 'ལོ་འཁོར་ $years ཧེ་མ་';
   }
 
   @override
-  String monthsFuture(num months, Object numeric) {
+  String monthsFuture(int months, String numeric) {
     return 'ཟླཝ་ $months ནང་';
   }
 
   @override
-  String monthsPast(num months, Object numeric) {
+  String monthsPast(int months, String numeric) {
     return 'ཟླཝ་ $months ཧེ་མ་';
   }
 
   @override
-  String weeksFuture(num weeks, Object numeric) {
+  String weeksFuture(int weeks, String numeric) {
     return 'བངུན་ཕྲག་ $weeks ནང་';
   }
 
   @override
-  String weeksPast(num weeks, Object numeric) {
+  String weeksPast(int weeks, String numeric) {
     return 'བངུན་ཕྲག་ $weeks ཧེ་མ་';
   }
 
   @override
-  String daysFuture(num days, Object numeric) {
-    String _daysFuture0(num days) {
-      return 'ཉིནམ་ $days ནང་';
-    }
-
-    String _daysFuture1(num days) {
-      return 'ཉིནམ་ $days ནང་';
-    }
-
-    String _daysFuture2(Object numeric, num days) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _daysFuture1(days),
-          'other': 'གནངས་ཚེ',
-        },
-      );
-    }
-
-    String _daysFuture3(Object numeric, num days) {
-      return _daysFuture2(numeric, days);
-    }
-
-    String _daysFuture4(num days) {
-      return 'ཉིནམ་ $days ནང་';
-    }
-
-    String _daysFuture5(Object numeric, num days) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _daysFuture4(days),
-          'other': 'ནངས་པ་',
-        },
-      );
-    }
-
-    String _daysFuture6(Object numeric, num days) {
-      return _daysFuture5(numeric, days);
-    }
-
-    String _daysFuture7(num days) {
-      return 'ཉིནམ་ $days ནང་';
-    }
-
-    String _daysFuture8(Object numeric, num days) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _daysFuture7(days),
-          'other': 'ད་རིས་',
-        },
-      );
-    }
-
-    String _daysFuture9(Object numeric, num days) {
-      return _daysFuture8(numeric, days);
-    }
-
-    String _daysFuture10(num days, Object numeric) {
-      return intl.Intl.pluralLogic(
-        days,
-        locale: localeName,
-        other: _daysFuture0(days),
-        two: _daysFuture3(numeric, days),
-        one: _daysFuture6(numeric, days),
-        zero: _daysFuture9(numeric, days),
-      );
-    }
-
-    return _daysFuture10(days, numeric);
+  String daysFuture(int days, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'ཉིནམ་ $days ནང་',
+        'other': 'གནངས་ཚེ',
+      },
+    );
+    String temp1 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'ཉིནམ་ $days ནང་',
+        'other': 'ནངས་པ་',
+      },
+    );
+    String temp2 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'ཉིནམ་ $days ནང་',
+        'other': 'ད་རིས་',
+      },
+    );
+    String temp3 = intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
+      other: 'ཉིནམ་ $days ནང་',
+      two: temp0,
+      one: temp1,
+      zero: temp2,
+    );
+    return temp3;
   }
 
   @override
-  String daysPast(num days, Object numeric) {
-    String _daysPast0(num days) {
-      return 'ཉིནམ་ $days ཧེ་མ་';
-    }
-
-    String _daysPast1(num days) {
-      return 'ཉིནམ་ $days ཧེ་མ་';
-    }
-
-    String _daysPast2(Object numeric, num days) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _daysPast1(days),
-          'other': 'ཁ་ཉིམ',
-        },
-      );
-    }
-
-    String _daysPast3(Object numeric, num days) {
-      return _daysPast2(numeric, days);
-    }
-
-    String _daysPast4(num days) {
-      return 'ཉིནམ་ $days ཧེ་མ་';
-    }
-
-    String _daysPast5(Object numeric, num days) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _daysPast4(days),
-          'other': 'ཁ་ཙ་',
-        },
-      );
-    }
-
-    String _daysPast6(Object numeric, num days) {
-      return _daysPast5(numeric, days);
-    }
-
-    String _daysPast7(num days) {
-      return 'ཉིནམ་ $days ཧེ་མ་';
-    }
-
-    String _daysPast8(Object numeric, num days) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _daysPast7(days),
-          'other': 'ད་རིས་',
-        },
-      );
-    }
-
-    String _daysPast9(Object numeric, num days) {
-      return _daysPast8(numeric, days);
-    }
-
-    String _daysPast10(num days, Object numeric) {
-      return intl.Intl.pluralLogic(
-        days,
-        locale: localeName,
-        other: _daysPast0(days),
-        two: _daysPast3(numeric, days),
-        one: _daysPast6(numeric, days),
-        zero: _daysPast9(numeric, days),
-      );
-    }
-
-    return _daysPast10(days, numeric);
+  String daysPast(int days, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'ཉིནམ་ $days ཧེ་མ་',
+        'other': 'ཁ་ཉིམ',
+      },
+    );
+    String temp1 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'ཉིནམ་ $days ཧེ་མ་',
+        'other': 'ཁ་ཙ་',
+      },
+    );
+    String temp2 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'ཉིནམ་ $days ཧེ་མ་',
+        'other': 'ད་རིས་',
+      },
+    );
+    String temp3 = intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
+      other: 'ཉིནམ་ $days ཧེ་མ་',
+      two: temp0,
+      one: temp1,
+      zero: temp2,
+    );
+    return temp3;
   }
 
   @override
-  String hoursFuture(num hours, Object numeric) {
+  String hoursFuture(int hours, String numeric) {
     return 'ཆུ་ཚོད་ $hours ནང་';
   }
 
   @override
-  String hoursPast(num hours, Object numeric) {
+  String hoursPast(int hours, String numeric) {
     return 'ཆུ་ཚོད་ $hours ཧེ་མ་';
   }
 
   @override
-  String minutesFuture(num minutes, Object numeric) {
+  String minutesFuture(int minutes, String numeric) {
     return 'སྐར་མ་ $minutes ནང་';
   }
 
   @override
-  String minutesPast(num minutes, Object numeric) {
+  String minutesPast(int minutes, String numeric) {
     return 'སྐར་མ་ $minutes ཧེ་མ་';
   }
 
   @override
-  String secondsFuture(num seconds, Object numeric) {
+  String secondsFuture(int seconds, String numeric) {
     return 'སྐར་ཆ་ $seconds ནང་';
   }
 
   @override
-  String secondsPast(num seconds, Object numeric) {
+  String secondsPast(int seconds, String numeric) {
     return 'སྐར་ཆ་ $seconds ཧེ་མ་';
   }
 }

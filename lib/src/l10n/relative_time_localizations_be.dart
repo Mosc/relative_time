@@ -7,837 +7,363 @@ class RelativeTimeLocalizationsBe extends RelativeTimeLocalizations {
   RelativeTimeLocalizationsBe([String locale = 'be']) : super(locale);
 
   @override
-  String yearsFuture(num years, Object numeric) {
-    String _yearsFuture0(num years) {
-      return 'праз $years года';
-    }
-
-    String _yearsFuture1(num years) {
-      return 'праз $years гадоў';
-    }
-
-    String _yearsFuture2(num years) {
-      return 'праз $years гады';
-    }
-
-    String _yearsFuture3(num years) {
-      return 'праз $years год';
-    }
-
-    String _yearsFuture4(Object numeric, num years) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _yearsFuture3(years),
-          'other': 'у наступным годзе',
-        },
-      );
-    }
-
-    String _yearsFuture5(Object numeric, num years) {
-      return _yearsFuture4(numeric, years);
-    }
-
-    String _yearsFuture6(num years) {
-      return 'праз $years года';
-    }
-
-    String _yearsFuture7(Object numeric, num years) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _yearsFuture6(years),
-          'other': 'у гэтым годзе',
-        },
-      );
-    }
-
-    String _yearsFuture8(Object numeric, num years) {
-      return _yearsFuture7(numeric, years);
-    }
-
-    String _yearsFuture9(num years, Object numeric) {
-      return intl.Intl.pluralLogic(
-        years,
-        locale: localeName,
-        other: _yearsFuture0(years),
-        many: _yearsFuture1(years),
-        few: _yearsFuture2(years),
-        one: _yearsFuture5(numeric, years),
-        zero: _yearsFuture8(numeric, years),
-      );
-    }
-
-    return _yearsFuture9(years, numeric);
+  String yearsFuture(int years, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'праз $years год',
+        'other': 'у наступным годзе',
+      },
+    );
+    String temp1 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'праз $years года',
+        'other': 'у гэтым годзе',
+      },
+    );
+    String temp2 = intl.Intl.pluralLogic(
+      years,
+      locale: localeName,
+      other: 'праз $years года',
+      many: 'праз $years гадоў',
+      few: 'праз $years гады',
+      one: temp0,
+      zero: temp1,
+    );
+    return temp2;
   }
 
   @override
-  String yearsPast(num years, Object numeric) {
-    String _yearsPast0(num years) {
-      return '$years года таму';
-    }
-
-    String _yearsPast1(num years) {
-      return '$years гадоў таму';
-    }
-
-    String _yearsPast2(num years) {
-      return '$years гады таму';
-    }
-
-    String _yearsPast3(num years) {
-      return '$years год таму';
-    }
-
-    String _yearsPast4(Object numeric, num years) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _yearsPast3(years),
-          'other': 'у мінулым годзе',
-        },
-      );
-    }
-
-    String _yearsPast5(Object numeric, num years) {
-      return _yearsPast4(numeric, years);
-    }
-
-    String _yearsPast6(num years) {
-      return '$years года таму';
-    }
-
-    String _yearsPast7(Object numeric, num years) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _yearsPast6(years),
-          'other': 'у гэтым годзе',
-        },
-      );
-    }
-
-    String _yearsPast8(Object numeric, num years) {
-      return _yearsPast7(numeric, years);
-    }
-
-    String _yearsPast9(num years, Object numeric) {
-      return intl.Intl.pluralLogic(
-        years,
-        locale: localeName,
-        other: _yearsPast0(years),
-        many: _yearsPast1(years),
-        few: _yearsPast2(years),
-        one: _yearsPast5(numeric, years),
-        zero: _yearsPast8(numeric, years),
-      );
-    }
-
-    return _yearsPast9(years, numeric);
+  String yearsPast(int years, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': '$years год таму',
+        'other': 'у мінулым годзе',
+      },
+    );
+    String temp1 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': '$years года таму',
+        'other': 'у гэтым годзе',
+      },
+    );
+    String temp2 = intl.Intl.pluralLogic(
+      years,
+      locale: localeName,
+      other: '$years года таму',
+      many: '$years гадоў таму',
+      few: '$years гады таму',
+      one: temp0,
+      zero: temp1,
+    );
+    return temp2;
   }
 
   @override
-  String monthsFuture(num months, Object numeric) {
-    String _monthsFuture0(num months) {
-      return 'праз $months месяца';
-    }
-
-    String _monthsFuture1(num months) {
-      return 'праз $months месяцаў';
-    }
-
-    String _monthsFuture2(num months) {
-      return 'праз $months месяцы';
-    }
-
-    String _monthsFuture3(num months) {
-      return 'праз $months месяц';
-    }
-
-    String _monthsFuture4(Object numeric, num months) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _monthsFuture3(months),
-          'other': 'у наступным месяцы',
-        },
-      );
-    }
-
-    String _monthsFuture5(Object numeric, num months) {
-      return _monthsFuture4(numeric, months);
-    }
-
-    String _monthsFuture6(num months) {
-      return 'праз $months месяца';
-    }
-
-    String _monthsFuture7(Object numeric, num months) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _monthsFuture6(months),
-          'other': 'у гэтым месяцы',
-        },
-      );
-    }
-
-    String _monthsFuture8(Object numeric, num months) {
-      return _monthsFuture7(numeric, months);
-    }
-
-    String _monthsFuture9(num months, Object numeric) {
-      return intl.Intl.pluralLogic(
-        months,
-        locale: localeName,
-        other: _monthsFuture0(months),
-        many: _monthsFuture1(months),
-        few: _monthsFuture2(months),
-        one: _monthsFuture5(numeric, months),
-        zero: _monthsFuture8(numeric, months),
-      );
-    }
-
-    return _monthsFuture9(months, numeric);
+  String monthsFuture(int months, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'праз $months месяц',
+        'other': 'у наступным месяцы',
+      },
+    );
+    String temp1 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'праз $months месяца',
+        'other': 'у гэтым месяцы',
+      },
+    );
+    String temp2 = intl.Intl.pluralLogic(
+      months,
+      locale: localeName,
+      other: 'праз $months месяца',
+      many: 'праз $months месяцаў',
+      few: 'праз $months месяцы',
+      one: temp0,
+      zero: temp1,
+    );
+    return temp2;
   }
 
   @override
-  String monthsPast(num months, Object numeric) {
-    String _monthsPast0(num months) {
-      return '$months месяца таму';
-    }
-
-    String _monthsPast1(num months) {
-      return '$months месяцаў таму';
-    }
-
-    String _monthsPast2(num months) {
-      return '$months месяцы таму';
-    }
-
-    String _monthsPast3(num months) {
-      return '$months месяц таму';
-    }
-
-    String _monthsPast4(Object numeric, num months) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _monthsPast3(months),
-          'other': 'у мінулым месяцы',
-        },
-      );
-    }
-
-    String _monthsPast5(Object numeric, num months) {
-      return _monthsPast4(numeric, months);
-    }
-
-    String _monthsPast6(num months) {
-      return '$months месяца таму';
-    }
-
-    String _monthsPast7(Object numeric, num months) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _monthsPast6(months),
-          'other': 'у гэтым месяцы',
-        },
-      );
-    }
-
-    String _monthsPast8(Object numeric, num months) {
-      return _monthsPast7(numeric, months);
-    }
-
-    String _monthsPast9(num months, Object numeric) {
-      return intl.Intl.pluralLogic(
-        months,
-        locale: localeName,
-        other: _monthsPast0(months),
-        many: _monthsPast1(months),
-        few: _monthsPast2(months),
-        one: _monthsPast5(numeric, months),
-        zero: _monthsPast8(numeric, months),
-      );
-    }
-
-    return _monthsPast9(months, numeric);
+  String monthsPast(int months, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': '$months месяц таму',
+        'other': 'у мінулым месяцы',
+      },
+    );
+    String temp1 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': '$months месяца таму',
+        'other': 'у гэтым месяцы',
+      },
+    );
+    String temp2 = intl.Intl.pluralLogic(
+      months,
+      locale: localeName,
+      other: '$months месяца таму',
+      many: '$months месяцаў таму',
+      few: '$months месяцы таму',
+      one: temp0,
+      zero: temp1,
+    );
+    return temp2;
   }
 
   @override
-  String weeksFuture(num weeks, Object numeric) {
-    String _weeksFuture0(num weeks) {
-      return 'праз $weeks тыдня';
-    }
-
-    String _weeksFuture1(num weeks) {
-      return 'праз $weeks тыдняў';
-    }
-
-    String _weeksFuture2(num weeks) {
-      return 'праз $weeks тыдні';
-    }
-
-    String _weeksFuture3(num weeks) {
-      return 'праз $weeks тыдзень';
-    }
-
-    String _weeksFuture4(Object numeric, num weeks) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _weeksFuture3(weeks),
-          'other': 'на наступным тыдні',
-        },
-      );
-    }
-
-    String _weeksFuture5(Object numeric, num weeks) {
-      return _weeksFuture4(numeric, weeks);
-    }
-
-    String _weeksFuture6(num weeks) {
-      return 'праз $weeks тыдня';
-    }
-
-    String _weeksFuture7(Object numeric, num weeks) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _weeksFuture6(weeks),
-          'other': 'на гэтым тыдні',
-        },
-      );
-    }
-
-    String _weeksFuture8(Object numeric, num weeks) {
-      return _weeksFuture7(numeric, weeks);
-    }
-
-    String _weeksFuture9(num weeks, Object numeric) {
-      return intl.Intl.pluralLogic(
-        weeks,
-        locale: localeName,
-        other: _weeksFuture0(weeks),
-        many: _weeksFuture1(weeks),
-        few: _weeksFuture2(weeks),
-        one: _weeksFuture5(numeric, weeks),
-        zero: _weeksFuture8(numeric, weeks),
-      );
-    }
-
-    return _weeksFuture9(weeks, numeric);
+  String weeksFuture(int weeks, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'праз $weeks тыдзень',
+        'other': 'на наступным тыдні',
+      },
+    );
+    String temp1 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'праз $weeks тыдня',
+        'other': 'на гэтым тыдні',
+      },
+    );
+    String temp2 = intl.Intl.pluralLogic(
+      weeks,
+      locale: localeName,
+      other: 'праз $weeks тыдня',
+      many: 'праз $weeks тыдняў',
+      few: 'праз $weeks тыдні',
+      one: temp0,
+      zero: temp1,
+    );
+    return temp2;
   }
 
   @override
-  String weeksPast(num weeks, Object numeric) {
-    String _weeksPast0(num weeks) {
-      return '$weeks тыдня таму';
-    }
-
-    String _weeksPast1(num weeks) {
-      return '$weeks тыдняў таму';
-    }
-
-    String _weeksPast2(num weeks) {
-      return '$weeks тыдні таму';
-    }
-
-    String _weeksPast3(num weeks) {
-      return '$weeks тыдзень таму';
-    }
-
-    String _weeksPast4(Object numeric, num weeks) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _weeksPast3(weeks),
-          'other': 'на мінулым тыдні',
-        },
-      );
-    }
-
-    String _weeksPast5(Object numeric, num weeks) {
-      return _weeksPast4(numeric, weeks);
-    }
-
-    String _weeksPast6(num weeks) {
-      return '$weeks тыдня таму';
-    }
-
-    String _weeksPast7(Object numeric, num weeks) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _weeksPast6(weeks),
-          'other': 'на гэтым тыдні',
-        },
-      );
-    }
-
-    String _weeksPast8(Object numeric, num weeks) {
-      return _weeksPast7(numeric, weeks);
-    }
-
-    String _weeksPast9(num weeks, Object numeric) {
-      return intl.Intl.pluralLogic(
-        weeks,
-        locale: localeName,
-        other: _weeksPast0(weeks),
-        many: _weeksPast1(weeks),
-        few: _weeksPast2(weeks),
-        one: _weeksPast5(numeric, weeks),
-        zero: _weeksPast8(numeric, weeks),
-      );
-    }
-
-    return _weeksPast9(weeks, numeric);
+  String weeksPast(int weeks, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': '$weeks тыдзень таму',
+        'other': 'на мінулым тыдні',
+      },
+    );
+    String temp1 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': '$weeks тыдня таму',
+        'other': 'на гэтым тыдні',
+      },
+    );
+    String temp2 = intl.Intl.pluralLogic(
+      weeks,
+      locale: localeName,
+      other: '$weeks тыдня таму',
+      many: '$weeks тыдняў таму',
+      few: '$weeks тыдні таму',
+      one: temp0,
+      zero: temp1,
+    );
+    return temp2;
   }
 
   @override
-  String daysFuture(num days, Object numeric) {
-    String _daysFuture0(num days) {
-      return 'праз $days дня';
-    }
-
-    String _daysFuture1(num days) {
-      return 'праз $days дзён';
-    }
-
-    String _daysFuture2(num days) {
-      return 'праз $days дні';
-    }
-
-    String _daysFuture3(num days) {
-      return 'праз $days дня';
-    }
-
-    String _daysFuture4(Object numeric, num days) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _daysFuture3(days),
-          'other': 'паслязаўтра',
-        },
-      );
-    }
-
-    String _daysFuture5(Object numeric, num days) {
-      return _daysFuture4(numeric, days);
-    }
-
-    String _daysFuture6(num days) {
-      return 'праз $days дзень';
-    }
-
-    String _daysFuture7(Object numeric, num days) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _daysFuture6(days),
-          'other': 'заўтра',
-        },
-      );
-    }
-
-    String _daysFuture8(Object numeric, num days) {
-      return _daysFuture7(numeric, days);
-    }
-
-    String _daysFuture9(num days) {
-      return 'праз $days дня';
-    }
-
-    String _daysFuture10(Object numeric, num days) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _daysFuture9(days),
-          'other': 'сёння',
-        },
-      );
-    }
-
-    String _daysFuture11(Object numeric, num days) {
-      return _daysFuture10(numeric, days);
-    }
-
-    String _daysFuture12(num days, Object numeric) {
-      return intl.Intl.pluralLogic(
-        days,
-        locale: localeName,
-        other: _daysFuture0(days),
-        many: _daysFuture1(days),
-        few: _daysFuture2(days),
-        two: _daysFuture5(numeric, days),
-        one: _daysFuture8(numeric, days),
-        zero: _daysFuture11(numeric, days),
-      );
-    }
-
-    return _daysFuture12(days, numeric);
+  String daysFuture(int days, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'праз $days дня',
+        'other': 'паслязаўтра',
+      },
+    );
+    String temp1 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'праз $days дзень',
+        'other': 'заўтра',
+      },
+    );
+    String temp2 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'праз $days дня',
+        'other': 'сёння',
+      },
+    );
+    String temp3 = intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
+      other: 'праз $days дня',
+      many: 'праз $days дзён',
+      few: 'праз $days дні',
+      two: temp0,
+      one: temp1,
+      zero: temp2,
+    );
+    return temp3;
   }
 
   @override
-  String daysPast(num days, Object numeric) {
-    String _daysPast0(num days) {
-      return '$days дня таму';
-    }
-
-    String _daysPast1(num days) {
-      return '$days дзён таму';
-    }
-
-    String _daysPast2(num days) {
-      return '$days дні таму';
-    }
-
-    String _daysPast3(num days) {
-      return '$days дня таму';
-    }
-
-    String _daysPast4(Object numeric, num days) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _daysPast3(days),
-          'other': 'пазаўчора',
-        },
-      );
-    }
-
-    String _daysPast5(Object numeric, num days) {
-      return _daysPast4(numeric, days);
-    }
-
-    String _daysPast6(num days) {
-      return '$days дзень таму';
-    }
-
-    String _daysPast7(Object numeric, num days) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _daysPast6(days),
-          'other': 'учора',
-        },
-      );
-    }
-
-    String _daysPast8(Object numeric, num days) {
-      return _daysPast7(numeric, days);
-    }
-
-    String _daysPast9(num days) {
-      return '$days дня таму';
-    }
-
-    String _daysPast10(Object numeric, num days) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _daysPast9(days),
-          'other': 'сёння',
-        },
-      );
-    }
-
-    String _daysPast11(Object numeric, num days) {
-      return _daysPast10(numeric, days);
-    }
-
-    String _daysPast12(num days, Object numeric) {
-      return intl.Intl.pluralLogic(
-        days,
-        locale: localeName,
-        other: _daysPast0(days),
-        many: _daysPast1(days),
-        few: _daysPast2(days),
-        two: _daysPast5(numeric, days),
-        one: _daysPast8(numeric, days),
-        zero: _daysPast11(numeric, days),
-      );
-    }
-
-    return _daysPast12(days, numeric);
+  String daysPast(int days, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': '$days дня таму',
+        'other': 'пазаўчора',
+      },
+    );
+    String temp1 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': '$days дзень таму',
+        'other': 'учора',
+      },
+    );
+    String temp2 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': '$days дня таму',
+        'other': 'сёння',
+      },
+    );
+    String temp3 = intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
+      other: '$days дня таму',
+      many: '$days дзён таму',
+      few: '$days дні таму',
+      two: temp0,
+      one: temp1,
+      zero: temp2,
+    );
+    return temp3;
   }
 
   @override
-  String hoursFuture(num hours, Object numeric) {
-    String _hoursFuture0(num hours) {
-      return 'праз $hours гадзіны';
-    }
-
-    String _hoursFuture1(num hours) {
-      return 'праз $hours гадзін';
-    }
-
-    String _hoursFuture2(num hours) {
-      return 'праз $hours гадзіну';
-    }
-
-    String _hoursFuture3(num hours) {
-      return 'праз $hours гадзіны';
-    }
-
-    String _hoursFuture4(Object numeric, num hours) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _hoursFuture3(hours),
-          'other': 'у гэту гадзіну',
-        },
-      );
-    }
-
-    String _hoursFuture5(Object numeric, num hours) {
-      return _hoursFuture4(numeric, hours);
-    }
-
-    String _hoursFuture6(num hours, Object numeric) {
-      return intl.Intl.pluralLogic(
-        hours,
-        locale: localeName,
-        other: _hoursFuture0(hours),
-        many: _hoursFuture1(hours),
-        one: _hoursFuture2(hours),
-        zero: _hoursFuture5(numeric, hours),
-      );
-    }
-
-    return _hoursFuture6(hours, numeric);
+  String hoursFuture(int hours, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'праз $hours гадзіны',
+        'other': 'у гэту гадзіну',
+      },
+    );
+    String temp1 = intl.Intl.pluralLogic(
+      hours,
+      locale: localeName,
+      other: 'праз $hours гадзіны',
+      many: 'праз $hours гадзін',
+      one: 'праз $hours гадзіну',
+      zero: temp0,
+    );
+    return temp1;
   }
 
   @override
-  String hoursPast(num hours, Object numeric) {
-    String _hoursPast0(num hours) {
-      return '$hours гадзіны таму';
-    }
-
-    String _hoursPast1(num hours) {
-      return '$hours гадзін таму';
-    }
-
-    String _hoursPast2(num hours) {
-      return '$hours гадзіну таму';
-    }
-
-    String _hoursPast3(num hours) {
-      return '$hours гадзіны таму';
-    }
-
-    String _hoursPast4(Object numeric, num hours) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _hoursPast3(hours),
-          'other': 'у гэту гадзіну',
-        },
-      );
-    }
-
-    String _hoursPast5(Object numeric, num hours) {
-      return _hoursPast4(numeric, hours);
-    }
-
-    String _hoursPast6(num hours, Object numeric) {
-      return intl.Intl.pluralLogic(
-        hours,
-        locale: localeName,
-        other: _hoursPast0(hours),
-        many: _hoursPast1(hours),
-        one: _hoursPast2(hours),
-        zero: _hoursPast5(numeric, hours),
-      );
-    }
-
-    return _hoursPast6(hours, numeric);
+  String hoursPast(int hours, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': '$hours гадзіны таму',
+        'other': 'у гэту гадзіну',
+      },
+    );
+    String temp1 = intl.Intl.pluralLogic(
+      hours,
+      locale: localeName,
+      other: '$hours гадзіны таму',
+      many: '$hours гадзін таму',
+      one: '$hours гадзіну таму',
+      zero: temp0,
+    );
+    return temp1;
   }
 
   @override
-  String minutesFuture(num minutes, Object numeric) {
-    String _minutesFuture0(num minutes) {
-      return 'праз $minutes хвіліны';
-    }
-
-    String _minutesFuture1(num minutes) {
-      return 'праз $minutes хвілін';
-    }
-
-    String _minutesFuture2(num minutes) {
-      return 'праз $minutes хвіліну';
-    }
-
-    String _minutesFuture3(num minutes) {
-      return 'праз $minutes хвіліны';
-    }
-
-    String _minutesFuture4(Object numeric, num minutes) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _minutesFuture3(minutes),
-          'other': 'у гэту хвіліну',
-        },
-      );
-    }
-
-    String _minutesFuture5(Object numeric, num minutes) {
-      return _minutesFuture4(numeric, minutes);
-    }
-
-    String _minutesFuture6(num minutes, Object numeric) {
-      return intl.Intl.pluralLogic(
-        minutes,
-        locale: localeName,
-        other: _minutesFuture0(minutes),
-        many: _minutesFuture1(minutes),
-        one: _minutesFuture2(minutes),
-        zero: _minutesFuture5(numeric, minutes),
-      );
-    }
-
-    return _minutesFuture6(minutes, numeric);
+  String minutesFuture(int minutes, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'праз $minutes хвіліны',
+        'other': 'у гэту хвіліну',
+      },
+    );
+    String temp1 = intl.Intl.pluralLogic(
+      minutes,
+      locale: localeName,
+      other: 'праз $minutes хвіліны',
+      many: 'праз $minutes хвілін',
+      one: 'праз $minutes хвіліну',
+      zero: temp0,
+    );
+    return temp1;
   }
 
   @override
-  String minutesPast(num minutes, Object numeric) {
-    String _minutesPast0(num minutes) {
-      return '$minutes хвіліны таму';
-    }
-
-    String _minutesPast1(num minutes) {
-      return '$minutes хвілін таму';
-    }
-
-    String _minutesPast2(num minutes) {
-      return '$minutes хвіліну таму';
-    }
-
-    String _minutesPast3(num minutes) {
-      return '$minutes хвіліны таму';
-    }
-
-    String _minutesPast4(Object numeric, num minutes) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _minutesPast3(minutes),
-          'other': 'у гэту хвіліну',
-        },
-      );
-    }
-
-    String _minutesPast5(Object numeric, num minutes) {
-      return _minutesPast4(numeric, minutes);
-    }
-
-    String _minutesPast6(num minutes, Object numeric) {
-      return intl.Intl.pluralLogic(
-        minutes,
-        locale: localeName,
-        other: _minutesPast0(minutes),
-        many: _minutesPast1(minutes),
-        one: _minutesPast2(minutes),
-        zero: _minutesPast5(numeric, minutes),
-      );
-    }
-
-    return _minutesPast6(minutes, numeric);
+  String minutesPast(int minutes, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': '$minutes хвіліны таму',
+        'other': 'у гэту хвіліну',
+      },
+    );
+    String temp1 = intl.Intl.pluralLogic(
+      minutes,
+      locale: localeName,
+      other: '$minutes хвіліны таму',
+      many: '$minutes хвілін таму',
+      one: '$minutes хвіліну таму',
+      zero: temp0,
+    );
+    return temp1;
   }
 
   @override
-  String secondsFuture(num seconds, Object numeric) {
-    String _secondsFuture0(num seconds) {
-      return 'праз $seconds секунды';
-    }
-
-    String _secondsFuture1(num seconds) {
-      return 'праз $seconds секунд';
-    }
-
-    String _secondsFuture2(num seconds) {
-      return 'праз $seconds секунду';
-    }
-
-    String _secondsFuture3(num seconds) {
-      return 'праз $seconds секунды';
-    }
-
-    String _secondsFuture4(Object numeric, num seconds) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _secondsFuture3(seconds),
-          'other': 'цяпер',
-        },
-      );
-    }
-
-    String _secondsFuture5(Object numeric, num seconds) {
-      return _secondsFuture4(numeric, seconds);
-    }
-
-    String _secondsFuture6(num seconds, Object numeric) {
-      return intl.Intl.pluralLogic(
-        seconds,
-        locale: localeName,
-        other: _secondsFuture0(seconds),
-        many: _secondsFuture1(seconds),
-        one: _secondsFuture2(seconds),
-        zero: _secondsFuture5(numeric, seconds),
-      );
-    }
-
-    return _secondsFuture6(seconds, numeric);
+  String secondsFuture(int seconds, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'праз $seconds секунды',
+        'other': 'цяпер',
+      },
+    );
+    String temp1 = intl.Intl.pluralLogic(
+      seconds,
+      locale: localeName,
+      other: 'праз $seconds секунды',
+      many: 'праз $seconds секунд',
+      one: 'праз $seconds секунду',
+      zero: temp0,
+    );
+    return temp1;
   }
 
   @override
-  String secondsPast(num seconds, Object numeric) {
-    String _secondsPast0(num seconds) {
-      return '$seconds секунды таму';
-    }
-
-    String _secondsPast1(num seconds) {
-      return '$seconds секунд таму';
-    }
-
-    String _secondsPast2(num seconds) {
-      return '$seconds секунду таму';
-    }
-
-    String _secondsPast3(num seconds) {
-      return '$seconds секунды таму';
-    }
-
-    String _secondsPast4(Object numeric, num seconds) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _secondsPast3(seconds),
-          'other': 'цяпер',
-        },
-      );
-    }
-
-    String _secondsPast5(Object numeric, num seconds) {
-      return _secondsPast4(numeric, seconds);
-    }
-
-    String _secondsPast6(num seconds, Object numeric) {
-      return intl.Intl.pluralLogic(
-        seconds,
-        locale: localeName,
-        other: _secondsPast0(seconds),
-        many: _secondsPast1(seconds),
-        one: _secondsPast2(seconds),
-        zero: _secondsPast5(numeric, seconds),
-      );
-    }
-
-    return _secondsPast6(seconds, numeric);
+  String secondsPast(int seconds, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': '$seconds секунды таму',
+        'other': 'цяпер',
+      },
+    );
+    String temp1 = intl.Intl.pluralLogic(
+      seconds,
+      locale: localeName,
+      other: '$seconds секунды таму',
+      many: '$seconds секунд таму',
+      one: '$seconds секунду таму',
+      zero: temp0,
+    );
+    return temp1;
   }
 }
 
@@ -846,240 +372,106 @@ class RelativeTimeLocalizationsBeTarask extends RelativeTimeLocalizationsBe {
   RelativeTimeLocalizationsBeTarask() : super('be_tarask');
 
   @override
-  String hoursFuture(num hours, Object numeric) {
-    String _hoursFuture0(num hours) {
-      return 'праз $hours гадзіны';
-    }
-
-    String _hoursFuture1(num hours) {
-      return 'праз $hours гадзінаў';
-    }
-
-    String _hoursFuture2(num hours) {
-      return 'праз $hours гадзіну';
-    }
-
-    String _hoursFuture3(num hours) {
-      return 'праз $hours гадзіны';
-    }
-
-    String _hoursFuture4(Object numeric, num hours) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _hoursFuture3(hours),
-          'other': 'у гэтую гадзіну',
-        },
-      );
-    }
-
-    String _hoursFuture5(Object numeric, num hours) {
-      return _hoursFuture4(numeric, hours);
-    }
-
-    String _hoursFuture6(num hours, Object numeric) {
-      return intl.Intl.pluralLogic(
-        hours,
-        locale: localeName,
-        other: _hoursFuture0(hours),
-        many: _hoursFuture1(hours),
-        one: _hoursFuture2(hours),
-        zero: _hoursFuture5(numeric, hours),
-      );
-    }
-
-    return _hoursFuture6(hours, numeric);
+  String hoursFuture(int hours, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'праз $hours гадзіны',
+        'other': 'у гэтую гадзіну',
+      },
+    );
+    String temp1 = intl.Intl.pluralLogic(
+      hours,
+      locale: localeName,
+      other: 'праз $hours гадзіны',
+      many: 'праз $hours гадзінаў',
+      one: 'праз $hours гадзіну',
+      zero: temp0,
+    );
+    return temp1;
   }
 
   @override
-  String hoursPast(num hours, Object numeric) {
-    String _hoursPast0(num hours) {
-      return '$hours гадзіны таму';
-    }
-
-    String _hoursPast1(num hours) {
-      return '$hours гадзінаў таму';
-    }
-
-    String _hoursPast2(num hours) {
-      return '$hours гадзіну таму';
-    }
-
-    String _hoursPast3(num hours) {
-      return '$hours гадзіны таму';
-    }
-
-    String _hoursPast4(Object numeric, num hours) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _hoursPast3(hours),
-          'other': 'у гэтую гадзіну',
-        },
-      );
-    }
-
-    String _hoursPast5(Object numeric, num hours) {
-      return _hoursPast4(numeric, hours);
-    }
-
-    String _hoursPast6(num hours, Object numeric) {
-      return intl.Intl.pluralLogic(
-        hours,
-        locale: localeName,
-        other: _hoursPast0(hours),
-        many: _hoursPast1(hours),
-        one: _hoursPast2(hours),
-        zero: _hoursPast5(numeric, hours),
-      );
-    }
-
-    return _hoursPast6(hours, numeric);
+  String hoursPast(int hours, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': '$hours гадзіны таму',
+        'other': 'у гэтую гадзіну',
+      },
+    );
+    String temp1 = intl.Intl.pluralLogic(
+      hours,
+      locale: localeName,
+      other: '$hours гадзіны таму',
+      many: '$hours гадзінаў таму',
+      one: '$hours гадзіну таму',
+      zero: temp0,
+    );
+    return temp1;
   }
 
   @override
-  String minutesFuture(num minutes, Object numeric) {
-    String _minutesFuture0(num minutes) {
-      return 'праз $minutes хвіліны';
-    }
-
-    String _minutesFuture1(num minutes) {
-      return 'праз $minutes хвілінаў';
-    }
-
-    String _minutesFuture2(num minutes) {
-      return 'праз $minutes хвіліну';
-    }
-
-    String _minutesFuture3(num minutes) {
-      return 'праз $minutes хвіліны';
-    }
-
-    String _minutesFuture4(Object numeric, num minutes) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _minutesFuture3(minutes),
-          'other': 'у гэтую хвіліну',
-        },
-      );
-    }
-
-    String _minutesFuture5(Object numeric, num minutes) {
-      return _minutesFuture4(numeric, minutes);
-    }
-
-    String _minutesFuture6(num minutes, Object numeric) {
-      return intl.Intl.pluralLogic(
-        minutes,
-        locale: localeName,
-        other: _minutesFuture0(minutes),
-        many: _minutesFuture1(minutes),
-        one: _minutesFuture2(minutes),
-        zero: _minutesFuture5(numeric, minutes),
-      );
-    }
-
-    return _minutesFuture6(minutes, numeric);
+  String minutesFuture(int minutes, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'праз $minutes хвіліны',
+        'other': 'у гэтую хвіліну',
+      },
+    );
+    String temp1 = intl.Intl.pluralLogic(
+      minutes,
+      locale: localeName,
+      other: 'праз $minutes хвіліны',
+      many: 'праз $minutes хвілінаў',
+      one: 'праз $minutes хвіліну',
+      zero: temp0,
+    );
+    return temp1;
   }
 
   @override
-  String minutesPast(num minutes, Object numeric) {
-    String _minutesPast0(num minutes) {
-      return '$minutes хвіліны таму';
-    }
-
-    String _minutesPast1(num minutes) {
-      return '$minutes хвілінаў таму';
-    }
-
-    String _minutesPast2(num minutes) {
-      return '$minutes хвіліну таму';
-    }
-
-    String _minutesPast3(num minutes) {
-      return '$minutes хвіліны таму';
-    }
-
-    String _minutesPast4(Object numeric, num minutes) {
-      return intl.Intl.selectLogic(
-        numeric,
-        {
-          'true': _minutesPast3(minutes),
-          'other': 'у гэтую хвіліну',
-        },
-      );
-    }
-
-    String _minutesPast5(Object numeric, num minutes) {
-      return _minutesPast4(numeric, minutes);
-    }
-
-    String _minutesPast6(num minutes, Object numeric) {
-      return intl.Intl.pluralLogic(
-        minutes,
-        locale: localeName,
-        other: _minutesPast0(minutes),
-        many: _minutesPast1(minutes),
-        one: _minutesPast2(minutes),
-        zero: _minutesPast5(numeric, minutes),
-      );
-    }
-
-    return _minutesPast6(minutes, numeric);
+  String minutesPast(int minutes, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': '$minutes хвіліны таму',
+        'other': 'у гэтую хвіліну',
+      },
+    );
+    String temp1 = intl.Intl.pluralLogic(
+      minutes,
+      locale: localeName,
+      other: '$minutes хвіліны таму',
+      many: '$minutes хвілінаў таму',
+      one: '$minutes хвіліну таму',
+      zero: temp0,
+    );
+    return temp1;
   }
 
   @override
-  String secondsFuture(num seconds, Object numeric) {
-    String _secondsFuture0(num seconds) {
-      return 'праз $seconds сэкунды';
-    }
-
-    String _secondsFuture1(num seconds) {
-      return 'праз $seconds сэкундаў';
-    }
-
-    String _secondsFuture2(num seconds) {
-      return 'праз $seconds сэкунду';
-    }
-
-    String _secondsFuture3(num seconds) {
-      return intl.Intl.pluralLogic(
-        seconds,
-        locale: localeName,
-        other: _secondsFuture0(seconds),
-        many: _secondsFuture1(seconds),
-        one: _secondsFuture2(seconds),
-      );
-    }
-
-    return _secondsFuture3(seconds);
+  String secondsFuture(int seconds, String numeric) {
+    String temp0 = intl.Intl.pluralLogic(
+      seconds,
+      locale: localeName,
+      other: 'праз $seconds сэкунды',
+      many: 'праз $seconds сэкундаў',
+      one: 'праз $seconds сэкунду',
+    );
+    return temp0;
   }
 
   @override
-  String secondsPast(num seconds, Object numeric) {
-    String _secondsPast0(num seconds) {
-      return '$seconds сэкунды таму';
-    }
-
-    String _secondsPast1(num seconds) {
-      return '$seconds сэкундаў таму';
-    }
-
-    String _secondsPast2(num seconds) {
-      return '$seconds сэкунду таму';
-    }
-
-    String _secondsPast3(num seconds) {
-      return intl.Intl.pluralLogic(
-        seconds,
-        locale: localeName,
-        other: _secondsPast0(seconds),
-        many: _secondsPast1(seconds),
-        one: _secondsPast2(seconds),
-      );
-    }
-
-    return _secondsPast3(seconds);
+  String secondsPast(int seconds, String numeric) {
+    String temp0 = intl.Intl.pluralLogic(
+      seconds,
+      locale: localeName,
+      other: '$seconds сэкунды таму',
+      many: '$seconds сэкундаў таму',
+      one: '$seconds сэкунду таму',
+    );
+    return temp0;
   }
 }

@@ -32,6 +32,6 @@ enum TimeUnit {
   final num microseconds;
 
   /// The number of units spanned by [difference] based on this [TimeUnit].
-  num difference(Duration difference) =>
+  int difference(Duration difference) =>
       difference.inMicroseconds ~/ microseconds;
 }
