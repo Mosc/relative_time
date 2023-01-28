@@ -1,3 +1,8 @@
+## 3.0.0
+* **BREAKING**: Remove support for quarters. It is not commonly used and prevented support for several languages.
+* Add Dzongkha, Friulian, Kalaallisut Greenlandic, Lakota, Uyghur and Walser languages.
+* Use Adlam script as base variant of the Fulah language.
+
 ## 2.2.1
 
 * Reduce size a bit by eliminating redundant entries.
@@ -17,7 +22,7 @@
 
 ## 2.0.0
 
-* Introduce separate constructors and extension methods for context and locale based initialization. Prevents potential runtime errors caused by omitting both context and locale parameters.
+* **BREAKING**: Introduce separate constructors and extension methods for context and locale based initialization. Prevents potential runtime errors caused by omitting both context and locale parameters.
 
 ## 1.2.1
 
