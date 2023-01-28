@@ -66,13 +66,12 @@ void main() {
       continue;
     }
 
-    final String locale = path.basenameWithoutExtension(inputFilePath);
+    String locale = path.basenameWithoutExtension(inputFilePath);
 
     if (locale.toLowerCase() == 'root') {
       continue;
     }
 
-    final List<String> localeParts = locale.split('_');
     final Map<String, dynamic> entries = <String, dynamic>{};
 
     for (final XmlElement dateField in dateFields) {
@@ -92,19 +91,17 @@ void main() {
       );
     }
 
+    final List<String> localeParts = locale.split('_');
+    final String language = localeParts.first;
+
     if (entries.isEmpty ||
         entries.length != _expectedEntries(locale) &&
             (localeParts.length == 1 || !locales.contains(localeParts.first))) {
       continue;
     }
 
-    if (localeParts.length > 1) {
-      final String ancestor = localeParts.first;
-
-      if (!locales.contains(ancestor)) {
-        _writeArb(ancestor, <String, dynamic>{});
-        locales.add(ancestor);
-      }
+    if (localeParts.length > 1 && !locales.contains(language)) {
+      locale = language;
     }
 
     _writeArb(locale, entries);

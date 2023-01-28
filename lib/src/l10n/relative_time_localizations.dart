@@ -248,7 +248,6 @@ abstract class RelativeTimeLocalizations {
     Locale('eu'),
     Locale('fa'),
     Locale('ff'),
-    Locale.fromSubtags(languageCode: 'ff', scriptCode: 'Adlm'),
     Locale('fi'),
     Locale('fil'),
     Locale('fo'),
@@ -622,14 +621,6 @@ RelativeTimeLocalizations lookupRelativeTimeLocalizations(Locale locale) {
         switch (locale.scriptCode) {
           case 'Cyrl':
             return RelativeTimeLocalizationsBsCyrl();
-        }
-        break;
-      }
-    case 'ff':
-      {
-        switch (locale.scriptCode) {
-          case 'Adlm':
-            return RelativeTimeLocalizationsFfAdlm();
         }
         break;
       }
