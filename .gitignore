@@ -28,5 +28,5 @@
 .packages
 build/
 
-/untranslated-messages.txt
+/untranslated-messages.json
 /coverage/

@@ -2,8 +2,10 @@ arb-dir: lib/src/l10n/arb
 output-dir: lib/src/l10n
 template-arb-file: relative_time_localizations_en.arb
 output-localization-file: relative_time_localizations.dart
-untranslated-messages-file: untranslated-messages.txt
+untranslated-messages-file: untranslated-messages.json
 output-class: RelativeTimeLocalizations
 preferred-supported-locales: [en]
 synthetic-package: false
+required-resource-attributes: true
 nullable-getter: false
+use-escaping: true
