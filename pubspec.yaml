@@ -5,15 +5,15 @@ repository: https://github.com/Mosc/relative_time
 issues: https://github.com/Mosc/relative_time/issues
 
 environment:
-  sdk: ">=2.17.0 <3.0.0"
+  sdk: ">=2.19.0 <3.0.0"
 
 dependencies:
-  clock: ^1.1.0
+  clock: ^1.1.1
   flutter:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
-  intl: ^0.17.0
+  intl: ^0.18.0
 
 dev_dependencies:
   flutter_lints: ^2.0.1
