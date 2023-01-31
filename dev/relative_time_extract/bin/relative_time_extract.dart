@@ -93,14 +93,15 @@ void main() {
 
     final List<String> localeParts = locale.split('_');
     final String language = localeParts.first;
+    final bool isRoot = localeParts.length == 1;
+    final bool hasRoot = locales.contains(language);
 
     if (entries.isEmpty ||
-        entries.length != _expectedEntries(locale) &&
-            (localeParts.length == 1 || !locales.contains(localeParts.first))) {
+        entries.length != _expectedEntries(locale) && (isRoot || !hasRoot)) {
       continue;
     }
 
-    if (localeParts.length > 1 && !locales.contains(language)) {
+    if (!isRoot && !hasRoot) {
       locale = language;
     }
 
