@@ -5,12 +5,13 @@ import 'package:relative_time/src/time_unit.dart';
 
 /// Provides a way to format a [DateTime] as relative time.
 class RelativeTime {
-  /// Creates a [RelativeTime].
+  /// Creates a [RelativeTime] using a [RelativeTimeLocalizations] from a
+  /// [BuildContext].
   ///
   /// [context] must contain a retrievable [RelativeTimeLocalizations].
   ///
   /// Set [timeUnits] to customize the [TimeUnit]s that may be used. Defaults to
-  /// [defaultTimeUnits].
+  /// all.
   ///
   /// [numeric] determines whether or not numeric values should be preferred
   /// over natural language. Defaults to false.
@@ -20,12 +21,12 @@ class RelativeTime {
     this.numeric = false,
   }) : localizations = RelativeTimeLocalizations.of(context);
 
-  /// Creates a [RelativeTime].
+  /// Creates a [RelativeTime] using a fixed [Locale].
   ///
   /// [locale] will lookup the closest available localization.
   ///
   /// Set [timeUnits] to customize the [TimeUnit]s that may be used. Defaults to
-  /// [defaultTimeUnits].
+  /// all.
   ///
   /// [numeric] determines whether or not numeric values should be preferred
   /// over natural language. Defaults to false.
@@ -35,8 +36,13 @@ class RelativeTime {
     this.numeric = false,
   }) : localizations = lookupRelativeTimeLocalizations(locale);
 
+  /// The [RelativeTimeLocalizations] used to look up relative times.
   final RelativeTimeLocalizations localizations;
+
+  /// The [TimeUnit]s that may be used.
   final Iterable<TimeUnit> timeUnits;
+
+  /// Whether or not numeric values should be preferred over natural language.
   final bool numeric;
 
   /// Formats [time] as the relative time compared to now.
