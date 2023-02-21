@@ -1,7 +1,7 @@
 {
   "@@locale": "se_FI",
   "yearsFuture": "{years, plural, zero{{numeric, select, true{{years} jagi siste} other{dán jagi}}} one{{numeric, select, true{{years} jagi siste} other{boahtte jagi}}} other{{years} jagi siste}}",
-  "yearsPast": "{years, plural, zero{{numeric, select, true{{years} jagi dás ovdal} other{dán jagi}}} one{{numeric, select, true{diibmá} other{diibmá}}} two{ovddet jagi} other{{years} jagi dás ovdal}}",
+  "yearsPast": "{years, plural, zero{{numeric, select, true{{years} jagi dás ovdal} other{dán jagi}}} one{diibmá} two{ovddet jagi} other{{years} jagi dás ovdal}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{{months} mánu siste} other{dán mánu}}} one{{numeric, select, true{{months} mánu siste} other{boahtte mánu}}} other{{months} mánu siste}}",
   "monthsPast": "{months, plural, zero{{numeric, select, true{{months} mánu dás ovdal} other{dán mánu}}} one{{numeric, select, true{{months} mánnu dás ovdal} other{mannan mánu}}} other{{months} mánu dás ovdal}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{{weeks} vahku geahčen} other{dán vahku}}} one{{numeric, select, true{{weeks} vahku geahčen} other{boahtte vahku}}} other{{weeks} vahku geahčen}}",

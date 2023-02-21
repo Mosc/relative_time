@@ -218,46 +218,30 @@ Iterable<MapEntry<String, dynamic>> _getPluralEntries({
   required String relativeTimeType,
   required String locale,
 }) sync* {
-  final MapEntry<String, String>? otherEntry =
-      relativeTimePatternPlurals.entries.firstWhereOrNull(
-    (MapEntry<String, String> entry) => entry.key == 'other',
+  final Iterable<MapEntry<String, String>> plurals = _getNumericEntries(
+    relativePlurals: relativePlurals,
+    relativeTimePatternPlurals: relativeTimePatternPlurals,
   );
 
-  if (otherEntry == null) {
+  if (plurals.isEmpty) {
     return;
   }
 
   final String key = '$dateType'
       '${intl.toBeginningOfSentenceCase(relativeTimeType)}';
-  final Set<String> pluralKeys = {
-    ...relativePlurals.keys,
-    ...relativeTimePatternPlurals.keys,
-  };
-  final Iterable<MapEntry<String, String>> plurals = <MapEntry<String, String>>[
-    for (final String pluralKey in pluralKeys)
-      if (pluralKey == otherEntry.key ||
-          relativePlurals[pluralKey] != null ||
-          relativeTimePatternPlurals[pluralKey] != otherEntry.value)
-        MapEntry<String, String>(
-          pluralKey,
-          relativePlurals.containsKey(pluralKey)
-              ? '{numeric, select, true{${relativeTimePatternPlurals[pluralKey] ?? otherEntry.value}} other{${relativePlurals[pluralKey]}}}'
-              : '${relativeTimePatternPlurals[pluralKey]}',
-        ),
-  ];
 
   if (plurals.length > 1) {
     final String pluralsJoined = <String>[
       for (final MapEntry<String, String> plural in plurals)
         '${plural.key}{${plural.value}}'
     ].join(' ');
-    yield MapEntry(key, '{$dateType, plural, $pluralsJoined}');
+    yield MapEntry<String, String>(key, '{$dateType, plural, $pluralsJoined}');
   } else {
-    yield MapEntry(key, plurals.single.value);
+    yield MapEntry<String, String>(key, plurals.single.value);
   }
 
   if (locale == templateLocale) {
-    yield MapEntry(
+    yield MapEntry<String, dynamic>(
       '@$key',
       <String, dynamic>{
         'description': 'Number of $dateType in the $relativeTimeType.',
@@ -269,6 +253,41 @@ Iterable<MapEntry<String, dynamic>> _getPluralEntries({
         },
       },
     );
+  }
+}
+
+Iterable<MapEntry<String, String>> _getNumericEntries({
+  required Map<String, String> relativePlurals,
+  required Map<String, String> relativeTimePatternPlurals,
+}) sync* {
+  final MapEntry<String, String>? otherEntry =
+      relativeTimePatternPlurals.entries.firstWhereOrNull(
+    (MapEntry<String, String> entry) => entry.key == 'other',
+  );
+
+  if (otherEntry == null) {
+    return;
+  }
+
+  final Set<String> pluralKeys = {
+    ...relativePlurals.keys,
+    ...relativeTimePatternPlurals.keys,
+  };
+
+  for (final String pluralKey in pluralKeys) {
+    if (relativePlurals.containsKey(pluralKey) &&
+        relativeTimePatternPlurals[pluralKey] != relativePlurals[pluralKey]) {
+      yield MapEntry<String, String>(
+        pluralKey,
+        '{numeric, select, true{${relativeTimePatternPlurals[pluralKey] ?? otherEntry.value}} other{${relativePlurals[pluralKey]}}}',
+      );
+    } else if (pluralKey == otherEntry.key ||
+        relativeTimePatternPlurals[pluralKey] != otherEntry.value) {
+      yield MapEntry<String, String>(
+        pluralKey,
+        '${relativeTimePatternPlurals[pluralKey]}',
+      );
+    }
   }
 }
 

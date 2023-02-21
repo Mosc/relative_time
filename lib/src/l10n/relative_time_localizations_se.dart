@@ -246,26 +246,19 @@ class RelativeTimeLocalizationsSeFi extends RelativeTimeLocalizationsSe {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'diibmá',
-        'other': 'diibmá',
-      },
-    );
-    String temp1 = intl.Intl.selectLogic(
-      numeric,
-      {
         'true': '$years jagi dás ovdal',
         'other': 'dán jagi',
       },
     );
-    String temp2 = intl.Intl.pluralLogic(
+    String temp1 = intl.Intl.pluralLogic(
       years,
       locale: localeName,
       other: '$years jagi dás ovdal',
       two: 'ovddet jagi',
-      one: temp0,
-      zero: temp1,
+      one: 'diibmá',
+      zero: temp0,
     );
-    return temp2;
+    return temp1;
   }
 
   @override

@@ -89,25 +89,18 @@ class RelativeTimeLocalizationsHa extends RelativeTimeLocalizations {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'watan da ya gabata',
-        'other': 'watan da ya gabata',
-      },
-    );
-    String temp1 = intl.Intl.selectLogic(
-      numeric,
-      {
         'true': 'watanni da suka gabata $months',
         'other': 'wannan watan',
       },
     );
-    String temp2 = intl.Intl.pluralLogic(
+    String temp1 = intl.Intl.pluralLogic(
       months,
       locale: localeName,
       other: 'watanni da suka gabata $months',
-      one: temp0,
-      zero: temp1,
+      one: 'watan da ya gabata',
+      zero: temp0,
     );
-    return temp2;
+    return temp1;
   }
 
   @override

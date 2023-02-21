@@ -3,7 +3,7 @@
   "yearsFuture": "{years, plural, zero{{numeric, select, true{a shekaru {years}} other{bana}}} one{{numeric, select, true{a shekarar {years}} other{badi}}} other{a shekaru {years}}}",
   "yearsPast": "{years, plural, zero{{numeric, select, true{shekara da suka gabata {years}} other{bana}}} one{{numeric, select, true{shekara da suka gabata {years}} other{bara}}} other{shekara da suka gabata {years}}}",
   "monthsFuture": "{months, plural, zero{{numeric, select, true{a cikin watanni {months}} other{wannan watan}}} one{{numeric, select, true{a cikin watan {months}} other{wata na gaba}}} other{a cikin watanni {months}}}",
-  "monthsPast": "{months, plural, zero{{numeric, select, true{watanni da suka gabata {months}} other{wannan watan}}} one{{numeric, select, true{watan da ya gabata} other{watan da ya gabata}}} other{watanni da suka gabata {months}}}",
+  "monthsPast": "{months, plural, zero{{numeric, select, true{watanni da suka gabata {months}} other{wannan watan}}} one{watan da ya gabata} other{watanni da suka gabata {months}}}",
   "weeksFuture": "{weeks, plural, zero{{numeric, select, true{a cikin makonni {weeks}} other{wannan satin}}} one{{numeric, select, true{a cikin mako {weeks}} other{sati na gaba}}} other{a cikin makonni {weeks}}}",
   "weeksPast": "{weeks, plural, zero{{numeric, select, true{makonni da suka gabata {weeks}} other{wannan satin}}} one{{numeric, select, true{mako da ya gabata {weeks}} other{satin da ya gabata}}} other{makonni da suka gabata {weeks}}}",
   "daysFuture": "{days, plural, zero{{numeric, select, true{a cikin kwanaki {days}} other{yau}}} one{{numeric, select, true{a cikin rana {days}} other{gobe}}} other{a cikin kwanaki {days}}}",
