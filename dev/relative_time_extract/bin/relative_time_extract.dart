@@ -29,7 +29,7 @@ const Map<String, String> localeMapping = <String, String>{
   'be_TARASK': 'be_tarask',
 };
 
-const String placeholder = '↑↑↑';
+const String inheritanceMarker = '↑↑↑';
 
 const inputPath = 'input';
 final outputPath = path.join('..', '..', 'lib', 'src', 'l10n');
@@ -117,7 +117,7 @@ Iterable<MapEntry<String, dynamic>> _getEntries({
 }) sync* {
   final Iterable<XmlElement> relatives = dateField
       .findElements('relative')
-      .where((XmlElement element) => element.text != placeholder);
+      .where((XmlElement element) => element.text != inheritanceMarker);
   final Iterable<XmlElement> relativeTimes =
       dateField.findElements('relativeTime');
 
@@ -125,7 +125,7 @@ Iterable<MapEntry<String, dynamic>> _getEntries({
     final String relativeTimeType = _getXmlAttributeValue(relativeTime, 'type');
     final Iterable<XmlElement> relativeTimePatterns = relativeTime
         .findElements('relativeTimePattern')
-        .where((XmlElement element) => element.text != placeholder);
+        .where((XmlElement element) => element.text != inheritanceMarker);
 
     yield* _getPluralEntries(
       relativePlurals: _getRelativePlurals(
