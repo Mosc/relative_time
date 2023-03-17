@@ -1,3 +1,3 @@
 # relative_time_example
 
-An example project demonstrating the use of the Relative Time package.
+Demonstrates how to use the relative_time package.
