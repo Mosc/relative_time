@@ -11,6 +11,7 @@ dependencies:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
+  intl: any
   relative_time:
     path: ..
 
@@ -19,3 +20,4 @@ dev_dependencies:
 
 flutter:
   generate: true
+  uses-material-design: true

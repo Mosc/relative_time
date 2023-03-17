@@ -1,3 +1,22 @@
 {
-    "@@locale": "en"
+  "@@locale": "en",
+  "appName": "Relative Time Example App",
+  "pickDate": "Pick date",
+  "pickTime": "Pick time",
+  "numeric": "Numeric",
+  "timeUnits": "Time units",
+  "formatsTo": "{date} at {time} is {formatted}",
+  "@formatsTo": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMMMd"
+      },
+      "time": {
+        "type": "DateTime",
+        "format": "Hm"
+      },
+      "formatted": {}
+    }
+  }
 }
