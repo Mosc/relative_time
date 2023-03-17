@@ -19,9 +19,13 @@ class RelativeTime {
   /// over natural language. Defaults to false.
   RelativeTime(
     BuildContext context, {
-    this.timeUnits = TimeUnit.values,
-    this.numeric = false,
-  }) : localizations = RelativeTimeLocalizations.of(context);
+    Iterable<TimeUnit> timeUnits = TimeUnit.values,
+    bool numeric = false,
+  }) : this._(
+          RelativeTimeLocalizations.of(context),
+          timeUnits: timeUnits,
+          numeric: numeric,
+        );
 
   /// Creates a [RelativeTime] using a fixed [Locale].
   ///
@@ -34,9 +38,19 @@ class RelativeTime {
   /// over natural language. Defaults to false.
   RelativeTime.locale(
     Locale locale, {
-    this.timeUnits = TimeUnit.values,
+    Iterable<TimeUnit> timeUnits = TimeUnit.values,
+    bool numeric = false,
+  }) : this._(
+          lookupRelativeTimeLocalizations(locale),
+          timeUnits: timeUnits,
+          numeric: numeric,
+        );
+
+  RelativeTime._(
+    this.localizations, {
+    Iterable<TimeUnit> timeUnits = TimeUnit.values,
     this.numeric = false,
-  }) : localizations = lookupRelativeTimeLocalizations(locale);
+  }) : timeUnits = timeUnits.isNotEmpty ? timeUnits : TimeUnit.values;
 
   /// The [RelativeTimeLocalizations] used to look up relative times.
   final RelativeTimeLocalizations localizations;
