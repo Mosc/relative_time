@@ -22,3 +22,7 @@ dev_dependencies:
 
 flutter:
   generate: true
+
+screenshots:
+  - description: "Example"
+    path: example/screenshots/example.png
