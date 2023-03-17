@@ -3,6 +3,8 @@ import 'package:flutter/widgets.dart';
 import 'package:relative_time/src/l10n/relative_time_localizations.dart';
 import 'package:relative_time/src/time_unit.dart';
 
+typedef _Formatter = String Function(int, String);
+
 /// Provides a way to format a [DateTime] as relative time.
 class RelativeTime {
   /// Creates a [RelativeTime] using a [RelativeTimeLocalizations] from a
@@ -49,7 +51,6 @@ class RelativeTime {
   String format(DateTime time) {
     final Duration difference = time.difference(clock.now());
     final Duration absDifference = difference.abs();
-
     final List<TimeUnit> sortedTimeUnits = timeUnits.toList()
       ..sort(Enum.compareByIndex);
     final TimeUnit fittingTimeUnit = sortedTimeUnits.firstWhere(
@@ -58,36 +59,29 @@ class RelativeTime {
     );
     final int timeUnitDifference = fittingTimeUnit.difference(absDifference);
     final String numericString = numeric.toString();
+    final _Formatter formatter = _getFormatter(
+      fittingTimeUnit,
+      isPast: difference.isNegative,
+    );
+    return formatter(timeUnitDifference, numericString);
+  }
 
-    switch (fittingTimeUnit) {
+  _Formatter _getFormatter(TimeUnit timeUnit, {required bool isPast}) {
+    switch (timeUnit) {
       case TimeUnit.year:
-        return difference.isNegative
-            ? localizations.yearsPast(timeUnitDifference, numericString)
-            : localizations.yearsFuture(timeUnitDifference, numericString);
+        return isPast ? localizations.yearsPast : localizations.yearsFuture;
       case TimeUnit.month:
-        return difference.isNegative
-            ? localizations.monthsPast(timeUnitDifference, numericString)
-            : localizations.monthsFuture(timeUnitDifference, numericString);
+        return isPast ? localizations.monthsPast : localizations.monthsFuture;
       case TimeUnit.week:
-        return difference.isNegative
-            ? localizations.weeksPast(timeUnitDifference, numericString)
-            : localizations.weeksFuture(timeUnitDifference, numericString);
+        return isPast ? localizations.weeksPast : localizations.weeksFuture;
       case TimeUnit.day:
-        return difference.isNegative
-            ? localizations.daysPast(timeUnitDifference, numericString)
-            : localizations.daysFuture(timeUnitDifference, numericString);
+        return isPast ? localizations.daysPast : localizations.daysFuture;
       case TimeUnit.hour:
-        return difference.isNegative
-            ? localizations.hoursPast(timeUnitDifference, numericString)
-            : localizations.hoursFuture(timeUnitDifference, numericString);
+        return isPast ? localizations.hoursPast : localizations.hoursFuture;
       case TimeUnit.minute:
-        return difference.isNegative
-            ? localizations.minutesPast(timeUnitDifference, numericString)
-            : localizations.minutesFuture(timeUnitDifference, numericString);
+        return isPast ? localizations.minutesPast : localizations.minutesFuture;
       case TimeUnit.second:
-        return difference.isNegative
-            ? localizations.secondsPast(timeUnitDifference, numericString)
-            : localizations.secondsFuture(timeUnitDifference, numericString);
+        return isPast ? localizations.secondsPast : localizations.secondsFuture;
     }
   }
 }
