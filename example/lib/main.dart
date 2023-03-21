@@ -82,15 +82,15 @@ class _HomeState extends State<Home> {
                   final newValue = await showDatePicker(
                     context: context,
                     initialDate: selectedDate,
-                    firstDate: DateTime(-271820),
-                    lastDate: DateTime(275760),
+                    firstDate: DateTime(-271821, 5, 1),
+                    lastDate: DateTime(275760, 8, 31),
                   );
 
                   if (newValue != null) {
                     setState(() => selectedDate = newValue);
                   }
                 },
-                child: Text(AppLocalizations.of(context).pickDate),
+                child: Text(AppLocalizations.of(context).selectDate),
               ),
               ElevatedButton(
                 onPressed: () async {
@@ -103,7 +103,7 @@ class _HomeState extends State<Home> {
                     setState(() => selectedTime = newValue);
                   }
                 },
-                child: Text(AppLocalizations.of(context).pickTime),
+                child: Text(AppLocalizations.of(context).selectTime),
               ),
             ],
           ),

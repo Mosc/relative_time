@@ -1,8 +1,8 @@
 {
   "@@locale": "en",
   "appName": "Relative Time Example App",
-  "pickDate": "Pick date",
-  "pickTime": "Pick time",
+  "selectDate": "Select date",
+  "selectTime": "Select time",
   "numeric": "Numeric",
   "timeUnits": "Time units",
   "formatsTo": "{date} at {time} is {formatted}",
