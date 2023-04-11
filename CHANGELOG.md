@@ -1,4 +1,13 @@
+## 3.1.0
+
+* Improve API documentation.
+* Reduce size a bit by eliminating redundant entries.
+* Bump minimal Dart SDK to 2.19.
+* Relax `intl` constraint.
+* Modernize example app.
+
 ## 3.0.0
+
 * **BREAKING**: Remove support for quarters. It is not commonly used and prevented support for several languages.
 * Add Dzongkha, Friulian, Kalaallisut Greenlandic, Lakota, Uyghur and Walser languages.
 * Use Adlam script as base variant of the Fulah language.
