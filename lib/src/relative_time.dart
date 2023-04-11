@@ -67,17 +67,23 @@ class RelativeTime {
     final Duration absDifference = difference.abs();
     final List<TimeUnit> sortedTimeUnits = timeUnits.toList()
       ..sort(Enum.compareByIndex);
-    final TimeUnit fittingTimeUnit = sortedTimeUnits.firstWhere(
-      (TimeUnit timeUnit) => timeUnit.difference(absDifference) >= 1,
-      orElse: () => sortedTimeUnits.last,
-    );
-    final int timeUnitDifference = fittingTimeUnit.difference(absDifference);
-    final String numericString = numeric.toString();
+
+    late TimeUnit timeUnit;
+    late int timeUnitDifference;
+
+    for (timeUnit in sortedTimeUnits) {
+      timeUnitDifference = timeUnit.difference(absDifference);
+
+      if (timeUnitDifference >= 1) {
+        break;
+      }
+    }
+
     final _Formatter formatter = _getFormatter(
-      fittingTimeUnit,
+      timeUnit,
       isPast: difference.isNegative,
     );
-    return formatter(timeUnitDifference, numericString);
+    return formatter(timeUnitDifference, numeric.toString());
   }
 
   _Formatter _getFormatter(TimeUnit timeUnit, {required bool isPast}) {
