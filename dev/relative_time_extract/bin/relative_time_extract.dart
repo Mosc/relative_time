@@ -115,17 +115,17 @@ Iterable<MapEntry<String, dynamic>> _getEntries({
   required String dateType,
   required String locale,
 }) sync* {
-  final Iterable<XmlElement> relatives = dateField
-      .findElements('relative')
-      .where((XmlElement element) => element.text != inheritanceMarker);
+  isNotInheriting(XmlElement element) => element.text != inheritanceMarker;
+
+  final Iterable<XmlElement> relatives =
+      dateField.findElements('relative').where(isNotInheriting);
   final Iterable<XmlElement> relativeTimes =
       dateField.findElements('relativeTime');
 
   for (final XmlElement relativeTime in relativeTimes) {
     final String relativeTimeType = _getXmlAttributeValue(relativeTime, 'type');
-    final Iterable<XmlElement> relativeTimePatterns = relativeTime
-        .findElements('relativeTimePattern')
-        .where((XmlElement element) => element.text != inheritanceMarker);
+    final Iterable<XmlElement> relativeTimePatterns =
+        relativeTime.findElements('relativeTimePattern').where(isNotInheriting);
 
     yield* _getPluralEntries(
       relativePlurals: _getRelativePlurals(
