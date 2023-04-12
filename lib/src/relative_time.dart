@@ -65,7 +65,7 @@ class RelativeTime {
   String format(DateTime time) {
     final Duration difference = time.difference(clock.now());
     final Duration absDifference = difference.abs();
-    final List<TimeUnit> sortedTimeUnits = timeUnits.toList()
+    final List<TimeUnit> sortedTimeUnits = timeUnits.toList(growable: false)
       ..sort(Enum.compareByIndex);
 
     late TimeUnit timeUnit;

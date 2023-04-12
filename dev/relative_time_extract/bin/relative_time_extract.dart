@@ -48,7 +48,7 @@ void main() {
       .listSync()
       .map((FileSystemEntity fileSystemEntity) => fileSystemEntity.path)
       .where((String filePath) => path.extension(filePath) == '.xml')
-      .toList()
+      .toList(growable: false)
     ..sort();
   final Set<String> locales = <String>{};
 
@@ -166,7 +166,8 @@ Map<String, String> _getRelativePlurals({
     }
   }
 
-  final List<int> amounts = relativePlurals.keys.toList()..sort();
+  final List<int> amounts = relativePlurals.keys.toList(growable: false)
+    ..sort();
 
   for (final amount in amounts) {
     final String key = relativeCountMapping[amount] ?? '=$amount';
