@@ -1,0 +1,17 @@
+{
+  "@@locale": "syr",
+  "yearsFuture": "{years, plural, zero{{numeric, select, true{ܒ{years} ܫܢܝ̈ܐ} other{ܗܕܐ ܫܢܬܐ}}} one{{numeric, select, true{ܒ{years} ܫܢܝ̈ܐ} other{ܫܢܬܐ ܐܚܪܬܐ}}} other{ܒ{years} ܫܢܝ̈ܐ}}",
+  "yearsPast": "{years, plural, zero{{numeric, select, true{ܡ̣ܢ ܩܕܡ {years} ܫܢܝ̈ܐ} other{ܗܕܐ ܫܢܬܐ}}} one{{numeric, select, true{ܡ̣ܢ ܩܕܡ {years} ܫܢܝ̈ܐ} other{ܐܫܬܩܕܝ}}} other{ܡ̣ܢ ܩܕܡ {years} ܫܢܝ̈ܐ}}",
+  "monthsFuture": "{months, plural, zero{{numeric, select, true{ܒ{months} ܝܪ̈ܚܐ} other{ܗܢܐ ܝܪܚܐ}}} one{{numeric, select, true{ܒ{months} ܝܪܚܐ} other{ܝܪܚܐ ܕܐܬܐ}}} other{ܒ{months} ܝܪ̈ܚܐ}}",
+  "monthsPast": "{months, plural, zero{{numeric, select, true{ܡ̣ܢ ܩܕܡ {months} ܝܪ̈ܚܐ} other{ܗܢܐ ܝܪܚܐ}}} one{{numeric, select, true{ܡ̣ܢ ܩܕܡ {months} ܝܪܚܐ} other{ܝܪܚܐ ܕܕܥܒܪ}}} other{ܡ̣ܢ ܩܕܡ {months} ܝܪ̈ܚܐ}}",
+  "weeksFuture": "{weeks, plural, zero{{numeric, select, true{ܒ{weeks} ܫܒ̈ܘܥܐ} other{ܗܕܐ ܫܒܘܥܐ}}} one{{numeric, select, true{ܒ{weeks} ܫܒܘܥܐ} other{ܫܒܘܥܐ ܕܐܬܐ}}} other{ܒ{weeks} ܫܒ̈ܘܥܐ}}",
+  "weeksPast": "{weeks, plural, zero{{numeric, select, true{ܡ̣ܢ ܩܕܡ {weeks} ܫܒ̈ܘܥܐ} other{ܗܕܐ ܫܒܘܥܐ}}} one{{numeric, select, true{ܡ̣ܢ ܩܕܡ {weeks} ܫܒܘܥܐ} other{ܫܒܘܥܐ ܕܕܥܒܪ}}} other{ܡ̣ܢ ܩܕܡ {weeks} ܫܒ̈ܘܥܐ}}",
+  "daysFuture": "{days, plural, zero{{numeric, select, true{ܒ{days} ܝܘܡܢ̈ܐ} other{ܐܕܝܘܡ}}} one{{numeric, select, true{ܒ{days} ܝܘܡܐ} other{ܝܘܡܐ ܕܐܬܐ}}} other{ܒ{days} ܝܘܡܢ̈ܐ}}",
+  "daysPast": "{days, plural, zero{{numeric, select, true{ܡ̣ܢ ܩܕܡ {days} ܝܘܡܢ̈ܐ} other{ܐܕܝܘܡ}}} one{{numeric, select, true{ܡ̣ܢ ܩܕܡ {days} ܝܘܡܐ} other{ܐܬܡܠܝ}}} other{ܡ̣ܢ ܩܕܡ {days} ܝܘܡܢ̈ܐ}}",
+  "hoursFuture": "{hours, plural, zero{{numeric, select, true{ܒ{hours} ܫܥ̈ܐ} other{ܗܕܐ ܫܥܬܐ}}} one{ܒ{hours} ܫܥܬܐ} other{ܒ{hours} ܫܥ̈ܐ}}",
+  "hoursPast": "{hours, plural, zero{{numeric, select, true{ܡ̣ܢ ܩܕܡ {hours} ܫܥ̈ܐ} other{ܗܕܐ ܫܥܬܐ}}} one{ܡ̣ܢ ܩܕܡ {hours} ܫܥܬܐ} other{ܡ̣ܢ ܩܕܡ {hours} ܫܥ̈ܐ}}",
+  "minutesFuture": "{minutes, plural, zero{{numeric, select, true{ܒ{minutes} ܩܛܝ̈ܢܬܐ} other{ܗܢܐ ܩܛܝܢܐ}}} one{ܒ{minutes} ܩܛܝܢܬܐ} other{ܒ{minutes} ܩܛܝ̈ܢܬܐ}}",
+  "minutesPast": "{minutes, plural, zero{{numeric, select, true{ܡ̣ܢ ܩܕܡ {minutes} ܩܛܝ̈ܢܐ} other{ܗܢܐ ܩܛܝܢܐ}}} one{ܡ̣ܢ ܩܕܡ {minutes} ܩܛܝܢܐ} other{ܡ̣ܢ ܩܕܡ {minutes} ܩܛܝ̈ܢܐ}}",
+  "secondsFuture": "{seconds, plural, zero{{numeric, select, true{ܒ{seconds} ܪ̈ܦܦܐ} other{ܗܫܐ}}} one{ܒ{seconds} ܪܦܦܐ} other{ܒ{seconds} ܪ̈ܦܦܐ}}",
+  "secondsPast": "{seconds, plural, zero{{numeric, select, true{ܡ̣ܢ ܩܕܡ {seconds} ܖ̈ܦܦܐ} other{ܗܫܐ}}} one{ܡ̣ܢ ܩܕܡ {seconds} ܪܦܦܐ} other{ܡ̣ܢ ܩܕܡ {seconds} ܖ̈ܦܦܐ}}"
+}

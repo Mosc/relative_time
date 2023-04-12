@@ -1,0 +1,17 @@
+{
+  "@@locale": "szl",
+  "yearsFuture": "{years, plural, zero{{numeric, select, true{za {years} roku} other{latoś}}} one{{numeric, select, true{za {years} roku} other{na bezrok}}} other{za {years} roku}}",
+  "yearsPast": "{years, plural, zero{{numeric, select, true{{years} roku tymu} other{latoś}}} one{{numeric, select, true{{years} roku tymu} other{łōńskigo roku}}} other{{years} roku tymu}}",
+  "monthsFuture": "{months, plural, zero{{numeric, select, true{za {months} miesiōnca} other{w tym miesiōncu}}} one{{numeric, select, true{za {months} miesiōnca} other{na drugi miesiōnc}}} other{za {months} miesiōnca}}",
+  "monthsPast": "{months, plural, zero{{numeric, select, true{{months} miesiōnca tymu} other{w tym miesiōncu}}} one{{numeric, select, true{{months} miesiōnca tymu} other{w zeszłym miesiōncu}}} other{{months} miesiōnca tymu}}",
+  "weeksFuture": "{weeks, plural, zero{{numeric, select, true{za {weeks} tydnia} other{w tym tydniu}}} one{{numeric, select, true{za {weeks} tydnia} other{na drugi tydziyń}}} other{za {weeks} tydnia}}",
+  "weeksPast": "{weeks, plural, zero{{numeric, select, true{{weeks} tydnia tymu} other{w tym tydniu}}} one{{numeric, select, true{{weeks} tydnia tymu} other{w zeszłym tydniu}}} other{{weeks} tydnia tymu}}",
+  "daysFuture": "{days, plural, zero{{numeric, select, true{za {days} dnia} other{dzisiej}}} one{{numeric, select, true{za {days} dnia} other{jutro}}} other{za {days} dnia}}",
+  "daysPast": "{days, plural, zero{{numeric, select, true{{days} dnia tymu} other{dzisiej}}} one{{numeric, select, true{{days} dnia tymu} other{wczorej}}} other{{days} dnia tymu}}",
+  "hoursFuture": "{hours, plural, zero{{numeric, select, true{za {hours} godziny} other{ta godzina}}} other{za {hours} godziny}}",
+  "hoursPast": "{hours, plural, zero{{numeric, select, true{{hours} godziny tymu} other{ta godzina}}} other{{hours} godziny tymu}}",
+  "minutesFuture": "{minutes, plural, zero{{numeric, select, true{za {minutes} minuty} other{ta minuta}}} other{za {minutes} minuty}}",
+  "minutesPast": "{minutes, plural, zero{{numeric, select, true{{minutes} minuty tymu} other{ta minuta}}} other{{minutes} minuty tymu}}",
+  "secondsFuture": "{seconds, plural, zero{{numeric, select, true{za {seconds} sekundy} other{teraz}}} other{za {seconds} sekundy}}",
+  "secondsPast": "{seconds, plural, zero{{numeric, select, true{{seconds} sekundy tymu} other{teraz}}} other{{seconds} sekundy tymu}}"
+}

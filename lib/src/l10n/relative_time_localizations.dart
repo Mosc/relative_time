@@ -70,7 +70,9 @@ import 'relative_time_localizations_kn.dart';
 import 'relative_time_localizations_ko.dart';
 import 'relative_time_localizations_kok.dart';
 import 'relative_time_localizations_ky.dart';
+import 'relative_time_localizations_la.dart';
 import 'relative_time_localizations_lb.dart';
+import 'relative_time_localizations_lij.dart';
 import 'relative_time_localizations_lkt.dart';
 import 'relative_time_localizations_lo.dart';
 import 'relative_time_localizations_lt.dart';
@@ -94,6 +96,7 @@ import 'relative_time_localizations_pl.dart';
 import 'relative_time_localizations_ps.dart';
 import 'relative_time_localizations_pt.dart';
 import 'relative_time_localizations_qu.dart';
+import 'relative_time_localizations_rhg.dart';
 import 'relative_time_localizations_ro.dart';
 import 'relative_time_localizations_ru.dart';
 import 'relative_time_localizations_sah.dart';
@@ -108,6 +111,8 @@ import 'relative_time_localizations_sq.dart';
 import 'relative_time_localizations_sr.dart';
 import 'relative_time_localizations_sv.dart';
 import 'relative_time_localizations_sw.dart';
+import 'relative_time_localizations_syr.dart';
+import 'relative_time_localizations_szl.dart';
 import 'relative_time_localizations_ta.dart';
 import 'relative_time_localizations_te.dart';
 import 'relative_time_localizations_tg.dart';
@@ -116,6 +121,7 @@ import 'relative_time_localizations_ti.dart';
 import 'relative_time_localizations_tk.dart';
 import 'relative_time_localizations_to.dart';
 import 'relative_time_localizations_tr.dart';
+import 'relative_time_localizations_trw.dart';
 import 'relative_time_localizations_tt.dart';
 import 'relative_time_localizations_ug.dart';
 import 'relative_time_localizations_uk.dart';
@@ -283,7 +289,9 @@ abstract class RelativeTimeLocalizations {
     Locale('ko'),
     Locale('kok'),
     Locale('ky'),
+    Locale('la'),
     Locale('lb'),
+    Locale('lij'),
     Locale('lkt'),
     Locale('lo'),
     Locale('lt'),
@@ -294,6 +302,7 @@ abstract class RelativeTimeLocalizations {
     Locale('mn'),
     Locale('mr'),
     Locale('ms'),
+    Locale.fromSubtags(languageCode: 'ms', scriptCode: 'Arab'),
     Locale('mt'),
     Locale('my'),
     Locale('mzn'),
@@ -309,6 +318,7 @@ abstract class RelativeTimeLocalizations {
     Locale('pt'),
     Locale('pt', 'PT'),
     Locale('qu'),
+    Locale('rhg'),
     Locale('ro'),
     Locale('ru'),
     Locale('sah'),
@@ -329,6 +339,8 @@ abstract class RelativeTimeLocalizations {
         languageCode: 'sr', countryCode: 'BA', scriptCode: 'Latn'),
     Locale('sv'),
     Locale('sw'),
+    Locale('syr'),
+    Locale('szl'),
     Locale('ta'),
     Locale('te'),
     Locale('tg'),
@@ -337,6 +349,7 @@ abstract class RelativeTimeLocalizations {
     Locale('tk'),
     Locale('to'),
     Locale('tr'),
+    Locale('trw'),
     Locale('tt'),
     Locale('ug'),
     Locale('uk'),
@@ -525,7 +538,9 @@ class _RelativeTimeLocalizationsDelegate
         'ko',
         'kok',
         'ky',
+        'la',
         'lb',
+        'lij',
         'lkt',
         'lo',
         'lt',
@@ -549,6 +564,7 @@ class _RelativeTimeLocalizationsDelegate
         'ps',
         'pt',
         'qu',
+        'rhg',
         'ro',
         'ru',
         'sah',
@@ -563,6 +579,8 @@ class _RelativeTimeLocalizationsDelegate
         'sr',
         'sv',
         'sw',
+        'syr',
+        'szl',
         'ta',
         'te',
         'tg',
@@ -571,6 +589,7 @@ class _RelativeTimeLocalizationsDelegate
         'tk',
         'to',
         'tr',
+        'trw',
         'tt',
         'ug',
         'uk',
@@ -629,6 +648,14 @@ RelativeTimeLocalizations lookupRelativeTimeLocalizations(Locale locale) {
         switch (locale.scriptCode) {
           case 'Latn':
             return RelativeTimeLocalizationsHiLatn();
+        }
+        break;
+      }
+    case 'ms':
+      {
+        switch (locale.scriptCode) {
+          case 'Arab':
+            return RelativeTimeLocalizationsMsArab();
         }
         break;
       }
@@ -842,8 +869,12 @@ RelativeTimeLocalizations lookupRelativeTimeLocalizations(Locale locale) {
       return RelativeTimeLocalizationsKok();
     case 'ky':
       return RelativeTimeLocalizationsKy();
+    case 'la':
+      return RelativeTimeLocalizationsLa();
     case 'lb':
       return RelativeTimeLocalizationsLb();
+    case 'lij':
+      return RelativeTimeLocalizationsLij();
     case 'lkt':
       return RelativeTimeLocalizationsLkt();
     case 'lo':
@@ -890,6 +921,8 @@ RelativeTimeLocalizations lookupRelativeTimeLocalizations(Locale locale) {
       return RelativeTimeLocalizationsPt();
     case 'qu':
       return RelativeTimeLocalizationsQu();
+    case 'rhg':
+      return RelativeTimeLocalizationsRhg();
     case 'ro':
       return RelativeTimeLocalizationsRo();
     case 'ru':
@@ -918,6 +951,10 @@ RelativeTimeLocalizations lookupRelativeTimeLocalizations(Locale locale) {
       return RelativeTimeLocalizationsSv();
     case 'sw':
       return RelativeTimeLocalizationsSw();
+    case 'syr':
+      return RelativeTimeLocalizationsSyr();
+    case 'szl':
+      return RelativeTimeLocalizationsSzl();
     case 'ta':
       return RelativeTimeLocalizationsTa();
     case 'te':
@@ -934,6 +971,8 @@ RelativeTimeLocalizations lookupRelativeTimeLocalizations(Locale locale) {
       return RelativeTimeLocalizationsTo();
     case 'tr':
       return RelativeTimeLocalizationsTr();
+    case 'trw':
+      return RelativeTimeLocalizationsTrw();
     case 'tt':
       return RelativeTimeLocalizationsTt();
     case 'ug':

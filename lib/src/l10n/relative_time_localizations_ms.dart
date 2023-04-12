@@ -338,3 +338,262 @@ class RelativeTimeLocalizationsMs extends RelativeTimeLocalizations {
     return temp1;
   }
 }
+
+/// The translations for Malay, using the Arabic script (`ms_Arab`).
+class RelativeTimeLocalizationsMsArab extends RelativeTimeLocalizationsMs {
+  RelativeTimeLocalizationsMsArab() : super('ms_Arab');
+
+  @override
+  String yearsFuture(int years, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'دالم $years تاهون',
+        'other': 'تاهون هدڤن',
+      },
+    );
+    String temp1 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'دالم $years تاهون',
+        'other': 'تاهون ني',
+      },
+    );
+    String temp2 = intl.Intl.pluralLogic(
+      years,
+      locale: localeName,
+      other: 'دالم $years تاهون',
+      one: temp0,
+      zero: temp1,
+    );
+    return temp2;
+  }
+
+  @override
+  String yearsPast(int years, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': '$years تاهون لالو',
+        'other': 'تاهون لڤس',
+      },
+    );
+    String temp1 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': '$years تاهون لالو',
+        'other': 'تاهون ني',
+      },
+    );
+    String temp2 = intl.Intl.pluralLogic(
+      years,
+      locale: localeName,
+      other: '$years تاهون لالو',
+      one: temp0,
+      zero: temp1,
+    );
+    return temp2;
+  }
+
+  @override
+  String monthsFuture(int months, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'دالم $months بولن',
+        'other': 'بولن ستروسڽ',
+      },
+    );
+    String temp1 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'دالم $months بولن',
+        'other': 'بولن ني',
+      },
+    );
+    String temp2 = intl.Intl.pluralLogic(
+      months,
+      locale: localeName,
+      other: 'دالم $months بولن',
+      one: temp0,
+      zero: temp1,
+    );
+    return temp2;
+  }
+
+  @override
+  String monthsPast(int months, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': '$months بولن لالو',
+        'other': 'بولن لالو',
+      },
+    );
+    String temp1 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': '$months بولن لالو',
+        'other': 'بولن ني',
+      },
+    );
+    String temp2 = intl.Intl.pluralLogic(
+      months,
+      locale: localeName,
+      other: '$months بولن لالو',
+      one: temp0,
+      zero: temp1,
+    );
+    return temp2;
+  }
+
+  @override
+  String weeksFuture(int weeks, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'دالم $weeks ميڠݢو',
+        'other': 'ميڠݢو ستروسڽ',
+      },
+    );
+    String temp1 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'دالم $weeks ميڠݢو',
+        'other': 'ميڠݢو ني',
+      },
+    );
+    String temp2 = intl.Intl.pluralLogic(
+      weeks,
+      locale: localeName,
+      other: 'دالم $weeks ميڠݢو',
+      one: temp0,
+      zero: temp1,
+    );
+    return temp2;
+  }
+
+  @override
+  String weeksPast(int weeks, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': '$weeks ميڠݢو لالو',
+        'other': 'ميڠݢو لڤس',
+      },
+    );
+    String temp1 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': '$weeks ميڠݢو لالو',
+        'other': 'ميڠݢو ني',
+      },
+    );
+    String temp2 = intl.Intl.pluralLogic(
+      weeks,
+      locale: localeName,
+      other: '$weeks ميڠݢو لالو',
+      one: temp0,
+      zero: temp1,
+    );
+    return temp2;
+  }
+
+  @override
+  String daysFuture(int days, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'دالم $days هاري',
+        'other': 'هاري سلڤس ايسوق',
+      },
+    );
+    String temp1 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'دالم $days هاري',
+        'other': 'ايسوق',
+      },
+    );
+    String temp2 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': 'دالم $days هاري',
+        'other': 'هاري ني',
+      },
+    );
+    String temp3 = intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
+      other: 'دالم $days هاري',
+      two: temp0,
+      one: temp1,
+      zero: temp2,
+    );
+    return temp3;
+  }
+
+  @override
+  String daysPast(int days, String numeric) {
+    String temp0 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': '$days هاري لالو',
+        'other': 'هاري سبلوم سمالم',
+      },
+    );
+    String temp1 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': '$days هاري لالو',
+        'other': 'سمالم',
+      },
+    );
+    String temp2 = intl.Intl.selectLogic(
+      numeric,
+      {
+        'true': '$days هاري لالو',
+        'other': 'هاري ني',
+      },
+    );
+    String temp3 = intl.Intl.pluralLogic(
+      days,
+      locale: localeName,
+      other: '$days هاري لالو',
+      two: temp0,
+      one: temp1,
+      zero: temp2,
+    );
+    return temp3;
+  }
+
+  @override
+  String hoursFuture(int hours, String numeric) {
+    return 'دالم $hours جم';
+  }
+
+  @override
+  String hoursPast(int hours, String numeric) {
+    return '$hours جم لالو';
+  }
+
+  @override
+  String minutesFuture(int minutes, String numeric) {
+    return 'دالم $minutes مينيت';
+  }
+
+  @override
+  String minutesPast(int minutes, String numeric) {
+    return '$minutes مينيت لالو';
+  }
+
+  @override
+  String secondsFuture(int seconds, String numeric) {
+    return 'دالم $seconds ساعت';
+  }
+
+  @override
+  String secondsPast(int seconds, String numeric) {
+    return '$seconds ساعت لالو';
+  }
+}

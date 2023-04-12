@@ -1,0 +1,17 @@
+{
+  "@@locale": "ms_Arab",
+  "yearsFuture": "{years, plural, zero{{numeric, select, true{دالم {years} تاهون} other{تاهون ني}}} one{{numeric, select, true{دالم {years} تاهون} other{تاهون هدڤن}}} other{دالم {years} تاهون}}",
+  "yearsPast": "{years, plural, zero{{numeric, select, true{{years} تاهون لالو} other{تاهون ني}}} one{{numeric, select, true{{years} تاهون لالو} other{تاهون لڤس}}} other{{years} تاهون لالو}}",
+  "monthsFuture": "{months, plural, zero{{numeric, select, true{دالم {months} بولن} other{بولن ني}}} one{{numeric, select, true{دالم {months} بولن} other{بولن ستروسڽ}}} other{دالم {months} بولن}}",
+  "monthsPast": "{months, plural, zero{{numeric, select, true{{months} بولن لالو} other{بولن ني}}} one{{numeric, select, true{{months} بولن لالو} other{بولن لالو}}} other{{months} بولن لالو}}",
+  "weeksFuture": "{weeks, plural, zero{{numeric, select, true{دالم {weeks} ميڠݢو} other{ميڠݢو ني}}} one{{numeric, select, true{دالم {weeks} ميڠݢو} other{ميڠݢو ستروسڽ}}} other{دالم {weeks} ميڠݢو}}",
+  "weeksPast": "{weeks, plural, zero{{numeric, select, true{{weeks} ميڠݢو لالو} other{ميڠݢو ني}}} one{{numeric, select, true{{weeks} ميڠݢو لالو} other{ميڠݢو لڤس}}} other{{weeks} ميڠݢو لالو}}",
+  "daysFuture": "{days, plural, zero{{numeric, select, true{دالم {days} هاري} other{هاري ني}}} one{{numeric, select, true{دالم {days} هاري} other{ايسوق}}} two{{numeric, select, true{دالم {days} هاري} other{هاري سلڤس ايسوق}}} other{دالم {days} هاري}}",
+  "daysPast": "{days, plural, zero{{numeric, select, true{{days} هاري لالو} other{هاري ني}}} one{{numeric, select, true{{days} هاري لالو} other{سمالم}}} two{{numeric, select, true{{days} هاري لالو} other{هاري سبلوم سمالم}}} other{{days} هاري لالو}}",
+  "hoursFuture": "دالم {hours} جم",
+  "hoursPast": "{hours} جم لالو",
+  "minutesFuture": "دالم {minutes} مينيت",
+  "minutesPast": "{minutes} مينيت لالو",
+  "secondsFuture": "دالم {seconds} ساعت",
+  "secondsPast": "{seconds} ساعت لالو"
+}

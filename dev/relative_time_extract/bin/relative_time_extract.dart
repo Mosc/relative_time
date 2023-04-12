@@ -204,7 +204,7 @@ MapEntry<String, String> _getRelativeTimePatternEntry({
   final String key = _getXmlAttributeValue(relativeTimePattern, 'count');
   final String value = relativeTimePattern.text.replaceFirst(
     // '{0}' should normally suffice, but one entry for the Hausa language in
-    // CLDR v42 incorrectly uses '{0}}'. Let's be liberal in our matching.
+    // CLDR v38-v43 incorrectly uses '{0}}'. Let's be liberal in our matching.
     RegExp(r'\{+0\}+'),
     '{$dateType}',
   );

@@ -1,0 +1,17 @@
+{
+  "@@locale": "lij",
+  "yearsFuture": "{years, plural, zero{{numeric, select, true{de chì à {years} anni} other{st’anno}}} one{{numeric, select, true{de chì à {years} anno} other{l’anno ch’o vëgne}}} other{de chì à {years} anni}}",
+  "yearsPast": "{years, plural, zero{{numeric, select, true{l’é {years} anni} other{st’anno}}} one{{numeric, select, true{l’é {years} anno} other{l’anno passou}}} other{l’é {years} anni}}",
+  "monthsFuture": "{months, plural, zero{{numeric, select, true{de chì à {months} meixi} other{sto meise}}} one{{numeric, select, true{de chì à {months} meise} other{o meise ch’o vëgne}}} other{de chì à {months} meixi}}",
+  "monthsPast": "{months, plural, zero{{numeric, select, true{l’é {months} meixi} other{sto meise}}} one{{numeric, select, true{l’é {months} meise} other{o meise passou}}} other{l’é {months} meixi}}",
+  "weeksFuture": "{weeks, plural, zero{{numeric, select, true{de chì à {weeks} settemañe} other{sta settemaña}}} one{{numeric, select, true{de chì à {weeks} settemaña} other{a settemaña ch’a vëgne}}} other{de chì à {weeks} settemañe}}",
+  "weeksPast": "{weeks, plural, zero{{numeric, select, true{l’é {weeks} settemañe} other{sta settemaña}}} one{{numeric, select, true{l’é {weeks} settemaña} other{a settemaña passâ}}} other{l’é {weeks} settemañe}}",
+  "daysFuture": "{days, plural, zero{{numeric, select, true{de chì à {days} giorni} other{ancheu}}} one{{numeric, select, true{de chì à {days} giorno} other{doman}}} other{de chì à {days} giorni}}",
+  "daysPast": "{days, plural, zero{{numeric, select, true{l’é {days} giorni} other{ancheu}}} one{{numeric, select, true{l’é {days} giorno} other{vëi}}} other{l’é {days} giorni}}",
+  "hoursFuture": "{hours, plural, zero{{numeric, select, true{de chì à {hours} oe} other{st’oa chì}}} one{de chì à {hours} oa} other{de chì à {hours} oe}}",
+  "hoursPast": "{hours, plural, zero{{numeric, select, true{l’é {hours} oe} other{st’oa chì}}} one{l’é {hours} oa} other{l’é {hours} oe}}",
+  "minutesFuture": "{minutes, plural, zero{{numeric, select, true{de chì à {minutes} menuti} other{sto menuto chì}}} one{de chì à {minutes} menuto} other{de chì à {minutes} menuti}}",
+  "minutesPast": "{minutes, plural, zero{{numeric, select, true{l’é {minutes} menuti} other{sto menuto chì}}} one{l’é {minutes} menuto} other{l’é {minutes} menuti}}",
+  "secondsFuture": "{seconds, plural, zero{{numeric, select, true{de chì à {seconds} segondi} other{oua}}} one{de chì à {seconds} segondo} other{de chì à {seconds} segondi}}",
+  "secondsPast": "{seconds, plural, zero{{numeric, select, true{l’é {seconds} segondi} other{oua}}} one{l’é {seconds} segondo} other{l’é {seconds} segondi}}"
+}

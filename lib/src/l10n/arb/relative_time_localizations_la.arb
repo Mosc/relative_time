@@ -1,0 +1,17 @@
+{
+  "@@locale": "la",
+  "yearsFuture": "{years, plural, zero{{numeric, select, true{in {years} annis} other{hoc anno}}} one{{numeric, select, true{in {years} anno} other{postero anno}}} other{in {years} annis}}",
+  "yearsPast": "{years, plural, zero{{numeric, select, true{abhinc {years} annos} other{hoc anno}}} one{{numeric, select, true{abhinc {years} annum} other{priore anno}}} other{abhinc {years} annos}}",
+  "monthsFuture": "{months, plural, zero{{numeric, select, true{in {months} mensibus} other{hac mense}}} one{{numeric, select, true{in {months} mense} other{postera mense}}} other{in {months} mensibus}}",
+  "monthsPast": "{months, plural, zero{{numeric, select, true{abhinc {months} menses} other{hac mense}}} one{{numeric, select, true{abhinc {months} mensem} other{priore mense}}} other{abhinc {months} menses}}",
+  "weeksFuture": "{weeks, plural, zero{{numeric, select, true{in {weeks} hebdomadibus} other{hac hebdomade}}} one{{numeric, select, true{in {weeks} hebdomade} other{postera hebdomade}}} other{in {weeks} hebdomadibus}}",
+  "weeksPast": "{weeks, plural, zero{{numeric, select, true{abhinc {weeks} hebdomades} other{hac hebdomade}}} one{{numeric, select, true{abhinc {weeks} hebdomadem} other{priore hebdomade}}} other{abhinc {weeks} hebdomades}}",
+  "daysFuture": "{days, plural, zero{{numeric, select, true{in {days} diebus} other{hodie}}} one{{numeric, select, true{in {days} die} other{cras}}} other{in {days} diebus}}",
+  "daysPast": "{days, plural, zero{{numeric, select, true{abhinc {days} dies} other{hodie}}} one{{numeric, select, true{abhinc {days} diem} other{pridie}}} other{abhinc {days} dies}}",
+  "hoursFuture": "{hours, plural, zero{{numeric, select, true{in {hours} horis} other{hac hora}}} one{in {hours} hora} other{in {hours} horis}}",
+  "hoursPast": "{hours, plural, zero{{numeric, select, true{abhinc {hours} horas} other{hac hora}}} one{abhinc {hours} horam} other{abhinc {hours} horas}}",
+  "minutesFuture": "{minutes, plural, zero{{numeric, select, true{in {minutes} minutis} other{hac minuta}}} one{in {minutes} minuta} other{in {minutes} minutis}}",
+  "minutesPast": "{minutes, plural, zero{{numeric, select, true{abhinc {minutes} minutas} other{hac minuta}}} one{abhinc {minutes} minutam} other{abhinc {minutes} minutas}}",
+  "secondsFuture": "{seconds, plural, zero{{numeric, select, true{in {seconds} secundis} other{nunc}}} one{in {seconds} secunda} other{in {seconds} secundis}}",
+  "secondsPast": "{seconds, plural, zero{{numeric, select, true{abhinc {seconds} secundas} other{nunc}}} one{abhinc {seconds} secundam} other{abhinc {seconds} secundas}}"
+}
