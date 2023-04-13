@@ -1,3 +1,8 @@
+## 3.2.0
+
+* Add Latin, Ligurian, Rohingya, Syriac, Silesian and Torwali languages.
+* Add Arabic script to Malay language.
+
 ## 3.1.0
 
 * Improve API documentation.
