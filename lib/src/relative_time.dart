@@ -1,9 +1,10 @@
 import 'package:clock/clock.dart';
 import 'package:flutter/widgets.dart';
+import 'package:relative_time/src/int_extension.dart';
 import 'package:relative_time/src/l10n/relative_time_localizations.dart';
 import 'package:relative_time/src/time_unit.dart';
 
-typedef _Formatter = String Function(int, String);
+typedef _Formatter = String Function(num, String, String);
 
 /// Provides a way to format a [DateTime] as relative time.
 class RelativeTime {
@@ -83,7 +84,11 @@ class RelativeTime {
       timeUnit,
       isPast: difference.isNegative,
     );
-    return formatter(timeUnitDifference, numeric.toString());
+    return formatter(
+      timeUnitDifference,
+      _mapDigits(timeUnitDifference),
+      numeric.toString(),
+    );
   }
 
   _Formatter _getFormatter(TimeUnit timeUnit, {required bool isPast}) {
@@ -103,5 +108,22 @@ class RelativeTime {
       case TimeUnit.second:
         return isPast ? localizations.secondsPast : localizations.secondsFuture;
     }
+  }
+
+  String _mapDigits(int number) {
+    final Map<int, String> digitMap = <int, String>{
+      0: localizations.digit0,
+      1: localizations.digit1,
+      2: localizations.digit2,
+      3: localizations.digit3,
+      4: localizations.digit4,
+      5: localizations.digit5,
+      6: localizations.digit6,
+      7: localizations.digit7,
+      8: localizations.digit8,
+      9: localizations.digit9,
+    };
+
+    return number.digits.map((int digit) => digitMap[digit]).join();
   }
 }

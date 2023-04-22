@@ -1,4 +1,4 @@
 {
   "@@locale": "es_MX",
-  "monthsFuture": "{months, plural, zero{{numeric, select, true{en {months} meses} other{este mes}}} one{{numeric, select, true{en {months} mes} other{el mes próximo}}} other{en {months} meses}}"
+  "monthsFuture": "{count, plural, zero{{numeric, select, true{en {digits} meses} other{este mes}}} one{{numeric, select, true{en {digits} mes} other{el mes próximo}}} other{en {digits} meses}}"
 }

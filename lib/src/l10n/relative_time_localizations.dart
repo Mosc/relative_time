@@ -379,86 +379,146 @@ abstract class RelativeTimeLocalizations {
   /// Number of years in the future.
   ///
   /// In en, this message translates to:
-  /// **'{years, plural, zero{{numeric, select, true{in {years} years} other{this year}}} one{{numeric, select, true{in {years} year} other{next year}}} other{in {years} years}}'**
-  String yearsFuture(int years, String numeric);
+  /// **'{count, plural, zero{{numeric, select, true{in {digits} years} other{this year}}} one{{numeric, select, true{in {digits} year} other{next year}}} other{in {digits} years}}'**
+  String yearsFuture(num count, String digits, String numeric);
 
   /// Number of years in the past.
   ///
   /// In en, this message translates to:
-  /// **'{years, plural, zero{{numeric, select, true{{years} years ago} other{this year}}} one{{numeric, select, true{{years} year ago} other{last year}}} other{{years} years ago}}'**
-  String yearsPast(int years, String numeric);
+  /// **'{count, plural, zero{{numeric, select, true{{digits} years ago} other{this year}}} one{{numeric, select, true{{digits} year ago} other{last year}}} other{{digits} years ago}}'**
+  String yearsPast(num count, String digits, String numeric);
 
   /// Number of months in the future.
   ///
   /// In en, this message translates to:
-  /// **'{months, plural, zero{{numeric, select, true{in {months} months} other{this month}}} one{{numeric, select, true{in {months} month} other{next month}}} other{in {months} months}}'**
-  String monthsFuture(int months, String numeric);
+  /// **'{count, plural, zero{{numeric, select, true{in {digits} months} other{this month}}} one{{numeric, select, true{in {digits} month} other{next month}}} other{in {digits} months}}'**
+  String monthsFuture(num count, String digits, String numeric);
 
   /// Number of months in the past.
   ///
   /// In en, this message translates to:
-  /// **'{months, plural, zero{{numeric, select, true{{months} months ago} other{this month}}} one{{numeric, select, true{{months} month ago} other{last month}}} other{{months} months ago}}'**
-  String monthsPast(int months, String numeric);
+  /// **'{count, plural, zero{{numeric, select, true{{digits} months ago} other{this month}}} one{{numeric, select, true{{digits} month ago} other{last month}}} other{{digits} months ago}}'**
+  String monthsPast(num count, String digits, String numeric);
 
   /// Number of weeks in the future.
   ///
   /// In en, this message translates to:
-  /// **'{weeks, plural, zero{{numeric, select, true{in {weeks} weeks} other{this week}}} one{{numeric, select, true{in {weeks} week} other{next week}}} other{in {weeks} weeks}}'**
-  String weeksFuture(int weeks, String numeric);
+  /// **'{count, plural, zero{{numeric, select, true{in {digits} weeks} other{this week}}} one{{numeric, select, true{in {digits} week} other{next week}}} other{in {digits} weeks}}'**
+  String weeksFuture(num count, String digits, String numeric);
 
   /// Number of weeks in the past.
   ///
   /// In en, this message translates to:
-  /// **'{weeks, plural, zero{{numeric, select, true{{weeks} weeks ago} other{this week}}} one{{numeric, select, true{{weeks} week ago} other{last week}}} other{{weeks} weeks ago}}'**
-  String weeksPast(int weeks, String numeric);
+  /// **'{count, plural, zero{{numeric, select, true{{digits} weeks ago} other{this week}}} one{{numeric, select, true{{digits} week ago} other{last week}}} other{{digits} weeks ago}}'**
+  String weeksPast(num count, String digits, String numeric);
 
   /// Number of days in the future.
   ///
   /// In en, this message translates to:
-  /// **'{days, plural, zero{{numeric, select, true{in {days} days} other{today}}} one{{numeric, select, true{in {days} day} other{tomorrow}}} other{in {days} days}}'**
-  String daysFuture(int days, String numeric);
+  /// **'{count, plural, zero{{numeric, select, true{in {digits} days} other{today}}} one{{numeric, select, true{in {digits} day} other{tomorrow}}} other{in {digits} days}}'**
+  String daysFuture(num count, String digits, String numeric);
 
   /// Number of days in the past.
   ///
   /// In en, this message translates to:
-  /// **'{days, plural, zero{{numeric, select, true{{days} days ago} other{today}}} one{{numeric, select, true{{days} day ago} other{yesterday}}} other{{days} days ago}}'**
-  String daysPast(int days, String numeric);
+  /// **'{count, plural, zero{{numeric, select, true{{digits} days ago} other{today}}} one{{numeric, select, true{{digits} day ago} other{yesterday}}} other{{digits} days ago}}'**
+  String daysPast(num count, String digits, String numeric);
 
   /// Number of hours in the future.
   ///
   /// In en, this message translates to:
-  /// **'{hours, plural, zero{{numeric, select, true{in {hours} hours} other{this hour}}} one{in {hours} hour} other{in {hours} hours}}'**
-  String hoursFuture(int hours, String numeric);
+  /// **'{count, plural, zero{{numeric, select, true{in {digits} hours} other{this hour}}} one{in {digits} hour} other{in {digits} hours}}'**
+  String hoursFuture(num count, String digits, String numeric);
 
   /// Number of hours in the past.
   ///
   /// In en, this message translates to:
-  /// **'{hours, plural, zero{{numeric, select, true{{hours} hours ago} other{this hour}}} one{{hours} hour ago} other{{hours} hours ago}}'**
-  String hoursPast(int hours, String numeric);
+  /// **'{count, plural, zero{{numeric, select, true{{digits} hours ago} other{this hour}}} one{{digits} hour ago} other{{digits} hours ago}}'**
+  String hoursPast(num count, String digits, String numeric);
 
   /// Number of minutes in the future.
   ///
   /// In en, this message translates to:
-  /// **'{minutes, plural, zero{{numeric, select, true{in {minutes} minutes} other{this minute}}} one{in {minutes} minute} other{in {minutes} minutes}}'**
-  String minutesFuture(int minutes, String numeric);
+  /// **'{count, plural, zero{{numeric, select, true{in {digits} minutes} other{this minute}}} one{in {digits} minute} other{in {digits} minutes}}'**
+  String minutesFuture(num count, String digits, String numeric);
 
   /// Number of minutes in the past.
   ///
   /// In en, this message translates to:
-  /// **'{minutes, plural, zero{{numeric, select, true{{minutes} minutes ago} other{this minute}}} one{{minutes} minute ago} other{{minutes} minutes ago}}'**
-  String minutesPast(int minutes, String numeric);
+  /// **'{count, plural, zero{{numeric, select, true{{digits} minutes ago} other{this minute}}} one{{digits} minute ago} other{{digits} minutes ago}}'**
+  String minutesPast(num count, String digits, String numeric);
 
   /// Number of seconds in the future.
   ///
   /// In en, this message translates to:
-  /// **'{seconds, plural, zero{{numeric, select, true{in {seconds} seconds} other{now}}} one{in {seconds} second} other{in {seconds} seconds}}'**
-  String secondsFuture(int seconds, String numeric);
+  /// **'{count, plural, zero{{numeric, select, true{in {digits} seconds} other{now}}} one{in {digits} second} other{in {digits} seconds}}'**
+  String secondsFuture(num count, String digits, String numeric);
 
   /// Number of seconds in the past.
   ///
   /// In en, this message translates to:
-  /// **'{seconds, plural, zero{{numeric, select, true{{seconds} seconds ago} other{now}}} one{{seconds} second ago} other{{seconds} seconds ago}}'**
-  String secondsPast(int seconds, String numeric);
+  /// **'{count, plural, zero{{numeric, select, true{{digits} seconds ago} other{now}}} one{{digits} second ago} other{{digits} seconds ago}}'**
+  String secondsPast(num count, String digits, String numeric);
+
+  /// An equivalent to the digit 0.
+  ///
+  /// In en, this message translates to:
+  /// **'0'**
+  String get digit0;
+
+  /// An equivalent to the digit 1.
+  ///
+  /// In en, this message translates to:
+  /// **'1'**
+  String get digit1;
+
+  /// An equivalent to the digit 2.
+  ///
+  /// In en, this message translates to:
+  /// **'2'**
+  String get digit2;
+
+  /// An equivalent to the digit 3.
+  ///
+  /// In en, this message translates to:
+  /// **'3'**
+  String get digit3;
+
+  /// An equivalent to the digit 4.
+  ///
+  /// In en, this message translates to:
+  /// **'4'**
+  String get digit4;
+
+  /// An equivalent to the digit 5.
+  ///
+  /// In en, this message translates to:
+  /// **'5'**
+  String get digit5;
+
+  /// An equivalent to the digit 6.
+  ///
+  /// In en, this message translates to:
+  /// **'6'**
+  String get digit6;
+
+  /// An equivalent to the digit 7.
+  ///
+  /// In en, this message translates to:
+  /// **'7'**
+  String get digit7;
+
+  /// An equivalent to the digit 8.
+  ///
+  /// In en, this message translates to:
+  /// **'8'**
+  String get digit8;
+
+  /// An equivalent to the digit 9.
+  ///
+  /// In en, this message translates to:
+  /// **'9'**
+  String get digit9;
 }
 
 class _RelativeTimeLocalizationsDelegate

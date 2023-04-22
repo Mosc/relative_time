@@ -1,143 +1,253 @@
 {
   "@@locale": "en",
-  "yearsFuture": "{years, plural, zero{{numeric, select, true{in {years} years} other{this year}}} one{{numeric, select, true{in {years} year} other{next year}}} other{in {years} years}}",
+  "yearsFuture": "{count, plural, zero{{numeric, select, true{in {digits} years} other{this year}}} one{{numeric, select, true{in {digits} year} other{next year}}} other{in {digits} years}}",
   "@yearsFuture": {
     "description": "Number of years in the future.",
     "placeholders": {
-      "years": {
-        "type": "int"
+      "count": {
+        "type": "num"
       },
-      "numeric": {}
+      "digits": {
+        "type": "String"
+      },
+      "numeric": {
+        "type": "String"
+      }
     }
   },
-  "yearsPast": "{years, plural, zero{{numeric, select, true{{years} years ago} other{this year}}} one{{numeric, select, true{{years} year ago} other{last year}}} other{{years} years ago}}",
+  "yearsPast": "{count, plural, zero{{numeric, select, true{{digits} years ago} other{this year}}} one{{numeric, select, true{{digits} year ago} other{last year}}} other{{digits} years ago}}",
   "@yearsPast": {
     "description": "Number of years in the past.",
     "placeholders": {
-      "years": {
-        "type": "int"
+      "count": {
+        "type": "num"
       },
-      "numeric": {}
+      "digits": {
+        "type": "String"
+      },
+      "numeric": {
+        "type": "String"
+      }
     }
   },
-  "monthsFuture": "{months, plural, zero{{numeric, select, true{in {months} months} other{this month}}} one{{numeric, select, true{in {months} month} other{next month}}} other{in {months} months}}",
+  "monthsFuture": "{count, plural, zero{{numeric, select, true{in {digits} months} other{this month}}} one{{numeric, select, true{in {digits} month} other{next month}}} other{in {digits} months}}",
   "@monthsFuture": {
     "description": "Number of months in the future.",
     "placeholders": {
-      "months": {
-        "type": "int"
+      "count": {
+        "type": "num"
       },
-      "numeric": {}
+      "digits": {
+        "type": "String"
+      },
+      "numeric": {
+        "type": "String"
+      }
     }
   },
-  "monthsPast": "{months, plural, zero{{numeric, select, true{{months} months ago} other{this month}}} one{{numeric, select, true{{months} month ago} other{last month}}} other{{months} months ago}}",
+  "monthsPast": "{count, plural, zero{{numeric, select, true{{digits} months ago} other{this month}}} one{{numeric, select, true{{digits} month ago} other{last month}}} other{{digits} months ago}}",
   "@monthsPast": {
     "description": "Number of months in the past.",
     "placeholders": {
-      "months": {
-        "type": "int"
+      "count": {
+        "type": "num"
       },
-      "numeric": {}
+      "digits": {
+        "type": "String"
+      },
+      "numeric": {
+        "type": "String"
+      }
     }
   },
-  "weeksFuture": "{weeks, plural, zero{{numeric, select, true{in {weeks} weeks} other{this week}}} one{{numeric, select, true{in {weeks} week} other{next week}}} other{in {weeks} weeks}}",
+  "weeksFuture": "{count, plural, zero{{numeric, select, true{in {digits} weeks} other{this week}}} one{{numeric, select, true{in {digits} week} other{next week}}} other{in {digits} weeks}}",
   "@weeksFuture": {
     "description": "Number of weeks in the future.",
     "placeholders": {
-      "weeks": {
-        "type": "int"
+      "count": {
+        "type": "num"
       },
-      "numeric": {}
+      "digits": {
+        "type": "String"
+      },
+      "numeric": {
+        "type": "String"
+      }
     }
   },
-  "weeksPast": "{weeks, plural, zero{{numeric, select, true{{weeks} weeks ago} other{this week}}} one{{numeric, select, true{{weeks} week ago} other{last week}}} other{{weeks} weeks ago}}",
+  "weeksPast": "{count, plural, zero{{numeric, select, true{{digits} weeks ago} other{this week}}} one{{numeric, select, true{{digits} week ago} other{last week}}} other{{digits} weeks ago}}",
   "@weeksPast": {
     "description": "Number of weeks in the past.",
     "placeholders": {
-      "weeks": {
-        "type": "int"
+      "count": {
+        "type": "num"
       },
-      "numeric": {}
+      "digits": {
+        "type": "String"
+      },
+      "numeric": {
+        "type": "String"
+      }
     }
   },
-  "daysFuture": "{days, plural, zero{{numeric, select, true{in {days} days} other{today}}} one{{numeric, select, true{in {days} day} other{tomorrow}}} other{in {days} days}}",
+  "daysFuture": "{count, plural, zero{{numeric, select, true{in {digits} days} other{today}}} one{{numeric, select, true{in {digits} day} other{tomorrow}}} other{in {digits} days}}",
   "@daysFuture": {
     "description": "Number of days in the future.",
     "placeholders": {
-      "days": {
-        "type": "int"
+      "count": {
+        "type": "num"
       },
-      "numeric": {}
+      "digits": {
+        "type": "String"
+      },
+      "numeric": {
+        "type": "String"
+      }
     }
   },
-  "daysPast": "{days, plural, zero{{numeric, select, true{{days} days ago} other{today}}} one{{numeric, select, true{{days} day ago} other{yesterday}}} other{{days} days ago}}",
+  "daysPast": "{count, plural, zero{{numeric, select, true{{digits} days ago} other{today}}} one{{numeric, select, true{{digits} day ago} other{yesterday}}} other{{digits} days ago}}",
   "@daysPast": {
     "description": "Number of days in the past.",
     "placeholders": {
-      "days": {
-        "type": "int"
+      "count": {
+        "type": "num"
       },
-      "numeric": {}
+      "digits": {
+        "type": "String"
+      },
+      "numeric": {
+        "type": "String"
+      }
     }
   },
-  "hoursFuture": "{hours, plural, zero{{numeric, select, true{in {hours} hours} other{this hour}}} one{in {hours} hour} other{in {hours} hours}}",
+  "hoursFuture": "{count, plural, zero{{numeric, select, true{in {digits} hours} other{this hour}}} one{in {digits} hour} other{in {digits} hours}}",
   "@hoursFuture": {
     "description": "Number of hours in the future.",
     "placeholders": {
-      "hours": {
-        "type": "int"
+      "count": {
+        "type": "num"
       },
-      "numeric": {}
+      "digits": {
+        "type": "String"
+      },
+      "numeric": {
+        "type": "String"
+      }
     }
   },
-  "hoursPast": "{hours, plural, zero{{numeric, select, true{{hours} hours ago} other{this hour}}} one{{hours} hour ago} other{{hours} hours ago}}",
+  "hoursPast": "{count, plural, zero{{numeric, select, true{{digits} hours ago} other{this hour}}} one{{digits} hour ago} other{{digits} hours ago}}",
   "@hoursPast": {
     "description": "Number of hours in the past.",
     "placeholders": {
-      "hours": {
-        "type": "int"
+      "count": {
+        "type": "num"
       },
-      "numeric": {}
+      "digits": {
+        "type": "String"
+      },
+      "numeric": {
+        "type": "String"
+      }
     }
   },
-  "minutesFuture": "{minutes, plural, zero{{numeric, select, true{in {minutes} minutes} other{this minute}}} one{in {minutes} minute} other{in {minutes} minutes}}",
+  "minutesFuture": "{count, plural, zero{{numeric, select, true{in {digits} minutes} other{this minute}}} one{in {digits} minute} other{in {digits} minutes}}",
   "@minutesFuture": {
     "description": "Number of minutes in the future.",
     "placeholders": {
-      "minutes": {
-        "type": "int"
+      "count": {
+        "type": "num"
       },
-      "numeric": {}
+      "digits": {
+        "type": "String"
+      },
+      "numeric": {
+        "type": "String"
+      }
     }
   },
-  "minutesPast": "{minutes, plural, zero{{numeric, select, true{{minutes} minutes ago} other{this minute}}} one{{minutes} minute ago} other{{minutes} minutes ago}}",
+  "minutesPast": "{count, plural, zero{{numeric, select, true{{digits} minutes ago} other{this minute}}} one{{digits} minute ago} other{{digits} minutes ago}}",
   "@minutesPast": {
     "description": "Number of minutes in the past.",
     "placeholders": {
-      "minutes": {
-        "type": "int"
+      "count": {
+        "type": "num"
       },
-      "numeric": {}
+      "digits": {
+        "type": "String"
+      },
+      "numeric": {
+        "type": "String"
+      }
     }
   },
-  "secondsFuture": "{seconds, plural, zero{{numeric, select, true{in {seconds} seconds} other{now}}} one{in {seconds} second} other{in {seconds} seconds}}",
+  "secondsFuture": "{count, plural, zero{{numeric, select, true{in {digits} seconds} other{now}}} one{in {digits} second} other{in {digits} seconds}}",
   "@secondsFuture": {
     "description": "Number of seconds in the future.",
     "placeholders": {
-      "seconds": {
-        "type": "int"
+      "count": {
+        "type": "num"
       },
-      "numeric": {}
+      "digits": {
+        "type": "String"
+      },
+      "numeric": {
+        "type": "String"
+      }
     }
   },
-  "secondsPast": "{seconds, plural, zero{{numeric, select, true{{seconds} seconds ago} other{now}}} one{{seconds} second ago} other{{seconds} seconds ago}}",
+  "secondsPast": "{count, plural, zero{{numeric, select, true{{digits} seconds ago} other{now}}} one{{digits} second ago} other{{digits} seconds ago}}",
   "@secondsPast": {
     "description": "Number of seconds in the past.",
     "placeholders": {
-      "seconds": {
-        "type": "int"
+      "count": {
+        "type": "num"
       },
-      "numeric": {}
+      "digits": {
+        "type": "String"
+      },
+      "numeric": {
+        "type": "String"
+      }
     }
+  },
+  "digit0": "0",
+  "@digit0": {
+    "description": "An equivalent to the digit 0."
+  },
+  "digit1": "1",
+  "@digit1": {
+    "description": "An equivalent to the digit 1."
+  },
+  "digit2": "2",
+  "@digit2": {
+    "description": "An equivalent to the digit 2."
+  },
+  "digit3": "3",
+  "@digit3": {
+    "description": "An equivalent to the digit 3."
+  },
+  "digit4": "4",
+  "@digit4": {
+    "description": "An equivalent to the digit 4."
+  },
+  "digit5": "5",
+  "@digit5": {
+    "description": "An equivalent to the digit 5."
+  },
+  "digit6": "6",
+  "@digit6": {
+    "description": "An equivalent to the digit 6."
+  },
+  "digit7": "7",
+  "@digit7": {
+    "description": "An equivalent to the digit 7."
+  },
+  "digit8": "8",
+  "@digit8": {
+    "description": "An equivalent to the digit 8."
+  },
+  "digit9": "9",
+  "@digit9": {
+    "description": "An equivalent to the digit 9."
   }
 }

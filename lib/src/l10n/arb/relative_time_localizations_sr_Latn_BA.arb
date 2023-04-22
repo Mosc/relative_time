@@ -1,12 +1,12 @@
 {
   "@@locale": "sr_Latn_BA",
-  "yearsPast": "{years, plural, zero{{numeric, select, true{prije {years} godina} other{ove godine}}} one{{numeric, select, true{prije {years} godine} other{prošle godine}}} few{prije {years} godine} other{prije {years} godina}}",
-  "monthsFuture": "{months, plural, zero{{numeric, select, true{za {months} mjeseci} other{ovog mjeseca}}} one{{numeric, select, true{za {months} mjesec} other{sljedećeg mjeseca}}} few{za {months} mjeseca} other{za {months} mjeseci}}",
-  "monthsPast": "{months, plural, zero{{numeric, select, true{prije {months} mjeseci} other{ovog mjeseca}}} one{{numeric, select, true{prije {months} mjeseca} other{prošlog mjeseca}}} few{prije {months} mjeseca} other{prije {months} mjeseci}}",
-  "weeksFuture": "{weeks, plural, zero{{numeric, select, true{za {weeks} sedmica} other{ove sedmice}}} one{{numeric, select, true{za {weeks} sedmicu} other{sljedeće sedmice}}} few{za {weeks} sedmice} other{za {weeks} sedmica}}",
-  "weeksPast": "{weeks, plural, zero{{numeric, select, true{prije {weeks} sedmica} other{ove sedmice}}} one{{numeric, select, true{prije {weeks} sedmice} other{prošle sedmice}}} few{prije {weeks} sedmice} other{prije {weeks} sedmica}}",
-  "daysPast": "prije {days} dana",
-  "hoursPast": "{hours, plural, one{prije {hours} sata} few{prije {hours} sata} other{prije {hours} sati}}",
-  "minutesPast": "prije {minutes} minuta",
-  "secondsPast": "{seconds, plural, one{prije {seconds} sekunde} few{prije {seconds} sekunde} other{prije {seconds} sekundi}}"
+  "yearsPast": "{count, plural, zero{{numeric, select, true{prije {digits} godina} other{ove godine}}} one{{numeric, select, true{prije {digits} godine} other{prošle godine}}} few{prije {digits} godine} other{prije {digits} godina}}",
+  "monthsFuture": "{count, plural, zero{{numeric, select, true{za {digits} mjeseci} other{ovog mjeseca}}} one{{numeric, select, true{za {digits} mjesec} other{sljedećeg mjeseca}}} few{za {digits} mjeseca} other{za {digits} mjeseci}}",
+  "monthsPast": "{count, plural, zero{{numeric, select, true{prije {digits} mjeseci} other{ovog mjeseca}}} one{{numeric, select, true{prije {digits} mjeseca} other{prošlog mjeseca}}} few{prije {digits} mjeseca} other{prije {digits} mjeseci}}",
+  "weeksFuture": "{count, plural, zero{{numeric, select, true{za {digits} sedmica} other{ove sedmice}}} one{{numeric, select, true{za {digits} sedmicu} other{sljedeće sedmice}}} few{za {digits} sedmice} other{za {digits} sedmica}}",
+  "weeksPast": "{count, plural, zero{{numeric, select, true{prije {digits} sedmica} other{ove sedmice}}} one{{numeric, select, true{prije {digits} sedmice} other{prošle sedmice}}} few{prije {digits} sedmice} other{prije {digits} sedmica}}",
+  "daysPast": "prije {digits} dana",
+  "hoursPast": "{count, plural, one{prije {digits} sata} few{prije {digits} sata} other{prije {digits} sati}}",
+  "minutesPast": "prije {digits} minuta",
+  "secondsPast": "{count, plural, one{prije {digits} sekunde} few{prije {digits} sekunde} other{prije {digits} sekundi}}"
 }

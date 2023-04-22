@@ -7,25 +7,25 @@ class RelativeTimeLocalizationsEl extends RelativeTimeLocalizations {
   RelativeTimeLocalizationsEl([String locale = 'el']) : super(locale);
 
   @override
-  String yearsFuture(int years, String numeric) {
+  String yearsFuture(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'σε $years έτος',
+        'true': 'σε $digits έτος',
         'other': 'επόμενο έτος',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'σε $years έτη',
+        'true': 'σε $digits έτη',
         'other': 'φέτος',
       },
     );
     String temp2 = intl.Intl.pluralLogic(
-      years,
+      count,
       locale: localeName,
-      other: 'σε $years έτη',
+      other: 'σε $digits έτη',
       one: temp0,
       zero: temp1,
     );
@@ -33,25 +33,25 @@ class RelativeTimeLocalizationsEl extends RelativeTimeLocalizations {
   }
 
   @override
-  String yearsPast(int years, String numeric) {
+  String yearsPast(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'πριν από $years έτος',
+        'true': 'πριν από $digits έτος',
         'other': 'πέρσι',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'πριν από $years έτη',
+        'true': 'πριν από $digits έτη',
         'other': 'φέτος',
       },
     );
     String temp2 = intl.Intl.pluralLogic(
-      years,
+      count,
       locale: localeName,
-      other: 'πριν από $years έτη',
+      other: 'πριν από $digits έτη',
       one: temp0,
       zero: temp1,
     );
@@ -59,25 +59,25 @@ class RelativeTimeLocalizationsEl extends RelativeTimeLocalizations {
   }
 
   @override
-  String monthsFuture(int months, String numeric) {
+  String monthsFuture(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'σε $months μήνα',
+        'true': 'σε $digits μήνα',
         'other': 'επόμενος μήνας',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'σε $months μήνες',
+        'true': 'σε $digits μήνες',
         'other': 'τρέχων μήνας',
       },
     );
     String temp2 = intl.Intl.pluralLogic(
-      months,
+      count,
       locale: localeName,
-      other: 'σε $months μήνες',
+      other: 'σε $digits μήνες',
       one: temp0,
       zero: temp1,
     );
@@ -85,25 +85,25 @@ class RelativeTimeLocalizationsEl extends RelativeTimeLocalizations {
   }
 
   @override
-  String monthsPast(int months, String numeric) {
+  String monthsPast(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'πριν από $months μήνα',
+        'true': 'πριν από $digits μήνα',
         'other': 'προηγούμενος μήνας',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'πριν από $months μήνες',
+        'true': 'πριν από $digits μήνες',
         'other': 'τρέχων μήνας',
       },
     );
     String temp2 = intl.Intl.pluralLogic(
-      months,
+      count,
       locale: localeName,
-      other: 'πριν από $months μήνες',
+      other: 'πριν από $digits μήνες',
       one: temp0,
       zero: temp1,
     );
@@ -111,25 +111,25 @@ class RelativeTimeLocalizationsEl extends RelativeTimeLocalizations {
   }
 
   @override
-  String weeksFuture(int weeks, String numeric) {
+  String weeksFuture(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'σε $weeks εβδομάδα',
+        'true': 'σε $digits εβδομάδα',
         'other': 'επόμενη εβδομάδα',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'σε $weeks εβδομάδες',
+        'true': 'σε $digits εβδομάδες',
         'other': 'τρέχουσα εβδομάδα',
       },
     );
     String temp2 = intl.Intl.pluralLogic(
-      weeks,
+      count,
       locale: localeName,
-      other: 'σε $weeks εβδομάδες',
+      other: 'σε $digits εβδομάδες',
       one: temp0,
       zero: temp1,
     );
@@ -137,25 +137,25 @@ class RelativeTimeLocalizationsEl extends RelativeTimeLocalizations {
   }
 
   @override
-  String weeksPast(int weeks, String numeric) {
+  String weeksPast(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'πριν από $weeks εβδομάδα',
+        'true': 'πριν από $digits εβδομάδα',
         'other': 'προηγούμενη εβδομάδα',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'πριν από $weeks εβδομάδες',
+        'true': 'πριν από $digits εβδομάδες',
         'other': 'τρέχουσα εβδομάδα',
       },
     );
     String temp2 = intl.Intl.pluralLogic(
-      weeks,
+      count,
       locale: localeName,
-      other: 'πριν από $weeks εβδομάδες',
+      other: 'πριν από $digits εβδομάδες',
       one: temp0,
       zero: temp1,
     );
@@ -163,32 +163,32 @@ class RelativeTimeLocalizationsEl extends RelativeTimeLocalizations {
   }
 
   @override
-  String daysFuture(int days, String numeric) {
+  String daysFuture(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'σε $days ημέρες',
+        'true': 'σε $digits ημέρες',
         'other': 'μεθαύριο',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'σε $days ημέρα',
+        'true': 'σε $digits ημέρα',
         'other': 'αύριο',
       },
     );
     String temp2 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'σε $days ημέρες',
+        'true': 'σε $digits ημέρες',
         'other': 'σήμερα',
       },
     );
     String temp3 = intl.Intl.pluralLogic(
-      days,
+      count,
       locale: localeName,
-      other: 'σε $days ημέρες',
+      other: 'σε $digits ημέρες',
       two: temp0,
       one: temp1,
       zero: temp2,
@@ -197,32 +197,32 @@ class RelativeTimeLocalizationsEl extends RelativeTimeLocalizations {
   }
 
   @override
-  String daysPast(int days, String numeric) {
+  String daysPast(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'πριν από $days ημέρες',
+        'true': 'πριν από $digits ημέρες',
         'other': 'προχθές',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'πριν από $days ημέρα',
+        'true': 'πριν από $digits ημέρα',
         'other': 'χθες',
       },
     );
     String temp2 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'πριν από $days ημέρες',
+        'true': 'πριν από $digits ημέρες',
         'other': 'σήμερα',
       },
     );
     String temp3 = intl.Intl.pluralLogic(
-      days,
+      count,
       locale: localeName,
-      other: 'πριν από $days ημέρες',
+      other: 'πριν από $digits ημέρες',
       two: temp0,
       one: temp1,
       zero: temp2,
@@ -231,116 +231,146 @@ class RelativeTimeLocalizationsEl extends RelativeTimeLocalizations {
   }
 
   @override
-  String hoursFuture(int hours, String numeric) {
+  String hoursFuture(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'σε $hours ώρες',
+        'true': 'σε $digits ώρες',
         'other': 'τρέχουσα ώρα',
       },
     );
     String temp1 = intl.Intl.pluralLogic(
-      hours,
+      count,
       locale: localeName,
-      other: 'σε $hours ώρες',
-      one: 'σε $hours ώρα',
+      other: 'σε $digits ώρες',
+      one: 'σε $digits ώρα',
       zero: temp0,
     );
     return temp1;
   }
 
   @override
-  String hoursPast(int hours, String numeric) {
+  String hoursPast(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'πριν από $hours ώρες',
+        'true': 'πριν από $digits ώρες',
         'other': 'τρέχουσα ώρα',
       },
     );
     String temp1 = intl.Intl.pluralLogic(
-      hours,
+      count,
       locale: localeName,
-      other: 'πριν από $hours ώρες',
-      one: 'πριν από $hours ώρα',
+      other: 'πριν από $digits ώρες',
+      one: 'πριν από $digits ώρα',
       zero: temp0,
     );
     return temp1;
   }
 
   @override
-  String minutesFuture(int minutes, String numeric) {
+  String minutesFuture(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'σε $minutes λεπτά',
+        'true': 'σε $digits λεπτά',
         'other': 'τρέχον λεπτό',
       },
     );
     String temp1 = intl.Intl.pluralLogic(
-      minutes,
+      count,
       locale: localeName,
-      other: 'σε $minutes λεπτά',
-      one: 'σε $minutes λεπτό',
+      other: 'σε $digits λεπτά',
+      one: 'σε $digits λεπτό',
       zero: temp0,
     );
     return temp1;
   }
 
   @override
-  String minutesPast(int minutes, String numeric) {
+  String minutesPast(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'πριν από $minutes λεπτά',
+        'true': 'πριν από $digits λεπτά',
         'other': 'τρέχον λεπτό',
       },
     );
     String temp1 = intl.Intl.pluralLogic(
-      minutes,
+      count,
       locale: localeName,
-      other: 'πριν από $minutes λεπτά',
-      one: 'πριν από $minutes λεπτό',
+      other: 'πριν από $digits λεπτά',
+      one: 'πριν από $digits λεπτό',
       zero: temp0,
     );
     return temp1;
   }
 
   @override
-  String secondsFuture(int seconds, String numeric) {
+  String secondsFuture(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'σε $seconds δευτερόλεπτα',
+        'true': 'σε $digits δευτερόλεπτα',
         'other': 'τώρα',
       },
     );
     String temp1 = intl.Intl.pluralLogic(
-      seconds,
+      count,
       locale: localeName,
-      other: 'σε $seconds δευτερόλεπτα',
-      one: 'σε $seconds δευτερόλεπτο',
+      other: 'σε $digits δευτερόλεπτα',
+      one: 'σε $digits δευτερόλεπτο',
       zero: temp0,
     );
     return temp1;
   }
 
   @override
-  String secondsPast(int seconds, String numeric) {
+  String secondsPast(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'πριν από $seconds δευτερόλεπτα',
+        'true': 'πριν από $digits δευτερόλεπτα',
         'other': 'τώρα',
       },
     );
     String temp1 = intl.Intl.pluralLogic(
-      seconds,
+      count,
       locale: localeName,
-      other: 'πριν από $seconds δευτερόλεπτα',
-      one: 'πριν από $seconds δευτερόλεπτο',
+      other: 'πριν από $digits δευτερόλεπτα',
+      one: 'πριν από $digits δευτερόλεπτο',
       zero: temp0,
     );
     return temp1;
   }
+
+  @override
+  String get digit0 => '0';
+
+  @override
+  String get digit1 => '1';
+
+  @override
+  String get digit2 => '2';
+
+  @override
+  String get digit3 => '3';
+
+  @override
+  String get digit4 => '4';
+
+  @override
+  String get digit5 => '5';
+
+  @override
+  String get digit6 => '6';
+
+  @override
+  String get digit7 => '7';
+
+  @override
+  String get digit8 => '8';
+
+  @override
+  String get digit9 => '9';
 }

@@ -1,7 +1,7 @@
 {
   "@@locale": "zh_Hant_HK",
-  "weeksFuture": "{weeks, plural, zero{{numeric, select, true{{weeks} 星期後} other{本星期}}} one{{numeric, select, true{{weeks} 星期後} other{下星期}}} other{{weeks} 星期後}}",
-  "weeksPast": "{weeks, plural, zero{{numeric, select, true{{weeks} 星期前} other{本星期}}} one{{numeric, select, true{{weeks} 星期前} other{上星期}}} other{{weeks} 星期前}}",
-  "daysFuture": "{days, plural, zero{{numeric, select, true{{days} 日後} other{今日}}} one{{numeric, select, true{{days} 日後} other{明日}}} two{{numeric, select, true{{days} 日後} other{後日}}} other{{days} 日後}}",
-  "daysPast": "{days, plural, zero{{numeric, select, true{{days} 日前} other{今日}}} one{{numeric, select, true{{days} 日前} other{昨日}}} two{{numeric, select, true{{days} 日前} other{前日}}} other{{days} 日前}}"
+  "weeksFuture": "{count, plural, zero{{numeric, select, true{{digits} 星期後} other{本星期}}} one{{numeric, select, true{{digits} 星期後} other{下星期}}} other{{digits} 星期後}}",
+  "weeksPast": "{count, plural, zero{{numeric, select, true{{digits} 星期前} other{本星期}}} one{{numeric, select, true{{digits} 星期前} other{上星期}}} other{{digits} 星期前}}",
+  "daysFuture": "{count, plural, zero{{numeric, select, true{{digits} 日後} other{今日}}} one{{numeric, select, true{{digits} 日後} other{明日}}} two{{numeric, select, true{{digits} 日後} other{後日}}} other{{digits} 日後}}",
+  "daysPast": "{count, plural, zero{{numeric, select, true{{digits} 日前} other{今日}}} one{{numeric, select, true{{digits} 日前} other{昨日}}} two{{numeric, select, true{{digits} 日前} other{前日}}} other{{digits} 日前}}"
 }

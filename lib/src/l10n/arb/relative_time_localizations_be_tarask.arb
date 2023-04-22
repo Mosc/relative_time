@@ -1,9 +1,9 @@
 {
   "@@locale": "be_tarask",
-  "hoursFuture": "{hours, plural, zero{{numeric, select, true{праз {hours} гадзіны} other{у гэтую гадзіну}}} one{праз {hours} гадзіну} many{праз {hours} гадзінаў} other{праз {hours} гадзіны}}",
-  "hoursPast": "{hours, plural, zero{{numeric, select, true{{hours} гадзіны таму} other{у гэтую гадзіну}}} one{{hours} гадзіну таму} many{{hours} гадзінаў таму} other{{hours} гадзіны таму}}",
-  "minutesFuture": "{minutes, plural, zero{{numeric, select, true{праз {minutes} хвіліны} other{у гэтую хвіліну}}} one{праз {minutes} хвіліну} many{праз {minutes} хвілінаў} other{праз {minutes} хвіліны}}",
-  "minutesPast": "{minutes, plural, zero{{numeric, select, true{{minutes} хвіліны таму} other{у гэтую хвіліну}}} one{{minutes} хвіліну таму} many{{minutes} хвілінаў таму} other{{minutes} хвіліны таму}}",
-  "secondsFuture": "{seconds, plural, one{праз {seconds} сэкунду} many{праз {seconds} сэкундаў} other{праз {seconds} сэкунды}}",
-  "secondsPast": "{seconds, plural, one{{seconds} сэкунду таму} many{{seconds} сэкундаў таму} other{{seconds} сэкунды таму}}"
+  "hoursFuture": "{count, plural, zero{{numeric, select, true{праз {digits} гадзіны} other{у гэтую гадзіну}}} one{праз {digits} гадзіну} many{праз {digits} гадзінаў} other{праз {digits} гадзіны}}",
+  "hoursPast": "{count, plural, zero{{numeric, select, true{{digits} гадзіны таму} other{у гэтую гадзіну}}} one{{digits} гадзіну таму} many{{digits} гадзінаў таму} other{{digits} гадзіны таму}}",
+  "minutesFuture": "{count, plural, zero{{numeric, select, true{праз {digits} хвіліны} other{у гэтую хвіліну}}} one{праз {digits} хвіліну} many{праз {digits} хвілінаў} other{праз {digits} хвіліны}}",
+  "minutesPast": "{count, plural, zero{{numeric, select, true{{digits} хвіліны таму} other{у гэтую хвіліну}}} one{{digits} хвіліну таму} many{{digits} хвілінаў таму} other{{digits} хвіліны таму}}",
+  "secondsFuture": "{count, plural, one{праз {digits} сэкунду} many{праз {digits} сэкундаў} other{праз {digits} сэкунды}}",
+  "secondsPast": "{count, plural, one{{digits} сэкунду таму} many{{digits} сэкундаў таму} other{{digits} сэкунды таму}}"
 }

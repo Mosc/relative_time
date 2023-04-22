@@ -1,10 +1,10 @@
 {
   "@@locale": "pt_PT",
-  "yearsFuture": "{years, plural, one{dentro de {years} ano} other{dentro de {years} anos}}",
-  "monthsFuture": "{months, plural, one{dentro de {months} mês} other{dentro de {months} meses}}",
-  "weeksFuture": "{weeks, plural, one{dentro de {weeks} semana} other{dentro de {weeks} semanas}}",
-  "daysFuture": "{days, plural, one{dentro de {days} dia} other{dentro de {days} dias}}",
-  "hoursFuture": "{hours, plural, one{dentro de {hours} hora} other{dentro de {hours} horas}}",
-  "minutesFuture": "{minutes, plural, one{dentro de {minutes} minuto} other{dentro de {minutes} minutos}}",
-  "secondsFuture": "{seconds, plural, one{dentro de {seconds} segundo} other{dentro de {seconds} segundos}}"
+  "yearsFuture": "{count, plural, one{dentro de {digits} ano} other{dentro de {digits} anos}}",
+  "monthsFuture": "{count, plural, one{dentro de {digits} mês} other{dentro de {digits} meses}}",
+  "weeksFuture": "{count, plural, one{dentro de {digits} semana} other{dentro de {digits} semanas}}",
+  "daysFuture": "{count, plural, one{dentro de {digits} dia} other{dentro de {digits} dias}}",
+  "hoursFuture": "{count, plural, one{dentro de {digits} hora} other{dentro de {digits} horas}}",
+  "minutesFuture": "{count, plural, one{dentro de {digits} minuto} other{dentro de {digits} minutos}}",
+  "secondsFuture": "{count, plural, one{dentro de {digits} segundo} other{dentro de {digits} segundos}}"
 }

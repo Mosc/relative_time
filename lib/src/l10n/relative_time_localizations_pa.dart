@@ -7,25 +7,25 @@ class RelativeTimeLocalizationsPa extends RelativeTimeLocalizations {
   RelativeTimeLocalizationsPa([String locale = 'pa']) : super(locale);
 
   @override
-  String yearsFuture(int years, String numeric) {
+  String yearsFuture(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$years ਸਾਲ ਵਿੱਚ',
+        'true': '$digits ਸਾਲ ਵਿੱਚ',
         'other': 'ਅਗਲਾ ਸਾਲ',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$years ਸਾਲਾਂ ਵਿੱਚ',
+        'true': '$digits ਸਾਲਾਂ ਵਿੱਚ',
         'other': 'ਇਹ ਸਾਲ',
       },
     );
     String temp2 = intl.Intl.pluralLogic(
-      years,
+      count,
       locale: localeName,
-      other: '$years ਸਾਲਾਂ ਵਿੱਚ',
+      other: '$digits ਸਾਲਾਂ ਵਿੱਚ',
       one: temp0,
       zero: temp1,
     );
@@ -33,25 +33,25 @@ class RelativeTimeLocalizationsPa extends RelativeTimeLocalizations {
   }
 
   @override
-  String yearsPast(int years, String numeric) {
+  String yearsPast(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$years ਸਾਲ ਪਹਿਲਾਂ',
+        'true': '$digits ਸਾਲ ਪਹਿਲਾਂ',
         'other': 'ਪਿਛਲਾ ਸਾਲ',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$years ਸਾਲ ਪਹਿਲਾਂ',
+        'true': '$digits ਸਾਲ ਪਹਿਲਾਂ',
         'other': 'ਇਹ ਸਾਲ',
       },
     );
     String temp2 = intl.Intl.pluralLogic(
-      years,
+      count,
       locale: localeName,
-      other: '$years ਸਾਲ ਪਹਿਲਾਂ',
+      other: '$digits ਸਾਲ ਪਹਿਲਾਂ',
       one: temp0,
       zero: temp1,
     );
@@ -59,25 +59,25 @@ class RelativeTimeLocalizationsPa extends RelativeTimeLocalizations {
   }
 
   @override
-  String monthsFuture(int months, String numeric) {
+  String monthsFuture(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$months ਮਹੀਨੇ ਵਿੱਚ',
+        'true': '$digits ਮਹੀਨੇ ਵਿੱਚ',
         'other': 'ਅਗਲਾ ਮਹੀਨਾ',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$months ਮਹੀਨਿਆਂ ਵਿੱਚ',
+        'true': '$digits ਮਹੀਨਿਆਂ ਵਿੱਚ',
         'other': 'ਇਹ ਮਹੀਨਾ',
       },
     );
     String temp2 = intl.Intl.pluralLogic(
-      months,
+      count,
       locale: localeName,
-      other: '$months ਮਹੀਨਿਆਂ ਵਿੱਚ',
+      other: '$digits ਮਹੀਨਿਆਂ ਵਿੱਚ',
       one: temp0,
       zero: temp1,
     );
@@ -85,25 +85,25 @@ class RelativeTimeLocalizationsPa extends RelativeTimeLocalizations {
   }
 
   @override
-  String monthsPast(int months, String numeric) {
+  String monthsPast(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$months ਮਹੀਨਾ ਪਹਿਲਾਂ',
+        'true': '$digits ਮਹੀਨਾ ਪਹਿਲਾਂ',
         'other': 'ਪਿਛਲਾ ਮਹੀਨਾ',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$months ਮਹੀਨੇ ਪਹਿਲਾਂ',
+        'true': '$digits ਮਹੀਨੇ ਪਹਿਲਾਂ',
         'other': 'ਇਹ ਮਹੀਨਾ',
       },
     );
     String temp2 = intl.Intl.pluralLogic(
-      months,
+      count,
       locale: localeName,
-      other: '$months ਮਹੀਨੇ ਪਹਿਲਾਂ',
+      other: '$digits ਮਹੀਨੇ ਪਹਿਲਾਂ',
       one: temp0,
       zero: temp1,
     );
@@ -111,25 +111,25 @@ class RelativeTimeLocalizationsPa extends RelativeTimeLocalizations {
   }
 
   @override
-  String weeksFuture(int weeks, String numeric) {
+  String weeksFuture(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$weeks ਹਫ਼ਤੇ ਵਿੱਚ',
+        'true': '$digits ਹਫ਼ਤੇ ਵਿੱਚ',
         'other': 'ਅਗਲਾ ਹਫ਼ਤਾ',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$weeks ਹਫ਼ਤਿਆਂ ਵਿੱਚ',
+        'true': '$digits ਹਫ਼ਤਿਆਂ ਵਿੱਚ',
         'other': 'ਇਹ ਹਫ਼ਤਾ',
       },
     );
     String temp2 = intl.Intl.pluralLogic(
-      weeks,
+      count,
       locale: localeName,
-      other: '$weeks ਹਫ਼ਤਿਆਂ ਵਿੱਚ',
+      other: '$digits ਹਫ਼ਤਿਆਂ ਵਿੱਚ',
       one: temp0,
       zero: temp1,
     );
@@ -137,25 +137,25 @@ class RelativeTimeLocalizationsPa extends RelativeTimeLocalizations {
   }
 
   @override
-  String weeksPast(int weeks, String numeric) {
+  String weeksPast(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$weeks ਹਫ਼ਤਾ ਪਹਿਲਾਂ',
+        'true': '$digits ਹਫ਼ਤਾ ਪਹਿਲਾਂ',
         'other': 'ਪਿਛਲਾ ਹਫ਼ਤਾ',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$weeks ਹਫ਼ਤੇ ਪਹਿਲਾਂ',
+        'true': '$digits ਹਫ਼ਤੇ ਪਹਿਲਾਂ',
         'other': 'ਇਹ ਹਫ਼ਤਾ',
       },
     );
     String temp2 = intl.Intl.pluralLogic(
-      weeks,
+      count,
       locale: localeName,
-      other: '$weeks ਹਫ਼ਤੇ ਪਹਿਲਾਂ',
+      other: '$digits ਹਫ਼ਤੇ ਪਹਿਲਾਂ',
       one: temp0,
       zero: temp1,
     );
@@ -163,25 +163,25 @@ class RelativeTimeLocalizationsPa extends RelativeTimeLocalizations {
   }
 
   @override
-  String daysFuture(int days, String numeric) {
+  String daysFuture(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$days ਦਿਨ ਵਿੱਚ',
+        'true': '$digits ਦਿਨ ਵਿੱਚ',
         'other': 'ਭਲਕੇ',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$days ਦਿਨਾਂ ਵਿੱਚ',
+        'true': '$digits ਦਿਨਾਂ ਵਿੱਚ',
         'other': 'ਅੱਜ',
       },
     );
     String temp2 = intl.Intl.pluralLogic(
-      days,
+      count,
       locale: localeName,
-      other: '$days ਦਿਨਾਂ ਵਿੱਚ',
+      other: '$digits ਦਿਨਾਂ ਵਿੱਚ',
       one: temp0,
       zero: temp1,
     );
@@ -189,25 +189,25 @@ class RelativeTimeLocalizationsPa extends RelativeTimeLocalizations {
   }
 
   @override
-  String daysPast(int days, String numeric) {
+  String daysPast(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$days ਦਿਨ ਪਹਿਲਾਂ',
+        'true': '$digits ਦਿਨ ਪਹਿਲਾਂ',
         'other': 'ਬੀਤਿਆ ਕੱਲ੍ਹ',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$days ਦਿਨ ਪਹਿਲਾਂ',
+        'true': '$digits ਦਿਨ ਪਹਿਲਾਂ',
         'other': 'ਅੱਜ',
       },
     );
     String temp2 = intl.Intl.pluralLogic(
-      days,
+      count,
       locale: localeName,
-      other: '$days ਦਿਨ ਪਹਿਲਾਂ',
+      other: '$digits ਦਿਨ ਪਹਿਲਾਂ',
       one: temp0,
       zero: temp1,
     );
@@ -215,114 +215,144 @@ class RelativeTimeLocalizationsPa extends RelativeTimeLocalizations {
   }
 
   @override
-  String hoursFuture(int hours, String numeric) {
+  String hoursFuture(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$hours ਘੰਟਿਆਂ ਵਿੱਚ',
+        'true': '$digits ਘੰਟਿਆਂ ਵਿੱਚ',
         'other': 'ਇਸ ਘੰਟੇ',
       },
     );
     String temp1 = intl.Intl.pluralLogic(
-      hours,
+      count,
       locale: localeName,
-      other: '$hours ਘੰਟਿਆਂ ਵਿੱਚ',
-      one: '$hours ਘੰਟੇ ਵਿੱਚ',
+      other: '$digits ਘੰਟਿਆਂ ਵਿੱਚ',
+      one: '$digits ਘੰਟੇ ਵਿੱਚ',
       zero: temp0,
     );
     return temp1;
   }
 
   @override
-  String hoursPast(int hours, String numeric) {
+  String hoursPast(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$hours ਘੰਟੇ ਪਹਿਲਾਂ',
+        'true': '$digits ਘੰਟੇ ਪਹਿਲਾਂ',
         'other': 'ਇਸ ਘੰਟੇ',
       },
     );
     String temp1 = intl.Intl.pluralLogic(
-      hours,
+      count,
       locale: localeName,
-      other: '$hours ਘੰਟੇ ਪਹਿਲਾਂ',
-      one: '$hours ਘੰਟਾ ਪਹਿਲਾਂ',
+      other: '$digits ਘੰਟੇ ਪਹਿਲਾਂ',
+      one: '$digits ਘੰਟਾ ਪਹਿਲਾਂ',
       zero: temp0,
     );
     return temp1;
   }
 
   @override
-  String minutesFuture(int minutes, String numeric) {
+  String minutesFuture(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$minutes ਮਿੰਟਾਂ ਵਿੱਚ',
+        'true': '$digits ਮਿੰਟਾਂ ਵਿੱਚ',
         'other': 'ਇਸ ਮਿੰਟ',
       },
     );
     String temp1 = intl.Intl.pluralLogic(
-      minutes,
+      count,
       locale: localeName,
-      other: '$minutes ਮਿੰਟਾਂ ਵਿੱਚ',
-      one: '$minutes ਮਿੰਟ ਵਿੱਚ',
+      other: '$digits ਮਿੰਟਾਂ ਵਿੱਚ',
+      one: '$digits ਮਿੰਟ ਵਿੱਚ',
       zero: temp0,
     );
     return temp1;
   }
 
   @override
-  String minutesPast(int minutes, String numeric) {
+  String minutesPast(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$minutes ਮਿੰਟ ਪਹਿਲਾਂ',
+        'true': '$digits ਮਿੰਟ ਪਹਿਲਾਂ',
         'other': 'ਇਸ ਮਿੰਟ',
       },
     );
     String temp1 = intl.Intl.pluralLogic(
-      minutes,
+      count,
       locale: localeName,
-      other: '$minutes ਮਿੰਟ ਪਹਿਲਾਂ',
+      other: '$digits ਮਿੰਟ ਪਹਿਲਾਂ',
       zero: temp0,
     );
     return temp1;
   }
 
   @override
-  String secondsFuture(int seconds, String numeric) {
+  String secondsFuture(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$seconds ਸਕਿੰਟਾਂ ਵਿੱਚ',
+        'true': '$digits ਸਕਿੰਟਾਂ ਵਿੱਚ',
         'other': 'ਹੁਣ',
       },
     );
     String temp1 = intl.Intl.pluralLogic(
-      seconds,
+      count,
       locale: localeName,
-      other: '$seconds ਸਕਿੰਟਾਂ ਵਿੱਚ',
-      one: '$seconds ਸਕਿੰਟ ਵਿੱਚ',
+      other: '$digits ਸਕਿੰਟਾਂ ਵਿੱਚ',
+      one: '$digits ਸਕਿੰਟ ਵਿੱਚ',
       zero: temp0,
     );
     return temp1;
   }
 
   @override
-  String secondsPast(int seconds, String numeric) {
+  String secondsPast(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$seconds ਸਕਿੰਟ ਪਹਿਲਾਂ',
+        'true': '$digits ਸਕਿੰਟ ਪਹਿਲਾਂ',
         'other': 'ਹੁਣ',
       },
     );
     String temp1 = intl.Intl.pluralLogic(
-      seconds,
+      count,
       locale: localeName,
-      other: '$seconds ਸਕਿੰਟ ਪਹਿਲਾਂ',
+      other: '$digits ਸਕਿੰਟ ਪਹਿਲਾਂ',
       zero: temp0,
     );
     return temp1;
   }
+
+  @override
+  String get digit0 => '0';
+
+  @override
+  String get digit1 => '1';
+
+  @override
+  String get digit2 => '2';
+
+  @override
+  String get digit3 => '3';
+
+  @override
+  String get digit4 => '4';
+
+  @override
+  String get digit5 => '5';
+
+  @override
+  String get digit6 => '6';
+
+  @override
+  String get digit7 => '7';
+
+  @override
+  String get digit8 => '8';
+
+  @override
+  String get digit9 => '9';
 }

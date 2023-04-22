@@ -4,7 +4,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:relative_time/relative_time.dart';
 
 const Locale english = Locale('en');
-const Locale dutch = Locale('nl');
+const Locale arabic = Locale('ar');
 const Locale simplifiedChinese =
     Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hans');
 
@@ -467,9 +467,10 @@ void main() {
   test(
     'Using locale returns localized result',
     () => _testFormat(
-      fromNow: (DateTime now) => now,
-      matcher: 'nu',
-      locale: dutch,
+      fromNow: (DateTime now) => now.add(const Duration(seconds: 42)),
+      matcher: 'خلال ٤٢ ثانية',
+      locale: arabic,
+      numeric: true,
     ),
   );
 

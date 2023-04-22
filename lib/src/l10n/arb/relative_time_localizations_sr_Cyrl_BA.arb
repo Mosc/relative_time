@@ -1,12 +1,12 @@
 {
   "@@locale": "sr_Cyrl_BA",
-  "yearsPast": "{years, plural, zero{{numeric, select, true{прије {years} година} other{ове године}}} one{{numeric, select, true{прије {years} године} other{прошле године}}} few{прије {years} године} other{прије {years} година}}",
-  "monthsFuture": "{months, plural, zero{{numeric, select, true{за {months} мјесеци} other{овог мјесеца}}} one{{numeric, select, true{за {months} мјесец} other{сљедећег мјесеца}}} few{за {months} мјесеца} other{за {months} мјесеци}}",
-  "monthsPast": "{months, plural, zero{{numeric, select, true{прије {months} мјесеци} other{овог мјесеца}}} one{{numeric, select, true{прије {months} мјесеца} other{прошлог мјесеца}}} few{прије {months} мјесеца} other{прије {months} мјесеци}}",
-  "weeksFuture": "{weeks, plural, zero{{numeric, select, true{за {weeks} седмица} other{ове седмице}}} one{{numeric, select, true{за {weeks} седмицу} other{сљедеће седмице}}} few{за {weeks} седмице} other{за {weeks} седмица}}",
-  "weeksPast": "{weeks, plural, zero{{numeric, select, true{прије {weeks} седмица} other{ове седмице}}} one{{numeric, select, true{прије {weeks} седмице} other{прошле седмице}}} few{прије {weeks} седмице} other{прије {weeks} седмица}}",
-  "daysPast": "прије {days} дана",
-  "hoursPast": "{hours, plural, one{прије {hours} сата} few{прије {hours} сата} other{прије {hours} сати}}",
-  "minutesPast": "прије {minutes} минута",
-  "secondsPast": "{seconds, plural, one{прије {seconds} секунде} few{прије {seconds} секунде} other{прије {seconds} секунди}}"
+  "yearsPast": "{count, plural, zero{{numeric, select, true{прије {digits} година} other{ове године}}} one{{numeric, select, true{прије {digits} године} other{прошле године}}} few{прије {digits} године} other{прије {digits} година}}",
+  "monthsFuture": "{count, plural, zero{{numeric, select, true{за {digits} мјесеци} other{овог мјесеца}}} one{{numeric, select, true{за {digits} мјесец} other{сљедећег мјесеца}}} few{за {digits} мјесеца} other{за {digits} мјесеци}}",
+  "monthsPast": "{count, plural, zero{{numeric, select, true{прије {digits} мјесеци} other{овог мјесеца}}} one{{numeric, select, true{прије {digits} мјесеца} other{прошлог мјесеца}}} few{прије {digits} мјесеца} other{прије {digits} мјесеци}}",
+  "weeksFuture": "{count, plural, zero{{numeric, select, true{за {digits} седмица} other{ове седмице}}} one{{numeric, select, true{за {digits} седмицу} other{сљедеће седмице}}} few{за {digits} седмице} other{за {digits} седмица}}",
+  "weeksPast": "{count, plural, zero{{numeric, select, true{прије {digits} седмица} other{ове седмице}}} one{{numeric, select, true{прије {digits} седмице} other{прошле седмице}}} few{прије {digits} седмице} other{прије {digits} седмица}}",
+  "daysPast": "прије {digits} дана",
+  "hoursPast": "{count, plural, one{прије {digits} сата} few{прије {digits} сата} other{прије {digits} сати}}",
+  "minutesPast": "прије {digits} минута",
+  "secondsPast": "{count, plural, one{прије {digits} секунде} few{прије {digits} секунде} other{прије {digits} секунди}}"
 }

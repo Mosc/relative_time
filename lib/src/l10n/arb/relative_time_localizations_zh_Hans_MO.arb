@@ -1,5 +1,5 @@
 {
   "@@locale": "zh_Hans_MO",
-  "secondsFuture": "{seconds}秒后",
-  "secondsPast": "{seconds}秒前"
+  "secondsFuture": "{digits}秒后",
+  "secondsPast": "{digits}秒前"
 }

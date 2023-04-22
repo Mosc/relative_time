@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 
+import 'package:characters/characters.dart';
 import 'package:collection/collection.dart';
 import 'package:intl/intl.dart' as intl;
 import 'package:path/path.dart' as path;
@@ -17,6 +18,7 @@ const List<String> supportedDateFieldTypes = <String>[
 ];
 
 const String templateLocale = 'en';
+const String templateNumberingSystem = 'latn';
 
 const Map<int, String> relativeCountMapping = <int, String>{
   0: 'zero',
@@ -31,20 +33,20 @@ const Map<String, String> localeMapping = <String, String>{
 
 const String inheritanceMarker = '↑↑↑';
 
-const inputPath = 'input';
-final outputPath = path.join('..', '..', 'lib', 'src', 'l10n');
-final arbPath = path.join(outputPath, 'arb');
+const String inputPath = 'input';
+final String mainPath = path.join(inputPath, 'main');
+final String supplementalPath = path.join(inputPath, 'supplemental');
+final String numberingSystemsPath =
+    path.join(supplementalPath, 'numberingSystems.xml');
+final String outputPath = path.join('..', '..', 'lib', 'src', 'l10n');
+final String arbPath = path.join(outputPath, 'arb');
 
 void main() {
-  var outputDirectory = Directory(outputPath);
+  _prepareOutputDirectories();
 
-  if (outputDirectory.existsSync()) {
-    outputDirectory.deleteSync(recursive: true);
-  }
+  final Map<String, List<String>> numberingSystems = _getNumberingSystems();
 
-  Directory(arbPath).createSync(recursive: true);
-
-  final List<String> inputFilePaths = Directory(inputPath)
+  final List<String> mainFilePaths = Directory(mainPath)
       .listSync()
       .map((FileSystemEntity fileSystemEntity) => fileSystemEntity.path)
       .where((String filePath) => path.extension(filePath) == '.xml')
@@ -52,30 +54,30 @@ void main() {
     ..sort();
   final Set<String> locales = <String>{};
 
-  for (final String inputFilePath in inputFilePaths) {
-    final File inputFile = File(inputFilePath);
-    final XmlDocument document =
-        XmlDocument.parse(inputFile.readAsStringSync());
-    final Iterable<XmlElement>? dateFields = document
-        .getElement('ldml')
-        ?.getElement('dates')
-        ?.getElement('fields')
-        ?.findElements('field');
-
-    if (dateFields == null) {
-      continue;
-    }
-
-    String locale = path.basenameWithoutExtension(inputFilePath);
+  for (final String mainFilePath in mainFilePaths) {
+    String locale = path.basenameWithoutExtension(mainFilePath);
 
     if (locale.toLowerCase() == 'root') {
       continue;
     }
 
+    final File mainFile = File(mainFilePath);
+    final XmlDocument mainDocument =
+        XmlDocument.parse(mainFile.readAsStringSync());
+    final Iterable<XmlElement>? dateFieldElements = mainDocument
+        .getElement('ldml')
+        ?.getElement('dates')
+        ?.getElement('fields')
+        ?.findElements('field');
+
+    if (dateFieldElements == null) {
+      continue;
+    }
+
     final Map<String, dynamic> entries = <String, dynamic>{};
 
-    for (final XmlElement dateField in dateFields) {
-      final String dateFieldType = _getXmlAttributeValue(dateField, 'type');
+    for (final XmlElement element in dateFieldElements) {
+      final String dateFieldType = _getXmlAttributeValue(element, 'type');
 
       if (!supportedDateFieldTypes.contains(dateFieldType)) {
         continue;
@@ -84,7 +86,7 @@ void main() {
       final String dateFieldTypePlural = '${dateFieldType}s';
       entries.addEntries(
         _getEntries(
-          dateField: dateField,
+          dateFieldElement: element,
           dateType: dateFieldTypePlural,
           locale: locale,
         ),
@@ -105,36 +107,95 @@ void main() {
       locale = language;
     }
 
+    final String? numberingSystem = mainDocument
+        .getElement('ldml')
+        ?.getElement('numbers')
+        ?.findElements('defaultNumberingSystem')
+        .firstOrNull
+        ?.text;
+
+    if (numberingSystem != null &&
+            numberingSystems.keys.contains(numberingSystem) &&
+            numberingSystem != templateNumberingSystem ||
+        locale == templateLocale) {
+      entries.addEntries(
+        numberingSystems[numberingSystem ?? templateNumberingSystem]!
+            .mapIndexed<Iterable<MapEntry<String, dynamic>>>(
+                (index, digit) sync* {
+          final key = 'digit$index';
+          yield MapEntry<String, dynamic>(key, digit);
+
+          if (locale == templateLocale) {
+            yield MapEntry<String, dynamic>(
+              '@$key',
+              <String, dynamic>{
+                'description': 'An equivalent to the digit $index.',
+              },
+            );
+          }
+        }).flattened,
+      );
+    }
+
     _writeArb(locale, entries);
     locales.add(locale);
   }
 }
 
+void _prepareOutputDirectories() {
+  final Directory outputDirectory = Directory(outputPath);
+
+  if (outputDirectory.existsSync()) {
+    outputDirectory.deleteSync(recursive: true);
+  }
+
+  Directory(arbPath).createSync(recursive: true);
+}
+
+Map<String, List<String>> _getNumberingSystems() {
+  final File numberingSystemsFile = File(numberingSystemsPath);
+  final XmlDocument numberingSystemsDocument =
+      XmlDocument.parse(numberingSystemsFile.readAsStringSync());
+  final Iterable<XmlElement> numberingSystemElements = numberingSystemsDocument
+      .getElement('supplementalData')!
+      .getElement('numberingSystems')!
+      .findElements('numberingSystem')
+      .where(
+        (XmlElement element) =>
+            _getXmlAttributeValue(element, 'type') == 'numeric',
+      );
+  return <String, List<String>>{
+    for (final XmlElement element in numberingSystemElements)
+      _getXmlAttributeValue(element, 'id'):
+          _getXmlAttributeValue(element, 'digits').characters.toList(),
+  };
+}
+
 Iterable<MapEntry<String, dynamic>> _getEntries({
-  required XmlElement dateField,
+  required XmlElement dateFieldElement,
   required String dateType,
   required String locale,
 }) sync* {
   isNotInheriting(XmlElement element) => element.text != inheritanceMarker;
 
-  final Iterable<XmlElement> relatives =
-      dateField.findElements('relative').where(isNotInheriting);
-  final Iterable<XmlElement> relativeTimes =
-      dateField.findElements('relativeTime');
+  final Iterable<XmlElement> relativeElements =
+      dateFieldElement.findElements('relative').where(isNotInheriting);
+  final Iterable<XmlElement> relativeTimeElements =
+      dateFieldElement.findElements('relativeTime');
 
-  for (final XmlElement relativeTime in relativeTimes) {
-    final String relativeTimeType = _getXmlAttributeValue(relativeTime, 'type');
-    final Iterable<XmlElement> relativeTimePatterns =
-        relativeTime.findElements('relativeTimePattern').where(isNotInheriting);
+  for (final XmlElement element in relativeTimeElements) {
+    final String relativeTimeType = _getXmlAttributeValue(element, 'type');
+    final Iterable<XmlElement> relativeTimePatternElements =
+        element.findElements('relativeTimePattern').where(isNotInheriting);
 
     yield* _getPluralEntries(
       relativePlurals: _getRelativePlurals(
-        relatives: relatives,
+        relativeElements: relativeElements,
         dateType: dateType,
         relativeTimeType: relativeTimeType,
       ),
       relativeTimePatternPlurals: _getRelativeTimePatternPlurals(
-        relativeTimePatterns: relativeTimePatterns,
+        relativeTimePatternElements: relativeTimePatternElements,
         dateType: dateType,
         relativeTimeType: relativeTimeType,
       ),
@@ -146,22 +207,22 @@ Iterable<MapEntry<String, dynamic>> _getEntries({
 }
 
 Map<String, String> _getRelativePlurals({
-  required Iterable<XmlElement> relatives,
+  required Iterable<XmlElement> relativeElements,
   required String relativeTimeType,
   required String dateType,
 }) {
   final Map<String, String> relativeTimePatternPlurals = <String, String>{};
   final Map<int, String> relativePlurals = <int, String>{};
 
-  for (final XmlElement relative in relatives) {
-    final int amount = int.parse(_getXmlAttributeValue(relative, 'type'));
+  for (final XmlElement element in relativeElements) {
+    final int amount = int.parse(_getXmlAttributeValue(element, 'type'));
 
     if (amount <= 0 && relativeTimeType == 'past' ||
         amount >= 0 && relativeTimeType == 'future') {
       final int key = amount.abs();
 
       if (key <= 2) {
-        relativePlurals[key] = relative.text;
+        relativePlurals[key] = element.text;
       }
     }
   }
@@ -178,17 +239,17 @@ Map<String, String> _getRelativePlurals({
 }
 
 Map<String, String> _getRelativeTimePatternPlurals({
-  required Iterable<XmlElement> relativeTimePatterns,
+  required Iterable<XmlElement> relativeTimePatternElements,
   required String dateType,
   required String relativeTimeType,
 }) {
   final Map<String, String> relativeTimePatternPluralsNumeric =
       <String, String>{};
 
-  for (final XmlElement relativeTimePattern in relativeTimePatterns) {
+  for (final XmlElement element in relativeTimePatternElements) {
     final MapEntry<String, String> relativeTimePatternEntry =
         _getRelativeTimePatternEntry(
-      relativeTimePattern: relativeTimePattern,
+      relativeTimePatternElement: element,
       dateType: dateType,
     );
     relativeTimePatternPluralsNumeric[relativeTimePatternEntry.key] =
@@ -199,15 +260,15 @@ Map<String, String> _getRelativeTimePatternPlurals({
 }
 
 MapEntry<String, String> _getRelativeTimePatternEntry({
-  required XmlElement relativeTimePattern,
+  required XmlElement relativeTimePatternElement,
   required String dateType,
 }) {
-  final String key = _getXmlAttributeValue(relativeTimePattern, 'count');
-  final String value = relativeTimePattern.text.replaceFirst(
+  final String key = _getXmlAttributeValue(relativeTimePatternElement, 'count');
+  final String value = relativeTimePatternElement.text.replaceFirst(
     // '{0}' should normally suffice, but one entry for the Hausa language in
     // CLDR v38-v43 incorrectly uses '{0}}'. Let's be liberal in our matching.
     RegExp(r'\{+0\}+'),
-    '{$dateType}',
+    '{digits}',
   );
   return MapEntry<String, String>(key, value);
 }
@@ -236,7 +297,7 @@ Iterable<MapEntry<String, dynamic>> _getPluralEntries({
       for (final MapEntry<String, String> plural in plurals)
         '${plural.key}{${plural.value}}'
     ].join(' ');
-    yield MapEntry<String, String>(key, '{$dateType, plural, $pluralsJoined}');
+    yield MapEntry<String, String>(key, '{count, plural, $pluralsJoined}');
   } else {
     yield MapEntry<String, String>(key, plurals.single.value);
   }
@@ -247,10 +308,15 @@ Iterable<MapEntry<String, dynamic>> _getPluralEntries({
       <String, dynamic>{
         'description': 'Number of $dateType in the $relativeTimeType.',
         'placeholders': <String, dynamic>{
-          dateType: <String, dynamic>{
-            'type': 'int',
+          'count': <String, dynamic>{
+            'type': 'num',
           },
-          'numeric': <String, dynamic>{},
+          'digits': <String, dynamic>{
+            'type': 'String',
+          },
+          'numeric': <String, dynamic>{
+            'type': 'String',
+          },
         },
       },
     );

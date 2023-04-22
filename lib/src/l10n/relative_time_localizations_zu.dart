@@ -7,25 +7,25 @@ class RelativeTimeLocalizationsZu extends RelativeTimeLocalizations {
   RelativeTimeLocalizationsZu([String locale = 'zu']) : super(locale);
 
   @override
-  String yearsFuture(int years, String numeric) {
+  String yearsFuture(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'onyakeni ongu-$years ozayo',
+        'true': 'onyakeni ongu-$digits ozayo',
         'other': 'unyaka ozayo',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'eminyakeni engu-$years ezayo',
+        'true': 'eminyakeni engu-$digits ezayo',
         'other': 'kulo nyaka',
       },
     );
     String temp2 = intl.Intl.pluralLogic(
-      years,
+      count,
       locale: localeName,
-      other: 'eminyakeni engu-$years ezayo',
+      other: 'eminyakeni engu-$digits ezayo',
       one: temp0,
       zero: temp1,
     );
@@ -33,25 +33,25 @@ class RelativeTimeLocalizationsZu extends RelativeTimeLocalizations {
   }
 
   @override
-  String yearsPast(int years, String numeric) {
+  String yearsPast(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$years unyaka odlule',
+        'true': '$digits unyaka odlule',
         'other': 'onyakeni odlule',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$years iminyaka edlule',
+        'true': '$digits iminyaka edlule',
         'other': 'kulo nyaka',
       },
     );
     String temp2 = intl.Intl.pluralLogic(
-      years,
+      count,
       locale: localeName,
-      other: '$years iminyaka edlule',
+      other: '$digits iminyaka edlule',
       one: temp0,
       zero: temp1,
     );
@@ -59,25 +59,25 @@ class RelativeTimeLocalizationsZu extends RelativeTimeLocalizations {
   }
 
   @override
-  String monthsFuture(int months, String numeric) {
+  String monthsFuture(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'enyangeni engu-$months',
+        'true': 'enyangeni engu-$digits',
         'other': 'inyanga ezayo',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'ezinyangeni ezingu-$months ezizayo',
+        'true': 'ezinyangeni ezingu-$digits ezizayo',
         'other': 'le nyanga',
       },
     );
     String temp2 = intl.Intl.pluralLogic(
-      months,
+      count,
       locale: localeName,
-      other: 'ezinyangeni ezingu-$months ezizayo',
+      other: 'ezinyangeni ezingu-$digits ezizayo',
       one: temp0,
       zero: temp1,
     );
@@ -85,25 +85,25 @@ class RelativeTimeLocalizationsZu extends RelativeTimeLocalizations {
   }
 
   @override
-  String monthsPast(int months, String numeric) {
+  String monthsPast(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$months inyanga edlule',
+        'true': '$digits inyanga edlule',
         'other': 'inyanga edlule',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$months izinyanga ezedlule',
+        'true': '$digits izinyanga ezedlule',
         'other': 'le nyanga',
       },
     );
     String temp2 = intl.Intl.pluralLogic(
-      months,
+      count,
       locale: localeName,
-      other: '$months izinyanga ezedlule',
+      other: '$digits izinyanga ezedlule',
       one: temp0,
       zero: temp1,
     );
@@ -111,25 +111,25 @@ class RelativeTimeLocalizationsZu extends RelativeTimeLocalizations {
   }
 
   @override
-  String weeksFuture(int weeks, String numeric) {
+  String weeksFuture(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'evikini elingu-$weeks',
+        'true': 'evikini elingu-$digits',
         'other': 'iviki elizayo',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'emavikini angu-$weeks',
+        'true': 'emavikini angu-$digits',
         'other': 'leli viki',
       },
     );
     String temp2 = intl.Intl.pluralLogic(
-      weeks,
+      count,
       locale: localeName,
-      other: 'emavikini angu-$weeks',
+      other: 'emavikini angu-$digits',
       one: temp0,
       zero: temp1,
     );
@@ -137,25 +137,25 @@ class RelativeTimeLocalizationsZu extends RelativeTimeLocalizations {
   }
 
   @override
-  String weeksPast(int weeks, String numeric) {
+  String weeksPast(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'evikini elingu-$weeks eledlule',
+        'true': 'evikini elingu-$digits eledlule',
         'other': 'iviki eledlule',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'amaviki angu-$weeks edlule',
+        'true': 'amaviki angu-$digits edlule',
         'other': 'leli viki',
       },
     );
     String temp2 = intl.Intl.pluralLogic(
-      weeks,
+      count,
       locale: localeName,
-      other: 'amaviki angu-$weeks edlule',
+      other: 'amaviki angu-$digits edlule',
       one: temp0,
       zero: temp1,
     );
@@ -163,32 +163,32 @@ class RelativeTimeLocalizationsZu extends RelativeTimeLocalizations {
   }
 
   @override
-  String daysFuture(int days, String numeric) {
+  String daysFuture(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'ezinsukwini ezingu-$days ezizayo',
+        'true': 'ezinsukwini ezingu-$digits ezizayo',
         'other': 'usuku olulandela olwakusasa',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'osukwini olungu-$days oluzayo',
+        'true': 'osukwini olungu-$digits oluzayo',
         'other': 'kusasa',
       },
     );
     String temp2 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'ezinsukwini ezingu-$days ezizayo',
+        'true': 'ezinsukwini ezingu-$digits ezizayo',
         'other': 'namhlanje',
       },
     );
     String temp3 = intl.Intl.pluralLogic(
-      days,
+      count,
       locale: localeName,
-      other: 'ezinsukwini ezingu-$days ezizayo',
+      other: 'ezinsukwini ezingu-$digits ezizayo',
       two: temp0,
       one: temp1,
       zero: temp2,
@@ -197,32 +197,32 @@ class RelativeTimeLocalizationsZu extends RelativeTimeLocalizations {
   }
 
   @override
-  String daysPast(int days, String numeric) {
+  String daysPast(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'ezinsukwini ezingu-$days ezedlule.',
+        'true': 'ezinsukwini ezingu-$digits ezedlule.',
         'other': 'usuku olwandulela olwayizolo',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'osukwini olungu-$days olwedlule',
+        'true': 'osukwini olungu-$digits olwedlule',
         'other': 'izolo',
       },
     );
     String temp2 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'ezinsukwini ezingu-$days ezedlule.',
+        'true': 'ezinsukwini ezingu-$digits ezedlule.',
         'other': 'namhlanje',
       },
     );
     String temp3 = intl.Intl.pluralLogic(
-      days,
+      count,
       locale: localeName,
-      other: 'ezinsukwini ezingu-$days ezedlule.',
+      other: 'ezinsukwini ezingu-$digits ezedlule.',
       two: temp0,
       one: temp1,
       zero: temp2,
@@ -231,116 +231,146 @@ class RelativeTimeLocalizationsZu extends RelativeTimeLocalizations {
   }
 
   @override
-  String hoursFuture(int hours, String numeric) {
+  String hoursFuture(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'emahoreni angu-$hours ezayo',
+        'true': 'emahoreni angu-$digits ezayo',
         'other': 'leli hora',
       },
     );
     String temp1 = intl.Intl.pluralLogic(
-      hours,
+      count,
       locale: localeName,
-      other: 'emahoreni angu-$hours ezayo',
-      one: 'ehoreni elingu-$hours elizayo',
+      other: 'emahoreni angu-$digits ezayo',
+      one: 'ehoreni elingu-$digits elizayo',
       zero: temp0,
     );
     return temp1;
   }
 
   @override
-  String hoursPast(int hours, String numeric) {
+  String hoursPast(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'emahoreni angu-$hours edlule',
+        'true': 'emahoreni angu-$digits edlule',
         'other': 'leli hora',
       },
     );
     String temp1 = intl.Intl.pluralLogic(
-      hours,
+      count,
       locale: localeName,
-      other: 'emahoreni angu-$hours edlule',
-      one: '$hours ihora eledlule',
+      other: 'emahoreni angu-$digits edlule',
+      one: '$digits ihora eledlule',
       zero: temp0,
     );
     return temp1;
   }
 
   @override
-  String minutesFuture(int minutes, String numeric) {
+  String minutesFuture(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'kumaminithi angu-$minutes ezayo',
+        'true': 'kumaminithi angu-$digits ezayo',
         'other': 'leli minithi',
       },
     );
     String temp1 = intl.Intl.pluralLogic(
-      minutes,
+      count,
       locale: localeName,
-      other: 'kumaminithi angu-$minutes ezayo',
-      one: 'kuminithi elingu-$minutes elizayo',
+      other: 'kumaminithi angu-$digits ezayo',
+      one: 'kuminithi elingu-$digits elizayo',
       zero: temp0,
     );
     return temp1;
   }
 
   @override
-  String minutesPast(int minutes, String numeric) {
+  String minutesPast(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$minutes amaminithi edlule',
+        'true': '$digits amaminithi edlule',
         'other': 'leli minithi',
       },
     );
     String temp1 = intl.Intl.pluralLogic(
-      minutes,
+      count,
       locale: localeName,
-      other: '$minutes amaminithi edlule',
-      one: '$minutes iminithi eledlule',
+      other: '$digits amaminithi edlule',
+      one: '$digits iminithi eledlule',
       zero: temp0,
     );
     return temp1;
   }
 
   @override
-  String secondsFuture(int seconds, String numeric) {
+  String secondsFuture(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'kumasekhondi angu-$seconds ezayo',
+        'true': 'kumasekhondi angu-$digits ezayo',
         'other': 'manje',
       },
     );
     String temp1 = intl.Intl.pluralLogic(
-      seconds,
+      count,
       locale: localeName,
-      other: 'kumasekhondi angu-$seconds ezayo',
-      one: 'kusekhondi elingu-$seconds elizayo',
+      other: 'kumasekhondi angu-$digits ezayo',
+      one: 'kusekhondi elingu-$digits elizayo',
       zero: temp0,
     );
     return temp1;
   }
 
   @override
-  String secondsPast(int seconds, String numeric) {
+  String secondsPast(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$seconds amasekhondi edlule',
+        'true': '$digits amasekhondi edlule',
         'other': 'manje',
       },
     );
     String temp1 = intl.Intl.pluralLogic(
-      seconds,
+      count,
       locale: localeName,
-      other: '$seconds amasekhondi edlule',
-      one: '$seconds isekhondi eledlule',
+      other: '$digits amasekhondi edlule',
+      one: '$digits isekhondi eledlule',
       zero: temp0,
     );
     return temp1;
   }
+
+  @override
+  String get digit0 => '0';
+
+  @override
+  String get digit1 => '1';
+
+  @override
+  String get digit2 => '2';
+
+  @override
+  String get digit3 => '3';
+
+  @override
+  String get digit4 => '4';
+
+  @override
+  String get digit5 => '5';
+
+  @override
+  String get digit6 => '6';
+
+  @override
+  String get digit7 => '7';
+
+  @override
+  String get digit8 => '8';
+
+  @override
+  String get digit9 => '9';
 }

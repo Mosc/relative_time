@@ -5,4 +5,4 @@
 # Conventional directory for build output.
 build/
 
-/input/*.xml
+/input/*/

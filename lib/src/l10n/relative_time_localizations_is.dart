@@ -7,25 +7,25 @@ class RelativeTimeLocalizationsIs extends RelativeTimeLocalizations {
   RelativeTimeLocalizationsIs([String locale = 'is']) : super(locale);
 
   @override
-  String yearsFuture(int years, String numeric) {
+  String yearsFuture(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'eftir $years ár',
+        'true': 'eftir $digits ár',
         'other': 'á næsta ári',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'eftir $years ár',
+        'true': 'eftir $digits ár',
         'other': 'á þessu ári',
       },
     );
     String temp2 = intl.Intl.pluralLogic(
-      years,
+      count,
       locale: localeName,
-      other: 'eftir $years ár',
+      other: 'eftir $digits ár',
       one: temp0,
       zero: temp1,
     );
@@ -33,25 +33,25 @@ class RelativeTimeLocalizationsIs extends RelativeTimeLocalizations {
   }
 
   @override
-  String yearsPast(int years, String numeric) {
+  String yearsPast(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'fyrir $years ári',
+        'true': 'fyrir $digits ári',
         'other': 'á síðasta ári',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'fyrir $years árum',
+        'true': 'fyrir $digits árum',
         'other': 'á þessu ári',
       },
     );
     String temp2 = intl.Intl.pluralLogic(
-      years,
+      count,
       locale: localeName,
-      other: 'fyrir $years árum',
+      other: 'fyrir $digits árum',
       one: temp0,
       zero: temp1,
     );
@@ -59,25 +59,25 @@ class RelativeTimeLocalizationsIs extends RelativeTimeLocalizations {
   }
 
   @override
-  String monthsFuture(int months, String numeric) {
+  String monthsFuture(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'eftir $months mánuð',
+        'true': 'eftir $digits mánuð',
         'other': 'í næsta mánuði',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'eftir $months mánuði',
+        'true': 'eftir $digits mánuði',
         'other': 'í þessum mánuði',
       },
     );
     String temp2 = intl.Intl.pluralLogic(
-      months,
+      count,
       locale: localeName,
-      other: 'eftir $months mánuði',
+      other: 'eftir $digits mánuði',
       one: temp0,
       zero: temp1,
     );
@@ -85,25 +85,25 @@ class RelativeTimeLocalizationsIs extends RelativeTimeLocalizations {
   }
 
   @override
-  String monthsPast(int months, String numeric) {
+  String monthsPast(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'fyrir $months mánuði',
+        'true': 'fyrir $digits mánuði',
         'other': 'í síðasta mánuði',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'fyrir $months mánuðum',
+        'true': 'fyrir $digits mánuðum',
         'other': 'í þessum mánuði',
       },
     );
     String temp2 = intl.Intl.pluralLogic(
-      months,
+      count,
       locale: localeName,
-      other: 'fyrir $months mánuðum',
+      other: 'fyrir $digits mánuðum',
       one: temp0,
       zero: temp1,
     );
@@ -111,25 +111,25 @@ class RelativeTimeLocalizationsIs extends RelativeTimeLocalizations {
   }
 
   @override
-  String weeksFuture(int weeks, String numeric) {
+  String weeksFuture(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'eftir $weeks viku',
+        'true': 'eftir $digits viku',
         'other': 'í næstu viku',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'eftir $weeks vikur',
+        'true': 'eftir $digits vikur',
         'other': 'í þessari viku',
       },
     );
     String temp2 = intl.Intl.pluralLogic(
-      weeks,
+      count,
       locale: localeName,
-      other: 'eftir $weeks vikur',
+      other: 'eftir $digits vikur',
       one: temp0,
       zero: temp1,
     );
@@ -137,25 +137,25 @@ class RelativeTimeLocalizationsIs extends RelativeTimeLocalizations {
   }
 
   @override
-  String weeksPast(int weeks, String numeric) {
+  String weeksPast(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'fyrir $weeks viku',
+        'true': 'fyrir $digits viku',
         'other': 'í síðustu viku',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'fyrir $weeks vikum',
+        'true': 'fyrir $digits vikum',
         'other': 'í þessari viku',
       },
     );
     String temp2 = intl.Intl.pluralLogic(
-      weeks,
+      count,
       locale: localeName,
-      other: 'fyrir $weeks vikum',
+      other: 'fyrir $digits vikum',
       one: temp0,
       zero: temp1,
     );
@@ -163,32 +163,32 @@ class RelativeTimeLocalizationsIs extends RelativeTimeLocalizations {
   }
 
   @override
-  String daysFuture(int days, String numeric) {
+  String daysFuture(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'eftir $days daga',
+        'true': 'eftir $digits daga',
         'other': 'eftir tvo daga',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'eftir $days dag',
+        'true': 'eftir $digits dag',
         'other': 'á morgun',
       },
     );
     String temp2 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'eftir $days daga',
+        'true': 'eftir $digits daga',
         'other': 'í dag',
       },
     );
     String temp3 = intl.Intl.pluralLogic(
-      days,
+      count,
       locale: localeName,
-      other: 'eftir $days daga',
+      other: 'eftir $digits daga',
       two: temp0,
       one: temp1,
       zero: temp2,
@@ -197,32 +197,32 @@ class RelativeTimeLocalizationsIs extends RelativeTimeLocalizations {
   }
 
   @override
-  String daysPast(int days, String numeric) {
+  String daysPast(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'fyrir $days dögum',
+        'true': 'fyrir $digits dögum',
         'other': 'í fyrradag',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'fyrir $days degi',
+        'true': 'fyrir $digits degi',
         'other': 'í gær',
       },
     );
     String temp2 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'fyrir $days dögum',
+        'true': 'fyrir $digits dögum',
         'other': 'í dag',
       },
     );
     String temp3 = intl.Intl.pluralLogic(
-      days,
+      count,
       locale: localeName,
-      other: 'fyrir $days dögum',
+      other: 'fyrir $digits dögum',
       two: temp0,
       one: temp1,
       zero: temp2,
@@ -231,116 +231,146 @@ class RelativeTimeLocalizationsIs extends RelativeTimeLocalizations {
   }
 
   @override
-  String hoursFuture(int hours, String numeric) {
+  String hoursFuture(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'eftir $hours klukkustundir',
+        'true': 'eftir $digits klukkustundir',
         'other': 'þessa stundina',
       },
     );
     String temp1 = intl.Intl.pluralLogic(
-      hours,
+      count,
       locale: localeName,
-      other: 'eftir $hours klukkustundir',
-      one: 'eftir $hours klukkustund',
+      other: 'eftir $digits klukkustundir',
+      one: 'eftir $digits klukkustund',
       zero: temp0,
     );
     return temp1;
   }
 
   @override
-  String hoursPast(int hours, String numeric) {
+  String hoursPast(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'fyrir $hours klukkustundum',
+        'true': 'fyrir $digits klukkustundum',
         'other': 'þessa stundina',
       },
     );
     String temp1 = intl.Intl.pluralLogic(
-      hours,
+      count,
       locale: localeName,
-      other: 'fyrir $hours klukkustundum',
-      one: 'fyrir $hours klukkustund',
+      other: 'fyrir $digits klukkustundum',
+      one: 'fyrir $digits klukkustund',
       zero: temp0,
     );
     return temp1;
   }
 
   @override
-  String minutesFuture(int minutes, String numeric) {
+  String minutesFuture(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'eftir $minutes mínútur',
+        'true': 'eftir $digits mínútur',
         'other': 'á þessari mínútu',
       },
     );
     String temp1 = intl.Intl.pluralLogic(
-      minutes,
+      count,
       locale: localeName,
-      other: 'eftir $minutes mínútur',
-      one: 'eftir $minutes mínútu',
+      other: 'eftir $digits mínútur',
+      one: 'eftir $digits mínútu',
       zero: temp0,
     );
     return temp1;
   }
 
   @override
-  String minutesPast(int minutes, String numeric) {
+  String minutesPast(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'fyrir $minutes mínútum',
+        'true': 'fyrir $digits mínútum',
         'other': 'á þessari mínútu',
       },
     );
     String temp1 = intl.Intl.pluralLogic(
-      minutes,
+      count,
       locale: localeName,
-      other: 'fyrir $minutes mínútum',
-      one: 'fyrir $minutes mínútu',
+      other: 'fyrir $digits mínútum',
+      one: 'fyrir $digits mínútu',
       zero: temp0,
     );
     return temp1;
   }
 
   @override
-  String secondsFuture(int seconds, String numeric) {
+  String secondsFuture(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'eftir $seconds sekúndur',
+        'true': 'eftir $digits sekúndur',
         'other': 'núna',
       },
     );
     String temp1 = intl.Intl.pluralLogic(
-      seconds,
+      count,
       locale: localeName,
-      other: 'eftir $seconds sekúndur',
-      one: 'eftir $seconds sekúndu',
+      other: 'eftir $digits sekúndur',
+      one: 'eftir $digits sekúndu',
       zero: temp0,
     );
     return temp1;
   }
 
   @override
-  String secondsPast(int seconds, String numeric) {
+  String secondsPast(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'fyrir $seconds sekúndum',
+        'true': 'fyrir $digits sekúndum',
         'other': 'núna',
       },
     );
     String temp1 = intl.Intl.pluralLogic(
-      seconds,
+      count,
       locale: localeName,
-      other: 'fyrir $seconds sekúndum',
-      one: 'fyrir $seconds sekúndu',
+      other: 'fyrir $digits sekúndum',
+      one: 'fyrir $digits sekúndu',
       zero: temp0,
     );
     return temp1;
   }
+
+  @override
+  String get digit0 => '0';
+
+  @override
+  String get digit1 => '1';
+
+  @override
+  String get digit2 => '2';
+
+  @override
+  String get digit3 => '3';
+
+  @override
+  String get digit4 => '4';
+
+  @override
+  String get digit5 => '5';
+
+  @override
+  String get digit6 => '6';
+
+  @override
+  String get digit7 => '7';
+
+  @override
+  String get digit8 => '8';
+
+  @override
+  String get digit9 => '9';
 }
