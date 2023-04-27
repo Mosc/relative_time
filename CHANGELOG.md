@@ -1,3 +1,14 @@
+## 4.0.0
+* **BREAKING**: Use appropriate numbering systems instead of always using Western digits. This affects the following languages:
+  * Fulah (Adlam digits)
+  * Arabic and Sindhi (Arabic-Indic digits)
+  * Persian, Mazanderani, Pashto and Urdu (as used in India) (Extended Arabic-Indic digits)
+  * Assamese and Bangla (Bangla digits)
+  * Chakma (Chakma digits)
+  * Marathi and Nepali (Devanagari digits)
+  * Burmese (Myanmar digits)
+  * Dzongkha (Tibetan digits)
+
 ## 3.2.0
 
 * Add Latin, Ligurian, Rohingya, Syriac, Silesian and Torwali languages.
