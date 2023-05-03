@@ -3,7 +3,7 @@ extension IntExtension on int {
     int number = this;
     int div = 1;
 
-    while (div * 10 < number) {
+    while (div * 10 <= number) {
       div *= 10;
     }
 
