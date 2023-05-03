@@ -1,4 +1,9 @@
+## 4.0.1
+
+* Fix time erroneously being displayed as `null` under specific condition.
+
 ## 4.0.0
+
 * **BREAKING**: Use appropriate numbering systems instead of always using Western digits. This affects the following languages:
   * Fulah (Adlam digits)
   * Arabic and Sindhi (Arabic-Indic digits)
