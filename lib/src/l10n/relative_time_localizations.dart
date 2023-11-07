@@ -12,6 +12,7 @@ import 'relative_time_localizations_as.dart';
 import 'relative_time_localizations_ast.dart';
 import 'relative_time_localizations_az.dart';
 import 'relative_time_localizations_be.dart';
+import 'relative_time_localizations_bew.dart';
 import 'relative_time_localizations_bg.dart';
 import 'relative_time_localizations_bn.dart';
 import 'relative_time_localizations_br.dart';
@@ -55,6 +56,7 @@ import 'relative_time_localizations_hu.dart';
 import 'relative_time_localizations_hy.dart';
 import 'relative_time_localizations_ia.dart';
 import 'relative_time_localizations_id.dart';
+import 'relative_time_localizations_ie.dart';
 import 'relative_time_localizations_is.dart';
 import 'relative_time_localizations_it.dart';
 import 'relative_time_localizations_ja.dart';
@@ -78,6 +80,7 @@ import 'relative_time_localizations_lo.dart';
 import 'relative_time_localizations_lt.dart';
 import 'relative_time_localizations_lv.dart';
 import 'relative_time_localizations_mai.dart';
+import 'relative_time_localizations_mi.dart';
 import 'relative_time_localizations_mk.dart';
 import 'relative_time_localizations_ml.dart';
 import 'relative_time_localizations_mn.dart';
@@ -95,7 +98,6 @@ import 'relative_time_localizations_pcm.dart';
 import 'relative_time_localizations_pl.dart';
 import 'relative_time_localizations_ps.dart';
 import 'relative_time_localizations_pt.dart';
-import 'relative_time_localizations_qu.dart';
 import 'relative_time_localizations_rhg.dart';
 import 'relative_time_localizations_ro.dart';
 import 'relative_time_localizations_ru.dart';
@@ -229,6 +231,7 @@ abstract class RelativeTimeLocalizations {
     Locale('az'),
     Locale('be'),
     Locale.fromSubtags(languageCode: 'be', scriptCode: 'tarask'),
+    Locale('bew'),
     Locale('bg'),
     Locale('bn'),
     Locale('br'),
@@ -274,6 +277,7 @@ abstract class RelativeTimeLocalizations {
     Locale('hy'),
     Locale('ia'),
     Locale('id'),
+    Locale('ie'),
     Locale('is'),
     Locale('it'),
     Locale('ja'),
@@ -297,6 +301,7 @@ abstract class RelativeTimeLocalizations {
     Locale('lt'),
     Locale('lv'),
     Locale('mai'),
+    Locale('mi'),
     Locale('mk'),
     Locale('ml'),
     Locale('mn'),
@@ -317,7 +322,6 @@ abstract class RelativeTimeLocalizations {
     Locale('ps', 'PK'),
     Locale('pt'),
     Locale('pt', 'PT'),
-    Locale('qu'),
     Locale('rhg'),
     Locale('ro'),
     Locale('ru'),
@@ -540,6 +544,7 @@ class _RelativeTimeLocalizationsDelegate
         'ast',
         'az',
         'be',
+        'bew',
         'bg',
         'bn',
         'br',
@@ -583,6 +588,7 @@ class _RelativeTimeLocalizationsDelegate
         'hy',
         'ia',
         'id',
+        'ie',
         'is',
         'it',
         'ja',
@@ -606,6 +612,7 @@ class _RelativeTimeLocalizationsDelegate
         'lt',
         'lv',
         'mai',
+        'mi',
         'mk',
         'ml',
         'mn',
@@ -623,7 +630,6 @@ class _RelativeTimeLocalizationsDelegate
         'pl',
         'ps',
         'pt',
-        'qu',
         'rhg',
         'ro',
         'ru',
@@ -813,6 +819,8 @@ RelativeTimeLocalizations lookupRelativeTimeLocalizations(Locale locale) {
       return RelativeTimeLocalizationsAz();
     case 'be':
       return RelativeTimeLocalizationsBe();
+    case 'bew':
+      return RelativeTimeLocalizationsBew();
     case 'bg':
       return RelativeTimeLocalizationsBg();
     case 'bn':
@@ -899,6 +907,8 @@ RelativeTimeLocalizations lookupRelativeTimeLocalizations(Locale locale) {
       return RelativeTimeLocalizationsIa();
     case 'id':
       return RelativeTimeLocalizationsId();
+    case 'ie':
+      return RelativeTimeLocalizationsIe();
     case 'is':
       return RelativeTimeLocalizationsIs();
     case 'it':
@@ -945,6 +955,8 @@ RelativeTimeLocalizations lookupRelativeTimeLocalizations(Locale locale) {
       return RelativeTimeLocalizationsLv();
     case 'mai':
       return RelativeTimeLocalizationsMai();
+    case 'mi':
+      return RelativeTimeLocalizationsMi();
     case 'mk':
       return RelativeTimeLocalizationsMk();
     case 'ml':
@@ -979,8 +991,6 @@ RelativeTimeLocalizations lookupRelativeTimeLocalizations(Locale locale) {
       return RelativeTimeLocalizationsPs();
     case 'pt':
       return RelativeTimeLocalizationsPt();
-    case 'qu':
-      return RelativeTimeLocalizationsQu();
     case 'rhg':
       return RelativeTimeLocalizationsRhg();
     case 'ro':

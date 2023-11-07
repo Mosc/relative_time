@@ -1,0 +1,17 @@
+{
+  "@@locale": "ie",
+  "yearsFuture": "{count, plural, zero{{numeric, select, true{pos {digits} annus} other{ho-annu}}} one{{numeric, select, true{pos {digits} annus} other{sequent annu}}} other{pos {digits} annus}}",
+  "yearsPast": "{count, plural, zero{{numeric, select, true{ante {digits} annus} other{ho-annu}}} one{{numeric, select, true{ante {digits} annus} other{ultim annu}}} other{ante {digits} annus}}",
+  "monthsFuture": "{count, plural, zero{{numeric, select, true{pos {digits} mensus} other{ho-mensu}}} one{{numeric, select, true{pos {digits} mensus} other{sequent mensu}}} other{pos {digits} mensus}}",
+  "monthsPast": "{count, plural, zero{{numeric, select, true{ante {digits} mensus} other{ho-mensu}}} one{{numeric, select, true{ante {digits} mensus} other{ultim mensu}}} other{ante {digits} mensus}}",
+  "weeksFuture": "{count, plural, zero{{numeric, select, true{pos {digits} semanes} other{ho-semane}}} one{{numeric, select, true{pos {digits} semanes} other{sequent semane}}} other{pos {digits} semanes}}",
+  "weeksPast": "{count, plural, zero{{numeric, select, true{ante {digits} semanes} other{ho-semane}}} one{{numeric, select, true{ante {digits} semanes} other{ultim semane}}} other{ante {digits} semanes}}",
+  "daysFuture": "{count, plural, zero{{numeric, select, true{pos {digits} dies} other{hodie}}} one{{numeric, select, true{pos {digits} dies} other{deman}}} other{pos {digits} dies}}",
+  "daysPast": "{count, plural, zero{{numeric, select, true{ante {digits} dies} other{hodie}}} one{{numeric, select, true{ante {digits} dies} other{yer}}} other{ante {digits} dies}}",
+  "hoursFuture": "{count, plural, zero{{numeric, select, true{pos {digits} hores} other{ti hor}}} other{pos {digits} hores}}",
+  "hoursPast": "{count, plural, zero{{numeric, select, true{ante {digits} hores} other{ti hor}}} other{ante {digits} hores}}",
+  "minutesFuture": "{count, plural, zero{{numeric, select, true{pos {digits} minutes} other{ti minute}}} other{pos {digits} minutes}}",
+  "minutesPast": "{count, plural, zero{{numeric, select, true{ante {digits} minutes} other{ti minute}}} other{ante {digits} minutes}}",
+  "secondsFuture": "{count, plural, zero{{numeric, select, true{pos {digits} secondes} other{nu}}} other{pos {digits} secondes}}",
+  "secondsPast": "{count, plural, zero{{numeric, select, true{ante {digits} secondes} other{nu}}} other{ante {digits} secondes}}"
+}

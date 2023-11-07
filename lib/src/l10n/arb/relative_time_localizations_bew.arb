@@ -1,0 +1,17 @@
+{
+  "@@locale": "bew",
+  "yearsFuture": "{count, plural, zero{{numeric, select, true{{digits} tahon lagi} other{ni tahon}}} one{{numeric, select, true{{digits} tahon lagi} other{tahon bèsok}}} other{{digits} tahon lagi}}",
+  "yearsPast": "{count, plural, zero{{numeric, select, true{{digits} tahon nyang liwat} other{ni tahon}}} one{{numeric, select, true{{digits} tahon nyang liwat} other{tahon kemarèn}}} other{{digits} tahon nyang liwat}}",
+  "monthsFuture": "{count, plural, zero{{numeric, select, true{{digits} bulan lagi} other{ni bulan}}} one{{numeric, select, true{{digits} bulan lagi} other{bulan bèsok}}} other{{digits} bulan lagi}}",
+  "monthsPast": "{count, plural, zero{{numeric, select, true{{digits} bulan nyang liwat} other{ni bulan}}} one{{numeric, select, true{{digits} bulan nyang liwat} other{bulan kemarèn}}} other{{digits} bulan nyang liwat}}",
+  "weeksFuture": "{digits} minggu lagi",
+  "weeksPast": "{digits} minggu nyang liwat",
+  "daysFuture": "{count, plural, zero{{numeric, select, true{{digits} ari lagi} other{ni ari}}} one{{numeric, select, true{{digits} ari lagi} other{bèsok}}} other{{digits} ari lagi}}",
+  "daysPast": "{count, plural, zero{{numeric, select, true{{digits} ari nyang liwat} other{ni ari}}} one{{numeric, select, true{{digits} ari nyang liwat} other{kemarèn}}} other{{digits} ari nyang liwat}}",
+  "hoursFuture": "{count, plural, zero{{numeric, select, true{{digits} jem lagi} other{ni jem}}} other{{digits} jem lagi}}",
+  "hoursPast": "{count, plural, zero{{numeric, select, true{{digits} jem nyang liwat} other{ni jem}}} other{{digits} jem nyang liwat}}",
+  "minutesFuture": "{count, plural, zero{{numeric, select, true{{digits} menit lagi} other{ni menit}}} other{{digits} menit lagi}}",
+  "minutesPast": "{count, plural, zero{{numeric, select, true{{digits} menit nyang liwat} other{ni menit}}} other{{digits} menit nyang liwat}}",
+  "secondsFuture": "{count, plural, zero{{numeric, select, true{{digits} sekon lagi} other{sekarang}}} other{{digits} sekon lagi}}",
+  "secondsPast": "{count, plural, zero{{numeric, select, true{{digits} sekon nyang liwat} other{sekarang}}} other{{digits} sekon nyang liwat}}"
+}

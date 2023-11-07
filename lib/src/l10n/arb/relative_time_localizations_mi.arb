@@ -1,0 +1,17 @@
+{
+  "@@locale": "mi",
+  "yearsFuture": "{count, plural, zero{{numeric, select, true{ā te {digits} tau} other{i tēnei tau}}} one{{numeric, select, true{ā te {digits} tau} other{ā tērā tau}}} other{ā te {digits} tau}}",
+  "yearsPast": "{count, plural, zero{{numeric, select, true{i te {digits} tau i mua} other{i tēnei tau}}} one{{numeric, select, true{i te {digits} tau i mua} other{i tērā tau}}} other{i te {digits} tau i mua}}",
+  "monthsFuture": "{count, plural, zero{{numeric, select, true{+{digits} marama} other{i tēnei marama}}} one{{numeric, select, true{+{digits} marama} other{ā tērā marama}}} other{+{digits} marama}}",
+  "monthsPast": "{count, plural, zero{{numeric, select, true{-{digits} marama i mua} other{i tēnei marama}}} one{{numeric, select, true{-{digits} marama i mua} other{i tērā marama}}} other{-{digits} marama i mua}}",
+  "weeksFuture": "{count, plural, zero{{numeric, select, true{+{digits} wiki} other{i tēnei wiki}}} one{{numeric, select, true{+{digits} wiki} other{ā tērā wiki}}} other{+{digits} wiki}}",
+  "weeksPast": "{count, plural, zero{{numeric, select, true{-{digits} wiki i mua} other{i tēnei wiki}}} one{{numeric, select, true{-{digits} wiki i mua} other{i tērā wiki}}} other{-{digits} wiki i mua}}",
+  "daysFuture": "{count, plural, zero{{numeric, select, true{+{digits} rā} other{i tēnei rā}}} one{{numeric, select, true{+{digits} rā} other{āpōpō}}} other{+{digits} rā}}",
+  "daysPast": "{count, plural, zero{{numeric, select, true{-{digits} rā i mua} other{i tēnei rā}}} one{{numeric, select, true{-{digits} rā i mua} other{inanahi}}} other{-{digits} rā i mua}}",
+  "hoursFuture": "{count, plural, zero{{numeric, select, true{+{digits} haora} other{i tēnei haora}}} other{+{digits} haora}}",
+  "hoursPast": "{count, plural, zero{{numeric, select, true{-{digits} haora i mua} other{i tēnei haora}}} other{-{digits} haora i mua}}",
+  "minutesFuture": "{count, plural, zero{{numeric, select, true{+{digits} meneti} other{i tēnei meneti}}} other{+{digits} meneti}}",
+  "minutesPast": "{count, plural, zero{{numeric, select, true{-{digits} meneti i mua} other{i tēnei meneti}}} other{-{digits} meneti i mua}}",
+  "secondsFuture": "{count, plural, zero{{numeric, select, true{+{digits} hēkona} other{ināianei}}} other{+{digits} hēkona}}",
+  "secondsPast": "{count, plural, zero{{numeric, select, true{-{digits} hēkona i mua} other{ināianei}}} other{-{digits} hēkona i mua}}"
+}

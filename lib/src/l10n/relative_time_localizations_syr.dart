@@ -11,7 +11,7 @@ class RelativeTimeLocalizationsSyr extends RelativeTimeLocalizations {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'ܒ$digits ܫܢܝ̈ܐ',
+        'true': 'ܒܚܕܐ ܫܢܬܐ',
         'other': 'ܫܢܬܐ ܐܚܪܬܐ',
       },
     );
@@ -37,7 +37,7 @@ class RelativeTimeLocalizationsSyr extends RelativeTimeLocalizations {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'ܡ̣ܢ ܩܕܡ $digits ܫܢܝ̈ܐ',
+        'true': 'ܡ̣ܢ ܩܕܡ ܚܕܐ ܫܢܬܐ',
         'other': 'ܐܫܬܩܕܝ',
       },
     );
@@ -63,7 +63,7 @@ class RelativeTimeLocalizationsSyr extends RelativeTimeLocalizations {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'ܒ$digits ܝܪܚܐ',
+        'true': 'ܒܚܕ ܝܪܚܐ',
         'other': 'ܝܪܚܐ ܕܐܬܐ',
       },
     );
@@ -89,7 +89,7 @@ class RelativeTimeLocalizationsSyr extends RelativeTimeLocalizations {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'ܡ̣ܢ ܩܕܡ $digits ܝܪܚܐ',
+        'true': 'ܡ̣ܢ ܩܕܡ ܚܕ ܝܪܚܐ',
         'other': 'ܝܪܚܐ ܕܕܥܒܪ',
       },
     );
@@ -115,7 +115,7 @@ class RelativeTimeLocalizationsSyr extends RelativeTimeLocalizations {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'ܒ$digits ܫܒܘܥܐ',
+        'true': 'ܒܚܕ ܫܒܘܥܐ',
         'other': 'ܫܒܘܥܐ ܕܐܬܐ',
       },
     );
@@ -141,7 +141,7 @@ class RelativeTimeLocalizationsSyr extends RelativeTimeLocalizations {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'ܡ̣ܢ ܩܕܡ $digits ܫܒܘܥܐ',
+        'true': 'ܡ̣ܢ ܩܕܡ ܚܕ ܫܒܘܥܐ',
         'other': 'ܫܒܘܥܐ ܕܕܥܒܪ',
       },
     );
@@ -167,7 +167,7 @@ class RelativeTimeLocalizationsSyr extends RelativeTimeLocalizations {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'ܒ$digits ܝܘܡܐ',
+        'true': 'ܒܚܕ ܝܘܡܐ',
         'other': 'ܝܘܡܐ ܕܐܬܐ',
       },
     );
@@ -193,7 +193,7 @@ class RelativeTimeLocalizationsSyr extends RelativeTimeLocalizations {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'ܡ̣ܢ ܩܕܡ $digits ܝܘܡܐ',
+        'true': 'ܡ̣ܢ ܩܕܡ ܚܕ ܝܘܡܐ',
         'other': 'ܐܬܡܠܝ',
       },
     );
@@ -227,7 +227,7 @@ class RelativeTimeLocalizationsSyr extends RelativeTimeLocalizations {
       count,
       locale: localeName,
       other: 'ܒ$digits ܫܥ̈ܐ',
-      one: 'ܒ$digits ܫܥܬܐ',
+      one: 'ܒܚܕܐ ܫܥܬܐ',
       zero: temp0,
     );
     return temp1;
@@ -246,7 +246,7 @@ class RelativeTimeLocalizationsSyr extends RelativeTimeLocalizations {
       count,
       locale: localeName,
       other: 'ܡ̣ܢ ܩܕܡ $digits ܫܥ̈ܐ',
-      one: 'ܡ̣ܢ ܩܕܡ $digits ܫܥܬܐ',
+      one: 'ܡ̣ܢ ܩܕܡ ܚܕܐ ܫܥܬܐ',
       zero: temp0,
     );
     return temp1;
@@ -257,15 +257,15 @@ class RelativeTimeLocalizationsSyr extends RelativeTimeLocalizations {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'ܒ$digits ܩܛܝ̈ܢܬܐ',
-        'other': 'ܗܢܐ ܩܛܝܢܐ',
+        'true': 'ܒ$digits ܩܛܝ̈ܢܐ',
+        'other': 'ܗܢܐ ܩܛܝܢܬܐ',
       },
     );
     String temp1 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: 'ܒ$digits ܩܛܝ̈ܢܬܐ',
-      one: 'ܒ$digits ܩܛܝܢܬܐ',
+      other: 'ܒ$digits ܩܛܝ̈ܢܐ',
+      one: 'ܒܚܕܐ ܩܛܝܢܬܐ',
       zero: temp0,
     );
     return temp1;
@@ -277,14 +277,14 @@ class RelativeTimeLocalizationsSyr extends RelativeTimeLocalizations {
       numeric,
       {
         'true': 'ܡ̣ܢ ܩܕܡ $digits ܩܛܝ̈ܢܐ',
-        'other': 'ܗܢܐ ܩܛܝܢܐ',
+        'other': 'ܗܢܐ ܩܛܝܢܬܐ',
       },
     );
     String temp1 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
       other: 'ܡ̣ܢ ܩܕܡ $digits ܩܛܝ̈ܢܐ',
-      one: 'ܡ̣ܢ ܩܕܡ $digits ܩܛܝܢܐ',
+      one: 'ܡ̣ܢ ܩܕܡ ܚܕܐ ܩܛܝܢܬܐ',
       zero: temp0,
     );
     return temp1;
@@ -303,7 +303,7 @@ class RelativeTimeLocalizationsSyr extends RelativeTimeLocalizations {
       count,
       locale: localeName,
       other: 'ܒ$digits ܪ̈ܦܦܐ',
-      one: 'ܒ$digits ܪܦܦܐ',
+      one: 'ܒܚܕ ܪܦܦܐ',
       zero: temp0,
     );
     return temp1;
@@ -322,7 +322,7 @@ class RelativeTimeLocalizationsSyr extends RelativeTimeLocalizations {
       count,
       locale: localeName,
       other: 'ܡ̣ܢ ܩܕܡ $digits ܖ̈ܦܦܐ',
-      one: 'ܡ̣ܢ ܩܕܡ $digits ܪܦܦܐ',
+      one: 'ܡ̣ܢ ܩܕܡ ܚܕ ܪܦܦܐ',
       zero: temp0,
     );
     return temp1;

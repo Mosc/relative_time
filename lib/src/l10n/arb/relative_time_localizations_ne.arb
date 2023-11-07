@@ -4,7 +4,7 @@
   "yearsPast": "{count, plural, zero{{numeric, select, true{{digits} वर्ष अघि} other{यो वर्ष}}} one{{numeric, select, true{{digits} वर्ष अघि} other{गत वर्ष}}} other{{digits} वर्ष अघि}}",
   "monthsFuture": "{count, plural, zero{{numeric, select, true{{digits} महिनामा} other{यो महिना}}} one{{numeric, select, true{{digits} महिनामा} other{अर्को महिना}}} other{{digits} महिनामा}}",
   "monthsPast": "{count, plural, zero{{numeric, select, true{{digits} महिना पहिले} other{यो महिना}}} one{{numeric, select, true{{digits} महिना पहिले} other{गत महिना}}} other{{digits} महिना पहिले}}",
-  "weeksFuture": "{count, plural, zero{{numeric, select, true{{digits} हप्तामा} other{यो हप्ता}}} one{{numeric, select, true{{digits} हप्तामा} other{आउने हप्ता}}} other{{digits} हप्तामा}}",
+  "weeksFuture": "{count, plural, zero{{numeric, select, true{{digits} हप्तामा} other{यो हप्ता}}} one{{numeric, select, true{{digits} हप्तामा} other{आगामी हप्ता}}} other{{digits} हप्तामा}}",
   "weeksPast": "{count, plural, zero{{numeric, select, true{{digits} हप्ता पहिले} other{यो हप्ता}}} one{{numeric, select, true{{digits} हप्ता पहिले} other{गत हप्ता}}} other{{digits} हप्ता पहिले}}",
   "daysFuture": "{count, plural, zero{{numeric, select, true{{digits} दिनमा} other{आज}}} one{{numeric, select, true{{digits} दिनमा} other{भोलि}}} two{{numeric, select, true{{digits} दिनमा} other{पर्सि}}} other{{digits} दिनमा}}",
   "daysPast": "{count, plural, zero{{numeric, select, true{{digits} दिन पहिले} other{आज}}} one{{numeric, select, true{{digits} दिन पहिले} other{हिजो}}} two{{numeric, select, true{{digits} दिन पहिले} other{अस्ति}}} other{{digits} दिन पहिले}}",

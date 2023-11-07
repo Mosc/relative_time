@@ -1,17 +1,17 @@
 {
   "@@locale": "eu",
   "yearsFuture": "{count, plural, zero{{numeric, select, true{{digits} urte barru} other{aurten}}} one{{numeric, select, true{{digits} urte barru} other{hurrengo urtean}}} other{{digits} urte barru}}",
-  "yearsPast": "{count, plural, zero{{numeric, select, true{Duela {digits} urte} other{aurten}}} one{{numeric, select, true{Duela {digits} urte} other{iaz}}} other{Duela {digits} urte}}",
+  "yearsPast": "{count, plural, zero{{numeric, select, true{duela {digits} urte} other{aurten}}} one{{numeric, select, true{duela {digits} urte} other{iaz}}} other{duela {digits} urte}}",
   "monthsFuture": "{count, plural, zero{{numeric, select, true{{digits} hilabete barru} other{hilabete honetan}}} one{{numeric, select, true{{digits} hilabete barru} other{hurrengo hilabetean}}} other{{digits} hilabete barru}}",
-  "monthsPast": "{count, plural, zero{{numeric, select, true{Duela {digits} hilabete} other{hilabete honetan}}} one{{numeric, select, true{Duela {digits} hilabete} other{aurreko hilabetean}}} other{Duela {digits} hilabete}}",
+  "monthsPast": "{count, plural, zero{{numeric, select, true{duela {digits} hilabete} other{hilabete honetan}}} one{{numeric, select, true{duela {digits} hilabete} other{aurreko hilabetean}}} other{duela {digits} hilabete}}",
   "weeksFuture": "{count, plural, zero{{numeric, select, true{{digits} aste barru} other{aste honetan}}} one{{numeric, select, true{{digits} aste barru} other{hurrengo astean}}} other{{digits} aste barru}}",
-  "weeksPast": "{count, plural, zero{{numeric, select, true{Duela {digits} aste} other{aste honetan}}} one{{numeric, select, true{Duela {digits} aste} other{aurreko astean}}} other{Duela {digits} aste}}",
+  "weeksPast": "{count, plural, zero{{numeric, select, true{duela {digits} aste} other{aste honetan}}} one{{numeric, select, true{duela {digits} aste} other{aurreko astean}}} other{duela {digits} aste}}",
   "daysFuture": "{count, plural, zero{{numeric, select, true{{digits} egun barru} other{gaur}}} one{{numeric, select, true{{digits} egun barru} other{bihar}}} two{{numeric, select, true{{digits} egun barru} other{etzi}}} other{{digits} egun barru}}",
-  "daysPast": "{count, plural, zero{{numeric, select, true{Duela {digits} egun} other{gaur}}} one{{numeric, select, true{Duela {digits} egun} other{atzo}}} two{{numeric, select, true{Duela {digits} egun} other{herenegun}}} other{Duela {digits} egun}}",
+  "daysPast": "{count, plural, zero{{numeric, select, true{duela {digits} egun} other{gaur}}} one{{numeric, select, true{duela {digits} egun} other{atzo}}} two{{numeric, select, true{duela {digits} egun} other{herenegun}}} other{duela {digits} egun}}",
   "hoursFuture": "{count, plural, zero{{numeric, select, true{{digits} ordu barru} other{ordu honetan}}} other{{digits} ordu barru}}",
-  "hoursPast": "{count, plural, zero{{numeric, select, true{Duela {digits} ordu} other{ordu honetan}}} other{Duela {digits} ordu}}",
+  "hoursPast": "{count, plural, zero{{numeric, select, true{duela {digits} ordu} other{ordu honetan}}} other{duela {digits} ordu}}",
   "minutesFuture": "{count, plural, zero{{numeric, select, true{{digits} minutu barru} other{minutu honetan}}} other{{digits} minutu barru}}",
-  "minutesPast": "{count, plural, zero{{numeric, select, true{Duela {digits} minutu} other{minutu honetan}}} other{Duela {digits} minutu}}",
+  "minutesPast": "{count, plural, zero{{numeric, select, true{duela {digits} minutu} other{minutu honetan}}} other{duela {digits} minutu}}",
   "secondsFuture": "{count, plural, zero{{numeric, select, true{{digits} segundo barru} other{orain}}} other{{digits} segundo barru}}",
-  "secondsPast": "{count, plural, zero{{numeric, select, true{Duela {digits} segundo} other{orain}}} other{Duela {digits} segundo}}"
+  "secondsPast": "{count, plural, zero{{numeric, select, true{duela {digits} segundo} other{orain}}} other{duela {digits} segundo}}"
 }

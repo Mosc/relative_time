@@ -71,7 +71,7 @@ class RelativeTimeLocalizationsSv extends RelativeTimeLocalizations {
       numeric,
       {
         'true': 'om $digits månader',
-        'other': 'denna månad',
+        'other': 'den här månaden',
       },
     );
     String temp2 = intl.Intl.pluralLogic(
@@ -97,7 +97,7 @@ class RelativeTimeLocalizationsSv extends RelativeTimeLocalizations {
       numeric,
       {
         'true': 'för $digits månader sedan',
-        'other': 'denna månad',
+        'other': 'den här månaden',
       },
     );
     String temp2 = intl.Intl.pluralLogic(

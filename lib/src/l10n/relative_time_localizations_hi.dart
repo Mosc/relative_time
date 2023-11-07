@@ -508,21 +508,21 @@ class RelativeTimeLocalizationsHiLatn extends RelativeTimeLocalizationsHi {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$digits hafte pehle',
+        'true': '$digits hafte pahle',
         'other': 'pichhla hafta',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$digits hafte pehle',
+        'true': '$digits hafte pahle',
         'other': 'is hafte',
       },
     );
     String temp2 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: '$digits hafte pehle',
+      other: '$digits hafte pahle',
       one: temp0,
       zero: temp1,
     );
@@ -568,28 +568,28 @@ class RelativeTimeLocalizationsHiLatn extends RelativeTimeLocalizationsHi {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$digits din pehle',
+        'true': '$digits din pahle',
         'other': 'parson',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$digits din pehle',
+        'true': '$digits din pahle',
         'other': 'kal',
       },
     );
     String temp2 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$digits din pehle',
+        'true': '$digits din pahle',
         'other': 'aaj',
       },
     );
     String temp3 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: '$digits din pehle',
+      other: '$digits din pahle',
       two: temp0,
       one: temp1,
       zero: temp2,

@@ -116,7 +116,7 @@ class RelativeTimeLocalizationsNe extends RelativeTimeLocalizations {
       numeric,
       {
         'true': '$digits हप्तामा',
-        'other': 'आउने हप्ता',
+        'other': 'आगामी हप्ता',
       },
     );
     String temp1 = intl.Intl.selectLogic(

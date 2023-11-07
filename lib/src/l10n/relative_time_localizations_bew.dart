@@ -2,30 +2,30 @@ import 'package:intl/intl.dart' as intl;
 
 import 'relative_time_localizations.dart';
 
-/// The translations for Basque (`eu`).
-class RelativeTimeLocalizationsEu extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsEu([super.locale = 'eu']);
+/// The translations for Betawi (`bew`).
+class RelativeTimeLocalizationsBew extends RelativeTimeLocalizations {
+  RelativeTimeLocalizationsBew([super.locale = 'bew']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$digits urte barru',
-        'other': 'hurrengo urtean',
+        'true': '$digits tahon lagi',
+        'other': 'tahon bèsok',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$digits urte barru',
-        'other': 'aurten',
+        'true': '$digits tahon lagi',
+        'other': 'ni tahon',
       },
     );
     String temp2 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: '$digits urte barru',
+      other: '$digits tahon lagi',
       one: temp0,
       zero: temp1,
     );
@@ -37,21 +37,21 @@ class RelativeTimeLocalizationsEu extends RelativeTimeLocalizations {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'duela $digits urte',
-        'other': 'iaz',
+        'true': '$digits tahon nyang liwat',
+        'other': 'tahon kemarèn',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'duela $digits urte',
-        'other': 'aurten',
+        'true': '$digits tahon nyang liwat',
+        'other': 'ni tahon',
       },
     );
     String temp2 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: 'duela $digits urte',
+      other: '$digits tahon nyang liwat',
       one: temp0,
       zero: temp1,
     );
@@ -63,21 +63,21 @@ class RelativeTimeLocalizationsEu extends RelativeTimeLocalizations {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$digits hilabete barru',
-        'other': 'hurrengo hilabetean',
+        'true': '$digits bulan lagi',
+        'other': 'bulan bèsok',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$digits hilabete barru',
-        'other': 'hilabete honetan',
+        'true': '$digits bulan lagi',
+        'other': 'ni bulan',
       },
     );
     String temp2 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: '$digits hilabete barru',
+      other: '$digits bulan lagi',
       one: temp0,
       zero: temp1,
     );
@@ -89,21 +89,21 @@ class RelativeTimeLocalizationsEu extends RelativeTimeLocalizations {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'duela $digits hilabete',
-        'other': 'aurreko hilabetean',
+        'true': '$digits bulan nyang liwat',
+        'other': 'bulan kemarèn',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'duela $digits hilabete',
-        'other': 'hilabete honetan',
+        'true': '$digits bulan nyang liwat',
+        'other': 'ni bulan',
       },
     );
     String temp2 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: 'duela $digits hilabete',
+      other: '$digits bulan nyang liwat',
       one: temp0,
       zero: temp1,
     );
@@ -112,54 +112,12 @@ class RelativeTimeLocalizationsEu extends RelativeTimeLocalizations {
 
   @override
   String weeksFuture(num count, String digits, String numeric) {
-    String temp0 = intl.Intl.selectLogic(
-      numeric,
-      {
-        'true': '$digits aste barru',
-        'other': 'hurrengo astean',
-      },
-    );
-    String temp1 = intl.Intl.selectLogic(
-      numeric,
-      {
-        'true': '$digits aste barru',
-        'other': 'aste honetan',
-      },
-    );
-    String temp2 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: '$digits aste barru',
-      one: temp0,
-      zero: temp1,
-    );
-    return temp2;
+    return '$digits minggu lagi';
   }
 
   @override
   String weeksPast(num count, String digits, String numeric) {
-    String temp0 = intl.Intl.selectLogic(
-      numeric,
-      {
-        'true': 'duela $digits aste',
-        'other': 'aurreko astean',
-      },
-    );
-    String temp1 = intl.Intl.selectLogic(
-      numeric,
-      {
-        'true': 'duela $digits aste',
-        'other': 'aste honetan',
-      },
-    );
-    String temp2 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'duela $digits aste',
-      one: temp0,
-      zero: temp1,
-    );
-    return temp2;
+    return '$digits minggu nyang liwat';
   }
 
   @override
@@ -167,33 +125,25 @@ class RelativeTimeLocalizationsEu extends RelativeTimeLocalizations {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$digits egun barru',
-        'other': 'etzi',
+        'true': '$digits ari lagi',
+        'other': 'bèsok',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$digits egun barru',
-        'other': 'bihar',
+        'true': '$digits ari lagi',
+        'other': 'ni ari',
       },
     );
-    String temp2 = intl.Intl.selectLogic(
-      numeric,
-      {
-        'true': '$digits egun barru',
-        'other': 'gaur',
-      },
-    );
-    String temp3 = intl.Intl.pluralLogic(
+    String temp2 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: '$digits egun barru',
-      two: temp0,
-      one: temp1,
-      zero: temp2,
+      other: '$digits ari lagi',
+      one: temp0,
+      zero: temp1,
     );
-    return temp3;
+    return temp2;
   }
 
   @override
@@ -201,33 +151,25 @@ class RelativeTimeLocalizationsEu extends RelativeTimeLocalizations {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'duela $digits egun',
-        'other': 'herenegun',
+        'true': '$digits ari nyang liwat',
+        'other': 'kemarèn',
       },
     );
     String temp1 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'duela $digits egun',
-        'other': 'atzo',
+        'true': '$digits ari nyang liwat',
+        'other': 'ni ari',
       },
     );
-    String temp2 = intl.Intl.selectLogic(
-      numeric,
-      {
-        'true': 'duela $digits egun',
-        'other': 'gaur',
-      },
-    );
-    String temp3 = intl.Intl.pluralLogic(
+    String temp2 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: 'duela $digits egun',
-      two: temp0,
-      one: temp1,
-      zero: temp2,
+      other: '$digits ari nyang liwat',
+      one: temp0,
+      zero: temp1,
     );
-    return temp3;
+    return temp2;
   }
 
   @override
@@ -235,14 +177,14 @@ class RelativeTimeLocalizationsEu extends RelativeTimeLocalizations {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$digits ordu barru',
-        'other': 'ordu honetan',
+        'true': '$digits jem lagi',
+        'other': 'ni jem',
       },
     );
     String temp1 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: '$digits ordu barru',
+      other: '$digits jem lagi',
       zero: temp0,
     );
     return temp1;
@@ -253,14 +195,14 @@ class RelativeTimeLocalizationsEu extends RelativeTimeLocalizations {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'duela $digits ordu',
-        'other': 'ordu honetan',
+        'true': '$digits jem nyang liwat',
+        'other': 'ni jem',
       },
     );
     String temp1 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: 'duela $digits ordu',
+      other: '$digits jem nyang liwat',
       zero: temp0,
     );
     return temp1;
@@ -271,14 +213,14 @@ class RelativeTimeLocalizationsEu extends RelativeTimeLocalizations {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$digits minutu barru',
-        'other': 'minutu honetan',
+        'true': '$digits menit lagi',
+        'other': 'ni menit',
       },
     );
     String temp1 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: '$digits minutu barru',
+      other: '$digits menit lagi',
       zero: temp0,
     );
     return temp1;
@@ -289,14 +231,14 @@ class RelativeTimeLocalizationsEu extends RelativeTimeLocalizations {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'duela $digits minutu',
-        'other': 'minutu honetan',
+        'true': '$digits menit nyang liwat',
+        'other': 'ni menit',
       },
     );
     String temp1 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: 'duela $digits minutu',
+      other: '$digits menit nyang liwat',
       zero: temp0,
     );
     return temp1;
@@ -307,14 +249,14 @@ class RelativeTimeLocalizationsEu extends RelativeTimeLocalizations {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': '$digits segundo barru',
-        'other': 'orain',
+        'true': '$digits sekon lagi',
+        'other': 'sekarang',
       },
     );
     String temp1 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: '$digits segundo barru',
+      other: '$digits sekon lagi',
       zero: temp0,
     );
     return temp1;
@@ -325,14 +267,14 @@ class RelativeTimeLocalizationsEu extends RelativeTimeLocalizations {
     String temp0 = intl.Intl.selectLogic(
       numeric,
       {
-        'true': 'duela $digits segundo',
-        'other': 'orain',
+        'true': '$digits sekon nyang liwat',
+        'other': 'sekarang',
       },
     );
     String temp1 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: 'duela $digits segundo',
+      other: '$digits sekon nyang liwat',
       zero: temp0,
     );
     return temp1;
