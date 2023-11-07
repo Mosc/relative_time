@@ -1,3 +1,9 @@
+## 5.0.0
+
+* **BREAKING**: Remove Quechua language.
+* Add Betawi, Interlingue Occidental and Maori languages.
+* Update Basque, Hindi (Latin script), Nepali, Swedish and Syriac translations.
+
 ## 4.0.1
 
 * Fix time erroneously being displayed as `null` under specific condition.
