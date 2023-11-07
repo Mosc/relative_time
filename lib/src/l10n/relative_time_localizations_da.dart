@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Danish (`da`).
 class RelativeTimeLocalizationsDa extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsDa([String locale = 'da']) : super(locale);
+  RelativeTimeLocalizationsDa([super.locale = 'da']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

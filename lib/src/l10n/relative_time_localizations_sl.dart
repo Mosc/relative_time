@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Slovenian (`sl`).
 class RelativeTimeLocalizationsSl extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsSl([String locale = 'sl']) : super(locale);
+  RelativeTimeLocalizationsSl([super.locale = 'sl']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

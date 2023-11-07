@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Vietnamese (`vi`).
 class RelativeTimeLocalizationsVi extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsVi([String locale = 'vi']) : super(locale);
+  RelativeTimeLocalizationsVi([super.locale = 'vi']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

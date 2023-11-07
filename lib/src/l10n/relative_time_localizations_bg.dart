@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Bulgarian (`bg`).
 class RelativeTimeLocalizationsBg extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsBg([String locale = 'bg']) : super(locale);
+  RelativeTimeLocalizationsBg([super.locale = 'bg']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

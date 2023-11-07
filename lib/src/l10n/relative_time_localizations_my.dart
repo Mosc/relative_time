@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Burmese (`my`).
 class RelativeTimeLocalizationsMy extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsMy([String locale = 'my']) : super(locale);
+  RelativeTimeLocalizationsMy([super.locale = 'my']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

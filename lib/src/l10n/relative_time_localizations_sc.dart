@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Sardinian (`sc`).
 class RelativeTimeLocalizationsSc extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsSc([String locale = 'sc']) : super(locale);
+  RelativeTimeLocalizationsSc([super.locale = 'sc']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

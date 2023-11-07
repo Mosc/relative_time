@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Interlingua (`ia`).
 class RelativeTimeLocalizationsIa extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsIa([String locale = 'ia']) : super(locale);
+  RelativeTimeLocalizationsIa([super.locale = 'ia']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

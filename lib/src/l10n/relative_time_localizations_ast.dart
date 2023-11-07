@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Asturian Asturleonese Bable Leonese (`ast`).
 class RelativeTimeLocalizationsAst extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsAst([String locale = 'ast']) : super(locale);
+  RelativeTimeLocalizationsAst([super.locale = 'ast']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

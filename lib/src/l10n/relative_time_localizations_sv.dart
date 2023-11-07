@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Swedish (`sv`).
 class RelativeTimeLocalizationsSv extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsSv([String locale = 'sv']) : super(locale);
+  RelativeTimeLocalizationsSv([super.locale = 'sv']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

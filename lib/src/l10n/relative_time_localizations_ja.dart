@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Japanese (`ja`).
 class RelativeTimeLocalizationsJa extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsJa([String locale = 'ja']) : super(locale);
+  RelativeTimeLocalizationsJa([super.locale = 'ja']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

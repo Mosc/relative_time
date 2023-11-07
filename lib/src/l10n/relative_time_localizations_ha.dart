@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Hausa (`ha`).
 class RelativeTimeLocalizationsHa extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsHa([String locale = 'ha']) : super(locale);
+  RelativeTimeLocalizationsHa([super.locale = 'ha']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

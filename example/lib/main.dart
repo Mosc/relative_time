@@ -13,7 +13,7 @@ Future<void> main() async {
 }
 
 class RelativeTimeExampleApp extends StatelessWidget {
-  const RelativeTimeExampleApp({Key? key}) : super(key: key);
+  const RelativeTimeExampleApp({super.key});
 
   @override
   Widget build(BuildContext context) {

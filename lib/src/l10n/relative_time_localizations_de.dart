@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for German (`de`).
 class RelativeTimeLocalizationsDe extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsDe([String locale = 'de']) : super(locale);
+  RelativeTimeLocalizationsDe([super.locale = 'de']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

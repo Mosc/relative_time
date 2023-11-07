@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Panjabi Punjabi (`pa`).
 class RelativeTimeLocalizationsPa extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsPa([String locale = 'pa']) : super(locale);
+  RelativeTimeLocalizationsPa([super.locale = 'pa']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Slovak (`sk`).
 class RelativeTimeLocalizationsSk extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsSk([String locale = 'sk']) : super(locale);
+  RelativeTimeLocalizationsSk([super.locale = 'sk']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

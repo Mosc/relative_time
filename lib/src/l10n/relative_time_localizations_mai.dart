@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Maithili (`mai`).
 class RelativeTimeLocalizationsMai extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsMai([String locale = 'mai']) : super(locale);
+  RelativeTimeLocalizationsMai([super.locale = 'mai']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

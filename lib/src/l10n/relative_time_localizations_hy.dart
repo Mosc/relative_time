@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Armenian (`hy`).
 class RelativeTimeLocalizationsHy extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsHy([String locale = 'hy']) : super(locale);
+  RelativeTimeLocalizationsHy([super.locale = 'hy']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

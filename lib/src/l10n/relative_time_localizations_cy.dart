@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Welsh (`cy`).
 class RelativeTimeLocalizationsCy extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsCy([String locale = 'cy']) : super(locale);
+  RelativeTimeLocalizationsCy([super.locale = 'cy']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

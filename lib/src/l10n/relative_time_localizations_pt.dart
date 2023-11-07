@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Portuguese (`pt`).
 class RelativeTimeLocalizationsPt extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsPt([String locale = 'pt']) : super(locale);
+  RelativeTimeLocalizationsPt([super.locale = 'pt']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

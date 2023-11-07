@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Telugu (`te`).
 class RelativeTimeLocalizationsTe extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsTe([String locale = 'te']) : super(locale);
+  RelativeTimeLocalizationsTe([super.locale = 'te']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

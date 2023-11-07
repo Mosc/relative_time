@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Latin (`la`).
 class RelativeTimeLocalizationsLa extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsLa([String locale = 'la']) : super(locale);
+  RelativeTimeLocalizationsLa([super.locale = 'la']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

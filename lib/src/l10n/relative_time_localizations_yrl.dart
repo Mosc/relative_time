@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Nhengatu (`yrl`).
 class RelativeTimeLocalizationsYrl extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsYrl([String locale = 'yrl']) : super(locale);
+  RelativeTimeLocalizationsYrl([super.locale = 'yrl']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

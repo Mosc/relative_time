@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Turkmen (`tk`).
 class RelativeTimeLocalizationsTk extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsTk([String locale = 'tk']) : super(locale);
+  RelativeTimeLocalizationsTk([super.locale = 'tk']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

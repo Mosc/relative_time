@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Estonian (`et`).
 class RelativeTimeLocalizationsEt extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsEt([String locale = 'et']) : super(locale);
+  RelativeTimeLocalizationsEt([super.locale = 'et']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

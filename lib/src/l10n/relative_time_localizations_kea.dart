@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Kabuverdianu (`kea`).
 class RelativeTimeLocalizationsKea extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsKea([String locale = 'kea']) : super(locale);
+  RelativeTimeLocalizationsKea([super.locale = 'kea']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

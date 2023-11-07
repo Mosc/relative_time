@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Icelandic (`is`).
 class RelativeTimeLocalizationsIs extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsIs([String locale = 'is']) : super(locale);
+  RelativeTimeLocalizationsIs([super.locale = 'is']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

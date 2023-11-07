@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Kabyle (`kab`).
 class RelativeTimeLocalizationsKab extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsKab([String locale = 'kab']) : super(locale);
+  RelativeTimeLocalizationsKab([super.locale = 'kab']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Cherokee (`chr`).
 class RelativeTimeLocalizationsChr extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsChr([String locale = 'chr']) : super(locale);
+  RelativeTimeLocalizationsChr([super.locale = 'chr']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

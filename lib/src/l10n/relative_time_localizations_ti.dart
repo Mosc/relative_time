@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Tigrinya (`ti`).
 class RelativeTimeLocalizationsTi extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsTi([String locale = 'ti']) : super(locale);
+  RelativeTimeLocalizationsTi([super.locale = 'ti']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

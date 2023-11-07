@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Hebrew (`he`).
 class RelativeTimeLocalizationsHe extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsHe([String locale = 'he']) : super(locale);
+  RelativeTimeLocalizationsHe([super.locale = 'he']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

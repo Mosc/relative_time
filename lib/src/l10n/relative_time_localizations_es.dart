@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Spanish Castilian (`es`).
 class RelativeTimeLocalizationsEs extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsEs([String locale = 'es']) : super(locale);
+  RelativeTimeLocalizationsEs([super.locale = 'es']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

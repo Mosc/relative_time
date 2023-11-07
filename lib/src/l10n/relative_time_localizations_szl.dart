@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Silesian (`szl`).
 class RelativeTimeLocalizationsSzl extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsSzl([String locale = 'szl']) : super(locale);
+  RelativeTimeLocalizationsSzl([super.locale = 'szl']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

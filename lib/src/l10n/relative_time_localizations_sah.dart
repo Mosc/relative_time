@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Yakut (`sah`).
 class RelativeTimeLocalizationsSah extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsSah([String locale = 'sah']) : super(locale);
+  RelativeTimeLocalizationsSah([super.locale = 'sah']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

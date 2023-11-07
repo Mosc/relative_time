@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for French (`fr`).
 class RelativeTimeLocalizationsFr extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsFr([String locale = 'fr']) : super(locale);
+  RelativeTimeLocalizationsFr([super.locale = 'fr']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

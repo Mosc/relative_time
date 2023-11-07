@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Pushto Pashto (`ps`).
 class RelativeTimeLocalizationsPs extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsPs([String locale = 'ps']) : super(locale);
+  RelativeTimeLocalizationsPs([super.locale = 'ps']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

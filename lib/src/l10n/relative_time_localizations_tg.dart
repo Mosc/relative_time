@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Tajik (`tg`).
 class RelativeTimeLocalizationsTg extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsTg([String locale = 'tg']) : super(locale);
+  RelativeTimeLocalizationsTg([super.locale = 'tg']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

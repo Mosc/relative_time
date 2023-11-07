@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Konkani (`kok`).
 class RelativeTimeLocalizationsKok extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsKok([String locale = 'kok']) : super(locale);
+  RelativeTimeLocalizationsKok([super.locale = 'kok']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

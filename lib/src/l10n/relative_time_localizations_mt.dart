@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Maltese (`mt`).
 class RelativeTimeLocalizationsMt extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsMt([String locale = 'mt']) : super(locale);
+  RelativeTimeLocalizationsMt([super.locale = 'mt']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

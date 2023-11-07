@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Wolof (`wo`).
 class RelativeTimeLocalizationsWo extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsWo([String locale = 'wo']) : super(locale);
+  RelativeTimeLocalizationsWo([super.locale = 'wo']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

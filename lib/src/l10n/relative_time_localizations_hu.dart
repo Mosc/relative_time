@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Hungarian (`hu`).
 class RelativeTimeLocalizationsHu extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsHu([String locale = 'hu']) : super(locale);
+  RelativeTimeLocalizationsHu([super.locale = 'hu']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

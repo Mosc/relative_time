@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Mongolian (`mn`).
 class RelativeTimeLocalizationsMn extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsMn([String locale = 'mn']) : super(locale);
+  RelativeTimeLocalizationsMn([super.locale = 'mn']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

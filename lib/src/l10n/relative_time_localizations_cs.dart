@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Czech (`cs`).
 class RelativeTimeLocalizationsCs extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsCs([String locale = 'cs']) : super(locale);
+  RelativeTimeLocalizationsCs([super.locale = 'cs']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Filipino Pilipino (`fil`).
 class RelativeTimeLocalizationsFil extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsFil([String locale = 'fil']) : super(locale);
+  RelativeTimeLocalizationsFil([super.locale = 'fil']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Yue Chinese Cantonese (`yue`).
 class RelativeTimeLocalizationsYue extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsYue([String locale = 'yue']) : super(locale);
+  RelativeTimeLocalizationsYue([super.locale = 'yue']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

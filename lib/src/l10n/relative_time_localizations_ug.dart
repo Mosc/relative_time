@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Uighur Uyghur (`ug`).
 class RelativeTimeLocalizationsUg extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsUg([String locale = 'ug']) : super(locale);
+  RelativeTimeLocalizationsUg([super.locale = 'ug']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

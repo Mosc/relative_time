@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Urdu (`ur`).
 class RelativeTimeLocalizationsUr extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsUr([String locale = 'ur']) : super(locale);
+  RelativeTimeLocalizationsUr([super.locale = 'ur']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

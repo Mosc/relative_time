@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Northern Sami (`se`).
 class RelativeTimeLocalizationsSe extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsSe([String locale = 'se']) : super(locale);
+  RelativeTimeLocalizationsSe([super.locale = 'se']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

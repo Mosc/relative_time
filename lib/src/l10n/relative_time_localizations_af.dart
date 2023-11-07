@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Afrikaans (`af`).
 class RelativeTimeLocalizationsAf extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsAf([String locale = 'af']) : super(locale);
+  RelativeTimeLocalizationsAf([super.locale = 'af']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

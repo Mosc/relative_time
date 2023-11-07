@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Malayalam (`ml`).
 class RelativeTimeLocalizationsMl extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsMl([String locale = 'ml']) : super(locale);
+  RelativeTimeLocalizationsMl([super.locale = 'ml']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

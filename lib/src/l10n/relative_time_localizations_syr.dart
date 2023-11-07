@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Syriac (`syr`).
 class RelativeTimeLocalizationsSyr extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsSyr([String locale = 'syr']) : super(locale);
+  RelativeTimeLocalizationsSyr([super.locale = 'syr']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

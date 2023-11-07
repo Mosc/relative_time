@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Indonesian (`id`).
 class RelativeTimeLocalizationsId extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsId([String locale = 'id']) : super(locale);
+  RelativeTimeLocalizationsId([super.locale = 'id']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

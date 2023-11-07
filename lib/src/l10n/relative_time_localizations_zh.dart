@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Chinese (`zh`).
 class RelativeTimeLocalizationsZh extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsZh([String locale = 'zh']) : super(locale);
+  RelativeTimeLocalizationsZh([super.locale = 'zh']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

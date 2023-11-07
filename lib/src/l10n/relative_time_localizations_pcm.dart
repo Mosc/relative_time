@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Nigerian Pidgin (`pcm`).
 class RelativeTimeLocalizationsPcm extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsPcm([String locale = 'pcm']) : super(locale);
+  RelativeTimeLocalizationsPcm([super.locale = 'pcm']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

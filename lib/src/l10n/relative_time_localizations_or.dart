@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Oriya (`or`).
 class RelativeTimeLocalizationsOr extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsOr([String locale = 'or']) : super(locale);
+  RelativeTimeLocalizationsOr([super.locale = 'or']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Korean (`ko`).
 class RelativeTimeLocalizationsKo extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsKo([String locale = 'ko']) : super(locale);
+  RelativeTimeLocalizationsKo([super.locale = 'ko']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

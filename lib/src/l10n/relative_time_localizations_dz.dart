@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Dzongkha (`dz`).
 class RelativeTimeLocalizationsDz extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsDz([String locale = 'dz']) : super(locale);
+  RelativeTimeLocalizationsDz([super.locale = 'dz']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

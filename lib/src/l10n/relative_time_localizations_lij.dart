@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Ligurian (`lij`).
 class RelativeTimeLocalizationsLij extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsLij([String locale = 'lij']) : super(locale);
+  RelativeTimeLocalizationsLij([super.locale = 'lij']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

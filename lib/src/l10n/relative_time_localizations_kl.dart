@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Kalaallisut Greenlandic (`kl`).
 class RelativeTimeLocalizationsKl extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsKl([String locale = 'kl']) : super(locale);
+  RelativeTimeLocalizationsKl([super.locale = 'kl']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Tamil (`ta`).
 class RelativeTimeLocalizationsTa extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsTa([String locale = 'ta']) : super(locale);
+  RelativeTimeLocalizationsTa([super.locale = 'ta']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

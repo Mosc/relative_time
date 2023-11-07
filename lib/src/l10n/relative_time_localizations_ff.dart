@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Fulah (`ff`).
 class RelativeTimeLocalizationsFf extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsFf([String locale = 'ff']) : super(locale);
+  RelativeTimeLocalizationsFf([super.locale = 'ff']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

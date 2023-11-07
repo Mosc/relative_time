@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Sinhala Sinhalese (`si`).
 class RelativeTimeLocalizationsSi extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsSi([String locale = 'si']) : super(locale);
+  RelativeTimeLocalizationsSi([super.locale = 'si']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Sindhi (`sd`).
 class RelativeTimeLocalizationsSd extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsSd([String locale = 'sd']) : super(locale);
+  RelativeTimeLocalizationsSd([super.locale = 'sd']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

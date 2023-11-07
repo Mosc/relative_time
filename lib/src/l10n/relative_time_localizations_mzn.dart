@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Mazanderani (`mzn`).
 class RelativeTimeLocalizationsMzn extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsMzn([String locale = 'mzn']) : super(locale);
+  RelativeTimeLocalizationsMzn([super.locale = 'mzn']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

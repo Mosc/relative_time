@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Norwegian (`no`).
 class RelativeTimeLocalizationsNo extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsNo([String locale = 'no']) : super(locale);
+  RelativeTimeLocalizationsNo([super.locale = 'no']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

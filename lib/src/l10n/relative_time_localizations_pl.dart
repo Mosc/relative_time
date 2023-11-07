@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Polish (`pl`).
 class RelativeTimeLocalizationsPl extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsPl([String locale = 'pl']) : super(locale);
+  RelativeTimeLocalizationsPl([super.locale = 'pl']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

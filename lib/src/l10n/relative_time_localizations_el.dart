@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Modern Greek (`el`).
 class RelativeTimeLocalizationsEl extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsEl([String locale = 'el']) : super(locale);
+  RelativeTimeLocalizationsEl([super.locale = 'el']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Hindi (`hi`).
 class RelativeTimeLocalizationsHi extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsHi([String locale = 'hi']) : super(locale);
+  RelativeTimeLocalizationsHi([super.locale = 'hi']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

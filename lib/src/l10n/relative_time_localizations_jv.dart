@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Javanese (`jv`).
 class RelativeTimeLocalizationsJv extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsJv([String locale = 'jv']) : super(locale);
+  RelativeTimeLocalizationsJv([super.locale = 'jv']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

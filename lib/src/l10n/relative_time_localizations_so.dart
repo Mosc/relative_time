@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Somali (`so`).
 class RelativeTimeLocalizationsSo extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsSo([String locale = 'so']) : super(locale);
+  RelativeTimeLocalizationsSo([super.locale = 'so']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

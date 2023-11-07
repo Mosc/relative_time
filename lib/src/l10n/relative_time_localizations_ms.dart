@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Malay (`ms`).
 class RelativeTimeLocalizationsMs extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsMs([String locale = 'ms']) : super(locale);
+  RelativeTimeLocalizationsMs([super.locale = 'ms']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

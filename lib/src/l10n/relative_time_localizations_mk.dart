@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Macedonian (`mk`).
 class RelativeTimeLocalizationsMk extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsMk([String locale = 'mk']) : super(locale);
+  RelativeTimeLocalizationsMk([super.locale = 'mk']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

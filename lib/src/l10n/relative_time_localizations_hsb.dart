@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Upper Sorbian (`hsb`).
 class RelativeTimeLocalizationsHsb extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsHsb([String locale = 'hsb']) : super(locale);
+  RelativeTimeLocalizationsHsb([super.locale = 'hsb']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

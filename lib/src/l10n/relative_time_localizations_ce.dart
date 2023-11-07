@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Chechen (`ce`).
 class RelativeTimeLocalizationsCe extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsCe([String locale = 'ce']) : super(locale);
+  RelativeTimeLocalizationsCe([super.locale = 'ce']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

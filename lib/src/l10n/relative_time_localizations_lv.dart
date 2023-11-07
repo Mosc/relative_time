@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Latvian (`lv`).
 class RelativeTimeLocalizationsLv extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsLv([String locale = 'lv']) : super(locale);
+  RelativeTimeLocalizationsLv([super.locale = 'lv']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

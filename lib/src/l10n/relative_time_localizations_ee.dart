@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Ewe (`ee`).
 class RelativeTimeLocalizationsEe extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsEe([String locale = 'ee']) : super(locale);
+  RelativeTimeLocalizationsEe([super.locale = 'ee']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

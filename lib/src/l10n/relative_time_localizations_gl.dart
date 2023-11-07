@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Galician (`gl`).
 class RelativeTimeLocalizationsGl extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsGl([String locale = 'gl']) : super(locale);
+  RelativeTimeLocalizationsGl([super.locale = 'gl']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

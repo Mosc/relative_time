@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Irish (`ga`).
 class RelativeTimeLocalizationsGa extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsGa([String locale = 'ga']) : super(locale);
+  RelativeTimeLocalizationsGa([super.locale = 'ga']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

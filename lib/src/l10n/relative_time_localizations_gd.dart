@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Scottish Gaelic Gaelic (`gd`).
 class RelativeTimeLocalizationsGd extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsGd([String locale = 'gd']) : super(locale);
+  RelativeTimeLocalizationsGd([super.locale = 'gd']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

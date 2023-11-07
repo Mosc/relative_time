@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Zulu (`zu`).
 class RelativeTimeLocalizationsZu extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsZu([String locale = 'zu']) : super(locale);
+  RelativeTimeLocalizationsZu([super.locale = 'zu']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

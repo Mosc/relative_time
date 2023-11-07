@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Walser (`wae`).
 class RelativeTimeLocalizationsWae extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsWae([String locale = 'wae']) : super(locale);
+  RelativeTimeLocalizationsWae([super.locale = 'wae']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

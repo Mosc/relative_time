@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Gujarati (`gu`).
 class RelativeTimeLocalizationsGu extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsGu([String locale = 'gu']) : super(locale);
+  RelativeTimeLocalizationsGu([super.locale = 'gu']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

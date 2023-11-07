@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Marathi (`mr`).
 class RelativeTimeLocalizationsMr extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsMr([String locale = 'mr']) : super(locale);
+  RelativeTimeLocalizationsMr([super.locale = 'mr']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

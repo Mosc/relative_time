@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Bengali Bangla (`bn`).
 class RelativeTimeLocalizationsBn extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsBn([String locale = 'bn']) : super(locale);
+  RelativeTimeLocalizationsBn([super.locale = 'bn']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

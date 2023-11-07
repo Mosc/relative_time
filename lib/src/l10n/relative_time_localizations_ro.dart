@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Romanian Moldavian Moldovan (`ro`).
 class RelativeTimeLocalizationsRo extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsRo([String locale = 'ro']) : super(locale);
+  RelativeTimeLocalizationsRo([super.locale = 'ro']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Bosnian (`bs`).
 class RelativeTimeLocalizationsBs extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsBs([String locale = 'bs']) : super(locale);
+  RelativeTimeLocalizationsBs([super.locale = 'bs']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

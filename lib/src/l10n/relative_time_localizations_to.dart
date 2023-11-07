@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Tonga (`to`).
 class RelativeTimeLocalizationsTo extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsTo([String locale = 'to']) : super(locale);
+  RelativeTimeLocalizationsTo([super.locale = 'to']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

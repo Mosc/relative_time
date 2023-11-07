@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Friulian (`fur`).
 class RelativeTimeLocalizationsFur extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsFur([String locale = 'fur']) : super(locale);
+  RelativeTimeLocalizationsFur([super.locale = 'fur']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

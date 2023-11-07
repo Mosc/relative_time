@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Lao (`lo`).
 class RelativeTimeLocalizationsLo extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsLo([String locale = 'lo']) : super(locale);
+  RelativeTimeLocalizationsLo([super.locale = 'lo']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

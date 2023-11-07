@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Croatian (`hr`).
 class RelativeTimeLocalizationsHr extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsHr([String locale = 'hr']) : super(locale);
+  RelativeTimeLocalizationsHr([super.locale = 'hr']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

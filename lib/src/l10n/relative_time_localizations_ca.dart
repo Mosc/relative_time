@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Catalan Valencian (`ca`).
 class RelativeTimeLocalizationsCa extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsCa([String locale = 'ca']) : super(locale);
+  RelativeTimeLocalizationsCa([super.locale = 'ca']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

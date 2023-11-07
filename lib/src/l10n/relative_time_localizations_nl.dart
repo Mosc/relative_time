@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Dutch Flemish (`nl`).
 class RelativeTimeLocalizationsNl extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsNl([String locale = 'nl']) : super(locale);
+  RelativeTimeLocalizationsNl([super.locale = 'nl']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

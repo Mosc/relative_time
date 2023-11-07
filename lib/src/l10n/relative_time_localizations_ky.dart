@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Kirghiz Kyrgyz (`ky`).
 class RelativeTimeLocalizationsKy extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsKy([String locale = 'ky']) : super(locale);
+  RelativeTimeLocalizationsKy([super.locale = 'ky']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

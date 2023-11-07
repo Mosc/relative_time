@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Assamese (`as`).
 class RelativeTimeLocalizationsAs extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsAs([String locale = 'as']) : super(locale);
+  RelativeTimeLocalizationsAs([super.locale = 'as']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

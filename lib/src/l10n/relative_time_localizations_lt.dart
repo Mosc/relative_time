@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Lithuanian (`lt`).
 class RelativeTimeLocalizationsLt extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsLt([String locale = 'lt']) : super(locale);
+  RelativeTimeLocalizationsLt([super.locale = 'lt']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

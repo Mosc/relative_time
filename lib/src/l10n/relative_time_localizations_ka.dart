@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Georgian (`ka`).
 class RelativeTimeLocalizationsKa extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsKa([String locale = 'ka']) : super(locale);
+  RelativeTimeLocalizationsKa([super.locale = 'ka']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Western Frisian (`fy`).
 class RelativeTimeLocalizationsFy extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsFy([String locale = 'fy']) : super(locale);
+  RelativeTimeLocalizationsFy([super.locale = 'fy']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

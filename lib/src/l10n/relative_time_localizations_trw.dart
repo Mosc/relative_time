@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Torwali (`trw`).
 class RelativeTimeLocalizationsTrw extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsTrw([String locale = 'trw']) : super(locale);
+  RelativeTimeLocalizationsTrw([super.locale = 'trw']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

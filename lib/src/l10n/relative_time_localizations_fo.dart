@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Faroese (`fo`).
 class RelativeTimeLocalizationsFo extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsFo([String locale = 'fo']) : super(locale);
+  RelativeTimeLocalizationsFo([super.locale = 'fo']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

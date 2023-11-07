@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Bodo (`brx`).
 class RelativeTimeLocalizationsBrx extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsBrx([String locale = 'brx']) : super(locale);
+  RelativeTimeLocalizationsBrx([super.locale = 'brx']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

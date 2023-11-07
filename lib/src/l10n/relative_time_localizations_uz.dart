@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Uzbek (`uz`).
 class RelativeTimeLocalizationsUz extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsUz([String locale = 'uz']) : super(locale);
+  RelativeTimeLocalizationsUz([super.locale = 'uz']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

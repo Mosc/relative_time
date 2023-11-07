@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Basque (`eu`).
 class RelativeTimeLocalizationsEu extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsEu([String locale = 'eu']) : super(locale);
+  RelativeTimeLocalizationsEu([super.locale = 'eu']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

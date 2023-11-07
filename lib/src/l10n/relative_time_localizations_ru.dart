@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Russian (`ru`).
 class RelativeTimeLocalizationsRu extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsRu([String locale = 'ru']) : super(locale);
+  RelativeTimeLocalizationsRu([super.locale = 'ru']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

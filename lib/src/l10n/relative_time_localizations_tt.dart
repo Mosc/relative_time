@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Tatar (`tt`).
 class RelativeTimeLocalizationsTt extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsTt([String locale = 'tt']) : super(locale);
+  RelativeTimeLocalizationsTt([super.locale = 'tt']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

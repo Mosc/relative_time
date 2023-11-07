@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Azerbaijani (`az`).
 class RelativeTimeLocalizationsAz extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsAz([String locale = 'az']) : super(locale);
+  RelativeTimeLocalizationsAz([super.locale = 'az']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

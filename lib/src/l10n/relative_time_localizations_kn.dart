@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Kannada (`kn`).
 class RelativeTimeLocalizationsKn extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsKn([String locale = 'kn']) : super(locale);
+  RelativeTimeLocalizationsKn([super.locale = 'kn']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

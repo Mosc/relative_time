@@ -112,7 +112,7 @@ void main() {
         ?.getElement('numbers')
         ?.findElements('defaultNumberingSystem')
         .firstOrNull
-        ?.text;
+        ?.innerText;
 
     if (numberingSystem != null &&
             numberingSystems.keys.contains(numberingSystem) &&
@@ -176,7 +176,7 @@ Iterable<MapEntry<String, dynamic>> _getEntries({
   required String dateType,
   required String locale,
 }) sync* {
-  isNotInheriting(XmlElement element) => element.text != inheritanceMarker;
+  isNotInheriting(XmlElement element) => element.innerText != inheritanceMarker;
 
   final Iterable<XmlElement> relativeElements =
       dateFieldElement.findElements('relative').where(isNotInheriting);
@@ -222,7 +222,7 @@ Map<String, String> _getRelativePlurals({
       final int key = amount.abs();
 
       if (key <= 2) {
-        relativePlurals[key] = element.text;
+        relativePlurals[key] = element.innerText;
       }
     }
   }
@@ -264,7 +264,7 @@ MapEntry<String, String> _getRelativeTimePatternEntry({
   required String dateType,
 }) {
   final String key = _getXmlAttributeValue(relativeTimePatternElement, 'count');
-  final String value = relativeTimePatternElement.text.replaceFirst(
+  final String value = relativeTimePatternElement.innerText.replaceFirst(
     // '{0}' should normally suffice, but one entry for the Hausa language in
     // CLDR v38-v43 incorrectly uses '{0}}'. Let's be liberal in our matching.
     RegExp(r'\{+0\}+'),

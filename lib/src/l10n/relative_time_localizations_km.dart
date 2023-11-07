@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Khmer Central Khmer (`km`).
 class RelativeTimeLocalizationsKm extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsKm([String locale = 'km']) : super(locale);
+  RelativeTimeLocalizationsKm([super.locale = 'km']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

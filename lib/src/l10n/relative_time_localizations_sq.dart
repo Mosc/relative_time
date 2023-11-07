@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Albanian (`sq`).
 class RelativeTimeLocalizationsSq extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsSq([String locale = 'sq']) : super(locale);
+  RelativeTimeLocalizationsSq([super.locale = 'sq']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

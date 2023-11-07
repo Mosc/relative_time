@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Arabic (`ar`).
 class RelativeTimeLocalizationsAr extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsAr([String locale = 'ar']) : super(locale);
+  RelativeTimeLocalizationsAr([super.locale = 'ar']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

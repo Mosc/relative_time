@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Belarusian (`be`).
 class RelativeTimeLocalizationsBe extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsBe([String locale = 'be']) : super(locale);
+  RelativeTimeLocalizationsBe([super.locale = 'be']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

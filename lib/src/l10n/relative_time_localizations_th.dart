@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Thai (`th`).
 class RelativeTimeLocalizationsTh extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsTh([String locale = 'th']) : super(locale);
+  RelativeTimeLocalizationsTh([super.locale = 'th']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

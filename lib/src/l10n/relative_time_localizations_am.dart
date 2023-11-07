@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Amharic (`am`).
 class RelativeTimeLocalizationsAm extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsAm([String locale = 'am']) : super(locale);
+  RelativeTimeLocalizationsAm([super.locale = 'am']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

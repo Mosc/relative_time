@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Lakota (`lkt`).
 class RelativeTimeLocalizationsLkt extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsLkt([String locale = 'lkt']) : super(locale);
+  RelativeTimeLocalizationsLkt([super.locale = 'lkt']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

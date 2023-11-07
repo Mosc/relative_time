@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Ukrainian (`uk`).
 class RelativeTimeLocalizationsUk extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsUk([String locale = 'uk']) : super(locale);
+  RelativeTimeLocalizationsUk([super.locale = 'uk']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

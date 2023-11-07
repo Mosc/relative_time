@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Turkish (`tr`).
 class RelativeTimeLocalizationsTr extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsTr([String locale = 'tr']) : super(locale);
+  RelativeTimeLocalizationsTr([super.locale = 'tr']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

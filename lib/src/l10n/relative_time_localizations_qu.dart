@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Quechua (`qu`).
 class RelativeTimeLocalizationsQu extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsQu([String locale = 'qu']) : super(locale);
+  RelativeTimeLocalizationsQu([super.locale = 'qu']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

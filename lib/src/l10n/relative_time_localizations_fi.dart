@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Finnish (`fi`).
 class RelativeTimeLocalizationsFi extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsFi([String locale = 'fi']) : super(locale);
+  RelativeTimeLocalizationsFi([super.locale = 'fi']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Rohingya (`rhg`).
 class RelativeTimeLocalizationsRhg extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsRhg([String locale = 'rhg']) : super(locale);
+  RelativeTimeLocalizationsRhg([super.locale = 'rhg']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

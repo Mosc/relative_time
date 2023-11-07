@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Swahili (`sw`).
 class RelativeTimeLocalizationsSw extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsSw([String locale = 'sw']) : super(locale);
+  RelativeTimeLocalizationsSw([super.locale = 'sw']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

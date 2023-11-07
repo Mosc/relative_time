@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Kazakh (`kk`).
 class RelativeTimeLocalizationsKk extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsKk([String locale = 'kk']) : super(locale);
+  RelativeTimeLocalizationsKk([super.locale = 'kk']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Chakma (`ccp`).
 class RelativeTimeLocalizationsCcp extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsCcp([String locale = 'ccp']) : super(locale);
+  RelativeTimeLocalizationsCcp([super.locale = 'ccp']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

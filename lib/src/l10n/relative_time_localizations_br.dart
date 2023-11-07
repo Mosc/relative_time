@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Breton (`br`).
 class RelativeTimeLocalizationsBr extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsBr([String locale = 'br']) : super(locale);
+  RelativeTimeLocalizationsBr([super.locale = 'br']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

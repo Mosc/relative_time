@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Persian (`fa`).
 class RelativeTimeLocalizationsFa extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsFa([String locale = 'fa']) : super(locale);
+  RelativeTimeLocalizationsFa([super.locale = 'fa']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

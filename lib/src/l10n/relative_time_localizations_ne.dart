@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Nepali (`ne`).
 class RelativeTimeLocalizationsNe extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsNe([String locale = 'ne']) : super(locale);
+  RelativeTimeLocalizationsNe([super.locale = 'ne']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Luxembourgish Letzeburgesch (`lb`).
 class RelativeTimeLocalizationsLb extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsLb([String locale = 'lb']) : super(locale);
+  RelativeTimeLocalizationsLb([super.locale = 'lb']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

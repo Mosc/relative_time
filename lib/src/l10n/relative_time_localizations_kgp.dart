@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Kaingang (`kgp`).
 class RelativeTimeLocalizationsKgp extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsKgp([String locale = 'kgp']) : super(locale);
+  RelativeTimeLocalizationsKgp([super.locale = 'kgp']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {

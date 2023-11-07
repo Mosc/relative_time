@@ -4,7 +4,7 @@ import 'relative_time_localizations.dart';
 
 /// The translations for Esperanto (`eo`).
 class RelativeTimeLocalizationsEo extends RelativeTimeLocalizations {
-  RelativeTimeLocalizationsEo([String locale = 'eo']) : super(locale);
+  RelativeTimeLocalizationsEo([super.locale = 'eo']);
 
   @override
   String yearsFuture(num count, String digits, String numeric) {
